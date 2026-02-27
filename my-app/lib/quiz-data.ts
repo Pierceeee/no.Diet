@@ -223,34 +223,6 @@ export const GRAIN_OPTIONS = [
 
 export const GOAL_EMOJIS = ["🔥", "💪", "🏋️", "☀️", "❤️", "🌿"];
 
-export const PLAN_FEATURES = [
-  {
-    icon: "🔎",
-    title: "Over 500 Mediterranean Recipes",
-    desc: "Personalized plan that is the perfect fit for you and will help you manage weight in the most enjoyable way.",
-  },
-  {
-    icon: "✨",
-    title: "100+ Workouts & Exercises",
-    desc: "Simple workouts, yoga exercises, meditation guides, and much more to help you manage weight and see results sooner.",
-  },
-  {
-    icon: "⚡",
-    title: "Motivating Challenges",
-    desc: "Healthy challenges designed to keep you consistent and motivated, taking your weight loss and wellness journey to the next level.",
-  },
-  {
-    icon: "🌱",
-    title: "Nutrition & Health Guides",
-    desc: "In depth guides on nutrition, workouts, healthy lifestyle, and other useful tips written by the top nutrition experts, personal trainers, and psychologists.",
-  },
-  {
-    icon: "🔍",
-    title: "Progress tracking & visualization",
-    desc: "All the tools in your pocket to track and visualize your incredible progress and reach your weight goals on time.",
-  },
-];
-
 /* ─── Info Block Content ─── */
 
 export const INFO_BLOCKS = {
@@ -366,7 +338,7 @@ export function getBmiMessage(bmiLabel: string): { title: string; body: string }
 }
 
 export function getWeightLossMessage(lossPercent: number): { title: string; body: string } {
-  if (lossPercent <= 10) {
+  if (lossPercent <= 20) {
     return {
       title: `Health Benefits: Lose ${lossPercent.toFixed(0)}% of your weight`,
       body: "Studies show that losing even 10% of your body weight can improve your health. It may help lower the risk of heart disease, high blood sugar, and inflammation in the body. Small changes can make a big difference.",

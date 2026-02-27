@@ -1,0 +1,63 @@
+---
+description: React Context state management patterns
+globs: "**/lib/**,**/app/**"
+alwaysApply: false
+---
+
+# State Management
+
+## Use the Quiz Context
+
+All quiz state flows through `useQuiz()`. Never create parallel state stores.
+
+```typescript
+import { useQuiz } from "@/lib/quiz-context";
+
+function MyComponent() {
+  const { answers, setAnswer, step, setStep, analysis } = useQuiz();
+  // ...
+}
+```
+
+## Adding New Quiz Fields
+
+1. Add the field to the `Answers` type in `lib/quiz-data.ts`
+2. Add a default value in `DEFAULT_ANSWERS`
+3. The context will handle persistence automatically
+
+```typescript
+// ❌ Don't add manual localStorage
+localStorage.setItem("myField", value);
+
+// ✅ Add to Answers type and use setAnswer
+setAnswer("myField", value);
+```
+
+## Derived Values
+
+Use `useMemo` for computed/derived state:
+
+```typescript
+// ✅ Memoize expensive computations
+const analysis = useMemo(() => generateAnalysis(answers), [answers]);
+const isComplete = useMemo(() => step >= TOTAL_STEPS, [step]);
+```
+
+## Setter Functions
+
+Wrap callbacks with `useCallback` to prevent unnecessary re-renders:
+
+```typescript
+// ✅ Memoized callback
+const handleSelect = useCallback((value: string) => {
+  setAnswer("q1", value);
+  setStep(step + 1);
+}, [setAnswer, setStep, step]);
+```
+
+## Available Context Values
+
+**State**: `answers`, `step`, `email`, `isGenerating`, `progress`, `hydrated`
+**Setters**: `setGender`, `setAnswer`, `toggleMulti`, `setStep`, `setEmail`
+**Computed**: `analysis` (BMI, body fat, etc.), `stepProgress`
+**Actions**: `goBack`, `resetQuiz`

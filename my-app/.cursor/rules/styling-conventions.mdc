@@ -1,0 +1,78 @@
+---
+description: Tailwind CSS and design system conventions
+globs: "**/*.tsx,**/*.css"
+alwaysApply: false
+---
+
+# Styling Conventions
+
+## Tailwind First
+
+Use Tailwind utility classes. Avoid inline styles except for dynamic computed values.
+
+```typescript
+// ✅ Tailwind classes
+<div className="flex items-center gap-4 p-6 rounded-lg">
+
+// ✅ Dynamic values only
+<div style={{ left: `${position}%` }}>
+
+// ❌ Avoid static inline styles
+<div style={{ display: "flex", padding: "24px" }}>
+```
+
+## CSS Variables
+
+Never hardcode hex colors. Use CSS custom properties from `globals.css`:
+
+```typescript
+// ✅ Use variables
+className="text-[var(--text-primary)] bg-[var(--bg-card)]"
+className="border-[var(--border)] hover:border-[var(--border-hover)]"
+
+// ❌ Don't hardcode colors
+className="text-[#1c1410] bg-[#ffffff]"
+```
+
+### Available Tokens
+
+**Backgrounds**: `--bg-primary`, `--bg-secondary`, `--bg-card`, `--bg-dark`
+**Text**: `--text-primary`, `--text-secondary`, `--text-muted`, `--text-inverse`
+**Accent**: `--accent`, `--accent-hover`, `--accent-soft`, `--accent-glow`
+**Colors**: `--copper`, `--copper-light`, `--gold`, `--green`, `--green-light`
+**Borders**: `--border`, `--border-hover`
+**Radius**: `--radius-sm`, `--radius-md`, `--radius-lg`, `--radius-xl`, `--radius-full`
+**Shadows**: `--shadow-sm`, `--shadow-md`, `--shadow-lg`, `--shadow-glow`
+
+## Responsive Design
+
+Mobile-first with Tailwind breakpoints:
+
+```typescript
+// ✅ Mobile-first
+<div className="text-sm sm:text-base md:text-lg lg:text-xl">
+<div className="px-4 sm:px-6 md:px-8">
+```
+
+## Typography
+
+- `font-serif` for headings (DM Serif Display)
+- Default sans for body text (DM Sans)
+
+```typescript
+<h1 className="font-serif text-3xl">Heading</h1>
+<p className="text-base">Body text</p>
+```
+
+## Animations
+
+Use existing animation classes. Add new keyframes to `globals.css` if needed.
+
+```typescript
+// Available classes
+className="animate-fade-in-up"
+className="animate-scale-in"
+className="animate-slide-in-right"
+className="animate-pulse-glow"
+className="stagger-children"
+```

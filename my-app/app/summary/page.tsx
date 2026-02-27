@@ -102,17 +102,17 @@ export default function SummaryPage() {
                   }}
                 />
               </div>
-              <div className="mt-3 flex justify-between font-body text-xs text-[#999] sm:text-sm">
-                <span className={analysis.bmiLabel === "Underweight" ? "font-bold text-[#1a1a1a]" : ""}>
+              <div className="relative mt-3 h-5 font-body text-xs text-[#999] sm:text-sm">
+                <span className={`absolute left-[9%] -translate-x-1/2 ${analysis.bmiLabel === "Underweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Underweight
                 </span>
-                <span className={analysis.bmiLabel === "Healthy" ? "font-bold text-[#1a1a1a]" : ""}>
+                <span className={`absolute left-[34%] -translate-x-1/2 ${analysis.bmiLabel === "Healthy" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Healthy
                 </span>
-                <span className={analysis.bmiLabel === "Overweight" ? "font-bold text-[#1a1a1a]" : ""}>
+                <span className={`absolute left-[62.5%] -translate-x-1/2 ${analysis.bmiLabel === "Overweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Overweight
                 </span>
-                <span className={analysis.bmiLabel === "Obese" ? "font-bold text-[#1a1a1a]" : ""}>
+                <span className={`absolute left-[87.5%] -translate-x-1/2 ${analysis.bmiLabel === "Obese" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Obese
                 </span>
               </div>

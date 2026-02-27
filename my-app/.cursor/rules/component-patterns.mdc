@@ -1,0 +1,80 @@
+---
+description: React component conventions for TSX files
+globs: **/*.tsx
+alwaysApply: false
+---
+
+# Component Patterns
+
+## Exports
+
+- **Named exports** for reusable components
+- **Default exports** only for `page.tsx` files
+
+```typescript
+// ✅ Reusable component
+export function InfoCard({ title }: { title: string }) { ... }
+
+// ✅ Page component
+export default function QuizPage() { ... }
+```
+
+## Props Typing
+
+- Inline destructured types for 1-2 simple props
+- Separate `type` or `interface` for 3+ props
+
+```typescript
+// ✅ Simple props — inline
+export function Badge({ label, color }: { label: string; color?: string }) { ... }
+
+// ✅ Complex props — separate type
+type SingleChoiceProps = {
+  title: string;
+  options: string[];
+  onSelect: (value: string) => void;
+  subtitle?: string;
+};
+
+export function SingleChoiceStep({ title, options, onSelect, subtitle }: SingleChoiceProps) { ... }
+```
+
+## Client Components
+
+All components must include `"use client"` at the top (no server components in this codebase).
+
+## Organization
+
+Place components by feature:
+- `components/quiz/` — Quiz-specific components
+- `components/offer/` — Offer page components
+- `components/ui/` — Reusable UI primitives
+
+## Images
+
+Use `next/image` with appropriate props:
+
+```typescript
+import Image from "next/image";
+
+<Image
+  src="/quiz/hero.png"
+  alt="Description"
+  fill
+  className="object-cover"
+  sizes="(max-width: 640px) 100vw, 520px"
+  priority  // for above-the-fold images
+/>
+```
+
+## Animations
+
+Use CSS animation classes from `globals.css`:
+
+```typescript
+// ✅ Use existing classes
+<div className="animate-fade-in-up">...</div>
+<div className="animate-scale-in" style={{ animationDelay: "0.1s" }}>...</div>
+
+// ❌ Don't use JS animation libraries
+```

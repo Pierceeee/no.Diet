@@ -21,13 +21,19 @@ export function InfoInterstitial({
 
   return (
     <QuizSection>
-      <div className="animate-fade-in-up rounded-2xl border-l-4 border-[var(--accent)] bg-[#f8f8f8] p-5 sm:rounded-3xl sm:p-7">
-        <h2 className="font-display text-xl font-bold leading-tight text-[var(--text-primary)] sm:text-2xl md:text-[26px]">
+      <div className="animate-fade-in-up relative overflow-hidden rounded-3xl border border-[var(--accent)]/25 bg-[linear-gradient(145deg,#fff8f4_0%,#ffe7de_40%,#ffffff_100%)] p-5 shadow-[0_20px_44px_rgba(200,85,58,0.18)] sm:p-7">
+        <div className="pointer-events-none absolute inset-x-0 top-0 h-1.5 bg-[linear-gradient(90deg,#c8553a_0%,#dd6b4f_45%,#e8a838_100%)]" />
+
+        <div className="inline-flex items-center rounded-full border border-white/60 bg-[linear-gradient(145deg,#c8553a_0%,#dd6b4f_100%)] px-3 py-1 text-white shadow-[0_10px_20px_rgba(200,85,58,0.3)]">
+          <span className="text-sm">🔥</span>
+        </div>
+
+        <h2 className="mt-3 font-display text-xl font-bold leading-tight text-[var(--text-primary)] sm:text-2xl md:text-[27px]">
           ☝️ {title}
         </h2>
 
         {image && (
-          <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-xl sm:mt-5">
+          <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-2xl border border-[var(--accent)]/20 shadow-[0_10px_24px_rgba(200,85,58,0.14)] sm:mt-5">
             <Image
               src={image}
               alt=""
@@ -48,7 +54,7 @@ export function InfoInterstitial({
               return (
                 <p
                   key={i}
-                  className="font-body text-sm font-semibold text-[var(--text-primary)] sm:text-base"
+                  className="font-body text-sm font-bold leading-relaxed text-[var(--text-primary)] sm:text-base"
                 >
                   {text}
                 </p>
@@ -60,11 +66,11 @@ export function InfoInterstitial({
               return (
                 <p
                   key={i}
-                  className="font-body text-sm leading-relaxed text-[var(--text-secondary)] sm:text-base"
+                  className="font-body text-sm leading-relaxed text-[#5f4e45] sm:text-base"
                 >
                   {parts.map((part, j) =>
                     j % 2 === 1 ? (
-                      <strong key={j} className="font-semibold text-[var(--text-primary)]">
+                      <strong key={j} className="font-bold text-[var(--text-primary)]">
                         {part}
                       </strong>
                     ) : (
@@ -78,7 +84,7 @@ export function InfoInterstitial({
             return (
               <p
                 key={i}
-                className="font-body text-sm leading-relaxed text-[var(--text-secondary)] sm:text-base"
+                className="font-body text-sm leading-relaxed text-[#5f4e45] sm:text-base"
               >
                 {p}
               </p>

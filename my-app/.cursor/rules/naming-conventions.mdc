@@ -1,0 +1,74 @@
+---
+description: Naming conventions for files, components, and code
+alwaysApply: true
+---
+
+# Naming Conventions
+
+## Files
+
+Use **kebab-case** for all file names:
+
+```
+✅ info-card.tsx
+✅ quiz-data.ts
+✅ generate-analysis.ts
+✅ offer-page-content.tsx
+
+❌ InfoCard.tsx
+❌ quizData.ts
+❌ generateAnalysis.ts
+```
+
+## Components
+
+Use **PascalCase** for component names:
+
+```typescript
+✅ export function InfoCard() { ... }
+✅ export function SingleChoiceStep() { ... }
+✅ export default function QuizPage() { ... }
+
+❌ export function infoCard() { ... }
+❌ export function single_choice_step() { ... }
+```
+
+## Functions and Variables
+
+Use **camelCase** for functions, variables, and hook names:
+
+```typescript
+✅ const stepProgress = 0.5;
+✅ function setAnswer(key, value) { ... }
+✅ const handleSelect = () => { ... };
+✅ function useQuizKeyboard() { ... }
+
+❌ const step_progress = 0.5;
+❌ function SetAnswer() { ... }
+```
+
+## Constants
+
+Use **UPPER_SNAKE_CASE** for constants:
+
+```typescript
+✅ const TOTAL_STEPS = 22;
+✅ const DEFAULT_ANSWERS = { ... };
+✅ const STORAGE_KEY = "carni-quiz";
+
+❌ const totalSteps = 22;
+❌ const defaultAnswers = { ... };
+```
+
+## Types and Interfaces
+
+Use **PascalCase** for types and interfaces:
+
+```typescript
+✅ type Gender = "male" | "female";
+✅ interface AnalysisResult { ... }
+✅ type SingleChoiceProps = { ... };
+
+❌ type gender = "male" | "female";
+❌ interface analysisResult { ... }
+```

@@ -158,34 +158,46 @@ export default function QuizPage() {
       {step === 4 && (
         <QuizSection>
           <QuizTitle>How would you describe your body now?</QuizTitle>
-          <div className="relative mt-4 mb-4 aspect-[4/1] w-full overflow-hidden rounded-xl sm:mt-6">
-            <Image
-              src={answers.gender === "male" 
-                ? "/quiz/Screenshot_2026-02-19_at_22.39.19.png"
-                : "/quiz/Screenshot_2026-02-19_at_22.37.19.png"}
-              alt="Body types"
-              fill
-              className="object-contain"
-              sizes="(max-width: 640px) 100vw, 520px"
-            />
-          </div>
           <div className="stagger-children mt-4 space-y-3">
-            {q3Bodies.map((item) => (
-              <OptionCard
-                key={item}
-                onClick={() => {
-                  setAnswer("q3", item);
-                  setStep(5);
-                }}
-              >
-                <span className="flex items-center justify-between">
-                  <span className="font-body text-base font-medium text-[var(--text-primary)] sm:text-lg">
+            {q3Bodies.map((item) => {
+              const maleBodyImages: Record<string, string> = {
+                "Slim": "/quiz/body-male-athletic.png",
+                "Average": "/quiz/body-male-lean.png",
+                "Some belly fat": "/quiz/body-male-belly.png",
+                "Overweight": "/quiz/body-male-overweight.png",
+              };
+              const femaleBodyImages: Record<string, string> = {
+                "Slim": "/quiz/body-female-slim.png",
+                "Average": "/quiz/body-female-average.png",
+                "Some belly fat": "/quiz/body-female-belly.png",
+                "Overweight": "/quiz/body-female-overweight.png",
+              };
+              const bodyImages = answers.gender === "male" ? maleBodyImages : femaleBodyImages;
+              
+              return (
+                <button
+                  key={item}
+                  onClick={() => {
+                    setAnswer("q3", item);
+                    setStep(5);
+                  }}
+                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-0 transition-all duration-200 hover:border-[var(--accent)]/50 hover:shadow-md active:scale-[0.99] sm:py-5 sm:pl-6"
+                >
+                  <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
                     {item}
                   </span>
-                  <Chevron />
-                </span>
-              </OptionCard>
-            ))}
+                  <div className="relative h-20 w-24 flex-shrink-0 sm:h-24 sm:w-28">
+                    <Image
+                      src={bodyImages[item] || bodyImages["Average"]}
+                      alt={item}
+                      fill
+                      className="object-cover object-top"
+                      sizes="112px"
+                    />
+                  </div>
+                </button>
+              );
+            })}
           </div>
         </QuizSection>
       )}
@@ -194,34 +206,46 @@ export default function QuizPage() {
       {step === 5 && (
         <QuizSection>
           <QuizTitle>What body do you want?</QuizTitle>
-          <div className="relative mt-4 mb-4 aspect-[4/1] w-full overflow-hidden rounded-xl sm:mt-6">
-            <Image
-              src={answers.gender === "male" 
-                ? "/quiz/Screenshot_2026-02-19_at_22.38.58.png"
-                : "/quiz/Screenshot_2026-02-19_at_22.37.40.png"}
-              alt="Target body types"
-              fill
-              className="object-contain"
-              sizes="(max-width: 640px) 100vw, 520px"
-            />
-          </div>
           <div className="stagger-children mt-4 space-y-3">
-            {q4Bodies.map((item) => (
-              <OptionCard
-                key={item}
-                onClick={() => {
-                  setAnswer("q4", item);
-                  setStep(6);
-                }}
-              >
-                <span className="flex items-center justify-between">
-                  <span className="font-body text-base font-medium text-[var(--text-primary)] sm:text-lg">
+            {q4Bodies.map((item) => {
+              const maleTargetImages: Record<string, string> = {
+                "A little slimmer": "/quiz/body-male-slim.png",
+                "Lean and fit": "/quiz/body-male-fit.png",
+                "Athletic": "/quiz/body-male-toned.png",
+                "Strong and defined": "/quiz/body-male-muscular.png",
+              };
+              const femaleTargetImages: Record<string, string> = {
+                "Feel like myself again": "/quiz/body-female-target1.png",
+                "Lose stubborn belly fat": "/quiz/body-female-target2.png",
+                "Feel lighter and more confident": "/quiz/body-female-target3.png",
+                "Look toned and youthful": "/quiz/body-female-target4.png",
+              };
+              const targetImages = answers.gender === "male" ? maleTargetImages : femaleTargetImages;
+              
+              return (
+                <button
+                  key={item}
+                  onClick={() => {
+                    setAnswer("q4", item);
+                    setStep(6);
+                  }}
+                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-0 transition-all duration-200 hover:border-[var(--accent)]/50 hover:shadow-md active:scale-[0.99] sm:py-5 sm:pl-6"
+                >
+                  <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
                     {item}
                   </span>
-                  <Chevron />
-                </span>
-              </OptionCard>
-            ))}
+                  <div className="relative h-20 w-24 flex-shrink-0 sm:h-24 sm:w-28">
+                    <Image
+                      src={targetImages[item] || targetImages[Object.keys(targetImages)[0]]}
+                      alt={item}
+                      fill
+                      className="object-cover object-top"
+                      sizes="112px"
+                    />
+                  </div>
+                </button>
+              );
+            })}
           </div>
         </QuizSection>
       )}
@@ -525,11 +549,11 @@ export default function QuizPage() {
                 }}
               />
             </div>
-            <div className="mt-3 flex justify-between font-body text-xs text-[var(--text-muted)]">
-              <span>Underweight</span>
-              <span>Healthy</span>
-              <span>Overweight</span>
-              <span>Obese</span>
+            <div className="relative mt-3 h-5 font-body text-xs text-[var(--text-muted)]">
+              <span className="absolute left-[9%] -translate-x-1/2">Underweight</span>
+              <span className="absolute left-[34%] -translate-x-1/2">Healthy</span>
+              <span className="absolute left-[62.5%] -translate-x-1/2">Overweight</span>
+              <span className="absolute left-[87.5%] -translate-x-1/2">Obese</span>
             </div>
           </div>
 

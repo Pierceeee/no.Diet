@@ -7,13 +7,12 @@ import { useQuiz } from "@/lib/quiz-context";
 
 export default function LandingPage() {
   const router = useRouter();
-  const { setGender, setStep } = useQuiz();
+  const { setGender } = useQuiz();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleGender = (gender: "male" | "female") => {
     setGender(gender);
-    setStep(1);
-    router.push("/quiz");
+    router.push("/intro");
   };
 
   return (
@@ -140,33 +139,6 @@ export default function LandingPage() {
           >
             <span>👩</span> Program for Women
           </button>
-        </div>
-
-        {/* Disclaimer Block */}
-        <div className="mx-auto mt-8 max-w-[540px] rounded-2xl border-l-4 border-[#e74c3c] bg-[#fef5f5] p-5 text-left sm:mt-10 sm:rounded-3xl sm:p-6">
-          <p className="font-body text-sm font-bold text-[#1a1a1a] sm:text-base">
-            ‼️ Before we build your plan — read this.
-          </p>
-          <div className="mt-3 space-y-3 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
-            <p>
-              If you&apos;ve tried keto, calorie counting, or intermittent fasting and felt like you failed.
-            </p>
-            <p className="font-semibold text-[#1a1a1a]">
-              You didn&apos;t fail. The plan failed you.
-            </p>
-            <p>
-              Those systems were built on old science. Fixed rules. Generic templates.
-            </p>
-            <p>
-              They were never designed for how your body actually works.
-            </p>
-            <p className="font-semibold text-[#3bb44a]">
-              That changes right now.
-            </p>
-            <p>
-              Answer honestly. We&apos;ll do the rest.
-            </p>
-          </div>
         </div>
       </main>
 

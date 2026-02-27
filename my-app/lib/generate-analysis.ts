@@ -38,9 +38,16 @@ export function generateAnalysis(answers: Answers): AnalysisResult {
   else bmiLabel = "Obese";
 
   let bmiPosition: number;
-  if (bmi < 15) bmiPosition = 0;
-  else if (bmi > 40) bmiPosition = 100;
-  else bmiPosition = ((bmi - 15) / 25) * 100;
+  if (bmi < 18.5) {
+    bmiPosition = (bmi / 18.5) * 18;
+  } else if (bmi < 25) {
+    bmiPosition = 18 + ((bmi - 18.5) / (25 - 18.5)) * (50 - 18);
+  } else if (bmi < 30) {
+    bmiPosition = 50 + ((bmi - 25) / (30 - 25)) * (75 - 50);
+  } else {
+    bmiPosition = 75 + ((bmi - 30) / (40 - 30)) * (100 - 75);
+  }
+  bmiPosition = clamp(bmiPosition, 0, 100);
 
   return {
     heightCm,
