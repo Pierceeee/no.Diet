@@ -29,7 +29,7 @@ interface QuizContextValue {
   setGender: (g: Gender) => void;
   setAnswer: <K extends keyof Answers>(key: K, value: Answers[K]) => void;
   toggleMulti: (
-    key: "q2" | "q5" | "q11" | "q18" | "q19",
+    key: "q2" | "q5" | "q11" | "q18" | "q19" | "q20",
     value: string,
   ) => void;
   setStep: (s: number | ((prev: number) => number)) => void;
@@ -99,7 +99,7 @@ export function QuizProvider({ children }: { children: React.ReactNode }) {
   );
 
   const toggleMulti = useCallback(
-    (key: "q2" | "q5" | "q11" | "q18" | "q19", value: string) => {
+    (key: "q2" | "q5" | "q11" | "q18" | "q19" | "q20", value: string) => {
       setAnswers((prev) => {
         const exists = prev[key].includes(value);
         return {

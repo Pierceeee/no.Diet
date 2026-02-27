@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useQuiz } from "@/lib/quiz-context";
 
@@ -96,81 +97,76 @@ export default function LandingPage() {
 
       {/* ─── Main Content ─── */}
       <main className="flex flex-1 flex-col items-center px-4 pb-10 sm:px-6 sm:pb-16">
-        {/* Hero Image - Large circular bowl with Mediterranean food */}
+        {/* Hero Image - Mediterranean food bowl */}
         <div className="relative flex w-full justify-center">
-          <div className="relative h-[180px] w-[260px] overflow-hidden xs:h-[210px] xs:w-[300px] sm:h-[240px] sm:w-[340px] md:h-[300px] md:w-[420px] lg:h-[340px] lg:w-[480px]">
-            <div className="absolute inset-0 flex items-start justify-center">
-              <div
-                className="relative flex h-[260px] w-[260px] items-center justify-center overflow-hidden rounded-full xs:h-[300px] xs:w-[300px] sm:h-[340px] sm:w-[340px] md:h-[420px] md:w-[420px] lg:h-[480px] lg:w-[480px]"
-                style={{
-                  background:
-                    "radial-gradient(circle at 40% 40%, #8b7355 0%, #6b5a42 30%, #5a4a35 60%, #4a3d2e 100%)",
-                  boxShadow:
-                    "inset 0 -30px 60px rgba(0,0,0,0.3), inset 0 10px 30px rgba(255,255,255,0.08), 0 20px 60px rgba(74,61,46,0.3)",
-                }}
-              >
-                {/* Inner bowl shadow */}
-                <div
-                  className="absolute inset-[15px] rounded-full md:inset-[20px]"
-                  style={{
-                    background:
-                      "radial-gradient(circle at 45% 45%, #7a6848 0%, #5c4d38 40%, #4a3f2e 70%, #3d3425 100%)",
-                    boxShadow:
-                      "inset 0 8px 30px rgba(0,0,0,0.4), inset 0 -5px 20px rgba(139,115,85,0.2)",
-                  }}
-                />
-                {/* Mediterranean food items */}
-                <div className="relative z-10 flex flex-col items-center gap-1">
-                  <span className="text-5xl drop-shadow-lg sm:text-6xl md:text-7xl lg:text-8xl">
-                    🐟
-                  </span>
-                  <div className="flex gap-2">
-                    <span className="text-xl sm:text-2xl md:text-3xl">🥑</span>
-                    <span className="text-xl sm:text-2xl md:text-3xl">🥬</span>
-                    <span className="text-xl sm:text-2xl md:text-3xl">🫒</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="relative h-[200px] w-[280px] overflow-hidden rounded-2xl xs:h-[230px] xs:w-[320px] sm:h-[280px] sm:w-[380px] md:h-[320px] md:w-[440px] lg:h-[360px] lg:w-[500px]">
+            <Image
+              src="/quiz/6.png"
+              alt="Mediterranean food bowl"
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 280px, (max-width: 768px) 380px, 500px"
+              priority
+            />
           </div>
         </div>
 
         {/* Heading */}
-        <div className="mt-6 text-center sm:mt-8 md:mt-10">
-          <h1 className="font-display text-[26px] font-bold leading-[1.15] text-black sm:text-[32px] md:text-[42px] lg:text-[48px]">
-            Personalized
-          </h1>
-          <h1 className="font-display text-[26px] font-bold leading-[1.15] text-black sm:text-[32px] md:text-[42px] lg:text-[48px]">
-            Mediterranean Diet Plan
+        <div className="mt-6 max-w-[600px] text-center sm:mt-8 md:mt-10">
+          <h1 className="font-display text-[22px] font-bold leading-[1.2] text-black sm:text-[28px] md:text-[34px] lg:text-[38px]">
+            Let&apos;s personalize your Mediterranean Coach and build your program for weight-loss and longevity nutrition
           </h1>
         </div>
 
         {/* Subtitle */}
-        <p className="mt-4 text-center font-body text-[14px] text-gray-500 sm:mt-5 sm:text-[15px] md:text-base">
-          Select the{" "}
-          <span className="font-semibold text-black">
-            Mediterranean
-          </span>{" "}
-          diet type:
+        <p className="mt-5 text-center font-body text-[15px] font-medium text-gray-600 sm:mt-6 sm:text-base">
+          Select your program :
         </p>
 
         {/* CTA Buttons */}
-        <div className="mt-6 flex w-full max-w-[440px] flex-col items-center gap-3 px-4 sm:mt-7 sm:flex-row sm:gap-5 sm:px-0">
-          {/* Diet for men - green button */}
+        <div className="mt-5 flex w-full max-w-[440px] flex-col items-center gap-3 px-4 sm:mt-6 sm:flex-row sm:gap-5 sm:px-0">
+          {/* Program for Men - green button */}
           <button
-            className="flex h-[52px] w-full items-center justify-center rounded-full bg-[#3bb44a] font-body text-[15px] font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
+            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#3bb44a] font-body text-[15px] font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
             onClick={() => handleGender("male")}
           >
-            Diet for men
+            <span>👨</span> Program for Men
           </button>
 
-          {/* Diet for women - yellow/gold button */}
+          {/* Program for Women - yellow/gold button */}
           <button
-            className="flex h-[52px] w-full items-center justify-center rounded-full bg-[#f9c823] font-body text-[15px] font-semibold text-black transition-all duration-200 hover:bg-[#e6b71e] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
+            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#f9c823] font-body text-[15px] font-semibold text-black transition-all duration-200 hover:bg-[#e6b71e] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
             onClick={() => handleGender("female")}
           >
-            Diet for women
+            <span>👩</span> Program for Women
           </button>
+        </div>
+
+        {/* Disclaimer Block */}
+        <div className="mx-auto mt-8 max-w-[540px] rounded-2xl border-l-4 border-[#e74c3c] bg-[#fef5f5] p-5 text-left sm:mt-10 sm:rounded-3xl sm:p-6">
+          <p className="font-body text-sm font-bold text-[#1a1a1a] sm:text-base">
+            ‼️ Before we build your plan — read this.
+          </p>
+          <div className="mt-3 space-y-3 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
+            <p>
+              If you&apos;ve tried keto, calorie counting, or intermittent fasting and felt like you failed.
+            </p>
+            <p className="font-semibold text-[#1a1a1a]">
+              You didn&apos;t fail. The plan failed you.
+            </p>
+            <p>
+              Those systems were built on old science. Fixed rules. Generic templates.
+            </p>
+            <p>
+              They were never designed for how your body actually works.
+            </p>
+            <p className="font-semibold text-[#3bb44a]">
+              That changes right now.
+            </p>
+            <p>
+              Answer honestly. We&apos;ll do the rest.
+            </p>
+          </div>
         </div>
       </main>
 

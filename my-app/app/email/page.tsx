@@ -23,13 +23,21 @@ export default function EmailPage() {
         <div className="w-full text-center">
           {/* Title */}
           <div className="animate-fade-in-up">
-            <h1 className="font-body text-[26px] font-extrabold leading-tight text-[#1a1a1a] sm:text-[32px] md:text-[38px]">
-              Enter your email to get your
+            <h1 className="font-display text-[24px] font-bold leading-tight text-[#1a1a1a] sm:text-[30px] md:text-[36px]">
+              Your plan is ready.
             </h1>
-            <h1 className="font-body text-[26px] font-extrabold leading-tight text-[#3bb44a] sm:text-[32px] md:text-[38px]">
-              Personalized no.Diet Plan
+            <h1 className="font-display text-[24px] font-bold leading-tight text-[#3bb44a] sm:text-[30px] md:text-[36px]">
+              One step to unlock it.
             </h1>
           </div>
+
+          {/* Subtitle */}
+          <p
+            className="animate-fade-in-up mx-auto mt-4 max-w-[460px] font-body text-sm leading-relaxed text-[#666] sm:mt-5 sm:text-base"
+            style={{ animationDelay: "0.05s", opacity: 0 }}
+          >
+            Your Mediterranean Coach has been built around your body, your goals, and your history.
+          </p>
 
           {/* Email input */}
           <div
@@ -48,26 +56,48 @@ export default function EmailPage() {
           {/* CTA Button */}
           <div
             className="animate-fade-in-up mx-auto mt-5 max-w-[500px] sm:mt-6"
-            style={{ animationDelay: "0.2s", opacity: 0 }}
+            style={{ animationDelay: "0.15s", opacity: 0 }}
           >
             <button
               className="w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-[#3bb44a] disabled:hover:shadow-none disabled:active:scale-100 sm:px-6 sm:py-4 sm:text-lg"
               disabled={!/\S+@\S+\.\S+/.test(email)}
               onClick={() => router.push("/summary")}
             >
-              Claim my plan
+              Unlock My Personalized Program →
             </button>
           </div>
 
-          {/* Privacy text */}
-          <p
-            className="animate-fade-in mx-auto mt-4 max-w-[480px] text-center font-body text-[11px] leading-relaxed text-[#999] sm:mt-5 sm:text-xs"
-            style={{ animationDelay: "0.3s", opacity: 0 }}
+          {/* Info text */}
+          <div
+            className="animate-fade-in-up mx-auto mt-8 max-w-[480px] rounded-xl bg-[#f8f8f8] p-4 text-left sm:mt-10 sm:p-5"
+            style={{ animationDelay: "0.2s", opacity: 0 }}
           >
-            By continuing this, you agree to our Privacy policy. We respect your
-            privacy. We will never sell, rent or share your email address.
-            That&apos;s more than a policy, it&apos;s our personal guarantee!
-          </p>
+            <p className="font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
+              This isn&apos;t a static meal plan.
+            </p>
+            <p className="mt-2 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
+              It&apos;s the beginning of your personalization.
+            </p>
+            <p className="mt-2 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
+              Your coach learns as you progress. Every week it gets smarter — refining recommendations, adjusting to your results, improving until it works perfectly for you.
+            </p>
+          </div>
+
+          {/* Privacy text */}
+          <div
+            className="animate-fade-in mx-auto mt-6 max-w-[480px] text-center sm:mt-8"
+            style={{ animationDelay: "0.25s", opacity: 0 }}
+          >
+            <p className="font-body text-xs leading-relaxed text-[#888] sm:text-sm">
+              🔒 Your email is used only to deliver your plan.
+            </p>
+            <p className="mt-1 font-body text-xs leading-relaxed text-[#888] sm:text-sm">
+              We will never sell, rent, or share your information.
+            </p>
+            <p className="mt-1 font-body text-xs font-medium leading-relaxed text-[#666] sm:text-sm">
+              That&apos;s our commitment to you.
+            </p>
+          </div>
         </div>
       </main>
     </div>

@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { useQuiz } from "@/lib/quiz-context";
 import { clamp } from "@/lib/utils";
 import { fmt } from "@/lib/utils";
@@ -24,12 +25,16 @@ import {
   MEAL_OPTIONS,
   MEAL_DESCRIPTIONS,
   PROTEIN_OPTIONS,
+  VEGETABLE_OPTIONS,
   GRAIN_OPTIONS,
   GOAL_EMOJIS,
+  INFO_BLOCKS,
   getGenderGoals,
   getQ3Bodies,
   getQ4Bodies,
   getQ12Reasons,
+  getBmiMessage,
+  getWeightLossMessage,
 } from "@/lib/quiz-data";
 
 import { QuizSection, QuizTitle } from "@/components/ui/quiz-section";
@@ -42,6 +47,7 @@ import {
 import { SingleChoiceStep } from "@/components/quiz/question-card";
 import { NumericStep } from "@/components/quiz/age-card";
 import { LoadingScreen } from "@/components/quiz/loading-screen";
+import { InfoInterstitial } from "@/components/quiz/info-interstitial";
 
 export default function QuizPage() {
   const router = useRouter();
@@ -63,7 +69,6 @@ export default function QuizPage() {
     setAnimKey((k) => k + 1);
   }, [step]);
 
-  /* Redirect to landing if no gender selected */
   useEffect(() => {
     if (step === 0) {
       router.replace("/");
@@ -73,20 +78,32 @@ export default function QuizPage() {
   const genderGoals = getGenderGoals(answers.gender);
   const q3Bodies = getQ3Bodies(answers.gender);
   const q4Bodies = getQ4Bodies(answers.gender);
-  const q12Reasons = getQ12Reasons(answers.gender);
+  const q12Reasons = getQ12Reasons();
 
   const handleGenerateComplete = useCallback(() => {
-    setStep(22);
+    setStep(27);
   }, [setStep]);
+
+  const getBmiImage = () => {
+    if (answers.gender === "male") {
+      if (analysis.bmiLabel === "Healthy") return "/quiz/12.png";
+      if (analysis.bmiLabel === "Overweight") return "/quiz/11.png";
+      return "/quiz/10.png";
+    } else {
+      if (analysis.bmiLabel === "Healthy") return "/quiz/7.png";
+      if (analysis.bmiLabel === "Overweight") return "/quiz/woman-overweight.png";
+      return "/quiz/5.png";
+    }
+  };
 
   if (step === 0) return null;
 
   return (
     <div key={animKey}>
-      {/* ── Step 1 ── */}
+      {/* ── Step 1: Q1 - Mediterranean familiarity ── */}
       {step === 1 && (
         <SingleChoiceStep
-          title="How familiar are you with the Mediterranean diet?"
+          title="How familiar are you with Mediterranean diet & Blue Zones phenomena?"
           options={FAMILIARITY_OPTIONS}
           emojis={FAMILIARITY_EMOJIS}
           onSelect={(v) => {
@@ -96,10 +113,19 @@ export default function QuizPage() {
         />
       )}
 
-      {/* ── Step 2 — Goals ── */}
+      {/* ── Step 2: INFO - Blue Zones ── */}
       {step === 2 && (
+        <InfoInterstitial
+          title={INFO_BLOCKS.blueZones.title}
+          body={INFO_BLOCKS.blueZones.body}
+          onContinue={() => setStep(3)}
+        />
+      )}
+
+      {/* ── Step 3: Q2 - Goals ── */}
+      {step === 3 && (
         <QuizSection>
-          <QuizTitle>What are your goals?</QuizTitle>
+          <QuizTitle>What do you want to achieve?</QuizTitle>
           <p className="mt-2 font-body text-base text-[var(--text-secondary)]">
             Select all that apply:
           </p>
@@ -122,47 +148,33 @@ export default function QuizPage() {
               </OptionCard>
             ))}
           </div>
-          <CTAButton disabled={!answers.q2.length} onClick={() => setStep(3)}>
+          <CTAButton disabled={!answers.q2.length} onClick={() => setStep(4)}>
             Continue
           </CTAButton>
         </QuizSection>
       )}
 
-      {/* ── Step 3 — Body type ── */}
-      {step === 3 && (
+      {/* ── Step 4: Q3 - Current body type ── */}
+      {step === 4 && (
         <QuizSection>
-          <QuizTitle>Choose your current body type:</QuizTitle>
-          <div className="stagger-children mt-8 space-y-3">
+          <QuizTitle>How would you describe your body now?</QuizTitle>
+          <div className="relative mt-4 mb-4 aspect-[4/1] w-full overflow-hidden rounded-xl sm:mt-6">
+            <Image
+              src={answers.gender === "male" 
+                ? "/quiz/Screenshot_2026-02-19_at_22.39.19.png"
+                : "/quiz/Screenshot_2026-02-19_at_22.37.19.png"}
+              alt="Body types"
+              fill
+              className="object-contain"
+              sizes="(max-width: 640px) 100vw, 520px"
+            />
+          </div>
+          <div className="stagger-children mt-4 space-y-3">
             {q3Bodies.map((item) => (
               <OptionCard
                 key={item}
                 onClick={() => {
                   setAnswer("q3", item);
-                  setStep(4);
-                }}
-              >
-                <span className="flex items-center justify-between">
-                  <span className="font-body text-base font-medium text-[var(--text-primary)] sm:text-lg">
-                    {item}
-                  </span>
-                  <Chevron />
-                </span>
-              </OptionCard>
-            ))}
-          </div>
-        </QuizSection>
-      )}
-
-      {/* ── Step 4 — Target body ── */}
-      {step === 4 && (
-        <QuizSection>
-          <QuizTitle>Choose the body you want:</QuizTitle>
-          <div className="stagger-children mt-8 space-y-3">
-            {q4Bodies.map((item) => (
-              <OptionCard
-                key={item}
-                onClick={() => {
-                  setAnswer("q4", item);
                   setStep(5);
                 }}
               >
@@ -178,14 +190,59 @@ export default function QuizPage() {
         </QuizSection>
       )}
 
-      {/* ── Step 5 — Areas to improve ── */}
+      {/* ── Step 5: Q4 - Target body ── */}
       {step === 5 && (
         <QuizSection>
-          <QuizTitle>Any areas you&apos;d like to improve?</QuizTitle>
+          <QuizTitle>What body do you want?</QuizTitle>
+          <div className="relative mt-4 mb-4 aspect-[4/1] w-full overflow-hidden rounded-xl sm:mt-6">
+            <Image
+              src={answers.gender === "male" 
+                ? "/quiz/Screenshot_2026-02-19_at_22.38.58.png"
+                : "/quiz/Screenshot_2026-02-19_at_22.37.40.png"}
+              alt="Target body types"
+              fill
+              className="object-contain"
+              sizes="(max-width: 640px) 100vw, 520px"
+            />
+          </div>
+          <div className="stagger-children mt-4 space-y-3">
+            {q4Bodies.map((item) => (
+              <OptionCard
+                key={item}
+                onClick={() => {
+                  setAnswer("q4", item);
+                  setStep(6);
+                }}
+              >
+                <span className="flex items-center justify-between">
+                  <span className="font-body text-base font-medium text-[var(--text-primary)] sm:text-lg">
+                    {item}
+                  </span>
+                  <Chevron />
+                </span>
+              </OptionCard>
+            ))}
+          </div>
+        </QuizSection>
+      )}
+
+      {/* ── Step 6: Q5 - Areas to improve ── */}
+      {step === 6 && (
+        <QuizSection>
+          <QuizTitle>Which areas would you like to improve?</QuizTitle>
           <p className="mt-2 font-body text-base text-[var(--text-secondary)]">
-            If you&apos;re happy with your appearance, press Continue
+            If you are happy with your body, press Continue
           </p>
-          <div className="stagger-children mx-auto mt-6 grid max-w-[520px] grid-cols-2 gap-2 sm:mt-8 sm:gap-3">
+          <div className="relative mt-4 mb-4 aspect-[2/1] w-full overflow-hidden rounded-xl sm:mt-6">
+            <Image
+              src={answers.gender === "male" ? "/quiz/2.png" : "/quiz/1.png"}
+              alt="Body areas"
+              fill
+              className="object-contain"
+              sizes="(max-width: 640px) 100vw, 520px"
+            />
+          </div>
+          <div className="stagger-children mx-auto mt-4 grid max-w-[520px] grid-cols-2 gap-2 sm:gap-3">
             {BODY_AREAS.map((item) => (
               <OptionCard
                 key={item}
@@ -201,77 +258,86 @@ export default function QuizPage() {
               </OptionCard>
             ))}
           </div>
-          <CTAButton onClick={() => setStep(6)}>Continue</CTAButton>
+          <CTAButton onClick={() => setStep(7)}>Continue</CTAButton>
         </QuizSection>
       )}
 
-      {/* ── Step 6 ── */}
-      {step === 6 && (
+      {/* ── Step 7: Q6 - Day-to-day ── */}
+      {step === 7 && (
         <SingleChoiceStep
-          title="What does your day-to-day look like?"
+          title="What does your day usually look like?"
           options={DAY_TO_DAY_OPTIONS}
           emojis={DAY_TO_DAY_EMOJIS}
           onSelect={(v) => {
             setAnswer("q6", v);
-            setStep(7);
-          }}
-        />
-      )}
-
-      {/* ── Step 7 ── */}
-      {step === 7 && (
-        <SingleChoiceStep
-          title="What are your energy levels throughout the day?"
-          options={ENERGY_OPTIONS}
-          emojis={ENERGY_EMOJIS}
-          onSelect={(v) => {
-            setAnswer("q7", v);
             setStep(8);
           }}
         />
       )}
 
-      {/* ── Step 8 ── */}
+      {/* ── Step 8: Q7 - Energy levels ── */}
       {step === 8 && (
+        <SingleChoiceStep
+          title="How is your energy during the day?"
+          options={ENERGY_OPTIONS}
+          emojis={ENERGY_EMOJIS}
+          onSelect={(v) => {
+            setAnswer("q7", v);
+            setStep(9);
+          }}
+        />
+      )}
+
+      {/* ── Step 9: Q8 - Exercise frequency ── */}
+      {step === 9 && (
         <SingleChoiceStep
           title="How often do you exercise?"
           options={EXERCISE_OPTIONS}
           emojis={EXERCISE_EMOJIS}
           onSelect={(v) => {
             setAnswer("q8", v);
-            setStep(9);
-          }}
-        />
-      )}
-
-      {/* ── Step 9 ── */}
-      {step === 9 && (
-        <SingleChoiceStep
-          title="How does your weight typically change?"
-          options={WEIGHT_CHANGE_OPTIONS}
-          emojis={WEIGHT_CHANGE_EMOJIS}
-          onSelect={(v) => {
-            setAnswer("q9", v);
             setStep(10);
           }}
         />
       )}
 
-      {/* ── Step 10 ── */}
+      {/* ── Step 10: Q9 - Weight changes ── */}
       {step === 10 && (
         <SingleChoiceStep
-          title="When was the last time you were your ideal weight?"
-          options={IDEAL_WEIGHT_OPTIONS}
-          emojis={IDEAL_WEIGHT_EMOJIS}
+          title="How does your weight usually change?"
+          options={WEIGHT_CHANGE_OPTIONS}
+          emojis={WEIGHT_CHANGE_EMOJIS}
           onSelect={(v) => {
-            setAnswer("q10", v);
+            setAnswer("q9", v);
             setStep(11);
           }}
         />
       )}
 
-      {/* ── Step 11 — Diets tried ── */}
+      {/* ── Step 11: INFO - Metabolism ── */}
       {step === 11 && (
+        <InfoInterstitial
+          title={INFO_BLOCKS.metabolism.title}
+          body={INFO_BLOCKS.metabolism.body}
+          onContinue={() => setStep(12)}
+        />
+      )}
+
+      {/* ── Step 12: Q10 - Best weight timing ── */}
+      {step === 12 && (
+        <SingleChoiceStep
+          title="When were you last at your best weight?"
+          options={IDEAL_WEIGHT_OPTIONS}
+          emojis={IDEAL_WEIGHT_EMOJIS}
+          onSelect={(v) => {
+            setAnswer("q10", v);
+            setStep(13);
+          }}
+        />
+      )}
+
+      {/* ── Step 13: Q11 - Diets tried ── */}
+      {step === 13 && (
         <QuizSection>
           <QuizTitle>
             Have you tried any of these diets in the last 3 years?
@@ -297,27 +363,37 @@ export default function QuizPage() {
           </div>
           <CTAButton
             disabled={!answers.q11.length}
-            onClick={() => setStep(12)}
+            onClick={() => setStep(14)}
           >
             Continue
           </CTAButton>
         </QuizSection>
       )}
 
-      {/* ── Step 12 — Reason ── */}
-      {step === 12 && (
+      {/* ── Step 14: INFO - Diets wrong ── */}
+      {step === 14 && (
+        <InfoInterstitial
+          title={INFO_BLOCKS.dietsWrong.title}
+          body={INFO_BLOCKS.dietsWrong.body}
+          image={INFO_BLOCKS.dietsWrong.image}
+          onContinue={() => setStep(15)}
+        />
+      )}
+
+      {/* ── Step 15: Q12 - Reason to get in shape ── */}
+      {step === 15 && (
         <SingleChoiceStep
-          title="What&apos;s the main reason why you want to get in shape?"
+          title="What would getting in shape change most for you?"
           options={q12Reasons}
           onSelect={(v) => {
             setAnswer("q12", v);
-            setStep(13);
+            setStep(16);
           }}
         />
       )}
 
-      {/* ── Step 13 — Height ── */}
-      {step === 13 && (
+      {/* ── Step 16: Q13 - Height ── */}
+      {step === 16 && (
         <NumericStep
           title="What is your height?"
           unitA="in"
@@ -335,17 +411,17 @@ export default function QuizPage() {
               ),
             )
           }
-          helper="☝️ Calculating your body mass index"
-          helperBody="The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy."
+          helper={INFO_BLOCKS.bmiExplanation.title}
+          helperBody={INFO_BLOCKS.bmiExplanation.body}
           ctaDisabled={
             answers.q13 < (answers.q13Unit === "cm" ? 120 : 47)
           }
-          onContinue={() => setStep(14)}
+          onContinue={() => setStep(17)}
         />
       )}
 
-      {/* ── Step 14 — Current weight ── */}
-      {step === 14 && (
+      {/* ── Step 17: Q14 - Current weight ── */}
+      {step === 17 && (
         <NumericStep
           title="What is your current weight?"
           unitA="lbs"
@@ -363,15 +439,26 @@ export default function QuizPage() {
               ),
             )
           }
+          helper={`✔️ ${getBmiMessage(analysis.bmiLabel).title}`}
+          helperBody={getBmiMessage(analysis.bmiLabel).body}
           ctaDisabled={
             answers.q14 < (answers.q14Unit === "kg" ? 40 : 88)
           }
-          onContinue={() => setStep(15)}
+          onContinue={() => setStep(18)}
         />
       )}
 
-      {/* ── Step 15 — Target weight ── */}
-      {step === 15 && (
+      {/* ── Step 18: INFO - Advice wrong ── */}
+      {step === 18 && (
+        <InfoInterstitial
+          title={INFO_BLOCKS.adviceWrong.title}
+          body={INFO_BLOCKS.adviceWrong.body}
+          onContinue={() => setStep(19)}
+        />
+      )}
+
+      {/* ── Step 19: Q15 - Target weight ── */}
+      {step === 19 && (
         <NumericStep
           title="What is your target weight?"
           unitA="lbs"
@@ -389,35 +476,37 @@ export default function QuizPage() {
               ),
             )
           }
+          helper={`☝️ ${getWeightLossMessage(analysis.targetLoss).title}`}
+          helperBody={getWeightLossMessage(analysis.targetLoss).body}
           ctaDisabled={
             answers.q15 < (answers.q15Unit === "kg" ? 40 : 88)
           }
-          onContinue={() => setStep(16)}
+          onContinue={() => setStep(20)}
         />
       )}
 
-      {/* ── Step 16 — Age ── */}
-      {step === 16 && (
+      {/* ── Step 20: Q16 - Age ── */}
+      {step === 20 && (
         <NumericStep
           title="What is your age?"
           value={answers.q16}
           onChange={(v) => setAnswer("q16", clamp(v, 18, 85))}
-          helper="☝️ We ask your age to create your personal plan"
-          helperBody="Older people tend to have more body fat and slower metabolism than younger people with the same BMI."
+          helper={INFO_BLOCKS.ageMetabolism.title}
+          helperBody={INFO_BLOCKS.ageMetabolism.body}
           ctaDisabled={answers.q16 < 18}
-          onContinue={() => setStep(17)}
+          onContinue={() => setStep(21)}
         />
       )}
 
-      {/* ═══════════ STEP 17 — PERSONAL SUMMARY ═══════════ */}
-      {step === 17 && (
+      {/* ═══════════ STEP 21 — PERSONAL SUMMARY ═══════════ */}
+      {step === 21 && (
         <QuizSection>
-          <QuizTitle>Your personal summary</QuizTitle>
+          <QuizTitle>Here&apos;s What We Found</QuizTitle>
 
           {/* BMI Card */}
           <div className="animate-scale-in mt-6 overflow-hidden rounded-[14px] bg-[#f5f5f5] p-4 sm:mt-8 sm:rounded-[16px] sm:p-6">
             <h3 className="font-display text-lg font-bold text-[var(--text-primary)] sm:text-xl">
-              Body Mass Index (BMI)
+              Your Body Mass Index (BMI)
             </h3>
             <div className="relative mt-5 mb-2 sm:mt-6">
               <div
@@ -439,117 +528,110 @@ export default function QuizPage() {
             <div className="mt-3 flex justify-between font-body text-xs text-[var(--text-muted)]">
               <span>Underweight</span>
               <span>Healthy</span>
-              <span
-                className={
-                  analysis.bmiLabel === "Overweight"
-                    ? "font-bold text-[var(--text-primary)]"
-                    : ""
-                }
-              >
-                Overweight
-              </span>
+              <span>Overweight</span>
               <span>Obese</span>
             </div>
           </div>
 
           {/* BMI message */}
           <div
-            className="animate-fade-in-up mt-3 rounded-[10px] border-l-4 border-[var(--accent)] bg-[#f5f5f5] p-3 sm:mt-4 sm:rounded-[12px] sm:p-4"
+            className={`animate-fade-in-up mt-3 rounded-[10px] border-l-4 p-3 sm:mt-4 sm:rounded-[12px] sm:p-4 ${
+              analysis.bmiLabel === "Healthy"
+                ? "border-[#3bb44a] bg-[#f0fdf4]"
+                : analysis.bmiLabel === "Overweight"
+                ? "border-[#f59e0b] bg-[#fffbeb]"
+                : "border-[#ef4444] bg-[#fef2f2]"
+            }`}
             style={{ animationDelay: "0.15s", opacity: 0 }}
           >
-            <p className="font-body text-sm text-[var(--text-primary)]">
-              <span className="font-semibold">
-                Your BMI is {fmt(analysis.bmi)}
-              </span>
-              , which is considered{" "}
-              <span className="font-semibold lowercase">
-                {analysis.bmiLabel}
-              </span>
-              .
+            <p className="font-body text-sm font-semibold text-[var(--text-primary)]">
+              {getBmiMessage(analysis.bmiLabel).title}
             </p>
             <p className="mt-1 font-body text-xs text-[var(--text-secondary)]">
-              {analysis.bmiLabel === "Healthy"
-                ? "Great job! We'll help you maintain this with the right nutrition plan."
-                : "We'll use your BMI to create a weight loss program just for you."}
+              {getBmiMessage(analysis.bmiLabel).body}
             </p>
           </div>
 
-          {/* Stats card */}
+          {/* Stats card with image */}
           <div
             className="animate-fade-in-up mt-3 overflow-hidden rounded-[14px] bg-[#f5f5f5] p-4 sm:mt-4 sm:rounded-[16px] sm:p-6"
             style={{ animationDelay: "0.25s", opacity: 0 }}
           >
-            <div className="flex items-start justify-between">
+            <div className="flex items-start justify-between gap-4">
               <div className="space-y-3 sm:space-y-4">
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                    Body fat
+                    BMI
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    🔍 {fmt(analysis.bodyFat)}%
+                    📊 {fmt(analysis.bmi)}
                   </p>
                 </div>
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                    Activity level
+                    Energy
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    📊 Low
+                    ⚡ {answers.q7 || "Not set"}
                   </p>
                 </div>
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                    Energy level
+                    Metabolism
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    😮‍💨 Low
+                    🔥 Adaptable — not broken
                   </p>
                 </div>
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                    Goal
+                    Goals
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    🔥 Lose weight
+                    🎯 {answers.q2[0] || "Not set"}
                   </p>
                 </div>
               </div>
-              <div className="hidden h-48 w-32 items-end justify-center rounded-[12px] bg-gradient-to-b from-[#eeeeee] to-[#e0e0e0] sm:flex">
-                <span className="mb-4 text-5xl opacity-40">
-                  {answers.gender === "male" ? "🧍‍♂️" : "🧍‍♀️"}
-                </span>
+              <div className="relative hidden h-48 w-32 overflow-hidden rounded-[12px] bg-gradient-to-b from-[#eeeeee] to-[#e0e0e0] sm:block">
+                <Image
+                  src={getBmiImage()}
+                  alt=""
+                  fill
+                  className="object-cover object-top"
+                  sizes="128px"
+                />
               </div>
             </div>
           </div>
 
-          <CTAButton onClick={() => setStep(18)}>Continue</CTAButton>
+          <CTAButton onClick={() => setStep(22)}>Continue</CTAButton>
         </QuizSection>
       )}
 
-      {/* ── Step 18 — Meals ── */}
-      {step === 18 && (
+      {/* ── Step 22: Q17 - Meals ── */}
+      {step === 22 && (
         <SingleChoiceStep
-          title="How many meals a day would you like to have?"
-          subtitle="You can always change it in settings later"
+          title="How many meals would you like to eat each day?"
+          subtitle="You can change this later in your settings."
           options={MEAL_OPTIONS}
           descriptions={MEAL_DESCRIPTIONS}
           onSelect={(v) => {
             setAnswer("q17", v);
-            setStep(19);
+            setStep(23);
           }}
         />
       )}
 
-      {/* ── Step 19 — Exclude proteins ── */}
-      {step === 19 && (
+      {/* ── Step 23: Q18 - Exclude proteins ── */}
+      {step === 23 && (
         <QuizSection>
           <QuizTitle>
-            Would you like to exclude any of these products?
+            Would you like to exclude any of these foods?
           </QuizTitle>
-          <p className="mt-2 font-body text-base text-[var(--text-secondary)]">
-            Proteins and dairy:
+          <p className="mt-2 font-body text-base font-semibold text-[var(--text-primary)]">
+            Proteins &amp; dairy:
           </p>
-          <div className="stagger-children mt-8 space-y-3">
+          <div className="stagger-children mt-6 space-y-3">
             {PROTEIN_OPTIONS.map((item) => (
               <OptionCard
                 key={item}
@@ -565,21 +647,21 @@ export default function QuizPage() {
               </OptionCard>
             ))}
           </div>
-          <CTAButton onClick={() => setStep(20)}>Continue</CTAButton>
+          <CTAButton onClick={() => setStep(24)}>Continue</CTAButton>
         </QuizSection>
       )}
 
-      {/* ── Step 20 — Exclude grains ── */}
-      {step === 20 && (
+      {/* ── Step 24: Q19 - Exclude vegetables (NEW) ── */}
+      {step === 24 && (
         <QuizSection>
           <QuizTitle>
-            Would you like to exclude any of these products?
+            Would you like to exclude any of these foods?
           </QuizTitle>
-          <p className="mt-2 font-body text-base text-[var(--text-secondary)]">
-            Nuts and grains:
+          <p className="mt-2 font-body text-base font-semibold text-[var(--text-primary)]">
+            Fruits &amp; vegetables:
           </p>
-          <div className="stagger-children mt-8 space-y-3">
-            {GRAIN_OPTIONS.map((item) => (
+          <div className="stagger-children mt-6 space-y-3">
+            {VEGETABLE_OPTIONS.map((item) => (
               <OptionCard
                 key={item}
                 selected={answers.q19.includes(item)}
@@ -594,8 +676,37 @@ export default function QuizPage() {
               </OptionCard>
             ))}
           </div>
+          <CTAButton onClick={() => setStep(25)}>Continue</CTAButton>
+        </QuizSection>
+      )}
+
+      {/* ── Step 25: Q20 - Exclude grains ── */}
+      {step === 25 && (
+        <QuizSection>
+          <QuizTitle>
+            Would you like to exclude any of these foods?
+          </QuizTitle>
+          <p className="mt-2 font-body text-base font-semibold text-[var(--text-primary)]">
+            Grains &amp; nuts:
+          </p>
+          <div className="stagger-children mt-6 space-y-3">
+            {GRAIN_OPTIONS.map((item) => (
+              <OptionCard
+                key={item}
+                selected={answers.q20.includes(item)}
+                onClick={() => toggleMulti("q20", item)}
+              >
+                <span className="flex items-center gap-3">
+                  <Checkbox checked={answers.q20.includes(item)} />
+                  <span className="font-body text-base font-medium text-[var(--text-primary)]">
+                    {item}
+                  </span>
+                </span>
+              </OptionCard>
+            ))}
+          </div>
           <CTAButton onClick={() => {
-            setStep(21);
+            setStep(26);
             setIsGenerating(true);
             setProgress(38);
           }}>Continue</CTAButton>
@@ -607,8 +718,8 @@ export default function QuizPage() {
         <LoadingScreen onComplete={handleGenerateComplete} />
       )}
 
-      {/* ═══════════ STEP 22 — RESULT ═══════════ */}
-      {step === 22 && (
+      {/* ═══════════ STEP 27 — RESULT ═══════════ */}
+      {step === 27 && (
         <QuizSection>
           <div className="animate-scale-in overflow-hidden rounded-[14px] bg-[#f5f5f5] p-5 sm:rounded-[16px] sm:p-8">
             <p className="font-body text-sm font-medium text-gray-500 sm:text-base">
@@ -627,10 +738,20 @@ export default function QuizPage() {
               </p>
             </div>
           </div>
-          <CTAButton onClick={() => router.push("/email")}>
+          <CTAButton onClick={() => setStep(28)}>
             Continue
           </CTAButton>
         </QuizSection>
+      )}
+
+      {/* ═══════════ STEP 28 — PRE-EMAIL INFO BLOCK ═══════════ */}
+      {step === 28 && (
+        <InfoInterstitial
+          title={INFO_BLOCKS.preEmail.title}
+          body={INFO_BLOCKS.preEmail.body}
+          image={INFO_BLOCKS.preEmail.image}
+          onContinue={() => router.push("/email")}
+        />
       )}
     </div>
   );
