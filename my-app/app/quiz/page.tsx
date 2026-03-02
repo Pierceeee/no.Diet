@@ -61,6 +61,7 @@ export default function QuizPage() {
     setIsGenerating,
     setProgress,
     analysis,
+    hydrated,
   } = useQuiz();
 
   const [animKey, setAnimKey] = useState(0);
@@ -70,10 +71,10 @@ export default function QuizPage() {
   }, [step]);
 
   useEffect(() => {
-    if (step === 0) {
+    if (hydrated && step === 0) {
       router.replace("/");
     }
-  }, [step, router]);
+  }, [step, router, hydrated]);
 
   const genderGoals = getGenderGoals(answers.gender);
   const q3Bodies = getQ3Bodies(answers.gender);
@@ -96,7 +97,7 @@ export default function QuizPage() {
     }
   };
 
-  if (step === 0) return null;
+  if (!hydrated || step === 0) return null;
 
   return (
     <div key={animKey}>
