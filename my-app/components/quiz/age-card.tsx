@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { QuizSection, QuizTitle } from "@/components/ui/quiz-section";
 import { CTAButton } from "@/components/quiz/quiz-navigation";
 import { InfoCard } from "@/components/quiz/info-card";
@@ -29,6 +32,14 @@ export function NumericStep({
   helper,
   helperBody,
 }: NumericStepProps) {
+  const [inputValue, setInputValue] = useState(value ? String(value) : "");
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const digits = e.target.value.replace(/\D/g, "");
+    setInputValue(digits);
+    onChange(digits ? Number(digits) : 0);
+  };
+
   return (
     <QuizSection>
       <QuizTitle>{title}</QuizTitle>
@@ -54,9 +65,11 @@ export function NumericStep({
       <div className="animate-scale-in mx-auto mt-6 max-w-[260px] sm:mt-8 sm:max-w-[300px]">
         <div className="border-b-2 border-[var(--text-primary)] pb-2">
           <input
-            type="number"
-            value={value}
-            onChange={(e) => onChange(Number(e.target.value))}
+            type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
+            value={inputValue}
+            onChange={handleChange}
             className="w-full bg-transparent text-center font-display text-5xl text-[var(--text-primary)] outline-none sm:text-6xl"
           />
         </div>

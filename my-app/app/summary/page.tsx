@@ -39,35 +39,60 @@ export default function SummaryPage() {
               </h2>
               
               <div className="mt-4 space-y-4 font-body text-sm leading-relaxed text-[#444] sm:mt-5 sm:space-y-4 sm:text-[15px]">
-                <p>
+                <p
+                  className="animate-fade-in-up"
+                  style={{ animationDelay: "0.1s", opacity: 0 }}
+                >
                   Based on your answers, your metabolism may be slightly out of balance.
                 </p>
-                <p>
+                <p
+                  className="animate-fade-in-up"
+                  style={{ animationDelay: "0.2s", opacity: 0 }}
+                >
                   This can make fat loss harder, increase belly storage, and raise inflammation.
                 </p>
-                <p>
+                <p
+                  className="animate-fade-in-up"
+                  style={{ animationDelay: "0.3s", opacity: 0 }}
+                >
                   Over time, metabolic imbalance is linked to lower energy and higher risk of chronic disease.
                 </p>
-                <p className="font-semibold text-[#1a1a1a]">
+                <p
+                  className="animate-fade-in-up font-semibold text-[#1a1a1a]"
+                  style={{ animationDelay: "0.4s", opacity: 0 }}
+                >
                   This isn&apos;t a discipline issue.
                 </p>
-                <p>
+                <p
+                  className="animate-fade-in-up"
+                  style={{ animationDelay: "0.5s", opacity: 0 }}
+                >
                   It&apos;s a mismatch between outdated diet rules and your current metabolic stage.
                 </p>
-                <p>
+                <p
+                  className="animate-fade-in-up"
+                  style={{ animationDelay: "0.6s", opacity: 0 }}
+                >
                   The good news? It&apos;s reversible.
                 </p>
-                <p>
+                <p
+                  className="animate-fade-in-up"
+                  style={{ animationDelay: "0.7s", opacity: 0 }}
+                >
                   Blue Zone research shows that when you eat in alignment with your body, metabolism stabilizes and inflammation drops.
                 </p>
-                <p className="font-semibold text-[#3bb44a]">
+                <p
+                  className="animate-fade-in-up font-semibold text-[#3bb44a]"
+                  style={{ animationDelay: "0.8s", opacity: 0 }}
+                >
                   Your plan is built on that science.
                 </p>
               </div>
             </div>
 
             <button
-              className="mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              style={{ animationDelay: "0.9s", opacity: 0 }}
               onClick={() => setSummaryStep("bmi")}
             >
               Continue
@@ -131,22 +156,35 @@ export default function SummaryPage() {
               className="animate-fade-in-up mt-4 rounded-2xl bg-[#f8f8f8] p-5 sm:mt-5 sm:rounded-3xl sm:p-6"
               style={{ animationDelay: "0.15s", opacity: 0 }}
             >
-              <p className="font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
+              <p
+                className="animate-fade-in-up font-body text-sm leading-relaxed text-[#444] sm:text-[15px]"
+                style={{ animationDelay: "0.3s", opacity: 0 }}
+              >
                 But BMI alone doesn&apos;t tell the full story.
               </p>
-              <p className="mt-3 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
+              <p
+                className="animate-fade-in-up mt-3 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]"
+                style={{ animationDelay: "0.45s", opacity: 0 }}
+              >
                 Two people can have the same BMI and completely different metabolic responses.
               </p>
-              <p className="mt-3 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
+              <p
+                className="animate-fade-in-up mt-3 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]"
+                style={{ animationDelay: "0.6s", opacity: 0 }}
+              >
                 That&apos;s why your plan is not based on generic calorie formulas.
               </p>
-              <p className="mt-3 font-body text-sm font-semibold leading-relaxed text-[#3bb44a] sm:text-[15px]">
+              <p
+                className="animate-fade-in-up mt-3 font-body text-sm font-semibold leading-relaxed text-[#3bb44a] sm:text-[15px]"
+                style={{ animationDelay: "0.75s", opacity: 0 }}
+              >
                 It&apos;s based on adaptive metabolic alignment.
               </p>
             </div>
 
             <button
-              className="mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              style={{ animationDelay: "0.9s", opacity: 0 }}
               onClick={() => setSummaryStep("coach")}
             >
               Continue
@@ -161,12 +199,18 @@ export default function SummaryPage() {
               <h2 className="font-display text-lg font-bold text-[#1a1a1a] sm:text-xl">
                 Meet Your Bio-Adaptive Weight Coaching System
               </h2>
-              <p className="mt-2 font-body text-sm text-[#666] sm:text-[15px]">
+              <p
+                className="animate-fade-in-up mt-2 font-body text-sm text-[#666] sm:text-[15px]"
+                style={{ animationDelay: "0.1s", opacity: 0 }}
+              >
                 Built on AI and 70 years of Blue Zone longevity &amp; weight-loss science.
               </p>
 
               {/* Feature 1 */}
-              <div className="mt-6 border-t border-[#e5e5e5] pt-5">
+              <div
+                className="animate-fade-in-up mt-6 border-t border-[#e5e5e5] pt-5"
+                style={{ animationDelay: "0.2s", opacity: 0 }}
+              >
                 <h3 className="font-body text-base font-bold text-[#1a1a1a]">
                   1️⃣ AI Metabolic Intake Engine
                 </h3>
@@ -179,7 +223,10 @@ export default function SummaryPage() {
               </div>
 
               {/* Feature 2 */}
-              <div className="mt-5 border-t border-[#e5e5e5] pt-5">
+              <div
+                className="animate-fade-in-up mt-5 border-t border-[#e5e5e5] pt-5"
+                style={{ animationDelay: "0.4s", opacity: 0 }}
+              >
                 <h3 className="font-body text-base font-bold text-[#1a1a1a]">
                   2️⃣ Adaptive Mediterranean Blueprint
                 </h3>
@@ -202,7 +249,10 @@ export default function SummaryPage() {
               </div>
 
               {/* Feature 3 */}
-              <div className="mt-5 border-t border-[#e5e5e5] pt-5">
+              <div
+                className="animate-fade-in-up mt-5 border-t border-[#e5e5e5] pt-5"
+                style={{ animationDelay: "0.6s", opacity: 0 }}
+              >
                 <h3 className="font-body text-base font-bold text-[#1a1a1a]">
                   3️⃣ Your Live AI Coach
                 </h3>
@@ -241,7 +291,8 @@ export default function SummaryPage() {
             </div>
 
             <button
-              className="mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              style={{ animationDelay: "0.8s", opacity: 0 }}
               onClick={() => setSummaryStep("features")}
             >
               Continue
@@ -258,7 +309,10 @@ export default function SummaryPage() {
 
             <div className="mt-6 space-y-4 sm:mt-8">
               {/* Feature 1 */}
-              <div className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5">
+              <div
+                className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
+                style={{ animationDelay: "0.15s", opacity: 0 }}
+              >
                 <p className="font-body text-base font-bold text-[#1a1a1a]">
                   ✔ Unlimited Adaptive Mediterranean Meals
                 </p>
@@ -273,7 +327,7 @@ export default function SummaryPage() {
               {/* Feature 2 */}
               <div
                 className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
-                style={{ animationDelay: "0.05s", opacity: 0 }}
+                style={{ animationDelay: "0.3s", opacity: 0 }}
               >
                 <p className="font-body text-base font-bold text-[#1a1a1a]">
                   ✔ Personalised Metabolic Movement
@@ -289,7 +343,7 @@ export default function SummaryPage() {
               {/* Feature 3 */}
               <div
                 className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
-                style={{ animationDelay: "0.1s", opacity: 0 }}
+                style={{ animationDelay: "0.45s", opacity: 0 }}
               >
                 <p className="font-body text-base font-bold text-[#1a1a1a]">
                   ✔ Habit &amp; Consistency Challenges
@@ -305,7 +359,7 @@ export default function SummaryPage() {
               {/* Feature 4 */}
               <div
                 className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
-                style={{ animationDelay: "0.15s", opacity: 0 }}
+                style={{ animationDelay: "0.6s", opacity: 0 }}
               >
                 <p className="font-body text-base font-bold text-[#1a1a1a]">
                   ✔ Longevity &amp; Metabolism Guides
@@ -321,7 +375,7 @@ export default function SummaryPage() {
               {/* Feature 5 */}
               <div
                 className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
-                style={{ animationDelay: "0.2s", opacity: 0 }}
+                style={{ animationDelay: "0.75s", opacity: 0 }}
               >
                 <p className="font-body text-base font-bold text-[#1a1a1a]">
                   ✔ Adaptive Progress Tracking
@@ -336,7 +390,8 @@ export default function SummaryPage() {
             </div>
 
             <button
-              className="mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              style={{ animationDelay: "0.9s", opacity: 0 }}
               onClick={() => router.push("/offer")}
             >
               Continue

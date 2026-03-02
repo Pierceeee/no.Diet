@@ -24,12 +24,12 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
       }, 400);
       return () => clearTimeout(t);
     }
-    const t = setTimeout(() => setProgress((p) => Math.min(100, p + 8)), 280);
+    const t = setTimeout(() => setProgress((p) => Math.min(100, p + 4)), 350);
     return () => clearTimeout(t);
   }, [isGenerating, progress, setProgress, setIsGenerating, onComplete]);
 
   const visibleMessages = LOADING_MESSAGES.filter((_, i) => {
-    const threshold = (i / LOADING_MESSAGES.length) * 100;
+    const threshold = ((i + 1) / (LOADING_MESSAGES.length + 1)) * 100;
     return progress >= threshold;
   });
 

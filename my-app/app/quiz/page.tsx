@@ -91,7 +91,7 @@ export default function QuizPage() {
       return "/quiz/10.png";
     } else {
       if (analysis.bmiLabel === "Healthy") return "/quiz/7.png";
-      if (analysis.bmiLabel === "Overweight") return "/quiz/woman-overweight.png";
+      if (analysis.bmiLabel === "Overweight") return "/quiz/6-1.png";
       return "/quiz/5.png";
     }
   };
@@ -425,16 +425,7 @@ export default function QuizPage() {
           selectedUnit={answers.q13Unit}
           onUnitChange={(v) => setAnswer("q13Unit", v as Unit)}
           value={answers.q13}
-          onChange={(v) =>
-            setAnswer(
-              "q13",
-              clamp(
-                v,
-                answers.q13Unit === "cm" ? 120 : 47,
-                answers.q13Unit === "cm" ? 220 : 87,
-              ),
-            )
-          }
+          onChange={(v) => setAnswer("q13", v)}
           helper={INFO_BLOCKS.bmiExplanation.title}
           helperBody={INFO_BLOCKS.bmiExplanation.body}
           ctaDisabled={
@@ -453,16 +444,7 @@ export default function QuizPage() {
           selectedUnit={answers.q14Unit}
           onUnitChange={(v) => setAnswer("q14Unit", v as WeightUnit)}
           value={answers.q14}
-          onChange={(v) =>
-            setAnswer(
-              "q14",
-              clamp(
-                v,
-                answers.q14Unit === "kg" ? 40 : 88,
-                answers.q14Unit === "kg" ? 200 : 440,
-              ),
-            )
-          }
+          onChange={(v) => setAnswer("q14", v)}
           helper={`✔️ ${getBmiMessage(analysis.bmiLabel).title}`}
           helperBody={getBmiMessage(analysis.bmiLabel).body}
           ctaDisabled={
@@ -490,16 +472,7 @@ export default function QuizPage() {
           selectedUnit={answers.q15Unit}
           onUnitChange={(v) => setAnswer("q15Unit", v as WeightUnit)}
           value={answers.q15}
-          onChange={(v) =>
-            setAnswer(
-              "q15",
-              clamp(
-                v,
-                answers.q15Unit === "kg" ? 40 : 88,
-                answers.q15Unit === "kg" ? 200 : 440,
-              ),
-            )
-          }
+          onChange={(v) => setAnswer("q15", v)}
           helper={`☝️ ${getWeightLossMessage(analysis.targetLoss).title}`}
           helperBody={getWeightLossMessage(analysis.targetLoss).body}
           ctaDisabled={
@@ -514,7 +487,7 @@ export default function QuizPage() {
         <NumericStep
           title="What is your age?"
           value={answers.q16}
-          onChange={(v) => setAnswer("q16", clamp(v, 18, 85))}
+          onChange={(v) => setAnswer("q16", v)}
           helper={INFO_BLOCKS.ageMetabolism.title}
           helperBody={INFO_BLOCKS.ageMetabolism.body}
           ctaDisabled={answers.q16 < 18}
@@ -585,44 +558,44 @@ export default function QuizPage() {
               <div className="space-y-3 sm:space-y-4">
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                    BMI
+                    Body fat
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    📊 {fmt(analysis.bmi)}
+                    🔍 {fmt(analysis.bodyFat, 2)}%
                   </p>
                 </div>
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                    Energy
+                    Activity level
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    ⚡ {answers.q7 || "Not set"}
+                    📊 {answers.q6 || "Not set"}
                   </p>
                 </div>
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                    Metabolism
+                    Energy level
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    🔥 Adaptable — not broken
+                    😟 {answers.q7 || "Not set"}
                   </p>
                 </div>
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                    Goals
+                    Goal
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    🎯 {answers.q2[0] || "Not set"}
+                    ☀️ {answers.q2[0] || "Not set"}
                   </p>
                 </div>
               </div>
-              <div className="relative hidden h-48 w-32 overflow-hidden rounded-[12px] bg-gradient-to-b from-[#eeeeee] to-[#e0e0e0] sm:block">
+              <div className="relative h-56 w-40 overflow-hidden rounded-[12px] bg-gradient-to-b from-[#eeeeee] to-[#e0e0e0] sm:h-64 sm:w-44">
                 <Image
                   src={getBmiImage()}
                   alt=""
                   fill
                   className="object-cover object-top"
-                  sizes="128px"
+                  sizes="(max-width: 640px) 160px, 176px"
                 />
               </div>
             </div>
