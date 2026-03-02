@@ -48,7 +48,7 @@ export default function EmailPage() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full rounded-full border border-[#d0d0d0] bg-white px-6 py-3.5 font-body text-base text-[#1a1a1a] outline-none transition-all placeholder:text-[#999] focus:border-[#3bb44a] focus:shadow-[0_0_0_3px_rgba(59,180,74,0.15)] sm:py-4 sm:text-lg"
+              className="w-full rounded-full border border-[#d0d0d0] bg-white px-6 py-3.5 font-body text-base text-[#1a1a1a] outline-none transition-all placeholder:text-[#999] focus:border-[#3bb44a] focus:shadow-[0_0_0_3px_rgba(59,180,74,0.15)] focus:outline-none sm:py-4 sm:text-lg"
               placeholder="Your email"
             />
           </div>

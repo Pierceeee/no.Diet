@@ -248,8 +248,8 @@ input[type="number"] {
   background: linear-gradient(
     to right,
     #4a9fd5 0%,
-    #4a9fd5 18%,
-    #3aab4f 18%,
+    #4a9fd5 25%,
+    #3aab4f 25%,
     #3aab4f 50%,
     #e8a838 50%,
     #e8a838 75%,
@@ -334,8 +334,12 @@ input[type="number"] {
 }
 
 /* ─── Focus Styles ─── */
-input:focus-visible,
 button:focus-visible {
+  outline: 2px solid var(--copper);
+  outline-offset: 2px;
+}
+
+input:focus-visible:not([type="email"]):not([type="text"]):not([type="number"]):not([type="tel"]) {
   outline: 2px solid var(--copper);
   outline-offset: 2px;
 }

@@ -44,3 +44,27 @@ export function calculateWeightLossPercentage(
   const percentage = ((currentWeight - targetWeight) / currentWeight) * 100;
   return Math.round(percentage * 10) / 10;
 }
+
+const BMI_SEGMENTS = [
+  { min: 15, max: 18.5, width: 25 },
+  { min: 18.5, max: 25, width: 25 },
+  { min: 25, max: 30, width: 25 },
+  { min: 30, max: 42, width: 25 },
+];
+
+export function calculateBMIPosition(bmi: number): number {
+  const clampedBmi = Math.min(Math.max(bmi, 15), 42);
+  let position = 0;
+
+  for (const seg of BMI_SEGMENTS) {
+    if (clampedBmi <= seg.min) break;
+    if (clampedBmi >= seg.max) {
+      position += seg.width;
+    } else {
+      const segmentProgress = (clampedBmi - seg.min) / (seg.max - seg.min);
+      position += segmentProgress * seg.width;
+      break;
+    }
+  }
+  return position;
+}

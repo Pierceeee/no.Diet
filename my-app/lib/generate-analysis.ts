@@ -1,6 +1,7 @@
 import type { Answers } from "./quiz-data";
 import {
   calculateBMI,
+  calculateBMIPosition,
   calculateWeightLossPercentage,
   clamp,
   getBMICategoryDisplay,
@@ -39,18 +40,7 @@ export function generateAnalysis(answers: Answers): AnalysisResult {
       : 1.2 * bmi + 0.23 * answers.q16 - 5.4;
 
   const bmiLabel = getBMICategoryDisplay(bmi);
-
-  let bmiPosition: number;
-  if (bmi < 18.5) {
-    bmiPosition = (bmi / 18.5) * 18;
-  } else if (bmi < 25) {
-    bmiPosition = 18 + ((bmi - 18.5) / (25 - 18.5)) * (50 - 18);
-  } else if (bmi < 30) {
-    bmiPosition = 50 + ((bmi - 25) / (30 - 25)) * (75 - 50);
-  } else {
-    bmiPosition = 75 + ((bmi - 30) / (40 - 30)) * (100 - 75);
-  }
-  bmiPosition = clamp(bmiPosition, 0, 100);
+  const bmiPosition = calculateBMIPosition(bmi);
 
   return {
     heightCm,
