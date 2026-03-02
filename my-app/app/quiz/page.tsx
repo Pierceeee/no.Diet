@@ -10,7 +10,6 @@ import type { Unit, WeightUnit } from "@/lib/quiz-data";
 import {
   FAMILIARITY_OPTIONS,
   FAMILIARITY_EMOJIS,
-  BODY_AREAS,
   DAY_TO_DAY_OPTIONS,
   DAY_TO_DAY_EMOJIS,
   ENERGY_OPTIONS,
@@ -39,6 +38,7 @@ import {
 
 import { QuizSection, QuizTitle } from "@/components/ui/quiz-section";
 import { OptionCard } from "@/components/quiz/body-type-option";
+import { BodyHighlight } from "@/components/quiz/body-highlight";
 import {
   CTAButton,
   Chevron,
@@ -257,30 +257,12 @@ export default function QuizPage() {
           <p className="mt-2 font-body text-base text-[var(--text-secondary)]">
             If you are happy with your body, press Continue
           </p>
-          <div className="relative mt-4 mb-4 aspect-[2/1] w-full overflow-hidden rounded-xl sm:mt-6">
-            <Image
-              src={answers.gender === "male" ? "/quiz/2.png" : "/quiz/1.png"}
-              alt="Body areas"
-              fill
-              className="object-contain"
-              sizes="(max-width: 640px) 100vw, 520px"
+          <div className="mt-4 mb-2 sm:mt-6">
+            <BodyHighlight
+              gender={answers.gender}
+              selectedAreas={answers.q5}
+              onToggle={(area) => toggleMulti("q5", area)}
             />
-          </div>
-          <div className="stagger-children mx-auto mt-4 grid max-w-[520px] grid-cols-2 gap-2 sm:gap-3">
-            {BODY_AREAS.map((item) => (
-              <OptionCard
-                key={item}
-                selected={answers.q5.includes(item)}
-                onClick={() => toggleMulti("q5", item)}
-              >
-                <span className="flex items-center gap-2 sm:gap-3">
-                  <Checkbox checked={answers.q5.includes(item)} />
-                  <span className="font-body text-[13px] font-medium text-[var(--text-primary)] sm:text-base">
-                    {item}
-                  </span>
-                </span>
-              </OptionCard>
-            ))}
           </div>
           <CTAButton onClick={() => setStep(7)}>Continue</CTAButton>
         </QuizSection>

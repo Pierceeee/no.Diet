@@ -2,6 +2,7 @@
 
 import { useQuiz } from "@/lib/quiz-context";
 import { fmt } from "@/lib/utils";
+import Image from "next/image";
 import { useState } from "react";
 
 type PlanType = "week" | "month" | "quarter";
@@ -438,10 +439,14 @@ export default function OfferPageContent({
 
         <div className="grid grid-cols-2">
           <div className="relative border-r border-[#e8e8e8]">
-            <div className="flex h-[160px] items-center justify-center bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
-              <span className="text-[60px] opacity-60 grayscale sm:text-[80px] md:text-[100px]">
-                {answers.gender === "male" ? "🧍‍♂️" : "🧍‍♀️"}
-              </span>
+            <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
+              <Image
+                src={answers.gender === "male" ? "/quiz/11.png" : "/quiz/6-1.png"}
+                alt="Current body"
+                fill
+                className="object-contain object-bottom opacity-60 grayscale"
+                sizes="(max-width: 640px) 50vw, 300px"
+              />
             </div>
             <div className="p-3 sm:p-4 md:p-5">
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
@@ -481,10 +486,14 @@ export default function OfferPageContent({
           </div>
 
           <div className="relative">
-            <div className="flex h-[160px] items-center justify-center bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
-              <span className="text-[60px] sm:text-[80px] md:text-[100px]">
-                {answers.gender === "male" ? "🏋️‍♂️" : "🏋️‍♀️"}
-              </span>
+            <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
+              <Image
+                src={answers.gender === "male" ? "/quiz/12.png" : "/quiz/7.png"}
+                alt="Goal body"
+                fill
+                className="object-contain object-bottom"
+                sizes="(max-width: 640px) 50vw, 300px"
+              />
             </div>
             <div className="p-3 sm:p-4 md:p-5">
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
@@ -545,7 +554,7 @@ export default function OfferPageContent({
                 Goal
               </p>
               <p className="font-body text-[13px] font-bold text-[var(--text-primary)] sm:text-[14px]">
-                Lose weight
+                {answers.q2.length > 0 ? answers.q2[0] : "Lose weight"}
               </p>
             </div>
           </div>
@@ -696,12 +705,17 @@ export default function OfferPageContent({
       </div>
 
       {/* ─── Risk-Free Cancellation ─── */}
-      <div className="mt-10 rounded-xl border-2 border-[#3bb44a] bg-[#f0faf2] p-5 text-center sm:mt-12 sm:p-6">
-        <p className="text-2xl">🛡️</p>
-        <h3 className="mt-2 font-display text-lg font-bold text-[var(--text-primary)]">
-          Risk-Free Cancellation
-        </h3>
-        <p className="mt-2 font-body text-sm text-[#666]">
+      <div className="mt-10 flex flex-col items-center text-center sm:mt-12">
+        <div className="relative h-[180px] w-[180px] sm:h-[220px] sm:w-[220px]">
+          <Image
+            src="/risk-free-guarantee.png"
+            alt="Risk-Free Guarantee - Cancel Anytime"
+            fill
+            className="object-contain"
+            sizes="220px"
+          />
+        </div>
+        <p className="mt-4 font-body text-sm text-[#666]">
           You can cancel your subscription anytime.
         </p>
         <p className="font-body text-sm text-[#666]">No extra charges.</p>
