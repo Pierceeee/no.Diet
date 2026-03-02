@@ -1,5 +1,6 @@
 "use client";
 
+import type { JSX } from "react";
 import Image from "next/image";
 import { QuizSection } from "@/components/ui/quiz-section";
 import { CTAButton } from "@/components/quiz/quiz-navigation";
