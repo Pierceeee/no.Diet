@@ -1,5 +1,12 @@
 import type { Answers } from "./quiz-data";
-import { clamp, toCm, toKg } from "./utils";
+import {
+  calculateBMI,
+  calculateWeightLossPercentage,
+  clamp,
+  getBMICategoryDisplay,
+  toCm,
+  toKg,
+} from "./utils";
 
 export interface AnalysisResult {
   heightCm: number;
@@ -18,12 +25,12 @@ export function generateAnalysis(answers: Answers): AnalysisResult {
   const currentKg = clamp(toKg(answers.q14, answers.q14Unit), 40, 200);
   const targetKg = clamp(toKg(answers.q15, answers.q15Unit), 40, 200);
 
-  const bmi = currentKg / ((heightCm / 100) ** 2);
-  const targetBmi = targetKg / ((heightCm / 100) ** 2);
+  const bmi = calculateBMI(heightCm, currentKg);
+  const targetBmi = calculateBMI(heightCm, targetKg);
   const targetLoss = clamp(
-    ((currentKg - targetKg) / currentKg) * 100,
+    calculateWeightLossPercentage(currentKg, targetKg),
     0,
-    80,
+    80
   );
 
   const bodyFat =
@@ -31,11 +38,7 @@ export function generateAnalysis(answers: Answers): AnalysisResult {
       ? 1.2 * bmi + 0.23 * answers.q16 - 16.2
       : 1.2 * bmi + 0.23 * answers.q16 - 5.4;
 
-  let bmiLabel: string;
-  if (bmi < 18.5) bmiLabel = "Underweight";
-  else if (bmi < 25) bmiLabel = "Healthy";
-  else if (bmi < 30) bmiLabel = "Overweight";
-  else bmiLabel = "Obese";
+  const bmiLabel = getBMICategoryDisplay(bmi);
 
   let bmiPosition: number;
   if (bmi < 18.5) {
