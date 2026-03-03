@@ -1,19 +1,12 @@
 import type { Metadata } from "next";
-import { DM_Serif_Display, DM_Sans } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import { QuizProvider } from "@/lib/quiz-context";
 import "./globals.css";
 
-const dmSerif = DM_Serif_Display({
-  weight: "400",
-  variable: "--font-display",
-  subsets: ["latin"],
-  style: ["normal", "italic"],
-});
-
 const dmSans = DM_Sans({
-  variable: "--font-body",
+  variable: "--font-dm-sans",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -32,7 +25,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
       </head>
-      <body className={`${dmSerif.variable} ${dmSans.variable} antialiased overflow-x-hidden`}>
+      <body className={`${dmSans.variable} antialiased overflow-x-hidden`}>
         <QuizProvider>{children}</QuizProvider>
       </body>
     </html>

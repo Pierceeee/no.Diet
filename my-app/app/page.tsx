@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useQuiz } from "@/lib/quiz-context";
+import { Logo } from "@/components/ui/logo";
 
 export default function LandingPage() {
   const router = useRouter();
@@ -19,9 +20,7 @@ export default function LandingPage() {
     <div className="flex min-h-[100dvh] flex-col bg-white">
       {/* ─── Header ─── */}
       <header className="flex items-center justify-between px-4 py-4 sm:px-6 sm:py-5 md:px-12 lg:px-20">
-        <span className="text-[22px] font-black tracking-tight text-black" style={{ fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif" }}>
-          no.Diet
-        </span>
+        <Logo size="md" />
         {/* Hamburger menu */}
         <button
           className="flex flex-col items-center gap-[6px] p-2"
@@ -85,7 +84,7 @@ export default function LandingPage() {
             <a
               key={link.label}
               href={link.href}
-              className="border-b border-gray-100 py-4 font-body text-[15px] text-[var(--text-primary)] transition-colors hover:text-[var(--accent)]"
+              className="border-b border-gray-100 py-4 font-body text-[15px] tracking-[-0.01em] text-[var(--text-primary)] transition-colors hover:text-[var(--accent)]"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}
@@ -112,13 +111,13 @@ export default function LandingPage() {
 
         {/* Heading */}
         <div className="mt-6 max-w-[600px] text-center sm:mt-8 md:mt-10">
-          <h1 className="font-display text-[22px] font-bold leading-[1.2] text-black sm:text-[28px] md:text-[34px] lg:text-[38px]">
+          <h1 className="font-display text-[22px] font-semibold leading-snug tracking-[-0.02em] text-black sm:text-[28px] md:text-[34px] lg:text-[38px]">
             Let&apos;s personalize your Mediterranean Coach and build your program for weight-loss and longevity nutrition
           </h1>
         </div>
 
         {/* Subtitle */}
-        <p className="mt-5 text-center font-body text-[15px] font-medium text-gray-600 sm:mt-6 sm:text-base">
+        <p className="mt-5 text-center font-body text-[15px] font-medium tracking-[-0.01em] text-gray-600 sm:mt-6 sm:text-base">
           Select your program :
         </p>
 
@@ -126,7 +125,7 @@ export default function LandingPage() {
         <div className="mt-5 flex w-full max-w-[440px] flex-col items-center gap-3 px-4 sm:mt-6 sm:flex-row sm:gap-5 sm:px-0">
           {/* Program for Men - green button */}
           <button
-            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#3bb44a] font-body text-[15px] font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
+            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#3bb44a] font-body text-[15px] font-semibold tracking-[-0.01em] text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
             onClick={() => handleGender("male")}
           >
             <span>👨</span> Program for Men
@@ -134,7 +133,7 @@ export default function LandingPage() {
 
           {/* Program for Women - yellow/gold button */}
           <button
-            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#f9c823] font-body text-[15px] font-semibold text-black transition-all duration-200 hover:bg-[#e6b71e] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
+            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#f9c823] font-body text-[15px] font-semibold tracking-[-0.01em] text-black transition-all duration-200 hover:bg-[#e6b71e] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
             onClick={() => handleGender("female")}
           >
             <span>👩</span> Program for Women
@@ -146,9 +145,7 @@ export default function LandingPage() {
       <footer className="border-t border-gray-200 bg-white px-4 py-6 sm:px-6 sm:py-8 md:px-12 lg:px-20">
         {/* Top row: brand + nav links */}
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-4 sm:gap-5 md:flex-row md:gap-8">
-          <span className="text-[15px] font-black tracking-tight text-black" style={{ fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif" }}>
-            no.Diet
-          </span>
+          <Logo size="sm" />
           <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 font-body text-[12px] text-gray-500 sm:gap-5 sm:text-[13px]">
             <a
               href="#"

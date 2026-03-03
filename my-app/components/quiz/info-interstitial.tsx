@@ -18,7 +18,7 @@ function parseTitle(title: string) {
 
   return parts.map((part, i) =>
     i % 2 === 1 ? (
-      <span key={i} className="text-[#0d7377]">
+      <span key={i} className="font-semibold text-[#0d7377]">
         {part}
       </span>
     ) : (
@@ -41,7 +41,7 @@ function renderTextWithFormatting(text: string) {
       const segments = part.split(/\*\*(.*?)\*\*/g);
       return segments.map((seg, j) =>
         j % 2 === 1 ? (
-          <strong key={`b-${idx}-${j}`} className="font-bold text-[var(--text-primary)]">
+          <strong key={`b-${idx}-${j}`} className="font-semibold text-[var(--text-primary)]">
             {seg}
           </strong>
         ) : (
@@ -85,7 +85,7 @@ export function InfoInterstitial({
       return (
         <p
           key={i}
-          className="font-body text-sm font-bold leading-relaxed text-[var(--text-primary)] sm:text-base"
+          className="font-body text-[15px] font-semibold leading-snug tracking-[-0.01em] text-[var(--text-primary)] sm:text-base"
         >
           {renderTextWithFormatting(headingText)}
         </p>
@@ -109,17 +109,17 @@ export function InfoInterstitial({
       return (
         <div key={i}>
           {intro && (
-            <p className="font-body text-sm font-bold leading-relaxed text-[var(--text-primary)] sm:text-base">
+            <p className="font-body text-[15px] font-semibold leading-snug tracking-[-0.01em] text-[var(--text-primary)] sm:text-base">
               {renderTextWithFormatting(intro)}
             </p>
           )}
-          <ul className="mt-2 space-y-2">
+          <ul className="mt-2.5 space-y-2.5">
             {bullets.map((bullet, j) => (
-              <li key={j} className="flex items-start gap-2">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#0d7377] text-xs text-white">
+              <li key={j} className="flex items-start gap-2.5">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-[#0d7377]/30 bg-[#0d7377]/10 text-xs font-semibold text-[#0d7377]">
                   ✓
                 </span>
-                <span className="font-body text-sm leading-relaxed text-gray-600 sm:text-base">
+                <span className="font-body text-[15px] leading-[1.6] tracking-[-0.01em] text-[var(--text-secondary)] sm:text-base">
                   {renderTextWithFormatting(bullet)}
                 </span>
               </li>
@@ -135,7 +135,7 @@ export function InfoInterstitial({
       return (
         <p
           key={i}
-          className="font-body text-sm font-bold leading-relaxed text-[var(--text-primary)] sm:text-base"
+          className="rounded-xl border border-[var(--border)] bg-[var(--bg-secondary)] px-4 py-3 font-body text-[15px] font-semibold leading-snug tracking-[-0.01em] text-[var(--text-primary)] sm:text-base"
         >
           {renderTextWithFormatting(text)}
         </p>
@@ -145,7 +145,7 @@ export function InfoInterstitial({
     return (
       <p
         key={i}
-        className="font-body text-sm leading-relaxed text-gray-600 sm:text-base"
+        className="font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[var(--text-secondary)] sm:text-base"
       >
         {renderTextWithFormatting(p)}
       </p>
@@ -154,9 +154,12 @@ export function InfoInterstitial({
 
   return (
     <QuizSection>
-      <div className="animate-fade-in-up overflow-hidden rounded-2xl bg-white p-5 shadow-[0_4px_20px_rgba(0,0,0,0.08)] sm:p-6">
+      <div className="animate-fade-in-up relative overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] shadow-[var(--shadow-md)] sm:rounded-3xl">
+        <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-[#0d7377]/8 blur-2xl" />
+        <div className="h-1 w-full bg-gradient-to-r from-[#0d7377] via-[#1a8f95] to-[#0d7377]" />
+
         {image && (
-          <div className="relative -mx-5 -mt-5 mb-5 aspect-[16/10] w-[calc(100%+2.5rem)] overflow-hidden sm:-mx-6 sm:-mt-6 sm:mb-6 sm:w-[calc(100%+3rem)]">
+          <div className="relative aspect-[16/10] w-full overflow-hidden border-b border-[var(--border)]">
             <Image
               src={image}
               alt=""
@@ -167,12 +170,20 @@ export function InfoInterstitial({
           </div>
         )}
 
-        <h2 className="font-display text-xl font-bold leading-tight text-[var(--text-primary)] sm:text-2xl">
-          {parseTitle(title)}
-        </h2>
+        <div className="relative p-5 sm:p-6">
+          <div className="mb-3 inline-flex items-center rounded-full border border-[#0d7377]/20 bg-[#0d7377]/6 px-3 py-1">
+            <span className="font-body text-[11px] font-medium uppercase tracking-[0.08em] text-[#0d7377]">
+              Personalized insight
+            </span>
+          </div>
 
-        <div className="mt-4 space-y-3 sm:mt-5 sm:space-y-4">
-          {paragraphs.map((p, i) => renderParagraph(p, i))}
+          <h2 className="font-display text-xl font-semibold leading-snug tracking-[-0.02em] text-[var(--text-primary)] sm:text-2xl">
+            {parseTitle(title)}
+          </h2>
+
+          <div className="info-block-text stagger-children mx-auto mt-4 max-w-[620px] space-y-3.5 sm:mt-5 sm:space-y-4">
+            {paragraphs.map((p, i) => renderParagraph(p, i))}
+          </div>
         </div>
       </div>
 

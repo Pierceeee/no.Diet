@@ -330,7 +330,7 @@ export default function OfferPageContent({
       <section className="w-full max-w-[600px]">
         <div className="rounded-2xl bg-gradient-to-br from-[#f5f5f5] to-[#e8e8e8] p-6 text-center sm:p-8">
           <p className="text-4xl">👋</p>
-          <h1 className="mt-4 font-display text-xl font-bold text-[var(--text-primary)] sm:text-2xl">
+          <h1 className="mt-4 font-display text-xl font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-2xl">
             We understand.
           </h1>
           <p className="mt-3 font-body text-sm text-[#666] sm:text-base">
@@ -342,7 +342,7 @@ export default function OfferPageContent({
         </div>
 
         <div className="mt-8 text-center">
-          <h2 className="font-display text-lg font-bold text-[var(--text-primary)] sm:text-xl">
+          <h2 className="font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
             Before you go...
           </h2>
           <p className="mt-3 font-body text-sm text-[#666] sm:text-base">
@@ -575,7 +575,7 @@ export default function OfferPageContent({
 
       {/* ─── Choose Your Plan ─── */}
       <div id="get-plan" className="mt-8 sm:mt-10">
-        <h3 className="mb-4 text-center font-display text-lg font-bold text-[var(--text-primary)] sm:mb-5 sm:text-xl">
+        <h3 className="mb-4 text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:mb-5 sm:text-xl">
           Choose Your Plan
         </h3>
         <PricingPlans />
@@ -593,7 +593,7 @@ export default function OfferPageContent({
 
       {/* ─── What's Included ─── */}
       <div className="mt-10 sm:mt-12">
-        <h3 className="text-center font-display text-lg font-bold text-[var(--text-primary)] sm:text-xl">
+        <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
           What&apos;s Included Inside Your Plan
         </h3>
         <div className="mt-6 space-y-4">
@@ -625,7 +625,7 @@ export default function OfferPageContent({
 
       {/* ─── See Visible Results ─── */}
       <div className="mt-10 rounded-xl bg-gradient-to-br from-[#f0faf2] to-[#e8f5e9] p-5 sm:mt-12 sm:p-6">
-        <h3 className="text-center font-display text-lg font-bold text-[var(--text-primary)] sm:text-xl">
+        <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
           See Visible Results in 4 Weeks
         </h3>
         <p className="mt-4 text-center font-body text-sm text-[#666]">
@@ -650,7 +650,7 @@ export default function OfferPageContent({
 
       {/* ─── Second Pricing Section ─── */}
       <div className="mt-10 sm:mt-12">
-        <h3 className="mb-4 text-center font-display text-lg font-bold text-[var(--text-primary)] sm:mb-5 sm:text-xl">
+        <h3 className="mb-4 text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:mb-5 sm:text-xl">
           Choose Your Plan
         </h3>
         <PricingPlans />
@@ -660,7 +660,7 @@ export default function OfferPageContent({
 
       {/* ─── FAQ Section ─── */}
       <div className="mt-10 sm:mt-12">
-        <h3 className="text-center font-display text-lg font-bold text-[var(--text-primary)] sm:text-xl">
+        <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
           Got Questions?
         </h3>
         <div className="mt-6 space-y-3">

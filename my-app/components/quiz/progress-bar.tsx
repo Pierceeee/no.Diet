@@ -2,6 +2,7 @@
 
 import { useQuiz } from "@/lib/quiz-context";
 import { TOTAL_STEPS } from "@/lib/quiz-data";
+import { Logo } from "@/components/ui/logo";
 
 export function ProgressBar() {
   const { stepProgress, goBack, step, isGenerating } = useQuiz();
@@ -31,10 +32,8 @@ export function ProgressBar() {
           </svg>
         </button>
 
-        {/* Brand name */}
-        <p className="text-[18px] font-black tracking-tight text-black sm:text-[22px]" style={{ fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif" }}>
-          no.Diet
-        </p>
+        {/* Brand logo */}
+        <Logo size="sm" />
 
         {/* Step counter */}
         <p className="font-body text-xs font-medium text-[var(--text-muted)] sm:text-sm">

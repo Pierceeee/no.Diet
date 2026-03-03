@@ -10,7 +10,7 @@ alwaysApply: true
 - **Framework**: Next.js 16 (App Router) + React 19 + TypeScript (strict mode)
 - **Styling**: Tailwind CSS v4 + CSS custom properties
 - **State**: React Context (`QuizProvider` / `useQuiz()`) + localStorage persistence
-- **Fonts**: DM Serif Display (headings) + DM Sans (body) via `next/font`
+- **Fonts**: Figtree (headings + body) via `next/font`
 
 ## Architecture
 

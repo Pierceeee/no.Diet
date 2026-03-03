@@ -16,11 +16,11 @@ export function InfoCard({
           💡
         </span>
         <div>
-          <p className="font-body text-sm font-bold leading-snug text-[var(--text-primary)] sm:text-base">
+          <p className="font-body text-[15px] font-semibold leading-snug tracking-[-0.01em] text-[var(--text-primary)] sm:text-base">
             {helper}
           </p>
           {helperBody && (
-            <p className="mt-1.5 font-body text-xs leading-relaxed text-[#5f4e45] sm:text-sm">
+            <p className="mt-1.5 font-body text-[13px] leading-[1.6] tracking-[-0.01em] text-[#5f4e45] sm:text-sm">
               {helperBody}
             </p>
           )}

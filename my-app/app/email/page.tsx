@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useQuiz } from "@/lib/quiz-context";
+import { Logo } from "@/components/ui/logo";
 
 export default function EmailPage() {
   const router = useRouter();
@@ -12,9 +13,7 @@ export default function EmailPage() {
       {/* Header */}
       <header className="sticky top-0 z-20 bg-white">
         <div className="mx-auto flex max-w-3xl items-center justify-center px-4 py-3 sm:px-5 sm:py-4">
-          <p className="font-display text-xl tracking-tight text-[#1a1a1a] italic sm:text-2xl">
-            no.Diet
-          </p>
+          <Logo size="md" />
         </div>
         <div className="h-[3px] w-full bg-[#3bb44a]" />
       </header>

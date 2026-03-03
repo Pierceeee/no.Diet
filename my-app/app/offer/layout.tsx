@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { Logo } from "@/components/ui/logo";
 
 function getDiscountInfo(pathname: string) {
   if (pathname.includes("/discount3") || pathname.includes("/nonbuyers")) {
@@ -43,9 +44,7 @@ export default function OfferLayout({
       <div className="min-h-[100dvh] bg-white">
         <header className="sticky top-0 z-30 bg-white">
           <div className="mx-auto flex max-w-3xl items-center justify-center px-4 py-3 sm:px-5 sm:py-4">
-            <p className="font-display text-xl tracking-tight text-[#1a1a1a] italic sm:text-2xl">
-              no.Diet
-            </p>
+            <Logo size="md" />
           </div>
           <div className="h-[3px] w-full bg-[#e8e8e8]" />
         </header>

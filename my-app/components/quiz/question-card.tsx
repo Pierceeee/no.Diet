@@ -23,7 +23,7 @@ export function SingleChoiceStep({
     <QuizSection>
       <QuizTitle>{title}</QuizTitle>
       {subtitle && (
-        <p className="mt-2 font-body text-base text-[var(--text-secondary)]">
+        <p className="mt-2 font-body text-base tracking-[-0.01em] text-[var(--text-secondary)]">
           {subtitle}
         </p>
       )}
@@ -32,11 +32,11 @@ export function SingleChoiceStep({
           <OptionCard key={item} onClick={() => onSelect(item)}>
             <span className="flex items-center justify-between gap-3">
               <span className="text-left">
-                <span className="block font-body text-base font-medium text-[var(--text-primary)] sm:text-lg">
+                <span className="block font-body text-base font-medium tracking-[-0.01em] text-[var(--text-primary)] sm:text-lg">
                   {item}
                 </span>
                 {descriptions[idx] && (
-                  <span className="mt-0.5 block font-body text-sm text-[var(--text-muted)]">
+                  <span className="mt-0.5 block font-body text-sm tracking-[-0.01em] text-[var(--text-muted)]">
                     {descriptions[idx]}
                   </span>
                 )}
