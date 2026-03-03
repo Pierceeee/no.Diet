@@ -221,6 +221,46 @@ export const GRAIN_OPTIONS = [
   "Corn",
 ];
 
+export const PROTEIN_EMOJIS: Record<string, string> = {
+  "I eat everything": "✅",
+  "Chicken": "🍗",
+  "Red meat": "🥩",
+  "Cheese": "🧀",
+  "Tuna": "🐟",
+  "Greek yogurt": "🥛",
+  "Salmon": "🐠",
+  "Shrimp": "🦐",
+  "Eggs": "🥚",
+  "Chickpeas": "🫘",
+  "Lentils": "🫛",
+  "Tofu": "🧊",
+};
+
+export const VEGETABLE_EMOJIS: Record<string, string> = {
+  "I eat everything": "✅",
+  "Tomatoes": "🍅",
+  "Cucumber": "🥒",
+  "Broccoli": "🥦",
+  "Spinach": "🥬",
+  "Zucchini": "🥒",
+  "Bell pepper": "🫑",
+  "Avocado": "🥑",
+  "Olives": "🫒",
+  "Onions": "🧅",
+};
+
+export const GRAIN_EMOJIS: Record<string, string> = {
+  "I eat everything": "✅",
+  "Rice": "🍚",
+  "Couscous": "🥣",
+  "Quinoa": "🌾",
+  "Oats": "🌾",
+  "Almonds": "🌰",
+  "Walnuts": "🥜",
+  "Peanuts": "🥜",
+  "Corn": "🌽",
+};
+
 export const GOAL_EMOJIS = ["🔥", "💪", "🏋️", "☀️", "❤️", "🌿"];
 
 /* ─── Info Block Content ─── */
