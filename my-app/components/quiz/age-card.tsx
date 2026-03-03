@@ -17,6 +17,7 @@ type NumericStepProps = {
   onUnitChange?: (v: string) => void;
   helper?: string;
   helperBody?: string;
+  helperVariant?: "success" | "warning" | "danger";
 };
 
 export function NumericStep({
@@ -31,6 +32,7 @@ export function NumericStep({
   onUnitChange,
   helper,
   helperBody,
+  helperVariant,
 }: NumericStepProps) {
   const [inputValue, setInputValue] = useState(value ? String(value) : "");
 
@@ -75,7 +77,7 @@ export function NumericStep({
         </div>
       </div>
 
-      {helper && <InfoCard helper={helper} helperBody={helperBody} />}
+      {helper && <InfoCard helper={helper} helperBody={helperBody} variant={helperVariant} />}
 
       <CTAButton disabled={ctaDisabled} onClick={onContinue}>
         Continue

@@ -24,8 +24,11 @@ import {
   MEAL_OPTIONS,
   MEAL_DESCRIPTIONS,
   PROTEIN_OPTIONS,
+  PROTEIN_EMOJIS,
   VEGETABLE_OPTIONS,
+  VEGETABLE_EMOJIS,
   GRAIN_OPTIONS,
+  GRAIN_EMOJIS,
   GOAL_EMOJIS,
   INFO_BLOCKS,
   getGenderGoals,
@@ -100,7 +103,7 @@ export default function QuizPage() {
   if (!hydrated || step === 0) return null;
 
   return (
-    <div key={animKey}>
+    <div key={animKey} className="animate-page-slide-in">
       {/* ── Step 1: Q1 - Mediterranean familiarity ── */}
       {step === 1 && (
         <SingleChoiceStep
@@ -162,16 +165,16 @@ export default function QuizPage() {
           <div className="stagger-children mt-4 space-y-3">
             {q3Bodies.map((item) => {
               const maleBodyImages: Record<string, string> = {
-                "Slim": "/quiz/body-male-athletic.png",
-                "Average": "/quiz/body-male-lean.png",
-                "Some belly fat": "/quiz/body-male-belly.png",
-                "Overweight": "/quiz/body-male-overweight.png",
+                "Slim": "/docs/transparent/11.svg",
+                "Average": "/docs/transparent/12.svg",
+                "Some belly fat": "/docs/transparent/13.svg",
+                "Overweight": "/docs/transparent/14.svg",
               };
               const femaleBodyImages: Record<string, string> = {
-                "Slim": "/quiz/body-female-slim.png",
-                "Average": "/quiz/body-female-average.png",
-                "Some belly fat": "/quiz/body-female-belly.png",
-                "Overweight": "/quiz/body-female-overweight.png",
+                "Slim": "/docs/transparent/3.svg",
+                "Average": "/docs/transparent/4.svg",
+                "Some belly fat": "/docs/transparent/5.svg",
+                "Overweight": "/docs/transparent/6.svg",
               };
               const bodyImages = answers.gender === "male" ? maleBodyImages : femaleBodyImages;
               
@@ -430,6 +433,13 @@ export default function QuizPage() {
           onChange={(v) => setAnswer("q14", v)}
           helper={`✔️ ${getBmiMessage(analysis.bmiLabel).title}`}
           helperBody={getBmiMessage(analysis.bmiLabel).body}
+          helperVariant={
+            analysis.bmiLabel === "Healthy"
+              ? "success"
+              : analysis.bmiLabel === "Overweight"
+              ? "warning"
+              : "danger"
+          }
           ctaDisabled={
             answers.q14 < (answers.q14Unit === "kg" ? 40 : 88)
           }
@@ -609,7 +619,7 @@ export default function QuizPage() {
             Would you like to exclude any of these foods?
           </QuizTitle>
           <p className="mt-2 font-body text-base font-semibold text-[var(--text-primary)]">
-            Proteins &amp; dairy:
+            🥩 Proteins &amp; dairy:
           </p>
           <div className="stagger-children mt-6 space-y-3">
             {PROTEIN_OPTIONS.map((item) => (
@@ -618,11 +628,14 @@ export default function QuizPage() {
                 selected={answers.q18.includes(item)}
                 onClick={() => toggleMulti("q18", item)}
               >
-                <span className="flex items-center gap-3">
-                  <Checkbox checked={answers.q18.includes(item)} />
-                  <span className="font-body text-base font-medium text-[var(--text-primary)]">
-                    {item}
+                <span className="flex items-center justify-between">
+                  <span className="flex items-center gap-3">
+                    <Checkbox checked={answers.q18.includes(item)} />
+                    <span className="font-body text-base font-medium text-[var(--text-primary)]">
+                      {item}
+                    </span>
                   </span>
+                  <span className="text-lg">{PROTEIN_EMOJIS[item]}</span>
                 </span>
               </OptionCard>
             ))}
@@ -638,7 +651,7 @@ export default function QuizPage() {
             Would you like to exclude any of these foods?
           </QuizTitle>
           <p className="mt-2 font-body text-base font-semibold text-[var(--text-primary)]">
-            Fruits &amp; vegetables:
+            🥗 Fruits &amp; vegetables:
           </p>
           <div className="stagger-children mt-6 space-y-3">
             {VEGETABLE_OPTIONS.map((item) => (
@@ -647,11 +660,14 @@ export default function QuizPage() {
                 selected={answers.q19.includes(item)}
                 onClick={() => toggleMulti("q19", item)}
               >
-                <span className="flex items-center gap-3">
-                  <Checkbox checked={answers.q19.includes(item)} />
-                  <span className="font-body text-base font-medium text-[var(--text-primary)]">
-                    {item}
+                <span className="flex items-center justify-between">
+                  <span className="flex items-center gap-3">
+                    <Checkbox checked={answers.q19.includes(item)} />
+                    <span className="font-body text-base font-medium text-[var(--text-primary)]">
+                      {item}
+                    </span>
                   </span>
+                  <span className="text-lg">{VEGETABLE_EMOJIS[item]}</span>
                 </span>
               </OptionCard>
             ))}
@@ -667,7 +683,7 @@ export default function QuizPage() {
             Would you like to exclude any of these foods?
           </QuizTitle>
           <p className="mt-2 font-body text-base font-semibold text-[var(--text-primary)]">
-            Grains &amp; nuts:
+            🌾 Grains &amp; nuts:
           </p>
           <div className="stagger-children mt-6 space-y-3">
             {GRAIN_OPTIONS.map((item) => (
@@ -676,11 +692,14 @@ export default function QuizPage() {
                 selected={answers.q20.includes(item)}
                 onClick={() => toggleMulti("q20", item)}
               >
-                <span className="flex items-center gap-3">
-                  <Checkbox checked={answers.q20.includes(item)} />
-                  <span className="font-body text-base font-medium text-[var(--text-primary)]">
-                    {item}
+                <span className="flex items-center justify-between">
+                  <span className="flex items-center gap-3">
+                    <Checkbox checked={answers.q20.includes(item)} />
+                    <span className="font-body text-base font-medium text-[var(--text-primary)]">
+                      {item}
+                    </span>
                   </span>
+                  <span className="text-lg">{GRAIN_EMOJIS[item]}</span>
                 </span>
               </OptionCard>
             ))}
