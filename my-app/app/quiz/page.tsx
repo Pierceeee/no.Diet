@@ -721,26 +721,30 @@ export default function QuizPage() {
       {/* ═══════════ STEP 27 — RESULT ═══════════ */}
       {step === 27 && (
         <QuizSection>
-          <div className="animate-scale-in overflow-hidden rounded-[14px] bg-[#f5f5f5] p-5 sm:rounded-[16px] sm:p-8">
-            <p className="font-body text-sm font-medium text-gray-500 sm:text-base">
+          <div className="mx-auto w-full max-w-[448px] [font-family:var(--font-inter)]">
+            <div className="animate-scale-in overflow-hidden rounded-[14px] border border-[#d8d8d8] bg-[#f3f3f3] px-4 py-6 text-left">
+              <p className="text-[18px] font-semibold leading-[1.32] tracking-[-0.01em] text-[#101010]">
               Based on your food preferences, we&apos;ve created
-            </p>
-            <div className="mt-3 border-t border-[#e0e0e0] pt-3 sm:pt-4">
-              <p className="font-display text-4xl text-[#3bb44a] sm:text-5xl md:text-6xl">
-                500+
               </p>
-              <p className="mt-2 font-body text-base text-black sm:text-lg">
-                <span className="font-bold">Meal combinations</span>{" "}
-                <span className="text-gray-600">
-                  that are the perfect fit for you and will help you reach a
-                  healthy weight in the most enjoyable way!
-                </span>
-              </p>
+              <div className="mt-5 border-t border-[#d5d5d5] pt-5">
+                <p className="text-[62px] font-bold leading-none tracking-[-0.02em] text-[#06ad31]">
+                  500+
+                </p>
+                <p className="mt-2.5 text-[14px] leading-[1.45] tracking-[-0.01em] text-[#111]">
+                  <span className="font-bold">Meal combinations</span>{" "}
+                  <span className="font-normal text-[#2f2f2f]">
+                    that are the perfect fit for you and will help you reach a
+                    healthy weight in the most enjoyable way!
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
-          <CTAButton onClick={() => setStep(28)}>
-            Continue
-          </CTAButton>
+          <div className="mx-auto w-full max-w-[448px] [font-family:var(--font-inter)] [&_button]:[font-family:var(--font-inter)] [&_button]:font-semibold">
+            <CTAButton onClick={() => setStep(28)}>
+              Continue
+            </CTAButton>
+          </div>
         </QuizSection>
       )}
 
