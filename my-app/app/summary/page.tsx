@@ -6,12 +6,12 @@ import { useQuiz } from "@/lib/quiz-context";
 import { fmt } from "@/lib/utils";
 import { Logo } from "@/components/ui/logo";
 
-type SummaryStep = "metabolic" | "bmi" | "coach" | "features";
+type SummaryStep = "overview" | "coach" | "features";
 
 export default function SummaryPage() {
   const router = useRouter();
   const { analysis } = useQuiz();
-  const [summaryStep, setSummaryStep] = useState<SummaryStep>("metabolic");
+  const [summaryStep, setSummaryStep] = useState<SummaryStep>("overview");
 
   return (
     <div className="min-h-[100dvh] bg-white">
@@ -25,12 +25,14 @@ export default function SummaryPage() {
 
       <main className="mx-auto flex max-w-xl flex-col items-center px-5 pb-12 pt-8 sm:px-6 sm:pb-20 sm:pt-12">
         {/* Main Title */}
-        <h1 className="animate-fade-in-up text-center font-display text-[22px] font-semibold leading-snug tracking-[-0.02em] text-[#1a1a1a] sm:text-[28px] md:text-[32px]">
-          Your Personalized Mediterranean Coach Is Ready
-        </h1>
+        {summaryStep !== "features" && (
+          <h1 className="animate-fade-in-up text-center font-display text-[22px] font-semibold leading-snug tracking-[-0.02em] text-[#1a1a1a] sm:text-[28px] md:text-[32px]">
+            Your Personalized Mediterranean Coach Is Ready
+          </h1>
+        )}
 
-        {/* ═══════════ SECTION 1: Metabolic Snapshot ═══════════ */}
-        {summaryStep === "metabolic" && (
+        {/* ═══════════ SECTION 1: Combined Snapshot + BMI ═══════════ */}
+        {summaryStep === "overview" && (
           <div className="mt-8 w-full max-w-[600px] sm:mt-10">
             <div className="animate-fade-in-up rounded-2xl border-l-4 border-[var(--accent)] bg-[#f8f8f8] p-5 sm:rounded-3xl sm:p-6">
               <h2 className="font-display text-lg font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-xl">
@@ -89,21 +91,8 @@ export default function SummaryPage() {
               </div>
             </div>
 
-            <button
-              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
-              style={{ animationDelay: "0.9s", opacity: 0 }}
-              onClick={() => setSummaryStep("bmi")}
-            >
-              Continue
-            </button>
-          </div>
-        )}
-
-        {/* ═══════════ SECTION 2: BMI ═══════════ */}
-        {summaryStep === "bmi" && (
-          <div className="mt-8 w-full max-w-[600px] sm:mt-10">
             {/* BMI Card */}
-            <div className="animate-scale-in overflow-hidden rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-5 shadow-sm sm:rounded-3xl sm:p-7">
+            <div className="animate-scale-in mt-4 overflow-hidden rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-5 shadow-sm sm:mt-5 sm:rounded-3xl sm:p-7">
               <h3 className="font-display text-lg font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-xl">
                 Current BMI
               </h3>
@@ -301,95 +290,100 @@ export default function SummaryPage() {
 
         {/* ═══════════ SECTION 4: What's Included ═══════════ */}
         {summaryStep === "features" && (
-          <div className="mt-8 w-full max-w-[600px] sm:mt-10">
-            <h2 className="animate-fade-in-up text-center font-display text-lg font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-xl">
-              What&apos;s Included Inside Your System
+          <div className="mt-4 w-full max-w-[640px] sm:mt-5">
+            <h2 className="animate-fade-in-up text-center font-display text-[38px] font-semibold leading-[1.12] tracking-[-0.03em] text-[#171717] sm:text-[46px]">
+              What does your <span className="text-[#16a34a]">no.Diet</span> plan include?
             </h2>
 
-            <div className="mt-6 space-y-4 sm:mt-8">
+            <div className="mt-9 space-y-3 sm:mt-10">
               {/* Feature 1 */}
               <div
-                className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
+                className="animate-fade-in-up rounded-[10px] border border-[#ececec] bg-white px-5 py-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] sm:px-6 sm:py-4.5"
                 style={{ animationDelay: "0.15s", opacity: 0 }}
               >
-                <p className="font-body text-base font-semibold tracking-[-0.01em] text-[#1a1a1a]">
-                  ✔ Unlimited Adaptive Mediterranean Meals
+                <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
+                  <span className="mr-1.5 inline-block text-[14px] text-[#121212]">⌕</span>
+                  Unlimited Adaptive Mediterranean Meals
                 </p>
-                <p className="mt-1 font-body text-[15px] tracking-[-0.01em] text-[#666]">
+                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Matched to your preferences.
                 </p>
-                <p className="font-body text-[15px] font-medium tracking-[-0.01em] text-[#3bb44a]">
+                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
                   Enjoyable. Structured. Sustainable.
                 </p>
               </div>
 
               {/* Feature 2 */}
               <div
-                className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
+                className="animate-fade-in-up rounded-[10px] border border-[#ececec] bg-white px-5 py-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] sm:px-6 sm:py-4.5"
                 style={{ animationDelay: "0.3s", opacity: 0 }}
               >
-                <p className="font-body text-base font-semibold tracking-[-0.01em] text-[#1a1a1a]">
-                  ✔ Personalised Metabolic Movement
+                <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
+                  <span className="mr-1.5 inline-block text-[14px] text-[#121212]">⚡</span>
+                  Personalised Metabolic Movement
                 </p>
-                <p className="mt-1 font-body text-[15px] tracking-[-0.01em] text-[#666]">
+                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Strength, mobility, recovery.
                 </p>
-                <p className="font-body text-[15px] font-medium tracking-[-0.01em] text-[#3bb44a]">
+                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
                   Fat-loss support without burnout.
                 </p>
               </div>
 
               {/* Feature 3 */}
               <div
-                className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
+                className="animate-fade-in-up rounded-[10px] border border-[#ececec] bg-white px-5 py-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] sm:px-6 sm:py-4.5"
                 style={{ animationDelay: "0.45s", opacity: 0 }}
               >
-                <p className="font-body text-base font-semibold tracking-[-0.01em] text-[#1a1a1a]">
-                  ✔ Habit &amp; Consistency Challenges
+                <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
+                  <span className="mr-1.5 inline-block text-[14px] text-[#121212]">⚡</span>
+                  Habit &amp; Consistency Challenges
                 </p>
-                <p className="mt-1 font-body text-[15px] tracking-[-0.01em] text-[#666]">
+                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Small strategic actions.
                 </p>
-                <p className="font-body text-[15px] font-medium tracking-[-0.01em] text-[#3bb44a]">
+                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
                   Rhythm beats motivation.
                 </p>
               </div>
 
               {/* Feature 4 */}
               <div
-                className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
+                className="animate-fade-in-up rounded-[10px] border border-[#ececec] bg-white px-5 py-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] sm:px-6 sm:py-4.5"
                 style={{ animationDelay: "0.6s", opacity: 0 }}
               >
-                <p className="font-body text-base font-semibold tracking-[-0.01em] text-[#1a1a1a]">
-                  ✔ Longevity &amp; Metabolism Guides
+                <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
+                  <span className="mr-1.5 inline-block text-[14px] text-[#121212]">⌕</span>
+                  Longevity &amp; Metabolism Guides
                 </p>
-                <p className="mt-1 font-body text-[15px] tracking-[-0.01em] text-[#666]">
+                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Learn why inflammation, processed foods, and modern diet rules disrupt fat loss.
                 </p>
-                <p className="font-body text-[15px] font-medium tracking-[-0.01em] text-[#3bb44a]">
+                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
                   Clarity removes confusion.
                 </p>
               </div>
 
               {/* Feature 5 */}
               <div
-                className="animate-fade-in-up rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-4 shadow-sm sm:p-5"
+                className="animate-fade-in-up rounded-[10px] border border-[#ececec] bg-white px-5 py-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] sm:px-6 sm:py-4.5"
                 style={{ animationDelay: "0.75s", opacity: 0 }}
               >
-                <p className="font-body text-base font-semibold tracking-[-0.01em] text-[#1a1a1a]">
-                  ✔ Adaptive Progress Tracking
+                <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
+                  <span className="mr-1.5 inline-block text-[14px] text-[#121212]">⌕</span>
+                  Adaptive Progress Tracking
                 </p>
-                <p className="mt-1 font-body text-[15px] tracking-[-0.01em] text-[#666]">
+                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Track weight, body changes, energy, and habits.
                 </p>
-                <p className="font-body text-[15px] font-medium tracking-[-0.01em] text-[#3bb44a]">
+                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
                   Your plan adjusts as you progress.
                 </p>
               </div>
             </div>
 
             <button
-              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              className="animate-fade-in-up mt-7 w-full rounded-[10px] bg-[#10a331] px-6 py-3.5 font-body text-[15px] font-semibold text-white transition-all duration-200 hover:bg-[#0f952d] active:scale-[0.99] sm:mt-8 sm:py-4 sm:text-[16px]"
               style={{ animationDelay: "0.9s", opacity: 0 }}
               onClick={() => router.push("/offer")}
             >
