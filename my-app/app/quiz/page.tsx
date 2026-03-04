@@ -37,6 +37,8 @@ import {
   getQ12Reasons,
   getBmiMessage,
   getWeightLossMessage,
+  getActivityLevel,
+  getEnergyLevel,
 } from "@/lib/quiz-data";
 
 import { QuizSection, QuizTitle } from "@/components/ui/quiz-section";
@@ -90,13 +92,13 @@ export default function QuizPage() {
 
   const getBmiImage = () => {
     if (answers.gender === "male") {
-      if (analysis.bmiLabel === "Healthy") return "/quiz/12.png";
-      if (analysis.bmiLabel === "Overweight") return "/quiz/11.png";
-      return "/quiz/10.png";
+      if (analysis.bmiLabel === "Healthy") return "/quiz/47.svg";
+      if (analysis.bmiLabel === "Overweight") return "/quiz/48.svg";
+      return "/quiz/49.svg";
     } else {
-      if (analysis.bmiLabel === "Healthy") return "/quiz/7.png";
-      if (analysis.bmiLabel === "Overweight") return "/quiz/6-1.png";
-      return "/quiz/5.png";
+      if (analysis.bmiLabel === "Healthy") return "/quiz/50.svg";
+      if (analysis.bmiLabel === "Overweight") return "/quiz/51.svg";
+      return "/quiz/52.svg";
     }
   };
 
@@ -562,7 +564,7 @@ export default function QuizPage() {
                     Activity level
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    📊 {answers.q6 || "Not set"}
+                    📊 {answers.q6 ? getActivityLevel(answers.q6) : "Not set"}
                   </p>
                 </div>
                 <div>
@@ -570,7 +572,7 @@ export default function QuizPage() {
                     Energy level
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    😟 {answers.q7 || "Not set"}
+                    😟 {answers.q7 ? getEnergyLevel(answers.q7) : "Not set"}
                   </p>
                 </div>
                 <div>
@@ -582,7 +584,7 @@ export default function QuizPage() {
                   </p>
                 </div>
               </div>
-              <div className="relative h-56 w-40 overflow-hidden rounded-[12px] bg-gradient-to-b from-[#eeeeee] to-[#e0e0e0] sm:h-64 sm:w-44">
+              <div className="relative h-56 w-40 overflow-hidden rounded-[12px] sm:h-64 sm:w-44">
                 <Image
                   src={getBmiImage()}
                   alt=""

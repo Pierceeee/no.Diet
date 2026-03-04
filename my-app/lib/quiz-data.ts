@@ -389,3 +389,34 @@ export function getWeightLossMessage(lossPercent: number): { title: string; body
     body: "Research shows that people who lose more than 20% of their body weight often improve their metabolic health more than those who lose only 5–10%. Losing more weight can lead to better energy, better blood sugar control, and better overall health.",
   };
 }
+
+export type ActivityLevel = "Low" | "Medium" | "High";
+export type EnergyLevel = "Low" | "Medium" | "High";
+
+export function getActivityLevel(answer: string): ActivityLevel {
+  switch (answer) {
+    case "I sit most of the day":
+    case "I stay at home":
+      return "Low";
+    case "I move a lot":
+      return "Medium";
+    case "I exercise often":
+      return "High";
+    default:
+      return "Medium";
+  }
+}
+
+export function getEnergyLevel(answer: string): EnergyLevel {
+  switch (answer) {
+    case "Low most of the time":
+    case "I feel tired after lunch":
+      return "Low";
+    case "My energy goes up and down":
+      return "Medium";
+    case "My energy is steady":
+      return "High";
+    default:
+      return "Medium";
+  }
+}
