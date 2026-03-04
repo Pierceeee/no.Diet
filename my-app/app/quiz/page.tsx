@@ -709,7 +709,6 @@ export default function QuizPage() {
           <CTAButton onClick={() => {
             setStep(26);
             setIsGenerating(true);
-            setProgress(38);
           }}>Continue</CTAButton>
         </QuizSection>
       )}

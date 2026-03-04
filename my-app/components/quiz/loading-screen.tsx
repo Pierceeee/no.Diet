@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useQuiz } from "@/lib/quiz-context";
 
 const LOADING_MESSAGES = [
@@ -12,21 +12,57 @@ const LOADING_MESSAGES = [
   "Building your adaptive Mediterranean Coaching system…",
 ];
 
+const DURATION_MS = 5500;
+const START_PROGRESS = 1;
+
 export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
   const { progress, setProgress, isGenerating, setIsGenerating } = useQuiz();
+  const startTimeRef = useRef<number | null>(null);
+  const rafRef = useRef<number>(0);
+  const completedRef = useRef(false);
 
   useEffect(() => {
     if (!isGenerating) return;
-    if (progress >= 100) {
-      const t = setTimeout(() => {
-        setIsGenerating(false);
-        onComplete();
-      }, 400);
-      return () => clearTimeout(t);
-    }
-    const t = setTimeout(() => setProgress((p) => Math.min(100, p + 4)), 350);
-    return () => clearTimeout(t);
-  }, [isGenerating, progress, setProgress, setIsGenerating, onComplete]);
+
+    setProgress(START_PROGRESS);
+    startTimeRef.current = null;
+    completedRef.current = false;
+
+    const animate = (timestamp: number) => {
+      if (startTimeRef.current === null) {
+        startTimeRef.current = timestamp;
+      }
+
+      const elapsed = timestamp - startTimeRef.current;
+      const remaining = 100 - START_PROGRESS;
+      const newProgress = Math.min(
+        100,
+        START_PROGRESS + (elapsed / DURATION_MS) * remaining
+      );
+
+      const roundedProgress = Math.round(newProgress);
+      setProgress(roundedProgress);
+
+      if (roundedProgress >= 100 && !completedRef.current) {
+        completedRef.current = true;
+        setTimeout(() => {
+          setIsGenerating(false);
+          onComplete();
+        }, 400);
+        return;
+      }
+
+      if (newProgress < 100) {
+        rafRef.current = requestAnimationFrame(animate);
+      }
+    };
+
+    rafRef.current = requestAnimationFrame(animate);
+
+    return () => {
+      cancelAnimationFrame(rafRef.current);
+    };
+  }, [isGenerating, setProgress, setIsGenerating, onComplete]);
 
   const visibleMessages = LOADING_MESSAGES.filter((_, i) => {
     const threshold = ((i + 1) / (LOADING_MESSAGES.length + 1)) * 100;
@@ -56,7 +92,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
             strokeLinecap="round"
             strokeDasharray={2 * Math.PI * 52}
             strokeDashoffset={2 * Math.PI * 52 * (1 - progress / 100)}
-            style={{ transition: "stroke-dashoffset 0.3s ease" }}
+            style={{ transition: "stroke-dashoffset 0.1s linear" }}
           />
         </svg>
         <div className="absolute inset-0 flex items-center justify-center">
