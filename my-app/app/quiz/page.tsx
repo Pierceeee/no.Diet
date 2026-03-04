@@ -215,16 +215,16 @@ export default function QuizPage() {
           <div className="stagger-children mt-4 space-y-3">
             {q4Bodies.map((item) => {
               const maleTargetImages: Record<string, string> = {
-                "A little slimmer": "/quiz/body-male-slim.png",
-                "Lean and fit": "/quiz/body-male-fit.png",
-                "Athletic": "/quiz/body-male-toned.png",
-                "Strong and defined": "/quiz/body-male-muscular.png",
+                "A little slimmer": "/docs/transparent/15.svg",
+                "Lean and fit": "/docs/transparent/16.svg",
+                "Athletic": "/docs/transparent/17.svg",
+                "Strong and defined": "/docs/transparent/18.svg",
               };
               const femaleTargetImages: Record<string, string> = {
-                "Feel like myself again": "/quiz/body-female-target1.png",
-                "Lose stubborn belly fat": "/quiz/body-female-target2.png",
-                "Feel lighter and more confident": "/quiz/body-female-target3.png",
-                "Look toned and youthful": "/quiz/body-female-target4.png",
+                "Feel like myself again": "/docs/transparent/7.svg",
+                "Lose stubborn belly fat": "/docs/transparent/8.svg",
+                "Feel lighter and more confident": "/docs/transparent/9.svg",
+                "Look toned and youthful": "/docs/transparent/10.svg",
               };
               const targetImages = answers.gender === "male" ? maleTargetImages : femaleTargetImages;
               
