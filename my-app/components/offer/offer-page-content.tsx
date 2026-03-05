@@ -240,6 +240,15 @@ export default function OfferPageContent() {
         {selectedPlanData.originalPrice} until canceled. You can cancel anytime
         by contacting support at hello@mediet.app.
       </p>
+      <div className="relative mt-4 h-[80px] w-full sm:h-[100px]">
+        <Image
+          src="/docs/offer-page/17.svg"
+          alt="Secure payment methods"
+          fill
+          className="object-contain"
+          sizes="(max-width: 640px) 100vw, 600px"
+        />
+      </div>
     </>
   );
 
