@@ -123,17 +123,17 @@ export default function LandingPage() {
 
         {/* CTA Buttons */}
         <div className="mt-5 flex w-full max-w-[440px] flex-col items-center gap-3 px-4 sm:mt-6 sm:flex-row sm:gap-5 sm:px-0">
-          {/* Program for Men - green button */}
+          {/* Program for Men - blue button */}
           <button
-            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#3bb44a] font-body text-[15px] font-semibold tracking-[-0.01em] text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
+            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#3b82f6] font-body text-[15px] font-semibold tracking-[-0.01em] text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
             onClick={() => handleGender("male")}
           >
             <span>👨</span> Program for Men
           </button>
 
-          {/* Program for Women - yellow/gold button */}
+          {/* Program for Women - purple button */}
           <button
-            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#f9c823] font-body text-[15px] font-semibold tracking-[-0.01em] text-black transition-all duration-200 hover:bg-[#e6b71e] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
+            className="flex h-[52px] w-full items-center justify-center gap-2 rounded-full bg-[#a855f7] font-body text-[15px] font-semibold tracking-[-0.01em] text-white transition-all duration-200 hover:bg-[#9333ea] hover:shadow-lg active:scale-[0.98] sm:w-[200px]"
             onClick={() => handleGender("female")}
           >
             <span>👩</span> Program for Women
