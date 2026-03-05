@@ -64,7 +64,7 @@ export function NumericStep({
                 : "rounded-full bg-[#f5f5f5] p-1"
             } sm:mt-8`}
           >
-            {[unitA, unitB].map((unit) => (
+                {[unitA, unitB].map((unit) => (
               <button
                 key={unit}
                 onClick={() => onUnitChange(unit)}
@@ -72,7 +72,7 @@ export function NumericStep({
                   showReferenceStyle ? "rounded-[8px]" : "rounded-full"
                 } ${
                   selectedUnit === unit
-                    ? "bg-[var(--accent)] text-white shadow-sm"
+                    ? "bg-[#06ad31] text-white shadow-sm"
                     : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 }`}
               >
