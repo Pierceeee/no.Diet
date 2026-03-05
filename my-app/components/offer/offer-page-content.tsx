@@ -7,17 +7,13 @@ import { useState } from "react";
 
 type PlanType = "week" | "month" | "quarter";
 
-interface OfferPageContentProps {
-  discountPercent: number;
-  nextDiscountUrl?: string;
-  isNonbuyers?: boolean;
-}
-
 const ORIGINAL_PRICES = {
   week: 12.98,
   month: 37.98,
   quarter: 75.98,
 };
+
+const DISCOUNT_PERCENT = 50;
 
 const FAQ_ITEMS = [
   {
@@ -95,46 +91,33 @@ const FEATURES = [
   },
 ];
 
-export default function OfferPageContent({
-  discountPercent,
-  nextDiscountUrl,
-  isNonbuyers = false,
-}: OfferPageContentProps) {
+export default function OfferPageContent() {
   const { analysis, answers } = useQuiz();
   const [selectedPlan, setSelectedPlan] = useState<PlanType>("month");
   const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
 
-  const discountMultiplier = (100 - discountPercent) / 100;
+  const discountMultiplier = (100 - DISCOUNT_PERCENT) / 100;
 
   const plans = {
     week: {
       name: "7-Day Plan",
       originalPrice: ORIGINAL_PRICES.week,
       discountPrice: +(ORIGINAL_PRICES.week * discountMultiplier).toFixed(2),
-      perDay: +(
-        (ORIGINAL_PRICES.week * discountMultiplier) /
-        7
-      ).toFixed(2),
+      perDay: +((ORIGINAL_PRICES.week * discountMultiplier) / 7).toFixed(2),
     },
     month: {
       name: "1-Month Plan",
       originalPrice: ORIGINAL_PRICES.month,
       discountPrice: +(ORIGINAL_PRICES.month * discountMultiplier).toFixed(2),
-      perDay: +(
-        (ORIGINAL_PRICES.month * discountMultiplier) /
-        30
-      ).toFixed(2),
+      perDay: +((ORIGINAL_PRICES.month * discountMultiplier) / 30).toFixed(2),
       popular: true,
     },
     quarter: {
       name: "3-Month Plan",
       originalPrice: ORIGINAL_PRICES.quarter,
       discountPrice: +(ORIGINAL_PRICES.quarter * discountMultiplier).toFixed(2),
-      perDay: +(
-        (ORIGINAL_PRICES.quarter * discountMultiplier) /
-        90
-      ).toFixed(2),
+      perDay: +((ORIGINAL_PRICES.quarter * discountMultiplier) / 90).toFixed(2),
     },
   };
 
@@ -147,8 +130,7 @@ export default function OfferPageContent({
   const currentFitness = analysis.bmi > 25 ? 1 : analysis.bmi > 22 ? 2 : 3;
   const goalFitness = 3;
 
-  const accentColor = discountPercent >= 60 ? "#1565c0" : "#3bb44a";
-  const accentColorLight = discountPercent >= 60 ? "#e3f2fd" : "#f0faf2";
+  const accentColor = "#3bb44a";
 
   const PricingPlans = () => (
     <div className="space-y-3 sm:space-y-4">
@@ -156,11 +138,8 @@ export default function OfferPageContent({
         <div key={plan} className="relative">
           {plan === "month" && (
             <div className="absolute -top-3 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap">
-              <span
-                className="flex items-center gap-1 rounded-full px-3 py-1 font-body text-[10px] font-bold uppercase tracking-wider text-white sm:px-4 sm:text-[11px]"
-                style={{ backgroundColor: accentColor }}
-              >
-                MOST POPULAR: {discountPercent}% OFF
+              <span className="flex items-center gap-1 rounded-full bg-[#3bb44a] px-3 py-1 font-body text-[10px] font-bold uppercase tracking-wider text-white sm:px-4 sm:text-[11px]">
+                MOST POPULAR: 50% OFF
               </span>
             </div>
           )}
@@ -168,14 +147,11 @@ export default function OfferPageContent({
             onClick={() => setSelectedPlan(plan)}
             className={`flex w-full items-center justify-between rounded-[12px] border-2 px-3 py-3 text-left transition-all sm:px-5 sm:py-4 ${
               plan === "month" ? "pt-4 sm:pt-5" : ""
-            } ${
-              selectedPlan === plan
-                ? `border-[${accentColor}]`
-                : "border-[#e8e8e8] bg-white"
             }`}
             style={{
               borderColor: selectedPlan === plan ? accentColor : "#e8e8e8",
-              backgroundColor: selectedPlan === plan ? accentColorLight : "white",
+              backgroundColor:
+                selectedPlan === plan ? "#f0faf2" : "white",
             }}
           >
             <div className="flex items-center gap-2 sm:gap-3">
@@ -186,10 +162,7 @@ export default function OfferPageContent({
                 }}
               >
                 {selectedPlan === plan && (
-                  <div
-                    className="h-2.5 w-2.5 rounded-full"
-                    style={{ backgroundColor: accentColor }}
-                  />
+                  <div className="h-2.5 w-2.5 rounded-full bg-[#3bb44a]" />
                 )}
               </div>
               <div>
@@ -200,69 +173,15 @@ export default function OfferPageContent({
                   <span className="line-through">
                     ${plans[plan].originalPrice}
                   </span>{" "}
-                  <span
-                    className="font-semibold"
-                    style={{ color: accentColor }}
-                  >
+                  <span className="font-semibold text-[#3bb44a]">
                     ${plans[plan].discountPrice}
                   </span>
                 </p>
               </div>
             </div>
-            <div
-              className="flex shrink-0 items-baseline gap-0.5 rounded-[8px] px-2 py-1 sm:px-3 sm:py-1.5"
-              style={{
-                backgroundColor:
-                  selectedPlan === plan && plan === "month"
-                    ? accentColor
-                    : "#f5f5f5",
-              }}
-            >
-              <span
-                className="font-body text-[11px] font-bold sm:text-[13px]"
-                style={{
-                  color:
-                    selectedPlan === plan && plan === "month"
-                      ? "white"
-                      : "var(--text-primary)",
-                }}
-              >
-                $
-              </span>
-              <span
-                className="font-body text-[24px] font-extrabold leading-none sm:text-[32px]"
-                style={{
-                  color:
-                    selectedPlan === plan && plan === "month"
-                      ? "white"
-                      : "var(--text-primary)",
-                }}
-              >
-                {Math.floor(plans[plan].perDay)}
-              </span>
-              <span
-                className="font-body text-[13px] font-extrabold sm:text-[16px]"
-                style={{
-                  color:
-                    selectedPlan === plan && plan === "month"
-                      ? "white"
-                      : "var(--text-primary)",
-                }}
-              >
-                {(plans[plan].perDay % 1).toFixed(2).substring(2)}
-              </span>
-              <span
-                className="ml-0.5 font-body text-[9px] sm:ml-1 sm:text-[11px]"
-                style={{
-                  color:
-                    selectedPlan === plan && plan === "month"
-                      ? "rgba(255,255,255,0.7)"
-                      : "var(--text-muted)",
-                }}
-              >
-                per day
-              </span>
-            </div>
+            <span className="shrink-0 rounded-[6px] bg-[#3bb44a] px-2.5 py-1 font-body text-[11px] font-bold text-white sm:px-3 sm:py-1.5 sm:text-[13px]">
+              -50%
+            </span>
           </button>
         </div>
       ))}
@@ -293,11 +212,11 @@ export default function OfferPageContent({
       </button>
       <p className="font-body text-xs text-[#666] sm:text-sm">
         I agree to the{" "}
-        <a href="#" className="underline" style={{ color: accentColor }}>
+        <a href="#" className="text-[#3bb44a] underline">
           T&Cs
         </a>{" "}
         and{" "}
-        <a href="#" className="underline" style={{ color: accentColor }}>
+        <a href="#" className="text-[#3bb44a] underline">
           Privacy Policy
         </a>
         .
@@ -309,8 +228,7 @@ export default function OfferPageContent({
     <>
       <button
         disabled={!agreedToTerms}
-        className="mt-4 w-full rounded-[12px] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
-        style={{ backgroundColor: accentColor }}
+        className="mt-4 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
       >
         GET MY PLAN
       </button>
@@ -325,104 +243,9 @@ export default function OfferPageContent({
     </>
   );
 
-  if (isNonbuyers) {
-    return (
-      <section className="w-full max-w-[600px]">
-        <div className="rounded-2xl bg-gradient-to-br from-[#f5f5f5] to-[#e8e8e8] p-6 text-center sm:p-8">
-          <p className="text-4xl">👋</p>
-          <h1 className="mt-4 font-display text-xl font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-2xl">
-            We understand.
-          </h1>
-          <p className="mt-3 font-body text-sm text-[#666] sm:text-base">
-            Maybe now isn&apos;t the right time for you.
-          </p>
-          <p className="mt-2 font-body text-sm text-[#666] sm:text-base">
-            That&apos;s completely okay.
-          </p>
-        </div>
-
-        <div className="mt-8 text-center">
-          <h2 className="font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
-            Before you go...
-          </h2>
-          <p className="mt-3 font-body text-sm text-[#666] sm:text-base">
-            Your personalized Mediterranean Coach plan has been created based on
-            your unique profile:
-          </p>
-        </div>
-
-        <div className="mt-6 grid grid-cols-2 gap-4">
-          <div className="rounded-xl border border-[#e8e8e8] bg-white p-4 text-center">
-            <p className="font-body text-xs text-[var(--text-muted)]">
-              Current weight
-            </p>
-            <p className="mt-1 font-body text-lg font-bold text-[var(--text-primary)]">
-              {fmt(analysis.currentKg, 0)} kg
-            </p>
-          </div>
-          <div className="rounded-xl border border-[#e8e8e8] bg-white p-4 text-center">
-            <p className="font-body text-xs text-[var(--text-muted)]">
-              Target weight
-            </p>
-            <p className="mt-1 font-body text-lg font-bold text-[#3bb44a]">
-              {fmt(analysis.targetKg, 0)} kg
-            </p>
-          </div>
-        </div>
-
-        <div className="mt-8 rounded-xl border-2 border-dashed border-[#d0d0d0] bg-[#fafafa] p-5 text-center">
-          <p className="font-body text-sm font-medium text-[#666]">
-            Your plan will be saved for <strong>24 hours</strong>.
-          </p>
-          <p className="mt-2 font-body text-xs text-[#999]">
-            If you change your mind, you can return and claim your discount.
-          </p>
-        </div>
-
-        <div className="mt-8">
-          <p className="text-center font-body text-sm font-semibold text-[var(--text-primary)]">
-            In case you reconsider:
-          </p>
-          <div className="mt-4 rounded-xl border border-[#3bb44a] bg-[#f0faf2] p-4">
-            <p className="text-center font-body text-sm text-[#3bb44a]">
-              Your special {discountPercent}% discount is still available
-            </p>
-            <p className="mt-1 text-center font-body text-xs text-[#666]">
-              1-Month Plan:{" "}
-              <span className="line-through">${ORIGINAL_PRICES.month}</span>{" "}
-              <span className="font-bold text-[#3bb44a]">
-                ${plans.month.discountPrice}
-              </span>
-            </p>
-          </div>
-        </div>
-
-        <a
-          href="/offer"
-          className="mt-6 block w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 text-center font-body text-base font-bold text-white transition-all hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] sm:px-6 sm:py-4 sm:text-lg"
-        >
-          Yes, I want my personalized plan
-        </a>
-
-        <p className="mt-4 text-center font-body text-xs text-[#999]">
-          No pressure. We just want you to have the option.
-        </p>
-
-        <div className="mt-8 border-t border-[#e8e8e8] pt-6 text-center">
-          <p className="font-body text-xs text-[#999]">
-            Questions? Contact us at hello@mediet.app
-          </p>
-          <p className="mt-4 font-body text-xs text-[#ccc]">
-            © 2026 Mediet.app. All rights reserved.
-          </p>
-        </div>
-      </section>
-    );
-  }
-
   return (
     <section className="w-full max-w-[600px]">
-      {/* ─── Now vs Goal Card ─── */}
+      {/* Now vs Goal Card */}
       <div className="animate-scale-in overflow-hidden rounded-[14px] border border-[#e8e8e8] bg-white shadow-sm sm:rounded-[16px]">
         <div className="grid grid-cols-2">
           <div className="border-b border-r border-[#e8e8e8] py-2.5 text-center sm:py-3">
@@ -441,7 +264,11 @@ export default function OfferPageContent({
           <div className="relative border-r border-[#e8e8e8]">
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
-                src={answers.gender === "male" ? "/docs/offer-page/6.svg" : "/docs/offer-page/4.svg"}
+                src={
+                  answers.gender === "male"
+                    ? "/docs/offer-page/6.svg"
+                    : "/docs/offer-page/4.svg"
+                }
                 alt="Current body"
                 fill
                 className="object-contain object-bottom opacity-60 grayscale"
@@ -488,7 +315,11 @@ export default function OfferPageContent({
           <div className="relative">
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
-                src={answers.gender === "male" ? "/docs/offer-page/5.svg" : "/docs/offer-page/3.svg"}
+                src={
+                  answers.gender === "male"
+                    ? "/docs/offer-page/5.svg"
+                    : "/docs/offer-page/3.svg"
+                }
                 alt="Goal body"
                 fill
                 className="object-contain object-bottom"
@@ -534,56 +365,55 @@ export default function OfferPageContent({
         </div>
       </div>
 
-      {/* ─── Plan Ready Section ─── */}
+      {/* Plan Ready Section */}
       <div className="mt-8 text-center sm:mt-10">
         <h2 className="font-body text-[22px] font-extrabold leading-snug text-[var(--text-primary)] sm:text-[26px] md:text-[32px]">
           Your Personalized Mediterranean
           <br />
           Coach Plan Is Ready
         </h2>
-        <p className="mx-auto mt-3 max-w-md font-body text-sm text-[#666] sm:text-base">
-          You completed the quiz. Your metabolism profile is calculated. Your
-          plan is prepared. Now choose the option that fits you best.
-        </p>
 
-        <div className="mt-5 flex items-center justify-center gap-4 sm:mt-6 sm:gap-6">
-          <div className="flex items-center gap-2">
-            <span className="text-lg sm:text-xl">🎯</span>
+        <div className="mx-auto mt-5 flex items-center justify-center gap-3 sm:mt-6 sm:gap-4">
+          <div className="flex items-center gap-2 rounded-full border border-[#e8e8e8] bg-white px-3 py-2 sm:px-4 sm:py-2.5">
+            <span className="text-base sm:text-lg">🎯</span>
             <div className="text-left">
-              <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[12px]">
-                Goal
+              <p className="font-body text-[10px] text-[var(--text-muted)] sm:text-[11px]">
+                Your Goal
               </p>
-              <p className="font-body text-[13px] font-bold text-[var(--text-primary)] sm:text-[14px]">
+              <p className="font-body text-[12px] font-bold text-[var(--text-primary)] sm:text-[13px]">
                 {answers.q2.length > 0 ? answers.q2[0] : "Lose weight"}
               </p>
             </div>
           </div>
-          <div className="h-8 w-[1px] bg-[#e8e8e8]" />
-          <div className="flex items-center gap-2">
-            <span className="text-lg sm:text-xl">⚖️</span>
+          <div className="flex items-center gap-2 rounded-full border border-[#e8e8e8] bg-white px-3 py-2 sm:px-4 sm:py-2.5">
+            <span className="text-base sm:text-lg">⚖️</span>
             <div className="text-left">
-              <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[12px]">
+              <p className="font-body text-[10px] text-[var(--text-muted)] sm:text-[11px]">
                 Target weight
               </p>
-              <p className="font-body text-[13px] font-bold text-[var(--text-primary)] sm:text-[14px]">
+              <p className="font-body text-[12px] font-bold text-[var(--text-primary)] sm:text-[13px]">
                 {fmt(analysis.targetKg, 0)} kg
               </p>
             </div>
           </div>
         </div>
+
+        <div className="mx-auto mt-4 inline-flex items-center gap-2 rounded-full bg-[#e8f5e9] px-4 py-2 sm:mt-5">
+          <span className="text-[#3bb44a]">✓</span>
+          <p className="font-body text-[12px] font-medium text-[#3bb44a] sm:text-[13px]">
+            Your plan is ready
+          </p>
+        </div>
       </div>
 
-      {/* ─── Choose Your Plan ─── */}
+      {/* Choose Your Plan */}
       <div id="get-plan" className="mt-8 sm:mt-10">
-        <h3 className="mb-4 text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:mb-5 sm:text-xl">
-          Choose Your Plan
-        </h3>
         <PricingPlans />
         <TermsCheckbox />
         <CTAButton />
       </div>
 
-      {/* ─── Safe Checkout ─── */}
+      {/* Safe Checkout */}
       <div className="mt-6 flex items-center justify-center gap-2">
         <span className="text-sm">🔒</span>
         <p className="font-body text-xs font-medium text-[#666]">
@@ -591,77 +421,52 @@ export default function OfferPageContent({
         </p>
       </div>
 
-      {/* ─── What's Included ─── */}
+      {/* Highlights of your plan */}
       <div className="mt-10 sm:mt-12">
         <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
-          What&apos;s Included Inside Your Plan
+          Highlights of your plan
         </h3>
         <div className="mt-6 space-y-4">
           {FEATURES.map((feature, i) => (
-            <div
-              key={i}
-              className="rounded-xl border border-[#e8e8e8] bg-white p-4 sm:p-5"
-            >
-              <div className="flex items-start gap-3">
-                <span
-                  className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs text-white"
-                  style={{ backgroundColor: accentColor }}
-                >
-                  ✓
-                </span>
-                <div>
-                  <p className="font-body text-sm font-bold text-[var(--text-primary)] sm:text-base">
-                    {feature.title}
-                  </p>
-                  <p className="mt-1 font-body text-xs text-[#666] sm:text-sm">
-                    {feature.description}
-                  </p>
-                </div>
+            <div key={i} className="flex items-start gap-3">
+              <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#3bb44a] text-xs text-white">
+                ✓
+              </span>
+              <div>
+                <p className="font-body text-sm font-bold text-[var(--text-primary)] sm:text-base">
+                  {feature.title}
+                </p>
+                <p className="mt-1 font-body text-xs text-[#666] sm:text-sm">
+                  {feature.description}
+                </p>
               </div>
             </div>
           ))}
         </div>
+        <button
+          disabled={!agreedToTerms}
+          className="mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
+        >
+          GET MY PLAN
+        </button>
       </div>
 
-      {/* ─── See Visible Results ─── */}
-      <div className="mt-10 rounded-xl bg-gradient-to-br from-[#f0faf2] to-[#e8f5e9] p-5 sm:mt-12 sm:p-6">
-        <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
-          See Visible Results in 4 Weeks
-        </h3>
-        <p className="mt-4 text-center font-body text-sm text-[#666]">
-          Many users begin to notice:
-        </p>
-        <ul className="mt-3 space-y-2 text-center">
-          <li className="font-body text-sm text-[#444]">
-            ✓ More stable energy
-          </li>
-          <li className="font-body text-sm text-[#444]">✓ Less bloating</li>
-          <li className="font-body text-sm text-[#444]">
-            ✓ Better control over cravings
-          </li>
-          <li className="font-body text-sm text-[#444]">
-            ✓ Visible body changes
-          </li>
-        </ul>
-        <p className="mt-4 text-center font-body text-sm font-medium text-[#444]">
-          The key is consistency. Your system helps you stay on track.
-        </p>
-      </div>
-
-      {/* ─── Second Pricing Section ─── */}
-      <div className="mt-10 sm:mt-12">
-        <h3 className="mb-4 text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:mb-5 sm:text-xl">
-          Choose Your Plan
-        </h3>
-        <PricingPlans />
-        <TermsCheckbox />
-        <CTAButton />
-      </div>
-
-      {/* ─── FAQ Section ─── */}
+      {/* Get visible results */}
       <div className="mt-10 sm:mt-12">
         <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
-          Got Questions?
+          Get visible results in 4 weeks!
+        </h3>
+        <div className="mt-6">
+          <PricingPlans />
+          <TermsCheckbox />
+          <CTAButton />
+        </div>
+      </div>
+
+      {/* FAQ Section */}
+      <div className="mt-10 rounded-xl bg-[#f9f9f9] p-5 sm:mt-12 sm:p-6">
+        <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
+          Got questions?
         </h3>
         <div className="mt-6 space-y-3">
           {FAQ_ITEMS.map((faq, i) => (
@@ -704,34 +509,27 @@ export default function OfferPageContent({
         </div>
       </div>
 
-      {/* ─── Risk-Free Cancellation ─── */}
+      {/* Risk-Free Guarantee */}
       <div className="mt-10 flex flex-col items-center text-center sm:mt-12">
-        <div className="relative h-[180px] w-[180px] sm:h-[220px] sm:w-[220px]">
+        <div className="relative h-[120px] w-[120px] sm:h-[150px] sm:w-[150px]">
           <Image
-            src="/risk-free-guarantee.png"
-            alt="Risk-Free Guarantee - Cancel Anytime"
+            src="/docs/offer-page/2.svg"
+            alt="Risk-Free Guarantee"
             fill
             className="object-contain"
-            sizes="220px"
+            sizes="150px"
           />
         </div>
-        <p className="mt-4 font-body text-sm text-[#666]">
-          You can cancel your subscription anytime.
+        <h3 className="mt-4 font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
+          Risk-free guarantee
+        </h3>
+        <p className="mt-2 max-w-sm font-body text-sm text-[#666]">
+          You can cancel your subscription anytime by contacting support by
+          email hello@mediet.app. No extra charges.
         </p>
-        <p className="font-body text-sm text-[#666]">No extra charges.</p>
       </div>
 
-      {/* ─── No Thanks Link (for discount pages) ─── */}
-      {nextDiscountUrl && (
-        <a
-          href={nextDiscountUrl}
-          className="mt-6 block w-full text-center font-body text-sm text-[#999] underline transition-colors hover:text-[#666]"
-        >
-          No thanks, I don&apos;t want to try this system
-        </a>
-      )}
-
-      {/* ─── Footer ─── */}
+      {/* Footer */}
       <div className="mt-8 border-t border-[#e8e8e8] pt-6 text-center">
         <p className="font-body text-xs text-[#999]">Results may vary.</p>
         <p className="mt-2 font-body text-xs text-[#ccc]">
