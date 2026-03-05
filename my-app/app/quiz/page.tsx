@@ -502,10 +502,10 @@ export default function QuizPage() {
             </h3>
             <div className="relative mt-5 mb-2 sm:mt-6">
               <div
-                className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-2 py-0.5 text-[11px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
+                className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-1.5 py-0.5 text-[10px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
                 style={{ left: `${analysis.bmiPosition}%` }}
               >
-                You - {fmt(analysis.bmi)}
+                <span className="whitespace-nowrap">You - {fmt(analysis.bmi)}</span>
                 <span className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 bg-[var(--accent)]" />
               </div>
               <div className="bmi-gradient h-3 w-full rounded-full" />
@@ -517,11 +517,11 @@ export default function QuizPage() {
                 }}
               />
             </div>
-            <div className="relative mt-3 h-5 font-body text-xs text-[var(--text-muted)]">
-              <span className="absolute left-[9%] -translate-x-1/2">Underweight</span>
-              <span className="absolute left-[34%] -translate-x-1/2">Healthy</span>
-              <span className="absolute left-[62.5%] -translate-x-1/2">Overweight</span>
-              <span className="absolute left-[87.5%] -translate-x-1/2">Obese</span>
+            <div className="relative mt-3 h-5 font-body text-[10px] text-[var(--text-muted)] sm:text-xs">
+              <span className="absolute left-[9%] -translate-x-1/2 whitespace-nowrap">Underweight</span>
+              <span className="absolute left-[34%] -translate-x-1/2 whitespace-nowrap">Healthy</span>
+              <span className="absolute left-[62.5%] -translate-x-1/2 whitespace-nowrap">Overweight</span>
+              <span className="absolute left-[87.5%] -translate-x-1/2 whitespace-nowrap">Obese</span>
             </div>
           </div>
 
@@ -549,8 +549,8 @@ export default function QuizPage() {
             className="animate-fade-in-up mt-3 overflow-hidden rounded-[14px] bg-[#f5f5f5] p-4 sm:mt-4 sm:rounded-[16px] sm:p-6"
             style={{ animationDelay: "0.25s", opacity: 0 }}
           >
-            <div className="flex items-start justify-between gap-4">
-              <div className="space-y-3 sm:space-y-4">
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-start sm:justify-between">
+              <div className="w-full space-y-3 sm:space-y-4">
                 <div>
                   <p className="font-body text-xs uppercase tracking-wider text-[var(--text-muted)]">
                     Body fat
@@ -584,13 +584,13 @@ export default function QuizPage() {
                   </p>
                 </div>
               </div>
-              <div className="relative h-56 w-40 overflow-hidden rounded-[12px] sm:h-64 sm:w-44">
+              <div className="relative h-72 w-56 flex-shrink-0 sm:h-80 sm:w-60">
                 <Image
                   src={getBmiImage()}
                   alt=""
                   fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 640px) 160px, 176px"
+                  className="object-contain object-top"
+                  sizes="(max-width: 640px) 224px, 240px"
                 />
               </div>
             </div>

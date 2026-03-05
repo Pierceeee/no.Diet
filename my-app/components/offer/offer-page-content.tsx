@@ -441,7 +441,7 @@ export default function OfferPageContent({
           <div className="relative border-r border-[#e8e8e8]">
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
-                src={answers.gender === "male" ? "/quiz/11.png" : "/quiz/6-1.png"}
+                src={answers.gender === "male" ? "/docs/offer-page/6.svg" : "/docs/offer-page/4.svg"}
                 alt="Current body"
                 fill
                 className="object-contain object-bottom opacity-60 grayscale"
@@ -488,7 +488,7 @@ export default function OfferPageContent({
           <div className="relative">
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
-                src={answers.gender === "male" ? "/quiz/12.png" : "/quiz/7.png"}
+                src={answers.gender === "male" ? "/docs/offer-page/5.svg" : "/docs/offer-page/3.svg"}
                 alt="Goal body"
                 fill
                 className="object-contain object-bottom"
