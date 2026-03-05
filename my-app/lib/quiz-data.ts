@@ -231,9 +231,9 @@ export const PROTEIN_EMOJIS: Record<string, string> = {
   "Salmon": "🐠",
   "Shrimp": "🦐",
   "Eggs": "🥚",
-  "Chickpeas": "🫘",
-  "Lentils": "🫛",
-  "Tofu": "🧊",
+  "Chickpeas": "🌰",
+  "Lentils": "🥜",
+  "Tofu": "🥡",
 };
 
 export const VEGETABLE_EMOJIS: Record<string, string> = {
@@ -243,7 +243,7 @@ export const VEGETABLE_EMOJIS: Record<string, string> = {
   "Broccoli": "🥦",
   "Spinach": "🥬",
   "Zucchini": "🥒",
-  "Bell pepper": "🫑",
+  "Bell pepper": "🌶️",
   "Avocado": "🥑",
   "Olives": "🫒",
   "Onions": "🧅",

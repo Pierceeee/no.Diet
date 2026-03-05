@@ -49,11 +49,16 @@ const BMI_SEGMENTS = [
   { min: 15, max: 18.5, width: 25 },
   { min: 18.5, max: 25, width: 25 },
   { min: 25, max: 30, width: 25 },
-  { min: 30, max: 42, width: 25 },
+  // Extend the obese segment so high BMI values do not all pin to 100%.
+  { min: 30, max: 60, width: 25 },
 ];
 
+const BMI_MIN = BMI_SEGMENTS[0].min;
+const BMI_MAX = BMI_SEGMENTS[BMI_SEGMENTS.length - 1].max;
+const BMI_POSITION_PADDING = 4;
+
 export function calculateBMIPosition(bmi: number): number {
-  const clampedBmi = Math.min(Math.max(bmi, 15), 42);
+  const clampedBmi = Math.min(Math.max(bmi, BMI_MIN), BMI_MAX);
   let position = 0;
 
   for (const seg of BMI_SEGMENTS) {
@@ -66,5 +71,6 @@ export function calculateBMIPosition(bmi: number): number {
       break;
     }
   }
-  return position;
+  // Keep marker and tooltip visually inside the graph container.
+  return clamp(position, BMI_POSITION_PADDING, 100 - BMI_POSITION_PADDING);
 }

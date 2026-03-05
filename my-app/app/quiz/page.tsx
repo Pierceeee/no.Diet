@@ -416,6 +416,7 @@ export default function QuizPage() {
           onChange={(v) => setAnswer("q13", v)}
           helper={INFO_BLOCKS.bmiExplanation.title}
           helperBody={INFO_BLOCKS.bmiExplanation.body}
+          styleVariant="reference"
           ctaDisabled={
             answers.q13 < (answers.q13Unit === "cm" ? 120 : 47)
           }
@@ -442,6 +443,7 @@ export default function QuizPage() {
               ? "warning"
               : "danger"
           }
+          styleVariant="reference"
           ctaDisabled={
             answers.q14 < (answers.q14Unit === "kg" ? 40 : 88)
           }
@@ -470,6 +472,8 @@ export default function QuizPage() {
           onChange={(v) => setAnswer("q15", v)}
           helper={`☝️ ${getWeightLossMessage(analysis.targetLoss).title}`}
           helperBody={getWeightLossMessage(analysis.targetLoss).body}
+          helperVariant="success"
+          styleVariant="reference"
           ctaDisabled={
             answers.q15 < (answers.q15Unit === "kg" ? 40 : 88)
           }
@@ -483,8 +487,9 @@ export default function QuizPage() {
           title="What is your age?"
           value={answers.q16}
           onChange={(v) => setAnswer("q16", v)}
-          helper={INFO_BLOCKS.ageMetabolism.title}
+          helper={`☝️ ${INFO_BLOCKS.ageMetabolism.title}`}
           helperBody={INFO_BLOCKS.ageMetabolism.body}
+          styleVariant="reference"
           ctaDisabled={answers.q16 < 18}
           onContinue={() => setStep(21)}
         />
