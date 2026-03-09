@@ -130,61 +130,55 @@ export default function OfferPageContent() {
   const currentFitness = analysis.bmi > 25 ? 1 : analysis.bmi > 22 ? 2 : 3;
   const goalFitness = 3;
 
-  const accentColor = "#3bb44a";
+  const accentColor = "#3b82f6";
 
   const PricingPlans = () => (
     <div className="space-y-3 sm:space-y-4">
-      {(["week", "month", "quarter"] as PlanType[]).map((plan) => (
-        <div key={plan} className="relative">
-          {plan === "month" && (
-            <div className="absolute -top-3 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap">
-              <span className="flex items-center gap-1 rounded-full bg-[#3bb44a] px-3 py-1 font-body text-[10px] font-bold uppercase tracking-wider text-white sm:px-4 sm:text-[11px]">
-                MOST POPULAR: 50% OFF
-              </span>
-            </div>
-          )}
+      {(["week", "month", "quarter"] as PlanType[]).map((plan) => {
+        const isSelected = selectedPlan === plan;
+        return (
           <button
+            key={plan}
             onClick={() => setSelectedPlan(plan)}
-            className={`flex w-full items-center justify-between rounded-[12px] border-2 px-3 py-3 text-left transition-all sm:px-5 sm:py-4 ${
-              plan === "month" ? "pt-4 sm:pt-5" : ""
+            className={`flex w-full items-center gap-3 rounded-[14px] border-2 px-4 py-4 text-left transition-all sm:px-5 sm:py-5 ${
+              isSelected
+                ? "border-[#3b82f6] bg-[#f0f6ff]"
+                : "border-[#e8e8e8] bg-white"
             }`}
-            style={{
-              borderColor: selectedPlan === plan ? accentColor : "#e8e8e8",
-              backgroundColor:
-                selectedPlan === plan ? "#f0faf2" : "white",
-            }}
           >
-            <div className="flex items-center gap-2 sm:gap-3">
-              <div
-                className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2"
-                style={{
-                  borderColor: selectedPlan === plan ? accentColor : "#d0d0d0",
-                }}
-              >
-                {selectedPlan === plan && (
-                  <div className="h-2.5 w-2.5 rounded-full bg-[#3bb44a]" />
-                )}
-              </div>
-              <div>
-                <p className="font-body text-[13px] font-bold uppercase tracking-wide text-[var(--text-primary)] sm:text-[15px]">
-                  {plans[plan].name}
-                </p>
-                <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[12px]">
-                  <span className="line-through">
-                    ${plans[plan].originalPrice}
-                  </span>{" "}
-                  <span className="font-semibold text-[#3bb44a]">
-                    ${plans[plan].discountPrice}
-                  </span>
-                </p>
-              </div>
+            {/* Radio dot */}
+            <div
+              className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 transition-colors ${
+                isSelected ? "border-[#3b82f6]" : "border-[#d0d0d0]"
+              }`}
+            >
+              {isSelected && (
+                <div className="h-2.5 w-2.5 rounded-full bg-[#3b82f6]" />
+              )}
             </div>
-            <span className="shrink-0 rounded-[6px] bg-[#3bb44a] px-2.5 py-1 font-body text-[11px] font-bold text-white sm:px-3 sm:py-1.5 sm:text-[13px]">
-              -50%
-            </span>
+
+            {/* Plan name + per day */}
+            <div className="min-w-0 flex-1">
+              <p className="font-body text-[14px] font-semibold text-[var(--text-primary)] sm:text-[15px]">
+                {plans[plan].name}
+              </p>
+              <p className="font-body text-[12px] text-[var(--text-muted)] sm:text-[13px]">
+                ${plans[plan].perDay} / day
+              </p>
+            </div>
+
+            {/* Prices */}
+            <div className="shrink-0 text-right">
+              <p className="font-body text-[12px] text-[var(--text-muted)] line-through sm:text-[13px]">
+                ${plans[plan].originalPrice}
+              </p>
+              <p className="font-body text-[20px] font-bold leading-tight text-[var(--text-primary)] sm:text-[22px]">
+                ${plans[plan].discountPrice}
+              </p>
+            </div>
           </button>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 
