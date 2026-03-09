@@ -34,12 +34,12 @@ export default function OfferLayout({
           </div>
           <a
             href="#get-plan"
-            className="rounded-[8px] bg-[#3bb44a] px-4 py-2.5 font-body text-[11px] font-bold uppercase tracking-wider text-white transition-all hover:shadow-lg sm:px-6 sm:py-3 sm:text-[13px]"
+            className="rounded-[8px] bg-[#3b82f6] px-4 py-2.5 font-body text-[11px] font-bold uppercase tracking-wider text-white transition-all hover:shadow-lg sm:px-6 sm:py-3 sm:text-[13px]"
           >
             GET MY PLAN
           </a>
         </div>
-        <div className="h-[3px] w-full bg-[#3bb44a]" />
+        <div className="h-[3px] w-full bg-[#3b82f6]" />
       </header>
 
       <main className="mx-auto flex max-w-3xl flex-col items-center px-4 pb-12 pt-6 sm:px-5 sm:pb-20 sm:pt-8">

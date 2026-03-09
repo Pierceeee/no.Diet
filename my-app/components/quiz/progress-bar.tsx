@@ -47,7 +47,7 @@ export function ProgressBar() {
           className="h-[3px] rounded-r-full transition-all duration-500 ease-out"
           style={{
             width: `${(stepProgress / TOTAL_STEPS) * 100}%`,
-            background: "#3bb44a",
+            background: "#3b82f6",
           }}
         />
       </div>

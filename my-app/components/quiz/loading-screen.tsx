@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useQuiz } from "@/lib/quiz-context";
 
 const LOADING_MESSAGES = [
@@ -20,6 +20,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
   const startTimeRef = useRef<number | null>(null);
   const rafRef = useRef<number>(0);
   const completedRef = useRef(false);
+  const [done, setDone] = useState(false);
 
   useEffect(() => {
     if (!isGenerating) return;
@@ -27,6 +28,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
     setProgress(START_PROGRESS);
     startTimeRef.current = null;
     completedRef.current = false;
+    setDone(false);
 
     const animate = (timestamp: number) => {
       if (startTimeRef.current === null) {
@@ -45,10 +47,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
 
       if (roundedProgress >= 100 && !completedRef.current) {
         completedRef.current = true;
-        setTimeout(() => {
-          setIsGenerating(false);
-          onComplete();
-        }, 400);
+        setTimeout(() => setDone(true), 400);
         return;
       }
 
@@ -62,7 +61,12 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
     return () => {
       cancelAnimationFrame(rafRef.current);
     };
-  }, [isGenerating, setProgress, setIsGenerating, onComplete]);
+  }, [isGenerating, setProgress]);
+
+  const handleContinue = () => {
+    setIsGenerating(false);
+    onComplete();
+  };
 
   const visibleMessages = LOADING_MESSAGES.filter((_, i) => {
     const threshold = ((i + 1) / (LOADING_MESSAGES.length + 1)) * 100;
@@ -107,11 +111,10 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
       </h2>
       
       <div className="mt-4 space-y-2.5 font-body text-[15px] tracking-[-0.01em] text-[#4a4a4a] sm:mt-6 sm:space-y-3 sm:text-base">
-        {visibleMessages.map((msg, i) => (
+        {visibleMessages.map((msg) => (
           <p
             key={msg}
             className="animate-fade-in flex items-center justify-center gap-2"
-            style={{ animationDelay: `${i * 0.1}s` }}
           >
             <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[var(--green)] text-xs text-white">
               ✓
@@ -136,6 +139,16 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
             It doesn&apos;t follow fixed rules. It evolves with you. Until it works FOR YOU.
           </p>
         </div>
+      )}
+
+      {/* Continue button after generation completes */}
+      {done && (
+        <button
+          className="animate-fade-in-up mt-8 w-full max-w-[460px] rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] sm:mt-10 sm:px-6 sm:py-4 sm:text-lg"
+          onClick={handleContinue}
+        >
+          Continue
+        </button>
       )}
     </section>
   );

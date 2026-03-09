@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "no.Diet - Personalized Mediterranean Diet Plan",
+  title: "meDiet - Personalized Mediterranean Diet Plan",
   description:
     "Get your personalized Mediterranean diet plan. Select diet plans designed specifically for men and women.",
 };

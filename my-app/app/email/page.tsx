@@ -15,7 +15,7 @@ export default function EmailPage() {
         <div className="mx-auto flex max-w-3xl items-center justify-center px-4 py-3 sm:px-5 sm:py-4">
           <Logo size="md" />
         </div>
-        <div className="h-[3px] w-full bg-[#3bb44a]" />
+        <div className="h-[3px] w-full bg-[#3b82f6]" />
       </header>
 
       <main className="mx-auto flex max-w-xl flex-col items-center px-5 pb-12 pt-10 sm:px-6 sm:pb-20 sm:pt-16">
@@ -58,7 +58,7 @@ export default function EmailPage() {
             style={{ animationDelay: "0.15s", opacity: 0 }}
           >
             <button
-              className="w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-[#3bb44a] disabled:hover:shadow-none disabled:active:scale-100 sm:px-6 sm:py-4 sm:text-lg"
+              className="w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-[#3b82f6] disabled:hover:shadow-none disabled:active:scale-100 sm:px-6 sm:py-4 sm:text-lg"
               disabled={!/\S+@\S+\.\S+/.test(email)}
               onClick={() => router.push("/summary")}
             >

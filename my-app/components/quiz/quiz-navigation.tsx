@@ -8,13 +8,18 @@ export function CTAButton({
   disabled?: boolean;
 }) {
   return (
-    <button
-      className="mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#33a041] hover:shadow-lg active:scale-[0.99] disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-none disabled:hover:bg-[#3bb44a] disabled:active:scale-100 sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
-      disabled={disabled}
-      onClick={onClick}
-    >
-      {children}
-    </button>
+    <div className="sticky bottom-0 z-10 -mx-1 mt-6 sm:mt-8">
+      <div className="pointer-events-none h-6 bg-gradient-to-t from-white to-transparent" />
+      <div className="bg-white pb-4 pt-1 sm:pb-6">
+        <button
+          className="w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-none disabled:hover:bg-[#3b82f6] disabled:active:scale-100 sm:px-6 sm:py-4 sm:text-lg"
+          disabled={disabled}
+          onClick={onClick}
+        >
+          {children}
+        </button>
+      </div>
+    </div>
   );
 }
 

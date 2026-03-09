@@ -72,7 +72,7 @@ export function NumericStep({
                   showReferenceStyle ? "rounded-[8px]" : "rounded-full"
                 } ${
                   selectedUnit === unit
-                    ? "bg-[#06ad31] text-white shadow-sm"
+                    ? "bg-[#3b82f6] text-white shadow-sm"
                     : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 }`}
               >
@@ -144,7 +144,7 @@ export function NumericStep({
 
         {showReferenceStyle ? (
           <button
-            className="mt-5 w-full rounded-[12px] bg-[#06ad31] px-5 py-3 font-body text-[15px] font-semibold leading-none text-white transition-all duration-200 hover:bg-[#059a2c] disabled:cursor-not-allowed disabled:opacity-40 sm:text-[16px]"
+            className="mt-5 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3 font-body text-[15px] font-semibold leading-none text-white transition-all duration-200 hover:bg-[#2563eb] disabled:cursor-not-allowed disabled:opacity-40 sm:text-[16px]"
             disabled={ctaDisabled}
             onClick={onContinue}
           >

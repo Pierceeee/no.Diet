@@ -228,7 +228,7 @@ export default function OfferPageContent() {
     <>
       <button
         disabled={!agreedToTerms}
-        className="mt-4 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
+        className="mt-4 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
       >
         GET MY PLAN
       </button>
@@ -454,7 +454,7 @@ export default function OfferPageContent() {
         </div>
         <button
           disabled={!agreedToTerms}
-          className="mt-6 w-full rounded-[12px] bg-[#3bb44a] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
+          className="mt-6 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
         >
           GET MY PLAN
         </button>

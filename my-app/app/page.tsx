@@ -219,7 +219,7 @@ export default function LandingPage() {
             </a>
           </div>
           <p className="font-body text-[12px] text-gray-400">
-            &copy; 2026 no.Diet. All rights reserved.
+            &copy; 2026 meDiet. All rights reserved.
           </p>
         </div>
       </footer>

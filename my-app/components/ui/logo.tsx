@@ -19,7 +19,7 @@ export function Logo({ size = "md", className = "" }: LogoProps) {
   return (
     <Image
       src="/logo.svg"
-      alt="no.Diet"
+      alt="meDiet"
       width={width}
       height={height}
       className={className}

@@ -589,7 +589,7 @@ export default function QuizPage() {
                   </p>
                 </div>
               </div>
-              <div className="relative h-72 w-56 flex-shrink-0 sm:h-80 sm:w-60">
+              <div className="relative h-52 w-56 flex-shrink-0 sm:h-60 sm:w-60">
                 <Image
                   src={getBmiImage()}
                   alt=""
@@ -727,7 +727,7 @@ export default function QuizPage() {
       {step === 27 && (
         <QuizSection>
           <div className="mx-auto w-full max-w-[448px] [font-family:var(--font-inter)]">
-            <div className="animate-scale-in overflow-hidden rounded-[14px] border border-[#d8d8d8] bg-[#f3f3f3] px-4 py-6 text-left">
+            <div className="animate-scale-in overflow-hidden rounded-[14px] border border-[#d8d8d8] bg-[#f3f3f3] px-4 py-6 text-center">
               <p className="text-[18px] font-semibold leading-[1.32] tracking-[-0.01em] text-[#101010]">
               Based on your food preferences, we&apos;ve created
               </p>
