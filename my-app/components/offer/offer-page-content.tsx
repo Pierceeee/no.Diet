@@ -252,18 +252,26 @@ export default function OfferPageContent() {
       <div className="animate-scale-in overflow-hidden rounded-[14px] border border-[#e8e8e8] bg-white shadow-sm sm:rounded-[16px]">
         <div className="grid grid-cols-2">
           <div className="border-b border-r border-[#e8e8e8] py-2.5 text-center sm:py-3">
-            <span className="font-body text-[14px] font-bold text-[#e53935] sm:text-[15px]">
+            <span className="font-body text-[18px] font-bold text-[#e53935] sm:text-[20px]">
               Now
             </span>
           </div>
           <div className="border-b border-[#e8e8e8] py-2.5 text-center sm:py-3">
-            <span className="font-body text-[14px] font-bold text-[#3bb44a] sm:text-[15px]">
+            <span className="font-body text-[18px] font-bold text-[#1a6b6e] sm:text-[20px]">
               Goal
             </span>
           </div>
         </div>
 
-        <div className="grid grid-cols-2">
+        <div className="relative grid grid-cols-2">
+          {/* Arrow overlay */}
+          <div className="pointer-events-none absolute left-1/2 top-[80px] z-10 -translate-x-1/2 -translate-y-1/2 sm:top-[110px] md:top-[140px]">
+            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#1a6b6e] shadow-md sm:h-11 sm:w-11">
+              <svg className="h-4 w-4 text-white sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </div>
+          </div>
           <div className="relative border-r border-[#e8e8e8]">
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
@@ -280,30 +288,30 @@ export default function OfferPageContent() {
             </div>
             <div className="p-3 sm:p-4 md:p-5">
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
-                <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[13px]">
+                <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
                   Body fat:
                 </p>
-                <p className="font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
+                <p className="text-center font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
                   {fmt(analysis.bodyFat)}%
                 </p>
               </div>
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
-                <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[13px]">
+                <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
                   BMI:
                 </p>
-                <p className="font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
+                <p className="text-center font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
                   {fmt(analysis.bmi)}
                 </p>
               </div>
               <div>
-                <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[13px]">
+                <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
                   Fitness level:
                 </p>
-                <div className="mt-1 flex gap-1 sm:mt-1.5 sm:gap-1.5">
+                <div className="mt-1 flex justify-center gap-1 sm:mt-1.5 sm:gap-1.5">
                   {[1, 2, 3].map((level) => (
                     <div
                       key={level}
-                      className={`h-[5px] w-[22px] rounded-full sm:h-[6px] sm:w-[28px] ${
+                      className={`h-[10px] w-[42px] rounded-full sm:h-[12px] sm:w-[52px] ${
                         level <= currentFitness
                           ? "bg-[#e53935]"
                           : "bg-[#fcc] opacity-50"
@@ -331,33 +339,33 @@ export default function OfferPageContent() {
             </div>
             <div className="p-3 sm:p-4 md:p-5">
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
-                <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[13px]">
+                <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
                   Body fat:
                 </p>
-                <p className="font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
+                <p className="text-center font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
                   {fmt(targetBodyFat)}%
                 </p>
               </div>
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
-                <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[13px]">
+                <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
                   BMI:
                 </p>
-                <p className="font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
+                <p className="text-center font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
                   {fmt(analysis.targetBmi)}
                 </p>
               </div>
               <div>
-                <p className="font-body text-[11px] text-[var(--text-muted)] sm:text-[13px]">
+                <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
                   Fitness level:
                 </p>
-                <div className="mt-1 flex gap-1 sm:mt-1.5 sm:gap-1.5">
+                <div className="mt-1 flex justify-center gap-1 sm:mt-1.5 sm:gap-1.5">
                   {[1, 2, 3].map((level) => (
                     <div
                       key={level}
-                      className={`h-[5px] w-[22px] rounded-full sm:h-[6px] sm:w-[28px] ${
+                      className={`h-[10px] w-[42px] rounded-full sm:h-[12px] sm:w-[52px] ${
                         level <= goalFitness
-                          ? "bg-[#3bb44a]"
-                          : "bg-[#c8e6c9] opacity-50"
+                          ? "bg-[#1a6b6e]"
+                          : "bg-[#b2d8da] opacity-50"
                       }`}
                     />
                   ))}

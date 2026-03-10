@@ -28,18 +28,18 @@ export default function IntroPage() {
       <main className="flex flex-1 flex-col items-center justify-center px-4 pb-10 sm:px-6 sm:pb-16">
         <QuizSection>
           <div className="animate-fade-in-up overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] shadow-[var(--shadow-md)] sm:rounded-3xl">
-            <div className="h-1 w-full bg-gradient-to-r from-[#0d7377] via-[#1a8f95] to-[#0d7377]" />
+            <div className="h-1 w-full bg-gradient-to-r from-[#2f6ebf] via-[#4a8ad4] to-[#2f6ebf]" />
 
             <div className="p-6 sm:p-8">
-              <div className="mx-auto mb-4 inline-flex items-center rounded-full border border-[#0d7377]/20 bg-[#0d7377]/6 px-3 py-1">
-                <span className="font-body text-xs font-medium tracking-[0.02em] text-[#0d7377]">
+              <div className="mx-auto mb-4 inline-flex items-center rounded-full border border-[#2f6ebf]/20 bg-[#2f6ebf]/6 px-3 py-1">
+                <span className="font-body text-xs font-medium tracking-[0.02em] text-[#2f6ebf]">
                   Quick note
                 </span>
               </div>
 
               <h2 className="text-center font-display text-[22px] font-semibold leading-tight tracking-[-0.02em] text-[var(--text-primary)] sm:text-[27px]">
                 Before we build your plan —{" "}
-                <span className="text-[#0d7377]">read this</span>.
+                <span className="text-[#2f6ebf]">read this</span>.
               </h2>
 
               <div className="mx-auto mt-6 max-w-[620px] space-y-4 text-center sm:mt-7 sm:space-y-4.5">
@@ -59,7 +59,7 @@ export default function IntroPage() {
                   They were never designed for how a {genderText} body actually works.
                 </p>
 
-                <p className="font-body text-[16px] font-semibold leading-snug text-[#0d7377] sm:text-[17px]">
+                <p className="font-body text-[16px] font-semibold leading-snug text-[#2f6ebf] sm:text-[17px]">
                   That changes right now.
                 </p>
 

@@ -42,7 +42,7 @@ export function SingleChoiceStep({
                 )}
               </span>
               {emojis[idx] ? (
-                <span className="text-2xl sm:text-3xl">{emojis[idx]}</span>
+                <span className="text-3xl sm:text-4xl">{emojis[idx]}</span>
               ) : (
                 <Chevron />
               )}

@@ -6,12 +6,12 @@ import { useQuiz } from "@/lib/quiz-context";
 import { fmt } from "@/lib/utils";
 import { Logo } from "@/components/ui/logo";
 
-type SummaryStep = "overview" | "coach" | "features";
+type SummaryStep = "bmi" | "snapshot" | "bmiStory" | "coach" | "features";
 
 export default function SummaryPage() {
   const router = useRouter();
   const { analysis } = useQuiz();
-  const [summaryStep, setSummaryStep] = useState<SummaryStep>("overview");
+  const [summaryStep, setSummaryStep] = useState<SummaryStep>("bmi");
 
   return (
     <div className="min-h-[100dvh] bg-white">
@@ -31,16 +31,14 @@ export default function SummaryPage() {
           </h1>
         )}
 
-        {/* ═══════════ SECTION 1: Combined Snapshot + BMI ═══════════ */}
-        {summaryStep === "overview" && (
+        {/* ═══════════ STEP 1: BMI Card ═══════════ */}
+        {summaryStep === "bmi" && (
           <div className="mt-8 w-full max-w-[600px] sm:mt-10">
-            {/* BMI Card */}
             <div className="animate-scale-in overflow-hidden rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-5 shadow-sm sm:rounded-3xl sm:p-7">
               <h3 className="font-display text-lg font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-xl">
                 Current BMI
               </h3>
               <div className="relative mt-6 mb-2 sm:mt-7">
-                {/* BMI indicator label */}
                 <div
                   className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-2.5 py-0.5 text-[11px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
                   style={{ left: `${analysis.bmiPosition}%` }}
@@ -48,7 +46,6 @@ export default function SummaryPage() {
                   You – {fmt(analysis.bmi)}
                   <span className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 bg-[var(--accent)]" />
                 </div>
-                {/* BMI gradient bar */}
                 <div className="bmi-gradient h-3 w-full rounded-full" />
                 <div
                   className="absolute top-0 h-3 w-1 rounded-full bg-white shadow-md"
@@ -72,8 +69,7 @@ export default function SummaryPage() {
                   Obese
                 </span>
               </div>
-              
-              {/* Weight category */}
+
               <div className="mt-5 rounded-xl bg-white px-4 py-3 sm:px-5 sm:py-4">
                 <p className="font-body text-sm text-[#666] sm:text-base">
                   Your Weight Category:{" "}
@@ -82,7 +78,19 @@ export default function SummaryPage() {
               </div>
             </div>
 
-            <div className="animate-fade-in-up mt-4 rounded-2xl border-l-4 border-[var(--accent)] bg-[#f8f8f8] p-5 sm:mt-5 sm:rounded-3xl sm:p-6">
+            <button
+              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              onClick={() => setSummaryStep("snapshot")}
+            >
+              Continue
+            </button>
+          </div>
+        )}
+
+        {/* ═══════════ STEP 2: Metabolic Snapshot ═══════════ */}
+        {summaryStep === "snapshot" && (
+          <div className="mt-8 w-full max-w-[600px] sm:mt-10">
+            <div className="animate-fade-in-up rounded-2xl border-l-4 border-[var(--accent)] bg-[#f8f8f8] p-5 sm:rounded-3xl sm:p-6">
               <h2 className="font-display text-lg font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-xl">
                 Your Personal Metabolic Snapshot
               </h2>
@@ -115,40 +123,35 @@ export default function SummaryPage() {
               </div>
             </div>
 
-            {/* Additional info */}
-            <div
-              className="animate-fade-in-up mt-4 rounded-2xl bg-[#f8f8f8] p-5 sm:mt-5 sm:rounded-3xl sm:p-6"
-              style={{ animationDelay: "0.15s", opacity: 0 }}
+            <button
+              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
+              onClick={() => setSummaryStep("bmiStory")}
             >
-              <p
-                className="animate-fade-in-up font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base"
-                style={{ animationDelay: "0.3s", opacity: 0 }}
-              >
+              Continue
+            </button>
+          </div>
+        )}
+
+        {/* ═══════════ STEP 3: BMI Story ═══════════ */}
+        {summaryStep === "bmiStory" && (
+          <div className="mt-8 w-full max-w-[600px] sm:mt-10">
+            <div className="animate-fade-in-up rounded-2xl bg-[#f8f8f8] p-5 sm:rounded-3xl sm:p-6">
+              <p className="font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base">
                 But BMI alone doesn&apos;t tell the full story.
               </p>
-              <p
-                className="animate-fade-in-up mt-3 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base"
-                style={{ animationDelay: "0.45s", opacity: 0 }}
-              >
+              <p className="mt-3 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base">
                 Two people can have the same BMI and completely different metabolic responses.
               </p>
-              <p
-                className="animate-fade-in-up mt-3 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base"
-                style={{ animationDelay: "0.6s", opacity: 0 }}
-              >
+              <p className="mt-3 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base">
                 That&apos;s why your plan is not based on generic calorie formulas.
               </p>
-              <p
-                className="animate-fade-in-up mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#3bb44a] sm:text-base"
-                style={{ animationDelay: "0.75s", opacity: 0 }}
-              >
+              <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#3bb44a] sm:text-base">
                 It&apos;s based on adaptive metabolic alignment.
               </p>
             </div>
 
             <button
               className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
-              style={{ animationDelay: "0.9s", opacity: 0 }}
               onClick={() => setSummaryStep("coach")}
             >
               Continue
@@ -181,9 +184,6 @@ export default function SummaryPage() {
                 <p className="mt-3 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a]">
                   Your inputs (body type, activity level, energy patterns, food preferences) are analyzed to determine optimal food proportions for your metabolic stage.
                 </p>
-                <p className="mt-2 font-body text-[15px] font-semibold tracking-[-0.01em] text-[#1a1a1a]">
-                  Not yesterday&apos;s nutrition model. Today&apos;s.
-                </p>
               </div>
 
               {/* Card 2: Adaptive Mediterranean Blueprint */}
@@ -195,17 +195,7 @@ export default function SummaryPage() {
                   </h3>
                 </div>
                 <p className="mt-3 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a]">
-                  Built on eating patterns observed in the world&apos;s longest-living Mediterranean regions:
-                </p>
-                <ul className="mt-2.5 space-y-1.5 font-body text-[15px] tracking-[-0.01em] text-[#4a4a4a]">
-                  <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#3b82f6]" />Emphasis on whole foods</li>
-                  <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#3b82f6]" />Strategic healthy fats</li>
-                  <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#3b82f6]" />Balanced protein</li>
-                  <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#3b82f6]" />Controlled refined carbs</li>
-                  <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#3b82f6]" />Anti-inflammatory focus</li>
-                </ul>
-                <p className="mt-3 font-body text-[15px] font-semibold tracking-[-0.01em] text-[#3b82f6]">
-                  But personalized.
+                  Built on eating patterns observed in the world&apos;s longest-living Mediterranean regions.
                 </p>
                 <p className="mt-2 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a]">
                   Your plan adjusts as your body adapts, helping reduce plateaus and metabolic slowdown.
@@ -231,20 +221,7 @@ export default function SummaryPage() {
                   <p>Skipping workouts? It adjusts the intensity until it fits your life.</p>
                   <p>Hit a plateau? It recalibrates before frustration sets in.</p>
                 </div>
-                <div className="mt-4 rounded-xl bg-white p-4">
-                  <p className="font-body text-[14px] font-medium tracking-[-0.01em] text-[#4a4a4a]">
-                    As your weight, energy and consistency change:
-                  </p>
-                  <ul className="mt-2 space-y-1.5 font-body text-[14px] tracking-[-0.01em] text-[#4a4a4a]">
-                    <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#3b82f6]" />Meals shift to what works for you</li>
-                    <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#3b82f6]" />Workouts adapt to what you&apos;ll actually do</li>
-                    <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#3b82f6]" />Balance recalibrates to where your body is now</li>
-                  </ul>
-                </div>
-                <p className="mt-4 font-body text-[15px] font-semibold tracking-[-0.01em] text-[#3b82f6]">
-                  You don&apos;t restart. You refine.
-                </p>
-                <p className="mt-2 font-body text-[14px] tracking-[-0.01em] text-[#666]">
+                <p className="mt-4 font-body text-[15px] font-semibold tracking-[-0.01em] text-[#1a1a1a]">
                   The longer you use it — the better it knows you. The better it knows you — the better it works.
                 </p>
               </div>
@@ -273,14 +250,11 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.15s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-1.5 inline-block text-[14px]">🍽️</span>
+                  <span className="mr-2 inline-block text-[20px] align-middle">🍽️</span>
                   Unlimited Adaptive Mediterranean Meals
                 </p>
-                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
+                <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Matched to your preferences.
-                </p>
-                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
-                  Enjoyable. Structured. Sustainable.
                 </p>
               </div>
 
@@ -290,14 +264,11 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.3s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-1.5 inline-block text-[14px]">💪</span>
+                  <span className="mr-2 inline-block text-[20px] align-middle">💪</span>
                   Personalised Metabolic Movement
                 </p>
-                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
+                <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Strength, mobility, recovery.
-                </p>
-                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
-                  Fat-loss support without burnout.
                 </p>
               </div>
 
@@ -307,14 +278,11 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.45s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-1.5 inline-block text-[14px]">🔥</span>
+                  <span className="mr-2 inline-block text-[20px] align-middle">🔥</span>
                   Habit &amp; Consistency Challenges
                 </p>
-                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
+                <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Small strategic actions.
-                </p>
-                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
-                  Rhythm beats motivation.
                 </p>
               </div>
 
@@ -324,14 +292,11 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.6s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-1.5 inline-block text-[14px]">📖</span>
+                  <span className="mr-2 inline-block text-[20px] align-middle">📖</span>
                   Longevity &amp; Metabolism Guides
                 </p>
-                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
+                <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Learn why inflammation, processed foods, and modern diet rules disrupt fat loss.
-                </p>
-                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
-                  Clarity removes confusion.
                 </p>
               </div>
 
@@ -341,14 +306,11 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.75s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-1.5 inline-block text-[14px]">📊</span>
+                  <span className="mr-2 inline-block text-[20px] align-middle">📊</span>
                   Adaptive Progress Tracking
                 </p>
-                <p className="mt-1 pl-6 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
+                <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
                   Track weight, body changes, energy, and habits.
-                </p>
-                <p className="pl-6 font-body text-[13.5px] font-medium leading-[1.4] tracking-[-0.01em] text-[#18a34a] sm:text-[14px]">
-                  Your plan adjusts as you progress.
                 </p>
               </div>
             </div>

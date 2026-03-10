@@ -149,7 +149,7 @@ export default function QuizPage() {
                       {item}
                     </span>
                   </span>
-                  <span className="text-base sm:text-lg">{GOAL_EMOJIS[i]}</span>
+                  <span className="text-2xl sm:text-3xl">{GOAL_EMOJIS[i]}</span>
                 </span>
               </OptionCard>
             ))}
@@ -642,7 +642,7 @@ export default function QuizPage() {
                       {item}
                     </span>
                   </span>
-                  <span className="text-lg">{PROTEIN_EMOJIS[item]}</span>
+                  <span className="text-2xl sm:text-3xl">{PROTEIN_EMOJIS[item]}</span>
                 </span>
               </OptionCard>
             ))}
@@ -674,7 +674,7 @@ export default function QuizPage() {
                       {item}
                     </span>
                   </span>
-                  <span className="text-lg">{VEGETABLE_EMOJIS[item]}</span>
+                  <span className="text-2xl sm:text-3xl">{VEGETABLE_EMOJIS[item]}</span>
                 </span>
               </OptionCard>
             ))}
@@ -706,7 +706,7 @@ export default function QuizPage() {
                       {item}
                     </span>
                   </span>
-                  <span className="text-lg">{GRAIN_EMOJIS[item]}</span>
+                  <span className="text-2xl sm:text-3xl">{GRAIN_EMOJIS[item]}</span>
                 </span>
               </OptionCard>
             ))}

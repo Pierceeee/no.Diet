@@ -124,23 +124,6 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
         ))}
       </div>
 
-      {/* Motivational text */}
-      {progress >= 80 && (
-        <div
-          className="animate-fade-in-up mx-auto mt-8 max-w-[460px] rounded-2xl border-l-4 border-[var(--accent)] bg-[#f8f8f8] p-4 text-left sm:mt-10 sm:p-5"
-        >
-          <p className="font-body text-[15px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] sm:text-base">
-            ☝️ For the first time in history, this level of personalization is possible.
-          </p>
-          <p className="mt-2 font-body text-[13px] leading-[1.6] tracking-[-0.01em] text-[var(--text-secondary)] sm:text-sm">
-            Your Personalized Mediterranean Diet is powered by AI that can process more data than any human nutritionist ever could.
-          </p>
-          <p className="mt-2 font-body text-[13px] leading-[1.6] tracking-[-0.01em] text-[var(--text-secondary)] sm:text-sm">
-            It doesn&apos;t follow fixed rules. It evolves with you. Until it works FOR YOU.
-          </p>
-        </div>
-      )}
-
       {/* Continue button after generation completes */}
       {done && (
         <button

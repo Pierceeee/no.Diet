@@ -18,7 +18,7 @@ function parseTitle(title: string) {
 
   return parts.map((part, i) =>
     i % 2 === 1 ? (
-      <span key={i} className="font-semibold text-[#0d7377]">
+      <span key={i} className="font-semibold text-[#2f6ebf]">
         {part}
       </span>
     ) : (
@@ -57,7 +57,7 @@ function renderTextWithFormatting(text: string) {
       const segments = part.split(/\{\{(.*?)\}\}/g);
       return segments.map((seg, j) =>
         j % 2 === 1 ? (
-          <span key={`h-${idx}-${j}`} className="text-[#0d7377]">
+          <span key={`h-${idx}-${j}`} className="text-[#2f6ebf]">
             {seg}
           </span>
         ) : (
@@ -116,7 +116,7 @@ export function InfoInterstitial({
           <ul className="mt-2.5 space-y-2.5">
             {bullets.map((bullet, j) => (
               <li key={j} className="flex items-start gap-2.5">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-[#0d7377]/30 bg-[#0d7377]/10 text-xs font-semibold text-[#0d7377]">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-[#2f6ebf]/30 bg-[#2f6ebf]/10 text-xs font-semibold text-[#2f6ebf]">
                   ✓
                 </span>
                 <span className="font-body text-[15px] leading-[1.6] tracking-[-0.01em] text-[var(--text-secondary)] sm:text-base">
@@ -155,24 +155,26 @@ export function InfoInterstitial({
   return (
     <QuizSection>
       <div className="animate-fade-in-up relative overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] shadow-[var(--shadow-md)] sm:rounded-3xl">
-        <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-[#0d7377]/8 blur-2xl" />
-        <div className="h-1 w-full bg-gradient-to-r from-[#0d7377] via-[#1a8f95] to-[#0d7377]" />
+        <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-[#2f6ebf]/8 blur-2xl" />
+        <div className="h-1 w-full bg-gradient-to-r from-[#2f6ebf] via-[#4a8ad4] to-[#2f6ebf]" />
 
         {image && (
-          <div className="relative aspect-[16/10] w-full overflow-hidden border-b border-[var(--border)]">
-            <Image
-              src={image}
-              alt=""
-              fill
-              className="object-cover"
-              sizes="(max-width: 640px) 100vw, 520px"
-            />
+          <div className="p-3 pb-0 sm:p-4 sm:pb-0">
+            <div className="relative aspect-[16/6] w-full overflow-hidden rounded-xl">
+              <Image
+                src={image}
+                alt=""
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, 520px"
+              />
+            </div>
           </div>
         )}
 
         <div className="relative p-5 sm:p-6">
-          <div className="mb-3 inline-flex items-center rounded-full border border-[#0d7377]/20 bg-[#0d7377]/6 px-3 py-1">
-            <span className="font-body text-[11px] font-medium uppercase tracking-[0.08em] text-[#0d7377]">
+          <div className="mb-3 inline-flex items-center rounded-full border border-[#2f6ebf]/20 bg-[#2f6ebf]/6 px-3 py-1">
+            <span className="font-body text-[11px] font-medium uppercase tracking-[0.08em] text-[#2f6ebf]">
               Personalized insight
             </span>
           </div>

@@ -116,12 +116,16 @@ export function QuizProvider({ children }: { children: React.ReactNode }) {
   const setStep = useCallback(
     (s: number | ((prev: number) => number)) => {
       setStepRaw(s);
+      if (typeof s === "number" && s !== 26) {
+        setIsGenerating(false);
+      }
     },
     [],
   );
 
   const goBack = useCallback(() => {
     if (step <= 0 || isGenerating) return;
+    setIsGenerating(false);
     setStepRaw((p) => Math.max(0, p - 1));
   }, [step, isGenerating]);
 

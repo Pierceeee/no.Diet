@@ -274,23 +274,11 @@ They're also in better shape. Leaner. More energetic. And by every measure, amon
 
 They don't count calories. They don't cut carbs. They eat real food, healthy fats, good ingredients.
 
-It works because it was always personal.
-
-Until now, nobody could replicate that for you. Specialist teams couldn't. Generic plans couldn't.
-
-Now, an AI trained on millions of cases can.
-
-It reads decades of research. It builds around your exact profile, in minutes.
-
 **For the first time, the world's most proven longevity diet is being built around you, not everyone.**`,
   },
   metabolism: {
     title: "Your metabolism isn't broken. It's been given the wrong plan.",
     body: `Your body changes. Most plans don't.
-
-A nutritionist sees you once a week. One hour. Limited data.
-
-That's not personalization. That's guesswork on a schedule.
 
 **Our AI-powered system runs 24/7.**
 
@@ -307,10 +295,6 @@ It never stops working on you.`,
 Keto. Calorie counting. Low fat. High grain.
 
 You followed the rules. Your body adapted. The plan didn't.
-
-That's why it stopped working.
-
-A diet that can't evolve with you isn't a diet. It's a timer.
 
 **The science is clear now. Static plans fail. Always.**
 

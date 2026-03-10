@@ -25,7 +25,7 @@ export default function EmailPage() {
             <h1 className="font-display text-[24px] font-bold leading-tight text-[#1a1a1a] sm:text-[30px] md:text-[36px]">
               Your plan is ready.
             </h1>
-            <h1 className="font-display text-[24px] font-bold leading-tight text-[#3bb44a] sm:text-[30px] md:text-[36px]">
+            <h1 className="font-display text-[24px] font-bold leading-tight text-[#2f6ebf] sm:text-[30px] md:text-[36px]">
               One step to unlock it.
             </h1>
           </div>
@@ -47,7 +47,7 @@ export default function EmailPage() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full rounded-full border border-[#d0d0d0] bg-white px-6 py-3.5 font-body text-base text-[#1a1a1a] outline-none transition-all placeholder:text-[#999] focus:border-[#3bb44a] focus:shadow-[0_0_0_3px_rgba(59,180,74,0.15)] focus:outline-none sm:py-4 sm:text-lg"
+              className="w-full rounded-full border border-[#d0d0d0] bg-white px-6 py-3.5 font-body text-base text-[#1a1a1a] outline-none transition-all placeholder:text-[#999] focus:border-[#2f6ebf] focus:shadow-[0_0_0_3px_rgba(59,180,74,0.15)] focus:outline-none sm:py-4 sm:text-lg"
               placeholder="Your email"
             />
           </div>
@@ -64,22 +64,6 @@ export default function EmailPage() {
             >
               Unlock My Personalized Program →
             </button>
-          </div>
-
-          {/* Info text */}
-          <div
-            className="animate-fade-in-up mx-auto mt-8 max-w-[480px] rounded-xl bg-[#f8f8f8] p-4 text-left sm:mt-10 sm:p-5"
-            style={{ animationDelay: "0.2s", opacity: 0 }}
-          >
-            <p className="font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
-              This isn&apos;t a static meal plan.
-            </p>
-            <p className="mt-2 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
-              It&apos;s the beginning of your personalization.
-            </p>
-            <p className="mt-2 font-body text-sm leading-relaxed text-[#444] sm:text-[15px]">
-              Your coach learns as you progress. Every week it gets smarter — refining recommendations, adjusting to your results, improving until it works perfectly for you.
-            </p>
           </div>
 
           {/* Privacy text */}
