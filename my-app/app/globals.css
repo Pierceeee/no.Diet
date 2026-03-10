@@ -12,17 +12,17 @@
   --text-muted: #9a8d80;
   --text-inverse: #faf6f1;
 
-  --accent: #c8553a;
-  --accent-hover: #b44a32;
-  --accent-soft: #f0d5cc;
-  --accent-glow: rgba(200, 85, 58, 0.15);
+  --accent: #2f6ebf;
+  --accent-hover: #265da3;
+  --accent-soft: #dbe8f8;
+  --accent-glow: rgba(47, 110, 191, 0.15);
 
   --copper: #b87333;
   --copper-light: #d4a574;
   --gold: #c9a84c;
 
-  --green: #3bb44a;
-  --green-light: #e8f5e9;
+  --green: #2f6ebf;
+  --green-light: #e8f0fb;
 
   --border: #e8ddd0;
   --border-hover: #d4c4b0;
@@ -36,7 +36,7 @@
   --shadow-sm: 0 1px 3px rgba(28, 20, 16, 0.06);
   --shadow-md: 0 4px 16px rgba(28, 20, 16, 0.08);
   --shadow-lg: 0 8px 32px rgba(28, 20, 16, 0.1);
-  --shadow-glow: 0 0 40px rgba(200, 85, 58, 0.12);
+  --shadow-glow: 0 0 40px rgba(47, 110, 191, 0.12);
 }
 
 @theme inline {
@@ -162,8 +162,8 @@ body {
 }
 
 @keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(200, 85, 58, 0.3); }
-  50% { box-shadow: 0 0 24px 4px rgba(200, 85, 58, 0.15); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(47, 110, 191, 0.3); }
+  50% { box-shadow: 0 0 24px 4px rgba(47, 110, 191, 0.15); }
 }
 
 @keyframes spin-slow {
@@ -234,7 +234,7 @@ body {
 }
 
 .animate-shimmer {
-  background: linear-gradient(90deg, transparent 0%, rgba(200, 85, 58, 0.06) 50%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, rgba(47, 110, 191, 0.06) 50%, transparent 100%);
   background-size: 200% 100%;
   animation: shimmer 2s ease-in-out infinite;
 }
@@ -332,7 +332,7 @@ input[type="number"] {
   position: absolute;
   inset: 0;
   opacity: 0;
-  background: linear-gradient(135deg, rgba(200, 85, 58, 0.04) 0%, transparent 60%);
+  background: linear-gradient(135deg, rgba(47, 110, 191, 0.04) 0%, transparent 60%);
   transition: opacity 0.2s ease;
   pointer-events: none;
 }
@@ -349,9 +349,9 @@ input[type="number"] {
 
 /* Selected option */
 .option-card-selected {
-  border-color: #3bb44a !important;
-  background: #f0faf2 !important;
-  box-shadow: 0 0 0 1px #3bb44a, 0 1px 3px rgba(28, 20, 16, 0.06) !important;
+  border-color: #2f6ebf !important;
+  background: #eef4fb !important;
+  box-shadow: 0 0 0 1px #2f6ebf, 0 1px 3px rgba(28, 20, 16, 0.06) !important;
 }
 
 /* ─── CTA Button ─── */
@@ -374,7 +374,7 @@ input[type="number"] {
 .cta-btn:hover:not(:disabled) {
   background: var(--accent-hover);
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(200, 85, 58, 0.3);
+  box-shadow: 0 6px 20px rgba(47, 110, 191, 0.3);
 }
 .cta-btn:active:not(:disabled) {
   transform: translateY(0);
@@ -459,10 +459,10 @@ input:focus-visible:not([type="email"]):not([type="text"]):not([type="number"]):
 
 @keyframes glowPulse {
   0%, 100% {
-    box-shadow: 0 0 30px rgba(200, 85, 58, 0.2), 0 0 60px rgba(184, 115, 51, 0.1);
+    box-shadow: 0 0 30px rgba(47, 110, 191, 0.2), 0 0 60px rgba(184, 115, 51, 0.1);
   }
   50% {
-    box-shadow: 0 0 50px rgba(200, 85, 58, 0.35), 0 0 100px rgba(184, 115, 51, 0.15);
+    box-shadow: 0 0 50px rgba(47, 110, 191, 0.35), 0 0 100px rgba(184, 115, 51, 0.15);
   }
 }
 

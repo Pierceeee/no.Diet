@@ -11,10 +11,10 @@ const variantStyles: Record<
 > = {
   success: {
     container:
-      "border-[#3bb44a]/20 bg-[linear-gradient(145deg,#f0fdf4_0%,#dcfce7_45%,#ffffff_100%)] shadow-[0_14px_34px_rgba(59,180,74,0.15)]",
-    bar: "bg-[linear-gradient(90deg,#22c55e_0%,#4ade80_45%,#86efac_100%)]",
-    icon: "bg-[linear-gradient(145deg,#22c55e_0%,#4ade80_100%)] shadow-[0_8px_16px_rgba(34,197,94,0.35)]",
-    text: "text-[#3f5f45]",
+      "border-[#2f6ebf]/20 bg-[linear-gradient(145deg,#eef4fb_0%,#dbe8f8_45%,#ffffff_100%)] shadow-[0_14px_34px_rgba(47,110,191,0.15)]",
+    bar: "bg-[linear-gradient(90deg,#2f6ebf_0%,#4a8ad4_45%,#7bb0e8_100%)]",
+    icon: "bg-[linear-gradient(145deg,#2f6ebf_0%,#4a8ad4_100%)] shadow-[0_8px_16px_rgba(47,110,191,0.35)]",
+    text: "text-[#1e3a5f]",
   },
   warning: {
     container:
@@ -25,10 +25,10 @@ const variantStyles: Record<
   },
   danger: {
     container:
-      "border-[#ef4444]/20 bg-[linear-gradient(145deg,#fef2f2_0%,#fecaca_45%,#ffffff_100%)] shadow-[0_14px_34px_rgba(239,68,68,0.15)]",
-    bar: "bg-[linear-gradient(90deg,#ef4444_0%,#f87171_45%,#fca5a5_100%)]",
-    icon: "bg-[linear-gradient(145deg,#ef4444_0%,#f87171_100%)] shadow-[0_8px_16px_rgba(239,68,68,0.35)]",
-    text: "text-[#7f1d1d]",
+      "border-[#2f6ebf]/20 bg-[linear-gradient(145deg,#eef4fb_0%,#dbe8f8_45%,#ffffff_100%)] shadow-[0_14px_34px_rgba(47,110,191,0.15)]",
+    bar: "bg-[linear-gradient(90deg,#2f6ebf_0%,#4a8ad4_45%,#7bb0e8_100%)]",
+    icon: "bg-[linear-gradient(145deg,#2f6ebf_0%,#4a8ad4_100%)] shadow-[0_8px_16px_rgba(47,110,191,0.35)]",
+    text: "text-[#1e3a5f]",
   },
 };
 

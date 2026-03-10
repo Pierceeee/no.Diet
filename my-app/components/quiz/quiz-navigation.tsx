@@ -47,7 +47,7 @@ export function Checkbox({ checked }: { checked: boolean }) {
     <span
       className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-2 transition-all ${
         checked
-          ? "border-[#3bb44a] bg-[#3bb44a]"
+          ? "border-[#2f6ebf] bg-[#2f6ebf]"
           : "border-[#d0d0d0] bg-white"
       }`}
     >

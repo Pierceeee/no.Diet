@@ -39,7 +39,7 @@ export default function IntroPage() {
 
               <h2 className="text-center font-display text-[22px] font-semibold leading-tight tracking-[-0.02em] text-[var(--text-primary)] sm:text-[27px]">
                 Before we build your plan —{" "}
-                <span className="text-[#2f6ebf]">read this</span>.
+                <span className="text-[#2f6ebf]">READ THIS</span>.
               </h2>
 
               <div className="mx-auto mt-6 max-w-[620px] space-y-4 text-center sm:mt-7 sm:space-y-4.5">

@@ -22,10 +22,10 @@ export default function OfferLayout({
 
   return (
     <div className="min-h-[100dvh] bg-white">
-      <header className="sticky top-0 z-30 bg-[#e8f5e9]">
+      <header className="sticky top-0 z-30 bg-[#eef4fb]">
         <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-2.5 sm:px-5 sm:py-3">
           <div>
-            <p className="font-body text-[11px] text-[#3bb44a] sm:text-[13px]">
+            <p className="font-body text-[11px] text-[#2f6ebf] sm:text-[13px]">
               50% Discount Reserved For You:
             </p>
             <p className="font-body text-[22px] font-extrabold leading-tight text-[var(--text-primary)] sm:text-[28px]">

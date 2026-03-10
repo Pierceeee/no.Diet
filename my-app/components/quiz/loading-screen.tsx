@@ -92,7 +92,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
             r="52"
             strokeWidth="8"
             fill="none"
-            stroke="#3bb44a"
+            stroke="#2f6ebf"
             strokeLinecap="round"
             strokeDasharray={2 * Math.PI * 52}
             strokeDashoffset={2 * Math.PI * 52 * (1 - progress / 100)}
@@ -114,12 +114,12 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
         {visibleMessages.map((msg) => (
           <p
             key={msg}
-            className="animate-fade-in flex items-center justify-center gap-2"
+            className="animate-fade-in flex items-start justify-center gap-2 px-4 text-left"
           >
-            <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[var(--green)] text-xs text-white">
+            <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--green)] text-xs text-white">
               ✓
             </span>
-            {msg}
+            <span>{msg}</span>
           </p>
         ))}
       </div>

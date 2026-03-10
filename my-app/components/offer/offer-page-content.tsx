@@ -183,34 +183,38 @@ export default function OfferPageContent() {
   );
 
   const TermsCheckbox = () => (
-    <div className="mt-4 flex items-start gap-3">
-      <button
-        onClick={() => setAgreedToTerms(!agreedToTerms)}
-        className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded border-2 transition-all"
+    <div
+      className="mt-4 flex cursor-pointer items-start gap-2.5"
+      onClick={() => setAgreedToTerms(!agreedToTerms)}
+    >
+      <span
+        className="mt-[3px] flex shrink-0 items-center justify-center rounded border-2 transition-all"
         style={{
+          width: 18,
+          height: 18,
           borderColor: agreedToTerms ? accentColor : "#d0d0d0",
           backgroundColor: agreedToTerms ? accentColor : "white",
         }}
       >
         {agreedToTerms && (
-          <svg width="12" height="10" viewBox="0 0 12 10" fill="none">
+          <svg width="11" height="9" viewBox="0 0 12 10" fill="none">
             <path
               d="M1 5L4.5 8.5L11 1.5"
               stroke="white"
-              strokeWidth="2"
+              strokeWidth="2.5"
               strokeLinecap="round"
               strokeLinejoin="round"
             />
           </svg>
         )}
-      </button>
+      </span>
       <p className="font-body text-xs text-[#666] sm:text-sm">
         I agree to the{" "}
-        <a href="#" className="text-[#3bb44a] underline">
+        <a href="#" className="text-[#2f6ebf] underline">
           T&Cs
         </a>{" "}
         and{" "}
-        <a href="#" className="text-[#3bb44a] underline">
+        <a href="#" className="text-[#2f6ebf] underline">
           Privacy Policy
         </a>
         .
@@ -409,9 +413,9 @@ export default function OfferPageContent() {
           </div>
         </div>
 
-        <div className="mx-auto mt-4 inline-flex items-center gap-2 rounded-full bg-[#e8f5e9] px-4 py-2 sm:mt-5">
-          <span className="text-[#3bb44a]">✓</span>
-          <p className="font-body text-[12px] font-medium text-[#3bb44a] sm:text-[13px]">
+        <div className="mx-auto mt-4 inline-flex items-center gap-2 rounded-full bg-[#eef4fb] px-4 py-2 sm:mt-5">
+          <span className="text-[#2f6ebf]">✓</span>
+          <p className="font-body text-[12px] font-medium text-[#2f6ebf] sm:text-[13px]">
             Your plan is ready
           </p>
         </div>
@@ -440,7 +444,7 @@ export default function OfferPageContent() {
         <div className="mt-6 space-y-4">
           {FEATURES.map((feature, i) => (
             <div key={i} className="flex items-start gap-3">
-              <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#3bb44a] text-xs text-white">
+              <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#2f6ebf] text-xs text-white">
                 ✓
               </span>
               <div>

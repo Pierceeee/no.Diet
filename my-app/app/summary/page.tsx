@@ -145,7 +145,7 @@ export default function SummaryPage() {
                 <p>
                   Blue Zone research shows that when you eat in alignment with your body, metabolism stabilizes and inflammation drops.
                 </p>
-                <p className="font-semibold text-[#3bb44a]">
+                <p className="font-semibold text-[#2f6ebf]">
                   Your plan is built on that science.
                 </p>
               </div>
@@ -173,7 +173,7 @@ export default function SummaryPage() {
               <p className="mt-3 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base">
                 That&apos;s why your plan is not based on generic calorie formulas.
               </p>
-              <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#3bb44a] sm:text-base">
+              <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#2f6ebf] sm:text-base">
                 It&apos;s based on adaptive metabolic alignment.
               </p>
             </div>
@@ -278,7 +278,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.15s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[20px] align-middle">🍽️</span>
+                  <span className="mr-2 inline-block text-[24px] align-middle">🍽️</span>
                   Unlimited Adaptive Mediterranean Meals
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
@@ -292,7 +292,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.3s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[20px] align-middle">💪</span>
+                  <span className="mr-2 inline-block text-[24px] align-middle">💪</span>
                   Personalised Metabolic Movement
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
@@ -306,7 +306,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.45s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[20px] align-middle">🔥</span>
+                  <span className="mr-2 inline-block text-[24px] align-middle">🔥</span>
                   Habit &amp; Consistency Challenges
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
@@ -320,7 +320,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.6s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[20px] align-middle">📖</span>
+                  <span className="mr-2 inline-block text-[24px] align-middle">📖</span>
                   Longevity &amp; Metabolism Guides
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
@@ -334,7 +334,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.75s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[20px] align-middle">📊</span>
+                  <span className="mr-2 inline-block text-[24px] align-middle">📊</span>
                   Adaptive Progress Tracking
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">

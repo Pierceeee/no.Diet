@@ -213,7 +213,7 @@ export default function QuizPage() {
                     setAnswer("q3", item);
                     setStep(5);
                   }}
-                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-0 transition-all duration-200 hover:border-[var(--accent)]/50 hover:shadow-md active:scale-[0.99] sm:py-5 sm:pl-6"
+                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-2 transition-all duration-200 hover:border-[var(--accent)]/50 hover:shadow-md active:scale-[0.99] sm:py-5 sm:pl-6"
                 >
                   <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
                     {item}
@@ -223,7 +223,7 @@ export default function QuizPage() {
                       src={bodyImages[item] || bodyImages["Average"]}
                       alt={item}
                       fill
-                      className="object-cover object-top"
+                      className="object-contain object-center"
                       sizes="112px"
                     />
                   </div>
@@ -261,7 +261,7 @@ export default function QuizPage() {
                     setAnswer("q4", item);
                     setStep(6);
                   }}
-                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-0 transition-all duration-200 hover:border-[var(--accent)]/50 hover:shadow-md active:scale-[0.99] sm:py-5 sm:pl-6"
+                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-2 transition-all duration-200 hover:border-[var(--accent)]/50 hover:shadow-md active:scale-[0.99] sm:py-5 sm:pl-6"
                 >
                   <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
                     {item}
@@ -271,7 +271,7 @@ export default function QuizPage() {
                       src={targetImages[item] || targetImages[Object.keys(targetImages)[0]]}
                       alt={item}
                       fill
-                      className="object-cover object-top"
+                      className="object-contain object-center"
                       sizes="112px"
                     />
                   </div>
@@ -560,10 +560,10 @@ export default function QuizPage() {
           <div
             className={`animate-fade-in-up mt-3 rounded-[10px] border-l-4 p-3 sm:mt-4 sm:rounded-[12px] sm:p-4 ${
               analysis.bmiLabel === "Healthy"
-                ? "border-[#3bb44a] bg-[#f0fdf4]"
+                ? "border-[#2f6ebf] bg-[#eef4fb]"
                 : analysis.bmiLabel === "Overweight"
-                ? "border-[#f59e0b] bg-[#fffbeb]"
-                : "border-[#ef4444] bg-[#fef2f2]"
+                ? "border-[#2f6ebf] bg-[#eef4fb]"
+                : "border-[#2f6ebf] bg-[#eef4fb]"
             }`}
             style={{ animationDelay: "0.15s", opacity: 0 }}
           >

@@ -14,9 +14,8 @@ interface InfoInterstitialProps {
 
 function parseTitle(title: string) {
   const parts = title.split(/\{\{(.*?)\}\}/g);
-  if (parts.length === 1) return title;
 
-  return parts.map((part, i) =>
+  const rendered = parts.map((part, i) =>
     i % 2 === 1 ? (
       <span key={i} className="font-semibold text-[#2f6ebf]">
         {part}
@@ -25,6 +24,16 @@ function parseTitle(title: string) {
       part
     )
   );
+
+  // Handle newlines → <br />
+  return rendered.flatMap((part, i) => {
+    if (typeof part !== "string") return part;
+    const lines = part.split("\n");
+    if (lines.length === 1) return part;
+    return lines.flatMap((line, j) =>
+      j < lines.length - 1 ? [line, <br key={`br-${i}-${j}`} />] : [line]
+    );
+  });
 }
 
 function renderTextWithFormatting(text: string) {

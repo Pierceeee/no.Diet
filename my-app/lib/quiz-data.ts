@@ -267,7 +267,7 @@ export const GOAL_EMOJIS = ["🔥", "💪", "🏋️", "☀️", "❤️", "🌿
 
 export const INFO_BLOCKS = {
   blueZones: {
-    title: "Their Secret To A Lean Body And Long Life. Now Finally Yours.",
+    title: "Their Secret To A Lean Body And Long Life.\nNOW FINALLY YOURS.",
     body: `People in the world's longest-living regions called **Blue Zones** — outlive everyone else.
 
 They're also in better shape. Leaner. More energetic. And by every measure, among the happiest people on earth.
@@ -306,7 +306,7 @@ Your body is not static. Your plan shouldn't be either.`,
     body: "BMI helps us understand your current weight range.",
   },
   adviceWrong: {
-    title: "That advice you were given? It was wrong.",
+    title: "That advice you were given? \nIT WAS WRONG",
     body: `For years they said eat less fat. Count every calorie. Follow the pyramid.
 
 Millions followed it perfectly. Millions still struggled.
