@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { useQuiz } from "@/lib/quiz-context";
 import { fmt } from "@/lib/utils";
@@ -8,10 +8,38 @@ import { Logo } from "@/components/ui/logo";
 
 type SummaryStep = "bmi" | "snapshot" | "bmiStory" | "coach" | "features";
 
+const SUMMARY_STEPS: SummaryStep[] = ["bmi", "snapshot", "bmiStory", "coach", "features"];
+
 export default function SummaryPage() {
   const router = useRouter();
   const { analysis } = useQuiz();
   const [summaryStep, setSummaryStep] = useState<SummaryStep>("bmi");
+
+  // Push browser history on step change
+  useEffect(() => {
+    const currentState = window.history.state;
+    if (currentState?.summaryStep !== summaryStep) {
+      window.history.pushState({ summaryStep }, "");
+    }
+  }, [summaryStep]);
+
+  useEffect(() => {
+    const handlePopState = (e: PopStateEvent) => {
+      const prevStep = e.state?.summaryStep;
+      if (prevStep && SUMMARY_STEPS.includes(prevStep)) {
+        setSummaryStep(prevStep);
+      } else {
+        const idx = SUMMARY_STEPS.indexOf(summaryStep);
+        if (idx > 0) {
+          const prev = SUMMARY_STEPS[idx - 1];
+          setSummaryStep(prev);
+          window.history.pushState({ summaryStep: prev }, "");
+        }
+      }
+    };
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [summaryStep]);
 
   return (
     <div className="min-h-[100dvh] bg-white">

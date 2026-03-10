@@ -81,6 +81,32 @@ export default function QuizPage() {
     }
   }, [step, router, hydrated]);
 
+  // Push browser history on step change so back button goes to previous step
+  useEffect(() => {
+    if (!hydrated || step === 0 || step === 26) return;
+    const currentState = window.history.state;
+    if (currentState?.quizStep !== step) {
+      window.history.pushState({ quizStep: step }, "");
+    }
+  }, [step, hydrated]);
+
+  useEffect(() => {
+    const handlePopState = (e: PopStateEvent) => {
+      let target = e.state?.quizStep;
+      if (typeof target === "number" && target >= 1) {
+        // Skip the generating step (26) — go to 25 instead
+        if (target === 26) target = 25;
+        setStep(target);
+      } else if (step > 1) {
+        const back = step === 27 || step === 26 ? 25 : Math.max(1, step - 1);
+        setStep(back);
+        window.history.pushState({ quizStep: back }, "");
+      }
+    };
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [step, setStep]);
+
   const genderGoals = getGenderGoals(answers.gender);
   const q3Bodies = getQ3Bodies(answers.gender);
   const q4Bodies = getQ4Bodies(answers.gender);
