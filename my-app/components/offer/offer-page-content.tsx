@@ -293,7 +293,7 @@ export default function OfferPageContent() {
                 src={nowImageSrc}
                 alt="Current body"
                 fill
-                className="object-contain object-bottom"
+                className="object-contain object-bottom grayscale"
                 sizes="(max-width: 640px) 50vw, 300px"
                 unoptimized
               />
