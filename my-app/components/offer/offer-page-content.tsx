@@ -184,11 +184,11 @@ export default function OfferPageContent() {
 
   const TermsCheckbox = () => (
     <div
-      className="mt-4 flex cursor-pointer items-start gap-2.5"
+      className="mt-4 flex cursor-pointer items-center gap-2.5"
       onClick={() => setAgreedToTerms(!agreedToTerms)}
     >
       <span
-        className="mt-[3px] flex shrink-0 items-center justify-center rounded border-2 transition-all"
+        className="flex shrink-0 items-center justify-center rounded border-2 transition-all"
         style={{
           width: 18,
           height: 18,
@@ -208,7 +208,7 @@ export default function OfferPageContent() {
           </svg>
         )}
       </span>
-      <p className="font-body text-xs text-[#666] sm:text-sm">
+      <p className="font-body text-xs leading-[1.35] text-[#666] sm:text-sm">
         I agree to the{" "}
         <a href="#" className="text-[#2f6ebf] underline">
           T&Cs
