@@ -278,7 +278,7 @@ They don't count calories. They don't cut carbs. They eat real food, healthy fat
     image: "/quiz/blue-zones.png",
   },
   metabolism: {
-    title: "Your metabolism isn't broken. It's been given the wrong plan.",
+    title: "Your metabolism isn't broken.\nIt's been given the wrong plan.",
     body: `Your body changes. Most plans don't.
 
 **Our AI-powered system runs 24/7.**
@@ -288,6 +288,7 @@ Trained on hundreds of years of research. Millions of real cases.
 It adjusts when you adjust.
 
 It never stops working on you.`,
+    image: "/quiz/page11.png",
   },
   dietsWrong: {
     title: "Those diets weren't wrong because you did them wrong.",

@@ -359,6 +359,7 @@ export default function QuizPage() {
         <InfoInterstitial
           title={INFO_BLOCKS.metabolism.title}
           body={INFO_BLOCKS.metabolism.body}
+          image={INFO_BLOCKS.metabolism.image}
           onContinue={() => setStep(12)}
         />
       )}
