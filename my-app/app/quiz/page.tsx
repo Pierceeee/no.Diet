@@ -485,6 +485,7 @@ export default function QuizPage() {
         <InfoInterstitial
           title={INFO_BLOCKS.adviceWrong.title}
           body={INFO_BLOCKS.adviceWrong.body}
+          image={INFO_BLOCKS.adviceWrong.image}
           onContinue={() => setStep(19)}
         />
       )}

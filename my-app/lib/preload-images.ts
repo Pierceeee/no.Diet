@@ -28,6 +28,7 @@ const FEMALE_BODY_IMAGES = [
 const INFO_BLOCK_IMAGES = [
   "/quiz/blue-zones.png",
   "/quiz/page11.png",
+  "/quiz/page12.png",
   "/quiz/3.png",
   "/quiz/mediterranean-spread.png",
 ];

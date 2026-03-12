@@ -308,7 +308,7 @@ Your body is not static. Your plan shouldn't be either.`,
     body: "BMI helps us understand your current weight range.",
   },
   adviceWrong: {
-    title: "That advice you were given? \nIT WAS WRONG",
+    title: "That advice you were given?\n\nIT WAS WRONG",
     body: `For years they said eat less fat. Count every calorie. Follow the pyramid.
 
 Millions followed it perfectly. Millions still struggled.
@@ -316,6 +316,7 @@ Millions followed it perfectly. Millions still struggled.
 The foundation was backwards. Not you.
 
 The science has caught up. Your plan reflects that.`,
+    image: "/quiz/page12.png",
   },
   ageMetabolism: {
     title: "Age changes your metabolism, but it doesn't stop results.",
