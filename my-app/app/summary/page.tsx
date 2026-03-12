@@ -14,6 +14,12 @@ export default function SummaryPage() {
   const router = useRouter();
   const { analysis } = useQuiz();
   const [summaryStep, setSummaryStep] = useState<SummaryStep>("bmi");
+  const bmiTone =
+    analysis.bmiLabel === "Healthy"
+      ? { accent: "#3aab4f" }
+      : analysis.bmiLabel === "Overweight"
+      ? { accent: "#e8a838" }
+      : { accent: "#d94040" };
 
   // Push browser history on step change
   useEffect(() => {
@@ -68,11 +74,17 @@ export default function SummaryPage() {
               </h3>
               <div className="relative mt-6 mb-2 sm:mt-7">
                 <div
-                  className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-1.5 py-0.5 text-[10px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
-                  style={{ left: `clamp(15%, ${analysis.bmiPosition}%, 85%)` }}
+                  className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md px-1.5 py-0.5 text-[10px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
+                  style={{
+                    left: `clamp(15%, ${analysis.bmiPosition}%, 85%)`,
+                    backgroundColor: bmiTone.accent,
+                  }}
                 >
                   You {fmt(analysis.bmi)}
-                  <span className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 bg-[var(--accent)]" />
+                  <span
+                    className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45"
+                    style={{ backgroundColor: bmiTone.accent }}
+                  />
                 </div>
                 <div className="bmi-gradient h-3 w-full rounded-full" />
                 <div
@@ -113,7 +125,9 @@ export default function SummaryPage() {
               <div className="mt-5 rounded-xl bg-white px-4 py-3 sm:px-5 sm:py-4">
                 <p className="font-body text-sm text-[#666] sm:text-base">
                   Your Weight Category:{" "}
-                  <span className="font-bold text-[#1a1a1a]">{analysis.bmiLabel}</span>
+                  <span className="font-bold" style={{ color: bmiTone.accent }}>
+                    {analysis.bmiLabel}
+                  </span>
                 </p>
               </div>
             </div>

@@ -128,6 +128,22 @@ export default function QuizPage() {
     }
   };
 
+  const bmiTone =
+    analysis.bmiLabel === "Healthy"
+      ? {
+          accent: "#3aab4f",
+          bg: "#edf7ee",
+        }
+      : analysis.bmiLabel === "Overweight"
+      ? {
+          accent: "#e8a838",
+          bg: "#fff7e8",
+        }
+      : {
+          accent: "#d94040",
+          bg: "#fdecec",
+        };
+
   if (!hydrated || step === 0) return null;
 
   return (
@@ -537,11 +553,17 @@ export default function QuizPage() {
             </h3>
             <div className="relative mt-5 mb-2 sm:mt-6">
               <div
-                className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-1 py-0.5 text-[9px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
-                style={{ left: `clamp(15%, ${analysis.bmiPosition}%, 85%)` }}
+                className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md px-1 py-0.5 text-[9px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
+                style={{
+                  left: `clamp(15%, ${analysis.bmiPosition}%, 85%)`,
+                  backgroundColor: bmiTone.accent,
+                }}
               >
                 <span className="whitespace-nowrap">You {fmt(analysis.bmi)}</span>
-                <span className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 bg-[var(--accent)]" />
+                <span
+                  className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45"
+                  style={{ backgroundColor: bmiTone.accent }}
+                />
               </div>
               <div className="bmi-gradient h-3 w-full rounded-full" />
               <div
@@ -566,14 +588,13 @@ export default function QuizPage() {
 
           {/* BMI message */}
           <div
-            className={`animate-fade-in-up mt-3 rounded-[10px] border-l-4 p-3 sm:mt-4 sm:rounded-[12px] sm:p-4 ${
-              analysis.bmiLabel === "Healthy"
-                ? "border-[#2f6ebf] bg-[#eef4fb]"
-                : analysis.bmiLabel === "Overweight"
-                ? "border-[#2f6ebf] bg-[#eef4fb]"
-                : "border-[#2f6ebf] bg-[#eef4fb]"
-            }`}
-            style={{ animationDelay: "0.15s", opacity: 0 }}
+            className="animate-fade-in-up mt-3 rounded-[10px] border-l-4 p-3 sm:mt-4 sm:rounded-[12px] sm:p-4"
+            style={{
+              animationDelay: "0.15s",
+              opacity: 0,
+              borderLeftColor: bmiTone.accent,
+              backgroundColor: bmiTone.bg,
+            }}
           >
             <p className="font-body text-sm font-semibold text-[var(--text-primary)]">
               {getBmiMessage(analysis.bmiLabel).title}
