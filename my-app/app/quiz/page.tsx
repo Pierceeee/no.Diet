@@ -537,10 +537,10 @@ export default function QuizPage() {
             </h3>
             <div className="relative mt-5 mb-2 sm:mt-6">
               <div
-                className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-1.5 py-0.5 text-[10px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
-                style={{ left: `${analysis.bmiPosition}%` }}
+                className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-1 py-0.5 text-[9px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
+                style={{ left: `clamp(15%, ${analysis.bmiPosition}%, 85%)` }}
               >
-                <span className="whitespace-nowrap">You - {fmt(analysis.bmi)}</span>
+                <span className="whitespace-nowrap">You {fmt(analysis.bmi)}</span>
                 <span className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 bg-[var(--accent)]" />
               </div>
               <div className="bmi-gradient h-3 w-full rounded-full" />
@@ -552,11 +552,15 @@ export default function QuizPage() {
                 }}
               />
             </div>
-            <div className="relative mt-3 h-5 font-body text-[10px] text-[var(--text-muted)] sm:text-xs">
-              <span className="absolute left-[9%] -translate-x-1/2 whitespace-nowrap">Underweight</span>
-              <span className="absolute left-[34%] -translate-x-1/2 whitespace-nowrap">Healthy</span>
-              <span className="absolute left-[62.5%] -translate-x-1/2 whitespace-nowrap">Overweight</span>
-              <span className="absolute left-[87.5%] -translate-x-1/2 whitespace-nowrap">Obese</span>
+            <div className="relative mt-3 h-8 font-body text-[10px] text-[var(--text-muted)] sm:h-5 sm:text-xs">
+              <span className="absolute left-[9%] -translate-x-1/2 whitespace-nowrap sm:hidden">Under</span>
+              <span className="absolute left-[34%] -translate-x-1/2 whitespace-nowrap sm:hidden">Healthy</span>
+              <span className="absolute left-[62.5%] -translate-x-1/2 whitespace-nowrap sm:hidden">Over</span>
+              <span className="absolute left-[87.5%] -translate-x-1/2 whitespace-nowrap sm:hidden">Obese</span>
+              <span className="absolute left-[9%] -translate-x-1/2 whitespace-nowrap max-sm:hidden">Underweight</span>
+              <span className="absolute left-[34%] -translate-x-1/2 whitespace-nowrap max-sm:hidden">Healthy</span>
+              <span className="absolute left-[62.5%] -translate-x-1/2 whitespace-nowrap max-sm:hidden">Overweight</span>
+              <span className="absolute left-[87.5%] -translate-x-1/2 whitespace-nowrap max-sm:hidden">Obese</span>
             </div>
           </div>
 
@@ -626,6 +630,7 @@ export default function QuizPage() {
                   fill
                   className="object-contain object-top"
                   sizes="(max-width: 640px) 224px, 240px"
+                  unoptimized
                 />
               </div>
             </div>

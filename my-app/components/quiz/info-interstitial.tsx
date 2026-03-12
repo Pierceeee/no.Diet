@@ -195,6 +195,7 @@ export function InfoInterstitial({
               fill
               className="object-cover"
               sizes="(max-width: 640px) 100vw, 520px"
+              quality={100}
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />

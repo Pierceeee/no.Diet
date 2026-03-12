@@ -223,6 +223,7 @@ export function BodyHighlight({
             fill
             className="object-contain"
             sizes="(max-width: 640px) 280px, 340px"
+            quality={100}
             priority
             onLoad={onImageLoad}
           />

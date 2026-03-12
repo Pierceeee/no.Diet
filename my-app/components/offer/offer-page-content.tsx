@@ -129,6 +129,17 @@ export default function OfferPageContent() {
   );
   const currentFitness = analysis.bmi > 25 ? 1 : analysis.bmi > 22 ? 2 : 3;
   const goalFitness = 3;
+  const isMale = answers.gender === "male";
+
+  const nowImageSrc = isMale
+    ? "/docs/goal/8.svg"
+    : analysis.bmiLabel === "Overweight"
+    ? "/docs/goal/5.svg"
+    : analysis.bmiLabel === "Obese"
+    ? "/docs/goal/2.svg"
+    : "/docs/goal/6.svg";
+
+  const goalImageSrc = isMale ? "/docs/goal/7.svg" : "/docs/goal/3.svg";
 
   const accentColor = "#3b82f6";
 
@@ -279,15 +290,12 @@ export default function OfferPageContent() {
           <div className="relative border-r border-[#e8e8e8]">
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
-                src={
-                  answers.gender === "male"
-                    ? "/docs/offer-page/6.svg"
-                    : "/docs/offer-page/4.svg"
-                }
+                src={nowImageSrc}
                 alt="Current body"
                 fill
-                className="object-contain object-bottom opacity-60 grayscale"
+                className="object-contain object-bottom"
                 sizes="(max-width: 640px) 50vw, 300px"
+                unoptimized
               />
             </div>
             <div className="p-3 sm:p-4 md:p-5">
@@ -330,15 +338,12 @@ export default function OfferPageContent() {
           <div className="relative">
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
-                src={
-                  answers.gender === "male"
-                    ? "/docs/offer-page/5.svg"
-                    : "/docs/offer-page/3.svg"
-                }
+                src={goalImageSrc}
                 alt="Goal body"
                 fill
                 className="object-contain object-bottom"
                 sizes="(max-width: 640px) 50vw, 300px"
+                unoptimized
               />
             </div>
             <div className="p-3 sm:p-4 md:p-5">

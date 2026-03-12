@@ -68,10 +68,10 @@ export default function SummaryPage() {
               </h3>
               <div className="relative mt-6 mb-2 sm:mt-7">
                 <div
-                  className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-2.5 py-0.5 text-[11px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
-                  style={{ left: `${analysis.bmiPosition}%` }}
+                  className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md bg-[var(--accent)] px-1.5 py-0.5 text-[10px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
+                  style={{ left: `clamp(15%, ${analysis.bmiPosition}%, 85%)` }}
                 >
-                  You – {fmt(analysis.bmi)}
+                  You {fmt(analysis.bmi)}
                   <span className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 bg-[var(--accent)]" />
                 </div>
                 <div className="bmi-gradient h-3 w-full rounded-full" />
@@ -83,17 +83,29 @@ export default function SummaryPage() {
                   }}
                 />
               </div>
-              <div className="relative mt-3 h-5 font-body text-xs text-[#999] sm:text-sm">
-                <span className={`absolute left-[9%] -translate-x-1/2 ${analysis.bmiLabel === "Underweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  Underweight
+              <div className="relative mt-3 h-8 font-body text-xs text-[#999] sm:h-5 sm:text-sm">
+                <span className={`absolute left-[9%] -translate-x-1/2 sm:hidden ${analysis.bmiLabel === "Underweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                  Under
                 </span>
-                <span className={`absolute left-[34%] -translate-x-1/2 ${analysis.bmiLabel === "Healthy" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                <span className={`absolute left-[34%] -translate-x-1/2 sm:hidden ${analysis.bmiLabel === "Healthy" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Healthy
                 </span>
-                <span className={`absolute left-[62.5%] -translate-x-1/2 ${analysis.bmiLabel === "Overweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                <span className={`absolute left-[62.5%] -translate-x-1/2 sm:hidden ${analysis.bmiLabel === "Overweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                  Over
+                </span>
+                <span className={`absolute left-[87.5%] -translate-x-1/2 sm:hidden ${analysis.bmiLabel === "Obese" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                  Obese
+                </span>
+                <span className={`absolute left-[9%] -translate-x-1/2 max-sm:hidden ${analysis.bmiLabel === "Underweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                  Underweight
+                </span>
+                <span className={`absolute left-[34%] -translate-x-1/2 max-sm:hidden ${analysis.bmiLabel === "Healthy" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                  Healthy
+                </span>
+                <span className={`absolute left-[62.5%] -translate-x-1/2 max-sm:hidden ${analysis.bmiLabel === "Overweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Overweight
                 </span>
-                <span className={`absolute left-[87.5%] -translate-x-1/2 ${analysis.bmiLabel === "Obese" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                <span className={`absolute left-[87.5%] -translate-x-1/2 max-sm:hidden ${analysis.bmiLabel === "Obese" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Obese
                 </span>
               </div>
