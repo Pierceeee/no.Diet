@@ -762,7 +762,7 @@ export default function QuizPage() {
               Based on your food preferences, we&apos;ve created
               </p>
               <div className="mt-5 border-t border-[#d5d5d5] pt-5">
-                <p className="text-[62px] font-bold leading-none tracking-[-0.02em] text-[#06ad31]">
+                <p className="text-[62px] font-bold leading-none tracking-[-0.02em] text-[#3b82f6]">
                   500+
                 </p>
                 <p className="mt-2.5 text-[14px] leading-[1.45] tracking-[-0.01em] text-[#111]">
