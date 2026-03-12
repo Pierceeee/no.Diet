@@ -1,7 +1,9 @@
 "use client";
 
+import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useQuiz } from "@/lib/quiz-context";
+import { preloadForGender, preloadInfoImages } from "@/lib/preload-images";
 import { QuizSection } from "@/components/ui/quiz-section";
 import { CTAButton } from "@/components/quiz/quiz-navigation";
 import { Logo } from "@/components/ui/logo";
@@ -9,6 +11,11 @@ import { Logo } from "@/components/ui/logo";
 export default function IntroPage() {
   const router = useRouter();
   const { answers, setStep } = useQuiz();
+
+  useEffect(() => {
+    preloadForGender(answers.gender);
+    preloadInfoImages();
+  }, [answers.gender]);
 
   const handleContinue = () => {
     setStep(1);

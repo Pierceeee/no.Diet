@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useQuiz } from "@/lib/quiz-context";
+import { preloadForGender } from "@/lib/preload-images";
 import { Logo } from "@/components/ui/logo";
 
 export default function LandingPage() {
@@ -13,6 +14,7 @@ export default function LandingPage() {
 
   const handleGender = (gender: "male" | "female") => {
     setGender(gender);
+    preloadForGender(gender);
     router.push("/intro");
   };
 
