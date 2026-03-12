@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { useQuiz } from "@/lib/quiz-context";
 
 const LOADING_MESSAGES = [
@@ -20,7 +20,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
   const startTimeRef = useRef<number | null>(null);
   const rafRef = useRef<number>(0);
   const completedRef = useRef(false);
-  const [done, setDone] = useState(false);
+  const autoAdvanceTimeoutRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (!isGenerating) return;
@@ -28,7 +28,10 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
     setProgress(START_PROGRESS);
     startTimeRef.current = null;
     completedRef.current = false;
-    setDone(false);
+    if (autoAdvanceTimeoutRef.current !== null) {
+      window.clearTimeout(autoAdvanceTimeoutRef.current);
+      autoAdvanceTimeoutRef.current = null;
+    }
 
     const animate = (timestamp: number) => {
       if (startTimeRef.current === null) {
@@ -47,7 +50,10 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
 
       if (roundedProgress >= 100 && !completedRef.current) {
         completedRef.current = true;
-        setTimeout(() => setDone(true), 400);
+        autoAdvanceTimeoutRef.current = window.setTimeout(() => {
+          setIsGenerating(false);
+          onComplete();
+        }, 400);
         return;
       }
 
@@ -60,18 +66,17 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
 
     return () => {
       cancelAnimationFrame(rafRef.current);
+      if (autoAdvanceTimeoutRef.current !== null) {
+        window.clearTimeout(autoAdvanceTimeoutRef.current);
+        autoAdvanceTimeoutRef.current = null;
+      }
     };
-  }, [isGenerating, setProgress]);
+  }, [isGenerating, onComplete, setIsGenerating, setProgress]);
 
-  const handleContinue = () => {
-    setIsGenerating(false);
-    onComplete();
-  };
-
-  const visibleMessages = LOADING_MESSAGES.filter((_, i) => {
-    const threshold = ((i + 1) / (LOADING_MESSAGES.length + 1)) * 100;
+  const isMessageVisible = (index: number) => {
+    const threshold = ((index + 1) / (LOADING_MESSAGES.length + 1)) * 100;
     return progress >= threshold;
-  });
+  };
 
   return (
     <section className="w-full max-w-[520px] px-4 pt-10 text-center sm:px-0 sm:pt-16">
@@ -100,7 +105,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
           />
         </svg>
         <div className="absolute inset-0 flex items-center justify-center">
-          <span className="font-display text-3xl font-bold tracking-[-0.02em] text-black sm:text-4xl">
+          <span className="font-display tabular-nums text-3xl font-bold tracking-[-0.02em] text-black sm:text-4xl">
             {progress}%
           </span>
         </div>
@@ -110,29 +115,22 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
         Generating...
       </h2>
       
-      <div className="mt-4 space-y-2.5 font-body text-[15px] tracking-[-0.01em] text-[#4a4a4a] sm:mt-6 sm:space-y-3 sm:text-base">
-        {visibleMessages.map((msg) => (
+      <div className="mx-auto mt-4 min-h-[210px] w-full max-w-[460px] font-body text-[15px] tracking-[-0.01em] text-[#4a4a4a] sm:mt-6 sm:min-h-[228px] sm:text-base">
+        {LOADING_MESSAGES.map((msg, i) => (
           <p
             key={msg}
-            className="animate-fade-in flex items-start justify-center gap-2 px-4 text-left"
+            className={`flex items-center gap-2.5 py-1 text-left transition-opacity duration-300 ${
+              isMessageVisible(i) ? "opacity-100" : "opacity-0"
+            }`}
           >
-            <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--green)] text-xs text-white">
+            <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--green)] text-xs text-white">
               ✓
             </span>
-            <span>{msg}</span>
+            <span className="leading-[1.45]">{msg}</span>
           </p>
         ))}
       </div>
 
-      {/* Continue button after generation completes */}
-      {done && (
-        <button
-          className="animate-fade-in-up mt-8 w-full max-w-[460px] rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] sm:mt-10 sm:px-6 sm:py-4 sm:text-lg"
-          onClick={handleContinue}
-        >
-          Continue
-        </button>
-      )}
     </section>
   );
 }
