@@ -13,25 +13,46 @@ interface InfoInterstitialProps {
 }
 
 function parseTitle(title: string) {
-  const parts = title.split(/\{\{(.*?)\}\}/g);
+  const blocks = title.split("\n\n");
+  
+  return blocks.map((block, blockIndex) => {
+    const isAccent = block === block.toUpperCase() && block.length > 3;
+    
+    const parts = block.split(/\{\{(.*?)\}\}/g);
+    const rendered = parts.map((part, i) =>
+      i % 2 === 1 ? (
+        <span key={i} className="font-semibold text-[#2f6ebf]">
+          {part}
+        </span>
+      ) : (
+        part
+      )
+    );
 
-  const rendered = parts.map((part, i) =>
-    i % 2 === 1 ? (
-      <span key={i} className="font-semibold text-[#2f6ebf]">
-        {part}
+    const withLineBreaks = rendered.flatMap((part, i) => {
+      if (typeof part !== "string") return part;
+      const lines = part.split("\n");
+      if (lines.length === 1) return part;
+      return lines.flatMap((line, j) =>
+        j < lines.length - 1 ? [line, <br key={`br-${i}-${j}`} />] : [line]
+      );
+    });
+
+    if (isAccent) {
+      return (
+        <span
+          key={blockIndex}
+          className="mt-3 block text-[#2f6ebf]"
+        >
+          {withLineBreaks}
+        </span>
+      );
+    }
+
+    return (
+      <span key={blockIndex} className={blockIndex > 0 ? "mt-2 block" : ""}>
+        {withLineBreaks}
       </span>
-    ) : (
-      part
-    )
-  );
-
-  // Handle newlines → <br />
-  return rendered.flatMap((part, i) => {
-    if (typeof part !== "string") return part;
-    const lines = part.split("\n");
-    if (lines.length === 1) return part;
-    return lines.flatMap((line, j) =>
-      j < lines.length - 1 ? [line, <br key={`br-${i}-${j}`} />] : [line]
     );
   });
 }
@@ -165,20 +186,21 @@ export function InfoInterstitial({
     <QuizSection>
       <div className="animate-fade-in-up relative overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] shadow-[var(--shadow-md)] sm:rounded-3xl">
         <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-[#2f6ebf]/8 blur-2xl" />
-        <div className="h-1 w-full bg-gradient-to-r from-[#2f6ebf] via-[#4a8ad4] to-[#2f6ebf]" />
-
-        {image && (
-          <div className="p-3 pb-0 sm:p-4 sm:pb-0">
-            <div className="relative aspect-[16/6] w-full overflow-hidden rounded-xl">
-              <Image
-                src={image}
-                alt=""
-                fill
-                className="object-cover"
-                sizes="(max-width: 640px) 100vw, 520px"
-              />
-            </div>
+        
+        {image ? (
+          <div className="relative aspect-[16/9] w-full overflow-hidden sm:aspect-[2/1]">
+            <Image
+              src={image}
+              alt=""
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 100vw, 520px"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
           </div>
+        ) : (
+          <div className="h-1 w-full bg-gradient-to-r from-[#2f6ebf] via-[#4a8ad4] to-[#2f6ebf]" />
         )}
 
         <div className="relative p-5 sm:p-6">

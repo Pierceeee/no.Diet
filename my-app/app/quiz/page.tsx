@@ -150,6 +150,7 @@ export default function QuizPage() {
         <InfoInterstitial
           title={INFO_BLOCKS.blueZones.title}
           body={INFO_BLOCKS.blueZones.body}
+          image={INFO_BLOCKS.blueZones.image}
           onContinue={() => setStep(3)}
         />
       )}
@@ -255,27 +256,28 @@ export default function QuizPage() {
               const targetImages = answers.gender === "male" ? maleTargetImages : femaleTargetImages;
               
               return (
-                <button
+                <OptionCard
                   key={item}
                   onClick={() => {
                     setAnswer("q4", item);
                     setStep(6);
                   }}
-                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-2 transition-all duration-200 hover:border-[var(--accent)]/50 hover:shadow-md active:scale-[0.99] sm:py-5 sm:pl-6"
                 >
-                  <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
-                    {item}
-                  </span>
-                  <div className="relative h-20 w-24 flex-shrink-0 sm:h-24 sm:w-28">
-                    <Image
-                      src={targetImages[item] || targetImages[Object.keys(targetImages)[0]]}
-                      alt={item}
-                      fill
-                      className="object-contain object-center"
-                      sizes="112px"
-                    />
+                  <div className="-my-0.5 flex items-center justify-between sm:-my-1">
+                    <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
+                      {item}
+                    </span>
+                    <div className="relative h-20 w-24 flex-shrink-0 sm:h-24 sm:w-28">
+                      <Image
+                        src={targetImages[item] || targetImages[Object.keys(targetImages)[0]]}
+                        alt={item}
+                        fill
+                        className="object-contain object-center"
+                        sizes="112px"
+                      />
+                    </div>
                   </div>
-                </button>
+                </OptionCard>
               );
             })}
           </div>

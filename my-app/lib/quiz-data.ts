@@ -267,7 +267,7 @@ export const GOAL_EMOJIS = ["🔥", "💪", "🏋️", "☀️", "❤️", "🌿
 
 export const INFO_BLOCKS = {
   blueZones: {
-    title: "Their Secret To A Lean Body And Long Life.\nNOW FINALLY YOURS.",
+    title: "Their secret to a lean body and long life.\n\nNOW FINALLY YOURS.",
     body: `People in the world's longest-living regions called **Blue Zones** — outlive everyone else.
 
 They're also in better shape. Leaner. More energetic. And by every measure, among the happiest people on earth.
@@ -275,6 +275,7 @@ They're also in better shape. Leaner. More energetic. And by every measure, amon
 They don't count calories. They don't cut carbs. They eat real food, healthy fats, good ingredients.
 
 **For the first time, the world's most proven longevity diet is being built around you, not everyone.**`,
+    image: "/quiz/blue-zones.png",
   },
   metabolism: {
     title: "Your metabolism isn't broken. It's been given the wrong plan.",
