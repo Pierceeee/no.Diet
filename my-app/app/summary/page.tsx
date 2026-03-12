@@ -6,9 +6,9 @@ import { useQuiz } from "@/lib/quiz-context";
 import { fmt } from "@/lib/utils";
 import { Logo } from "@/components/ui/logo";
 
-type SummaryStep = "bmi" | "snapshot" | "bmiStory" | "coach" | "features";
+type SummaryStep = "bmi" | "bmiStory" | "coach" | "features";
 
-const SUMMARY_STEPS: SummaryStep[] = ["bmi", "snapshot", "bmiStory", "coach", "features"];
+const SUMMARY_STEPS: SummaryStep[] = ["bmi", "bmiStory", "coach", "features"];
 
 export default function SummaryPage() {
   const router = useRouter();
@@ -108,51 +108,6 @@ export default function SummaryPage() {
 
             <button
               className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
-              onClick={() => setSummaryStep("snapshot")}
-            >
-              Continue
-            </button>
-          </div>
-        )}
-
-        {/* ═══════════ STEP 2: Metabolic Snapshot ═══════════ */}
-        {summaryStep === "snapshot" && (
-          <div className="mt-8 w-full max-w-[600px] sm:mt-10">
-            <div className="animate-fade-in-up rounded-2xl border-l-4 border-[var(--accent)] bg-[#f8f8f8] p-5 sm:rounded-3xl sm:p-6">
-              <h2 className="font-display text-lg font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-xl">
-                Your Personal Metabolic Snapshot
-              </h2>
-
-              <div className="info-block-text mt-4 space-y-4 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:mt-5 sm:space-y-4 sm:text-base">
-                <p>
-                  Based on your answers, your metabolism may be slightly out of balance.
-                </p>
-                <p>
-                  This can make fat loss harder, increase belly storage, and raise inflammation.
-                </p>
-                <p>
-                  Over time, metabolic imbalance is linked to lower energy and higher risk of chronic disease.
-                </p>
-                <p className="font-semibold text-[#1a1a1a]">
-                  This isn&apos;t a discipline issue.
-                </p>
-                <p>
-                  It&apos;s a mismatch between outdated diet rules and your current metabolic stage.
-                </p>
-                <p>
-                  The good news? It&apos;s reversible.
-                </p>
-                <p>
-                  Blue Zone research shows that when you eat in alignment with your body, metabolism stabilizes and inflammation drops.
-                </p>
-                <p className="font-semibold text-[#2f6ebf]">
-                  Your plan is built on that science.
-                </p>
-              </div>
-            </div>
-
-            <button
-              className="animate-fade-in-up mt-6 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] sm:mt-8 sm:px-6 sm:py-4 sm:text-lg"
               onClick={() => setSummaryStep("bmiStory")}
             >
               Continue
@@ -244,11 +199,6 @@ export default function SummaryPage() {
                 <p className="mt-2 font-body text-[15px] font-semibold tracking-[-0.01em] text-[#1a1a1a]">
                   This one listens.
                 </p>
-                <div className="mt-3 space-y-2 font-body text-[15px] leading-[1.65] tracking-[-0.01em] text-[#4a4a4a]">
-                  <p>Don&apos;t like a meal? Tell your coach — it finds something you&apos;ll actually enjoy.</p>
-                  <p>Skipping workouts? It adjusts the intensity until it fits your life.</p>
-                  <p>Hit a plateau? It recalibrates before frustration sets in.</p>
-                </div>
                 <p className="mt-4 font-body text-[15px] font-semibold tracking-[-0.01em] text-[#1a1a1a]">
                   The longer you use it — the better it knows you. The better it knows you — the better it works.
                 </p>
@@ -278,7 +228,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.15s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[24px] align-middle">🍽️</span>
+                  <span className="mr-2 inline-block text-[34px] align-middle leading-none">🍽️</span>
                   Unlimited Adaptive Mediterranean Meals
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
@@ -292,7 +242,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.3s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[24px] align-middle">💪</span>
+                  <span className="mr-2 inline-block text-[34px] align-middle leading-none">💪</span>
                   Personalised Metabolic Movement
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
@@ -306,7 +256,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.45s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[24px] align-middle">🔥</span>
+                  <span className="mr-2 inline-block text-[34px] align-middle leading-none">🔥</span>
                   Habit &amp; Consistency Challenges
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
@@ -320,7 +270,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.6s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[24px] align-middle">📖</span>
+                  <span className="mr-2 inline-block text-[34px] align-middle leading-none">📖</span>
                   Longevity &amp; Metabolism Guides
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
@@ -334,7 +284,7 @@ export default function SummaryPage() {
                 style={{ animationDelay: "0.75s", opacity: 0 }}
               >
                 <p className="font-body text-[16px] font-semibold tracking-[-0.01em] text-[#1a1a1a] sm:text-[17px]">
-                  <span className="mr-2 inline-block text-[24px] align-middle">📊</span>
+                  <span className="mr-2 inline-block text-[34px] align-middle leading-none">📊</span>
                   Adaptive Progress Tracking
                 </p>
                 <p className="mt-1 pl-8 font-body text-[13.5px] leading-[1.4] tracking-[-0.01em] text-[#7b7b7b] sm:text-[14px]">
