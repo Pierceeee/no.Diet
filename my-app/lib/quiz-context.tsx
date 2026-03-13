@@ -6,6 +6,7 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
 } from "react";
 import type { Answers, Gender, Unit, WeightUnit } from "./quiz-data";
@@ -14,6 +15,7 @@ import { generateAnalysis, type AnalysisResult } from "./generate-analysis";
 
 /* ─── Storage key ─── */
 const STORAGE_KEY = "carni-quiz";
+const FORWARD_STEP_DELAY_MS = 420;
 
 /* ─── Context shape ─── */
 interface QuizContextValue {
@@ -56,6 +58,15 @@ export function QuizProvider({ children }: { children: React.ReactNode }) {
   const [isGenerating, setIsGenerating] = useState(false);
   const [progress, setProgress] = useState(36);
   const [hydrated, setHydrated] = useState(false);
+  const stepTransitionTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(
+    null,
+  );
+  const clearPendingStepTransition = useCallback(() => {
+    if (stepTransitionTimeoutRef.current) {
+      clearTimeout(stepTransitionTimeoutRef.current);
+      stepTransitionTimeoutRef.current = null;
+    }
+  }, []);
 
   /* ── Hydrate from localStorage on mount ── */
   useEffect(() => {
@@ -86,6 +97,18 @@ export function QuizProvider({ children }: { children: React.ReactNode }) {
     }
   }, [answers, step, email, hydrated]);
 
+  useEffect(() => {
+    if (step !== 26 && isGenerating) {
+      setIsGenerating(false);
+    }
+  }, [step, isGenerating]);
+
+  useEffect(() => {
+    return () => {
+      clearPendingStepTransition();
+    };
+  }, [clearPendingStepTransition]);
+
   /* ── Setters ── */
   const setGender = useCallback((g: Gender) => {
     setAnswers((prev) => ({ ...prev, gender: g }));
@@ -115,21 +138,47 @@ export function QuizProvider({ children }: { children: React.ReactNode }) {
 
   const setStep = useCallback(
     (s: number | ((prev: number) => number)) => {
-      setStepRaw(s);
-      if (typeof s === "number" && s !== 26) {
-        setIsGenerating(false);
+      const applyStep = (nextStep: number) => {
+        setStepRaw(nextStep);
+      };
+
+      if (typeof s !== "number") {
+        clearPendingStepTransition();
+        setStepRaw((prev) => s(prev));
+        return;
       }
+
+      clearPendingStepTransition();
+
+      const isForwardQuestionStep =
+        s > step && step >= 1 && s >= 1 && s <= 25;
+      const shouldReduceMotion =
+        typeof window !== "undefined" &&
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const stepDelayMs = shouldReduceMotion ? 0 : FORWARD_STEP_DELAY_MS;
+
+      if (isForwardQuestionStep) {
+        stepTransitionTimeoutRef.current = setTimeout(() => {
+          applyStep(s);
+          stepTransitionTimeoutRef.current = null;
+        }, stepDelayMs);
+        return;
+      }
+
+      applyStep(s);
     },
-    [],
+    [clearPendingStepTransition, step],
   );
 
   const goBack = useCallback(() => {
     if (step <= 0 || isGenerating) return;
+    clearPendingStepTransition();
     setIsGenerating(false);
     setStepRaw((p) => Math.max(0, p - 1));
-  }, [step, isGenerating]);
+  }, [clearPendingStepTransition, step, isGenerating]);
 
   const resetQuiz = useCallback(() => {
+    clearPendingStepTransition();
     setAnswers(DEFAULT_ANSWERS);
     setStepRaw(0);
     setEmail("");
@@ -140,7 +189,7 @@ export function QuizProvider({ children }: { children: React.ReactNode }) {
     } catch {
       /* ignore */
     }
-  }, []);
+  }, [clearPendingStepTransition]);
 
   /* ── Computed ── */
   const analysis = useMemo(() => generateAnalysis(answers), [answers]);

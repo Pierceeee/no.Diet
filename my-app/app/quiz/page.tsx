@@ -1,10 +1,10 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useQuiz } from "@/lib/quiz-context";
-import { clamp } from "@/lib/utils";
 import { fmt } from "@/lib/utils";
 import type { Unit, WeightUnit } from "@/lib/quiz-data";
 import {
@@ -46,7 +46,6 @@ import { OptionCard } from "@/components/quiz/body-type-option";
 import { BodyHighlight } from "@/components/quiz/body-highlight";
 import {
   CTAButton,
-  Chevron,
   Checkbox,
 } from "@/components/quiz/quiz-navigation";
 import { SingleChoiceStep } from "@/components/quiz/question-card";
@@ -55,6 +54,7 @@ import { LoadingScreen } from "@/components/quiz/loading-screen";
 import { InfoInterstitial } from "@/components/quiz/info-interstitial";
 
 export default function QuizPage() {
+  const prefersReducedMotion = useReducedMotion();
   const router = useRouter();
   const {
     answers,
@@ -64,16 +64,9 @@ export default function QuizPage() {
     toggleMulti,
     isGenerating,
     setIsGenerating,
-    setProgress,
     analysis,
     hydrated,
   } = useQuiz();
-
-  const [animKey, setAnimKey] = useState(0);
-
-  useEffect(() => {
-    setAnimKey((k) => k + 1);
-  }, [step]);
 
   useEffect(() => {
     if (hydrated && step === 0) {
@@ -147,7 +140,20 @@ export default function QuizPage() {
   if (!hydrated || step === 0) return null;
 
   return (
-    <div key={animKey} className="animate-page-slide-in">
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={step}
+        initial={
+          prefersReducedMotion ? false : { opacity: 0, y: 12, scale: 0.995 }
+        }
+        animate={prefersReducedMotion ? {} : { opacity: 1, y: 0, scale: 1 }}
+        exit={prefersReducedMotion ? {} : { opacity: 0, y: -4, scale: 0.998 }}
+        transition={
+          prefersReducedMotion
+            ? { duration: 0 }
+            : { duration: 0.8, ease: [0.22, 1, 0.36, 1] }
+        }
+      >
       {/* ── Step 1: Q1 - Mediterranean familiarity ── */}
       {step === 1 && (
         <SingleChoiceStep
@@ -224,13 +230,30 @@ export default function QuizPage() {
               const bodyImages = answers.gender === "male" ? maleBodyImages : femaleBodyImages;
               
               return (
-                <button
+                <motion.button
                   key={item}
                   onClick={() => {
                     setAnswer("q3", item);
                     setStep(5);
                   }}
-                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-2 transition-all duration-200 hover:border-[var(--accent)]/50 hover:shadow-md active:scale-[0.99] sm:py-5 sm:pl-6"
+                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-2 transition-all duration-300 ease-out hover:border-[var(--accent)]/50 hover:shadow-md sm:py-5 sm:pl-6"
+                  whileHover={
+                    prefersReducedMotion
+                      ? undefined
+                      : {
+                          scale: 1.005,
+                          transition: {
+                            duration: 0.25,
+                            ease: [0.22, 1, 0.36, 1],
+                          },
+                        }
+                  }
+                  whileTap={prefersReducedMotion ? undefined : { scale: 0.992 }}
+                  transition={
+                    prefersReducedMotion
+                      ? { duration: 0 }
+                      : { duration: 0.35, ease: [0.22, 1, 0.36, 1] }
+                  }
                 >
                   <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
                     {item}
@@ -244,7 +267,7 @@ export default function QuizPage() {
                       sizes="112px"
                     />
                   </div>
-                </button>
+                </motion.button>
               );
             })}
           </div>
@@ -818,6 +841,7 @@ export default function QuizPage() {
           onContinue={() => router.push("/email")}
         />
       )}
-    </div>
+      </motion.div>
+    </AnimatePresence>
   );
 }
