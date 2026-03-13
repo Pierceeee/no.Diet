@@ -9,6 +9,8 @@ interface InfoInterstitialProps {
   title: string;
   body: string;
   image?: string;
+  eyebrow?: string;
+  highlight?: string;
   onContinue: () => void;
 }
 
@@ -104,9 +106,12 @@ export function InfoInterstitial({
   title,
   body,
   image,
+  eyebrow,
+  highlight,
   onContinue,
 }: InfoInterstitialProps) {
   const paragraphs = body.split("\n\n").filter(Boolean);
+  const showEyebrowBadge = Boolean(eyebrow) || Boolean(image);
 
   const renderParagraph = (p: string, i: number) => {
     const isSubheading = p.startsWith("## ");
@@ -147,7 +152,12 @@ export function InfoInterstitial({
             {bullets.map((bullet, j) => (
               <li key={j} className="flex items-start gap-2.5">
                 <span className="mt-0.5 flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-[#2f6ebf]">
-                  <span className="text-[10px] font-bold leading-none text-white">✓</span>
+                  <span
+                    className="text-[10px] font-bold leading-none text-white"
+                    aria-hidden="true"
+                  >
+                    ✓
+                  </span>
                 </span>
                 <span className="font-body text-[14px] font-semibold leading-snug text-[var(--text-secondary)]">
                   {renderTextWithFormatting(bullet)}
@@ -184,9 +194,9 @@ export function InfoInterstitial({
 
   return (
     <QuizSection>
-      <div className="mx-auto max-w-lg overflow-hidden rounded-2xl border border-[var(--border)] bg-white shadow-sm">
+      <div className="mx-auto max-w-lg overflow-hidden rounded-3xl border border-[#d8e5f5] bg-[linear-gradient(180deg,#ffffff_0%,#f7fbff_100%)] shadow-[0_16px_36px_rgba(47,110,191,0.12)]">
         {image ? (
-          <div className="flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#e8f0fb] to-[#dbe8f8]">
+          <div className="flex items-center justify-center overflow-hidden border-b border-[#d9e6f5] bg-gradient-to-br from-[#e8f0fb] to-[#dbe8f8]">
             <Image
               src={image}
               alt=""
@@ -199,19 +209,32 @@ export function InfoInterstitial({
             />
           </div>
         ) : (
-          <div className="flex h-48 items-center justify-center bg-gradient-to-br from-[#e8f0fb] to-[#dbe8f8]">
+          <div className="flex h-48 items-center justify-center border-b border-[#d9e6f5] bg-gradient-to-br from-[#e8f0fb] to-[#dbe8f8]">
             <div className="rounded-full border border-[#2f6ebf]/20 bg-white px-4 py-1.5 font-body text-xs font-semibold uppercase tracking-[0.06em] text-[#2f6ebf]">
               Personalized insight
             </div>
           </div>
         )}
 
-        <div className="px-6 py-5">
-          <h2 className="font-heading mb-2 text-[22px] font-extrabold leading-tight text-[var(--text-primary)]">
+        <div className="px-6 py-6 sm:px-7 sm:py-7">
+          {showEyebrowBadge && (
+            <div className="mb-3 flex flex-wrap items-center justify-center gap-2 text-center">
+              <span className="rounded-full border border-[#cfe0f4] bg-[#edf4fc] px-3 py-1 font-body text-[11px] font-semibold uppercase tracking-[0.06em] text-[#2f6ebf]">
+                {eyebrow ?? "Personalized insight"}
+              </span>
+              {highlight && (
+                <span className="rounded-full border border-[#e1ebf8] bg-white px-3 py-1 font-body text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--text-secondary)]">
+                  {highlight}
+                </span>
+              )}
+            </div>
+          )}
+
+          <h2 className="font-heading mb-2.5 text-[24px] font-extrabold leading-tight tracking-[-0.02em] text-[var(--text-primary)] sm:text-[26px]">
             {parseTitle(title)}
           </h2>
 
-          <div className="info-block-text space-y-3">
+          <div className="info-block-text space-y-3.5">
             {paragraphs.map((p, i) => renderParagraph(p, i))}
           </div>
         </div>

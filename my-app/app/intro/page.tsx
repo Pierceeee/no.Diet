@@ -34,16 +34,15 @@ export default function IntroPage() {
       {/* Main Content */}
       <main className="flex flex-1 flex-col items-center justify-center px-4 pb-10 sm:px-6 sm:pb-16">
         <QuizSection>
-          <div className="mx-auto max-w-lg overflow-hidden rounded-2xl border border-[var(--border)] bg-white shadow-sm">
-            <div className="h-6 w-full bg-gradient-to-r from-[#2f6ebf] via-[#4a8ad4] to-[#2f6ebf]" />
+          <div className="mx-auto max-w-lg overflow-hidden rounded-3xl border border-[#d8e5f5] bg-[linear-gradient(180deg,#ffffff_0%,#f7fbff_100%)] shadow-[0_16px_36px_rgba(47,110,191,0.12)]">
+            <div className="h-2 w-full bg-gradient-to-r from-[#2f6ebf] via-[#4a8ad4] to-[#7bb0e8]" />
 
-            <div className="px-6 py-5">
-              <h2 className="font-heading text-[22px] font-extrabold leading-tight text-[var(--text-primary)]">
-                Before we build your plan —{" "}
-                <span className="text-[#2f6ebf]">READ THIS</span>.
+            <div className="px-6 py-6 sm:px-7 sm:py-7">
+              <h2 className="font-heading text-[24px] font-extrabold leading-tight tracking-[-0.02em] text-[var(--text-primary)] sm:text-[26px]">
+                Before we build your plan — <span className="text-[#2f6ebf]">READ THIS</span>.
               </h2>
 
-              <div className="mt-4 space-y-3">
+              <div className="mt-4 space-y-3.5">
                 <p className="font-body text-[15px] font-semibold leading-relaxed text-[var(--text-primary)]">
                   If you&apos;ve tried keto, calorie counting, or intermittent fasting and felt like you failed.
                 </p>
@@ -64,7 +63,7 @@ export default function IntroPage() {
                   That changes right now.
                 </p>
 
-                <div className="h-px w-14 bg-[var(--border)]" />
+                <div className="h-px w-16 bg-[#d4e2f2]" />
 
                 <p className="font-body text-[14px] font-semibold leading-snug text-[var(--text-secondary)]">
                   Answer honestly. We&apos;ll do the rest.

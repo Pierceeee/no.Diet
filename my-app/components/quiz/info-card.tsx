@@ -45,25 +45,26 @@ export function InfoCard({
 
   return (
     <div
-      className={`animate-fade-in-up relative mx-auto mt-5 max-w-[520px] overflow-hidden rounded-2xl border p-4 text-left sm:mt-6 sm:p-5 ${styles.container}`}
+      className={`animate-fade-in-up relative mx-auto mt-5 max-w-[520px] overflow-hidden rounded-3xl border p-4 text-left sm:mt-6 sm:p-5 ${styles.container}`}
       style={{ animationDelay: "0.1s", opacity: 0 }}
     >
       <div
-        className={`pointer-events-none absolute inset-x-0 top-0 h-1 ${styles.bar}`}
+        className={`pointer-events-none absolute inset-x-0 top-0 h-1.5 ${styles.bar}`}
       />
-      <div className="flex items-start gap-3">
+      <div className="flex items-start gap-3.5">
         <span
-          className={`mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/70 text-base text-white ${styles.icon}`}
+          className={`mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/70 text-base text-white ${styles.icon}`}
+          aria-hidden="true"
         >
           💡
         </span>
         <div>
-          <p className="font-body text-[15px] font-semibold leading-snug tracking-[-0.01em] text-[var(--text-primary)] sm:text-base">
+          <p className="font-body text-[15px] font-semibold leading-snug tracking-[-0.01em] text-[var(--text-primary)] sm:text-[17px]">
             {helper}
           </p>
           {helperBody && (
             <p
-              className={`mt-1.5 font-body text-[13px] leading-[1.6] tracking-[-0.01em] sm:text-sm ${styles.text}`}
+              className={`mt-2 font-body text-[13px] leading-[1.6] tracking-[-0.01em] sm:text-sm ${styles.text}`}
             >
               {helperBody}
             </p>
