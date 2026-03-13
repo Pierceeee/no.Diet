@@ -1,0 +1,54 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "tw",
+  "content": {
+    "email": {
+      "titleLine1": "您的計畫已準備就緒。",
+      "titleLine2": "只差一步，即可解鎖。",
+      "subtitle": "您的地中海教練是根據您的身體狀況、目標與個人背景量身打造的。",
+      "placeholder": "您的電子郵件地址",
+      "cta": "解鎖我的個人化計畫 →",
+      "privacy1": "🔒 您的電子郵件僅用於傳送計畫。",
+      "privacy2": "我們絕不會出售、出租或分享您的個人資料。",
+      "privacy3": "這是我們對您的承諾。"
+    },
+    "summary": {
+      "mainTitle": "您的個人化地中海教練已準備就緒",
+      "currentBmi": "目前 BMI",
+      "weightCategory": "您的體重分類：",
+      "continue": "繼續",
+      "underweight": "體重過輕",
+      "healthy": "標準",
+      "overweight": "體重過重",
+      "obese": "肥胖",
+      "bmiStory1": "但 BMI 本身無法說明全部的情況。",
+      "bmiStory2": "兩個人可能擁有相同的 BMI，卻有著截然不同的代謝反應。",
+      "bmiStory3": "因此，您的計畫並非建立在通用的卡路里公式上。",
+      "bmiStory4": "而是以自適應的代謝調校為核心。",
+      "coachTitle": "認識您的生物自適應體重管理教練系統",
+      "coachSubtitle": "以 AI 技術與藍色寶地70年的長壽及減重科學為基礎所建立。",
+      "card1Title": "AI 代謝攝入引擎",
+      "card1Body": "分析您的資料（體型、活動程度、能量模式、飲食偏好），以確定最適合您代謝階段的最佳營養比例。",
+      "card2Title": "自適應地中海計畫",
+      "card2Body1": "以全球最長壽地中海地區所觀察到的飲食模式為基礎建構。",
+      "card2Body2": "您的計畫隨著身體的變化而調整，有助於突破停滯期並防止代謝減緩。",
+      "card3Title": "您的即時 AI 教練",
+      "card3Body1": "大多數計畫只給您一份菜單，然後讓您自己摸索。",
+      "card3Body2": "這個不同。它會傾聽您。",
+      "card3Body3": "使用越久，它越了解您。越了解您，它就越有效。",
+      "featuresTitle": "您的 meDiet 計畫包含哪些內容？",
+      "feature1Title": "無限制的自適應地中海餐點",
+      "feature1Body": "根據您的飲食偏好量身調整。",
+      "feature2Title": "個人化代謝支持運動",
+      "feature2Body": "力量、活動度、恢復訓練。",
+      "feature3Title": "習慣養成與持續性挑戰",
+      "feature3Body": "小而有策略的行動步驟。",
+      "feature4Title": "長壽與代謝指南",
+      "feature4Body": "了解為何慢性發炎、加工食品和現代飲食規則會阻礙脂肪燃燒。",
+      "feature5Title": "自適應進度追蹤",
+      "feature5Body": "追蹤體重、體型變化、精力狀況與習慣。"
+    }
+  }
+}
+

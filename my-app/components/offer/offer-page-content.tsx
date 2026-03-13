@@ -4,6 +4,7 @@ import { useQuiz } from "@/lib/quiz-context";
 import { fmt } from "@/lib/utils";
 import Image from "next/image";
 import { useState } from "react";
+import { useIntlayer } from "next-intlayer";
 
 type PlanType = "week" | "month" | "quarter";
 
@@ -15,83 +16,8 @@ const ORIGINAL_PRICES = {
 
 const DISCOUNT_PERCENT = 50;
 
-const FAQ_ITEMS = [
-  {
-    question: 'What are "Blue Zones" and why are they important?',
-    answer:
-      "Blue Zones are regions in the world where people live the longest and healthiest lives. In these regions, people eat mostly whole foods, healthy fats, vegetables, beans, and balanced portions. Your plan uses these proven eating patterns — but adjusts them to your body, your goals, and your lifestyle. It is not just a diet. It is a longevity-based system.",
-  },
-  {
-    question: "How is this different from a normal Mediterranean diet plan?",
-    answer:
-      "Most Mediterranean plans are fixed. Your body is not. Your Personalized Mediterranean Coach uses your quiz results to create a plan based on: your metabolism, your activity level, your food preferences, and your goals. As your body changes, your plan can adjust. That is the difference.",
-  },
-  {
-    question: "What does the AI Coach actually do?",
-    answer:
-      "The AI Coach helps personalize your nutrition and guide your progress. It uses your data and progress updates to: adjust meal combinations, suggest movement routines, keep you consistent, and help prevent plateaus. Instead of starting over, your plan evolves.",
-  },
-  {
-    question: "Do I need to count calories or track macros?",
-    answer:
-      "No. Your plan is structured using balanced Mediterranean proportions. You focus on eating real food in the right combinations — not on daily numbers.",
-  },
-  {
-    question: "I've tried many diets. Why would this work for me?",
-    answer:
-      "Many diets fail because they are: too strict, too generic, based on old calorie rules, or not adjusted to your stage of life. This system focuses on metabolic balance, not punishment. It is designed to be sustainable.",
-  },
-  {
-    question: "Is this safe for people over 40?",
-    answer:
-      "Yes. In fact, the system is especially helpful for people over 30 and 40, when metabolism naturally changes. The plan focuses on balanced meals, whole foods, and steady progress — not extreme restriction.",
-  },
-  {
-    question: "Will I feel hungry all the time?",
-    answer:
-      "No. The Mediterranean structure focuses on: fiber-rich vegetables, healthy fats, and balanced protein. These foods help you feel full and satisfied.",
-  },
-  {
-    question: "How long before I see results?",
-    answer:
-      "Many users notice improvements in: energy, bloating, and cravings within the first few weeks. Visible body changes usually require consistency. Your plan is built for steady progress — not quick fixes.",
-  },
-  {
-    question: "Can I cancel anytime?",
-    answer:
-      "Yes. You can cancel your subscription anytime by contacting support by email hello@mediet.app. There are no extra cancellation fees.",
-  },
-];
-
-const FEATURES = [
-  {
-    title: "Unlimited Adaptive Mediterranean Meal Combinations",
-    description:
-      "Precision-matched to your preferences and exclusions. Enjoyable. Structured. Sustainable.",
-  },
-  {
-    title: "Unlimited Personalised Metabolic-Support Movement Protocols",
-    description:
-      "Strength, mobility, yoga, recovery. Designed to stimulate fat loss without burnout.",
-  },
-  {
-    title: "Habit & Consistency Challenges",
-    description:
-      "Small, strategic momentum builders. Because rhythm beats motivation.",
-  },
-  {
-    title: "Mediterranean Longevity & Metabolism Guides",
-    description:
-      "Understand: why inflammation disrupts fat loss, why modern processed food derails metabolism, why longevity populations eat differently. Clarity removes confusion.",
-  },
-  {
-    title: "Progress Visualization & Adaptive Tracking",
-    description:
-      "Track: weight trends, body composition shifts, energy levels, habit consistency. So the system can stay aligned with you.",
-  },
-];
-
 export default function OfferPageContent() {
+  const t = useIntlayer("offer");
   const { analysis, answers } = useQuiz();
   const [selectedPlan, setSelectedPlan] = useState<PlanType>("month");
   const [agreedToTerms, setAgreedToTerms] = useState(false);
@@ -133,9 +59,9 @@ export default function OfferPageContent() {
 
   const nowImageSrc = isMale
     ? "/docs/goal/8.svg"
-    : analysis.bmiLabel === "Overweight"
+    : analysis.bmiLabel === "overweight"
     ? "/docs/goal/5.svg"
-    : analysis.bmiLabel === "Obese"
+    : analysis.bmiLabel === "obese"
     ? "/docs/goal/2.svg"
     : "/docs/goal/6.svg";
 
@@ -220,15 +146,15 @@ export default function OfferPageContent() {
         )}
       </span>
       <p className="font-body text-xs leading-[1.35] text-[#666] sm:text-sm">
-        I agree to the{" "}
+        {t.agreeTextStart}{" "}
         <a href="#" className="text-[#2f6ebf] underline">
-          T&Cs
+          {t.agreeTerms}
         </a>{" "}
-        and{" "}
+        {t.agreeMiddle}{" "}
         <a href="#" className="text-[#2f6ebf] underline">
-          Privacy Policy
+          {t.agreePrivacy}
         </a>
-        .
+        {t.agreeEnd}
       </p>
     </div>
   );
@@ -239,10 +165,10 @@ export default function OfferPageContent() {
         disabled={!agreedToTerms}
         className="mt-4 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
       >
-        GET MY PLAN
+        {t.getMyPlan}
       </button>
       <p className="mt-3 text-center font-body text-[10px] leading-relaxed text-[#999] sm:text-xs">
-        By clicking &quot;GET MY PLAN,&quot; you agree to pay $
+        By clicking &quot;{t.getMyPlan},&quot; you agree to pay $
         {selectedPlanData.discountPrice} for your{" "}
         {selectedPlanData.name.toLowerCase()}. If you do not cancel before the
         end of the first period, your subscription will renew at $
@@ -268,12 +194,12 @@ export default function OfferPageContent() {
         <div className="grid grid-cols-2">
           <div className="border-b border-r border-[#e8e8e8] py-2.5 text-center sm:py-3">
             <span className="font-body text-[18px] font-bold text-[#e53935] sm:text-[20px]">
-              Now
+              {t.now}
             </span>
           </div>
           <div className="border-b border-[#e8e8e8] py-2.5 text-center sm:py-3">
             <span className="font-body text-[18px] font-bold text-[#1a6b6e] sm:text-[20px]">
-              Goal
+              {t.goal}
             </span>
           </div>
         </div>
@@ -301,7 +227,7 @@ export default function OfferPageContent() {
             <div className="p-3 sm:p-4 md:p-5">
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
                 <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
-                  Body fat:
+                  {t.bodyFat}
                 </p>
                 <p className="text-center font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
                   {fmt(analysis.bodyFat)}%
@@ -309,7 +235,7 @@ export default function OfferPageContent() {
               </div>
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
                 <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
-                  BMI:
+                  {t.bmi}
                 </p>
                 <p className="text-center font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
                   {fmt(analysis.bmi)}
@@ -317,7 +243,7 @@ export default function OfferPageContent() {
               </div>
               <div>
                 <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
-                  Fitness level:
+                  {t.fitnessLevel}
                 </p>
                 <div className="mt-1 flex justify-center gap-1 sm:mt-1.5 sm:gap-1.5">
                   {[1, 2, 3].map((level) => (
@@ -349,7 +275,7 @@ export default function OfferPageContent() {
             <div className="p-3 sm:p-4 md:p-5">
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
                 <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
-                  Body fat:
+                  {t.bodyFat}
                 </p>
                 <p className="text-center font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
                   {fmt(targetBodyFat)}%
@@ -357,7 +283,7 @@ export default function OfferPageContent() {
               </div>
               <div className="mb-2.5 border-b border-[#f0f0f0] pb-2.5 sm:mb-3 sm:pb-3">
                 <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
-                  BMI:
+                  {t.bmi}
                 </p>
                 <p className="text-center font-body text-[18px] font-extrabold text-[var(--text-primary)] sm:text-[22px]">
                   {fmt(analysis.targetBmi)}
@@ -365,7 +291,7 @@ export default function OfferPageContent() {
               </div>
               <div>
                 <p className="font-body text-[11px] uppercase tracking-wider text-[var(--text-muted)] sm:text-[13px]">
-                  Fitness level:
+                  {t.fitnessLevel}
                 </p>
                 <div className="mt-1 flex justify-center gap-1 sm:mt-1.5 sm:gap-1.5">
                   {[1, 2, 3].map((level) => (
@@ -388,9 +314,7 @@ export default function OfferPageContent() {
       {/* Plan Ready Section */}
       <div className="mt-8 text-center sm:mt-10">
         <h2 className="font-body text-[22px] font-extrabold leading-snug text-[var(--text-primary)] sm:text-[26px] md:text-[32px]">
-          Your Personalized Mediterranean
-          <br />
-          Coach Plan Is Ready
+          {t.planReadyTitle}
         </h2>
 
         <div className="mx-auto mt-5 flex items-center justify-center gap-3 sm:mt-6 sm:gap-4">
@@ -398,10 +322,10 @@ export default function OfferPageContent() {
             <span className="text-base sm:text-lg">🎯</span>
             <div className="text-left">
               <p className="font-body text-[10px] text-[var(--text-muted)] sm:text-[11px]">
-                Your Goal
+                {t.yourGoal}
               </p>
               <p className="font-body text-[12px] font-bold text-[var(--text-primary)] sm:text-[13px]">
-                {answers.q2.length > 0 ? answers.q2[0] : "Lose weight"}
+                {answers.q2.length > 0 ? answers.q2[0] : t.defaultGoal}
               </p>
             </div>
           </div>
@@ -409,7 +333,7 @@ export default function OfferPageContent() {
             <span className="text-base sm:text-lg">⚖️</span>
             <div className="text-left">
               <p className="font-body text-[10px] text-[var(--text-muted)] sm:text-[11px]">
-                Target weight
+                {t.targetWeight}
               </p>
               <p className="font-body text-[12px] font-bold text-[var(--text-primary)] sm:text-[13px]">
                 {fmt(analysis.targetKg, 0)} kg
@@ -421,7 +345,7 @@ export default function OfferPageContent() {
         <div className="mx-auto mt-4 inline-flex items-center gap-2 rounded-full bg-[#eef4fb] px-4 py-2 sm:mt-5">
           <span className="text-[#2f6ebf]">✓</span>
           <p className="font-body text-[12px] font-medium text-[#2f6ebf] sm:text-[13px]">
-            Your plan is ready
+            {t.planIsReady}
           </p>
         </div>
       </div>
@@ -437,17 +361,17 @@ export default function OfferPageContent() {
       <div className="mt-6 flex items-center justify-center gap-2">
         <span className="text-sm">🔒</span>
         <p className="font-body text-xs font-medium text-[#666]">
-          GUARANTEED SAFE CHECKOUT
+          {t.safeCheckout}
         </p>
       </div>
 
       {/* Highlights of your plan */}
       <div className="mt-10 sm:mt-12">
         <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
-          Highlights of your plan
+          {t.highlights}
         </h3>
         <div className="mt-6 space-y-4">
-          {FEATURES.map((feature, i) => (
+          {(t.features as Array<{ title: string; description: string }>).map((feature, i) => (
             <div key={i} className="flex items-start gap-3">
               <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#2f6ebf] text-xs text-white">
                 ✓
@@ -467,14 +391,14 @@ export default function OfferPageContent() {
           disabled={!agreedToTerms}
           className="mt-6 w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-bold text-white transition-all hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-4 sm:text-lg"
         >
-          GET MY PLAN
+          {t.getMyPlan}
         </button>
       </div>
 
       {/* Get visible results */}
       <div className="mt-10 sm:mt-12">
         <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
-          Get visible results in 4 weeks!
+          {t.visibleResults}
         </h3>
         <div className="mt-6">
           <PricingPlans />
@@ -486,10 +410,10 @@ export default function OfferPageContent() {
       {/* FAQ Section */}
       <div className="mt-10 rounded-xl bg-[#f9f9f9] p-5 sm:mt-12 sm:p-6">
         <h3 className="text-center font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
-          Got questions?
+          {t.faqTitle}
         </h3>
         <div className="mt-6 space-y-3">
-          {FAQ_ITEMS.map((faq, i) => (
+          {(t.faq as Array<{ question: string; answer: string }>).map((faq, i) => (
             <div
               key={i}
               className="overflow-hidden rounded-xl border border-[#e8e8e8] bg-white"
@@ -541,19 +465,18 @@ export default function OfferPageContent() {
           />
         </div>
         <h3 className="mt-4 font-display text-lg font-semibold tracking-[-0.02em] text-[var(--text-primary)] sm:text-xl">
-          Risk-free guarantee
+          {t.riskFreeTitle}
         </h3>
         <p className="mt-2 max-w-sm font-body text-sm text-[#666]">
-          You can cancel your subscription anytime by contacting support by
-          email hello@mediet.app. No extra charges.
+          {t.riskFreeBody}
         </p>
       </div>
 
       {/* Footer */}
       <div className="mt-8 border-t border-[#e8e8e8] pt-6 text-center">
-        <p className="font-body text-xs text-[#999]">Results may vary.</p>
+        <p className="font-body text-xs text-[#999]">{t.resultsMayVary}</p>
         <p className="mt-2 font-body text-xs text-[#ccc]">
-          © 2026 Mediet.app. All rights reserved.
+          {t.copyright}
         </p>
       </div>
     </section>

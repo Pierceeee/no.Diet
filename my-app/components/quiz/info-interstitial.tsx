@@ -1,21 +1,24 @@
 "use client";
 
 import type { JSX } from "react";
-import Image from "next/image";
 import { QuizSection } from "@/components/ui/quiz-section";
 import { CTAButton } from "@/components/quiz/quiz-navigation";
+import { useIntlayer } from "next-intlayer";
+import { toStr } from "@/lib/utils";
 
 interface InfoInterstitialProps {
-  title: string;
-  body: string;
-  image?: string;
+  // Accept intlayer node proxies (which have a .value property) or plain strings
+  title: unknown;
+  body: unknown;
+  image?: unknown;
   eyebrow?: string;
   highlight?: string;
   onContinue: () => void;
 }
 
-function parseTitle(title: string) {
-  const blocks = title.split("\n\n");
+
+function parseTitle(title: unknown) {
+  const blocks = toStr(title).split("\n\n");
   
   return blocks.map((block, blockIndex) => {
     const isAccent = block === block.toUpperCase() && block.length > 3;
@@ -59,13 +62,14 @@ function parseTitle(title: string) {
   });
 }
 
-function renderTextWithFormatting(text: string) {
-  const hasBold = text.includes("**");
-  const hasHighlight = text.includes("{{");
+function renderTextWithFormatting(text: unknown) {
+  const str = toStr(text);
+  const hasBold = str.includes("**");
+  const hasHighlight = str.includes("{{");
 
-  if (!hasBold && !hasHighlight) return text;
+  if (!hasBold && !hasHighlight) return str;
 
-  let result: (string | JSX.Element)[] = [text];
+  let result: (string | JSX.Element)[] = [str];
 
   if (hasBold) {
     result = result.flatMap((part, idx) => {
@@ -110,8 +114,11 @@ export function InfoInterstitial({
   highlight,
   onContinue,
 }: InfoInterstitialProps) {
-  const paragraphs = body.split("\n\n").filter(Boolean);
-  const showEyebrowBadge = Boolean(eyebrow) || Boolean(image);
+  const t = useIntlayer("quiz");
+  const bodyStr = toStr(body);
+  const imageStr = image ? toStr(image) : undefined;
+  const paragraphs = bodyStr.split("\n\n").filter(Boolean);
+  const showEyebrowBadge = Boolean(eyebrow) || Boolean(imageStr);
 
   const renderParagraph = (p: string, i: number) => {
     const isSubheading = p.startsWith("## ");
@@ -195,23 +202,20 @@ export function InfoInterstitial({
   return (
     <QuizSection>
       <div className="mx-auto max-w-lg overflow-hidden rounded-3xl border border-[#d8e5f5] bg-[linear-gradient(180deg,#ffffff_0%,#f7fbff_100%)] shadow-[0_16px_36px_rgba(47,110,191,0.12)]">
-        {image ? (
+        {imageStr ? (
           <div className="flex items-center justify-center overflow-hidden border-b border-[#d9e6f5] bg-gradient-to-br from-[#e8f0fb] to-[#dbe8f8]">
-            <Image
-              src={image}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={imageStr}
               alt=""
-              width={760}
-              height={460}
               className="h-auto w-full"
-              sizes="(max-width: 640px) 100vw, 560px"
-              quality={100}
-              priority
+              loading="eager"
             />
           </div>
         ) : (
           <div className="flex h-48 items-center justify-center border-b border-[#d9e6f5] bg-gradient-to-br from-[#e8f0fb] to-[#dbe8f8]">
             <div className="rounded-full border border-[#2f6ebf]/20 bg-white px-4 py-1.5 font-body text-xs font-semibold uppercase tracking-[0.06em] text-[#2f6ebf]">
-              Personalized insight
+              {t.infoBlocks.eyebrow}
             </div>
           </div>
         )}
@@ -220,7 +224,7 @@ export function InfoInterstitial({
           {showEyebrowBadge && (
             <div className="mb-3 flex flex-wrap items-center justify-center gap-2 text-center">
               <span className="rounded-full border border-[#cfe0f4] bg-[#edf4fc] px-3 py-1 font-body text-[11px] font-semibold uppercase tracking-[0.06em] text-[#2f6ebf]">
-                {eyebrow ?? "Personalized insight"}
+                {eyebrow ?? t.infoBlocks.eyebrow}
               </span>
               {highlight && (
                 <span className="rounded-full border border-[#e1ebf8] bg-white px-3 py-1 font-body text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--text-secondary)]">
@@ -240,7 +244,7 @@ export function InfoInterstitial({
         </div>
       </div>
 
-      <CTAButton onClick={onContinue}>Continue</CTAButton>
+      <CTAButton onClick={onContinue}>{t.common.continue}</CTAButton>
     </QuizSection>
   );
 }

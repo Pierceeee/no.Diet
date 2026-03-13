@@ -1,0 +1,53 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "lt",
+  "content": {
+    "email": {
+      "titleLine1": "Jūsų planas paruoštas.",
+      "titleLine2": "Vienas žingsnis jį atrakinti.",
+      "subtitle": "Jūsų Viduržemio jūros koučas buvo sukurtas pagal jūsų kūną, tikslus ir istoriją.",
+      "placeholder": "Jūsų el. paštas",
+      "cta": "Atrakinti mano personalizuotą programą →",
+      "privacy1": "🔒 Jūsų el. paštas naudojamas tik jūsų planui pristatyti.",
+      "privacy2": "Mes niekada neparduosime, nuomosime ar neperduosime jūsų informacijos.",
+      "privacy3": "Tai mūsų įsipareigojimas jums."
+    },
+    "summary": {
+      "mainTitle": "Jūsų personalizuotas Viduržemio jūros koučas yra paruoštas",
+      "currentBmi": "Dabartinis KMI",
+      "weightCategory": "Jūsų svorio kategorija:",
+      "continue": "Tęsti",
+      "underweight": "Nepakankamas svoris",
+      "healthy": "Sveikas",
+      "overweight": "Antsvoris",
+      "obese": "Nutukimas",
+      "bmiStory1": "Tačiau vien KMI nepasakoja viso vaizdo.",
+      "bmiStory2": "Du žmonės gali turėti tą patį KMI ir visiškai skirtingas metabolines reakcijas.",
+      "bmiStory3": "Štai kodėl jūsų planas nėra pagrįstas bendrais kalorijų formuliais.",
+      "bmiStory4": "Jis pagrįstas adaptyviu metaboliniu suderinimu.",
+      "coachTitle": "Susipažinkite su jūsų bio-adaptyviu svorio koučingo sistema",
+      "coachSubtitle": "Sukurta remiantis DI ir 70 metų Mėlynųjų zonų ilgaamžiškumo ir svorio metimo mokslu.",
+      "card1Title": "DI metabolizmo įsisavinimo variklis",
+      "card1Body": "Jūsų duomenys (kūno tipas, aktyvumo lygis, energijos modeliai, maisto pageidavimai) analizuojami, kad nustatytų optimalias maisto proporcijas jūsų metaboliniam etapui.",
+      "card2Title": "Adaptyvus Viduržemio jūros planas",
+      "card2Body1": "Sukurtas remiantis mitybos modeliais, stebėtais ilgaamžiausiuose Viduržemio jūros regionuose.",
+      "card2Body2": "Jūsų planas prisitaiko kintant jūsų kūnui, padedant sumažinti stagnacijos periodus ir metabolizmo sulėtėjimą.",
+      "card3Title": "Jūsų tiesioginis DI koučas",
+      "card3Body1": "Dauguma programų suteikia jums planą ir palieka jus pačius tai išsiaiškinti.",
+      "card3Body2": "Ši klauso.",
+      "card3Body3": "Kuo ilgiau ja naudojatės – tuo geriau ji jus pažįsta. Kuo geriau jus pažįsta – tuo geriau ji veikia.",
+      "featuresTitle": "Ką apima jūsų meDiet planas?",
+      "feature1Title": "Neriboti adaptyvūs Viduržemio jūros valgiai",
+      "feature1Body": "Suderinti su jūsų pageidavimais.",
+      "feature2Title": "Personalizuotas metabolizmo judėjimas",
+      "feature2Body": "Jėga, judumas, atsigavimas.",
+      "feature3Title": "Įpročių ir nuoseklumo iššūkiai",
+      "feature3Body": "Maži strateginiai veiksmai.",
+      "feature4Title": "Ilgaamžiškumo ir metabolizmo vadovai",
+      "feature4Body": "Sužinokite, kodėl uždegimas, perdirbtas maistas ir šiuolaikinės dietos taisyklės trukdo riebalų degimui.",
+      "feature5Title": "Adaptyvus pažangos sekimas",
+      "feature5Body": "Sekite svorį, kūno pokyčius, energiją ir įpročius."
+    }
+  }
+}

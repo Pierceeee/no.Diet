@@ -2,20 +2,14 @@
 
 import { useEffect, useRef } from "react";
 import { useQuiz } from "@/lib/quiz-context";
-
-const LOADING_MESSAGES = [
-  "Analyzing your metabolic profile…",
-  "Reviewing food preferences…",
-  "Comparing with Blue Zone longevity data…",
-  "Processing latest nutrition research…",
-  "Adjusting macro proportions…",
-  "Building your adaptive Mediterranean Coaching system…",
-];
+import { useIntlayer } from "next-intlayer";
 
 const DURATION_MS = 5500;
 const START_PROGRESS = 1;
 
 export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
+  const t = useIntlayer("quiz");
+  const loadingMessages: string[] = t.loading.messages as string[];
   const { progress, setProgress, isGenerating, setIsGenerating } = useQuiz();
   const startTimeRef = useRef<number | null>(null);
   const rafRef = useRef<number>(0);
@@ -74,7 +68,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
   }, [isGenerating, onComplete, setIsGenerating, setProgress]);
 
   const isMessageVisible = (index: number) => {
-    const threshold = ((index + 1) / (LOADING_MESSAGES.length + 1)) * 100;
+    const threshold = ((index + 1) / (loadingMessages.length + 1)) * 100;
     return progress >= threshold;
   };
 
@@ -112,13 +106,13 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
       </div>
 
       <h2 className="mt-6 font-display text-2xl font-semibold tracking-[-0.02em] text-black sm:mt-8 sm:text-3xl md:text-4xl">
-        Generating...
+        {t.loading.title}
       </h2>
       
       <div className="mx-auto mt-4 min-h-[210px] w-full max-w-[460px] font-body text-[15px] tracking-[-0.01em] text-[#4a4a4a] sm:mt-6 sm:min-h-[228px] sm:text-base">
-        {LOADING_MESSAGES.map((msg, i) => (
+        {loadingMessages.map((msg: string, i: number) => (
           <p
-            key={msg}
+            key={i}
             className={`flex items-center gap-2.5 py-1 text-left transition-opacity duration-300 ${
               isMessageVisible(i) ? "opacity-100" : "opacity-0"
             }`}

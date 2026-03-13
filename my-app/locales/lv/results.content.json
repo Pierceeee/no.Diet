@@ -1,0 +1,53 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "lv",
+  "content": {
+    "email": {
+      "titleLine1": "Jūsu plāns ir gatavs.",
+      "titleLine2": "Viens solis, lai to atbloķētu.",
+      "subtitle": "Jūsu Vidusjūras koučs ir veidots, ņemot vērā jūsu ķermeni, mērķus un vēsturi.",
+      "placeholder": "Jūsu e-pasta adrese",
+      "cta": "Atbloķēt manu personalizēto programmu →",
+      "privacy1": "🔒 Jūsu e-pasts tiek izmantots tikai plāna piegādei.",
+      "privacy2": "Mēs nekad nepārdosim, nenomāsim vai nekopīgosim jūsu informāciju.",
+      "privacy3": "Tāds ir mūsu solījums jums."
+    },
+    "summary": {
+      "mainTitle": "Jūsu personalizētais Vidusjūras koučs ir gatavs",
+      "currentBmi": "Pašreizējais ĶMI",
+      "weightCategory": "Jūsu svara kategorija:",
+      "continue": "Turpināt",
+      "underweight": "Nepietiekams svars",
+      "healthy": "Vesels",
+      "overweight": "Lieksvars",
+      "obese": "Aptaukošanās",
+      "bmiStory1": "Taču ĶMI viens pats nestāsta visu.",
+      "bmiStory2": "Diviem cilvēkiem var būt vienāds ĶMI, bet pilnīgi atšķirīgas metaboliskās reakcijas.",
+      "bmiStory3": "Tāpēc jūsu plāns nav balstīts uz vispārīgām kaloriju formulām.",
+      "bmiStory4": "Tas balstās uz adaptīvu metabolisko saskaņošanu.",
+      "coachTitle": "Iepazīstieties ar jūsu bio-adaptīvo svara koučinga sistēmu",
+      "coachSubtitle": "Veidota, pamatojoties uz mākslīgo intelektu un 70 gadu Zilo zonu ilgmūžības un svara zaudēšanas zinātni.",
+      "card1Title": "MI metaboliskā uzņemšanas dzinējs",
+      "card1Body": "Jūsu ievadītie dati (ķermeņa tips, aktivitātes līmenis, enerģijas modeļi, pārtikas vēlmes) tiek analizēti, lai noteiktu optimālās pārtikas proporcijas jūsu metaboliskajam posmam.",
+      "card2Title": "Adaptīvais Vidusjūras plāns",
+      "card2Body1": "Veidots uz ēšanas modeļiem, kas novēroti pasaules ilgāk dzīvojošajos Vidusjūras reģionos.",
+      "card2Body2": "Jūsu plāns pielāgojas, mainoties jūsu ķermenim, palīdzot samazināt plato un metabolisko palēnināšanos.",
+      "card3Title": "Jūsu tiešais MI koučs",
+      "card3Body1": "Lielākā daļa programmu jums sniedz plānu un atstāj jūs pašus to izprast.",
+      "card3Body2": "Šī klausa.",
+      "card3Body3": "Jo ilgāk to izmantojat, jo labāk tā jūs pazīst. Jo labāk tā jūs pazīst, jo labāk tā darbojas.",
+      "featuresTitle": "Ko ietver jūsu meDiet plāns?",
+      "feature1Title": "Neierobežotas adaptīvās Vidusjūras ēdienreizes",
+      "feature1Body": "Pielāgotas jūsu vēlmēm.",
+      "feature2Title": "Personalizēta metaboliskā kustība",
+      "feature2Body": "Spēks, mobilitāte, atveseļošanās.",
+      "feature3Title": "Ieradumu un konsekvences izaicinājumi",
+      "feature3Body": "Mazi stratēģiski soļi.",
+      "feature4Title": "Ilgmūžības un vielmaiņas ceļveži",
+      "feature4Body": "Uzziniet, kāpēc iekaisums, pārstrādāta pārtika un mūsdienu diētu noteikumi traucē tauku sadedzināšanu.",
+      "feature5Title": "Adaptīvā progresa izsekošana",
+      "feature5Body": "Izsekojiet svaram, ķermeņa izmaiņām, enerģijai un ieradumiem."
+    }
+  }
+}

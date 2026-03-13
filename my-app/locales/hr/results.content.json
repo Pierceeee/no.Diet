@@ -1,0 +1,53 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "hr",
+  "content": {
+    "email": {
+      "titleLine1": "Vaš plan je spreman.",
+      "titleLine2": "Jedan korak da ga otključate.",
+      "subtitle": "Vaš Mediteranski trener izgrađen je oko vašeg tijela, ciljeva i povijesti.",
+      "placeholder": "Vaša e-mail adresa",
+      "cta": "Otključajte moj personalizirani program →",
+      "privacy1": "🔒 Vaš e-mail koristi se isključivo za dostavu plana.",
+      "privacy2": "Nikada nećemo prodavati, iznajmljivati niti dijeliti vaše podatke.",
+      "privacy3": "To je naša obaveza prema vama."
+    },
+    "summary": {
+      "mainTitle": "Vaš personalizirani Mediteranski trener je spreman",
+      "currentBmi": "Trenutni ITM",
+      "weightCategory": "Vaša kategorija težine:",
+      "continue": "Nastavi",
+      "underweight": "Pothranjenost",
+      "healthy": "Normalno",
+      "overweight": "Prekomjerna težina",
+      "obese": "Pretilost",
+      "bmiStory1": "No ITM sam po sebi ne govori cijelu priču.",
+      "bmiStory2": "Dvije osobe mogu imati isti ITM i potpuno različite metaboličke reakcije.",
+      "bmiStory3": "Zato vaš plan nije temeljen na generičkim kalorijskim formulama.",
+      "bmiStory4": "Temeljen je na prilagodljivom metaboličkom usklađivanju.",
+      "coachTitle": "Upoznajte vaš bio-prilagodljivi sustav za upravljanje težinom",
+      "coachSubtitle": "Izgrađen na AI i 70 godina znanosti o dugovječnosti i mršavljenju iz Plavih zona.",
+      "card1Title": "AI motor metaboličkog unosa",
+      "card1Body": "Vaši podaci (tip tijela, razina aktivnosti, energetski obrasci, prehrambene preferencije) analiziraju se kako bi se odredili optimalni prehrambeni omjeri za vašu metaboličku fazu.",
+      "card2Title": "Prilagodljivi mediteranski plan",
+      "card2Body1": "Izgrađen na prehrambenim obrascima zabilježenima u najdugovječnijim mediteranskim regijama na svijetu.",
+      "card2Body2": "Vaš plan se prilagođava kako se vaše tijelo prilagođava, pomažući smanjiti zastoje i metabolično usporavanje.",
+      "card3Title": "Vaš živući AI trener",
+      "card3Body1": "Većina programa vam daje plan i ostavlja vas da sami shvatite.",
+      "card3Body2": "Ovaj sluša.",
+      "card3Body3": "Što ga dulje koristite, bolje vas poznaje. A što vas bolje poznaje, to bolje funkcionira.",
+      "featuresTitle": "Što uključuje vaš meDiet plan?",
+      "feature1Title": "Neograničeni prilagodljivi mediteranski obroci",
+      "feature1Body": "Prilagođeni vašim preferencijama.",
+      "feature2Title": "Personalizirano metaboličko kretanje",
+      "feature2Body": "Snaga, mobilnost, oporavak.",
+      "feature3Title": "Izazovi navika i dosljednosti",
+      "feature3Body": "Mali strateški koraci.",
+      "feature4Title": "Vodiči za dugovječnost i metabolizam",
+      "feature4Body": "Saznajte zašto upala, prerađena hrana i moderna pravila prehrane ometaju sagorijevanje masti.",
+      "feature5Title": "Prilagodljivo praćenje napretka",
+      "feature5Body": "Pratite težinu, tjelesne promjene, energiju i navike."
+    }
+  }
+}

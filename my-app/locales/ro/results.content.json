@@ -1,0 +1,53 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "ro",
+  "content": {
+    "email": {
+      "titleLine1": "Planul vostru este gata.",
+      "titleLine2": "Un pas pentru a-l debloca.",
+      "subtitle": "Antrenorul vostru Mediteranean a fost construit în jurul corpului, obiectivelor și istoricului vostru.",
+      "placeholder": "Adresa dvs. de e-mail",
+      "cta": "Deblocați programul meu personalizat →",
+      "privacy1": "🔒 E-mailul dvs. este folosit exclusiv pentru livrarea planului.",
+      "privacy2": "Nu vom vinde, închiria sau împărtăși niciodată informațiile voastre.",
+      "privacy3": "Acesta este angajamentul nostru față de voi."
+    },
+    "summary": {
+      "mainTitle": "Antrenorul vostru Mediteranean Personalizat este gata",
+      "currentBmi": "IMC actual",
+      "weightCategory": "Categoria dvs. de greutate:",
+      "continue": "Continuă",
+      "underweight": "Subpondere",
+      "healthy": "Normal",
+      "overweight": "Suprapondere",
+      "obese": "Obezitate",
+      "bmiStory1": "Dar IMC-ul singur nu spune întreaga poveste.",
+      "bmiStory2": "Două persoane pot avea același IMC și reacții metabolice complet diferite.",
+      "bmiStory3": "De aceea planul vostru nu se bazează pe formule calorice generice.",
+      "bmiStory4": "Se bazează pe alinierea metabolică adaptivă.",
+      "coachTitle": "Cunoașteți sistemul vostru bio-adaptiv de gestionare a greutății",
+      "coachSubtitle": "Construit pe AI și 70 de ani de știință a longevității și pierderii în greutate din Zonele Albastre.",
+      "card1Title": "Motor AI de aport metabolic",
+      "card1Body": "Datele voastre (tipul corpului, nivelul de activitate, tiparele de energie, preferințele alimentare) sunt analizate pentru a determina proporțiile alimentare optime pentru faza voastră metabolică.",
+      "card2Title": "Plan mediteranean adaptiv",
+      "card2Body1": "Construit pe tipare alimentare observate în cele mai longevive regiuni mediteraneene din lume.",
+      "card2Body2": "Planul vostru se adaptează pe măsură ce corpul vostru se adaptează, contribuind la reducerea platourilor și a încetinirii metabolice.",
+      "card3Title": "Antrenorul vostru AI activ",
+      "card3Body1": "Cele mai multe programe vă oferă un plan și vă lasă să vă descurcați singuri.",
+      "card3Body2": "Acesta ascultă.",
+      "card3Body3": "Cu cât îl folosiți mai mult, cu atât vă cunoaște mai bine. Și cu cât vă cunoaște mai bine, cu atât funcționează mai bine.",
+      "featuresTitle": "Ce include planul vostru meDiet?",
+      "feature1Title": "Mese mediteraneene adaptive nelimitate",
+      "feature1Body": "Adaptate preferințelor voastre.",
+      "feature2Title": "Mișcare metabolică personalizată",
+      "feature2Body": "Forță, mobilitate, recuperare.",
+      "feature3Title": "Provocări de obiceiuri și consecvență",
+      "feature3Body": "Pași mici și strategici.",
+      "feature4Title": "Ghiduri de longevitate și metabolism",
+      "feature4Body": "Aflați de ce inflamația, alimentele procesate și regulile dietei moderne împiedică arderea grăsimilor.",
+      "feature5Title": "Urmărire adaptivă a progresului",
+      "feature5Body": "Urmăriți greutatea, modificările corporale, energia și obiceiurile."
+    }
+  }
+}

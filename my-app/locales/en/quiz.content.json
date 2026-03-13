@@ -1,0 +1,173 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "quiz",
+  "locale": "en",
+  "content": {
+    "common": {
+      "continue": "Continue",
+      "menu": "Menu",
+      "closeMenu": "Close menu",
+      "helpCenter": "Help Center",
+      "contactUs": "Contact Us",
+      "terms": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "cookiePolicy": "Cookie Policy",
+      "privacySettings": "Privacy Settings",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "notSet": "Not set"
+    },
+    "landing": {
+      "hero": "Let's personalize your Mediterranean Coach and build your program for weight-loss and longevity nutrition",
+      "subtitle": "Select your program :",
+      "ctaMen": "Program for Men",
+      "ctaWomen": "Program for Women",
+      "footer": "© 2026 meDiet. All rights reserved.",
+      "heroImageAlt": "Mediterranean food bowl"
+    },
+    "intro": {
+      "titlePrefix": "Before we build your plan",
+      "titleHighlight": "READ THIS",
+      "p1": "If you've tried keto, calorie counting, or intermittent fasting and felt like you failed.",
+      "p2": "You didn't fail. The plan failed you.",
+      "p3": "Those systems were built on old science. Fixed rules. Generic templates.",
+      "p4Male": "They were never designed for how a man's body actually works.",
+      "p4Female": "They were never designed for how a woman's body actually works.",
+      "p5": "That changes right now.",
+      "p6": "Answer honestly. We'll do the rest."
+    },
+    "steps": {
+      "s1": "How familiar are you with Mediterranean diet & Blue Zones phenomena?",
+      "s3": "What do you want to achieve?",
+      "s4": "How would you describe your body now?",
+      "s5": "What body do you want?",
+      "s6": "Which areas would you like to improve?",
+      "s6Hint": "If you are happy with your body, press Continue",
+      "s7": "What does your day usually look like?",
+      "s8": "How is your energy during the day?",
+      "s9": "How often do you exercise?",
+      "s10": "How does your weight usually change?",
+      "s12": "When were you last at your best weight?",
+      "s13": "Have you tried any of these diets in the last 3 years?",
+      "s15": "What would getting in shape change most for you?",
+      "s16": "What is your height?",
+      "s17": "What is your current weight?",
+      "s19": "What is your target weight?",
+      "s20": "What is your age?",
+      "s21Title": "Here's What We Found",
+      "s21BmiTitle": "Your Body Mass Index (BMI)",
+      "s22": "How many meals would you like to eat each day?",
+      "s22Subtitle": "You can change this later in your settings.",
+      "s23": "Would you like to exclude any of these foods?",
+      "s23Label": "Proteins & dairy:",
+      "s24": "Would you like to exclude any of these foods?",
+      "s24Label": "Fruits & vegetables:",
+      "s25": "Would you like to exclude any of these foods?",
+      "s25Label": "Grains & nuts:",
+      "s27Title": "Based on your food preferences, we've created",
+      "s27Count": "500+",
+      "s27Lead": "Meal combinations",
+      "s27Body": "that are the perfect fit for you and will help you reach a healthy weight in the most enjoyable way!"
+    },
+    "labels": {
+      "selectAll": "Select all that apply:",
+      "youValue": "You",
+      "underweightShort": "Under",
+      "underweight": "Underweight",
+      "healthy": "Healthy",
+      "overweightShort": "Over",
+      "overweight": "Overweight",
+      "obese": "Obese",
+      "bodyFat": "Body fat",
+      "activityLevel": "Activity level",
+      "energyLevel": "Energy level",
+      "goal": "Goal"
+    },
+    "options": {
+      "goalsMale": ["Lose body fat", "Get a lean body", "Build muscle", "Have more energy", "Improve my health", "Live longer"],
+      "goalsFemale": ["Lose body fat", "Get a slimmer body", "Tone my body", "Have more energy", "Improve my health", "Live longer"],
+      "q3BodiesMale": ["Slim", "Average", "Some belly fat", "Overweight"],
+      "q3BodiesFemale": ["Slim", "Average", "Some belly fat", "Overweight"],
+      "q4BodiesMale": ["A little slimmer", "Lean and fit", "Athletic", "Strong and defined"],
+      "q4BodiesFemale": ["Feel like myself again", "Lose stubborn belly fat", "Feel lighter and more confident", "Look toned and youthful"],
+      "q12Reasons": ["How I feel when I look in the mirror", "Feeling like myself again", "My energy with my kids / family", "My confidence around others", "How I feel for my partner", "My long term health", "How my clothes fit"],
+      "familiarity": ["I'm new to it", "I know the basics", "I've tried it before"],
+      "bodyAreas": ["Arms", "Chest", "Back", "Stomach", "Legs", "Glutes"],
+      "dayToDay": ["I sit most of the day", "I move a lot", "I exercise often", "I stay at home"],
+      "energy": ["Low most of the time", "I feel tired after lunch", "My energy goes up and down", "My energy is steady"],
+      "exercise": ["Never", "A few times a month", "A few times a week", "Almost every day"],
+      "weightChange": ["I gain weight fast and lose it slowly", "I lose weight but gain it back", "My weight stays the same", "I find it hard to build muscle"],
+      "idealWeight": ["Less than 1 year ago", "1–3 years ago", "More than 3 years ago", "I have never been at my best weight"],
+      "diets": ["Keto", "Intermittent fasting", "Low-carb", "Vegetarian", "Vegan", "Gluten free", "Other", "None of these"],
+      "meals": ["Two", "Three", "Four", "Five"],
+      "mealDescriptions": ["Breakfast and dinner, with optional snacks", "Breakfast, lunch, and dinner", "Breakfast, snack, lunch, and dinner", "Breakfast, lunch, dinner, and two snacks"],
+      "proteins": ["I eat everything", "Chicken", "Red meat", "Cheese", "Tuna", "Greek yogurt", "Salmon", "Shrimp", "Eggs", "Chickpeas", "Lentils", "Tofu"],
+      "vegetables": ["I eat everything", "Tomatoes", "Cucumber", "Broccoli", "Spinach", "Zucchini", "Bell pepper", "Avocado", "Olives", "Onions"],
+      "grains": ["I eat everything", "Rice", "Couscous", "Quinoa", "Oats", "Almonds", "Walnuts", "Peanuts", "Corn"]
+    },
+    "loading": {
+      "title": "Generating...",
+      "messages": ["Analyzing your metabolic profile…", "Reviewing food preferences…", "Comparing with Blue Zone longevity data…", "Processing latest nutrition research…", "Adjusting macro proportions…", "Building your adaptive Mediterranean Coaching system…"]
+    },
+    "infoBlocks": {
+      "eyebrow": "Personalized insight",
+      "blueZones": {
+        "title": "Their secret to a lean body and long life.\n\nNOW FINALLY YOURS.",
+        "body": "People in the world's longest-living regions called **Blue Zones** — outlive everyone else.\n\nThey're also in better shape. Leaner. More energetic. And by every measure, among the happiest people on earth.\n\nThey don't count calories. They don't cut carbs. They eat real food, healthy fats, good ingredients.\n\n**For the first time, the world's most proven longevity diet is being built around you, not everyone.**",
+        "image": "/quiz/blue-zones.png"
+      },
+      "metabolism": {
+        "title": "Your metabolism isn't broken.\nIt's been given the wrong plan.",
+        "body": "Your body changes. Most plans don't.\n\n**Our AI-powered system runs 24/7.**\n\nTrained on hundreds of years of research. Millions of real cases.\n\nIt adjusts when you adjust.\n\nIt never stops working on you.",
+        "image": "/quiz/page11.png"
+      },
+      "dietsWrong": {
+        "title": "Those diets weren't wrong because you did them wrong.",
+        "body": "They were wrong because they never changed.\n\nKeto. Calorie counting. Low fat. High grain.\n\nYou followed the rules. Your body adapted. The plan didn't.\n\n**The science is clear now. Static plans fail. Always.**\n\nYour body is not static. Your plan shouldn't be either.",
+        "image": "/quiz/3.png"
+      },
+      "bmiExplanation": {
+        "title": "We use your height and weight to calculate your Body Mass Index (BMI).",
+        "body": "BMI helps us understand your current weight range."
+      },
+      "adviceWrong": {
+        "title": "That advice you were given?\n\nIT WAS WRONG",
+        "body": "For years they said eat less fat. Count every calorie. Follow the pyramid.\n\nMillions followed it perfectly. Millions still struggled.\n\nThe foundation was backwards. Not you.\n\nThe science has caught up. Your plan reflects that.",
+        "image": "/quiz/page12.png"
+      },
+      "ageMetabolism": {
+        "title": "Age changes your metabolism, but it doesn't stop results.",
+        "body": "As we get older, the body responds differently to food.\n\nThat's why one-size-fits-all diets often fail after 30 or 40.\n\nYour plan must adjust to your stage of life."
+      },
+      "preEmail": {
+        "title": "This is not another fixed meal plan.",
+        "body": "Your Mediterranean Program is powered by AI coaching.\n\nIt adapts based on your progress, energy levels, and feedback.\n\nYou don't need to guess.\n\nThe system evolves with you.",
+        "image": "/quiz/mediterranean-spread.png"
+      }
+    },
+    "bmiMessages": {
+      "healthy": {
+        "title": "Your BMI is in the healthy range.",
+        "body": "That's a great starting point. Now the goal is to maintain your weight, improve body shape, and support your metabolism. We will use your BMI to create your Personalized Mediterranean Coaching System and help you stay fit and strong."
+      },
+      "overweight": {
+        "title": "Your BMI is in the overweight range.",
+        "body": "This means your body may be storing extra fat. With the right nutrition plan, you can move toward a healthier weight. We will use your BMI to build your Personalized Mediterranean Coaching System."
+      },
+      "obese": {
+        "title": "Your BMI is in the obese range.",
+        "body": "This means your body is carrying more weight than recommended. Losing even a small amount of weight can improve your health and energy. We will use your BMI to create a Personalized Mediterranean Coaching System that helps you lose weight in a healthy and steady way."
+      },
+      "underweight": {
+        "title": "Your BMI is in the underweight range.",
+        "body": "We will help you build a healthy nutrition plan to support your metabolism and overall well-being."
+      }
+    },
+    "weightLoss": {
+      "smallTitle": "Health Benefits: Lose {percent}% of your weight",
+      "smallBody": "Studies show that losing even 10% of your body weight can improve your health. It may help lower the risk of heart disease, high blood sugar, and inflammation in the body. Small changes can make a big difference.",
+      "bigTitle": "Bigger Goal: Lose {percent}% of your weight",
+      "bigBody": "Research shows that people who lose more than 20% of their body weight often improve their metabolic health more than those who lose only 5–10%. Losing more weight can lead to better energy, better blood sugar control, and better overall health."
+    }
+  }
+}

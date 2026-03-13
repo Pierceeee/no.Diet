@@ -1,0 +1,173 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "quiz",
+  "locale": "lv",
+  "content": {
+    "common": {
+      "continue": "Turpināt",
+      "menu": "Izvēlne",
+      "closeMenu": "Aizvērt izvēlni",
+      "helpCenter": "Palīdzības centrs",
+      "contactUs": "Sazināties ar mums",
+      "terms": "Noteikumi un nosacījumi",
+      "privacyPolicy": "Privātuma politika",
+      "cookiePolicy": "Sīkdatņu politika",
+      "privacySettings": "Privātuma iestatījumi",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "notSet": "Nav iestatīts"
+    },
+    "landing": {
+      "hero": "Personalizēsim jūsu Vidusjūras treneri un izveidosim programmu svara zudumam un ilgmūžīgai uzturam",
+      "subtitle": "Izvēlieties savu programmu:",
+      "ctaMen": "Programma vīriešiem",
+      "ctaWomen": "Programma sievietēm",
+      "footer": "© 2026 meDiet. Visas tiesības aizsargātas.",
+      "heroImageAlt": "Vidusjūras ēdiena bļoda"
+    },
+    "intro": {
+      "titlePrefix": "Pirms izveidojam jūsu plānu",
+      "titleHighlight": "IZLASIET ŠO",
+      "p1": "Ja esat izmēģinājis keto, kaloriju skaitīšanu vai pārtrauktu badošanos un jutāties kā neveiksminieks.",
+      "p2": "Jūs neizdevāties. Plāns jūs pievīla.",
+      "p3": "Šīs sistēmas tika veidotas uz vecās zinātnes. Fiksēti noteikumi. Vispārīgas veidnes.",
+      "p4Male": "Tās nekad netika veidotas tam, kā vīrieša ķermenis patiesībā darbojas.",
+      "p4Female": "Tās nekad netika veidotas tam, kā sievietes ķermenis patiesībā darbojas.",
+      "p5": "Tas mainās tieši tagad.",
+      "p6": "Atbildiet godīgi. Mēs darīsim pārējo."
+    },
+    "steps": {
+      "s1": "Cik labi jūs pārzināt Vidusjūras diētu un Zilo zonu fenomenu?",
+      "s3": "Ko vēlaties sasniegt?",
+      "s4": "Kā jūs raksturotu savu ķermeni tagad?",
+      "s5": "Kādu ķermeni vēlaties?",
+      "s6": "Kuras jomas vēlētos uzlabot?",
+      "s6Hint": "Ja esat apmierināts ar savu ķermeni, nospiediet Turpināt",
+      "s7": "Kā parasti izskatās jūsu diena?",
+      "s8": "Kāds ir jūsu enerģijas līmenis dienas laikā?",
+      "s9": "Cik bieži jūs vingrošat?",
+      "s10": "Kā parasti mainās jūsu svars?",
+      "s12": "Kad pēdējo reizi bijāt pie labākā svara?",
+      "s13": "Vai pēdējo 3 gadu laikā esat izmēģinājis kādu no šīm diētām?",
+      "s15": "Kas jūsu dzīvē visvairāk mainītos, ja jūs būtu formā?",
+      "s16": "Kāds ir jūsu augums?",
+      "s17": "Kāds ir jūsu pašreizējais svars?",
+      "s19": "Kāds ir jūsu mērķa svars?",
+      "s20": "Cik jums ir gadu?",
+      "s21Title": "Lūk, ko mēs atklājām",
+      "s21BmiTitle": "Jūsu ķermeņa masas indekss (ĶMI)",
+      "s22": "Cik ēdienreizes dienā vēlētos ēst?",
+      "s22Subtitle": "Vēlāk varat to mainīt iestatījumos.",
+      "s23": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
+      "s23Label": "Olbaltumvielas un piena produkti:",
+      "s24": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
+      "s24Label": "Augļi un dārzeņi:",
+      "s25": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
+      "s25Label": "Graudi un rieksti:",
+      "s27Title": "Pamatojoties uz jūsu pārtikas vēlmēm, mēs izveidojām",
+      "s27Count": "500+",
+      "s27Lead": "ēdienreižu kombinācijas",
+      "s27Body": "kas ir lieliski piemērotas jums un palīdzēs sasniegt veselīgu svaru vispatīkamākajā veidā!"
+    },
+    "labels": {
+      "selectAll": "Izvēlieties visu, kas atbilst:",
+      "youValue": "Jūs",
+      "underweightShort": "Zem",
+      "underweight": "Nepietiekams svars",
+      "healthy": "Vesels",
+      "overweightShort": "Virs",
+      "overweight": "Lieksvars",
+      "obese": "Aptaukošanās",
+      "bodyFat": "Ķermeņa tauki",
+      "activityLevel": "Aktivitātes līmenis",
+      "energyLevel": "Enerģijas līmenis",
+      "goal": "Mērķis"
+    },
+    "options": {
+      "goalsMale": ["Zaudēt ķermeņa taukus", "Iegūt liesu ķermeni", "Veidot muskuļus", "Iegūt vairāk enerģijas", "Uzlabot veselību", "Dzīvot ilgāk"],
+      "goalsFemale": ["Zaudēt ķermeņa taukus", "Iegūt slaidāku ķermeni", "Veidot ķermeni", "Iegūt vairāk enerģijas", "Uzlabot veselību", "Dzīvot ilgāk"],
+      "q3BodiesMale": ["Slaids", "Vidējs", "Nedaudz vēdera tauki", "Lieksvars"],
+      "q3BodiesFemale": ["Slaida", "Vidēja", "Nedaudz vēdera tauki", "Lieksvars"],
+      "q4BodiesMale": ["Nedaudz slaidāks", "Slaids un formā", "Atletisks", "Stiprs un definēts"],
+      "q4BodiesFemale": ["Atkal justies kā es", "Zaudēt neatlaidīgos vēdera taukus", "Justies vieglāk un pārliecinātāk", "Izskatīties tonizēti un jauniski"],
+      "q12Reasons": ["Kā es jūtos, skatoties spogulī", "Atkal justies kā es", "Mana enerģija ar bērniem / ģimeni", "Mana pārliecība citu starpā", "Kā es jūtos pret savu partneri", "Mana ilgtermiņa veselība", "Kā man piestāv drēbes"],
+      "familiarity": ["Man tas ir jauns", "Zinu pamatus", "Esmu to izmēģinājis"],
+      "bodyAreas": ["Rokas", "Krūtis", "Mugura", "Vēders", "Kājas", "Sēžamvieta"],
+      "dayToDay": ["Sēžu lielāko dienas daļu", "Daudz kustinos", "Bieži vingroju", "Palikšu mājās"],
+      "energy": ["Lielākoties zema", "Pēc pusdienām jūtos noguris", "Mana enerģija svārstās", "Mana enerģija ir stabila"],
+      "exercise": ["Nekad", "Dažas reizes mēnesī", "Dažas reizes nedēļā", "Gandrīz katru dienu"],
+      "weightChange": ["Ātri pieņemos svarā un lēni zaudēju", "Zaudēju svaru, bet atkal pieņemos", "Mans svars paliek nemainīgs", "Man ir grūti veidot muskuļus"],
+      "idealWeight": ["Mazāk nekā pirms 1 gada", "Pirms 1–3 gadiem", "Pirms vairāk nekā 3 gadiem", "Es nekad neesmu bijis pie labākā svara"],
+      "diets": ["Keto", "Pārtraukta badošanās", "Zema ogļhidrātu", "Veģetārisks", "Vegāns", "Bezglutēna", "Cits", "Neviens no šiem"],
+      "meals": ["Divi", "Trīs", "Četri", "Pieci"],
+      "mealDescriptions": ["Brokastis un vakariņas ar izvēles uzkodām", "Brokastis, pusdienas un vakariņas", "Brokastis, uzkoda, pusdienas un vakariņas", "Brokastis, pusdienas, vakariņas un divas uzkodas"],
+      "proteins": ["Ēdu visu", "Vistas gaļa", "Sarkanā gaļa", "Siers", "Tuncis", "Grieķu jogurts", "Lasis", "Garneles", "Olas", "Aunazirņi", "Lēcas", "Tofu"],
+      "vegetables": ["Ēdu visu", "Tomāti", "Gurķis", "Brokoļi", "Spināti", "Cukini", "Paprika", "Avokado", "Olīvas", "Sīpoli"],
+      "grains": ["Ēdu visu", "Rīsi", "Kuskuss", "Kvinoja", "Auzu pārslas", "Mandeles", "Valrieksti", "Zemesrieksti", "Kukurūza"]
+    },
+    "loading": {
+      "title": "Ģenerē...",
+      "messages": ["Analizē jūsu metabolisko profilu…", "Pārskata pārtikas vēlmes…", "Salīdzina ar Zilo zonu ilgmūžības datiem…", "Apstrādā jaunākos uztura pētījumus…", "Pielāgo makro proporcijas…", "Veido jūsu adaptīvo Vidusjūras koučinga sistēmu…"]
+    },
+    "infoBlocks": {
+      "eyebrow": "Personalizēts ieskats",
+      "blueZones": {
+        "title": "Viņu noslēpums liesu ķermeni un garu dzīvi.\n\nTAGAD BEIDZOT JŪSĒJAIS.",
+        "body": "Cilvēki no pasaules ilgāk dzīvojošajiem reģioniem, ko sauc par **Zilajām zonām** – dzīvo ilgāk par visiem citiem.\n\nViņi ir arī labākā formā. Liesāki. Enerģiskāki. Un pēc katra mēra pieder pie laimīgākajiem cilvēkiem uz zemes.\n\nViņi neskaita kalorijas. Viņi neierobežo ogļhidrātus. Viņi ēd īstu ēdienu, veselīgus taukus, labas sastāvdaļas.\n\n**Pirmo reizi pasaulē pierādītākā ilgmūžības diēta tiek veidota ap jums, nevis visiem.**",
+        "image": "/quiz/blue-zones.png"
+      },
+      "metabolism": {
+        "title": "Jūsu vielmaiņa nav bojāta.\nTai ir dots nepareizs plāns.",
+        "body": "Jūsu ķermenis mainās. Lielākā daļa plānu nē.\n\n**Mūsu AI sistēma darbojas 24/7.**\n\nApmācīta uz simtiem gadu pētījumu. Miljoniem reālu gadījumu.\n\nTā pielāgojas, kad jūs pielāgojaties.\n\nTā nekad nepārstāj strādāt pie jums.",
+        "image": "/quiz/page11.png"
+      },
+      "dietsWrong": {
+        "title": "Šīs diētas nebija nepareizas tāpēc, ka jūs tās darījāt nepareizi.",
+        "body": "Tās bija nepareizas, jo nekad nemainījās.\n\nKeto. Kaloriju skaitīšana. Maz tauku. Daudz graudu.\n\nJūs ievērojāt noteikumus. Jūsu ķermenis pielāgojās. Plāns nē.\n\n**Zinātne tagad ir skaidra. Statiskie plāni izgāžas. Vienmēr.**\n\nJūsu ķermenis nav statisks. Jūsu plānam arī nevajadzētu būt.",
+        "image": "/quiz/3.png"
+      },
+      "bmiExplanation": {
+        "title": "Mēs izmantojam jūsu augumu un svaru, lai aprēķinātu jūsu ķermeņa masas indeksu (ĶMI).",
+        "body": "ĶMI palīdz mums saprast jūsu pašreizējo svara diapazonu."
+      },
+      "adviceWrong": {
+        "title": "Tas padoms, ko jums deva?\n\nTAS BIJA NEPAREIZS",
+        "body": "Gadiem ilgi viņi teica ēdiet mazāk tauku. Skaitiet katru kaloriju. Sekojiet piramīdai.\n\nMiljoni sekoja tam lieliski. Miljoni joprojām cīnījās.\n\nPamats bija apgriezts. Ne jūs.\n\nZinātne ir panākusi. Jūsu plāns to atspoguļo.",
+        "image": "/quiz/page12.png"
+      },
+      "ageMetabolism": {
+        "title": "Vecums maina jūsu vielmaiņu, bet tas neaptur rezultātus.",
+        "body": "Mums novecojot, ķermenis citādi reaģē uz pārtiku.\n\nTāpēc universālas diētas bieži izgāžas pēc 30 vai 40.\n\nJūsu plānam jāpielāgojas jūsu dzīves posmam."
+      },
+      "preEmail": {
+        "title": "Šis nav vēl viens fiksēts ēdienkartes plāns.",
+        "body": "Jūsu Vidusjūras programma tiek darbināta ar AI koučingu.\n\nTā pielāgojas, pamatojoties uz jūsu progresu, enerģijas līmeņiem un atsauksmes.\n\nJums nav jāuzmin.\n\nSistēma attīstās kopā ar jums.",
+        "image": "/quiz/mediterranean-spread.png"
+      }
+    },
+    "bmiMessages": {
+      "healthy": {
+        "title": "Jūsu ĶMI ir veselīgā diapazonā.",
+        "body": "Tas ir lielisks sākumpunkts. Tagad mērķis ir uzturēt svaru, uzlabot ķermeņa formu un atbalstīt vielmaiņu. Mēs izmantosim jūsu ĶMI, lai izveidotu jūsu personalizēto Vidusjūras koučinga sistēmu un palīdzētu jums palikt formā un stipram."
+      },
+      "overweight": {
+        "title": "Jūsu ĶMI ir lieksvara diapazonā.",
+        "body": "Tas nozīmē, ka jūsu ķermenis var uzglabāt papildu taukus. Ar pareizu uztura plānu jūs varat virzīties uz veselīgāku svaru. Mēs izmantosim jūsu ĶMI, lai izveidotu jūsu personalizēto Vidusjūras koučinga sistēmu."
+      },
+      "obese": {
+        "title": "Jūsu ĶMI ir aptaukošanās diapazonā.",
+        "body": "Tas nozīmē, ka jūsu ķermenis nes vairāk svara nekā ieteicams. Pat neliela svara zaudēšana var uzlabot jūsu veselību un enerģiju. Mēs izmantosim jūsu ĶMI, lai izveidotu personalizētu Vidusjūras koučinga sistēmu, kas palīdzēs jums zaudēt svaru veselīgā un stabilā veidā."
+      },
+      "underweight": {
+        "title": "Jūsu ĶMI ir nepietiekama svara diapazonā.",
+        "body": "Mēs palīdzēsim jums izveidot veselīgu uztura plānu, lai atbalstītu jūsu vielmaiņu un vispārējo labsajūtu."
+      }
+    },
+    "weightLoss": {
+      "smallTitle": "Veselības ieguvumi: Zaudējiet {percent}% no sava svara",
+      "smallBody": "Pētījumi liecina, ka pat 10% ķermeņa svara zaudēšana var uzlabot veselību. Tas var palīdzēt samazināt sirds slimību, augsta cukura asinīs un iekaisuma risku organismā. Nelieli pārmaiņas var padarīt lielu atšķirību.",
+      "bigTitle": "Lielāks mērķis: Zaudējiet {percent}% no sava svara",
+      "bigBody": "Pētījumi liecina, ka cilvēki, kuri zaudē vairāk nekā 20% ķermeņa svara, bieži uzlabo savu metabolisko veselību vairāk nekā tie, kuri zaudē tikai 5–10%. Lielāka svara zaudēšana var novest pie labākas enerģijas, labākas cukura asinīs kontroles un labākas vispārējās veselības."
+    }
+  }
+}

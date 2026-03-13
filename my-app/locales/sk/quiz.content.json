@@ -1,0 +1,173 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "quiz",
+  "locale": "sk",
+  "content": {
+    "common": {
+      "continue": "Pokračovať",
+      "menu": "Menu",
+      "closeMenu": "Zavrieť menu",
+      "helpCenter": "Centrum pomoci",
+      "contactUs": "Kontaktujte nás",
+      "terms": "Podmienky používania",
+      "privacyPolicy": "Zásady ochrany osobných údajov",
+      "cookiePolicy": "Zásady používania cookies",
+      "privacySettings": "Nastavenia súkromia",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "notSet": "Nenastavené"
+    },
+    "landing": {
+      "hero": "Vytvorme vám osobného stredomorského kouča a program pre chudnutie a dlhý, zdravý život",
+      "subtitle": "Vyberte si program:",
+      "ctaMen": "Program pre mužov",
+      "ctaWomen": "Program pre ženy",
+      "footer": "© 2026 meDiet. Všetky práva vyhradené.",
+      "heroImageAlt": "Miska stredomorskej kuchyne"
+    },
+    "intro": {
+      "titlePrefix": "Skôr ako zostavíme váš plán",
+      "titleHighlight": "PREČÍTAJTE SI TOTO",
+      "p1": "Ak ste skúšali keto, počítanie kalórií alebo prerušovaný pôst a cítili ste, že ste zlyhali.",
+      "p2": "Nezlyhali ste vy. Zlyhal plán.",
+      "p3": "Tieto systémy boli postavené na zastaranej vede. Tuhé pravidlá. Všeobecné šablóny.",
+      "p4Male": "Nikdy neboli navrhnuté pre spôsob, akým mužské telo skutočne funguje.",
+      "p4Female": "Nikdy neboli navrhnuté pre spôsob, akým ženské telo skutočne funguje.",
+      "p5": "To sa teraz mení.",
+      "p6": "Odpovedzte úprimne. O zvyšok sa postaráme my."
+    },
+    "steps": {
+      "s1": "Nakoľko poznáte stredomorskú diétu a fenomén Modrých zón?",
+      "s3": "Čo chcete dosiahnuť?",
+      "s4": "Ako by ste opísali svoje telo dnes?",
+      "s5": "Aké telo chcete mať?",
+      "s6": "Ktoré zóny by ste chceli zlepšiť?",
+      "s6Hint": "Ak ste spokojní so svojím telom, stlačte Pokračovať",
+      "s7": "Ako vyzerá váš typický deň?",
+      "s8": "Aká je vaša energetická hladina počas dňa?",
+      "s9": "Ako často cvičíte?",
+      "s10": "Ako sa zvyčajne mení vaša telesná hmotnosť?",
+      "s12": "Kedy ste boli naposledy na svojej ideálnej hmotnosti?",
+      "s13": "Skúšali ste niektorú z týchto diét za posledné 3 roky?",
+      "s15": "Čo by sa vo vašom živote zmenilo najviac, ak by ste boli vo forme?",
+      "s16": "Aká je vaša výška?",
+      "s17": "Aká je vaša aktuálna hmotnosť?",
+      "s19": "Aká je vaša cieľová hmotnosť?",
+      "s20": "Koľko máte rokov?",
+      "s21Title": "Tu je to, čo sme zistili",
+      "s21BmiTitle": "Váš index telesnej hmotnosti (BMI)",
+      "s22": "Koľko jedál denne si želáte?",
+      "s22Subtitle": "Toto môžete kedykoľvek zmeniť v nastaveniach.",
+      "s23": "Chcete vylúčiť nejaké potraviny?",
+      "s23Label": "Bielkoviny a mliečne výrobky:",
+      "s24": "Chcete vylúčiť nejaké potraviny?",
+      "s24Label": "Ovocie a zelenina:",
+      "s25": "Chcete vylúčiť nejaké potraviny?",
+      "s25Label": "Obilniny a orechy:",
+      "s27Title": "Na základe vašich stravovacích preferencií sme vytvorili",
+      "s27Count": "500+",
+      "s27Lead": "kombinácií jedál",
+      "s27Body": "ktoré vám dokonale vyhovujú a pomôžu vám dosiahnuť zdravú hmotnosť tým najpríjemnejším spôsobom!"
+    },
+    "labels": {
+      "selectAll": "Označte všetko, čo sa vás týka:",
+      "youValue": "Vy",
+      "underweightShort": "Pod",
+      "underweight": "Podváha",
+      "healthy": "Zdravá",
+      "overweightShort": "Nad",
+      "overweight": "Nadváha",
+      "obese": "Obezita",
+      "bodyFat": "Telesný tuk",
+      "activityLevel": "Úroveň aktivity",
+      "energyLevel": "Energetická hladina",
+      "goal": "Cieľ"
+    },
+    "options": {
+      "goalsMale": ["Znížiť telesný tuk", "Byť štíhlejší", "Budovať svaly", "Mať viac energie", "Zlepšiť zdravie", "Žiť dlhšie"],
+      "goalsFemale": ["Znížiť telesný tuk", "Byť štíhlejšia", "Formovať telo", "Mať viac energie", "Zlepšiť zdravie", "Žiť dlhšie"],
+      "q3BodiesMale": ["Štíhly", "Priemerný", "Trochu tuku na bruchu", "Nadváha"],
+      "q3BodiesFemale": ["Štíhla", "Priemerná", "Trochu tuku na bruchu", "Nadváha"],
+      "q4BodiesMale": ["Trochu štíhlejší", "Štíhly a fit", "Atletický", "Silný a definovaný"],
+      "q4BodiesFemale": ["Opäť sa cítiť ako ja sama", "Zbaviť sa tvrdohlavého tuku na bruchu", "Cítiť sa ľahšie a sebavedomejšie", "Vyzerať vypracovane a mladistvo"],
+      "q12Reasons": ["Ako sa cítim pri pohľade do zrkadla", "Opäť sa cítiť ako ja sama", "Moja energia s deťmi / rodinou", "Moja sebadôvera v spoločnosti", "Ako sa cítim s partnerom", "Moje dlhodobé zdravie", "Ako mi sedia oblečenie"],
+      "familiarity": ["Je to pre mňa nové", "Poznám základy", "Už som to skúšal/a"],
+      "bodyAreas": ["Ruky", "Hrudník", "Chrbát", "Brucho", "Nohy", "Zadok"],
+      "dayToDay": ["Sedím väčšinu dňa", "Veľa sa pohybujem", "Pravidelne cvičím", "Zostávam doma"],
+      "energy": ["Zvyčajne nízka", "Po obede sa cítim unavený/á", "Moja energia kolíše", "Moja energia je stabilná"],
+      "exercise": ["Nikdy", "Niekoľkokrát za mesiac", "Niekoľkokrát za týždeň", "Takmer každý deň"],
+      "weightChange": ["Rýchlo priberám a pomaly chudnem", "Schudnem, ale opäť priберiem", "Moja hmotnosť zostáva stabilná", "Ťažko sa mi budujú svaly"],
+      "idealWeight": ["Menej ako rok", "Pred 1–3 rokmi", "Pred viac ako 3 rokmi", "Nikdy som nebol/a na ideálnej hmotnosti"],
+      "diets": ["Keto", "Prerušovaný pôst", "Nízky obsah sacharidov", "Vegetariánska", "Vegánska", "Bezlepková", "Iná", "Žiadna z nich"],
+      "meals": ["Dve", "Tri", "Štyri", "Päť"],
+      "mealDescriptions": ["Raňajky a večera s voliteľnými maškrtami", "Raňajky, obed a večera", "Raňajky, desiata, obed a večera", "Raňajky, obed, večera a dve desiaty"],
+      "proteins": ["Jem všetko", "Kura", "Červené mäso", "Syr", "Tuniak", "Grécky jogurt", "Losos", "Krevety", "Vajcia", "Cícer", "Šošovica", "Tofu"],
+      "vegetables": ["Jem všetko", "Paradajky", "Uhorka", "Brokolica", "Špenát", "Cuketa", "Paprika", "Avokádo", "Olivy", "Cibuľa"],
+      "grains": ["Jem všetko", "Ryža", "Kuskus", "Quinoa", "Ovsené vločky", "Mandle", "Vlašské orechy", "Arašidy", "Kukurica"]
+    },
+    "loading": {
+      "title": "Zostavujeme váš plán...",
+      "messages": ["Analyzujeme váš metabolický profil…", "Skúmame vaše stravovacie preferencie…", "Porovnávame s dátami dlhovekosti Modrých zón…", "Spracovávame najnovší výskum v oblasti výživy…", "Dolaďujeme pomery makronutrientov…", "Budujeme váš prispôsobivý stredomorský koučingový systém…"]
+    },
+    "infoBlocks": {
+      "eyebrow": "Personalizovaný poznatek",
+      "blueZones": {
+        "title": "Ich tajomstvo pre štíhle telo a dlhý život.\n\nTERAZ KONEČNE AJ VAŠE.",
+        "body": "Obyvatelia najdlhovekejších regiónov sveta, známych ako **Modré zóny**, žijú dlhšie ako všetci ostatní.\n\nSú aj v lepšej kondícii. Štíhlejší. Energickejší. A podľa každého meradla patria medzi najšťastnejších ľudí na Zemi.\n\nNeráta kalórie. Neobmedzujú sacharidy. Jedia skutočné jedlo, zdravé tuky, kvalitné ingrediencie.\n\n**Po prvýkrát sa najpreveriteľnejšia diéta pre dlhovekosť na svete buduje okolo vás, nie okolo všetkých.**",
+        "image": "/quiz/blue-zones.png"
+      },
+      "metabolism": {
+        "title": "Váš metabolizmus nie je pokazený.\nDostal len nesprávny plán.",
+        "body": "Vaše telo sa mení. Väčšina plánov nie.\n\n**Náš systém na báze AI funguje 24/7.**\n\nNatrénovaný na stovkách rokov výskumu. Miliónoch skutočných prípadov.\n\nPrispôsobuje sa, keď sa prispôsobujete vy.\n\nNikdy neprestáva pracovať pre vás.",
+        "image": "/quiz/page11.png"
+      },
+      "dietsWrong": {
+        "title": "Tieto diéty nezlyhali preto, že ste ich robili zle.",
+        "body": "Zlyhali, pretože sa nikdy nemenili.\n\nKeto. Počítanie kalórií. Málo tuku. Veľa obilnín.\n\nDodržiavali ste pravidlá. Vaše telo sa prispôsobilo. Plán nie.\n\n**Veda je jasná: statické plány vždy zlyhávajú.**\n\nVaše telo nie je statické. Ani váš plán by nemal byť.",
+        "image": "/quiz/3.png"
+      },
+      "bmiExplanation": {
+        "title": "Vašu výšku a hmotnosť používame na výpočet indexu telesnej hmotnosti (BMI).",
+        "body": "BMI nám pomáha pochopiť váš aktuálny hmotnostný rozsah."
+      },
+      "adviceWrong": {
+        "title": "Rada, ktorú ste dostávali?\n\nBOLA NESPRÁVNA",
+        "body": "Roky hovorili: jedzte menej tuku, počítajte každú kalóriu, dodržiavajte pyramídu.\n\nMilióny ju dodržiavali dokonale. Milióny stále bojovali.\n\nZáklad bol otočený. Nie vy.\n\nVeda dobehla. Váš plán to odráža.",
+        "image": "/quiz/page12.png"
+      },
+      "ageMetabolism": {
+        "title": "Vek mení metabolizmus, ale nezastavuje výsledky.",
+        "body": "Keď starneme, telo reaguje na jedlo inak.\n\nPreto diéty pre všetkých rovnako často zlyhávajú po 30 alebo 40.\n\nVáš plán musí sa prispôsobiť vašej životnej etape."
+      },
+      "preEmail": {
+        "title": "Toto nie je ďalší pevný jedálniček.",
+        "body": "Váš stredomorský program je poháňaný AI koučingom.\n\nPrispôsobuje sa na základe vášho pokroku, energetickej hladiny a spätnej väzby.\n\nNemusíte hádať.\n\nSystém sa vyvíja spolu s vami.",
+        "image": "/quiz/mediterranean-spread.png"
+      }
+    },
+    "bmiMessages": {
+      "healthy": {
+        "title": "Vaše BMI je v zdravom rozsahu.",
+        "body": "To je skvelý východiskový bod. Cieľom je teraz udržiavať hmotnosť, zlepšiť tvar tela a podporiť metabolizmus. Vaše BMI použijeme na vytvorenie personalizovaného stredomorského koučingového systému, ktorý vám pomôže zostať fit a silní."
+      },
+      "overweight": {
+        "title": "Vaše BMI je v pásme nadváhy.",
+        "body": "To znamená, že vaše telo môže ukladať nadbytočný tuk. So správnym stravovacím plánom sa môžete posunúť k zdravšej hmotnosti. Vaše BMI použijeme na vytvorenie personalizovaného stredomorského koučingového systému."
+      },
+      "obese": {
+        "title": "Vaše BMI je v pásme obezity.",
+        "body": "To znamená, že vaše telo nesie viac kilogramov, ako sa odporúča. Aj malé chudnutie môže zlepšiť zdravie a energiu. Vaše BMI použijeme na vytvorenie personalizovaného stredomorského koučingového systému, ktorý vám pomôže chudnúť zdravo a postupne."
+      },
+      "underweight": {
+        "title": "Vaše BMI je v pásme podváhy.",
+        "body": "Pomôžeme vám zostaviť zdravý stravovací plán, ktorý podporí váš metabolizmus a celkovú pohodu."
+      }
+    },
+    "weightLoss": {
+      "smallTitle": "Zdravotný prínos: Schudnite {percent}% telesnej hmotnosti",
+      "smallBody": "Štúdie ukazujú, že aj úbytok 10% telesnej hmotnosti môže zlepšiť zdravie. Môže pomôcť znížiť riziko srdcových chorôb, vysokej hladiny cukru v krvi a zápalov v tele. Malé zmeny môžu priniesť veľký rozdiel.",
+      "bigTitle": "Väčší cieľ: Schudnite {percent}% telesnej hmotnosti",
+      "bigBody": "Výskum ukazuje, že ľudia, ktorí schudnú viac ako 20% telesnej hmotnosti, často zlepšia svoje metabolické zdravie viac ako tí, čo schudnú len 5–10%. Väčší úbytok hmotnosti môže viesť k lepšej energii, lepšej kontrole cukru v krvi a lepšiemu celkovému zdraviu."
+    }
+  }
+}

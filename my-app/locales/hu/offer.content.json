@@ -1,0 +1,98 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "offer",
+  "locale": "hu",
+  "content": {
+    "timerLabel": "50% kedvezmény fenntartva az Ön számára:",
+    "getMyPlan": "KÉREM A TERVEM",
+    "now": "Most",
+    "goal": "Cél",
+    "bodyFat": "Testzsír:",
+    "bmi": "BMI:",
+    "fitnessLevel": "Kondicionális szint:",
+    "planReadyTitle": "Az Ön személyre szabott mediterrán coaching terve készen áll",
+    "yourGoal": "Az Ön célja",
+    "targetWeight": "Célsúly",
+    "planIsReady": "A terve készen áll",
+    "safeCheckout": "GARANTÁLTAN BIZTONSÁGOS FIZETÉS",
+    "highlights": "A terv főbb elemei",
+    "visibleResults": "Látható eredmények 4 héten belül!",
+    "faqTitle": "Kérdései vannak?",
+    "riskFreeTitle": "Kockázatmentes garancia",
+    "riskFreeBody": "Az előfizetést bármikor lemondhatja, ha a hello@mediet.app e-mail-címen megkeresi az ügyfélszolgálatot. Semmilyen extra díj nem merül fel.",
+    "resultsMayVary": "Az eredmények egyénenként eltérhetnek.",
+    "copyright": "© 2026 Mediet.app. Minden jog fenntartva.",
+    "agreeTextStart": "Elfogadom a",
+    "agreeTerms": "Felhasználási feltételeket",
+    "agreeMiddle": "és az",
+    "agreePrivacy": "Adatvédelmi irányelveket",
+    "agreeEnd": ".",
+    "ctaLegal": "A „KÉREM A TERVEM” gombra kattintva elfogadja, hogy ${price} összeget fizet a(z) {plan} megvásárlásáért. Ha nem mondja le az első időszak lejárta előtt, az előfizetés automatikusan megújul ${renewPrice} összegért, lemondásig. Bármikor lemondható a hello@mediet.app ügyfélszolgálat megkeresésével.",
+    "defaultGoal": "Fogyni",
+    "plans": {
+      "week": "7 napos terv",
+      "month": "1 hónapos terv",
+      "quarter": "3 hónapos terv"
+    },
+    "features": [
+      {
+        "title": "Korlátlan adaptív mediterrán ételkombinációk",
+        "description": "Pontosan az Ön preferenciáihoz és kizárásaihoz igazítva. Élvezetes. Strukturált. Fenntartható."
+      },
+      {
+        "title": "Korlátlan személyre szabott anyagcsere-támogató mozgásprogramok",
+        "description": "Erő, mobilitás, jóga, regeneráció. Kiégés nélküli zsírégetésre tervezve."
+      },
+      {
+        "title": "Szokáskialakítási és kitartási kihívások",
+        "description": "Kis stratégiai lépések a lendület fenntartásához. Mert a ritmus erősebb a motivációnál."
+      },
+      {
+        "title": "Mediterrán hosszú élet és anyagcsere útmutatók",
+        "description": "Megértheti: miért akadályozza a gyulladás a zsírégetést, miért ront az anyagcserén a feldolgozott étel, és miért étkeznek másképp a hosszú életű népek. Az érthetőség feloldja a bizonytalanságot."
+      },
+      {
+        "title": "Haladás vizualizálása és adaptív nyomon követés",
+        "description": "Kövesse nyomon: a testsúlyát, a testösszetétel változását, az energiaszintjét és a szokásai következetességét. Hogy a rendszer mindig az Önéhez igazodjon."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mik azok a „Kék Zónák”, és miért fontosak?",
+        "answer": "A Kék Zónák olyan régiók a világon, ahol az emberek a leghosszabb és legegészségesebb életet élik. Ezekben a régiókban az emberek főként teljes értékű ételeket, egészséges zsírokat, zöldségeket, hüvelyeseket és kiegyensúlyozott adagokat fogyasztanak. Az Ön terve ezeket a bevált étkezési mintákat alkalmazza, de az Ön testéhez, céljaihoz és életmódjához igazítja. Ez nem csupán diéta. Ez egy hosszú élettartamra alapozott rendszer."
+      },
+      {
+        "question": "Miben különbözik ez egy hagyományos mediterrán diétától?",
+        "answer": "A legtöbb mediterrán étrend rögzített. Az Ön teste nem az. Az Ön személyre szabott mediterrán edzője a kérdőív eredményeit felhasználva alkot egy tervet az Ön anyagcseréje, aktivitási szintje, ételpreferenciái és céljai alapján. Ahogy a teste változik, a terve is alkalmazkodhat. Ez a különbség."
+      },
+      {
+        "question": "Mit csinál valójában a mesterséges intelligencián alapuló edző?",
+        "answer": "A MI-edző segít személyre szabni a táplálkozást és kísérni a haladást. Felhasználja az Ön adatait és a haladási visszajelzéseket, hogy: az ételkombinációkat finomítsa, mozgásrutinokat javasoljon, fenntartsa a következetességet, és segítsen elkerülni a platót. Ahelyett, hogy elölről kellene kezdeni, a terve fejlődik."
+      },
+      {
+        "question": "Kell kalóriát számolnom vagy makrót követnem?",
+        "answer": "Nem. Az Ön terve kiegyensúlyozott mediterrán arányokon alapul. Az Ön feladata valódi ételeket enni a megfelelő kombinációkban, nem napi számokat nyomon követni."
+      },
+      {
+        "question": "Sok diétát próbáltam. Miért működne ez nekem?",
+        "answer": "Sok diéta azért vall kudarcot, mert túl szigorú, túl általános, elavult kalóriaszabályokon alapul, vagy nem igazodik az életkori sajátosságokhoz. Ez a rendszer az anyagcsere-egyensúlyra összpontosít, nem a megvonásra. Fenntartható életre tervezték."
+      },
+      {
+        "question": "Biztonságos ez 40 év felettieknek?",
+        "answer": "Igen. Sőt, a rendszer különösen hasznos a 30 és 40 felettiek számára, amikor az anyagcsere természetes módon változik. A terv kiegyensúlyozott étkezésekre, teljes értékű ételekre és fokozatos haladásra épül, nem szélsőséges megvonásra."
+      },
+      {
+        "question": "Folyamatosan éhes leszek?",
+        "answer": "Nem. A mediterrán étrend rostban gazdag zöldségekre, egészséges zsírokra és kiegyensúlyozott fehérjékre épül. Ezek az ételek hosszabb ideig teltségérzetet és elégedettséget biztosítanak."
+      },
+      {
+        "question": "Mikor láthatók az eredmények?",
+        "answer": "Sok felhasználó már az első néhány héten belül javulást tapasztal az energiaszintjében, a puffadásban és az étvágyban. A látható testi változásokhoz általában következetességre van szükség. A terve fokozatos haladásra épül, nem azonnali megoldásokra."
+      },
+      {
+        "question": "Bármikor lemondható az előfizetés?",
+        "answer": "Igen. Az előfizetést bármikor lemondhatja, ha a hello@mediet.app e-mail-címen megkeresi az ügyfélszolgálatot. Semmilyen lemondási díj nem merül fel."
+      }
+    ]
+  }
+}

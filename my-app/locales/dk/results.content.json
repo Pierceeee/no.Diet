@@ -1,0 +1,54 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "dk",
+  "content": {
+    "email": {
+      "titleLine1": "Din plan er klar.",
+      "titleLine2": "Ét trin for at låse den op.",
+      "subtitle": "Din Middelhavs-coach er bygget op omkring din krop, dine mål og din baggrund.",
+      "placeholder": "Din e-mailadresse",
+      "cta": "Lås op for mit personlige program →",
+      "privacy1": "🔒 Din e-mail bruges udelukkende til levering af din plan.",
+      "privacy2": "Vi sælger, udlejer eller deler aldrig dine oplysninger.",
+      "privacy3": "Det er vores løfte til dig."
+    },
+    "summary": {
+      "mainTitle": "Din personlige Middelhavs-coach er klar",
+      "currentBmi": "Nuværende BMI",
+      "weightCategory": "Din vægtkategori:",
+      "continue": "Fortsæt",
+      "underweight": "Undervægt",
+      "healthy": "Normal",
+      "overweight": "Overvægt",
+      "obese": "Fedme",
+      "bmiStory1": "Men BMI alene fortæller ikke hele historien.",
+      "bmiStory2": "To mennesker kan have det samme BMI og helt forskellige metaboliske reaktioner.",
+      "bmiStory3": "Derfor er din plan ikke baseret på generiske kalorier.",
+      "bmiStory4": "Den er baseret på adaptiv metabolisk tilpasning.",
+      "coachTitle": "Mød dit bio-adaptive vægtstyringssystem",
+      "coachSubtitle": "Bygget på AI og 70 års videnskab om lang levetid og vægttab fra de Blå Zoner.",
+      "card1Title": "AI metabolisk optag-motor",
+      "card1Body": "Dine data (kropstype, aktivitetsniveau, energimønstre, madpræferencer) analyseres for at bestemme de optimale fødevareproportioner til din metaboliske fase.",
+      "card2Title": "Adaptiv Middelhavs-plan",
+      "card2Body1": "Bygget på spisemønstre observeret i verdens mest langlivede Middelhavs-regioner.",
+      "card2Body2": "Din plan tilpasser sig, efterhånden som din krop tilpasser sig, og hjælper med at reducere plateau og metabolisk afmatning.",
+      "card3Title": "Din levende AI-coach",
+      "card3Body1": "De fleste programmer giver dig en plan og lader dig selv finde ud af det.",
+      "card3Body2": "Denne lytter.",
+      "card3Body3": "Jo længere du bruger den, jo bedre kender den dig. Jo bedre den kender dig, jo bedre fungerer den.",
+      "featuresTitle": "Hvad inkluderer din meDiet-plan?",
+      "feature1Title": "Ubegrænsede adaptive Middelhavsmåltider",
+      "feature1Body": "Tilpasset dine præferencer.",
+      "feature2Title": "Personaliseret metabolisk bevægelse",
+      "feature2Body": "Styrke, mobilitet, restitution.",
+      "feature3Title": "Vane- og konsistensudfordringer",
+      "feature3Body": "Små strategiske handlinger.",
+      "feature4Title": "Levetids- og metabolismeguider",
+      "feature4Body": "Lær, hvorfor betændelse, forarbejdet mad og moderne kostråd hæmmer fedtforbrænding.",
+      "feature5Title": "Adaptiv fremskridtssporing",
+      "feature5Body": "Spor vægt, kropsændringer, energi og vaner."
+    }
+  }
+}
+

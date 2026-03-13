@@ -1,0 +1,98 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "offer",
+  "locale": "cs",
+  "content": {
+    "timerLabel": "50% sleva rezervována pro vás:",
+    "getMyPlan": "ZÍSKAT MŮJ PLÁN",
+    "now": "Nyní",
+    "goal": "Cíl",
+    "bodyFat": "Tělesný tuk:",
+    "bmi": "BMI:",
+    "fitnessLevel": "Úroveň kondice:",
+    "planReadyTitle": "Váš personalizovaný středomořský coachingový plán je připraven",
+    "yourGoal": "Váš cíl",
+    "targetWeight": "Cílová váha",
+    "planIsReady": "Váš plán je připraven",
+    "safeCheckout": "GARANTOVANÝ BEZPEČNÝ CHECKOUT",
+    "highlights": "Hlavní body vašeho plánu",
+    "visibleResults": "Získejte viditelné výsledky za 4 týdny!",
+    "faqTitle": "Máte otázky?",
+    "riskFreeTitle": "Garance bez rizika",
+    "riskFreeBody": "Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Žádné extra poplatky.",
+    "resultsMayVary": "Výsledky se mohou lišit.",
+    "copyright": "© 2026 Mediet.app. Všechna práva vyhrazena.",
+    "agreeTextStart": "Souhlasím s",
+    "agreeTerms": "Obchodními podmínkami",
+    "agreeMiddle": "a",
+    "agreePrivacy": "Zásadami ochrany osobních údajů",
+    "agreeEnd": ".",
+    "ctaLegal": "Kliknutím na „ZÍSKAT MŮJ PLÁN” souhlasíte s platbou ${price} za váš {plan}. Pokud nezrušíte před koncem prvního období, vaše předplatné se obnoví na ${renewPrice} až do zrušení. Předplatné můžete kdykoli zrušit kontaktováním podpory na hello@mediet.app.",
+    "defaultGoal": "Zhubnout",
+    "plans": {
+      "week": "7denní plán",
+      "month": "Měsíční plán",
+      "quarter": "3měsíční plán"
+    },
+    "features": [
+      {
+        "title": "Neomezené adaptivní středomořské kombinace jídel",
+        "description": "Přesně přizpůsobené vašim preferencím a vyloučením. Příjemné. Strukturované. Udržitelné."
+      },
+      {
+        "title": "Neomezené personalizované metabolické pohybové protokoly",
+        "description": "Síla, pohyblivost, jóga, regenerace. Navrženy ke stimulaci spalování tuků bez vyhoření."
+      },
+      {
+        "title": "Výzvy pro návyky a konzistenci",
+        "description": "Malé strategické budovatele hybnosti. Protože rytmus poráží motivaci."
+      },
+      {
+        "title": "Průvodci středomořskou dlouhověkostí a metabolismem",
+        "description": "Pochopte: proč zánět narušuje spalování tuků, proč moderní zpracované potraviny vykolejují metabolismus, proč populace dlouhověkosti jedí jinak. Jasnost odstraňuje zmatek."
+      },
+      {
+        "title": "Vizualizace pokroku a adaptivní sledování",
+        "description": "Sledujte: trendy váhy, změny složení těla, úrovně energie, konzistenci návyků. Aby systém mohl zůstat v souladu s vámi."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Co jsou „Modré zóny” a proč jsou důležité?",
+        "answer": "Modré zóny jsou regiony světa, kde lidé žijí nejdéle a nejzdravěji. V těchto regionech lidé jedí převážně celé potraviny, zdravé tuky, zeleninu, luštěniny a vyvážené porce. Váš plán využívá tyto osvědčené stravovací vzory – ale přizpůsobuje je vašemu tělu, vašim cílům a vašemu životnímu stylu. Není to jen dieta. Je to systém založený na dlouhověkosti."
+      },
+      {
+        "question": "Čím se to liší od normálního středomořského dietního plánu?",
+        "answer": "Většina středomořských plánů je pevná. Vaše tělo není. Váš personalizovaný středomořský kouč využívá výsledky vašeho dotazníku k vytvoření plánu na základě: vašeho metabolismu, vaší úrovně aktivity, vašich stravovacích preferencí a vašich cílů. Jak se vaše tělo mění, váš plán se může přizpůsobit. To je ten rozdíl."
+      },
+      {
+        "question": "Co AI kouč vlastně dělá?",
+        "answer": "AI kouč pomáhá personalizovat vaši výživu a vést váš pokrok. Využívá vaše data a aktualizace pokroku k: úpravě kombinací jídel, navrhování pohybových rutin, udržení vás konzistentními a pomoci předcházet plató. Místo začínání znovu se váš plán vyvíjí."
+      },
+      {
+        "question": "Musím počítat kalorie nebo sledovat makra?",
+        "answer": "Ne. Váš plán je strukturován pomocí vyvážených středomořských proporcí. Soustředíte se na jídlo skutečných potravin ve správných kombinacích – ne na denní čísla."
+      },
+      {
+        "question": "Vyzkoušel jsem mnoho diet. Proč by to fungovalo pro mě?",
+        "answer": "Mnoho diet selhává, protože jsou: příliš přísné, příliš obecné, založené na starých kalorických pravidlech nebo nepřizpůsobené vaší životní fázi. Tento systém se zaměřuje na metabolickou rovnováhu, ne na trest. Je navržen tak, aby byl udržitelný."
+      },
+      {
+        "question": "Je to bezpečné pro lidi nad 40 let?",
+        "answer": "Ano. Systém je zvláště užitečný pro lidi nad 30 a 40 let, kdy se metabolismus přirozeně mění. Plán se zaměřuje na vyvážená jídla, celé potraviny a stabilní pokrok – ne na extrémní omezení."
+      },
+      {
+        "question": "Budu neustále cítit hlad?",
+        "answer": "Ne. Středomořská struktura se zaměřuje na: zeleninu bohatou na vlákninu, zdravé tuky a vyvážené bílkoviny. Tyto potraviny vám pomáhají cítit se plní a spokojení."
+      },
+      {
+        "question": "Jak dlouho, než uvidím výsledky?",
+        "answer": "Mnoho uživatelů si všimne zlepšení v: energii, nadýmání a chutích během prvních několika týdnů. Viditelné změny těla obvykle vyžadují konzistenci. Váš plán je postaven pro stabilní pokrok – ne pro rychlá řešení."
+      },
+      {
+        "question": "Mohu kdykoli zrušit?",
+        "answer": "Ano. Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Nejsou žádné extra poplatky za zrušení."
+      }
+    ]
+  }
+}

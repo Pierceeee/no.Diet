@@ -1,0 +1,53 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "en",
+  "content": {
+    "email": {
+      "titleLine1": "Your plan is ready.",
+      "titleLine2": "One step to unlock it.",
+      "subtitle": "Your Mediterranean Coach has been built around your body, your goals, and your history.",
+      "placeholder": "Your email",
+      "cta": "Unlock My Personalized Program →",
+      "privacy1": "🔒 Your email is used only to deliver your plan.",
+      "privacy2": "We will never sell, rent, or share your information.",
+      "privacy3": "That's our commitment to you."
+    },
+    "summary": {
+      "mainTitle": "Your Personalized Mediterranean Coach Is Ready",
+      "currentBmi": "Current BMI",
+      "weightCategory": "Your Weight Category:",
+      "continue": "Continue",
+      "underweight": "Underweight",
+      "healthy": "Healthy",
+      "overweight": "Overweight",
+      "obese": "Obese",
+      "bmiStory1": "But BMI alone doesn't tell the full story.",
+      "bmiStory2": "Two people can have the same BMI and completely different metabolic responses.",
+      "bmiStory3": "That's why your plan is not based on generic calorie formulas.",
+      "bmiStory4": "It's based on adaptive metabolic alignment.",
+      "coachTitle": "Meet Your Bio-Adaptive Weight Coaching System",
+      "coachSubtitle": "Built on AI and 70 years of Blue Zone longevity & weight-loss science.",
+      "card1Title": "AI Metabolic Intake Engine",
+      "card1Body": "Your inputs (body type, activity level, energy patterns, food preferences) are analyzed to determine optimal food proportions for your metabolic stage.",
+      "card2Title": "Adaptive Mediterranean Blueprint",
+      "card2Body1": "Built on eating patterns observed in the world's longest-living Mediterranean regions.",
+      "card2Body2": "Your plan adjusts as your body adapts, helping reduce plateaus and metabolic slowdown.",
+      "card3Title": "Your Live AI Coach",
+      "card3Body1": "Most programs give you a plan and leave you to figure it out.",
+      "card3Body2": "This one listens.",
+      "card3Body3": "The longer you use it — the better it knows you. The better it knows you — the better it works.",
+      "featuresTitle": "What does your meDiet plan include?",
+      "feature1Title": "Unlimited Adaptive Mediterranean Meals",
+      "feature1Body": "Matched to your preferences.",
+      "feature2Title": "Personalised Metabolic Movement",
+      "feature2Body": "Strength, mobility, recovery.",
+      "feature3Title": "Habit & Consistency Challenges",
+      "feature3Body": "Small strategic actions.",
+      "feature4Title": "Longevity & Metabolism Guides",
+      "feature4Body": "Learn why inflammation, processed foods, and modern diet rules disrupt fat loss.",
+      "feature5Title": "Adaptive Progress Tracking",
+      "feature5Body": "Track weight, body changes, energy, and habits."
+    }
+  }
+}

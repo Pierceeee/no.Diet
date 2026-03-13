@@ -1,0 +1,53 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "hu",
+  "content": {
+    "email": {
+      "titleLine1": "A terve készen áll.",
+      "titleLine2": "Egy lépés, hogy feloldja.",
+      "subtitle": "Mediterrán edzője az Ön testére, céljaira és előzményeire szabottan készült.",
+      "placeholder": "Az Ön e-mail-címe",
+      "cta": "Megnyitom a személyre szabott programomat →",
+      "privacy1": "🔒 Az Ön e-mail-je kizárólag a terv kézbesítésére szolgál.",
+      "privacy2": "Soha nem adjuk el, béreljük ki, vagy osztjuk meg az Ön adatait.",
+      "privacy3": "Ez a mi elköteleződésünk Ön felé."
+    },
+    "summary": {
+      "mainTitle": "Az Ön személyre szabott mediterrán edzője készen áll",
+      "currentBmi": "Jelenlegi BMI",
+      "weightCategory": "Az Ön súlykategóriája:",
+      "continue": "Tovább",
+      "underweight": "Alulsúlyos",
+      "healthy": "Normál",
+      "overweight": "Túlsúlyos",
+      "obese": "Elhízott",
+      "bmiStory1": "A BMI azonban önmagában nem árulja el a teljes képet.",
+      "bmiStory2": "Két ember azonos BMI-értékkel teljesen eltérő anyagcsere-reakciót mutathat.",
+      "bmiStory3": "Ezért az Ön terve nem általános kalóriaképleteken alapul.",
+      "bmiStory4": "Adaptív anyagcsere-igazításon alapul.",
+      "coachTitle": "Ismerje meg bio-adaptív súlykezelő coaching rendszerét",
+      "coachSubtitle": "Mesterséges intelligenciára és a Kék Zónák 70 évnyi hosszú élettartam- és fogyástudományára építve.",
+      "card1Title": "MI-alapú anyagcsere-beviteli motor",
+      "card1Body": "Az Ön adatait (testtípus, aktivitási szint, energiamintázatok, ételpreferenciák) elemezzük, hogy meghatározzuk az optimális ételarányokat az Ön anyagcsere-fázisához.",
+      "card2Title": "Adaptív mediterrán terv",
+      "card2Body1": "A világ leghosszabb életű mediterrán régióiban megfigyelt étkezési mintákon alapul.",
+      "card2Body2": "Az Ön terve alkalmazkodik a teste változásaihoz, csökkentve a platót és az anyagcsere lassulását.",
+      "card3Title": "Az Ön valós idejű MI-edzője",
+      "card3Body1": "A legtöbb program tervet ad, és magára hagyja Önt.",
+      "card3Body2": "Ez hallgat.",
+      "card3Body3": "Minél tovább használja, annál jobban megismeri. Minél jobban megismeri, annál hatékonyabban működik.",
+      "featuresTitle": "Mit tartalmaz az Ön meDiet terve?",
+      "feature1Title": "Korlátlan adaptív mediterrán ételek",
+      "feature1Body": "Az Ön preferenciáihoz igazítva.",
+      "feature2Title": "Személyre szabott anyagcsere-mozgás",
+      "feature2Body": "Erő, mobilitás, regeneráció.",
+      "feature3Title": "Szokáskialakítási és kitartási kihívások",
+      "feature3Body": "Kis stratégiai lépések.",
+      "feature4Title": "Hosszú élet és anyagcsere útmutatók",
+      "feature4Body": "Megtudhatja, miért akadályozza a gyulladás, a feldolgozott ételek és a modern diétaszabályok a zsírégetést.",
+      "feature5Title": "Adaptív haladáskövetés",
+      "feature5Body": "Kövesse nyomon a testsúlyt, a testi változásokat, az energiát és a szokásokat."
+    }
+  }
+}

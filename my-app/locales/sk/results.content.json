@@ -1,0 +1,53 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "results",
+  "locale": "sk",
+  "content": {
+    "email": {
+      "titleLine1": "Váš plán je pripravený.",
+      "titleLine2": "Jeden krok na jeho odomknutie.",
+      "subtitle": "Váš Stredomorský kouč je zostavený okolo vášho tela, cieľov a histórie.",
+      "placeholder": "Vaša e-mailová adresa",
+      "cta": "Odomknúť môj personalizovaný program →",
+      "privacy1": "🔒 Váš e-mail sa používa výlučne na doručenie plánu.",
+      "privacy2": "Nikdy nepredáme, neprenajmeme ani nezdieľame vaše údaje.",
+      "privacy3": "To je naša záväzok voči vám."
+    },
+    "summary": {
+      "mainTitle": "Váš personalizovaný Stredomorský kouč je pripravený",
+      "currentBmi": "Aktuálne BMI",
+      "weightCategory": "Vaša hmotnostná kategória:",
+      "continue": "Pokračovať",
+      "underweight": "Podváha",
+      "healthy": "Normálna",
+      "overweight": "Nadváha",
+      "obese": "Obezita",
+      "bmiStory1": "BMI samo o sebe však nerozpráva celý príbeh.",
+      "bmiStory2": "Dvaja ľudia môžu mať rovnaké BMI a úplne odlišné metabolické reakcie.",
+      "bmiStory3": "Preto váš plán nie je založený na všeobecných kalorických vzorcoch.",
+      "bmiStory4": "Je založený na adaptívnom metabolickom zosúladení.",
+      "coachTitle": "Spoznajte váš bio-adaptívny systém riadenia hmotnosti",
+      "coachSubtitle": "Postavený na AI a 70 rokoch vedy o dlhovekosti a chudnutí z Modrých zón.",
+      "card1Title": "AI motor metabolického príjmu",
+      "card1Body": "Vaše dáta (typ tela, úroveň aktivity, energetické vzory, stravovacie preferencie) sú analyzované na určenie optimálnych potravinových pomerov pre vašu metabolickú fázu.",
+      "card2Title": "Adaptívny stredomorský plán",
+      "card2Body1": "Postavený na stravovacích vzoroch pozorovaných v najdlhovekejších stredomorských regiónoch sveta.",
+      "card2Body2": "Váš plán sa prispôsobuje, keď sa prispôsobuje vaše telo, čo pomáha znižovať platoá a metabolické spomalenie.",
+      "card3Title": "Váš živý AI kouč",
+      "card3Body1": "Väčšina programov vám dá plán a nechá vás, aby ste si ho sami vysvetlili.",
+      "card3Body2": "Tento počúva.",
+      "card3Body3": "Čím dlhšie ho používate, tým lepšie vás pozná. A čím lepšie vás pozná, tým lepšie funguje.",
+      "featuresTitle": "Čo obsahuje váš meDiet plán?",
+      "feature1Title": "Neobmedzené adaptívne stredomorské jedlá",
+      "feature1Body": "Prispôsobené vašim preferenciám.",
+      "feature2Title": "Personalizovaný metabolický pohyb",
+      "feature2Body": "Sila, mobilita, regenerácia.",
+      "feature3Title": "Výzvy návykov a konzistentnosti",
+      "feature3Body": "Malé strategické kroky.",
+      "feature4Title": "Sprievodcovia dlhovekosťou a metabolizmom",
+      "feature4Body": "Zistite, prečo zápal, spracované potraviny a moderné pravidlá stravovania bránia spaľovaniu tukov.",
+      "feature5Title": "Adaptívne sledovanie pokroku",
+      "feature5Body": "Sledujte hmotnosť, zmeny tela, energiu a návyky."
+    }
+  }
+}

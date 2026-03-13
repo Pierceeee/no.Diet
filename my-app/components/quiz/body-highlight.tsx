@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useRef, useState, useEffect, useCallback } from "react";
+import { useIntlayer } from "next-intlayer";
 
 const BODY_AREAS = ["Arms", "Chest", "Back", "Stomach", "Legs", "Glutes"];
 
@@ -81,6 +82,7 @@ export function BodyHighlight({
   selectedAreas,
   onToggle,
 }: BodyHighlightProps) {
+  const t = useIntlayer("quiz");
   const imageSrc =
     gender === "male"
       ? "/quiz/2-removebg-preview.png"
@@ -205,10 +207,10 @@ export function BodyHighlight({
       </svg>
 
       <div ref={chipsRef} className="flex flex-col justify-center gap-2 sm:gap-2.5 shrink-0">
-        {BODY_AREAS.map((area) => (
+        {BODY_AREAS.map((area, index) => (
           <LabelChip
             key={area}
-            area={area}
+            area={t.options.bodyAreas[index] ?? area}
             selected={selectedAreas.includes(area)}
             onClick={() => onToggle(area)}
           />

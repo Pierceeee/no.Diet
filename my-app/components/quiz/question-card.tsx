@@ -29,7 +29,7 @@ export function SingleChoiceStep({
       )}
       <div className="stagger-children mt-8 space-y-3">
         {options.map((item, idx) => (
-          <OptionCard key={item} onClick={() => onSelect(item)}>
+          <OptionCard key={idx} onClick={() => onSelect(item)}>
             <span className="flex items-center justify-between gap-3">
               <span className="text-left">
                 <span className="block font-body text-base font-medium tracking-[-0.01em] text-[var(--text-primary)] sm:text-lg">

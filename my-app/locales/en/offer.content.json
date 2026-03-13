@@ -1,0 +1,98 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "offer",
+  "locale": "en",
+  "content": {
+    "timerLabel": "50% Discount Reserved For You:",
+    "getMyPlan": "GET MY PLAN",
+    "now": "Now",
+    "goal": "Goal",
+    "bodyFat": "Body fat:",
+    "bmi": "BMI:",
+    "fitnessLevel": "Fitness level:",
+    "planReadyTitle": "Your Personalized Mediterranean Coach Plan Is Ready",
+    "yourGoal": "Your Goal",
+    "targetWeight": "Target weight",
+    "planIsReady": "Your plan is ready",
+    "safeCheckout": "GUARANTEED SAFE CHECKOUT",
+    "highlights": "Highlights of your plan",
+    "visibleResults": "Get visible results in 4 weeks!",
+    "faqTitle": "Got questions?",
+    "riskFreeTitle": "Risk-free guarantee",
+    "riskFreeBody": "You can cancel your subscription anytime by contacting support by email hello@mediet.app. No extra charges.",
+    "resultsMayVary": "Results may vary.",
+    "copyright": "© 2026 Mediet.app. All rights reserved.",
+    "agreeTextStart": "I agree to the",
+    "agreeTerms": "T&Cs",
+    "agreeMiddle": "and",
+    "agreePrivacy": "Privacy Policy",
+    "agreeEnd": ".",
+    "ctaLegal": "By clicking \"GET MY PLAN,\" you agree to pay ${price} for your {plan}. If you do not cancel before the end of the first period, your subscription will renew at ${renewPrice} until canceled. You can cancel anytime by contacting support at hello@mediet.app.",
+    "defaultGoal": "Lose weight",
+    "plans": {
+      "week": "7-Day Plan",
+      "month": "1-Month Plan",
+      "quarter": "3-Month Plan"
+    },
+    "features": [
+      {
+        "title": "Unlimited Adaptive Mediterranean Meal Combinations",
+        "description": "Precision-matched to your preferences and exclusions. Enjoyable. Structured. Sustainable."
+      },
+      {
+        "title": "Unlimited Personalised Metabolic-Support Movement Protocols",
+        "description": "Strength, mobility, yoga, recovery. Designed to stimulate fat loss without burnout."
+      },
+      {
+        "title": "Habit & Consistency Challenges",
+        "description": "Small, strategic momentum builders. Because rhythm beats motivation."
+      },
+      {
+        "title": "Mediterranean Longevity & Metabolism Guides",
+        "description": "Understand: why inflammation disrupts fat loss, why modern processed food derails metabolism, why longevity populations eat differently. Clarity removes confusion."
+      },
+      {
+        "title": "Progress Visualization & Adaptive Tracking",
+        "description": "Track: weight trends, body composition shifts, energy levels, habit consistency. So the system can stay aligned with you."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are \"Blue Zones\" and why are they important?",
+        "answer": "Blue Zones are regions in the world where people live the longest and healthiest lives. In these regions, people eat mostly whole foods, healthy fats, vegetables, beans, and balanced portions. Your plan uses these proven eating patterns — but adjusts them to your body, your goals, and your lifestyle. It is not just a diet. It is a longevity-based system."
+      },
+      {
+        "question": "How is this different from a normal Mediterranean diet plan?",
+        "answer": "Most Mediterranean plans are fixed. Your body is not. Your Personalized Mediterranean Coach uses your quiz results to create a plan based on: your metabolism, your activity level, your food preferences, and your goals. As your body changes, your plan can adjust. That is the difference."
+      },
+      {
+        "question": "What does the AI Coach actually do?",
+        "answer": "The AI Coach helps personalize your nutrition and guide your progress. It uses your data and progress updates to: adjust meal combinations, suggest movement routines, keep you consistent, and help prevent plateaus. Instead of starting over, your plan evolves."
+      },
+      {
+        "question": "Do I need to count calories or track macros?",
+        "answer": "No. Your plan is structured using balanced Mediterranean proportions. You focus on eating real food in the right combinations — not on daily numbers."
+      },
+      {
+        "question": "I've tried many diets. Why would this work for me?",
+        "answer": "Many diets fail because they are: too strict, too generic, based on old calorie rules, or not adjusted to your stage of life. This system focuses on metabolic balance, not punishment. It is designed to be sustainable."
+      },
+      {
+        "question": "Is this safe for people over 40?",
+        "answer": "Yes. In fact, the system is especially helpful for people over 30 and 40, when metabolism naturally changes. The plan focuses on balanced meals, whole foods, and steady progress — not extreme restriction."
+      },
+      {
+        "question": "Will I feel hungry all the time?",
+        "answer": "No. The Mediterranean structure focuses on: fiber-rich vegetables, healthy fats, and balanced protein. These foods help you feel full and satisfied."
+      },
+      {
+        "question": "How long before I see results?",
+        "answer": "Many users notice improvements in: energy, bloating, and cravings within the first few weeks. Visible body changes usually require consistency. Your plan is built for steady progress — not quick fixes."
+      },
+      {
+        "question": "Can I cancel anytime?",
+        "answer": "Yes. You can cancel your subscription anytime by contacting support by email hello@mediet.app. There are no extra cancellation fees."
+      }
+    ]
+  }
+}

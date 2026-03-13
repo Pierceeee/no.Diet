@@ -3,6 +3,23 @@ import type { Unit, WeightUnit } from "./quiz-data";
 export const clamp = (v: number, min: number, max: number) =>
   Math.min(max, Math.max(min, v));
 
+/**
+ * Converts a value to a plain string, unwrapping intlayer v8 node proxies.
+ * Intlayer wraps every translated string in a React-element Proxy with a `.value`
+ * getter; calling String() or using template literals on such a proxy yields
+ * "[object Object]".  Accessing `.value` triggers the proxy's get trap and
+ * returns the raw string.
+ */
+export function toStr(val: unknown): string {
+  if (val !== null && typeof val === "object") {
+    const v = (val as Record<string, unknown>).value;
+    if (typeof v === "string" || typeof v === "number") {
+      return String(v);
+    }
+  }
+  return String(val);
+}
+
 export const fmt = (v: number, d = 1) =>
   Number.isFinite(v) ? v.toFixed(d) : "0.0";
 
@@ -16,24 +33,28 @@ export function calculateBMI(heightCm: number, weightKg: number): number {
   return Math.round((weightKg / (heightM * heightM)) * 10) / 10;
 }
 
-export function getBMICategory(bmi: number): string {
-  if (bmi < 18.5) return "Underweight";
-  if (bmi < 25) return "Normal weight";
-  if (bmi < 30) return "Overweight";
-  return "Obese";
+export type BMICategory = "underweight" | "healthy" | "overweight" | "obese";
+
+export function getBMICategory(bmi: number): BMICategory {
+  if (bmi < 18.5) return "underweight";
+  if (bmi < 25) return "healthy";
+  if (bmi < 30) return "overweight";
+  return "obese";
 }
 
-export function getBMICategoryDisplay(bmi: number): string {
-  if (bmi < 18.5) return "Underweight";
-  if (bmi < 25) return "Healthy";
-  if (bmi < 30) return "Overweight";
-  return "Obese";
+export function getBMICategoryDisplay(bmi: number): BMICategory {
+  if (bmi < 18.5) return "underweight";
+  if (bmi < 25) return "healthy";
+  if (bmi < 30) return "overweight";
+  return "obese";
 }
 
-export function getMetabolismStatus(bmi: number): "Slow" | "Normal" | "Fast" {
-  if (bmi >= 25) return "Slow";
-  if (bmi < 18.5) return "Fast";
-  return "Normal";
+export type MetabolismStatus = "slow" | "normal" | "fast";
+
+export function getMetabolismStatus(bmi: number): MetabolismStatus {
+  if (bmi >= 25) return "slow";
+  if (bmi < 18.5) return "fast";
+  return "normal";
 }
 
 export function calculateWeightLossPercentage(

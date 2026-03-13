@@ -1,0 +1,98 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "offer",
+  "locale": "lv",
+  "content": {
+    "timerLabel": "50% atlaide rezervēta jums:",
+    "getMyPlan": "IEGŪT MANU PLĀNU",
+    "now": "Tagad",
+    "goal": "Mērķis",
+    "bodyFat": "Ķermeņa tauki:",
+    "bmi": "ĶMI:",
+    "fitnessLevel": "Fitnesa līmenis:",
+    "planReadyTitle": "Jūsu personalizētais Vidusjūras koučinga plāns ir gatavs",
+    "yourGoal": "Jūsu mērķis",
+    "targetWeight": "Mērķa svars",
+    "planIsReady": "Jūsu plāns ir gatavs",
+    "safeCheckout": "GARANTĒTA DROŠA NORĒĶINĀŠANĀS",
+    "highlights": "Jūsu plāna galvenie punkti",
+    "visibleResults": "Iegūstiet redzamus rezultātus 4 nedēļās!",
+    "faqTitle": "Jums ir jautājumi?",
+    "riskFreeTitle": "Garantija bez riska",
+    "riskFreeBody": "Varat atcelt abonementu jebkurā laikā, sazinoties ar atbalstu pa e-pastu hello@mediet.app. Nav papildu maksu.",
+    "resultsMayVary": "Rezultāti var atšķirties.",
+    "copyright": "© 2026 Mediet.app. Visas tiesības aizsargātas.",
+    "agreeTextStart": "Es piekrītu",
+    "agreeTerms": "Noteikumiem",
+    "agreeMiddle": "un",
+    "agreePrivacy": "Privātuma politikai",
+    "agreeEnd": ".",
+    "ctaLegal": "Noklikšķinot uz „IEGŪT MANU PLĀNU”, jūs piekrītat maksāt ${price} par savu {plan}. Ja neatceļat pirms pirmā perioda beigām, jūsu abonements tiks atjaunots par ${renewPrice} līdz atcelšanai. Varat atcelt jebkurā laikā, sazinoties ar atbalstu hello@mediet.app.",
+    "defaultGoal": "Zaudēt svaru",
+    "plans": {
+      "week": "7 dienu plāns",
+      "month": "1 mēneša plāns",
+      "quarter": "3 mēnešu plāns"
+    },
+    "features": [
+      {
+        "title": "Neierobežotas adaptīvās Vidusjūras ēdienreižu kombinācijas",
+        "description": "Precīzi pielāgotas jūsu vēlmēm un izslēgumiem. Patīkamas. Strukturētas. Ilgtspējīgas."
+      },
+      {
+        "title": "Neierobežoti personalizēti metaboliskā atbalsta kustību protokoli",
+        "description": "Spēks, mobilitāte, joga, atveseļošanās. Izstrādāti tauku sadedzināšanas stimulēšanai bez izdegšanas."
+      },
+      {
+        "title": "Ieradumu un konsekvences izaicinājumi",
+        "description": "Mazi stratēģiski impulsa veidotāji. Jo ritms uzvar motivāciju."
+      },
+      {
+        "title": "Vidusjūras ilgmūžības un vielmaiņas ceļveži",
+        "description": "Saprotiet: kāpēc iekaisums traucē tauku sadedzināšanu, kāpēc mūsdienu pārstrādāta pārtika izjauc vielmaiņu, kāpēc ilgmūžīgās populācijas ēd citādi. Skaidrība novērš apjukumu."
+      },
+      {
+        "title": "Progresa vizualizācija un adaptīvā izsekošana",
+        "description": "Izsekojiet: svara tendences, ķermeņa sastāva izmaiņas, enerģijas līmeņus, ieradumu konsekvenci. Lai sistēma varētu palikt saskaņota ar jums."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kas ir „Zilās zonas” un kāpēc tās ir svarīgas?",
+        "answer": "Zilās zonas ir pasaules reģioni, kur cilvēki dzīvo visgarāk un veselīgāk. Šajos reģionos cilvēki galvenokārt ēd veselu pārtiku, veselīgus taukus, dārzeņus, pākšaugus un sabalansētas porcijas. Jūsu plāns izmanto šos pierādītos ēšanas modeļus – bet pielāgo tos jūsu ķermenim, jūsu mērķiem un jūsu dzīvesveidam. Tas nav tikai diēta. Tā ir uz ilgmūžību balstīta sistēma."
+      },
+      {
+        "question": "Ar ko tas atšķiras no parasta Vidusjūras diētas plāna?",
+        "answer": "Lielākā daļa Vidusjūras plānu ir fiksēti. Jūsu ķermenis nav. Jūsu personalizētais Vidusjūras koučs izmanto jūsu aptaujas rezultātus, lai izveidotu plānu, pamatojoties uz: jūsu vielmaiņu, jūsu aktivitātes līmeni, jūsu pārtikas vēlmēm un jūsu mērķiem. Mainoties jūsu ķermenim, jūsu plāns var pielāgoties. Tā ir atšķirība."
+      },
+      {
+        "question": "Ko AI koučs patiesībā dara?",
+        "answer": "AI koučs palīdz personalizēt jūsu uzturu un vadīt jūsu progresu. Tas izmanto jūsu datus un progresa atjauninājumus, lai: pielāgotu ēdienreižu kombinācijas, ieteiktu kustību rutīnas, uzturētu jūs konsekventi un palīdzētu novērst plato. Tā vietā, lai sāktu no jauna, jūsu plāns attīstās."
+      },
+      {
+        "question": "Vai man ir jāskaita kalorijas vai jāseko makro?",
+        "answer": "Nē. Jūsu plāns ir strukturēts, izmantojot sabalansētas Vidusjūras proporcijas. Jūs koncentrējaties uz īstas pārtikas ēšanu pareizās kombinācijās – nevis uz ikdienas skaitļiem."
+      },
+      {
+        "question": "Esmu izmēģinājis daudzas diētas. Kāpēc tas darbotos manam gadījumam?",
+        "answer": "Daudzas diētas izgāžas, jo tās ir: pārāk stingras, pārāk vispārīgas, balstītas uz veciem kaloriju noteikumiem vai nepielāgotas jūsu dzīves posmam. Šī sistēma koncentrējas uz metabolisko līdzsvaru, nevis sodu. Tā ir izstrādāta, lai būtu ilgtspējīga."
+      },
+      {
+        "question": "Vai tas ir drošs cilvēkiem virs 40 gadiem?",
+        "answer": "Jā. Patiesībā sistēma ir īpaši noderīga cilvēkiem virs 30 un 40 gadiem, kad vielmaiņa dabiski mainās. Plāns koncentrējas uz sabalansētām ēdienreizēm, veselu pārtiku un stabilu progresu – nevis uz ekstrēmu ierobežošanu."
+      },
+      {
+        "question": "Vai es vienmēr jutīšos izsalcis?",
+        "answer": "Nē. Vidusjūras struktūra koncentrējas uz: ar šķiedrvielām bagātiem dārzeņiem, veselīgiem taukiem un sabalansētiem olbaltumvielām. Šie ēdieni palīdz jums justies paēdušam un apmierinātam."
+      },
+      {
+        "question": "Cik ilgi, pirms es redzēšu rezultātus?",
+        "answer": "Daudzi lietotāji pamana uzlabojumus: enerģijā, vēdera uzpūšanās un kārumā pirmajās nedēļās. Redzamas ķermeņa izmaiņas parasti prasa konsekvenci. Jūsu plāns ir veidots stabilam progresam – nevis ātram risinājumam."
+      },
+      {
+        "question": "Vai es varu atcelt jebkurā laikā?",
+        "answer": "Jā. Varat atcelt abonementu jebkurā laikā, sazinoties ar atbalstu pa e-pastu hello@mediet.app. Nav papildu atcelšanas maksu."
+      }
+    ]
+  }
+}

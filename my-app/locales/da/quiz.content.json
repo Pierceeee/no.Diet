@@ -1,0 +1,173 @@
+{
+  "$schema": "https://intlayer.org/schema.json",
+  "key": "quiz",
+  "locale": "da",
+  "content": {
+    "common": {
+      "continue": "Fortsæt",
+      "menu": "Menu",
+      "closeMenu": "Luk menu",
+      "helpCenter": "Hjælpecenter",
+      "contactUs": "Kontakt os",
+      "terms": "Vilkår og betingelser",
+      "privacyPolicy": "Privatlivspolitik",
+      "cookiePolicy": "Cookiepolitik",
+      "privacySettings": "Privatlivsindstillinger",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "notSet": "Ikke angivet"
+    },
+    "landing": {
+      "hero": "Lad os skabe din personlige Middelhavscoach og et program til vægttab og et langt, sundt liv",
+      "subtitle": "Vælg dit program:",
+      "ctaMen": "Program til mænd",
+      "ctaWomen": "Program til kvinder",
+      "footer": "© 2026 meDiet. Alle rettigheder forbeholdes.",
+      "heroImageAlt": "Skål med middelhavsmad"
+    },
+    "intro": {
+      "titlePrefix": "Inden vi sætter din plan sammen",
+      "titleHighlight": "LÆS DETTE",
+      "p1": "Hvis du har prøvet keto, kalorietælling eller intermitterende faste og følte, at du mislykkedes.",
+      "p2": "Du mislykkedes ikke. Det var planen, der svigtede dig.",
+      "p3": "Disse systemer var bygget på forældet videnskab. Stive regler. Generiske skabeloner.",
+      "p4Male": "De var aldrig designet til, hvordan en mands krop faktisk fungerer.",
+      "p4Female": "De var aldrig designet til, hvordan en kvindes krop faktisk fungerer.",
+      "p5": "Det ændrer sig nu.",
+      "p6": "Svar ærligt. Vi klarer resten."
+    },
+    "steps": {
+      "s1": "Hvor bekendt er du med Middelhavskosten og de Blå Zoner?",
+      "s3": "Hvad ønsker du at opnå?",
+      "s4": "Hvordan vil du beskrive din krop i dag?",
+      "s5": "Hvilken krop ønsker du?",
+      "s6": "Hvilke zoner vil du gerne forbedre?",
+      "s6Hint": "Hvis du er tilfreds med din krop, tryk Fortsæt",
+      "s7": "Hvordan ser din typiske dag ud?",
+      "s8": "Hvad er dit energiniveau i løbet af dagen?",
+      "s9": "Hvor ofte træner du?",
+      "s10": "Hvordan ændrer din vægt sig typisk?",
+      "s12": "Hvornår var du sidst på din bedste vægt?",
+      "s13": "Har du prøvet nogen af disse diæter inden for de seneste 3 år?",
+      "s15": "Hvad ville ændre sig mest i dit liv, hvis du kom i form?",
+      "s16": "Hvad er din højde?",
+      "s17": "Hvad er din nuværende vægt?",
+      "s19": "Hvad er din målvægt?",
+      "s20": "Hvor gammel er du?",
+      "s21Title": "Her er, hvad vi fandt",
+      "s21BmiTitle": "Dit kropsmasseindeks (BMI)",
+      "s22": "Hvor mange måltider om dagen ønsker du?",
+      "s22Subtitle": "Du kan ændre dette i indstillingerne til enhver tid.",
+      "s23": "Ønsker du at udelukke nogen fødevarer?",
+      "s23Label": "Proteiner og mejeriprodukter:",
+      "s24": "Ønsker du at udelukke nogen fødevarer?",
+      "s24Label": "Frugt og grøntsager:",
+      "s25": "Ønsker du at udelukke nogen fødevarer?",
+      "s25Label": "Korn og nødder:",
+      "s27Title": "Baseret på dine madpræferencer har vi skabt",
+      "s27Count": "500+",
+      "s27Lead": "måltidskombinationer",
+      "s27Body": "der passer perfekt til dig og hjælper dig med at nå en sund vægt på den mest behagelige måde!"
+    },
+    "labels": {
+      "selectAll": "Vælg alt, der gælder:",
+      "youValue": "Du",
+      "underweightShort": "Under",
+      "underweight": "Undervægt",
+      "healthy": "Sund",
+      "overweightShort": "Over",
+      "overweight": "Overvægt",
+      "obese": "Fedme",
+      "bodyFat": "Kropsfedt",
+      "activityLevel": "Aktivitetsniveau",
+      "energyLevel": "Energiniveau",
+      "goal": "Mål"
+    },
+    "options": {
+      "goalsMale": ["Reducere kropsfedt", "Blive slankere", "Opbygge muskler", "Få mere energi", "Forbedre sundheden", "Leve længere"],
+      "goalsFemale": ["Reducere kropsfedt", "Blive mere slank", "Forme kroppen", "Få mere energi", "Forbedre sundheden", "Leve længere"],
+      "q3BodiesMale": ["Slank", "Gennemsnitlig", "Lidt fedt på maven", "Overvægtig"],
+      "q3BodiesFemale": ["Slank", "Gennemsnitlig", "Lidt fedt på maven", "Overvægtig"],
+      "q4BodiesMale": ["Lidt slankere", "Slank og fit", "Atletisk", "Stærk og defineret"],
+      "q4BodiesFemale": ["At føle mig som mig selv igen", "At slippe af med det stædige mavefedt", "At føle mig lettere og mere selvsikker", "At se tonet og ungdommelig ud"],
+      "q12Reasons": ["Hvordan jeg har det, når jeg ser mig i spejlet", "At føle mig som mig selv igen", "Min energi med børnene / familien", "Min selvtillid i selskab med andre", "Hvordan jeg har det med min partner", "Min langsigtede sundhed", "Hvordan tøjet sidder"],
+      "familiarity": ["Det er nyt for mig", "Jeg kender det grundlæggende", "Jeg har prøvet det før"],
+      "bodyAreas": ["Arme", "Bryst", "Ryg", "Mave", "Ben", "Bagdel"],
+      "dayToDay": ["Sidder det meste af dagen", "Bevæger mig meget", "Træner regelmæssigt", "Er hjemme"],
+      "energy": ["Normalt lav", "Føler mig træt om eftermiddagen", "Mit energiniveau svinger", "Mit energiniveau er stabilt"],
+      "exercise": ["Aldrig", "Nogle gange om måneden", "Nogle gange om ugen", "Næsten hver dag"],
+      "weightChange": ["Tager hurtigt på og taber langsomt", "Taber mig, men tager på igen", "Min vægt forbliver stabil", "Har svært ved at opbygge muskler"],
+      "idealWeight": ["Mindre end 1 år siden", "For 1–3 år siden", "For mere end 3 år siden", "Jeg har aldrig været på min bedste vægt"],
+      "diets": ["Keto", "Intermitterende faste", "Lavt kulhydratindhold", "Vegetarisk", "Vegansk", "Glutenfri", "Anden", "Ingen af dem"],
+      "meals": ["To", "Tre", "Fire", "Fem"],
+      "mealDescriptions": ["Morgenmad og aftensmad med valgfri snacks", "Morgenmad, frokost og aftensmad", "Morgenmad, snack, frokost og aftensmad", "Morgenmad, frokost, aftensmad og to snacks"],
+      "proteins": ["Spiser alt", "Kylling", "Rødt kød", "Ost", "Tun", "Græsk yoghurt", "Laks", "Rejer", "Æg", "Kikærter", "Linser", "Tofu"],
+      "vegetables": ["Spiser alt", "Tomater", "Agurk", "Broccoli", "Spinat", "Zucchini", "Peberfrugt", "Avocado", "Oliven", "Løg"],
+      "grains": ["Spiser alt", "Ris", "Couscous", "Quinoa", "Havregryn", "Mandler", "Valnødder", "Jordnødder", "Majs"]
+    },
+    "loading": {
+      "title": "Sætter din plan sammen...",
+      "messages": ["Analyserer din metaboliske profil…", "Undersøger dine madpræferencer…", "Sammenligner med Blå Zoners levetidsdata…", "Behandler den nyeste ernæringsforskning…", "Finjusterer makronæringsforholdet…", "Bygger dit tilpassede Middelhavs-coachingsystem…"]
+    },
+    "infoBlocks": {
+      "eyebrow": "Personlig indsigt",
+      "blueZones": {
+        "title": "Deres hemmelighed til en slank krop og et langt liv.\n\nNU ENDELIG OGSÅ DIN.",
+        "body": "Beboerne i verdens mest langlivede regioner, kendt som **de Blå Zoner**, lever længere end alle andre.\n\nDe er også i bedre form. Slankere. Mere energiske. Og efter enhver målestok er de blandt de lykkeligste mennesker på Jorden.\n\nDe tæller ikke kalorier. De begrænser ikke kulhydrater. De spiser rigtig mad, sunde fedtstoffer, kvalitetsingredienser.\n\n**For første gang bygges verdens mest dokumenterede diæt for lang levetid op omkring dig, ikke alle.**",
+        "image": "/quiz/blue-zones.png"
+      },
+      "metabolism": {
+        "title": "Din metabolisme er ikke ødelagt.\nDen fik bare en forkert plan.",
+        "body": "Din krop ændrer sig. De fleste planer gør ikke.\n\n**Vores AI-baserede system kører 24/7.**\n\nTrænet på hundredvis af års forskning. Millioner af virkelige tilfælde.\n\nDet tilpasser sig, når du tilpasser dig.\n\nDet stopper aldrig med at arbejde for dig.",
+        "image": "/quiz/page11.png"
+      },
+      "dietsWrong": {
+        "title": "Disse diæter fejlede ikke, fordi du gjorde dem forkert.",
+        "body": "De fejlede, fordi de aldrig ændrede sig.\n\nKeto. Kalorietælling. Lavt fedtindhold. Mange korn.\n\nDu fulgte reglerne. Din krop tilpassede sig. Planen gjorde ikke.\n\n**Videnskaben er klar: statiske planer fejler altid.**\n\nDin krop er ikke statisk. Heller ikke din plan bør være det.",
+        "image": "/quiz/3.png"
+      },
+      "bmiExplanation": {
+        "title": "Vi bruger din højde og vægt til at beregne dit kropsmasseindeks (BMI).",
+        "body": "BMI hjælper os med at forstå dit nuværende væginterval."
+      },
+      "adviceWrong": {
+        "title": "Det råd, du fik?\n\nDET VAR FORKERT",
+        "body": "I årevis fortalte de dig: spis mindre fedt, tæl hver kalorie, følg pyramiden.\n\nMillioner fulgte det til punkt og prikke. Millioner kæmpede stadig.\n\nGrundlaget var forkert. Ikke dig.\n\nVidenskaben har hentet ind. Din plan afspejler det.",
+        "image": "/quiz/page12.png"
+      },
+      "ageMetabolism": {
+        "title": "Alderen ændrer din metabolisme, men den stopper ikke resultaterne.",
+        "body": "Efterhånden som vi bliver ældre, reagerer kroppen anderledes på mad.\n\nDet er grunden til, at one-size-fits-all-diæter ofte fejler efter 30 eller 40.\n\nDin plan skal tilpasse sig din livsfase."
+      },
+      "preEmail": {
+        "title": "Dette er ikke endnu en fast kostplan.",
+        "body": "Dit Middelhavsprogram drives af AI-coaching.\n\nDet tilpasser sig baseret på dine fremskridt, energiniveauer og feedback.\n\nDu behøver ikke gætte.\n\nSystemet udvikler sig med dig.",
+        "image": "/quiz/mediterranean-spread.png"
+      }
+    },
+    "bmiMessages": {
+      "healthy": {
+        "title": "Dit BMI er i det sunde interval.",
+        "body": "Det er et fremragende udgangspunkt. Målet nu er at vedligeholde vægten, forbedre kropsformen og støtte din metabolisme. Vi vil bruge dit BMI til at bygge dit personaliserede Middelhavs-coachingsystem og hjælpe dig med at forblive fit og stærk."
+      },
+      "overweight": {
+        "title": "Dit BMI er i overvægtsintervallet.",
+        "body": "Det betyder, at din krop muligvis lagrer overskydende fedt. Med den rigtige kostplan kan du bevæge dig mod en sundere vægt. Vi vil bruge dit BMI til at bygge dit personaliserede Middelhavs-coachingsystem."
+      },
+      "obese": {
+        "title": "Dit BMI er i fedmeintervallet.",
+        "body": "Det betyder, at din krop bærer mere vægt end anbefalet. Selv et lille vægttab kan forbedre dit helbred og din energi. Vi vil bruge dit BMI til at bygge et personaliseret Middelhavs-coachingsystem, der hjælper dig med at tabe dig sundt og gradvist."
+      },
+      "underweight": {
+        "title": "Dit BMI er i undervægtsintervallet.",
+        "body": "Vi hjælper dig med at bygge en sund kostplan, der støtter din metabolisme og dit generelle velvære."
+      }
+    },
+    "weightLoss": {
+      "smallTitle": "Sundhedsmæssig fordel: Tab {percent}% af din vægt",
+      "smallBody": "Studier viser, at selv et vægttab på 10% kan forbedre sundheden. Det kan hjælpe med at reducere risikoen for hjertesygdomme, højt blodsukker og betændelse i kroppen. Små ændringer kan gøre en stor forskel.",
+      "bigTitle": "Større mål: Tab {percent}% af din vægt",
+      "bigBody": "Forskning viser, at folk, der taber mere end 20% af deres kropsvægt, ofte forbedrer deres metaboliske sundhed mere end dem, der kun taber 5–10%. Et større vægttab kan føre til bedre energi, bedre blodsukkerkontrol og bedre overordnet helbred."
+    }
+  }
+}

@@ -1,0 +1,91 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useQuiz } from "@/lib/quiz-context";
+import { Logo } from "@/components/ui/logo";
+import { useIntlayer, useLocale } from "next-intlayer";
+
+export default function EmailPage() {
+  const router = useRouter();
+  const { locale } = useLocale();
+  const t = useIntlayer("results");
+  const { email, setEmail } = useQuiz();
+
+  return (
+    <div className="min-h-[100dvh] bg-white">
+      {/* Header */}
+      <header className="sticky top-0 z-20 bg-white">
+        <div className="mx-auto flex max-w-3xl items-center justify-center px-4 py-3 sm:px-5 sm:py-4">
+          <Logo size="md" />
+        </div>
+        <div className="h-[3px] w-full bg-[#3b82f6]" />
+      </header>
+
+      <main className="mx-auto flex max-w-xl flex-col items-center px-5 pb-12 pt-10 sm:px-6 sm:pb-20 sm:pt-16">
+        <div className="w-full text-center">
+          {/* Title */}
+          <div className="animate-fade-in-up">
+            <h1 className="font-display text-[24px] font-bold leading-tight text-[#1a1a1a] sm:text-[30px] md:text-[36px]">
+              {t.email.titleLine1}
+            </h1>
+            <h1 className="font-display text-[24px] font-bold leading-tight text-[#2f6ebf] sm:text-[30px] md:text-[36px]">
+              {t.email.titleLine2}
+            </h1>
+          </div>
+
+          {/* Subtitle */}
+          <p
+            className="animate-fade-in-up mx-auto mt-4 max-w-[460px] font-body text-sm leading-relaxed text-[#666] sm:mt-5 sm:text-base"
+            style={{ animationDelay: "0.05s", opacity: 0 }}
+          >
+            {t.email.subtitle}
+          </p>
+
+          {/* Email input */}
+          <div
+            className="animate-fade-in-up mx-auto mt-8 max-w-[500px] sm:mt-10"
+            style={{ animationDelay: "0.1s", opacity: 0 }}
+          >
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="w-full rounded-full border border-[#d0d0d0] bg-white px-6 py-3.5 font-body text-base text-[#1a1a1a] outline-none transition-all placeholder:text-[#999] focus:border-[#3b82f6] focus:shadow-[0_0_0_3px_rgba(59,130,246,0.18)] focus:outline-none sm:py-4 sm:text-lg"
+              placeholder={t.email.placeholder}
+            />
+          </div>
+
+          {/* CTA Button */}
+          <div
+            className="animate-fade-in-up mx-auto mt-5 max-w-[500px] sm:mt-6"
+            style={{ animationDelay: "0.15s", opacity: 0 }}
+          >
+            <button
+              className="w-full rounded-[12px] bg-[#3b82f6] px-5 py-3.5 font-body text-base font-semibold text-white transition-all duration-200 hover:bg-[#2563eb] hover:shadow-lg active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-[#3b82f6] disabled:hover:shadow-none disabled:active:scale-100 sm:px-6 sm:py-4 sm:text-lg"
+              disabled={!/\S+@\S+\.\S+/.test(email)}
+              onClick={() => router.push(`/${locale}/summary`)}
+            >
+              {t.email.cta}
+            </button>
+          </div>
+
+          {/* Privacy text */}
+          <div
+            className="animate-fade-in mx-auto mt-6 max-w-[480px] text-center sm:mt-8"
+            style={{ animationDelay: "0.25s", opacity: 0 }}
+          >
+            <p className="font-body text-xs leading-relaxed text-[#888] sm:text-sm">
+              {t.email.privacy1}
+            </p>
+            <p className="mt-1 font-body text-xs leading-relaxed text-[#888] sm:text-sm">
+              {t.email.privacy2}
+            </p>
+            <p className="mt-1 font-body text-xs font-medium leading-relaxed text-[#666] sm:text-sm">
+              {t.email.privacy3}
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}
