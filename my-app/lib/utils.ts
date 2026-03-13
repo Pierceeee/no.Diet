@@ -45,32 +45,82 @@ export function calculateWeightLossPercentage(
   return Math.round(percentage * 10) / 10;
 }
 
-const BMI_SEGMENTS = [
-  { min: 15, max: 18.5, width: 25 },
-  { min: 18.5, max: 25, width: 25 },
-  { min: 25, max: 30, width: 25 },
-  // Extend the obese segment so high BMI values do not all pin to 100%.
-  { min: 30, max: 60, width: 25 },
-];
-
-const BMI_MIN = BMI_SEGMENTS[0].min;
-const BMI_MAX = BMI_SEGMENTS[BMI_SEGMENTS.length - 1].max;
-const BMI_POSITION_PADDING = 4;
-
 export function calculateBMIPosition(bmi: number): number {
-  const clampedBmi = Math.min(Math.max(bmi, BMI_MIN), BMI_MAX);
-  let position = 0;
+  // Standard BMI ranges:
+  // Underweight: < 18.5 (0-25%)
+  // Healthy: 18.5-24.9 (25-50%)
+  // Overweight: 25-29.9 (50-75%)
+  // Obese: 30+ (75-100%)
+  
+  if (bmi < 18.5) {
+    // Underweight: map BMI 10-18.5 to 0-25%
+    const progress = (bmi - 10) / (18.5 - 10);
+    return clamp(progress * 25, 2, 25);
+  } else if (bmi < 25) {
+    // Healthy: map BMI 18.5-25 to 25-50%
+    const progress = (bmi - 18.5) / (25 - 18.5);
+    return 25 + progress * 25;
+  } else if (bmi < 30) {
+    // Overweight: map BMI 25-30 to 50-75%
+    const progress = (bmi - 25) / (30 - 25);
+    return 50 + progress * 25;
+  } else {
+    // Obese: map BMI 30-60 to 75-100% so higher values
+    // still spread across the final segment instead of pinning early.
+    const progress = (bmi - 30) / (60 - 30);
+    return clamp(75 + progress * 25, 75, 98);
+  }
+}
 
-  for (const seg of BMI_SEGMENTS) {
-    if (clampedBmi <= seg.min) break;
-    if (clampedBmi >= seg.max) {
-      position += seg.width;
-    } else {
-      const segmentProgress = (clampedBmi - seg.min) / (seg.max - seg.min);
-      position += segmentProgress * seg.width;
-      break;
+const BMI_GRADIENT_STOPS = [
+  { position: 0, color: "#4a9fd5" },
+  { position: 14, color: "#3f96d0" },
+  { position: 24, color: "#2f8fc9" },
+  { position: 34, color: "#43a95b" },
+  { position: 48, color: "#67bd4b" },
+  { position: 60, color: "#c9c34a" },
+  { position: 72, color: "#e8a838" },
+  { position: 86, color: "#e77342" },
+  { position: 88, color: "#dd4747" },
+  { position: 100, color: "#d94040" },
+] as const;
+
+function hexToRgb(hex: string) {
+  const normalized = hex.replace("#", "");
+  const value = parseInt(normalized, 16);
+  return {
+    r: (value >> 16) & 255,
+    g: (value >> 8) & 255,
+    b: value & 255,
+  };
+}
+
+function rgbToHex(r: number, g: number, b: number) {
+  return `#${[r, g, b]
+    .map((channel) => Math.round(channel).toString(16).padStart(2, "0"))
+    .join("")}`;
+}
+
+export function getBMIGradientColor(position: number): string {
+  const clampedPosition = clamp(position, 0, 100);
+
+  for (let i = 1; i < BMI_GRADIENT_STOPS.length; i++) {
+    const prev = BMI_GRADIENT_STOPS[i - 1];
+    const next = BMI_GRADIENT_STOPS[i];
+
+    if (clampedPosition <= next.position) {
+      const progress =
+        (clampedPosition - prev.position) / (next.position - prev.position);
+      const start = hexToRgb(prev.color);
+      const end = hexToRgb(next.color);
+
+      return rgbToHex(
+        start.r + (end.r - start.r) * progress,
+        start.g + (end.g - start.g) * progress,
+        start.b + (end.b - start.b) * progress,
+      );
     }
   }
-  // Keep marker and tooltip visually inside the graph container.
-  return clamp(position, BMI_POSITION_PADDING, 100 - BMI_POSITION_PADDING);
+
+  return BMI_GRADIENT_STOPS[BMI_GRADIENT_STOPS.length - 1].color;
 }

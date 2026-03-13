@@ -5,7 +5,10 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useQuiz } from "@/lib/quiz-context";
-import { fmt } from "@/lib/utils";
+import {
+  fmt,
+  getBMIGradientColor,
+} from "@/lib/utils";
 import type { Unit, WeightUnit } from "@/lib/quiz-data";
 import {
   FAMILIARITY_OPTIONS,
@@ -134,6 +137,7 @@ export default function QuizPage() {
         return { accent: "#4a9fd5", bg: "#eff6ff" };
     }
   })();
+  const bmiMarkerColor = getBMIGradientColor(analysis.bmiPosition);
 
   if (!hydrated || step === 0) return null;
 
@@ -568,22 +572,22 @@ export default function QuizPage() {
           <QuizTitle>Here&apos;s What We Found</QuizTitle>
 
           {/* BMI Card */}
-          <div className="animate-scale-in mt-6 overflow-hidden rounded-[14px] bg-[#f5f5f5] p-4 sm:mt-8 sm:rounded-[16px] sm:p-6">
+          <div className="animate-scale-in mt-6 overflow-visible rounded-[14px] bg-[#f5f5f5] p-4 sm:mt-8 sm:rounded-[16px] sm:p-6">
             <h3 className="font-display text-lg font-bold text-[var(--text-primary)] sm:text-xl">
               Your Body Mass Index (BMI)
             </h3>
             <div className="relative mt-8 mb-2 sm:mt-10">
               <div
-                className="absolute -top-6 flex -translate-x-1/2 items-center whitespace-nowrap rounded-md px-1.5 py-0.5 text-[9px] font-bold text-white sm:-top-7 sm:px-3 sm:py-1 sm:text-xs"
+                className="absolute bottom-full left-0 mb-1 flex -translate-x-1/2 items-center whitespace-nowrap rounded-md px-1.5 py-0.5 text-[9px] font-bold text-white sm:mb-1.5 sm:px-3 sm:py-1 sm:text-xs"
                 style={{
-                  left: `clamp(12%, ${analysis.bmiPosition}%, 88%)`,
-                  backgroundColor: bmiTone.accent,
+                  left: `${analysis.bmiPosition}%`,
+                  backgroundColor: bmiMarkerColor,
                 }}
               >
                 You {fmt(analysis.bmi)}
                 <span
                   className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45"
-                  style={{ backgroundColor: bmiTone.accent }}
+                  style={{ backgroundColor: bmiMarkerColor }}
                 />
               </div>
               <div className="bmi-gradient h-2.5 w-full rounded-full sm:h-3" />

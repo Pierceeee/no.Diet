@@ -282,12 +282,14 @@ input[type="number"] {
   background: linear-gradient(
     to right,
     #4a9fd5 0%,
-    #4a9fd5 25%,
-    #3aab4f 25%,
-    #3aab4f 50%,
-    #e8a838 50%,
-    #e8a838 75%,
-    #d94040 75%,
+    #3f96d0 14%,
+    #2f8fc9 24%,
+    #43a95b 34%,
+    #67bd4b 48%,
+    #c9c34a 60%,
+    #e8a838 72%,
+    #e77342 86%,
+    #dd4747 88%,
     #d94040 100%
   );
 }

@@ -1,9 +1,12 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useQuiz } from "@/lib/quiz-context";
-import { fmt } from "@/lib/utils";
+import {
+  fmt,
+  getBMIGradientColor,
+} from "@/lib/utils";
 import { Logo } from "@/components/ui/logo";
 
 type SummaryStep = "bmi" | "bmiStory" | "coach" | "features";
@@ -27,6 +30,7 @@ export default function SummaryPage() {
         return { accent: "#4a9fd5" };
     }
   })();
+  const bmiMarkerColor = getBMIGradientColor(analysis.bmiPosition);
 
   // Push browser history on step change
   useEffect(() => {
@@ -75,22 +79,22 @@ export default function SummaryPage() {
         {/* ═══════════ STEP 1: BMI Card ═══════════ */}
         {summaryStep === "bmi" && (
           <div className="mt-8 w-full max-w-[600px] sm:mt-10">
-            <div className="animate-scale-in overflow-hidden rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-5 shadow-sm sm:rounded-3xl sm:p-7">
+            <div className="animate-scale-in overflow-visible rounded-2xl border border-[#e5e5e5] bg-[#f8f8f8] p-5 shadow-sm sm:rounded-3xl sm:p-7">
               <h3 className="font-display text-lg font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-xl">
                 Current BMI
               </h3>
               <div className="relative mt-10 mb-2 sm:mt-12">
                 <div
-                  className="absolute -top-6 flex -translate-x-1/2 items-center whitespace-nowrap rounded-md px-1.5 py-0.5 text-[10px] font-bold text-white sm:-top-7 sm:px-3 sm:py-1 sm:text-xs"
+                  className="absolute bottom-full left-0 mb-1 flex -translate-x-1/2 items-center whitespace-nowrap rounded-md px-1.5 py-0.5 text-[10px] font-bold text-white sm:mb-1.5 sm:px-3 sm:py-1 sm:text-xs"
                   style={{
-                    left: `clamp(12%, ${analysis.bmiPosition}%, 88%)`,
-                    backgroundColor: bmiTone.accent,
+                    left: `${analysis.bmiPosition}%`,
+                    backgroundColor: bmiMarkerColor,
                   }}
                 >
                   You {fmt(analysis.bmi)}
                   <span
                     className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45"
-                    style={{ backgroundColor: bmiTone.accent }}
+                    style={{ backgroundColor: bmiMarkerColor }}
                   />
                 </div>
                 <div className="bmi-gradient h-2.5 w-full rounded-full sm:h-3" />
