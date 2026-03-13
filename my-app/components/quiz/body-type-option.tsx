@@ -4,10 +4,12 @@ export function OptionCard({
   children,
   onClick,
   selected = false,
+  className = "",
 }: {
   children: React.ReactNode;
   onClick: () => void;
   selected?: boolean;
+  className?: string;
 }) {
   const prefersReducedMotion = useReducedMotion();
   const smoothEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -18,7 +20,7 @@ export function OptionCard({
         selected
           ? "border-[#2f6ebf] bg-[#eef4fb] shadow-sm"
           : "border-transparent bg-[#f5f5f5] hover:bg-[#eeeeee]"
-      }`}
+      } ${className}`}
       whileHover={
         prefersReducedMotion
           ? undefined

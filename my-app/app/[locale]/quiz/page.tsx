@@ -243,44 +243,29 @@ export default function QuizPage() {
               const bodyImages = answers.gender === "male" ? maleBodyImages : femaleBodyImages;
               
               return (
-                <motion.button
+                <OptionCard
                   key={index}
                   onClick={() => {
                     setAnswer("q3", item);
                     setStep(5);
                   }}
-                  className="relative flex w-full items-center justify-between overflow-hidden rounded-2xl border border-gray-200 bg-[#f8f8f8] py-4 pl-5 pr-2 transition-all duration-300 ease-out hover:border-[var(--accent)]/50 hover:shadow-md sm:py-5 sm:pl-6"
-                  whileHover={
-                    prefersReducedMotion
-                      ? undefined
-                      : {
-                          scale: 1.005,
-                          transition: {
-                            duration: 0.25,
-                            ease: smoothEase,
-                          },
-                        }
-                  }
-                  whileTap={prefersReducedMotion ? undefined : { scale: 0.992 }}
-                  transition={
-                    prefersReducedMotion
-                      ? { duration: 0 }
-                      : { duration: 0.35, ease: smoothEase }
-                  }
+                  className="relative overflow-hidden px-4 py-2 sm:px-5 sm:py-2.5"
                 >
-                  <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
-                    {item}
-                  </span>
-                  <div className="relative h-20 w-24 flex-shrink-0 sm:h-24 sm:w-28">
-                    <Image
-                      src={bodyImages[index] || bodyImages[1]}
-                      alt={item}
-                      fill
-                      className="object-contain object-center"
-                      sizes="112px"
-                    />
+                  <div className="relative flex min-h-[40px] items-center pr-24 sm:min-h-[44px] sm:pr-28">
+                    <span className="min-w-0 leading-tight break-words font-body text-sm font-semibold text-[var(--text-primary)] sm:text-[15px]">
+                      {item}
+                    </span>
+                    <div className="pointer-events-none absolute top-1/2 right-0 h-24 w-24 -translate-y-1/2 sm:h-28 sm:w-28">
+                      <Image
+                        src={bodyImages[index] || bodyImages[1]}
+                        alt=""
+                        fill
+                        className="object-contain object-right"
+                        sizes="112px"
+                      />
+                    </div>
                   </div>
-                </motion.button>
+                </OptionCard>
               );
             })}
           </div>
@@ -293,18 +278,18 @@ export default function QuizPage() {
           <QuizTitle>{t.steps.s5}</QuizTitle>
           <div className="stagger-children mt-4 space-y-3">
             {q4Bodies.map((item, idx) => {
-              const maleTargetImages: Record<string, string> = {
-                "A little slimmer": "/docs/transparent/15.svg",
-                "Lean and fit": "/docs/transparent/16.svg",
-                "Athletic": "/docs/transparent/17.svg",
-                "Strong and defined": "/docs/transparent/18.svg",
-              };
-              const femaleTargetImages: Record<string, string> = {
-                "Feel like myself again": "/docs/transparent/7.svg",
-                "Lose stubborn belly fat": "/docs/transparent/8.svg",
-                "Feel lighter and more confident": "/docs/transparent/9.svg",
-                "Look toned and youthful": "/docs/transparent/10.svg",
-              };
+              const maleTargetImages = [
+                "/docs/transparent/15.svg",
+                "/docs/transparent/16.svg",
+                "/docs/transparent/17.svg",
+                "/docs/transparent/18.svg",
+              ];
+              const femaleTargetImages = [
+                "/docs/transparent/7.svg",
+                "/docs/transparent/8.svg",
+                "/docs/transparent/9.svg",
+                "/docs/transparent/10.svg",
+              ];
               const targetImages = answers.gender === "male" ? maleTargetImages : femaleTargetImages;
               
               return (
@@ -314,17 +299,18 @@ export default function QuizPage() {
                     setAnswer("q4", item);
                     setStep(6);
                   }}
+                  className="relative overflow-hidden px-4 py-2 sm:px-5 sm:py-2.5"
                 >
-                  <div className="-my-0.5 flex items-center justify-between sm:-my-1">
-                    <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">
+                  <div className="relative flex min-h-[40px] items-center pr-24 sm:min-h-[44px] sm:pr-28">
+                    <span className="min-w-0 leading-tight break-words font-body text-sm font-semibold text-[var(--text-primary)] sm:text-[15px]">
                       {item}
                     </span>
-                    <div className="relative h-20 w-24 flex-shrink-0 sm:h-24 sm:w-28">
+                    <div className="pointer-events-none absolute top-1/2 right-0 h-24 w-24 -translate-y-1/2 sm:h-28 sm:w-28">
                       <Image
-                        src={targetImages[item] || targetImages[Object.keys(targetImages)[0]]}
-                        alt={item}
+                        src={targetImages[idx] || targetImages[0]}
+                        alt=""
                         fill
-                        className="object-contain object-center"
+                        className="object-contain object-right"
                         sizes="112px"
                       />
                     </div>
