@@ -585,7 +585,7 @@ export default function QuizPage() {
                   backgroundColor: bmiMarkerColor,
                 }}
               >
-                You {fmt(analysis.bmi)}
+                You - {fmt(analysis.bmi)}
                 <span
                   className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45"
                   style={{ backgroundColor: bmiMarkerColor }}
