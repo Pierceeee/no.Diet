@@ -58,6 +58,7 @@ import { InfoInterstitial } from "@/components/quiz/info-interstitial";
 
 export default function QuizPage() {
   const prefersReducedMotion = useReducedMotion();
+  const smoothEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
   const router = useRouter();
   const {
     answers,
@@ -153,7 +154,7 @@ export default function QuizPage() {
         transition={
           prefersReducedMotion
             ? { duration: 0 }
-            : { duration: 0.8, ease: [0.22, 1, 0.36, 1] }
+            : { duration: 0.8, ease: smoothEase }
         }
       >
       {/* ── Step 1: Q1 - Mediterranean familiarity ── */}
@@ -246,7 +247,7 @@ export default function QuizPage() {
                           scale: 1.005,
                           transition: {
                             duration: 0.25,
-                            ease: [0.22, 1, 0.36, 1],
+                            ease: smoothEase,
                           },
                         }
                   }
@@ -254,7 +255,7 @@ export default function QuizPage() {
                   transition={
                     prefersReducedMotion
                       ? { duration: 0 }
-                      : { duration: 0.35, ease: [0.22, 1, 0.36, 1] }
+                      : { duration: 0.35, ease: smoothEase }
                   }
                 >
                   <span className="font-body text-base font-semibold text-[var(--text-primary)] sm:text-lg">

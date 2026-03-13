@@ -10,6 +10,7 @@ export function OptionCard({
   selected?: boolean;
 }) {
   const prefersReducedMotion = useReducedMotion();
+  const smoothEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
   return (
     <motion.button
@@ -25,7 +26,7 @@ export function OptionCard({
               scale: 1.005,
               transition: {
                 duration: 0.25,
-                ease: [0.22, 1, 0.36, 1],
+                ease: smoothEase,
               },
             }
       }
@@ -33,7 +34,7 @@ export function OptionCard({
       transition={
         prefersReducedMotion
           ? { duration: 0 }
-          : { duration: 0.35, ease: [0.22, 1, 0.36, 1] }
+          : { duration: 0.35, ease: smoothEase }
       }
       onClick={onClick}
     >
