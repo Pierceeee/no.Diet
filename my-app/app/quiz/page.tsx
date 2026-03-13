@@ -121,21 +121,19 @@ export default function QuizPage() {
     }
   };
 
-  const bmiTone =
-    analysis.bmiLabel === "Healthy"
-      ? {
-          accent: "#3aab4f",
-          bg: "#edf7ee",
-        }
-      : analysis.bmiLabel === "Overweight"
-      ? {
-          accent: "#e8a838",
-          bg: "#fff7e8",
-        }
-      : {
-          accent: "#d94040",
-          bg: "#fdecec",
-        };
+  const bmiTone = (() => {
+    switch (analysis.bmiLabel) {
+      case "Healthy":
+        return { accent: "#3aab4f", bg: "#edf7ee" };
+      case "Overweight":
+        return { accent: "#e8a838", bg: "#fff7e8" };
+      case "Obese":
+        return { accent: "#d94040", bg: "#fef2f2" };
+      case "Underweight":
+      default:
+        return { accent: "#4a9fd5", bg: "#eff6ff" };
+    }
+  })();
 
   if (!hydrated || step === 0) return null;
 
@@ -574,38 +572,40 @@ export default function QuizPage() {
             <h3 className="font-display text-lg font-bold text-[var(--text-primary)] sm:text-xl">
               Your Body Mass Index (BMI)
             </h3>
-            <div className="relative mt-5 mb-2 sm:mt-6">
+            <div className="relative mt-8 mb-2 sm:mt-10">
               <div
-                className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md px-1 py-0.5 text-[9px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
+                className="absolute -top-6 flex -translate-x-1/2 items-center whitespace-nowrap rounded-md px-1.5 py-0.5 text-[9px] font-bold text-white sm:-top-7 sm:px-3 sm:py-1 sm:text-xs"
                 style={{
-                  left: `clamp(15%, ${analysis.bmiPosition}%, 85%)`,
+                  left: `clamp(12%, ${analysis.bmiPosition}%, 88%)`,
                   backgroundColor: bmiTone.accent,
                 }}
               >
-                <span className="whitespace-nowrap">You {fmt(analysis.bmi)}</span>
+                You {fmt(analysis.bmi)}
                 <span
                   className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45"
                   style={{ backgroundColor: bmiTone.accent }}
                 />
               </div>
-              <div className="bmi-gradient h-3 w-full rounded-full" />
+              <div className="bmi-gradient h-2.5 w-full rounded-full sm:h-3" />
               <div
-                className="absolute top-0 h-3 w-1 rounded-full bg-white shadow-md"
+                className="absolute top-0 h-2.5 w-1 rounded-full bg-white shadow-md sm:h-3"
                 style={{
                   left: `${analysis.bmiPosition}%`,
                   transform: "translateX(-50%)",
                 }}
               />
             </div>
-            <div className="relative mt-3 h-8 font-body text-[10px] text-[var(--text-muted)] sm:h-5 sm:text-xs">
-              <span className="absolute left-[9%] -translate-x-1/2 whitespace-nowrap sm:hidden">Under</span>
-              <span className="absolute left-[34%] -translate-x-1/2 whitespace-nowrap sm:hidden">Healthy</span>
-              <span className="absolute left-[62.5%] -translate-x-1/2 whitespace-nowrap sm:hidden">Over</span>
-              <span className="absolute left-[87.5%] -translate-x-1/2 whitespace-nowrap sm:hidden">Obese</span>
-              <span className="absolute left-[9%] -translate-x-1/2 whitespace-nowrap max-sm:hidden">Underweight</span>
-              <span className="absolute left-[34%] -translate-x-1/2 whitespace-nowrap max-sm:hidden">Healthy</span>
-              <span className="absolute left-[62.5%] -translate-x-1/2 whitespace-nowrap max-sm:hidden">Overweight</span>
-              <span className="absolute left-[87.5%] -translate-x-1/2 whitespace-nowrap max-sm:hidden">Obese</span>
+            <div className="relative mt-2.5 flex justify-between px-1 font-body text-[9px] text-[var(--text-muted)] sm:mt-3 sm:text-xs">
+              <span className="text-center">
+                <span className="sm:hidden">Under</span>
+                <span className="hidden sm:inline">Underweight</span>
+              </span>
+              <span className="text-center">Healthy</span>
+              <span className="text-center">
+                <span className="sm:hidden">Over</span>
+                <span className="hidden sm:inline">Overweight</span>
+              </span>
+              <span className="text-center">Obese</span>
             </div>
           </div>
 

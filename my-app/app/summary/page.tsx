@@ -14,12 +14,19 @@ export default function SummaryPage() {
   const router = useRouter();
   const { analysis } = useQuiz();
   const [summaryStep, setSummaryStep] = useState<SummaryStep>("bmi");
-  const bmiTone =
-    analysis.bmiLabel === "Healthy"
-      ? { accent: "#3aab4f" }
-      : analysis.bmiLabel === "Overweight"
-      ? { accent: "#e8a838" }
-      : { accent: "#d94040" };
+  const bmiTone = (() => {
+    switch (analysis.bmiLabel) {
+      case "Healthy":
+        return { accent: "#3aab4f" };
+      case "Overweight":
+        return { accent: "#e8a838" };
+      case "Obese":
+        return { accent: "#d94040" };
+      case "Underweight":
+      default:
+        return { accent: "#4a9fd5" };
+    }
+  })();
 
   // Push browser history on step change
   useEffect(() => {
@@ -72,11 +79,11 @@ export default function SummaryPage() {
               <h3 className="font-display text-lg font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-xl">
                 Current BMI
               </h3>
-              <div className="relative mt-6 mb-2 sm:mt-7">
+              <div className="relative mt-10 mb-2 sm:mt-12">
                 <div
-                  className="absolute -top-7 flex -translate-x-1/2 items-center rounded-md px-1.5 py-0.5 text-[10px] font-bold text-white sm:-top-8 sm:px-3 sm:py-1 sm:text-xs"
+                  className="absolute -top-6 flex -translate-x-1/2 items-center whitespace-nowrap rounded-md px-1.5 py-0.5 text-[10px] font-bold text-white sm:-top-7 sm:px-3 sm:py-1 sm:text-xs"
                   style={{
-                    left: `clamp(15%, ${analysis.bmiPosition}%, 85%)`,
+                    left: `clamp(12%, ${analysis.bmiPosition}%, 88%)`,
                     backgroundColor: bmiTone.accent,
                   }}
                 >
@@ -86,38 +93,28 @@ export default function SummaryPage() {
                     style={{ backgroundColor: bmiTone.accent }}
                   />
                 </div>
-                <div className="bmi-gradient h-3 w-full rounded-full" />
+                <div className="bmi-gradient h-2.5 w-full rounded-full sm:h-3" />
                 <div
-                  className="absolute top-0 h-3 w-1 rounded-full bg-white shadow-md"
+                  className="absolute top-0 h-2.5 w-1 rounded-full bg-white shadow-md sm:h-3"
                   style={{
                     left: `${analysis.bmiPosition}%`,
                     transform: "translateX(-50%)",
                   }}
                 />
               </div>
-              <div className="relative mt-3 h-8 font-body text-xs text-[#999] sm:h-5 sm:text-sm">
-                <span className={`absolute left-[9%] -translate-x-1/2 sm:hidden ${analysis.bmiLabel === "Underweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  Under
+              <div className="relative mt-2.5 flex justify-between px-1 font-body text-[10px] text-[#999] sm:mt-3 sm:text-xs">
+                <span className={`text-center ${analysis.bmiLabel === "Underweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                  <span className="sm:hidden">Under</span>
+                  <span className="hidden sm:inline">Underweight</span>
                 </span>
-                <span className={`absolute left-[34%] -translate-x-1/2 sm:hidden ${analysis.bmiLabel === "Healthy" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                <span className={`text-center ${analysis.bmiLabel === "Healthy" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Healthy
                 </span>
-                <span className={`absolute left-[62.5%] -translate-x-1/2 sm:hidden ${analysis.bmiLabel === "Overweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  Over
+                <span className={`text-center ${analysis.bmiLabel === "Overweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                  <span className="sm:hidden">Over</span>
+                  <span className="hidden sm:inline">Overweight</span>
                 </span>
-                <span className={`absolute left-[87.5%] -translate-x-1/2 sm:hidden ${analysis.bmiLabel === "Obese" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  Obese
-                </span>
-                <span className={`absolute left-[9%] -translate-x-1/2 max-sm:hidden ${analysis.bmiLabel === "Underweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  Underweight
-                </span>
-                <span className={`absolute left-[34%] -translate-x-1/2 max-sm:hidden ${analysis.bmiLabel === "Healthy" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  Healthy
-                </span>
-                <span className={`absolute left-[62.5%] -translate-x-1/2 max-sm:hidden ${analysis.bmiLabel === "Overweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  Overweight
-                </span>
-                <span className={`absolute left-[87.5%] -translate-x-1/2 max-sm:hidden ${analysis.bmiLabel === "Obese" ? "font-bold text-[#1a1a1a]" : ""}`}>
+                <span className={`text-center ${analysis.bmiLabel === "Obese" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   Obese
                 </span>
               </div>
