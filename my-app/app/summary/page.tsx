@@ -145,13 +145,13 @@ export default function SummaryPage() {
         {summaryStep === "bmiStory" && (
           <div className="mt-8 w-full max-w-[600px] sm:mt-10">
             <div className="animate-fade-in-up rounded-2xl bg-[#f8f8f8] p-5 sm:rounded-3xl sm:p-6">
-              <p className="font-body text-[15px] font-bold leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base">
+              <p className="font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#1a1a1a] sm:text-base">
                 But BMI alone doesn&apos;t tell the full story.
               </p>
-              <p className="mt-3 font-body text-[15px] font-bold leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base">
+              <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#1a1a1a] sm:text-base">
                 Two people can have the same BMI and completely different metabolic responses.
               </p>
-              <p className="mt-3 font-body text-[15px] font-bold leading-[1.65] tracking-[-0.01em] text-[#4a4a4a] sm:text-base">
+              <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#1a1a1a] sm:text-base">
                 That&apos;s why your plan is not based on generic calorie formulas.
               </p>
               <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#2f6ebf] sm:text-base">
@@ -176,7 +176,7 @@ export default function SummaryPage() {
               <h2 className="font-display text-xl font-semibold tracking-[-0.02em] text-[#1a1a1a] sm:text-2xl">
                 Meet Your Bio-Adaptive Weight Coaching System
               </h2>
-              <p className="mt-2 font-body text-[15px] font-bold tracking-[-0.01em] text-[#666] sm:text-base">
+              <p className="mt-2 font-body text-[15px] font-semibold tracking-[-0.01em] text-[#666] sm:text-base">
                 Built on AI and 70 years of Blue Zone longevity &amp; weight-loss science.
               </p>
             </div>
@@ -190,7 +190,7 @@ export default function SummaryPage() {
                     AI Metabolic Intake Engine
                   </h3>
                 </div>
-                <p className="mt-3 font-body text-[15px] font-bold leading-[1.65] tracking-[-0.01em] text-[#4a4a4a]">
+                <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#1a1a1a]">
                   Your inputs (body type, activity level, energy patterns, food preferences) are analyzed to determine optimal food proportions for your metabolic stage.
                 </p>
               </div>
@@ -203,10 +203,10 @@ export default function SummaryPage() {
                     Adaptive Mediterranean Blueprint
                   </h3>
                 </div>
-                <p className="mt-3 font-body text-[15px] font-bold leading-[1.65] tracking-[-0.01em] text-[#4a4a4a]">
+                <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#1a1a1a]">
                   Built on eating patterns observed in the world&apos;s longest-living Mediterranean regions.
                 </p>
-                <p className="mt-2 font-body text-[15px] font-bold leading-[1.65] tracking-[-0.01em] text-[#4a4a4a]">
+                <p className="mt-2 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#1a1a1a]">
                   Your plan adjusts as your body adapts, helping reduce plateaus and metabolic slowdown.
                 </p>
               </div>
@@ -219,7 +219,7 @@ export default function SummaryPage() {
                     Your Live AI Coach
                   </h3>
                 </div>
-                <p className="mt-3 font-body text-[15px] font-bold leading-[1.65] tracking-[-0.01em] text-[#4a4a4a]">
+                <p className="mt-3 font-body text-[15px] font-semibold leading-[1.65] tracking-[-0.01em] text-[#1a1a1a]">
                   Most programs give you a plan and leave you to figure it out.
                 </p>
                 <p className="mt-2 font-body text-[15px] font-semibold tracking-[-0.01em] text-[#1a1a1a]">
