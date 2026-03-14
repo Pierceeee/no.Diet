@@ -7,6 +7,16 @@ import { useState } from "react";
 import { useIntlayer } from "next-intlayer";
 
 type PlanType = "week" | "month" | "quarter";
+type OfferPageContentProps = {
+  useOrderPagePricing?: boolean;
+};
+type PlanDetails = {
+  name: string;
+  originalPrice: number;
+  discountPrice: number;
+  perDay: number;
+  popular?: boolean;
+};
 
 const ORIGINAL_PRICES = {
   week: 12.98,
@@ -16,7 +26,9 @@ const ORIGINAL_PRICES = {
 
 const DISCOUNT_PERCENT = 50;
 
-export default function OfferPageContent() {
+export default function OfferPageContent({
+  useOrderPagePricing = false,
+}: OfferPageContentProps) {
   const t = useIntlayer("offer");
   const { analysis, answers } = useQuiz();
   const [selectedPlan, setSelectedPlan] = useState<PlanType>("month");
@@ -25,7 +37,7 @@ export default function OfferPageContent() {
 
   const discountMultiplier = (100 - DISCOUNT_PERCENT) / 100;
 
-  const plans = {
+  const defaultPlans: Record<PlanType, PlanDetails> = {
     week: {
       name: "7-Day Plan",
       originalPrice: ORIGINAL_PRICES.week,
@@ -46,6 +58,29 @@ export default function OfferPageContent() {
       perDay: +((ORIGINAL_PRICES.quarter * discountMultiplier) / 90).toFixed(2),
     },
   };
+  const orderPagePlans: Record<PlanType, PlanDetails> = {
+    week: {
+      name: "7-Day Plan",
+      originalPrice: 12.98,
+      discountPrice: 6.49,
+      perDay: 0.92,
+    },
+    month: {
+      name: "1-Month Plan",
+      originalPrice: 37.98,
+      discountPrice: 18.99,
+      perDay: 0.63,
+      popular: true,
+    },
+    quarter: {
+      name: "3-Month Plan",
+      originalPrice: 75.98,
+      discountPrice: 37.99,
+      perDay: 0.42,
+    },
+  };
+
+  const plans = useOrderPagePricing ? orderPagePlans : defaultPlans;
 
   const selectedPlanData = plans[selectedPlan];
 

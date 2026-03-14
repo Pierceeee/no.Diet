@@ -96,99 +96,6 @@
           }
         ]
       },
-      "cz": {
-        "timerLabel": "50% sleva rezervována pro vás:",
-        "getMyPlan": "ZÍSKAT MŮJ PLÁN",
-        "now": "Nyní",
-        "goal": "Cíl",
-        "bodyFat": "Tělesný tuk:",
-        "bmi": "BMI:",
-        "fitnessLevel": "Úroveň kondice:",
-        "planReadyTitle": "Váš personalizovaný středomořský coachingový plán je připraven",
-        "yourGoal": "Váš cíl",
-        "targetWeight": "Cílová váha",
-        "planIsReady": "Váš plán je připraven",
-        "safeCheckout": "GARANTOVANÝ BEZPEČNÝ CHECKOUT",
-        "highlights": "Hlavní body vašeho plánu",
-        "visibleResults": "Získejte viditelné výsledky za 4 týdny!",
-        "faqTitle": "Máte otázky?",
-        "riskFreeTitle": "Garance bez rizika",
-        "riskFreeBody": "Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Žádné extra poplatky.",
-        "resultsMayVary": "Výsledky se mohou lišit.",
-        "copyright": "© 2026 Mediet.app. Všechna práva vyhrazena.",
-        "agreeTextStart": "Souhlasím s",
-        "agreeTerms": "Obchodními podmínkami",
-        "agreeMiddle": "a",
-        "agreePrivacy": "Zásadami ochrany osobních údajů",
-        "agreeEnd": ".",
-        "ctaLegal": "Kliknutím na „ZÍSKAT MŮJ PLÁN” souhlasíte s platbou ${price} za váš {plan}. Pokud nezrušíte před koncem prvního období, vaše předplatné se obnoví na ${renewPrice} až do zrušení. Předplatné můžete kdykoli zrušit kontaktováním podpory na hello@mediet.app.",
-        "defaultGoal": "Zhubnout",
-        "plans": {
-          "week": "7denní plán",
-          "month": "Měsíční plán",
-          "quarter": "3měsíční plán"
-        },
-        "features": [
-          {
-            "title": "Neomezené adaptivní středomořské kombinace jídel",
-            "description": "Přesně přizpůsobené vašim preferencím a vyloučením. Příjemné. Strukturované. Udržitelné."
-          },
-          {
-            "title": "Neomezené personalizované metabolické pohybové protokoly",
-            "description": "Síla, pohyblivost, jóga, regenerace. Navrženy ke stimulaci spalování tuků bez vyhoření."
-          },
-          {
-            "title": "Výzvy pro návyky a konzistenci",
-            "description": "Malé strategické budovatele hybnosti. Protože rytmus poráží motivaci."
-          },
-          {
-            "title": "Průvodci středomořskou dlouhověkostí a metabolismem",
-            "description": "Pochopte: proč zánět narušuje spalování tuků, proč moderní zpracované potraviny vykolejují metabolismus, proč populace dlouhověkosti jedí jinak. Jasnost odstraňuje zmatek."
-          },
-          {
-            "title": "Vizualizace pokroku a adaptivní sledování",
-            "description": "Sledujte: trendy váhy, změny složení těla, úrovně energie, konzistenci návyků. Aby systém mohl zůstat v souladu s vámi."
-          }
-        ],
-        "faq": [
-          {
-            "question": "Co jsou „Modré zóny” a proč jsou důležité?",
-            "answer": "Modré zóny jsou regiony světa, kde lidé žijí nejdéle a nejzdravěji. V těchto regionech lidé jedí převážně celé potraviny, zdravé tuky, zeleninu, luštěniny a vyvážené porce. Váš plán využívá tyto osvědčené stravovací vzory – ale přizpůsobuje je vašemu tělu, vašim cílům a vašemu životnímu stylu. Není to jen dieta. Je to systém založený na dlouhověkosti."
-          },
-          {
-            "question": "Čím se to liší od normálního středomořského dietního plánu?",
-            "answer": "Většina středomořských plánů je pevná. Vaše tělo není. Váš personalizovaný středomořský kouč využívá výsledky vašeho dotazníku k vytvoření plánu na základě: vašeho metabolismu, vaší úrovně aktivity, vašich stravovacích preferencí a vašich cílů. Jak se vaše tělo mění, váš plán se může přizpůsobit. To je ten rozdíl."
-          },
-          {
-            "question": "Co AI kouč vlastně dělá?",
-            "answer": "AI kouč pomáhá personalizovat vaši výživu a vést váš pokrok. Využívá vaše data a aktualizace pokroku k: úpravě kombinací jídel, navrhování pohybových rutin, udržení vás konzistentními a pomoci předcházet plató. Místo začínání znovu se váš plán vyvíjí."
-          },
-          {
-            "question": "Musím počítat kalorie nebo sledovat makra?",
-            "answer": "Ne. Váš plán je strukturován pomocí vyvážených středomořských proporcí. Soustředíte se na jídlo skutečných potravin ve správných kombinacích – ne na denní čísla."
-          },
-          {
-            "question": "Vyzkoušel jsem mnoho diet. Proč by to fungovalo pro mě?",
-            "answer": "Mnoho diet selhává, protože jsou: příliš přísné, příliš obecné, založené na starých kalorických pravidlech nebo nepřizpůsobené vaší životní fázi. Tento systém se zaměřuje na metabolickou rovnováhu, ne na trest. Je navržen tak, aby byl udržitelný."
-          },
-          {
-            "question": "Je to bezpečné pro lidi nad 40 let?",
-            "answer": "Ano. Systém je zvláště užitečný pro lidi nad 30 a 40 let, kdy se metabolismus přirozeně mění. Plán se zaměřuje na vyvážená jídla, celé potraviny a stabilní pokrok – ne na extrémní omezení."
-          },
-          {
-            "question": "Budu neustále cítit hlad?",
-            "answer": "Ne. Středomořská struktura se zaměřuje na: zeleninu bohatou na vlákninu, zdravé tuky a vyvážené bílkoviny. Tyto potraviny vám pomáhají cítit se plní a spokojení."
-          },
-          {
-            "question": "Jak dlouho, než uvidím výsledky?",
-            "answer": "Mnoho uživatelů si všimne zlepšení v: energii, nadýmání a chutích během prvních několika týdnů. Viditelné změny těla obvykle vyžadují konzistenci. Váš plán je postaven pro stabilní pokrok – ne pro rychlá řešení."
-          },
-          {
-            "question": "Mohu kdykoli zrušit?",
-            "answer": "Ano. Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Nejsou žádné extra poplatky za zrušení."
-          }
-        ]
-      },
       "da": {
         "timerLabel": "50% rabat reserveret til dig:",
         "getMyPlan": "FÅ MIN PLAN",
@@ -282,6 +189,99 @@
           }
         ]
       },
+      "cz": {
+        "timerLabel": "50% sleva rezervována pro vás:",
+        "getMyPlan": "ZÍSKAT MŮJ PLÁN",
+        "now": "Nyní",
+        "goal": "Cíl",
+        "bodyFat": "Tělesný tuk:",
+        "bmi": "BMI:",
+        "fitnessLevel": "Úroveň kondice:",
+        "planReadyTitle": "Váš personalizovaný středomořský coachingový plán je připraven",
+        "yourGoal": "Váš cíl",
+        "targetWeight": "Cílová váha",
+        "planIsReady": "Váš plán je připraven",
+        "safeCheckout": "GARANTOVANÝ BEZPEČNÝ CHECKOUT",
+        "highlights": "Hlavní body vašeho plánu",
+        "visibleResults": "Získejte viditelné výsledky za 4 týdny!",
+        "faqTitle": "Máte otázky?",
+        "riskFreeTitle": "Garance bez rizika",
+        "riskFreeBody": "Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Žádné extra poplatky.",
+        "resultsMayVary": "Výsledky se mohou lišit.",
+        "copyright": "© 2026 Mediet.app. Všechna práva vyhrazena.",
+        "agreeTextStart": "Souhlasím s",
+        "agreeTerms": "Obchodními podmínkami",
+        "agreeMiddle": "a",
+        "agreePrivacy": "Zásadami ochrany osobních údajů",
+        "agreeEnd": ".",
+        "ctaLegal": "Kliknutím na „ZÍSKAT MŮJ PLÁN” souhlasíte s platbou ${price} za váš {plan}. Pokud nezrušíte před koncem prvního období, vaše předplatné se obnoví na ${renewPrice} až do zrušení. Předplatné můžete kdykoli zrušit kontaktováním podpory na hello@mediet.app.",
+        "defaultGoal": "Zhubnout",
+        "plans": {
+          "week": "7denní plán",
+          "month": "Měsíční plán",
+          "quarter": "3měsíční plán"
+        },
+        "features": [
+          {
+            "title": "Neomezené adaptivní středomořské kombinace jídel",
+            "description": "Přesně přizpůsobené vašim preferencím a vyloučením. Příjemné. Strukturované. Udržitelné."
+          },
+          {
+            "title": "Neomezené personalizované metabolické pohybové protokoly",
+            "description": "Síla, pohyblivost, jóga, regenerace. Navrženy ke stimulaci spalování tuků bez vyhoření."
+          },
+          {
+            "title": "Výzvy pro návyky a konzistenci",
+            "description": "Malé strategické budovatele hybnosti. Protože rytmus poráží motivaci."
+          },
+          {
+            "title": "Průvodci středomořskou dlouhověkostí a metabolismem",
+            "description": "Pochopte: proč zánět narušuje spalování tuků, proč moderní zpracované potraviny vykolejují metabolismus, proč populace dlouhověkosti jedí jinak. Jasnost odstraňuje zmatek."
+          },
+          {
+            "title": "Vizualizace pokroku a adaptivní sledování",
+            "description": "Sledujte: trendy váhy, změny složení těla, úrovně energie, konzistenci návyků. Aby systém mohl zůstat v souladu s vámi."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Co jsou „Modré zóny” a proč jsou důležité?",
+            "answer": "Modré zóny jsou regiony světa, kde lidé žijí nejdéle a nejzdravěji. V těchto regionech lidé jedí převážně celé potraviny, zdravé tuky, zeleninu, luštěniny a vyvážené porce. Váš plán využívá tyto osvědčené stravovací vzory – ale přizpůsobuje je vašemu tělu, vašim cílům a vašemu životnímu stylu. Není to jen dieta. Je to systém založený na dlouhověkosti."
+          },
+          {
+            "question": "Čím se to liší od normálního středomořského dietního plánu?",
+            "answer": "Většina středomořských plánů je pevná. Vaše tělo není. Váš personalizovaný středomořský kouč využívá výsledky vašeho dotazníku k vytvoření plánu na základě: vašeho metabolismu, vaší úrovně aktivity, vašich stravovacích preferencí a vašich cílů. Jak se vaše tělo mění, váš plán se může přizpůsobit. To je ten rozdíl."
+          },
+          {
+            "question": "Co AI kouč vlastně dělá?",
+            "answer": "AI kouč pomáhá personalizovat vaši výživu a vést váš pokrok. Využívá vaše data a aktualizace pokroku k: úpravě kombinací jídel, navrhování pohybových rutin, udržení vás konzistentními a pomoci předcházet plató. Místo začínání znovu se váš plán vyvíjí."
+          },
+          {
+            "question": "Musím počítat kalorie nebo sledovat makra?",
+            "answer": "Ne. Váš plán je strukturován pomocí vyvážených středomořských proporcí. Soustředíte se na jídlo skutečných potravin ve správných kombinacích – ne na denní čísla."
+          },
+          {
+            "question": "Vyzkoušel jsem mnoho diet. Proč by to fungovalo pro mě?",
+            "answer": "Mnoho diet selhává, protože jsou: příliš přísné, příliš obecné, založené na starých kalorických pravidlech nebo nepřizpůsobené vaší životní fázi. Tento systém se zaměřuje na metabolickou rovnováhu, ne na trest. Je navržen tak, aby byl udržitelný."
+          },
+          {
+            "question": "Je to bezpečné pro lidi nad 40 let?",
+            "answer": "Ano. Systém je zvláště užitečný pro lidi nad 30 a 40 let, kdy se metabolismus přirozeně mění. Plán se zaměřuje na vyvážená jídla, celé potraviny a stabilní pokrok – ne na extrémní omezení."
+          },
+          {
+            "question": "Budu neustále cítit hlad?",
+            "answer": "Ne. Středomořská struktura se zaměřuje na: zeleninu bohatou na vlákninu, zdravé tuky a vyvážené bílkoviny. Tyto potraviny vám pomáhají cítit se plní a spokojení."
+          },
+          {
+            "question": "Jak dlouho, než uvidím výsledky?",
+            "answer": "Mnoho uživatelů si všimne zlepšení v: energii, nadýmání a chutích během prvních několika týdnů. Viditelné změny těla obvykle vyžadují konzistenci. Váš plán je postaven pro stabilní pokrok – ne pro rychlá řešení."
+          },
+          {
+            "question": "Mohu kdykoli zrušit?",
+            "answer": "Ano. Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Nejsou žádné extra poplatky za zrušení."
+          }
+        ]
+      },
       "dk": {
         "timerLabel": "50% rabat reserveret til dig:",
         "getMyPlan": "FÅ MIN PLAN",
@@ -372,6 +372,99 @@
           {
             "question": "Kan jeg annullere til enhver tid?",
             "answer": "Ja. Du kan opsige dit abonnement til enhver tid ved at kontakte support på hello@mediet.app. Der er ingen ekstra annulleringsgebyrer."
+          }
+        ]
+      },
+      "el": {
+        "timerLabel": "50% έκπτωση κρατημένη για εσάς:",
+        "getMyPlan": "ΠΑΡΤΕ ΤΟ ΠΡΟΓΡΑΜΜΑ ΜΟΥ",
+        "now": "Τώρα",
+        "goal": "Στόχος",
+        "bodyFat": "Σωματικό λίπος:",
+        "bmi": "ΔΜΣ:",
+        "fitnessLevel": "Επίπεδο φυσικής κατάστασης:",
+        "planReadyTitle": "Το εξατομικευμένο Μεσογειακό πρόγραμμα coaching σας είναι έτοιμο",
+        "yourGoal": "Ο στόχος σας",
+        "targetWeight": "Επιθυμητό βάρος",
+        "planIsReady": "Το πρόγραμμά σας είναι έτοιμο",
+        "safeCheckout": "ΕΓΓΥΗΜΕΝΗ ΑΣΦΑΛΗΣ ΠΛΗΡΩΜΗ",
+        "highlights": "Βασικά στοιχεία του προγράμματός σας",
+        "visibleResults": "Ορατά αποτελέσματα σε 4 εβδομάδες!",
+        "faqTitle": "Έχετε ερωτήσεις;",
+        "riskFreeTitle": "Εγγύηση χωρίς κίνδυνο",
+        "riskFreeBody": "Μπορείτε να ακυρώσετε τη συνδρομή σας οποιαδήποτε στιγμή επικοινωνώντας με την υποστήριξη μέσω email στο hello@mediet.app. Χωρίς επιπλέον χρεώσεις.",
+        "resultsMayVary": "Τα αποτελέσματα ενδέχεται να διαφέρουν.",
+        "copyright": "© 2026 Mediet.app. Όλα τα δικαιώματα διατηρούνται.",
+        "agreeTextStart": "Αποδέχομαι τους",
+        "agreeTerms": "Όρους και προϋποθέσεις",
+        "agreeMiddle": "και την",
+        "agreePrivacy": "Πολιτική απορρήτου",
+        "agreeEnd": ".",
+        "ctaLegal": "Κάνοντας κλικ στο «ΠΑΡΤΕ ΤΟ ΠΡΟΓΡΑΜΜΑ ΜΟΥ», συμφωνείτε να πληρώσετε ${price} για το {plan} σας. Αν δεν ακυρώσετε πριν από τη λήξη της πρώτης περιόδου, η συνδρομή σας θα ανανεωθεί στα ${renewPrice} έως ότου ακυρωθεί. Μπορείτε να ακυρώσετε οποιαδήποτε στιγμή επικοινωνώντας με την υποστήριξη στο hello@mediet.app.",
+        "defaultGoal": "Απώλεια βάρους",
+        "plans": {
+          "week": "Πρόγραμμα 7 ημερών",
+          "month": "Πρόγραμμα 1 μήνα",
+          "quarter": "Πρόγραμμα 3 μηνών"
+        },
+        "features": [
+          {
+            "title": "Απεριόριστοι προσαρμοστικοί συνδυασμοί μεσογειακών γευμάτων",
+            "description": "Ακριβώς προσαρμοσμένοι στις προτιμήσεις και τους αποκλεισμούς σας. Ευχάριστοι. Δομημένοι. Βιώσιμοι."
+          },
+          {
+            "title": "Απεριόριστα εξατομικευμένα πρωτόκολλα κίνησης για μεταβολική υποστήριξη",
+            "description": "Δύναμη, κινητικότητα, γιόγκα, αποκατάσταση. Σχεδιασμένα για ενεργοποίηση καύσης λίπους χωρίς εξουθένωση."
+          },
+          {
+            "title": "Προκλήσεις συνήθειων και συνέπειας",
+            "description": "Μικρά στρατηγικά βήματα για οικοδόμηση ορμής. Γιατί ο ρυθμός κερδίζει τη θέληση."
+          },
+          {
+            "title": "Οδηγοί Μεσογειακής μακροζωίας και μεταβολισμού",
+            "description": "Κατανοήστε: γιατί η φλεγμονή εμποδίζει την καύση λίπους, γιατί τα μοντέρνα επεξεργασμένα τρόφιμα αποδιοργανώνουν τον μεταβολισμό, γιατί οι μακρόβιοι πληθυσμοί τρώνε διαφορετικά. Η ξεκάθαρη κατανόηση εξαλείφει τη σύγχυση."
+          },
+          {
+            "title": "Οπτικοποίηση προόδου και προσαρμοστική παρακολούθηση",
+            "description": "Παρακολουθήστε: τάσεις βάρους, μεταβολές σωματικής σύνθεσης, επίπεδα ενέργειας, συνέπεια συνηθειών. Ώστε το σύστημα να παραμένει εναρμονισμένο με εσάς."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Τι είναι οι «Μπλε Ζώνες» και γιατί είναι σημαντικές;",
+            "answer": "Οι Μπλε Ζώνες είναι περιοχές του κόσμου όπου οι άνθρωποι ζουν τη μακρύτερη και πιο υγιή ζωή. Σε αυτές τις περιοχές, οι άνθρωποι τρώνε κυρίως ολοκληρωμένες τροφές, υγιεινά λίπη, λαχανικά, όσπρια και ισορροπημένες μερίδες. Το πρόγραμμά σας χρησιμοποιεί αυτά τα αποδεδειγμένα διατροφικά πρότυπα, αλλά τα προσαρμόζει στο σώμα σας, τους στόχους σας και τον τρόπο ζωής σας. Δεν είναι απλώς μια δίαιτα. Είναι ένα σύστημα βασισμένο στη μακροζωία."
+          },
+          {
+            "question": "Σε τι διαφέρει αυτό από ένα κανονικό μεσογειακό διατροφικό πρόγραμμα;",
+            "answer": "Τα περισσότερα μεσογειακά προγράμματα είναι σταθερά. Το σώμα σας δεν είναι. Ο εξατομικευμένος Μεσογειακός Προπονητής σας χρησιμοποιεί τα αποτελέσματα του ερωτηματολογίου σας για να δημιουργήσει ένα πρόγραμμα βασισμένο σε: τον μεταβολισμό σας, το επίπεδο δραστηριότητας, τις διατροφικές σας προτιμήσεις και τους στόχους σας. Καθώς αλλάζει το σώμα σας, το πρόγραμμά σας προσαρμόζεται. Αυτή είναι η διαφορά."
+          },
+          {
+            "question": "Τι κάνει ο Προπονητής ΤΝ στην πράξη;",
+            "answer": "Ο Προπονητής ΤΝ βοηθά στην εξατομίκευση της διατροφής σας και στην καθοδήγηση της προόδου σας. Χρησιμοποιεί τα δεδομένα σας και τις ενημερώσεις προόδου για να: προσαρμόσει συνδυασμούς γευμάτων, να προτείνει ρουτίνες κίνησης, να σας κρατήσει σε τροχιά και να αποτρέψει τη στασιμότητα. Αντί να ξεκινάτε από την αρχή, το πρόγραμμά σας εξελίσσεται."
+          },
+          {
+            "question": "Χρειάζεται να μετράω θερμίδες ή να παρακολουθώ μακροθρεπτικά;",
+            "answer": "Όχι. Το πρόγραμμά σας δομείται με ισορροπημένες μεσογειακές αναλογίες. Εστιάζετε στο να τρώτε πραγματικές τροφές στους σωστούς συνδυασμούς, όχι σε καθημερινούς αριθμούς."
+          },
+          {
+            "question": "Έχω δοκιμάσει πολλές δίαιτες. Γιατί αυτή να λειτουργήσει για μένα;",
+            "answer": "Πολλές δίαιτες αποτυγχάνουν γιατί είναι: πολύ αυστηρές, πολύ γενικές, βασισμένες σε παλιούς κανόνες θερμίδων ή μη προσαρμοσμένες στο στάδιο ζωής σας. Αυτό το σύστημα εστιάζει στη μεταβολική ισορροπία, όχι στην τιμωρία. Σχεδιάστηκε για να είναι βιώσιμο μακροπρόθεσμα."
+          },
+          {
+            "question": "Είναι ασφαλές για άτομα άνω των 40;",
+            "answer": "Ναι. Στην πραγματικότητα, το σύστημα είναι ιδιαίτερα ωφέλιμο για άτομα άνω των 30 και 40, όταν ο μεταβολισμός αλλάζει φυσικά. Το πρόγραμμα επικεντρώνεται σε ισορροπημένα γεύματα, ολοκληρωμένες τροφές και σταθερή πρόοδο, όχι σε ακραίους περιορισμούς."
+          },
+          {
+            "question": "Θα νιώθω διαρκώς πεινασμένος;",
+            "answer": "Όχι. Η μεσογειακή δομή εστιάζει σε: λαχανικά πλούσια σε φυτικές ίνες, υγιεινά λίπη και ισορροπημένες πρωτεΐνες. Αυτές οι τροφές σας βοηθούν να νιώθετε χορτάτοι και ικανοποιημένοι."
+          },
+          {
+            "question": "Πόσο καιρό θα χρειαστεί να δω αποτελέσματα;",
+            "answer": "Πολλοί χρήστες παρατηρούν βελτιώσεις στην ενέργεια, στο φούσκωμα και στις λιγούρες μέσα στις πρώτες εβδομάδες. Ορατές αλλαγές στο σώμα συνήθως απαιτούν συνέπεια. Το πρόγραμμά σας χτίστηκε για σταθερή πρόοδο, όχι για γρήγορες λύσεις."
+          },
+          {
+            "question": "Μπορώ να ακυρώσω οποιαδήποτε στιγμή;",
+            "answer": "Ναι. Μπορείτε να ακυρώσετε τη συνδρομή σας οποιαδήποτε στιγμή επικοινωνώντας με την υποστήριξη στο hello@mediet.app. Δεν υπάρχουν επιπλέον χρεώσεις ακύρωσης."
           }
         ]
       },
@@ -561,96 +654,96 @@
           }
         ]
       },
-      "el": {
-        "timerLabel": "50% έκπτωση κρατημένη για εσάς:",
-        "getMyPlan": "ΠΑΡΤΕ ΤΟ ΠΡΟΓΡΑΜΜΑ ΜΟΥ",
-        "now": "Τώρα",
-        "goal": "Στόχος",
-        "bodyFat": "Σωματικό λίπος:",
-        "bmi": "ΔΜΣ:",
-        "fitnessLevel": "Επίπεδο φυσικής κατάστασης:",
-        "planReadyTitle": "Το εξατομικευμένο Μεσογειακό πρόγραμμα coaching σας είναι έτοιμο",
-        "yourGoal": "Ο στόχος σας",
-        "targetWeight": "Επιθυμητό βάρος",
-        "planIsReady": "Το πρόγραμμά σας είναι έτοιμο",
-        "safeCheckout": "ΕΓΓΥΗΜΕΝΗ ΑΣΦΑΛΗΣ ΠΛΗΡΩΜΗ",
-        "highlights": "Βασικά στοιχεία του προγράμματός σας",
-        "visibleResults": "Ορατά αποτελέσματα σε 4 εβδομάδες!",
-        "faqTitle": "Έχετε ερωτήσεις;",
-        "riskFreeTitle": "Εγγύηση χωρίς κίνδυνο",
-        "riskFreeBody": "Μπορείτε να ακυρώσετε τη συνδρομή σας οποιαδήποτε στιγμή επικοινωνώντας με την υποστήριξη μέσω email στο hello@mediet.app. Χωρίς επιπλέον χρεώσεις.",
-        "resultsMayVary": "Τα αποτελέσματα ενδέχεται να διαφέρουν.",
-        "copyright": "© 2026 Mediet.app. Όλα τα δικαιώματα διατηρούνται.",
-        "agreeTextStart": "Αποδέχομαι τους",
-        "agreeTerms": "Όρους και προϋποθέσεις",
-        "agreeMiddle": "και την",
-        "agreePrivacy": "Πολιτική απορρήτου",
+      "he": {
+        "timerLabel": "50% הנחה שמורה עבורכם:",
+        "getMyPlan": "קבל את התוכנית שלי",
+        "now": "עכשיו",
+        "goal": "מטרה",
+        "bodyFat": "אחוז שומן:",
+        "bmi": "BMI:",
+        "fitnessLevel": "רמת כושר:",
+        "planReadyTitle": "תוכנית המאמן הים-תיכוני האישית שלכם מוכנה",
+        "yourGoal": "המטרה שלכם",
+        "targetWeight": "משקל יעד",
+        "planIsReady": "התוכנית שלכם מוכנה",
+        "safeCheckout": "תשלום מאובטח ומובטח",
+        "highlights": "עיקרי התוכנית שלכם",
+        "visibleResults": "תוצאות נראות תוך 4 שבועות!",
+        "faqTitle": "יש לכם שאלות?",
+        "riskFreeTitle": "ערבות ללא סיכון",
+        "riskFreeBody": "תוכלו לבטל את המנוי בכל עת על ידי פנייה לתמיכה בדוא\"ל hello@mediet.app. ללא חיובים נוספים.",
+        "resultsMayVary": "התוצאות עשויות להשתנות.",
+        "copyright": "© 2026 Mediet.app. כל הזכויות שמורות.",
+        "agreeTextStart": "אני מסכים/ה ל",
+        "agreeTerms": "תנאי השימוש",
+        "agreeMiddle": "ול",
+        "agreePrivacy": "מדיניות הפרטיות",
         "agreeEnd": ".",
-        "ctaLegal": "Κάνοντας κλικ στο «ΠΑΡΤΕ ΤΟ ΠΡΟΓΡΑΜΜΑ ΜΟΥ», συμφωνείτε να πληρώσετε ${price} για το {plan} σας. Αν δεν ακυρώσετε πριν από τη λήξη της πρώτης περιόδου, η συνδρομή σας θα ανανεωθεί στα ${renewPrice} έως ότου ακυρωθεί. Μπορείτε να ακυρώσετε οποιαδήποτε στιγμή επικοινωνώντας με την υποστήριξη στο hello@mediet.app.",
-        "defaultGoal": "Απώλεια βάρους",
+        "ctaLegal": "בלחיצה על \"קבל את התוכנית שלי\", אתם מסכימים לשלם ${price} עבור ה-{plan} שלכם. אם לא תבטלו לפני סוף התקופה הראשונה, המנוי יתחדש ב-${renewPrice} עד לביטולו. תוכלו לבטל בכל עת על ידי פנייה לתמיכה בכתובת hello@mediet.app.",
+        "defaultGoal": "לרדת במשקל",
         "plans": {
-          "week": "Πρόγραμμα 7 ημερών",
-          "month": "Πρόγραμμα 1 μήνα",
-          "quarter": "Πρόγραμμα 3 μηνών"
+          "week": "תוכנית 7 ימים",
+          "month": "תוכנית חודש",
+          "quarter": "תוכנית 3 חודשים"
         },
         "features": [
           {
-            "title": "Απεριόριστοι προσαρμοστικοί συνδυασμοί μεσογειακών γευμάτων",
-            "description": "Ακριβώς προσαρμοσμένοι στις προτιμήσεις και τους αποκλεισμούς σας. Ευχάριστοι. Δομημένοι. Βιώσιμοι."
+            "title": "שילובי ארוחות ים-תיכוניות אדפטיביות ללא הגבלה",
+            "description": "מותאמות בדיוק להעדפותיכם ולהגבלות שלכם. מהנות. מובנות. בנות-קיימא."
           },
           {
-            "title": "Απεριόριστα εξατομικευμένα πρωτόκολλα κίνησης για μεταβολική υποστήριξη",
-            "description": "Δύναμη, κινητικότητα, γιόγκα, αποκατάσταση. Σχεδιασμένα για ενεργοποίηση καύσης λίπους χωρίς εξουθένωση."
+            "title": "פרוטוקולי תנועה מותאמים אישית לתמיכה מטבולית ללא הגבלה",
+            "description": "כוח, גמישות, יוגה ושיקום. מתוכננים לעורר שריפת שומן מבלי להישחק."
           },
           {
-            "title": "Προκλήσεις συνήθειων και συνέπειας",
-            "description": "Μικρά στρατηγικά βήματα για οικοδόμηση ορμής. Γιατί ο ρυθμός κερδίζει τη θέληση."
+            "title": "אתגרי הרגלים ועקביות",
+            "description": "צעדים קטנים ואסטרטגיים לבניית תאוצה. כי קצב עוקף מוטיבציה."
           },
           {
-            "title": "Οδηγοί Μεσογειακής μακροζωίας και μεταβολισμού",
-            "description": "Κατανοήστε: γιατί η φλεγμονή εμποδίζει την καύση λίπους, γιατί τα μοντέρνα επεξεργασμένα τρόφιμα αποδιοργανώνουν τον μεταβολισμό, γιατί οι μακρόβιοι πληθυσμοί τρώνε διαφορετικά. Η ξεκάθαρη κατανόηση εξαλείφει τη σύγχυση."
+            "title": "מדריכי אריכות חיים ומטבוליזם ים-תיכוניים",
+            "description": "הבינו: מדוע דלקת מעכבת שריפת שומן, מדוע מזון מעובד מוריד את המטבוליזם, ומדוע עמי אריכות החיים אוכלים אחרת. בהירות מסלקת בלבול."
           },
           {
-            "title": "Οπτικοποίηση προόδου και προσαρμοστική παρακολούθηση",
-            "description": "Παρακολουθήστε: τάσεις βάρους, μεταβολές σωματικής σύνθεσης, επίπεδα ενέργειας, συνέπεια συνηθειών. Ώστε το σύστημα να παραμένει εναρμονισμένο με εσάς."
+            "title": "הדמיית התקדמות ומעקב אדפטיבי",
+            "description": "עקבו אחר: מגמות משקל, שינויים בהרכב הגוף, רמות אנרגיה ועקביות הרגלים. כדי שהמערכת תישאר מותאמת לכם."
           }
         ],
         "faq": [
           {
-            "question": "Τι είναι οι «Μπλε Ζώνες» και γιατί είναι σημαντικές;",
-            "answer": "Οι Μπλε Ζώνες είναι περιοχές του κόσμου όπου οι άνθρωποι ζουν τη μακρύτερη και πιο υγιή ζωή. Σε αυτές τις περιοχές, οι άνθρωποι τρώνε κυρίως ολοκληρωμένες τροφές, υγιεινά λίπη, λαχανικά, όσπρια και ισορροπημένες μερίδες. Το πρόγραμμά σας χρησιμοποιεί αυτά τα αποδεδειγμένα διατροφικά πρότυπα, αλλά τα προσαρμόζει στο σώμα σας, τους στόχους σας και τον τρόπο ζωής σας. Δεν είναι απλώς μια δίαιτα. Είναι ένα σύστημα βασισμένο στη μακροζωία."
+            "question": "מה הם \"האזורים הכחולים\" ומדוע הם חשובים?",
+            "answer": "האזורים הכחולים הם אזורים בעולם שבהם אנשים חיים את החיים הארוכים והבריאים ביותר. באזורים אלה, אנשים אוכלים בעיקר מזונות שלמים, שומנים בריאים, ירקות, קטניות ומנות מאוזנות. התוכנית שלכם משתמשת בדפוסי אכילה מוכחים אלה, אך מתאימה אותם לגוף שלכם, למטרותיכם ולאורח חייכם. זו לא רק דיאטה. זו מערכת המבוססת על אריכות חיים."
           },
           {
-            "question": "Σε τι διαφέρει αυτό από ένα κανονικό μεσογειακό διατροφικό πρόγραμμα;",
-            "answer": "Τα περισσότερα μεσογειακά προγράμματα είναι σταθερά. Το σώμα σας δεν είναι. Ο εξατομικευμένος Μεσογειακός Προπονητής σας χρησιμοποιεί τα αποτελέσματα του ερωτηματολογίου σας για να δημιουργήσει ένα πρόγραμμα βασισμένο σε: τον μεταβολισμό σας, το επίπεδο δραστηριότητας, τις διατροφικές σας προτιμήσεις και τους στόχους σας. Καθώς αλλάζει το σώμα σας, το πρόγραμμά σας προσαρμόζεται. Αυτή είναι η διαφορά."
+            "question": "במה זה שונה מתוכנית דיאטה ים-תיכונית רגילה?",
+            "answer": "רוב התוכניות הים-תיכוניות קבועות. הגוף שלכם לא. המאמן הים-תיכוני האישי שלכם משתמש בתוצאות השאלון שלכם כדי ליצור תוכנית המבוססת על: המטבוליזם שלכם, רמת הפעילות שלכם, העדפות המזון שלכם והמטרות שלכם. כשגופכם משתנה, התוכנית שלכם יכולה להסתגל. זה ההבדל."
           },
           {
-            "question": "Τι κάνει ο Προπονητής ΤΝ στην πράξη;",
-            "answer": "Ο Προπονητής ΤΝ βοηθά στην εξατομίκευση της διατροφής σας και στην καθοδήγηση της προόδου σας. Χρησιμοποιεί τα δεδομένα σας και τις ενημερώσεις προόδου για να: προσαρμόσει συνδυασμούς γευμάτων, να προτείνει ρουτίνες κίνησης, να σας κρατήσει σε τροχιά και να αποτρέψει τη στασιμότητα. Αντί να ξεκινάτε από την αρχή, το πρόγραμμά σας εξελίσσεται."
+            "question": "מה בדיוק עושה מאמן הבינה המלאכותית?",
+            "answer": "מאמן הבינה המלאכותית עוזר להתאים אישית את התזונה שלכם ולהנחות את התקדמותכם. הוא משתמש בנתוניכם ובעדכוני ההתקדמות שלכם כדי: לכוונן שילובי ארוחות, להציע שגרות תנועה, לשמור על עקביותכם ולסייע במניעת קיפאון. במקום להתחיל מחדש, התוכנית שלכם מתפתחת."
           },
           {
-            "question": "Χρειάζεται να μετράω θερμίδες ή να παρακολουθώ μακροθρεπτικά;",
-            "answer": "Όχι. Το πρόγραμμά σας δομείται με ισορροπημένες μεσογειακές αναλογίες. Εστιάζετε στο να τρώτε πραγματικές τροφές στους σωστούς συνδυασμούς, όχι σε καθημερινούς αριθμούς."
+            "question": "האם צריך לספור קלוריות או לעקוב אחר מאקרו?",
+            "answer": "לא. התוכנית שלכם בנויה על פי יחסים ים-תיכוניים מאוזנים. אתם מתמקדים באכילת אוכל אמיתי בשילובים הנכונים, ולא במספרים יומיים."
           },
           {
-            "question": "Έχω δοκιμάσει πολλές δίαιτες. Γιατί αυτή να λειτουργήσει για μένα;",
-            "answer": "Πολλές δίαιτες αποτυγχάνουν γιατί είναι: πολύ αυστηρές, πολύ γενικές, βασισμένες σε παλιούς κανόνες θερμίδων ή μη προσαρμοσμένες στο στάδιο ζωής σας. Αυτό το σύστημα εστιάζει στη μεταβολική ισορροπία, όχι στην τιμωρία. Σχεδιάστηκε για να είναι βιώσιμο μακροπρόθεσμα."
+            "question": "ניסיתי הרבה דיאטות. למה זה יעבוד עבורי?",
+            "answer": "דיאטות רבות נכשלות כי הן: קשוחות מדי, גנריות מדי, מבוססות על כללי קלוריות ישנים, או לא מותאמות לשלב החיים שלכם. מערכת זו מתמקדת בשיווי משקל מטבולי, לא בענישה. היא מתוכננת להיות בת-קיימא."
           },
           {
-            "question": "Είναι ασφαλές για άτομα άνω των 40;",
-            "answer": "Ναι. Στην πραγματικότητα, το σύστημα είναι ιδιαίτερα ωφέλιμο για άτομα άνω των 30 και 40, όταν ο μεταβολισμός αλλάζει φυσικά. Το πρόγραμμα επικεντρώνεται σε ισορροπημένα γεύματα, ολοκληρωμένες τροφές και σταθερή πρόοδο, όχι σε ακραίους περιορισμούς."
+            "question": "האם זה בטוח לאנשים מעל גיל 40?",
+            "answer": "כן. למעשה, המערכת שימושית במיוחד לאנשים מעל גיל 30 ו-40, כאשר המטבוליזם משתנה באופן טבעי. התוכנית מתמקדת בארוחות מאוזנות, מזונות שלמים והתקדמות יציבה, ולא בהגבלה קיצונית."
           },
           {
-            "question": "Θα νιώθω διαρκώς πεινασμένος;",
-            "answer": "Όχι. Η μεσογειακή δομή εστιάζει σε: λαχανικά πλούσια σε φυτικές ίνες, υγιεινά λίπη και ισορροπημένες πρωτεΐνες. Αυτές οι τροφές σας βοηθούν να νιώθετε χορτάτοι και ικανοποιημένοι."
+            "question": "האם ארגיש רעב כל הזמן?",
+            "answer": "לא. המבנה הים-תיכוני מתמקד בירקות עשירים בסיבים תזונתיים, שומנים בריאים וחלבונים מאוזנים. מזונות אלה עוזרים לכם להרגיש שבעים ומסופקים."
           },
           {
-            "question": "Πόσο καιρό θα χρειαστεί να δω αποτελέσματα;",
-            "answer": "Πολλοί χρήστες παρατηρούν βελτιώσεις στην ενέργεια, στο φούσκωμα και στις λιγούρες μέσα στις πρώτες εβδομάδες. Ορατές αλλαγές στο σώμα συνήθως απαιτούν συνέπεια. Το πρόγραμμά σας χτίστηκε για σταθερή πρόοδο, όχι για γρήγορες λύσεις."
+            "question": "כמה זמן עד שאראה תוצאות?",
+            "answer": "משתמשים רבים מבחינים בשיפורים באנרגיה, נפיחות ותשוקות כבר בשבועות הראשונים. שינויים גופניים נראים לעין מצריכים בדרך כלל עקביות. התוכנית שלכם בנויה להתקדמות יציבה, לא לפתרונות מהירים."
           },
           {
-            "question": "Μπορώ να ακυρώσω οποιαδήποτε στιγμή;",
-            "answer": "Ναι. Μπορείτε να ακυρώσετε τη συνδρομή σας οποιαδήποτε στιγμή επικοινωνώντας με την υποστήριξη στο hello@mediet.app. Δεν υπάρχουν επιπλέον χρεώσεις ακύρωσης."
+            "question": "האם אפשר לבטל בכל עת?",
+            "answer": "כן. תוכלו לבטל את המנוי בכל עת על ידי פנייה לתמיכה בדוא\"ל hello@mediet.app. אין דמי ביטול נוספים."
           }
         ]
       },
@@ -747,99 +840,6 @@
           }
         ]
       },
-      "il": {
-        "timerLabel": "50% הנחה שמורה עבורכם:",
-        "getMyPlan": "קבל את התוכנית שלי",
-        "now": "עכשיו",
-        "goal": "מטרה",
-        "bodyFat": "אחוז שומן:",
-        "bmi": "BMI:",
-        "fitnessLevel": "רמת כושר:",
-        "planReadyTitle": "תוכנית המאמן הים-תיכוני האישית שלכם מוכנה",
-        "yourGoal": "המטרה שלכם",
-        "targetWeight": "משקל יעד",
-        "planIsReady": "התוכנית שלכם מוכנה",
-        "safeCheckout": "תשלום מאובטח ומובטח",
-        "highlights": "עיקרי התוכנית שלכם",
-        "visibleResults": "תוצאות נראות תוך 4 שבועות!",
-        "faqTitle": "יש לכם שאלות?",
-        "riskFreeTitle": "ערבות ללא סיכון",
-        "riskFreeBody": "תוכלו לבטל את המנוי בכל עת על ידי פנייה לתמיכה בדוא\"ל hello@mediet.app. ללא חיובים נוספים.",
-        "resultsMayVary": "התוצאות עשויות להשתנות.",
-        "copyright": "© 2026 Mediet.app. כל הזכויות שמורות.",
-        "agreeTextStart": "אני מסכים/ה ל",
-        "agreeTerms": "תנאי השימוש",
-        "agreeMiddle": "ול",
-        "agreePrivacy": "מדיניות הפרטיות",
-        "agreeEnd": ".",
-        "ctaLegal": "בלחיצה על \"קבל את התוכנית שלי\", אתם מסכימים לשלם ${price} עבור ה-{plan} שלכם. אם לא תבטלו לפני סוף התקופה הראשונה, המנוי יתחדש ב-${renewPrice} עד לביטולו. תוכלו לבטל בכל עת על ידי פנייה לתמיכה בכתובת hello@mediet.app.",
-        "defaultGoal": "לרדת במשקל",
-        "plans": {
-          "week": "תוכנית 7 ימים",
-          "month": "תוכנית חודש",
-          "quarter": "תוכנית 3 חודשים"
-        },
-        "features": [
-          {
-            "title": "שילובי ארוחות ים-תיכוניות אדפטיביות ללא הגבלה",
-            "description": "מותאמות בדיוק להעדפותיכם ולהגבלות שלכם. מהנות. מובנות. בנות-קיימא."
-          },
-          {
-            "title": "פרוטוקולי תנועה מותאמים אישית לתמיכה מטבולית ללא הגבלה",
-            "description": "כוח, גמישות, יוגה ושיקום. מתוכננים לעורר שריפת שומן מבלי להישחק."
-          },
-          {
-            "title": "אתגרי הרגלים ועקביות",
-            "description": "צעדים קטנים ואסטרטגיים לבניית תאוצה. כי קצב עוקף מוטיבציה."
-          },
-          {
-            "title": "מדריכי אריכות חיים ומטבוליזם ים-תיכוניים",
-            "description": "הבינו: מדוע דלקת מעכבת שריפת שומן, מדוע מזון מעובד מוריד את המטבוליזם, ומדוע עמי אריכות החיים אוכלים אחרת. בהירות מסלקת בלבול."
-          },
-          {
-            "title": "הדמיית התקדמות ומעקב אדפטיבי",
-            "description": "עקבו אחר: מגמות משקל, שינויים בהרכב הגוף, רמות אנרגיה ועקביות הרגלים. כדי שהמערכת תישאר מותאמת לכם."
-          }
-        ],
-        "faq": [
-          {
-            "question": "מה הם \"האזורים הכחולים\" ומדוע הם חשובים?",
-            "answer": "האזורים הכחולים הם אזורים בעולם שבהם אנשים חיים את החיים הארוכים והבריאים ביותר. באזורים אלה, אנשים אוכלים בעיקר מזונות שלמים, שומנים בריאים, ירקות, קטניות ומנות מאוזנות. התוכנית שלכם משתמשת בדפוסי אכילה מוכחים אלה, אך מתאימה אותם לגוף שלכם, למטרותיכם ולאורח חייכם. זו לא רק דיאטה. זו מערכת המבוססת על אריכות חיים."
-          },
-          {
-            "question": "במה זה שונה מתוכנית דיאטה ים-תיכונית רגילה?",
-            "answer": "רוב התוכניות הים-תיכוניות קבועות. הגוף שלכם לא. המאמן הים-תיכוני האישי שלכם משתמש בתוצאות השאלון שלכם כדי ליצור תוכנית המבוססת על: המטבוליזם שלכם, רמת הפעילות שלכם, העדפות המזון שלכם והמטרות שלכם. כשגופכם משתנה, התוכנית שלכם יכולה להסתגל. זה ההבדל."
-          },
-          {
-            "question": "מה בדיוק עושה מאמן הבינה המלאכותית?",
-            "answer": "מאמן הבינה המלאכותית עוזר להתאים אישית את התזונה שלכם ולהנחות את התקדמותכם. הוא משתמש בנתוניכם ובעדכוני ההתקדמות שלכם כדי: לכוונן שילובי ארוחות, להציע שגרות תנועה, לשמור על עקביותכם ולסייע במניעת קיפאון. במקום להתחיל מחדש, התוכנית שלכם מתפתחת."
-          },
-          {
-            "question": "האם צריך לספור קלוריות או לעקוב אחר מאקרו?",
-            "answer": "לא. התוכנית שלכם בנויה על פי יחסים ים-תיכוניים מאוזנים. אתם מתמקדים באכילת אוכל אמיתי בשילובים הנכונים, ולא במספרים יומיים."
-          },
-          {
-            "question": "ניסיתי הרבה דיאטות. למה זה יעבוד עבורי?",
-            "answer": "דיאטות רבות נכשלות כי הן: קשוחות מדי, גנריות מדי, מבוססות על כללי קלוריות ישנים, או לא מותאמות לשלב החיים שלכם. מערכת זו מתמקדת בשיווי משקל מטבולי, לא בענישה. היא מתוכננת להיות בת-קיימא."
-          },
-          {
-            "question": "האם זה בטוח לאנשים מעל גיל 40?",
-            "answer": "כן. למעשה, המערכת שימושית במיוחד לאנשים מעל גיל 30 ו-40, כאשר המטבוליזם משתנה באופן טבעי. התוכנית מתמקדת בארוחות מאוזנות, מזונות שלמים והתקדמות יציבה, ולא בהגבלה קיצונית."
-          },
-          {
-            "question": "האם ארגיש רעב כל הזמן?",
-            "answer": "לא. המבנה הים-תיכוני מתמקד בירקות עשירים בסיבים תזונתיים, שומנים בריאים וחלבונים מאוזנים. מזונות אלה עוזרים לכם להרגיש שבעים ומסופקים."
-          },
-          {
-            "question": "כמה זמן עד שאראה תוצאות?",
-            "answer": "משתמשים רבים מבחינים בשיפורים באנרגיה, נפיחות ותשוקות כבר בשבועות הראשונים. שינויים גופניים נראים לעין מצריכים בדרך כלל עקביות. התוכנית שלכם בנויה להתקדמות יציבה, לא לפתרונות מהירים."
-          },
-          {
-            "question": "האם אפשר לבטל בכל עת?",
-            "answer": "כן. תוכלו לבטל את המנוי בכל עת על ידי פנייה לתמיכה בדוא\"ל hello@mediet.app. אין דמי ביטול נוספים."
-          }
-        ]
-      },
       "hr": {
         "timerLabel": "50% popusta rezervirano za vas:",
         "getMyPlan": "UZMI MOJ PLAN",
@@ -933,7 +933,7 @@
           }
         ]
       },
-      "he": {
+      "il": {
         "timerLabel": "50% הנחה שמורה עבורכם:",
         "getMyPlan": "קבל את התוכנית שלי",
         "now": "עכשיו",
@@ -1305,99 +1305,6 @@
           }
         ]
       },
-      "lv": {
-        "timerLabel": "50% atlaide rezervēta jums:",
-        "getMyPlan": "IEGŪT MANU PLĀNU",
-        "now": "Tagad",
-        "goal": "Mērķis",
-        "bodyFat": "Ķermeņa tauki:",
-        "bmi": "ĶMI:",
-        "fitnessLevel": "Fitnesa līmenis:",
-        "planReadyTitle": "Jūsu personalizētais Vidusjūras koučinga plāns ir gatavs",
-        "yourGoal": "Jūsu mērķis",
-        "targetWeight": "Mērķa svars",
-        "planIsReady": "Jūsu plāns ir gatavs",
-        "safeCheckout": "GARANTĒTA DROŠA NORĒĶINĀŠANĀS",
-        "highlights": "Jūsu plāna galvenie punkti",
-        "visibleResults": "Iegūstiet redzamus rezultātus 4 nedēļās!",
-        "faqTitle": "Jums ir jautājumi?",
-        "riskFreeTitle": "Garantija bez riska",
-        "riskFreeBody": "Varat atcelt abonementu jebkurā laikā, sazinoties ar atbalstu pa e-pastu hello@mediet.app. Nav papildu maksu.",
-        "resultsMayVary": "Rezultāti var atšķirties.",
-        "copyright": "© 2026 Mediet.app. Visas tiesības aizsargātas.",
-        "agreeTextStart": "Es piekrītu",
-        "agreeTerms": "Noteikumiem",
-        "agreeMiddle": "un",
-        "agreePrivacy": "Privātuma politikai",
-        "agreeEnd": ".",
-        "ctaLegal": "Noklikšķinot uz „IEGŪT MANU PLĀNU”, jūs piekrītat maksāt ${price} par savu {plan}. Ja neatceļat pirms pirmā perioda beigām, jūsu abonements tiks atjaunots par ${renewPrice} līdz atcelšanai. Varat atcelt jebkurā laikā, sazinoties ar atbalstu hello@mediet.app.",
-        "defaultGoal": "Zaudēt svaru",
-        "plans": {
-          "week": "7 dienu plāns",
-          "month": "1 mēneša plāns",
-          "quarter": "3 mēnešu plāns"
-        },
-        "features": [
-          {
-            "title": "Neierobežotas adaptīvās Vidusjūras ēdienreižu kombinācijas",
-            "description": "Precīzi pielāgotas jūsu vēlmēm un izslēgumiem. Patīkamas. Strukturētas. Ilgtspējīgas."
-          },
-          {
-            "title": "Neierobežoti personalizēti metaboliskā atbalsta kustību protokoli",
-            "description": "Spēks, mobilitāte, joga, atveseļošanās. Izstrādāti tauku sadedzināšanas stimulēšanai bez izdegšanas."
-          },
-          {
-            "title": "Ieradumu un konsekvences izaicinājumi",
-            "description": "Mazi stratēģiski impulsa veidotāji. Jo ritms uzvar motivāciju."
-          },
-          {
-            "title": "Vidusjūras ilgmūžības un vielmaiņas ceļveži",
-            "description": "Saprotiet: kāpēc iekaisums traucē tauku sadedzināšanu, kāpēc mūsdienu pārstrādāta pārtika izjauc vielmaiņu, kāpēc ilgmūžīgās populācijas ēd citādi. Skaidrība novērš apjukumu."
-          },
-          {
-            "title": "Progresa vizualizācija un adaptīvā izsekošana",
-            "description": "Izsekojiet: svara tendences, ķermeņa sastāva izmaiņas, enerģijas līmeņus, ieradumu konsekvenci. Lai sistēma varētu palikt saskaņota ar jums."
-          }
-        ],
-        "faq": [
-          {
-            "question": "Kas ir „Zilās zonas” un kāpēc tās ir svarīgas?",
-            "answer": "Zilās zonas ir pasaules reģioni, kur cilvēki dzīvo visgarāk un veselīgāk. Šajos reģionos cilvēki galvenokārt ēd veselu pārtiku, veselīgus taukus, dārzeņus, pākšaugus un sabalansētas porcijas. Jūsu plāns izmanto šos pierādītos ēšanas modeļus – bet pielāgo tos jūsu ķermenim, jūsu mērķiem un jūsu dzīvesveidam. Tas nav tikai diēta. Tā ir uz ilgmūžību balstīta sistēma."
-          },
-          {
-            "question": "Ar ko tas atšķiras no parasta Vidusjūras diētas plāna?",
-            "answer": "Lielākā daļa Vidusjūras plānu ir fiksēti. Jūsu ķermenis nav. Jūsu personalizētais Vidusjūras koučs izmanto jūsu aptaujas rezultātus, lai izveidotu plānu, pamatojoties uz: jūsu vielmaiņu, jūsu aktivitātes līmeni, jūsu pārtikas vēlmēm un jūsu mērķiem. Mainoties jūsu ķermenim, jūsu plāns var pielāgoties. Tā ir atšķirība."
-          },
-          {
-            "question": "Ko AI koučs patiesībā dara?",
-            "answer": "AI koučs palīdz personalizēt jūsu uzturu un vadīt jūsu progresu. Tas izmanto jūsu datus un progresa atjauninājumus, lai: pielāgotu ēdienreižu kombinācijas, ieteiktu kustību rutīnas, uzturētu jūs konsekventi un palīdzētu novērst plato. Tā vietā, lai sāktu no jauna, jūsu plāns attīstās."
-          },
-          {
-            "question": "Vai man ir jāskaita kalorijas vai jāseko makro?",
-            "answer": "Nē. Jūsu plāns ir strukturēts, izmantojot sabalansētas Vidusjūras proporcijas. Jūs koncentrējaties uz īstas pārtikas ēšanu pareizās kombinācijās – nevis uz ikdienas skaitļiem."
-          },
-          {
-            "question": "Esmu izmēģinājis daudzas diētas. Kāpēc tas darbotos manam gadījumam?",
-            "answer": "Daudzas diētas izgāžas, jo tās ir: pārāk stingras, pārāk vispārīgas, balstītas uz veciem kaloriju noteikumiem vai nepielāgotas jūsu dzīves posmam. Šī sistēma koncentrējas uz metabolisko līdzsvaru, nevis sodu. Tā ir izstrādāta, lai būtu ilgtspējīga."
-          },
-          {
-            "question": "Vai tas ir drošs cilvēkiem virs 40 gadiem?",
-            "answer": "Jā. Patiesībā sistēma ir īpaši noderīga cilvēkiem virs 30 un 40 gadiem, kad vielmaiņa dabiski mainās. Plāns koncentrējas uz sabalansētām ēdienreizēm, veselu pārtiku un stabilu progresu – nevis uz ekstrēmu ierobežošanu."
-          },
-          {
-            "question": "Vai es vienmēr jutīšos izsalcis?",
-            "answer": "Nē. Vidusjūras struktūra koncentrējas uz: ar šķiedrvielām bagātiem dārzeņiem, veselīgiem taukiem un sabalansētiem olbaltumvielām. Šie ēdieni palīdz jums justies paēdušam un apmierinātam."
-          },
-          {
-            "question": "Cik ilgi, pirms es redzēšu rezultātus?",
-            "answer": "Daudzi lietotāji pamana uzlabojumus: enerģijā, vēdera uzpūšanās un kārumā pirmajās nedēļās. Redzamas ķermeņa izmaiņas parasti prasa konsekvenci. Jūsu plāns ir veidots stabilam progresam – nevis ātram risinājumam."
-          },
-          {
-            "question": "Vai es varu atcelt jebkurā laikā?",
-            "answer": "Jā. Varat atcelt abonementu jebkurā laikā, sazinoties ar atbalstu pa e-pastu hello@mediet.app. Nav papildu atcelšanas maksu."
-          }
-        ]
-      },
       "ro": {
         "timerLabel": "50% reducere rezervată pentru voi:",
         "getMyPlan": "OBȚINEȚI PLANUL MEU",
@@ -1488,6 +1395,99 @@
           {
             "question": "Pot anula oricând?",
             "answer": "Da. Puteți anula abonamentul oricând contactând asistența la hello@mediet.app. Nu există taxe suplimentare de anulare."
+          }
+        ]
+      },
+      "lv": {
+        "timerLabel": "50% atlaide rezervēta jums:",
+        "getMyPlan": "IEGŪT MANU PLĀNU",
+        "now": "Tagad",
+        "goal": "Mērķis",
+        "bodyFat": "Ķermeņa tauki:",
+        "bmi": "ĶMI:",
+        "fitnessLevel": "Fitnesa līmenis:",
+        "planReadyTitle": "Jūsu personalizētais Vidusjūras koučinga plāns ir gatavs",
+        "yourGoal": "Jūsu mērķis",
+        "targetWeight": "Mērķa svars",
+        "planIsReady": "Jūsu plāns ir gatavs",
+        "safeCheckout": "GARANTĒTA DROŠA NORĒĶINĀŠANĀS",
+        "highlights": "Jūsu plāna galvenie punkti",
+        "visibleResults": "Iegūstiet redzamus rezultātus 4 nedēļās!",
+        "faqTitle": "Jums ir jautājumi?",
+        "riskFreeTitle": "Garantija bez riska",
+        "riskFreeBody": "Varat atcelt abonementu jebkurā laikā, sazinoties ar atbalstu pa e-pastu hello@mediet.app. Nav papildu maksu.",
+        "resultsMayVary": "Rezultāti var atšķirties.",
+        "copyright": "© 2026 Mediet.app. Visas tiesības aizsargātas.",
+        "agreeTextStart": "Es piekrītu",
+        "agreeTerms": "Noteikumiem",
+        "agreeMiddle": "un",
+        "agreePrivacy": "Privātuma politikai",
+        "agreeEnd": ".",
+        "ctaLegal": "Noklikšķinot uz „IEGŪT MANU PLĀNU”, jūs piekrītat maksāt ${price} par savu {plan}. Ja neatceļat pirms pirmā perioda beigām, jūsu abonements tiks atjaunots par ${renewPrice} līdz atcelšanai. Varat atcelt jebkurā laikā, sazinoties ar atbalstu hello@mediet.app.",
+        "defaultGoal": "Zaudēt svaru",
+        "plans": {
+          "week": "7 dienu plāns",
+          "month": "1 mēneša plāns",
+          "quarter": "3 mēnešu plāns"
+        },
+        "features": [
+          {
+            "title": "Neierobežotas adaptīvās Vidusjūras ēdienreižu kombinācijas",
+            "description": "Precīzi pielāgotas jūsu vēlmēm un izslēgumiem. Patīkamas. Strukturētas. Ilgtspējīgas."
+          },
+          {
+            "title": "Neierobežoti personalizēti metaboliskā atbalsta kustību protokoli",
+            "description": "Spēks, mobilitāte, joga, atveseļošanās. Izstrādāti tauku sadedzināšanas stimulēšanai bez izdegšanas."
+          },
+          {
+            "title": "Ieradumu un konsekvences izaicinājumi",
+            "description": "Mazi stratēģiski impulsa veidotāji. Jo ritms uzvar motivāciju."
+          },
+          {
+            "title": "Vidusjūras ilgmūžības un vielmaiņas ceļveži",
+            "description": "Saprotiet: kāpēc iekaisums traucē tauku sadedzināšanu, kāpēc mūsdienu pārstrādāta pārtika izjauc vielmaiņu, kāpēc ilgmūžīgās populācijas ēd citādi. Skaidrība novērš apjukumu."
+          },
+          {
+            "title": "Progresa vizualizācija un adaptīvā izsekošana",
+            "description": "Izsekojiet: svara tendences, ķermeņa sastāva izmaiņas, enerģijas līmeņus, ieradumu konsekvenci. Lai sistēma varētu palikt saskaņota ar jums."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Kas ir „Zilās zonas” un kāpēc tās ir svarīgas?",
+            "answer": "Zilās zonas ir pasaules reģioni, kur cilvēki dzīvo visgarāk un veselīgāk. Šajos reģionos cilvēki galvenokārt ēd veselu pārtiku, veselīgus taukus, dārzeņus, pākšaugus un sabalansētas porcijas. Jūsu plāns izmanto šos pierādītos ēšanas modeļus – bet pielāgo tos jūsu ķermenim, jūsu mērķiem un jūsu dzīvesveidam. Tas nav tikai diēta. Tā ir uz ilgmūžību balstīta sistēma."
+          },
+          {
+            "question": "Ar ko tas atšķiras no parasta Vidusjūras diētas plāna?",
+            "answer": "Lielākā daļa Vidusjūras plānu ir fiksēti. Jūsu ķermenis nav. Jūsu personalizētais Vidusjūras koučs izmanto jūsu aptaujas rezultātus, lai izveidotu plānu, pamatojoties uz: jūsu vielmaiņu, jūsu aktivitātes līmeni, jūsu pārtikas vēlmēm un jūsu mērķiem. Mainoties jūsu ķermenim, jūsu plāns var pielāgoties. Tā ir atšķirība."
+          },
+          {
+            "question": "Ko AI koučs patiesībā dara?",
+            "answer": "AI koučs palīdz personalizēt jūsu uzturu un vadīt jūsu progresu. Tas izmanto jūsu datus un progresa atjauninājumus, lai: pielāgotu ēdienreižu kombinācijas, ieteiktu kustību rutīnas, uzturētu jūs konsekventi un palīdzētu novērst plato. Tā vietā, lai sāktu no jauna, jūsu plāns attīstās."
+          },
+          {
+            "question": "Vai man ir jāskaita kalorijas vai jāseko makro?",
+            "answer": "Nē. Jūsu plāns ir strukturēts, izmantojot sabalansētas Vidusjūras proporcijas. Jūs koncentrējaties uz īstas pārtikas ēšanu pareizās kombinācijās – nevis uz ikdienas skaitļiem."
+          },
+          {
+            "question": "Esmu izmēģinājis daudzas diētas. Kāpēc tas darbotos manam gadījumam?",
+            "answer": "Daudzas diētas izgāžas, jo tās ir: pārāk stingras, pārāk vispārīgas, balstītas uz veciem kaloriju noteikumiem vai nepielāgotas jūsu dzīves posmam. Šī sistēma koncentrējas uz metabolisko līdzsvaru, nevis sodu. Tā ir izstrādāta, lai būtu ilgtspējīga."
+          },
+          {
+            "question": "Vai tas ir drošs cilvēkiem virs 40 gadiem?",
+            "answer": "Jā. Patiesībā sistēma ir īpaši noderīga cilvēkiem virs 30 un 40 gadiem, kad vielmaiņa dabiski mainās. Plāns koncentrējas uz sabalansētām ēdienreizēm, veselu pārtiku un stabilu progresu – nevis uz ekstrēmu ierobežošanu."
+          },
+          {
+            "question": "Vai es vienmēr jutīšos izsalcis?",
+            "answer": "Nē. Vidusjūras struktūra koncentrējas uz: ar šķiedrvielām bagātiem dārzeņiem, veselīgiem taukiem un sabalansētiem olbaltumvielām. Šie ēdieni palīdz jums justies paēdušam un apmierinātam."
+          },
+          {
+            "question": "Cik ilgi, pirms es redzēšu rezultātus?",
+            "answer": "Daudzi lietotāji pamana uzlabojumus: enerģijā, vēdera uzpūšanās un kārumā pirmajās nedēļās. Redzamas ķermeņa izmaiņas parasti prasa konsekvenci. Jūsu plāns ir veidots stabilam progresam – nevis ātram risinājumam."
+          },
+          {
+            "question": "Vai es varu atcelt jebkurā laikā?",
+            "answer": "Jā. Varat atcelt abonementu jebkurā laikā, sazinoties ar atbalstu pa e-pastu hello@mediet.app. Nav papildu atcelšanas maksu."
           }
         ]
       },
@@ -1960,21 +1960,21 @@
   },
   "localIds": [
     "offer::local::locales\\cs\\offer.content.json",
-    "offer::local::locales\\cz\\offer.content.json",
     "offer::local::locales\\da\\offer.content.json",
+    "offer::local::locales\\cz\\offer.content.json",
     "offer::local::locales\\dk\\offer.content.json",
+    "offer::local::locales\\el\\offer.content.json",
     "offer::local::locales\\en\\offer.content.json",
     "offer::local::locales\\gr\\offer.content.json",
-    "offer::local::locales\\el\\offer.content.json",
-    "offer::local::locales\\hu\\offer.content.json",
-    "offer::local::locales\\il\\offer.content.json",
-    "offer::local::locales\\hr\\offer.content.json",
     "offer::local::locales\\he\\offer.content.json",
+    "offer::local::locales\\hu\\offer.content.json",
+    "offer::local::locales\\hr\\offer.content.json",
+    "offer::local::locales\\il\\offer.content.json",
     "offer::local::locales\\ja\\offer.content.json",
     "offer::local::locales\\jp\\offer.content.json",
     "offer::local::locales\\lt\\offer.content.json",
-    "offer::local::locales\\lv\\offer.content.json",
     "offer::local::locales\\ro\\offer.content.json",
+    "offer::local::locales\\lv\\offer.content.json",
     "offer::local::locales\\ru\\offer.content.json",
     "offer::local::locales\\sk\\offer.content.json",
     "offer::local::locales\\tw\\offer.content.json",
