@@ -7,16 +7,36 @@ import { useState } from "react";
 import { useIntlayer } from "next-intlayer";
 
 type PlanType = "week" | "month" | "quarter";
+type OfferPricingVariant = "default" | "offer1" | "offer2" | "offer3";
 type OfferPageContentProps = {
-  useOrderPagePricing?: boolean;
+  pricingVariant?: OfferPricingVariant;
 };
 type PlanDetails = {
-  name: string;
+  name: React.ReactNode;
   originalPrice: number;
   discountPrice: number;
   perDay: number;
   popular?: boolean;
 };
+
+const CANONICAL_GOALS = {
+  male: [
+    "Lose body fat",
+    "Get a lean body",
+    "Build muscle",
+    "Have more energy",
+    "Improve my health",
+    "Live longer",
+  ],
+  female: [
+    "Lose body fat",
+    "Get a slimmer body",
+    "Tone my body",
+    "Have more energy",
+    "Improve my health",
+    "Live longer",
+  ],
+} as const;
 
 const ORIGINAL_PRICES = {
   week: 12.98,
@@ -27,60 +47,132 @@ const ORIGINAL_PRICES = {
 const DISCOUNT_PERCENT = 50;
 
 export default function OfferPageContent({
-  useOrderPagePricing = false,
+  pricingVariant = "default",
 }: OfferPageContentProps) {
   const t = useIntlayer("offer");
+  const quizT = useIntlayer("quiz");
   const { analysis, answers } = useQuiz();
   const [selectedPlan, setSelectedPlan] = useState<PlanType>("month");
   const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
 
   const discountMultiplier = (100 - DISCOUNT_PERCENT) / 100;
+  const localizedPlanNames: Record<PlanType, React.ReactNode> = {
+    week: t.plans.week,
+    month: t.plans.month,
+    quarter: t.plans.quarter,
+  };
+  const displayGoal = (() => {
+    if (answers.q2.length === 0) return t.defaultGoal as string;
+    const selectedGoal = answers.q2[0];
+    const localizedMaleGoals = quizT.options.goalsMale as string[];
+    const localizedFemaleGoals = quizT.options.goalsFemale as string[];
+
+    const lookupSets: Array<{ canonical: readonly string[]; localized: string[] }> = [
+      { canonical: CANONICAL_GOALS.male, localized: localizedMaleGoals },
+      { canonical: CANONICAL_GOALS.female, localized: localizedFemaleGoals },
+    ];
+
+    for (const { canonical, localized } of lookupSets) {
+      const goalIndex = canonical.indexOf(selectedGoal);
+      if (goalIndex >= 0 && localized[goalIndex]) {
+        return localized[goalIndex];
+      }
+    }
+    return selectedGoal;
+  })();
 
   const defaultPlans: Record<PlanType, PlanDetails> = {
     week: {
-      name: "7-Day Plan",
+      name: localizedPlanNames.week,
       originalPrice: ORIGINAL_PRICES.week,
       discountPrice: +(ORIGINAL_PRICES.week * discountMultiplier).toFixed(2),
       perDay: +((ORIGINAL_PRICES.week * discountMultiplier) / 7).toFixed(2),
     },
     month: {
-      name: "1-Month Plan",
+      name: localizedPlanNames.month,
       originalPrice: ORIGINAL_PRICES.month,
       discountPrice: +(ORIGINAL_PRICES.month * discountMultiplier).toFixed(2),
       perDay: +((ORIGINAL_PRICES.month * discountMultiplier) / 30).toFixed(2),
       popular: true,
     },
     quarter: {
-      name: "3-Month Plan",
+      name: localizedPlanNames.quarter,
       originalPrice: ORIGINAL_PRICES.quarter,
       discountPrice: +(ORIGINAL_PRICES.quarter * discountMultiplier).toFixed(2),
       perDay: +((ORIGINAL_PRICES.quarter * discountMultiplier) / 90).toFixed(2),
     },
   };
-  const orderPagePlans: Record<PlanType, PlanDetails> = {
+  const offer1Plans: Record<PlanType, PlanDetails> = {
     week: {
-      name: "7-Day Plan",
+      name: localizedPlanNames.week,
       originalPrice: 12.98,
       discountPrice: 6.49,
       perDay: 0.92,
     },
     month: {
-      name: "1-Month Plan",
+      name: localizedPlanNames.month,
       originalPrice: 37.98,
       discountPrice: 18.99,
       perDay: 0.63,
       popular: true,
     },
     quarter: {
-      name: "3-Month Plan",
+      name: localizedPlanNames.quarter,
       originalPrice: 75.98,
       discountPrice: 37.99,
       perDay: 0.42,
     },
   };
-
-  const plans = useOrderPagePricing ? orderPagePlans : defaultPlans;
+  const offer2Plans: Record<PlanType, PlanDetails> = {
+    week: {
+      name: localizedPlanNames.week,
+      originalPrice: 12.98,
+      discountPrice: 3.37,
+      perDay: 0.48,
+    },
+    month: {
+      name: localizedPlanNames.month,
+      originalPrice: 37.98,
+      discountPrice: 9.87,
+      perDay: 0.33,
+      popular: true,
+    },
+    quarter: {
+      name: localizedPlanNames.quarter,
+      originalPrice: 75.98,
+      discountPrice: 19.75,
+      perDay: 0.22,
+    },
+  };
+  const offer3Plans: Record<PlanType, PlanDetails> = {
+    week: {
+      name: localizedPlanNames.week,
+      originalPrice: 12.98,
+      discountPrice: 2.47,
+      perDay: 0.35,
+    },
+    month: {
+      name: localizedPlanNames.month,
+      originalPrice: 37.98,
+      discountPrice: 7.22,
+      perDay: 0.24,
+      popular: true,
+    },
+    quarter: {
+      name: localizedPlanNames.quarter,
+      originalPrice: 75.98,
+      discountPrice: 14.44,
+      perDay: 0.16,
+    },
+  };
+  const plansByVariant: Record<OfferPricingVariant, Record<PlanType, PlanDetails>> = {
+    default: defaultPlans,
+    offer1: offer1Plans,
+    offer2: offer2Plans,
+    offer3: offer3Plans,
+  };
+  const plans = plansByVariant[pricingVariant];
 
   const selectedPlanData = plans[selectedPlan];
 
@@ -205,7 +297,7 @@ export default function OfferPageContent({
       <p className="mt-3 text-center font-body text-[10px] leading-relaxed text-[#999] sm:text-xs">
         By clicking &quot;{t.getMyPlan},&quot; you agree to pay $
         {selectedPlanData.discountPrice} for your{" "}
-        {selectedPlanData.name.toLowerCase()}. If you do not cancel before the
+        {selectedPlanData.name}. If you do not cancel before the
         end of the first period, your subscription will renew at $
         {selectedPlanData.originalPrice} until canceled. You can cancel anytime
         by contacting support at hello@mediet.app.
@@ -360,7 +452,7 @@ export default function OfferPageContent({
                 {t.yourGoal}
               </p>
               <p className="font-body text-[12px] font-bold text-[var(--text-primary)] sm:text-[13px]">
-                {answers.q2.length > 0 ? answers.q2[0] : t.defaultGoal}
+                {displayGoal}
               </p>
             </div>
           </div>

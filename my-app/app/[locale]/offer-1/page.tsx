@@ -6,7 +6,7 @@ import OfferPageContent from "@/components/offer/offer-page-content";
 export default function Offer1Page() {
   return (
     <OfferLayout>
-      <OfferPageContent useOrderPagePricing />
+      <OfferPageContent pricingVariant="offer1" />
     </OfferLayout>
   );
 }
