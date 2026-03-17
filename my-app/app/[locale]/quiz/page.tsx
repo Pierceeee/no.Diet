@@ -39,6 +39,58 @@ import { LoadingScreen } from "@/components/quiz/loading-screen";
 import { InfoInterstitial } from "@/components/quiz/info-interstitial";
 import { useIntlayer, useLocale } from "next-intlayer";
 
+const BODY_TYPE_IMAGES = {
+  male: {
+    current: [
+      "/docs/bodytype/11.svg",
+      "/docs/bodytype/12.svg",
+      "/docs/bodytype/13.svg",
+      "/docs/bodytype/14.svg",
+    ],
+    target: [
+      "/docs/bodytype/15.svg",
+      "/docs/bodytype/16.svg",
+      "/docs/bodytype/17.svg",
+      "/docs/bodytype/18.svg",
+    ],
+  },
+  female: {
+    current: [
+      "/docs/bodytype/3.svg",
+      "/docs/bodytype/4.svg",
+      "/docs/bodytype/5.svg",
+      "/docs/bodytype/6.svg",
+    ],
+    target: [
+      "/docs/bodytype/7.svg",
+      "/docs/bodytype/8.svg",
+      "/docs/bodytype/9.svg",
+      "/docs/bodytype/10.svg",
+    ],
+  },
+};
+
+const BMI_IMAGES = {
+  male: {
+    healthy: "/docs/Bmi/47.svg",
+    overweight: "/docs/Bmi/48.svg",
+    obese: "/docs/Bmi/49.svg",
+  },
+  female: {
+    healthy: "/docs/Bmi/50.svg",
+    overweight: "/docs/Bmi/51.svg",
+    obese: "/docs/Bmi/52.svg",
+  },
+};
+
+const INFO_INTERSTITIAL_IMAGES = [
+  "/quiz/blue-zones.png",
+  "/quiz/page11.png",
+  "/quiz/3.png",
+  "/quiz/page12.png",
+  "/quiz/mediterranean-spread.png",
+];
+
 export default function QuizPage() {
   const prefersReducedMotion = useReducedMotion();
   const smoothEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -87,6 +139,33 @@ export default function QuizPage() {
     return () => window.removeEventListener("popstate", handlePopState);
   }, [step, setStep]);
 
+  useEffect(() => {
+    if (!hydrated) return;
+    
+    const imagesToPreload: string[] = [...INFO_INTERSTITIAL_IMAGES];
+    
+    if (answers.gender) {
+      const gender = answers.gender as "male" | "female";
+      imagesToPreload.push(
+        ...BODY_TYPE_IMAGES[gender].current,
+        ...BODY_TYPE_IMAGES[gender].target,
+        ...Object.values(BMI_IMAGES[gender])
+      );
+    } else {
+      Object.values(BODY_TYPE_IMAGES).forEach((g) => {
+        imagesToPreload.push(...g.current, ...g.target);
+      });
+      Object.values(BMI_IMAGES).forEach((g) => {
+        imagesToPreload.push(...Object.values(g));
+      });
+    }
+    
+    imagesToPreload.forEach((src) => {
+      const img = new window.Image();
+      img.src = src;
+    });
+  }, [hydrated, answers.gender]);
+
   const genderGoals: string[] = (answers.gender === "male" ? t.options.goalsMale : t.options.goalsFemale) as string[];
   const q3Bodies: string[] = (answers.gender === "male" ? t.options.q3BodiesMale : t.options.q3BodiesFemale) as string[];
   const q4Bodies: string[] = (answers.gender === "male" ? t.options.q4BodiesMale : t.options.q4BodiesFemale) as string[];
@@ -124,15 +203,11 @@ export default function QuizPage() {
   }, [setStep]);
 
   const getBmiImage = () => {
-    if (answers.gender === "male") {
-      if (analysis.bmiLabel === "healthy") return "/quiz/47.svg";
-      if (analysis.bmiLabel === "overweight") return "/quiz/48.svg";
-      return "/quiz/49.svg";
-    } else {
-      if (analysis.bmiLabel === "healthy") return "/quiz/50.svg";
-      if (analysis.bmiLabel === "overweight") return "/quiz/51.svg";
-      return "/quiz/52.svg";
-    }
+    const gender = answers.gender as "male" | "female";
+    const bmiImages = BMI_IMAGES[gender] || BMI_IMAGES.female;
+    if (analysis.bmiLabel === "healthy") return bmiImages.healthy;
+    if (analysis.bmiLabel === "overweight") return bmiImages.overweight;
+    return bmiImages.obese;
   };
 
   const bmiTone = (() => {
@@ -226,21 +301,10 @@ export default function QuizPage() {
       {step === 4 && (
         <QuizSection>
           <QuizTitle>{t.steps.s4}</QuizTitle>
-          <div className="stagger-children mt-4 space-y-3">
+          <div className="stagger-children mt-8 space-y-3">
             {q3Bodies.map((item, index) => {
-              const maleBodyImages = [
-                "/docs/transparent/11.svg", // Slim
-                "/docs/transparent/12.svg", // Average
-                "/docs/transparent/13.svg", // Some belly fat
-                "/docs/transparent/14.svg", // Overweight
-              ];
-              const femaleBodyImages = [
-                "/docs/transparent/3.svg", // Slim
-                "/docs/transparent/4.svg", // Average
-                "/docs/transparent/5.svg", // Some belly fat
-                "/docs/transparent/6.svg", // Overweight
-              ];
-              const bodyImages = answers.gender === "male" ? maleBodyImages : femaleBodyImages;
+              const gender = answers.gender as "male" | "female";
+              const bodyImages = BODY_TYPE_IMAGES[gender]?.current || BODY_TYPE_IMAGES.female.current;
               
               return (
                 <OptionCard
@@ -249,10 +313,10 @@ export default function QuizPage() {
                     setAnswer("q3", item);
                     setStep(5);
                   }}
-                  className="relative overflow-hidden px-4 py-2 sm:px-5 sm:py-2.5"
+                  className="relative overflow-hidden"
                 >
                   <div className="relative flex min-h-[40px] items-center pr-24 sm:min-h-[44px] sm:pr-28">
-                    <span className="min-w-0 leading-tight break-words font-body text-sm font-semibold text-[var(--text-primary)] sm:text-[15px]">
+                    <span className="min-w-0 leading-tight break-words font-body text-base font-medium tracking-[-0.01em] text-[var(--text-primary)] sm:text-lg">
                       {item}
                     </span>
                     <div className="pointer-events-none absolute top-1/2 right-0 h-24 w-24 -translate-y-1/2 sm:h-28 sm:w-28">
@@ -261,7 +325,9 @@ export default function QuizPage() {
                         alt=""
                         fill
                         className="object-contain object-right"
-                        sizes="112px"
+                        sizes="(max-width: 640px) 96px, 112px"
+                        quality={100}
+                        unoptimized
                       />
                     </div>
                   </div>
@@ -276,21 +342,10 @@ export default function QuizPage() {
       {step === 5 && (
         <QuizSection>
           <QuizTitle>{t.steps.s5}</QuizTitle>
-          <div className="stagger-children mt-4 space-y-3">
+          <div className="stagger-children mt-8 space-y-3">
             {q4Bodies.map((item, idx) => {
-              const maleTargetImages = [
-                "/docs/transparent/15.svg",
-                "/docs/transparent/16.svg",
-                "/docs/transparent/17.svg",
-                "/docs/transparent/18.svg",
-              ];
-              const femaleTargetImages = [
-                "/docs/transparent/7.svg",
-                "/docs/transparent/8.svg",
-                "/docs/transparent/9.svg",
-                "/docs/transparent/10.svg",
-              ];
-              const targetImages = answers.gender === "male" ? maleTargetImages : femaleTargetImages;
+              const gender = answers.gender as "male" | "female";
+              const targetImages = BODY_TYPE_IMAGES[gender]?.target || BODY_TYPE_IMAGES.female.target;
               
               return (
                 <OptionCard
@@ -299,10 +354,10 @@ export default function QuizPage() {
                     setAnswer("q4", item);
                     setStep(6);
                   }}
-                  className="relative overflow-hidden px-4 py-2 sm:px-5 sm:py-2.5"
+                  className="relative overflow-hidden"
                 >
                   <div className="relative flex min-h-[40px] items-center pr-24 sm:min-h-[44px] sm:pr-28">
-                    <span className="min-w-0 leading-tight break-words font-body text-sm font-semibold text-[var(--text-primary)] sm:text-[15px]">
+                    <span className="min-w-0 leading-tight break-words font-body text-base font-medium tracking-[-0.01em] text-[var(--text-primary)] sm:text-lg">
                       {item}
                     </span>
                     <div className="pointer-events-none absolute top-1/2 right-0 h-24 w-24 -translate-y-1/2 sm:h-28 sm:w-28">
@@ -311,7 +366,9 @@ export default function QuizPage() {
                         alt=""
                         fill
                         className="object-contain object-right"
-                        sizes="112px"
+                        sizes="(max-width: 640px) 96px, 112px"
+                        quality={100}
+                        unoptimized
                       />
                     </div>
                   </div>
@@ -675,6 +732,7 @@ export default function QuizPage() {
                   fill
                   className="object-contain object-top"
                   sizes="(max-width: 640px) 224px, 240px"
+                  quality={100}
                   unoptimized
                 />
               </div>
