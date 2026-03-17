@@ -232,14 +232,14 @@ export default function QuizPage() {
       <motion.div
         key={step}
         initial={
-          prefersReducedMotion ? false : { opacity: 0, y: 12, scale: 0.995 }
+          prefersReducedMotion ? false : { opacity: 0, y: 8 }
         }
-        animate={prefersReducedMotion ? {} : { opacity: 1, y: 0, scale: 1 }}
-        exit={prefersReducedMotion ? {} : { opacity: 0, y: -4, scale: 0.998 }}
+        animate={prefersReducedMotion ? {} : { opacity: 1, y: 0 }}
+        exit={prefersReducedMotion ? {} : { opacity: 0, y: -4 }}
         transition={
           prefersReducedMotion
             ? { duration: 0 }
-            : { duration: 0.8, ease: smoothEase }
+            : { duration: 0.45, ease: smoothEase }
         }
       >
       {/* ── Step 1: Q1 - Mediterranean familiarity ── */}

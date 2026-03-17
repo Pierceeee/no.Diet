@@ -51,7 +51,7 @@
           "feature5Body": "Sledujte váhu, změny těla, energii a návyky."
         }
       },
-      "da": {
+      "dk": {
         "email": {
           "titleLine1": "Din plan er klar.",
           "titleLine2": "Ét trin for at låse den op.",
@@ -147,7 +147,7 @@
           "feature5Body": "Sledujte váhu, změny těla, energii a návyky."
         }
       },
-      "dk": {
+      "da": {
         "email": {
           "titleLine1": "Din plan er klar.",
           "titleLine2": "Ét trin for at låse den op.",
@@ -193,54 +193,6 @@
           "feature4Body": "Lær, hvorfor betændelse, forarbejdet mad og moderne kostråd hæmmer fedtforbrænding.",
           "feature5Title": "Adaptiv fremskridtssporing",
           "feature5Body": "Spor vægt, kropsændringer, energi og vaner."
-        }
-      },
-      "el": {
-        "email": {
-          "titleLine1": "Το πρόγραμμά σας είναι έτοιμο.",
-          "titleLine2": "Ένα βήμα για να το ξεκλειδώσετε.",
-          "subtitle": "Ο Μεσογειακός Προπονητής σας έχει δημιουργηθεί γύρω από το σώμα σας, τους στόχους σας και το ιστορικό σας.",
-          "placeholder": "Η διεύθυνση email σας",
-          "cta": "Ξεκλείδωμα του εξατομικευμένου μου προγράμματος →",
-          "privacy1": "🔒 Το email σας χρησιμοποιείται αποκλειστικά για την παράδοση του προγράμματός σας.",
-          "privacy2": "Δεν θα πουλήσουμε, ενοικιάσουμε ή μοιραστούμε ποτέ τα στοιχεία σας.",
-          "privacy3": "Αυτή είναι η δέσμευσή μας προς εσάς."
-        },
-        "summary": {
-          "mainTitle": "Ο εξατομικευμένος Μεσογειακός Προπονητής σας είναι έτοιμος",
-          "currentBmi": "Τρέχων ΔΜΣ",
-          "weightCategory": "Η κατηγορία βάρους σας:",
-          "continue": "Συνέχεια",
-          "underweight": "Ελλιποβαρής",
-          "healthy": "Φυσιολογικό",
-          "overweight": "Υπέρβαρος",
-          "obese": "Παχύσαρκος",
-          "bmiStory1": "Αλλά ο ΔΜΣ από μόνος του δεν αφηγείται ολόκληρη την ιστορία.",
-          "bmiStory2": "Δύο άτομα μπορεί να έχουν τον ίδιο ΔΜΣ και εντελώς διαφορετικές μεταβολικές αντιδράσεις.",
-          "bmiStory3": "Γι' αυτό το πρόγραμμά σας δεν βασίζεται σε γενικές φόρμουλες θερμίδων.",
-          "bmiStory4": "Βασίζεται σε προσαρμοστική μεταβολική εναρμόνιση.",
-          "coachTitle": "Γνωρίστε το βιο-προσαρμοστικό σύστημα coaching ελέγχου βάρους σας",
-          "coachSubtitle": "Χτισμένο σε ΤΝ και 70 χρόνια επιστήμης μακροζωίας και απώλειας βάρους από τις Μπλε Ζώνες.",
-          "card1Title": "Κινητήρας μεταβολικής πρόσληψης ΤΝ",
-          "card1Body": "Τα δεδομένα σας (σωματότυπος, επίπεδο δραστηριότητας, ενεργειακά πρότυπα, διατροφικές προτιμήσεις) αναλύονται για να καθοριστούν οι βέλτιστες διατροφικές αναλογίες για το μεταβολικό σας στάδιο.",
-          "card2Title": "Προσαρμοστικό Μεσογειακό σχέδιο",
-          "card2Body1": "Χτισμένο σε διατροφικά πρότυπα που παρατηρήθηκαν στις μακρόβιες Μεσογειακές περιοχές του κόσμου.",
-          "card2Body2": "Το πρόγραμμά σας προσαρμόζεται καθώς προσαρμόζεται το σώμα σας, βοηθώντας στη μείωση πλατό και μεταβολικής επιβράδυνσης.",
-          "card3Title": "Ο ζωντανός Προπονητής ΤΝ σας",
-          "card3Body1": "Τα περισσότερα προγράμματα σας δίνουν ένα σχέδιο και σας αφήνουν να το καταλάβετε μόνοι σας.",
-          "card3Body2": "Αυτό ακούει.",
-          "card3Body3": "Όσο περισσότερο το χρησιμοποιείτε, τόσο καλύτερα σας γνωρίζει. Όσο καλύτερα σας γνωρίζει, τόσο καλύτερα λειτουργεί.",
-          "featuresTitle": "Τι περιλαμβάνει το πρόγραμμα meDiet σας;",
-          "feature1Title": "Απεριόριστα προσαρμοστικά μεσογειακά γεύματα",
-          "feature1Body": "Προσαρμοσμένα στις προτιμήσεις σας.",
-          "feature2Title": "Εξατομικευμένη μεταβολική κίνηση",
-          "feature2Body": "Δύναμη, κινητικότητα, αποκατάσταση.",
-          "feature3Title": "Προκλήσεις συνήθειων και συνέπειας",
-          "feature3Body": "Μικρές στρατηγικές ενέργειες.",
-          "feature4Title": "Οδηγοί μακροζωίας και μεταβολισμού",
-          "feature4Body": "Μάθετε γιατί η φλεγμονή, τα επεξεργασμένα τρόφιμα και οι σύγχρονοι κανόνες δίαιτας εμποδίζουν την καύση λίπους.",
-          "feature5Title": "Προσαρμοστική παρακολούθηση προόδου",
-          "feature5Body": "Παρακολουθήστε βάρος, σωματικές αλλαγές, ενέργεια και συνήθειες."
         }
       },
       "en": {
@@ -289,6 +241,54 @@
           "feature4Body": "Learn why inflammation, processed foods, and modern diet rules disrupt fat loss.",
           "feature5Title": "Adaptive Progress Tracking",
           "feature5Body": "Track weight, body changes, energy, and habits."
+        }
+      },
+      "el": {
+        "email": {
+          "titleLine1": "Το πρόγραμμά σας είναι έτοιμο.",
+          "titleLine2": "Ένα βήμα για να το ξεκλειδώσετε.",
+          "subtitle": "Ο Μεσογειακός Προπονητής σας έχει δημιουργηθεί γύρω από το σώμα σας, τους στόχους σας και το ιστορικό σας.",
+          "placeholder": "Η διεύθυνση email σας",
+          "cta": "Ξεκλείδωμα του εξατομικευμένου μου προγράμματος →",
+          "privacy1": "🔒 Το email σας χρησιμοποιείται αποκλειστικά για την παράδοση του προγράμματός σας.",
+          "privacy2": "Δεν θα πουλήσουμε, ενοικιάσουμε ή μοιραστούμε ποτέ τα στοιχεία σας.",
+          "privacy3": "Αυτή είναι η δέσμευσή μας προς εσάς."
+        },
+        "summary": {
+          "mainTitle": "Ο εξατομικευμένος Μεσογειακός Προπονητής σας είναι έτοιμος",
+          "currentBmi": "Τρέχων ΔΜΣ",
+          "weightCategory": "Η κατηγορία βάρους σας:",
+          "continue": "Συνέχεια",
+          "underweight": "Ελλιποβαρής",
+          "healthy": "Φυσιολογικό",
+          "overweight": "Υπέρβαρος",
+          "obese": "Παχύσαρκος",
+          "bmiStory1": "Αλλά ο ΔΜΣ από μόνος του δεν αφηγείται ολόκληρη την ιστορία.",
+          "bmiStory2": "Δύο άτομα μπορεί να έχουν τον ίδιο ΔΜΣ και εντελώς διαφορετικές μεταβολικές αντιδράσεις.",
+          "bmiStory3": "Γι' αυτό το πρόγραμμά σας δεν βασίζεται σε γενικές φόρμουλες θερμίδων.",
+          "bmiStory4": "Βασίζεται σε προσαρμοστική μεταβολική εναρμόνιση.",
+          "coachTitle": "Γνωρίστε το βιο-προσαρμοστικό σύστημα coaching ελέγχου βάρους σας",
+          "coachSubtitle": "Χτισμένο σε ΤΝ και 70 χρόνια επιστήμης μακροζωίας και απώλειας βάρους από τις Μπλε Ζώνες.",
+          "card1Title": "Κινητήρας μεταβολικής πρόσληψης ΤΝ",
+          "card1Body": "Τα δεδομένα σας (σωματότυπος, επίπεδο δραστηριότητας, ενεργειακά πρότυπα, διατροφικές προτιμήσεις) αναλύονται για να καθοριστούν οι βέλτιστες διατροφικές αναλογίες για το μεταβολικό σας στάδιο.",
+          "card2Title": "Προσαρμοστικό Μεσογειακό σχέδιο",
+          "card2Body1": "Χτισμένο σε διατροφικά πρότυπα που παρατηρήθηκαν στις μακρόβιες Μεσογειακές περιοχές του κόσμου.",
+          "card2Body2": "Το πρόγραμμά σας προσαρμόζεται καθώς προσαρμόζεται το σώμα σας, βοηθώντας στη μείωση πλατό και μεταβολικής επιβράδυνσης.",
+          "card3Title": "Ο ζωντανός Προπονητής ΤΝ σας",
+          "card3Body1": "Τα περισσότερα προγράμματα σας δίνουν ένα σχέδιο και σας αφήνουν να το καταλάβετε μόνοι σας.",
+          "card3Body2": "Αυτό ακούει.",
+          "card3Body3": "Όσο περισσότερο το χρησιμοποιείτε, τόσο καλύτερα σας γνωρίζει. Όσο καλύτερα σας γνωρίζει, τόσο καλύτερα λειτουργεί.",
+          "featuresTitle": "Τι περιλαμβάνει το πρόγραμμα meDiet σας;",
+          "feature1Title": "Απεριόριστα προσαρμοστικά μεσογειακά γεύματα",
+          "feature1Body": "Προσαρμοσμένα στις προτιμήσεις σας.",
+          "feature2Title": "Εξατομικευμένη μεταβολική κίνηση",
+          "feature2Body": "Δύναμη, κινητικότητα, αποκατάσταση.",
+          "feature3Title": "Προκλήσεις συνήθειων και συνέπειας",
+          "feature3Body": "Μικρές στρατηγικές ενέργειες.",
+          "feature4Title": "Οδηγοί μακροζωίας και μεταβολισμού",
+          "feature4Body": "Μάθετε γιατί η φλεγμονή, τα επεξεργασμένα τρόφιμα και οι σύγχρονοι κανόνες δίαιτας εμποδίζουν την καύση λίπους.",
+          "feature5Title": "Προσαρμοστική παρακολούθηση προόδου",
+          "feature5Body": "Παρακολουθήστε βάρος, σωματικές αλλαγές, ενέργεια και συνήθειες."
         }
       },
       "gr": {
@@ -435,54 +435,6 @@
           "feature5Body": "עקבו אחר משקל, שינויים גופניים, אנרגיה והרגלים."
         }
       },
-      "hu": {
-        "email": {
-          "titleLine1": "A terve készen áll.",
-          "titleLine2": "Egy lépés, hogy feloldja.",
-          "subtitle": "Mediterrán edzője az Ön testére, céljaira és előzményeire szabottan készült.",
-          "placeholder": "Az Ön e-mail-címe",
-          "cta": "Megnyitom a személyre szabott programomat →",
-          "privacy1": "🔒 Az Ön e-mail-je kizárólag a terv kézbesítésére szolgál.",
-          "privacy2": "Soha nem adjuk el, béreljük ki, vagy osztjuk meg az Ön adatait.",
-          "privacy3": "Ez a mi elköteleződésünk Ön felé."
-        },
-        "summary": {
-          "mainTitle": "Az Ön személyre szabott mediterrán edzője készen áll",
-          "currentBmi": "Jelenlegi BMI",
-          "weightCategory": "Az Ön súlykategóriája:",
-          "continue": "Tovább",
-          "underweight": "Alulsúlyos",
-          "healthy": "Normál",
-          "overweight": "Túlsúlyos",
-          "obese": "Elhízott",
-          "bmiStory1": "A BMI azonban önmagában nem árulja el a teljes képet.",
-          "bmiStory2": "Két ember azonos BMI-értékkel teljesen eltérő anyagcsere-reakciót mutathat.",
-          "bmiStory3": "Ezért az Ön terve nem általános kalóriaképleteken alapul.",
-          "bmiStory4": "Adaptív anyagcsere-igazításon alapul.",
-          "coachTitle": "Ismerje meg bio-adaptív súlykezelő coaching rendszerét",
-          "coachSubtitle": "Mesterséges intelligenciára és a Kék Zónák 70 évnyi hosszú élettartam- és fogyástudományára építve.",
-          "card1Title": "MI-alapú anyagcsere-beviteli motor",
-          "card1Body": "Az Ön adatait (testtípus, aktivitási szint, energiamintázatok, ételpreferenciák) elemezzük, hogy meghatározzuk az optimális ételarányokat az Ön anyagcsere-fázisához.",
-          "card2Title": "Adaptív mediterrán terv",
-          "card2Body1": "A világ leghosszabb életű mediterrán régióiban megfigyelt étkezési mintákon alapul.",
-          "card2Body2": "Az Ön terve alkalmazkodik a teste változásaihoz, csökkentve a platót és az anyagcsere lassulását.",
-          "card3Title": "Az Ön valós idejű MI-edzője",
-          "card3Body1": "A legtöbb program tervet ad, és magára hagyja Önt.",
-          "card3Body2": "Ez hallgat.",
-          "card3Body3": "Minél tovább használja, annál jobban megismeri. Minél jobban megismeri, annál hatékonyabban működik.",
-          "featuresTitle": "Mit tartalmaz az Ön meDiet terve?",
-          "feature1Title": "Korlátlan adaptív mediterrán ételek",
-          "feature1Body": "Az Ön preferenciáihoz igazítva.",
-          "feature2Title": "Személyre szabott anyagcsere-mozgás",
-          "feature2Body": "Erő, mobilitás, regeneráció.",
-          "feature3Title": "Szokáskialakítási és kitartási kihívások",
-          "feature3Body": "Kis stratégiai lépések.",
-          "feature4Title": "Hosszú élet és anyagcsere útmutatók",
-          "feature4Body": "Megtudhatja, miért akadályozza a gyulladás, a feldolgozott ételek és a modern diétaszabályok a zsírégetést.",
-          "feature5Title": "Adaptív haladáskövetés",
-          "feature5Body": "Kövesse nyomon a testsúlyt, a testi változásokat, az energiát és a szokásokat."
-        }
-      },
       "il": {
         "email": {
           "titleLine1": "התוכנית שלכם מוכנה.",
@@ -529,6 +481,54 @@
           "feature4Body": "למדו מדוע דלקת, מזון מעובד וכללי הדיאטה המודרניים מעכבים שריפת שומן.",
           "feature5Title": "מעקב התקדמות אדפטיבי",
           "feature5Body": "עקבו אחר משקל, שינויים גופניים, אנרגיה והרגלים."
+        }
+      },
+      "hu": {
+        "email": {
+          "titleLine1": "A terve készen áll.",
+          "titleLine2": "Egy lépés, hogy feloldja.",
+          "subtitle": "Mediterrán edzője az Ön testére, céljaira és előzményeire szabottan készült.",
+          "placeholder": "Az Ön e-mail-címe",
+          "cta": "Megnyitom a személyre szabott programomat →",
+          "privacy1": "🔒 Az Ön e-mail-je kizárólag a terv kézbesítésére szolgál.",
+          "privacy2": "Soha nem adjuk el, béreljük ki, vagy osztjuk meg az Ön adatait.",
+          "privacy3": "Ez a mi elköteleződésünk Ön felé."
+        },
+        "summary": {
+          "mainTitle": "Az Ön személyre szabott mediterrán edzője készen áll",
+          "currentBmi": "Jelenlegi BMI",
+          "weightCategory": "Az Ön súlykategóriája:",
+          "continue": "Tovább",
+          "underweight": "Alulsúlyos",
+          "healthy": "Normál",
+          "overweight": "Túlsúlyos",
+          "obese": "Elhízott",
+          "bmiStory1": "A BMI azonban önmagában nem árulja el a teljes képet.",
+          "bmiStory2": "Két ember azonos BMI-értékkel teljesen eltérő anyagcsere-reakciót mutathat.",
+          "bmiStory3": "Ezért az Ön terve nem általános kalóriaképleteken alapul.",
+          "bmiStory4": "Adaptív anyagcsere-igazításon alapul.",
+          "coachTitle": "Ismerje meg bio-adaptív súlykezelő coaching rendszerét",
+          "coachSubtitle": "Mesterséges intelligenciára és a Kék Zónák 70 évnyi hosszú élettartam- és fogyástudományára építve.",
+          "card1Title": "MI-alapú anyagcsere-beviteli motor",
+          "card1Body": "Az Ön adatait (testtípus, aktivitási szint, energiamintázatok, ételpreferenciák) elemezzük, hogy meghatározzuk az optimális ételarányokat az Ön anyagcsere-fázisához.",
+          "card2Title": "Adaptív mediterrán terv",
+          "card2Body1": "A világ leghosszabb életű mediterrán régióiban megfigyelt étkezési mintákon alapul.",
+          "card2Body2": "Az Ön terve alkalmazkodik a teste változásaihoz, csökkentve a platót és az anyagcsere lassulását.",
+          "card3Title": "Az Ön valós idejű MI-edzője",
+          "card3Body1": "A legtöbb program tervet ad, és magára hagyja Önt.",
+          "card3Body2": "Ez hallgat.",
+          "card3Body3": "Minél tovább használja, annál jobban megismeri. Minél jobban megismeri, annál hatékonyabban működik.",
+          "featuresTitle": "Mit tartalmaz az Ön meDiet terve?",
+          "feature1Title": "Korlátlan adaptív mediterrán ételek",
+          "feature1Body": "Az Ön preferenciáihoz igazítva.",
+          "feature2Title": "Személyre szabott anyagcsere-mozgás",
+          "feature2Body": "Erő, mobilitás, regeneráció.",
+          "feature3Title": "Szokáskialakítási és kitartási kihívások",
+          "feature3Body": "Kis stratégiai lépések.",
+          "feature4Title": "Hosszú élet és anyagcsere útmutatók",
+          "feature4Body": "Megtudhatja, miért akadályozza a gyulladás, a feldolgozott ételek és a modern diétaszabályok a zsírégetést.",
+          "feature5Title": "Adaptív haladáskövetés",
+          "feature5Body": "Kövesse nyomon a testsúlyt, a testi változásokat, az energiát és a szokásokat."
         }
       },
       "ja": {
@@ -1015,16 +1015,16 @@
   },
   "localIds": [
     "results::local::locales\\cs\\results.content.json",
-    "results::local::locales\\da\\results.content.json",
-    "results::local::locales\\cz\\results.content.json",
     "results::local::locales\\dk\\results.content.json",
-    "results::local::locales\\el\\results.content.json",
+    "results::local::locales\\cz\\results.content.json",
+    "results::local::locales\\da\\results.content.json",
     "results::local::locales\\en\\results.content.json",
+    "results::local::locales\\el\\results.content.json",
     "results::local::locales\\gr\\results.content.json",
     "results::local::locales\\hr\\results.content.json",
     "results::local::locales\\he\\results.content.json",
-    "results::local::locales\\hu\\results.content.json",
     "results::local::locales\\il\\results.content.json",
+    "results::local::locales\\hu\\results.content.json",
     "results::local::locales\\ja\\results.content.json",
     "results::local::locales\\jp\\results.content.json",
     "results::local::locales\\lt\\results.content.json",

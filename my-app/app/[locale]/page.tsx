@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useQuiz } from "@/lib/quiz-context";
-import { preloadForGender } from "@/lib/preload-images";
+import { preloadForGender, preloadAllCommonImages } from "@/lib/preload-images";
 import { Logo } from "@/components/ui/logo";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { useIntlayer, useLocale } from "next-intlayer";
@@ -15,6 +15,12 @@ export default function LandingPage() {
   const t = useIntlayer("quiz");
   const { setGender } = useQuiz();
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    preloadAllCommonImages();
+    router.prefetch(`/${locale}/intro`);
+    router.prefetch(`/${locale}/quiz`);
+  }, [router, locale]);
 
   const handleGender = (gender: "male" | "female") => {
     setGender(gender);

@@ -18,7 +18,8 @@ export default function IntroPage() {
   useEffect(() => {
     preloadForGender(answers.gender);
     preloadInfoImages();
-  }, [answers.gender]);
+    router.prefetch(`/${locale}/quiz`);
+  }, [answers.gender, router, locale]);
 
   const handleContinue = () => {
     setStep(1);

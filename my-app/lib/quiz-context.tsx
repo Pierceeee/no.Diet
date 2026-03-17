@@ -15,7 +15,7 @@ import { generateAnalysis, type AnalysisResult } from "./generate-analysis";
 
 /* ─── Storage key ─── */
 const STORAGE_KEY = "carni-quiz";
-const FORWARD_STEP_DELAY_MS = 420;
+const FORWARD_STEP_DELAY_MS = 280;
 
 /* ─── Context shape ─── */
 interface QuizContextValue {
