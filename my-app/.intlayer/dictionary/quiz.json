@@ -2145,6 +2145,312 @@
           "bigBody": "Έρευνες δείχνουν ότι άτομα που χάνουν περισσότερο από 20% του σωματικού τους βάρους συχνά βελτιώνουν τη μεταβολική τους υγεία περισσότερο από αυτούς που χάνουν μόνο 5–10%. Η μεγαλύτερη απώλεια βάρους μπορεί να οδηγήσει σε καλύτερη ενέργεια, καλύτερο έλεγχο σακχάρου και καλύτερη συνολική υγεία."
         }
       },
+      "hr": {
+        "common": {
+          "continue": "Nastavi",
+          "menu": "Izbornik",
+          "closeMenu": "Zatvori izbornik",
+          "helpCenter": "Centar za pomoć",
+          "contactUs": "Kontaktirajte nas",
+          "terms": "Uvjeti korištenja",
+          "privacyPolicy": "Pravila privatnosti",
+          "cookiePolicy": "Pravila o kolačićima",
+          "privacySettings": "Postavke privatnosti",
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "notSet": "Nije postavljeno"
+        },
+        "landing": {
+          "hero": "Stvorimo vašeg osobnog mediteranskog trenera i program za gubitak kilograma te dulji, zdraviji život",
+          "subtitle": "Odaberite svoj program:",
+          "ctaMen": "Program za muškarce",
+          "ctaWomen": "Program za žene",
+          "footer": "© 2026 meDiet. Sva prava pridržana.",
+          "heroImageAlt": "Zdjela mediteranske kuhinje"
+        },
+        "intro": {
+          "titlePrefix": "Prije nego sastavimo vaš plan",
+          "titleHighlight": "PROČITAJTE OVO",
+          "p1": "Ako ste probali keto, brojanje kalorija ili isprekidani post i osjećali ste se kao da ste zakazali.",
+          "p2": "Niste vi zakazali. Zakazao je plan.",
+          "p3": "Ti su sustavi građeni na zastarjeloj znanosti. Krute metode. Generički predlošci.",
+          "p4Male": "Nikada nisu bili namijenjeni za način na koji muško tijelo zaista funkcionira.",
+          "p4Female": "Nikada nisu bili namijenjeni za način na koji žensko tijelo zaista funkcionira.",
+          "p5": "To se sada mijenja.",
+          "p6": "Odgovarajte iskreno. Mi ćemo se pobrinuti za ostalo."
+        },
+        "steps": {
+          "s1": "Koliko ste upoznati s mediteranskom prehranom i fenomenom Plavih zona?",
+          "s3": "Što želite postići?",
+          "s4": "Kako biste opisali svoje tijelo danas?",
+          "s5": "Kakvo tijelo želite imati?",
+          "s6": "Koje biste zone voljeli poboljšati?",
+          "s6Hint": "Ako ste zadovoljni svojim tijelom, pritisnite Nastavi",
+          "s7": "Kako izgleda vaš uobičajeni dan?",
+          "s8": "Kakva je vaša razina energije tijekom dana?",
+          "s9": "Koliko često vježbate?",
+          "s10": "Kako se obično mijenja vaša tjelesna težina?",
+          "s12": "Kada ste zadnji put bili na svojoj idealnoj težini?",
+          "s13": "Jeste li probali neku od ovih dijeta u posljednje 3 godine?",
+          "s15": "Što bi se u vašem životu najviše promijenilo kad biste bili u formi?",
+          "s16": "Kolika je vaša visina?",
+          "s17": "Kolika je vaša trenutna tjelesna težina?",
+          "s19": "Kolika je vaša ciljana težina?",
+          "s20": "Koliko imate godina?",
+          "s21Title": "Evo što smo otkrili",
+          "s21BmiTitle": "Vaš indeks tjelesne mase (ITM)",
+          "s22": "Koliko obroka dnevno biste željeli jesti?",
+          "s22Subtitle": "To možete promijeniti u postavkama u bilo kojem trenutku.",
+          "s23": "Želite li isključiti neke namirnice?",
+          "s23Label": "Bjelančevine i mliječni proizvodi:",
+          "s24": "Želite li isključiti neke namirnice?",
+          "s24Label": "Voće i povrće:",
+          "s25": "Želite li isključiti neke namirnice?",
+          "s25Label": "Žitarice i orašasti plodovi:",
+          "s27Title": "Na temelju vaših prehrambenih preferencija, sastavili smo",
+          "s27Count": "500+",
+          "s27Lead": "kombinacija obroka",
+          "s27Body": "koje vam savršeno odgovaraju i pomoći će vam postići zdravu težinu na najugodniji mogući način!"
+        },
+        "labels": {
+          "selectAll": "Označite sve što se odnosi na vas:",
+          "youValue": "Vi",
+          "underweightShort": "Ispod",
+          "underweight": "Pothranjenost",
+          "healthy": "Zdravo",
+          "overweightShort": "Iznad",
+          "overweight": "Prekomjerna težina",
+          "obese": "Pretilost",
+          "bodyFat": "Tjelesna mast",
+          "activityLevel": "Razina aktivnosti",
+          "energyLevel": "Razina energije",
+          "goal": "Cilj"
+        },
+        "options": {
+          "goalsMale": [
+            "Smanjiti tjelesnu mast",
+            "Postati vitkiji",
+            "Izgraditi mišiće",
+            "Dobiti više energije",
+            "Poboljšati zdravlje",
+            "Živjeti dulje"
+          ],
+          "goalsFemale": [
+            "Smanjiti tjelesnu mast",
+            "Postati vitka",
+            "Oblikovati tijelo",
+            "Dobiti više energije",
+            "Poboljšati zdravlje",
+            "Živjeti dulje"
+          ],
+          "q3BodiesMale": [
+            "Vitak",
+            "Prosječan",
+            "Malo sala na trbuhu",
+            "Prekomjerna težina"
+          ],
+          "q3BodiesFemale": [
+            "Vitka",
+            "Prosječna",
+            "Malo sala na trbuhu",
+            "Prekomjerna težina"
+          ],
+          "q4BodiesMale": [
+            "Malo vitkiji",
+            "Vitak i fit",
+            "Atletski",
+            "Snažan i definiran"
+          ],
+          "q4BodiesFemale": [
+            "Osjećati se opet kao ja",
+            "Riješiti se tvrdoglavog sala na trbuhu",
+            "Osjećati se lakše i sigurnije",
+            "Izgledati tonusno i mlado"
+          ],
+          "q12Reasons": [
+            "Kako se osjećam pred ogledalom",
+            "Osjećati se opet kao ja",
+            "Moja energija s djecom / obitelji",
+            "Moje samopouzdanje u društvu",
+            "Kako se osjećam uz partnera",
+            "Moje dugoročno zdravlje",
+            "Kako mi stoje odjeća"
+          ],
+          "familiarity": [
+            "To je za mene novo",
+            "Poznajem osnove",
+            "Već sam to probao/la"
+          ],
+          "bodyAreas": [
+            "Ruke",
+            "Prsa",
+            "Leđa",
+            "Trbuh",
+            "Noge",
+            "Stražnjica"
+          ],
+          "dayToDay": [
+            "Sjedim većinu dana",
+            "Puno se krećem",
+            "Redovito vježbam",
+            "Ostaje kod kuće"
+          ],
+          "energy": [
+            "Obično niska",
+            "Osjećam se umorno popodne",
+            "Moja energija varira",
+            "Moja energija je stabilna"
+          ],
+          "exercise": [
+            "Nikad",
+            "Nekoliko puta mjesečno",
+            "Nekoliko puta tjedno",
+            "Gotovo svaki dan"
+          ],
+          "weightChange": [
+            "Brzo debljam i sporo mršavim",
+            "Mršavim ali se vraćam na staro",
+            "Moja težina ostaje stabilna",
+            "Teško mi je izgraditi mišiće"
+          ],
+          "idealWeight": [
+            "Manje od godinu dana",
+            "Prije 1–3 godine",
+            "Prije više od 3 godine",
+            "Nikada nisam bio/la na idealnoj težini"
+          ],
+          "diets": [
+            "Keto",
+            "Isprekidani post",
+            "Niskouhljikohidratna",
+            "Vegetarijanska",
+            "Veganska",
+            "Bezglutenska",
+            "Druga",
+            "Nijedna od navedenih"
+          ],
+          "meals": [
+            "Dva",
+            "Tri",
+            "Četiri",
+            "Pet"
+          ],
+          "mealDescriptions": [
+            "Doručak i večera, s mogućim užinama",
+            "Doručak, ručak i večera",
+            "Doručak, užina, ručak i večera",
+            "Doručak, ručak, večera i dvije užine"
+          ],
+          "proteins": [
+            "Jedem sve",
+            "Piletina",
+            "Crveno meso",
+            "Sir",
+            "Tuna",
+            "Grčki jogurt",
+            "Losos",
+            "Kozice",
+            "Jaja",
+            "Slanutak",
+            "Leća",
+            "Tofu"
+          ],
+          "vegetables": [
+            "Jedem sve",
+            "Rajčice",
+            "Krastavac",
+            "Brokula",
+            "Špinat",
+            "Tikvica",
+            "Paprika",
+            "Avokado",
+            "Masline",
+            "Luk"
+          ],
+          "grains": [
+            "Jedem sve",
+            "Riža",
+            "Kus-kus",
+            "Kvinoja",
+            "Zobene pahuljice",
+            "Bademi",
+            "Orasi",
+            "Kikiriki",
+            "Kukuruz"
+          ]
+        },
+        "loading": {
+          "title": "Izrađujemo vaš plan...",
+          "messages": [
+            "Analiziramo vaš metabolički profil…",
+            "Pregledavamo prehrambene preferencije…",
+            "Uspoređujemo s podacima o dugovječnosti Plavih zona…",
+            "Obrađujemo najnovija istraživanja o prehrani…",
+            "Podešavamo omjere makronutrijenata…",
+            "Gradimo vaš prilagodljivi mediteranski coaching sustav…"
+          ]
+        },
+        "infoBlocks": {
+          "eyebrow": "Personalizirani uvid",
+          "blueZones": {
+            "title": "Njihova tajna za vitko tijelo i dugi život.\n\nSAD KONAČNO I VAŠA.",
+            "body": "Stanovnici najdugovječnijih regija na svijetu, poznatih kao **Plave zone**, žive dulje od svih ostalih.\n\nTakođer su u boljoj formi. Vitkiji. Energičniji. I po svakom mjerilu, među najsretnijim ljudima na Zemlji.\n\nNe broje kalorije. Ne ograničavaju ugljikohidrate. Jedu pravu hranu, zdrave masti, kvalitetne sastojke.\n\n**Po prvi put, najdokazanija dijeta dugovječnosti na svijetu gradi se oko vas, a ne oko svih.**",
+            "image": "/quiz/blue-zones.png"
+          },
+          "metabolism": {
+            "title": "Vaš metabolizam nije pokvaren.\nSamo mu je dan pogrešan plan.",
+            "body": "Vaše tijelo se mijenja. Većina planova ne.\n\n**Naš sustav temeljen na AI radi 24/7.**\n\nIzučen na stotinama godina istraživanja. Milijunima stvarnih slučajeva.\n\nPrilagođava se kada vi se prilagođavate.\n\nNikad ne prestaje raditi za vas.",
+            "image": "/quiz/page11.png"
+          },
+          "dietsWrong": {
+            "title": "Te dijete nisu zakazale jer ste ih vi loše radili.",
+            "body": "Zakazale su jer se nikad nisu mijenjale.\n\nKeto. Brojanje kalorija. Malo masti. Puno žitarica.\n\nPoštivali ste pravila. Vaše tijelo se prilagodilo. Plan nije.\n\n**Znanost je jasna: statički planovi uvijek zakazuju.**\n\nVaše tijelo nije statično. Niti vaš plan ne smije biti.",
+            "image": "/quiz/3.png"
+          },
+          "bmiExplanation": {
+            "title": "Koristimo vašu visinu i težinu za izračun indeksa tjelesne mase (ITM).",
+            "body": "ITM nam pomaže razumjeti vaš trenutni raspon tjelesne težine."
+          },
+          "adviceWrong": {
+            "title": "Savjet koji ste dobivali?\n\nBIO JE POGREŠAN",
+            "body": "Godinama su govorili: jedite manje masti, brojite svaku kaloriju, pratite piramidu.\n\nMilijuni su to savršeno slijedili. Milijuni su i dalje imali problema.\n\nTemelj je bio naopak. Ne vi.\n\nZnanost je napredovala. Vaš plan to odražava.",
+            "image": "/quiz/page12.png"
+          },
+          "ageMetabolism": {
+            "title": "Dob mijenja metabolizam, ali ne zaustavlja rezultate.",
+            "body": "S godinama tijelo drugačije reagira na hranu.\n\nZato dijete koje su iste za sve često zakazuju nakon 30 ili 40.\n\nVaš plan mora se prilagoditi vašoj životnoj fazi."
+          },
+          "preEmail": {
+            "title": "Ovo nije još jedan fiksni jelovnik.",
+            "body": "Vaš mediteranski program pokreće AI coaching.\n\nPrilagođava se prema vašem napretku, razini energije i povratnim informacijama.\n\nNe trebate pogađati.\n\nSustav se razvija zajedno s vama.",
+            "image": "/quiz/mediterranean-spread.png"
+          }
+        },
+        "bmiMessages": {
+          "healthy": {
+            "title": "Vaš ITM je u zdravom rasponu.",
+            "body": "To je odlična polazna točka. Cilj je sada održati težinu, poboljšati izgled tijela i podržati metabolizam. Koristit ćemo vaš ITM za izradu personaliziranog mediteranskog coaching sustava koji će vam pomoći ostati fit i snažni."
+          },
+          "overweight": {
+            "title": "Vaš ITM je u rasponu prekomjerne težine.",
+            "body": "To znači da vaše tijelo može pohranjivati višak masti. Uz pravi prehrambeni plan, možete se kretati prema zdravijoj težini. Koristit ćemo vaš ITM za izradu personaliziranog mediteranskog coaching sustava."
+          },
+          "obese": {
+            "title": "Vaš ITM je u rasponu pretilosti.",
+            "body": "To znači da vaše tijelo nosi više kilograma nego što je preporučeno. Čak i malo smanjenje težine može poboljšati zdravlje i energiju. Koristit ćemo vaš ITM za izradu personaliziranog mediteranskog coaching sustava koji će vam pomoći mršavjeti zdravo i postupno."
+          },
+          "underweight": {
+            "title": "Vaš ITM je u rasponu pothranjenosti.",
+            "body": "Pomoći ćemo vam izgraditi zdrav prehrambeni plan koji podržava vaš metabolizam i opću dobrobit."
+          }
+        },
+        "weightLoss": {
+          "smallTitle": "Zdravstvena korist: Izgubite {percent}% tjelesne težine",
+          "smallBody": "Istraživanja pokazuju da čak i gubitak 10% tjelesne težine može poboljšati zdravlje. To može pomoći u smanjenju rizika od srčanih bolesti, visokog šećera u krvi i upala u tijelu. Male promjene mogu napraviti veliku razliku.",
+          "bigTitle": "Veći cilj: Izgubite {percent}% tjelesne težine",
+          "bigBody": "Istraživanja pokazuju da osobe koje izgube više od 20% tjelesne težine često poboljšavaju svoje metaboličko zdravlje više od onih koji izgube samo 5–10%. Veći gubitak težine može dovesti do bolje energije, boljeg kontroliranja šećera u krvi i boljeg općeg zdravlja."
+        }
+      },
       "he": {
         "common": {
           "continue": "המשך",
@@ -2755,312 +3061,6 @@
           "smallBody": "Tanulmányok kimutatták, hogy már a testsúly 10%-ának leadása is javíthatja az egészséget. Csökkentheti a szívbetegség, a magas vércukor és a gyulladás kockázatát a szervezetben. A kis változtatások nagy különbséget hozhatnak.",
           "bigTitle": "Nagyobb cél: fogyhatok {percent}%-ot",
           "bigBody": "Kutatások igazolják, hogy akik a testsúlyuk több mint 20%-át leadják, sokszor nagyobb mértékben javítják metabolikus egészségüket, mint azok, akik csak 5–10%-ot fogynak. A nagyobb mértékű fogyás jobb energiaszinthez, jobb vércukorkontrollhoz és jobb általános egészséghez vezethet."
-        }
-      },
-      "hr": {
-        "common": {
-          "continue": "Nastavi",
-          "menu": "Izbornik",
-          "closeMenu": "Zatvori izbornik",
-          "helpCenter": "Centar za pomoć",
-          "contactUs": "Kontaktirajte nas",
-          "terms": "Uvjeti korištenja",
-          "privacyPolicy": "Pravila privatnosti",
-          "cookiePolicy": "Pravila o kolačićima",
-          "privacySettings": "Postavke privatnosti",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "Nije postavljeno"
-        },
-        "landing": {
-          "hero": "Stvorimo vašeg osobnog mediteranskog trenera i program za gubitak kilograma te dulji, zdraviji život",
-          "subtitle": "Odaberite svoj program:",
-          "ctaMen": "Program za muškarce",
-          "ctaWomen": "Program za žene",
-          "footer": "© 2026 meDiet. Sva prava pridržana.",
-          "heroImageAlt": "Zdjela mediteranske kuhinje"
-        },
-        "intro": {
-          "titlePrefix": "Prije nego sastavimo vaš plan",
-          "titleHighlight": "PROČITAJTE OVO",
-          "p1": "Ako ste probali keto, brojanje kalorija ili isprekidani post i osjećali ste se kao da ste zakazali.",
-          "p2": "Niste vi zakazali. Zakazao je plan.",
-          "p3": "Ti su sustavi građeni na zastarjeloj znanosti. Krute metode. Generički predlošci.",
-          "p4Male": "Nikada nisu bili namijenjeni za način na koji muško tijelo zaista funkcionira.",
-          "p4Female": "Nikada nisu bili namijenjeni za način na koji žensko tijelo zaista funkcionira.",
-          "p5": "To se sada mijenja.",
-          "p6": "Odgovarajte iskreno. Mi ćemo se pobrinuti za ostalo."
-        },
-        "steps": {
-          "s1": "Koliko ste upoznati s mediteranskom prehranom i fenomenom Plavih zona?",
-          "s3": "Što želite postići?",
-          "s4": "Kako biste opisali svoje tijelo danas?",
-          "s5": "Kakvo tijelo želite imati?",
-          "s6": "Koje biste zone voljeli poboljšati?",
-          "s6Hint": "Ako ste zadovoljni svojim tijelom, pritisnite Nastavi",
-          "s7": "Kako izgleda vaš uobičajeni dan?",
-          "s8": "Kakva je vaša razina energije tijekom dana?",
-          "s9": "Koliko često vježbate?",
-          "s10": "Kako se obično mijenja vaša tjelesna težina?",
-          "s12": "Kada ste zadnji put bili na svojoj idealnoj težini?",
-          "s13": "Jeste li probali neku od ovih dijeta u posljednje 3 godine?",
-          "s15": "Što bi se u vašem životu najviše promijenilo kad biste bili u formi?",
-          "s16": "Kolika je vaša visina?",
-          "s17": "Kolika je vaša trenutna tjelesna težina?",
-          "s19": "Kolika je vaša ciljana težina?",
-          "s20": "Koliko imate godina?",
-          "s21Title": "Evo što smo otkrili",
-          "s21BmiTitle": "Vaš indeks tjelesne mase (ITM)",
-          "s22": "Koliko obroka dnevno biste željeli jesti?",
-          "s22Subtitle": "To možete promijeniti u postavkama u bilo kojem trenutku.",
-          "s23": "Želite li isključiti neke namirnice?",
-          "s23Label": "Bjelančevine i mliječni proizvodi:",
-          "s24": "Želite li isključiti neke namirnice?",
-          "s24Label": "Voće i povrće:",
-          "s25": "Želite li isključiti neke namirnice?",
-          "s25Label": "Žitarice i orašasti plodovi:",
-          "s27Title": "Na temelju vaših prehrambenih preferencija, sastavili smo",
-          "s27Count": "500+",
-          "s27Lead": "kombinacija obroka",
-          "s27Body": "koje vam savršeno odgovaraju i pomoći će vam postići zdravu težinu na najugodniji mogući način!"
-        },
-        "labels": {
-          "selectAll": "Označite sve što se odnosi na vas:",
-          "youValue": "Vi",
-          "underweightShort": "Ispod",
-          "underweight": "Pothranjenost",
-          "healthy": "Zdravo",
-          "overweightShort": "Iznad",
-          "overweight": "Prekomjerna težina",
-          "obese": "Pretilost",
-          "bodyFat": "Tjelesna mast",
-          "activityLevel": "Razina aktivnosti",
-          "energyLevel": "Razina energije",
-          "goal": "Cilj"
-        },
-        "options": {
-          "goalsMale": [
-            "Smanjiti tjelesnu mast",
-            "Postati vitkiji",
-            "Izgraditi mišiće",
-            "Dobiti više energije",
-            "Poboljšati zdravlje",
-            "Živjeti dulje"
-          ],
-          "goalsFemale": [
-            "Smanjiti tjelesnu mast",
-            "Postati vitka",
-            "Oblikovati tijelo",
-            "Dobiti više energije",
-            "Poboljšati zdravlje",
-            "Živjeti dulje"
-          ],
-          "q3BodiesMale": [
-            "Vitak",
-            "Prosječan",
-            "Malo sala na trbuhu",
-            "Prekomjerna težina"
-          ],
-          "q3BodiesFemale": [
-            "Vitka",
-            "Prosječna",
-            "Malo sala na trbuhu",
-            "Prekomjerna težina"
-          ],
-          "q4BodiesMale": [
-            "Malo vitkiji",
-            "Vitak i fit",
-            "Atletski",
-            "Snažan i definiran"
-          ],
-          "q4BodiesFemale": [
-            "Osjećati se opet kao ja",
-            "Riješiti se tvrdoglavog sala na trbuhu",
-            "Osjećati se lakše i sigurnije",
-            "Izgledati tonusno i mlado"
-          ],
-          "q12Reasons": [
-            "Kako se osjećam pred ogledalom",
-            "Osjećati se opet kao ja",
-            "Moja energija s djecom / obitelji",
-            "Moje samopouzdanje u društvu",
-            "Kako se osjećam uz partnera",
-            "Moje dugoročno zdravlje",
-            "Kako mi stoje odjeća"
-          ],
-          "familiarity": [
-            "To je za mene novo",
-            "Poznajem osnove",
-            "Već sam to probao/la"
-          ],
-          "bodyAreas": [
-            "Ruke",
-            "Prsa",
-            "Leđa",
-            "Trbuh",
-            "Noge",
-            "Stražnjica"
-          ],
-          "dayToDay": [
-            "Sjedim većinu dana",
-            "Puno se krećem",
-            "Redovito vježbam",
-            "Ostaje kod kuće"
-          ],
-          "energy": [
-            "Obično niska",
-            "Osjećam se umorno popodne",
-            "Moja energija varira",
-            "Moja energija je stabilna"
-          ],
-          "exercise": [
-            "Nikad",
-            "Nekoliko puta mjesečno",
-            "Nekoliko puta tjedno",
-            "Gotovo svaki dan"
-          ],
-          "weightChange": [
-            "Brzo debljam i sporo mršavim",
-            "Mršavim ali se vraćam na staro",
-            "Moja težina ostaje stabilna",
-            "Teško mi je izgraditi mišiće"
-          ],
-          "idealWeight": [
-            "Manje od godinu dana",
-            "Prije 1–3 godine",
-            "Prije više od 3 godine",
-            "Nikada nisam bio/la na idealnoj težini"
-          ],
-          "diets": [
-            "Keto",
-            "Isprekidani post",
-            "Niskouhljikohidratna",
-            "Vegetarijanska",
-            "Veganska",
-            "Bezglutenska",
-            "Druga",
-            "Nijedna od navedenih"
-          ],
-          "meals": [
-            "Dva",
-            "Tri",
-            "Četiri",
-            "Pet"
-          ],
-          "mealDescriptions": [
-            "Doručak i večera, s mogućim užinama",
-            "Doručak, ručak i večera",
-            "Doručak, užina, ručak i večera",
-            "Doručak, ručak, večera i dvije užine"
-          ],
-          "proteins": [
-            "Jedem sve",
-            "Piletina",
-            "Crveno meso",
-            "Sir",
-            "Tuna",
-            "Grčki jogurt",
-            "Losos",
-            "Kozice",
-            "Jaja",
-            "Slanutak",
-            "Leća",
-            "Tofu"
-          ],
-          "vegetables": [
-            "Jedem sve",
-            "Rajčice",
-            "Krastavac",
-            "Brokula",
-            "Špinat",
-            "Tikvica",
-            "Paprika",
-            "Avokado",
-            "Masline",
-            "Luk"
-          ],
-          "grains": [
-            "Jedem sve",
-            "Riža",
-            "Kus-kus",
-            "Kvinoja",
-            "Zobene pahuljice",
-            "Bademi",
-            "Orasi",
-            "Kikiriki",
-            "Kukuruz"
-          ]
-        },
-        "loading": {
-          "title": "Izrađujemo vaš plan...",
-          "messages": [
-            "Analiziramo vaš metabolički profil…",
-            "Pregledavamo prehrambene preferencije…",
-            "Uspoređujemo s podacima o dugovječnosti Plavih zona…",
-            "Obrađujemo najnovija istraživanja o prehrani…",
-            "Podešavamo omjere makronutrijenata…",
-            "Gradimo vaš prilagodljivi mediteranski coaching sustav…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "Personalizirani uvid",
-          "blueZones": {
-            "title": "Njihova tajna za vitko tijelo i dugi život.\n\nSAD KONAČNO I VAŠA.",
-            "body": "Stanovnici najdugovječnijih regija na svijetu, poznatih kao **Plave zone**, žive dulje od svih ostalih.\n\nTakođer su u boljoj formi. Vitkiji. Energičniji. I po svakom mjerilu, među najsretnijim ljudima na Zemlji.\n\nNe broje kalorije. Ne ograničavaju ugljikohidrate. Jedu pravu hranu, zdrave masti, kvalitetne sastojke.\n\n**Po prvi put, najdokazanija dijeta dugovječnosti na svijetu gradi se oko vas, a ne oko svih.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "Vaš metabolizam nije pokvaren.\nSamo mu je dan pogrešan plan.",
-            "body": "Vaše tijelo se mijenja. Većina planova ne.\n\n**Naš sustav temeljen na AI radi 24/7.**\n\nIzučen na stotinama godina istraživanja. Milijunima stvarnih slučajeva.\n\nPrilagođava se kada vi se prilagođavate.\n\nNikad ne prestaje raditi za vas.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "Te dijete nisu zakazale jer ste ih vi loše radili.",
-            "body": "Zakazale su jer se nikad nisu mijenjale.\n\nKeto. Brojanje kalorija. Malo masti. Puno žitarica.\n\nPoštivali ste pravila. Vaše tijelo se prilagodilo. Plan nije.\n\n**Znanost je jasna: statički planovi uvijek zakazuju.**\n\nVaše tijelo nije statično. Niti vaš plan ne smije biti.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "Koristimo vašu visinu i težinu za izračun indeksa tjelesne mase (ITM).",
-            "body": "ITM nam pomaže razumjeti vaš trenutni raspon tjelesne težine."
-          },
-          "adviceWrong": {
-            "title": "Savjet koji ste dobivali?\n\nBIO JE POGREŠAN",
-            "body": "Godinama su govorili: jedite manje masti, brojite svaku kaloriju, pratite piramidu.\n\nMilijuni su to savršeno slijedili. Milijuni su i dalje imali problema.\n\nTemelj je bio naopak. Ne vi.\n\nZnanost je napredovala. Vaš plan to odražava.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "Dob mijenja metabolizam, ali ne zaustavlja rezultate.",
-            "body": "S godinama tijelo drugačije reagira na hranu.\n\nZato dijete koje su iste za sve često zakazuju nakon 30 ili 40.\n\nVaš plan mora se prilagoditi vašoj životnoj fazi."
-          },
-          "preEmail": {
-            "title": "Ovo nije još jedan fiksni jelovnik.",
-            "body": "Vaš mediteranski program pokreće AI coaching.\n\nPrilagođava se prema vašem napretku, razini energije i povratnim informacijama.\n\nNe trebate pogađati.\n\nSustav se razvija zajedno s vama.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "Vaš ITM je u zdravom rasponu.",
-            "body": "To je odlična polazna točka. Cilj je sada održati težinu, poboljšati izgled tijela i podržati metabolizam. Koristit ćemo vaš ITM za izradu personaliziranog mediteranskog coaching sustava koji će vam pomoći ostati fit i snažni."
-          },
-          "overweight": {
-            "title": "Vaš ITM je u rasponu prekomjerne težine.",
-            "body": "To znači da vaše tijelo može pohranjivati višak masti. Uz pravi prehrambeni plan, možete se kretati prema zdravijoj težini. Koristit ćemo vaš ITM za izradu personaliziranog mediteranskog coaching sustava."
-          },
-          "obese": {
-            "title": "Vaš ITM je u rasponu pretilosti.",
-            "body": "To znači da vaše tijelo nosi više kilograma nego što je preporučeno. Čak i malo smanjenje težine može poboljšati zdravlje i energiju. Koristit ćemo vaš ITM za izradu personaliziranog mediteranskog coaching sustava koji će vam pomoći mršavjeti zdravo i postupno."
-          },
-          "underweight": {
-            "title": "Vaš ITM je u rasponu pothranjenosti.",
-            "body": "Pomoći ćemo vam izgraditi zdrav prehrambeni plan koji podržava vaš metabolizam i opću dobrobit."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "Zdravstvena korist: Izgubite {percent}% tjelesne težine",
-          "smallBody": "Istraživanja pokazuju da čak i gubitak 10% tjelesne težine može poboljšati zdravlje. To može pomoći u smanjenju rizika od srčanih bolesti, visokog šećera u krvi i upala u tijelu. Male promjene mogu napraviti veliku razliku.",
-          "bigTitle": "Veći cilj: Izgubite {percent}% tjelesne težine",
-          "bigBody": "Istraživanja pokazuju da osobe koje izgube više od 20% tjelesne težine često poboljšavaju svoje metaboličko zdravlje više od onih koji izgube samo 5–10%. Veći gubitak težine može dovesti do bolje energije, boljeg kontroliranja šećera u krvi i boljeg općeg zdravlja."
         }
       },
       "il": {
@@ -4287,312 +4287,6 @@
           "bigBody": "Tyrimai rodo, kad žmonės, kurie numeta daugiau nei 20% kūno svorio, dažnai pagerina savo metabolinę sveikatą daugiau nei tie, kurie numeta tik 5–10%. Didesnis svorio metimas gali suteikti geresnę energiją, geresnę cukraus kraujyje kontrolę ir geresnę bendrą sveikatą."
         }
       },
-      "ro": {
-        "common": {
-          "continue": "Continuă",
-          "menu": "Meniu",
-          "closeMenu": "Închide meniu",
-          "helpCenter": "Centru de ajutor",
-          "contactUs": "Contactați-ne",
-          "terms": "Termeni și condiții",
-          "privacyPolicy": "Politica de confidențialitate",
-          "cookiePolicy": "Politica de cookie-uri",
-          "privacySettings": "Setări de confidențialitate",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "Nesetat"
-        },
-        "landing": {
-          "hero": "Hai să creăm antrenorul tău personal mediteranean și un program de slăbit pentru o viață lungă și sănătoasă",
-          "subtitle": "Alegeți programul:",
-          "ctaMen": "Program pentru bărbați",
-          "ctaWomen": "Program pentru femei",
-          "footer": "© 2026 meDiet. Toate drepturile rezervate.",
-          "heroImageAlt": "Bol cu mâncare mediteraneană"
-        },
-        "intro": {
-          "titlePrefix": "Înainte să alcătuim planul vostru",
-          "titleHighlight": "CITIȚI ASTA",
-          "p1": "Dacă ați încercat keto, numărarea caloriilor sau postul intermitent și v-ați simțit că ați eșuat.",
-          "p2": "Nu voi ați eșuat. Planul v-a dezamăgit.",
-          "p3": "Aceste sisteme au fost construite pe știință depășită. Reguli rigide. Șabloane generice.",
-          "p4Male": "Nu au fost niciodată concepute pentru modul în care funcționează cu adevărat corpul unui bărbat.",
-          "p4Female": "Nu au fost niciodată concepute pentru modul în care funcționează cu adevărat corpul unei femei.",
-          "p5": "Acum se schimbă.",
-          "p6": "Răspundeți sincer. Noi ne ocupăm de restul."
-        },
-        "steps": {
-          "s1": "Cât de familiarizați sunteți cu dieta mediteraneană și fenomenul Zonelor Albastre?",
-          "s3": "Ce doriți să obțineți?",
-          "s4": "Cum v-ați descrie corpul acum?",
-          "s5": "Ce corp doriți să aveți?",
-          "s6": "Ce zone ați dori să îmbunătățiți?",
-          "s6Hint": "Dacă ești mulțumit de corpul tău, apasă Continuă",
-          "s7": "Cum arată ziua ta obișnuită?",
-          "s8": "Care este nivelul dvs. de energie pe parcursul zilei?",
-          "s9": "Cât de des faceți mișcare?",
-          "s10": "Cum se schimbă de obicei greutatea dvs.?",
-          "s12": "Când ați fost ultima dată la greutatea ideală?",
-          "s13": "Ați încercat vreuna din aceste diete în ultimii 3 ani?",
-          "s15": "Ce s-ar schimba cel mai mult în viața dvs. dacă ați fi în formă?",
-          "s16": "Care este înălțimea dvs.?",
-          "s17": "Care este greutatea dvs. actuală?",
-          "s19": "Care este greutatea dvs. țintă?",
-          "s20": "Câți ani aveți?",
-          "s21Title": "Iată ce am descoperit",
-          "s21BmiTitle": "Indicele dvs. de masă corporală (IMC)",
-          "s22": "Câte mese pe zi doriți?",
-          "s22Subtitle": "Puteți schimba asta oricând în setări.",
-          "s23": "Doriți să excludeți anumite alimente?",
-          "s23Label": "Proteine și produse lactate:",
-          "s24": "Doriți să excludeți anumite alimente?",
-          "s24Label": "Fructe și legume:",
-          "s25": "Doriți să excludeți anumite alimente?",
-          "s25Label": "Cereale și nuci:",
-          "s27Title": "Pe baza preferințelor dvs. alimentare, am creat",
-          "s27Count": "500+",
-          "s27Lead": "combinații de mese",
-          "s27Body": "care vi se potrivesc perfect și vă vor ajuta să ajungeți la o greutate sănătoasă în cel mai plăcut mod posibil!"
-        },
-        "labels": {
-          "selectAll": "Selectați tot ce se aplică:",
-          "youValue": "Voi",
-          "underweightShort": "Sub",
-          "underweight": "Subpondere",
-          "healthy": "Sănătos",
-          "overweightShort": "Peste",
-          "overweight": "Suprapondere",
-          "obese": "Obezitate",
-          "bodyFat": "Grăsime corporală",
-          "activityLevel": "Nivel de activitate",
-          "energyLevel": "Nivel de energie",
-          "goal": "Obiectiv"
-        },
-        "options": {
-          "goalsMale": [
-            "Reducerea grăsimii corporale",
-            "Deveni mai slab",
-            "Construi masă musculară",
-            "Mai multă energie",
-            "Îmbunătăți sănătatea",
-            "Trăi mai mult"
-          ],
-          "goalsFemale": [
-            "Reducerea grăsimii corporale",
-            "Deveni mai slabă",
-            "Modela corpul",
-            "Mai multă energie",
-            "Îmbunătăți sănătatea",
-            "Trăi mai mult"
-          ],
-          "q3BodiesMale": [
-            "Slab",
-            "Mediu",
-            "Puțin grăsime pe burtă",
-            "Supraponderal"
-          ],
-          "q3BodiesFemale": [
-            "Slabă",
-            "Medie",
-            "Puțin grăsime pe burtă",
-            "Supraponderală"
-          ],
-          "q4BodiesMale": [
-            "Puțin mai slab",
-            "Slab și fit",
-            "Atletic",
-            "Puternic și definit"
-          ],
-          "q4BodiesFemale": [
-            "Să mă simt din nou eu însumi",
-            "Să scap de grăsimea abdominală încăpățânată",
-            "Să mă simt mai ușoară și mai sigură pe mine",
-            "Să arăt tonifiată și tânără"
-          ],
-          "q12Reasons": [
-            "Cum mă simt când mă uit în oglindă",
-            "Să mă simt din nou eu",
-            "Energia mea cu copiii / familia",
-            "Încrederea mea în compania altora",
-            "Cum mă simt cu partenerul",
-            "Sănătatea mea pe termen lung",
-            "Cum îmi stau hainele"
-          ],
-          "familiarity": [
-            "Este nou pentru mine",
-            "Cunosc bazele",
-            "Am mai încercat"
-          ],
-          "bodyAreas": [
-            "Brațe",
-            "Piept",
-            "Spate",
-            "Burtă",
-            "Picioare",
-            "Fese"
-          ],
-          "dayToDay": [
-            "Stau jos cea mai mare parte a zilei",
-            "Mă mișc mult",
-            "Fac sport regulat",
-            "Stau acasă"
-          ],
-          "energy": [
-            "De obicei scăzut",
-            "Mă simt obosit după-amiaza",
-            "Energia mea variază",
-            "Energia mea este stabilă"
-          ],
-          "exercise": [
-            "Niciodată",
-            "Câteva ori pe lună",
-            "Câteva ori pe săptămână",
-            "Aproape în fiecare zi"
-          ],
-          "weightChange": [
-            "Mă îngraș repede și slăbesc greu",
-            "Slăbesc dar mă îngraș din nou",
-            "Greutatea mea rămâne stabilă",
-            "Îmi este greu să construiesc mușchi"
-          ],
-          "idealWeight": [
-            "Mai puțin de 1 an",
-            "Acum 1–3 ani",
-            "Acum mai mult de 3 ani",
-            "Nu am fost niciodată la greutatea ideală"
-          ],
-          "diets": [
-            "Keto",
-            "Post intermitent",
-            "Sărace în carbohidrați",
-            "Vegetariană",
-            "Vegană",
-            "Fără gluten",
-            "Alta",
-            "Niciuna"
-          ],
-          "meals": [
-            "Două",
-            "Trei",
-            "Patru",
-            "Cinci"
-          ],
-          "mealDescriptions": [
-            "Mic dejun și cină, cu gustări opționale",
-            "Mic dejun, prânz și cină",
-            "Mic dejun, gustare, prânz și cină",
-            "Mic dejun, prânz, cină și două gustări"
-          ],
-          "proteins": [
-            "Mănânc tot",
-            "Pui",
-            "Carne roșie",
-            "Brânză",
-            "Ton",
-            "Iaurt grecesc",
-            "Somon",
-            "Creveți",
-            "Ouă",
-            "Naut",
-            "Linte",
-            "Tofu"
-          ],
-          "vegetables": [
-            "Mănânc tot",
-            "Roșii",
-            "Castraveți",
-            "Broccoli",
-            "Spanac",
-            "Dovlecel",
-            "Ardei",
-            "Avocado",
-            "Măsline",
-            "Ceapă"
-          ],
-          "grains": [
-            "Mănânc tot",
-            "Orez",
-            "Cuscus",
-            "Quinoa",
-            "Fulgi de ovăz",
-            "Migdale",
-            "Nuci",
-            "Arahide",
-            "Porumb"
-          ]
-        },
-        "loading": {
-          "title": "Alcătuim planul dvs....",
-          "messages": [
-            "Analizăm profilul dvs. metabolic…",
-            "Examinăm preferințele alimentare…",
-            "Comparăm cu datele de longevitate ale Zonelor Albastre…",
-            "Procesăm cele mai recente cercetări nutriționale…",
-            "Reglăm fin raportul de macronutrienți…",
-            "Construim sistemul dvs. adaptiv de coaching mediteranean…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "Perspectivă personalizată",
-          "blueZones": {
-            "title": "Secretul lor pentru un corp slab și o viață lungă.\n\nACUM ÎN SFÂRȘIT ȘI AL VOSTRU.",
-            "body": "Locuitorii celor mai longevive regiuni din lume, cunoscute ca **Zonele Albastre**, trăiesc mai mult decât toți ceilalți.\n\nSunt și mai în formă. Mai slabi. Mai energici. Și după orice măsură, printre cei mai fericiți oameni de pe Pământ.\n\nNu numără calorii. Nu restricționează carbohidrați. Mănâncă alimente reale, grăsimi sănătoase, ingrediente de calitate.\n\n**Pentru prima dată, cea mai dovedită dietă de longevitate din lume este construită în jurul vostru, nu în jurul tuturor.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "Metabolismul dvs. nu este stricat.\nA primit pur și simplu un plan greșit.",
-            "body": "Corpul vostru se schimbă. Cele mai multe planuri nu.\n\n**Sistemul nostru bazat pe AI funcționează 24/7.**\n\nAntrenat pe sute de ani de cercetare. Milioane de cazuri reale.\n\nSe adaptează când voi vă adaptați.\n\nNu se oprește niciodată să lucreze pentru voi.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "Aceste diete nu au eșuat pentru că le-ați făcut greșit.",
-            "body": "Au eșuat pentru că nu s-au schimbat niciodată.\n\nKeto. Numărarea caloriilor. Puține grăsimi. Multe cereale.\n\nAți respectat regulile. Corpul vostru s-a adaptat. Planul nu.\n\n**Știința este clară: planurile statice eșuează întotdeauna.**\n\nCorpul vostru nu este static. Nici planul vostru nu ar trebui să fie.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "Folosim înălțimea și greutatea dvs. pentru a calcula Indicele de Masă Corporală (IMC).",
-            "body": "IMC ne ajută să înțelegem intervalul vostru actual de greutate."
-          },
-          "adviceWrong": {
-            "title": "Sfatul pe care l-ați primit?\n\nA FOST GREȘIT",
-            "body": "Ani de zile vi s-a spus: mâncați mai puține grăsimi, numărați fiecare calorie, urmați piramida.\n\nMilioane au respectat-o la perfecție. Milioane au continuat să se lupte.\n\nFundamentul era greșit. Nu voi.\n\nȘtiința a recuperat. Planul vostru reflectă asta.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "Vârsta schimbă metabolismul, dar nu oprește rezultatele.",
-            "body": "Pe măsură ce îmbătrânim, corpul reacționează diferit la alimente.\n\nDe aceea dietele universale eșuează adesea după 30 sau 40 de ani.\n\nPlanul vostru trebuie să se adapteze la etapa voastră de viață."
-          },
-          "preEmail": {
-            "title": "Acesta nu este un alt meniu fix.",
-            "body": "Programul vostru mediteranean este alimentat de coaching AI.\n\nSe adaptează în funcție de progresul vostru, nivelurile de energie și feedback-ul vostru.\n\nNu trebuie să ghiciți.\n\nSistemul evoluează împreună cu voi.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "IMC-ul dvs. se află în intervalul sănătos.",
-            "body": "Acesta este un punct de plecare excelent. Obiectivul acum este să mențineți greutatea, să îmbunătățiți forma corpului și să susțineți metabolismul. Vom folosi IMC-ul dvs. pentru a construi sistemul vostru personalizat de coaching mediteranean și pentru a vă ajuta să rămâneți în formă și puternici."
-          },
-          "overweight": {
-            "title": "IMC-ul dvs. se află în intervalul de suprapondere.",
-            "body": "Asta înseamnă că corpul vostru poate stoca grăsime în exces. Cu planul alimentar potrivit, puteți ajunge la o greutate mai sănătoasă. Vom folosi IMC-ul dvs. pentru a construi sistemul vostru personalizat de coaching mediteranean."
-          },
-          "obese": {
-            "title": "IMC-ul dvs. se află în intervalul obezității.",
-            "body": "Asta înseamnă că corpul vostru poartă mai multă greutate decât este recomandat. Chiar și o mică pierdere în greutate poate îmbunătăți sănătatea și energia. Vom folosi IMC-ul dvs. pentru a construi un sistem personalizat de coaching mediteranean care să vă ajute să slăbiți sănătos și treptat."
-          },
-          "underweight": {
-            "title": "IMC-ul dvs. se află în intervalul subponderalității.",
-            "body": "Vă vom ajuta să construiți un plan alimentar sănătos care să susțină metabolismul și starea generală de bine."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "Beneficiu pentru sănătate: Pierdeți {percent}% din greutatea corporală",
-          "smallBody": "Studiile arată că chiar și pierderea a 10% din greutatea corporală poate îmbunătăți sănătatea. Poate ajuta la reducerea riscului de boli cardiovasculare, glicemie ridicată și inflamații în corp. Schimbările mici pot face o diferență mare.",
-          "bigTitle": "Obiectiv mai mare: Pierdeți {percent}% din greutatea corporală",
-          "bigBody": "Cercetările arată că persoanele care pierd mai mult de 20% din greutatea corporală îmbunătățesc adesea sănătatea metabolică mai mult decât cei care pierd doar 5–10%. O pierdere mai mare în greutate poate duce la o energie mai bună, un control mai bun al glicemiei și o sănătate generală mai bună."
-        }
-      },
       "lv": {
         "common": {
           "continue": "Turpināt",
@@ -4897,6 +4591,312 @@
           "smallBody": "Pētījumi liecina, ka pat 10% ķermeņa svara zaudēšana var uzlabot veselību. Tas var palīdzēt samazināt sirds slimību, augsta cukura asinīs un iekaisuma risku organismā. Nelieli pārmaiņas var padarīt lielu atšķirību.",
           "bigTitle": "Lielāks mērķis: Zaudējiet {percent}% no sava svara",
           "bigBody": "Pētījumi liecina, ka cilvēki, kuri zaudē vairāk nekā 20% ķermeņa svara, bieži uzlabo savu metabolisko veselību vairāk nekā tie, kuri zaudē tikai 5–10%. Lielāka svara zaudēšana var novest pie labākas enerģijas, labākas cukura asinīs kontroles un labākas vispārējās veselības."
+        }
+      },
+      "ro": {
+        "common": {
+          "continue": "Continuă",
+          "menu": "Meniu",
+          "closeMenu": "Închide meniu",
+          "helpCenter": "Centru de ajutor",
+          "contactUs": "Contactați-ne",
+          "terms": "Termeni și condiții",
+          "privacyPolicy": "Politica de confidențialitate",
+          "cookiePolicy": "Politica de cookie-uri",
+          "privacySettings": "Setări de confidențialitate",
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "notSet": "Nesetat"
+        },
+        "landing": {
+          "hero": "Hai să creăm antrenorul tău personal mediteranean și un program de slăbit pentru o viață lungă și sănătoasă",
+          "subtitle": "Alegeți programul:",
+          "ctaMen": "Program pentru bărbați",
+          "ctaWomen": "Program pentru femei",
+          "footer": "© 2026 meDiet. Toate drepturile rezervate.",
+          "heroImageAlt": "Bol cu mâncare mediteraneană"
+        },
+        "intro": {
+          "titlePrefix": "Înainte să alcătuim planul vostru",
+          "titleHighlight": "CITIȚI ASTA",
+          "p1": "Dacă ați încercat keto, numărarea caloriilor sau postul intermitent și v-ați simțit că ați eșuat.",
+          "p2": "Nu voi ați eșuat. Planul v-a dezamăgit.",
+          "p3": "Aceste sisteme au fost construite pe știință depășită. Reguli rigide. Șabloane generice.",
+          "p4Male": "Nu au fost niciodată concepute pentru modul în care funcționează cu adevărat corpul unui bărbat.",
+          "p4Female": "Nu au fost niciodată concepute pentru modul în care funcționează cu adevărat corpul unei femei.",
+          "p5": "Acum se schimbă.",
+          "p6": "Răspundeți sincer. Noi ne ocupăm de restul."
+        },
+        "steps": {
+          "s1": "Cât de familiarizați sunteți cu dieta mediteraneană și fenomenul Zonelor Albastre?",
+          "s3": "Ce doriți să obțineți?",
+          "s4": "Cum v-ați descrie corpul acum?",
+          "s5": "Ce corp doriți să aveți?",
+          "s6": "Ce zone ați dori să îmbunătățiți?",
+          "s6Hint": "Dacă ești mulțumit de corpul tău, apasă Continuă",
+          "s7": "Cum arată ziua ta obișnuită?",
+          "s8": "Care este nivelul dvs. de energie pe parcursul zilei?",
+          "s9": "Cât de des faceți mișcare?",
+          "s10": "Cum se schimbă de obicei greutatea dvs.?",
+          "s12": "Când ați fost ultima dată la greutatea ideală?",
+          "s13": "Ați încercat vreuna din aceste diete în ultimii 3 ani?",
+          "s15": "Ce s-ar schimba cel mai mult în viața dvs. dacă ați fi în formă?",
+          "s16": "Care este înălțimea dvs.?",
+          "s17": "Care este greutatea dvs. actuală?",
+          "s19": "Care este greutatea dvs. țintă?",
+          "s20": "Câți ani aveți?",
+          "s21Title": "Iată ce am descoperit",
+          "s21BmiTitle": "Indicele dvs. de masă corporală (IMC)",
+          "s22": "Câte mese pe zi doriți?",
+          "s22Subtitle": "Puteți schimba asta oricând în setări.",
+          "s23": "Doriți să excludeți anumite alimente?",
+          "s23Label": "Proteine și produse lactate:",
+          "s24": "Doriți să excludeți anumite alimente?",
+          "s24Label": "Fructe și legume:",
+          "s25": "Doriți să excludeți anumite alimente?",
+          "s25Label": "Cereale și nuci:",
+          "s27Title": "Pe baza preferințelor dvs. alimentare, am creat",
+          "s27Count": "500+",
+          "s27Lead": "combinații de mese",
+          "s27Body": "care vi se potrivesc perfect și vă vor ajuta să ajungeți la o greutate sănătoasă în cel mai plăcut mod posibil!"
+        },
+        "labels": {
+          "selectAll": "Selectați tot ce se aplică:",
+          "youValue": "Voi",
+          "underweightShort": "Sub",
+          "underweight": "Subpondere",
+          "healthy": "Sănătos",
+          "overweightShort": "Peste",
+          "overweight": "Suprapondere",
+          "obese": "Obezitate",
+          "bodyFat": "Grăsime corporală",
+          "activityLevel": "Nivel de activitate",
+          "energyLevel": "Nivel de energie",
+          "goal": "Obiectiv"
+        },
+        "options": {
+          "goalsMale": [
+            "Reducerea grăsimii corporale",
+            "Deveni mai slab",
+            "Construi masă musculară",
+            "Mai multă energie",
+            "Îmbunătăți sănătatea",
+            "Trăi mai mult"
+          ],
+          "goalsFemale": [
+            "Reducerea grăsimii corporale",
+            "Deveni mai slabă",
+            "Modela corpul",
+            "Mai multă energie",
+            "Îmbunătăți sănătatea",
+            "Trăi mai mult"
+          ],
+          "q3BodiesMale": [
+            "Slab",
+            "Mediu",
+            "Puțin grăsime pe burtă",
+            "Supraponderal"
+          ],
+          "q3BodiesFemale": [
+            "Slabă",
+            "Medie",
+            "Puțin grăsime pe burtă",
+            "Supraponderală"
+          ],
+          "q4BodiesMale": [
+            "Puțin mai slab",
+            "Slab și fit",
+            "Atletic",
+            "Puternic și definit"
+          ],
+          "q4BodiesFemale": [
+            "Să mă simt din nou eu însumi",
+            "Să scap de grăsimea abdominală încăpățânată",
+            "Să mă simt mai ușoară și mai sigură pe mine",
+            "Să arăt tonifiată și tânără"
+          ],
+          "q12Reasons": [
+            "Cum mă simt când mă uit în oglindă",
+            "Să mă simt din nou eu",
+            "Energia mea cu copiii / familia",
+            "Încrederea mea în compania altora",
+            "Cum mă simt cu partenerul",
+            "Sănătatea mea pe termen lung",
+            "Cum îmi stau hainele"
+          ],
+          "familiarity": [
+            "Este nou pentru mine",
+            "Cunosc bazele",
+            "Am mai încercat"
+          ],
+          "bodyAreas": [
+            "Brațe",
+            "Piept",
+            "Spate",
+            "Burtă",
+            "Picioare",
+            "Fese"
+          ],
+          "dayToDay": [
+            "Stau jos cea mai mare parte a zilei",
+            "Mă mișc mult",
+            "Fac sport regulat",
+            "Stau acasă"
+          ],
+          "energy": [
+            "De obicei scăzut",
+            "Mă simt obosit după-amiaza",
+            "Energia mea variază",
+            "Energia mea este stabilă"
+          ],
+          "exercise": [
+            "Niciodată",
+            "Câteva ori pe lună",
+            "Câteva ori pe săptămână",
+            "Aproape în fiecare zi"
+          ],
+          "weightChange": [
+            "Mă îngraș repede și slăbesc greu",
+            "Slăbesc dar mă îngraș din nou",
+            "Greutatea mea rămâne stabilă",
+            "Îmi este greu să construiesc mușchi"
+          ],
+          "idealWeight": [
+            "Mai puțin de 1 an",
+            "Acum 1–3 ani",
+            "Acum mai mult de 3 ani",
+            "Nu am fost niciodată la greutatea ideală"
+          ],
+          "diets": [
+            "Keto",
+            "Post intermitent",
+            "Sărace în carbohidrați",
+            "Vegetariană",
+            "Vegană",
+            "Fără gluten",
+            "Alta",
+            "Niciuna"
+          ],
+          "meals": [
+            "Două",
+            "Trei",
+            "Patru",
+            "Cinci"
+          ],
+          "mealDescriptions": [
+            "Mic dejun și cină, cu gustări opționale",
+            "Mic dejun, prânz și cină",
+            "Mic dejun, gustare, prânz și cină",
+            "Mic dejun, prânz, cină și două gustări"
+          ],
+          "proteins": [
+            "Mănânc tot",
+            "Pui",
+            "Carne roșie",
+            "Brânză",
+            "Ton",
+            "Iaurt grecesc",
+            "Somon",
+            "Creveți",
+            "Ouă",
+            "Naut",
+            "Linte",
+            "Tofu"
+          ],
+          "vegetables": [
+            "Mănânc tot",
+            "Roșii",
+            "Castraveți",
+            "Broccoli",
+            "Spanac",
+            "Dovlecel",
+            "Ardei",
+            "Avocado",
+            "Măsline",
+            "Ceapă"
+          ],
+          "grains": [
+            "Mănânc tot",
+            "Orez",
+            "Cuscus",
+            "Quinoa",
+            "Fulgi de ovăz",
+            "Migdale",
+            "Nuci",
+            "Arahide",
+            "Porumb"
+          ]
+        },
+        "loading": {
+          "title": "Alcătuim planul dvs....",
+          "messages": [
+            "Analizăm profilul dvs. metabolic…",
+            "Examinăm preferințele alimentare…",
+            "Comparăm cu datele de longevitate ale Zonelor Albastre…",
+            "Procesăm cele mai recente cercetări nutriționale…",
+            "Reglăm fin raportul de macronutrienți…",
+            "Construim sistemul dvs. adaptiv de coaching mediteranean…"
+          ]
+        },
+        "infoBlocks": {
+          "eyebrow": "Perspectivă personalizată",
+          "blueZones": {
+            "title": "Secretul lor pentru un corp slab și o viață lungă.\n\nACUM ÎN SFÂRȘIT ȘI AL VOSTRU.",
+            "body": "Locuitorii celor mai longevive regiuni din lume, cunoscute ca **Zonele Albastre**, trăiesc mai mult decât toți ceilalți.\n\nSunt și mai în formă. Mai slabi. Mai energici. Și după orice măsură, printre cei mai fericiți oameni de pe Pământ.\n\nNu numără calorii. Nu restricționează carbohidrați. Mănâncă alimente reale, grăsimi sănătoase, ingrediente de calitate.\n\n**Pentru prima dată, cea mai dovedită dietă de longevitate din lume este construită în jurul vostru, nu în jurul tuturor.**",
+            "image": "/quiz/blue-zones.png"
+          },
+          "metabolism": {
+            "title": "Metabolismul dvs. nu este stricat.\nA primit pur și simplu un plan greșit.",
+            "body": "Corpul vostru se schimbă. Cele mai multe planuri nu.\n\n**Sistemul nostru bazat pe AI funcționează 24/7.**\n\nAntrenat pe sute de ani de cercetare. Milioane de cazuri reale.\n\nSe adaptează când voi vă adaptați.\n\nNu se oprește niciodată să lucreze pentru voi.",
+            "image": "/quiz/page11.png"
+          },
+          "dietsWrong": {
+            "title": "Aceste diete nu au eșuat pentru că le-ați făcut greșit.",
+            "body": "Au eșuat pentru că nu s-au schimbat niciodată.\n\nKeto. Numărarea caloriilor. Puține grăsimi. Multe cereale.\n\nAți respectat regulile. Corpul vostru s-a adaptat. Planul nu.\n\n**Știința este clară: planurile statice eșuează întotdeauna.**\n\nCorpul vostru nu este static. Nici planul vostru nu ar trebui să fie.",
+            "image": "/quiz/3.png"
+          },
+          "bmiExplanation": {
+            "title": "Folosim înălțimea și greutatea dvs. pentru a calcula Indicele de Masă Corporală (IMC).",
+            "body": "IMC ne ajută să înțelegem intervalul vostru actual de greutate."
+          },
+          "adviceWrong": {
+            "title": "Sfatul pe care l-ați primit?\n\nA FOST GREȘIT",
+            "body": "Ani de zile vi s-a spus: mâncați mai puține grăsimi, numărați fiecare calorie, urmați piramida.\n\nMilioane au respectat-o la perfecție. Milioane au continuat să se lupte.\n\nFundamentul era greșit. Nu voi.\n\nȘtiința a recuperat. Planul vostru reflectă asta.",
+            "image": "/quiz/page12.png"
+          },
+          "ageMetabolism": {
+            "title": "Vârsta schimbă metabolismul, dar nu oprește rezultatele.",
+            "body": "Pe măsură ce îmbătrânim, corpul reacționează diferit la alimente.\n\nDe aceea dietele universale eșuează adesea după 30 sau 40 de ani.\n\nPlanul vostru trebuie să se adapteze la etapa voastră de viață."
+          },
+          "preEmail": {
+            "title": "Acesta nu este un alt meniu fix.",
+            "body": "Programul vostru mediteranean este alimentat de coaching AI.\n\nSe adaptează în funcție de progresul vostru, nivelurile de energie și feedback-ul vostru.\n\nNu trebuie să ghiciți.\n\nSistemul evoluează împreună cu voi.",
+            "image": "/quiz/mediterranean-spread.png"
+          }
+        },
+        "bmiMessages": {
+          "healthy": {
+            "title": "IMC-ul dvs. se află în intervalul sănătos.",
+            "body": "Acesta este un punct de plecare excelent. Obiectivul acum este să mențineți greutatea, să îmbunătățiți forma corpului și să susțineți metabolismul. Vom folosi IMC-ul dvs. pentru a construi sistemul vostru personalizat de coaching mediteranean și pentru a vă ajuta să rămâneți în formă și puternici."
+          },
+          "overweight": {
+            "title": "IMC-ul dvs. se află în intervalul de suprapondere.",
+            "body": "Asta înseamnă că corpul vostru poate stoca grăsime în exces. Cu planul alimentar potrivit, puteți ajunge la o greutate mai sănătoasă. Vom folosi IMC-ul dvs. pentru a construi sistemul vostru personalizat de coaching mediteranean."
+          },
+          "obese": {
+            "title": "IMC-ul dvs. se află în intervalul obezității.",
+            "body": "Asta înseamnă că corpul vostru poartă mai multă greutate decât este recomandat. Chiar și o mică pierdere în greutate poate îmbunătăți sănătatea și energia. Vom folosi IMC-ul dvs. pentru a construi un sistem personalizat de coaching mediteranean care să vă ajute să slăbiți sănătos și treptat."
+          },
+          "underweight": {
+            "title": "IMC-ul dvs. se află în intervalul subponderalității.",
+            "body": "Vă vom ajuta să construiți un plan alimentar sănătos care să susțină metabolismul și starea generală de bine."
+          }
+        },
+        "weightLoss": {
+          "smallTitle": "Beneficiu pentru sănătate: Pierdeți {percent}% din greutatea corporală",
+          "smallBody": "Studiile arată că chiar și pierderea a 10% din greutatea corporală poate îmbunătăți sănătatea. Poate ajuta la reducerea riscului de boli cardiovasculare, glicemie ridicată și inflamații în corp. Schimbările mici pot face o diferență mare.",
+          "bigTitle": "Obiectiv mai mare: Pierdeți {percent}% din greutatea corporală",
+          "bigBody": "Cercetările arată că persoanele care pierd mai mult de 20% din greutatea corporală îmbunătățesc adesea sănătatea metabolică mai mult decât cei care pierd doar 5–10%. O pierdere mai mare în greutate poate duce la o energie mai bună, un control mai bun al glicemiei și o sănătate generală mai bună."
         }
       },
       "ru": {
@@ -6439,15 +6439,15 @@
     "quiz::local::locales\\el\\quiz.content.json",
     "quiz::local::locales\\en\\quiz.content.json",
     "quiz::local::locales\\gr\\quiz.content.json",
+    "quiz::local::locales\\hr\\quiz.content.json",
     "quiz::local::locales\\he\\quiz.content.json",
     "quiz::local::locales\\hu\\quiz.content.json",
-    "quiz::local::locales\\hr\\quiz.content.json",
     "quiz::local::locales\\il\\quiz.content.json",
     "quiz::local::locales\\ja\\quiz.content.json",
     "quiz::local::locales\\jp\\quiz.content.json",
     "quiz::local::locales\\lt\\quiz.content.json",
-    "quiz::local::locales\\ro\\quiz.content.json",
     "quiz::local::locales\\lv\\quiz.content.json",
+    "quiz::local::locales\\ro\\quiz.content.json",
     "quiz::local::locales\\ru\\quiz.content.json",
     "quiz::local::locales\\sk\\quiz.content.json",
     "quiz::local::locales\\tw\\quiz.content.json",

@@ -654,6 +654,99 @@
           }
         ]
       },
+      "hr": {
+        "timerLabel": "50% popusta rezervirano za vas:",
+        "getMyPlan": "UZMI MOJ PLAN",
+        "now": "Sad",
+        "goal": "Cilj",
+        "bodyFat": "Tjelesna mast:",
+        "bmi": "ITM:",
+        "fitnessLevel": "Razina kondicije:",
+        "planReadyTitle": "Vaš personalizirani mediteranski coaching plan je spreman",
+        "yourGoal": "Vaš cilj",
+        "targetWeight": "Ciljana težina",
+        "planIsReady": "Vaš plan je spreman",
+        "safeCheckout": "ZAJAMČENO SIGURNO PLAĆANJE",
+        "highlights": "Ključni elementi vašeg plana",
+        "visibleResults": "Vidljivi rezultati za 4 tjedna!",
+        "faqTitle": "Imate pitanja?",
+        "riskFreeTitle": "Jamstvo bez rizika",
+        "riskFreeBody": "Pretplatu možete otkazati u bilo koje vrijeme kontaktiranjem podrške e-mailom na hello@mediet.app. Bez dodatnih naknada.",
+        "resultsMayVary": "Rezultati mogu varirati.",
+        "copyright": "© 2026 Mediet.app. Sva prava pridržana.",
+        "agreeTextStart": "Slažem se s",
+        "agreeTerms": "Uvjetima korištenja",
+        "agreeMiddle": "i",
+        "agreePrivacy": "Pravilima privatnosti",
+        "agreeEnd": ".",
+        "ctaLegal": "Klikom na „UZMI MOJ PLAN” pristajete platiti ${price} za vaš {plan}. Ako ne otkažete prije isteka prvog razdoblja, vaša pretplata će se automatski obnoviti po cijeni ${renewPrice} sve do otkazivanja. Možete otkazati u bilo koje vrijeme kontaktiranjem podrške na hello@mediet.app.",
+        "defaultGoal": "Mršavljenje",
+        "plans": {
+          "week": "7-dnevni plan",
+          "month": "1-mjesečni plan",
+          "quarter": "3-mjesečni plan"
+        },
+        "features": [
+          {
+            "title": "Neograničene prilagodljive kombinacije mediteranskih obroka",
+            "description": "Precizno prilagođene vašim preferencijama i ograničenjima. Ugodne. Strukturirane. Održive."
+          },
+          {
+            "title": "Neograničeni personalizirani protokoli kretanja za metaboličku podršku",
+            "description": "Snaga, mobilnost, joga, oporavak. Osmišljeni za poticanje sagorijevanja masti bez izgaranja."
+          },
+          {
+            "title": "Izazovi navika i dosljednosti",
+            "description": "Mali strateški koraci za izgradnju zamaha. Jer ritam pobjeđuje motivaciju."
+          },
+          {
+            "title": "Mediteranski vodiči za dugovječnost i metabolizam",
+            "description": "Razumite: zašto upala sprječava sagorijevanje masti, zašto prerađena hrana narušava metabolizam, zašto dugovječni narodi jedu drugačije. Jasnoća uklanja zbunjenost."
+          },
+          {
+            "title": "Vizualizacija napretka i prilagodljivo praćenje",
+            "description": "Pratite: trendove tjelesne težine, promjene tjelesnog sastava, razine energije, dosljednost navika. Da sustav ostane usklađen s vama."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Što su „Plave zone” i zašto su važne?",
+            "answer": "Plave zone su regije na svijetu gdje ljudi žive najdulje i najzdravije. U tim regijama, ljudi uglavnom jedu cjelovitu hranu, zdrave masti, povrće, mahunarke i uravnotežene obroke. Vaš plan koristi te dokazane prehrambene obrasce, ali ih prilagođava vašem tijelu, ciljevima i načinu života. To nije samo dijeta. To je sustav temeljen na dugovječnosti."
+          },
+          {
+            "question": "Po čemu se ovo razlikuje od uobičajenog mediteranskog prehrambenog plana?",
+            "answer": "Većina mediteranskih planova je fiksna. Vaše tijelo nije. Vaš personalizirani Mediteranski trener koristi rezultate upitnika za izradu plana temeljenog na: vašem metabolizmu, razini aktivnosti, prehrambenim preferencijama i ciljevima. Kako se vaše tijelo mijenja, vaš plan može se prilagoditi. To je razlika."
+          },
+          {
+            "question": "Što točno radi AI trener?",
+            "answer": "AI trener pomaže personalizirati vašu prehranu i pratiti vaš napredak. Koristi vaše podatke i ažuriranja napretka za: fino podešavanje kombinacija obroka, prijedloge rutina kretanja, zadržavanje na pravom putu i sprečavanje zastoja. Umjesto da počinjete ispočetka, vaš plan se razvija."
+          },
+          {
+            "question": "Trebam li brojati kalorije ili pratiti makronutrijente?",
+            "answer": "Ne. Vaš plan sastavljen je na uravnoteženim mediteranskim omjerima. Fokusirate se na jelo prave hrane u pravim kombinacijama, a ne na dnevne brojeve."
+          },
+          {
+            "question": "Probao/la sam mnoge dijete. Zašto bi ova funkcionirala za mene?",
+            "answer": "Mnoge dijete zakazuju jer su: prestroge, preopćenite, temeljene na zastarjelim pravilima kalorija ili neprilagođene vašoj životnoj fazi. Ovaj sustav fokusira se na metaboličku ravnotežu, a ne na kažnjavanje. Osmišljen je da bude dugoročno održiv."
+          },
+          {
+            "question": "Je li ovo sigurno za osobe starije od 40 godina?",
+            "answer": "Da. Zapravo, sustav je posebno koristan za osobe starije od 30 i 40 kada se metabolizam prirodno mijenja. Plan se fokusira na uravnotežene obroke, cjelovitu hranu i postupni napredak, a ne na ekstremna ograničenja."
+          },
+          {
+            "question": "Hoću li stalno biti gladan/a?",
+            "answer": "Ne. Mediteranska struktura fokusira se na: povrće bogato vlaknima, zdrave masti i uravnotežene bjelančevine. Ta hrana vam pomaže ostati siti i zadovoljni."
+          },
+          {
+            "question": "Koliko dugo treba dok ne vidim rezultate?",
+            "answer": "Mnogi korisnici primjećuju poboljšanja u energiji, nadutosti i apetitu već u prvim tjednima. Vidljive promjene tijela obično zahtijevaju dosljednost. Vaš plan je izgrađen za postupni napredak, a ne brza rješenja."
+          },
+          {
+            "question": "Mogu li otkazati u bilo koje vrijeme?",
+            "answer": "Da. Pretplatu možete otkazati u bilo koje vrijeme kontaktiranjem podrške na hello@mediet.app. Nema dodatnih naknada za otkazivanje."
+          }
+        ]
+      },
       "he": {
         "timerLabel": "50% הנחה שמורה עבורכם:",
         "getMyPlan": "קבל את התוכנית שלי",
@@ -837,99 +930,6 @@
           {
             "question": "Bármikor lemondható az előfizetés?",
             "answer": "Igen. Az előfizetést bármikor lemondhatja, ha a hello@mediet.app e-mail-címen megkeresi az ügyfélszolgálatot. Semmilyen lemondási díj nem merül fel."
-          }
-        ]
-      },
-      "hr": {
-        "timerLabel": "50% popusta rezervirano za vas:",
-        "getMyPlan": "UZMI MOJ PLAN",
-        "now": "Sad",
-        "goal": "Cilj",
-        "bodyFat": "Tjelesna mast:",
-        "bmi": "ITM:",
-        "fitnessLevel": "Razina kondicije:",
-        "planReadyTitle": "Vaš personalizirani mediteranski coaching plan je spreman",
-        "yourGoal": "Vaš cilj",
-        "targetWeight": "Ciljana težina",
-        "planIsReady": "Vaš plan je spreman",
-        "safeCheckout": "ZAJAMČENO SIGURNO PLAĆANJE",
-        "highlights": "Ključni elementi vašeg plana",
-        "visibleResults": "Vidljivi rezultati za 4 tjedna!",
-        "faqTitle": "Imate pitanja?",
-        "riskFreeTitle": "Jamstvo bez rizika",
-        "riskFreeBody": "Pretplatu možete otkazati u bilo koje vrijeme kontaktiranjem podrške e-mailom na hello@mediet.app. Bez dodatnih naknada.",
-        "resultsMayVary": "Rezultati mogu varirati.",
-        "copyright": "© 2026 Mediet.app. Sva prava pridržana.",
-        "agreeTextStart": "Slažem se s",
-        "agreeTerms": "Uvjetima korištenja",
-        "agreeMiddle": "i",
-        "agreePrivacy": "Pravilima privatnosti",
-        "agreeEnd": ".",
-        "ctaLegal": "Klikom na „UZMI MOJ PLAN” pristajete platiti ${price} za vaš {plan}. Ako ne otkažete prije isteka prvog razdoblja, vaša pretplata će se automatski obnoviti po cijeni ${renewPrice} sve do otkazivanja. Možete otkazati u bilo koje vrijeme kontaktiranjem podrške na hello@mediet.app.",
-        "defaultGoal": "Mršavljenje",
-        "plans": {
-          "week": "7-dnevni plan",
-          "month": "1-mjesečni plan",
-          "quarter": "3-mjesečni plan"
-        },
-        "features": [
-          {
-            "title": "Neograničene prilagodljive kombinacije mediteranskih obroka",
-            "description": "Precizno prilagođene vašim preferencijama i ograničenjima. Ugodne. Strukturirane. Održive."
-          },
-          {
-            "title": "Neograničeni personalizirani protokoli kretanja za metaboličku podršku",
-            "description": "Snaga, mobilnost, joga, oporavak. Osmišljeni za poticanje sagorijevanja masti bez izgaranja."
-          },
-          {
-            "title": "Izazovi navika i dosljednosti",
-            "description": "Mali strateški koraci za izgradnju zamaha. Jer ritam pobjeđuje motivaciju."
-          },
-          {
-            "title": "Mediteranski vodiči za dugovječnost i metabolizam",
-            "description": "Razumite: zašto upala sprječava sagorijevanje masti, zašto prerađena hrana narušava metabolizam, zašto dugovječni narodi jedu drugačije. Jasnoća uklanja zbunjenost."
-          },
-          {
-            "title": "Vizualizacija napretka i prilagodljivo praćenje",
-            "description": "Pratite: trendove tjelesne težine, promjene tjelesnog sastava, razine energije, dosljednost navika. Da sustav ostane usklađen s vama."
-          }
-        ],
-        "faq": [
-          {
-            "question": "Što su „Plave zone” i zašto su važne?",
-            "answer": "Plave zone su regije na svijetu gdje ljudi žive najdulje i najzdravije. U tim regijama, ljudi uglavnom jedu cjelovitu hranu, zdrave masti, povrće, mahunarke i uravnotežene obroke. Vaš plan koristi te dokazane prehrambene obrasce, ali ih prilagođava vašem tijelu, ciljevima i načinu života. To nije samo dijeta. To je sustav temeljen na dugovječnosti."
-          },
-          {
-            "question": "Po čemu se ovo razlikuje od uobičajenog mediteranskog prehrambenog plana?",
-            "answer": "Većina mediteranskih planova je fiksna. Vaše tijelo nije. Vaš personalizirani Mediteranski trener koristi rezultate upitnika za izradu plana temeljenog na: vašem metabolizmu, razini aktivnosti, prehrambenim preferencijama i ciljevima. Kako se vaše tijelo mijenja, vaš plan može se prilagoditi. To je razlika."
-          },
-          {
-            "question": "Što točno radi AI trener?",
-            "answer": "AI trener pomaže personalizirati vašu prehranu i pratiti vaš napredak. Koristi vaše podatke i ažuriranja napretka za: fino podešavanje kombinacija obroka, prijedloge rutina kretanja, zadržavanje na pravom putu i sprečavanje zastoja. Umjesto da počinjete ispočetka, vaš plan se razvija."
-          },
-          {
-            "question": "Trebam li brojati kalorije ili pratiti makronutrijente?",
-            "answer": "Ne. Vaš plan sastavljen je na uravnoteženim mediteranskim omjerima. Fokusirate se na jelo prave hrane u pravim kombinacijama, a ne na dnevne brojeve."
-          },
-          {
-            "question": "Probao/la sam mnoge dijete. Zašto bi ova funkcionirala za mene?",
-            "answer": "Mnoge dijete zakazuju jer su: prestroge, preopćenite, temeljene na zastarjelim pravilima kalorija ili neprilagođene vašoj životnoj fazi. Ovaj sustav fokusira se na metaboličku ravnotežu, a ne na kažnjavanje. Osmišljen je da bude dugoročno održiv."
-          },
-          {
-            "question": "Je li ovo sigurno za osobe starije od 40 godina?",
-            "answer": "Da. Zapravo, sustav je posebno koristan za osobe starije od 30 i 40 kada se metabolizam prirodno mijenja. Plan se fokusira na uravnotežene obroke, cjelovitu hranu i postupni napredak, a ne na ekstremna ograničenja."
-          },
-          {
-            "question": "Hoću li stalno biti gladan/a?",
-            "answer": "Ne. Mediteranska struktura fokusira se na: povrće bogato vlaknima, zdrave masti i uravnotežene bjelančevine. Ta hrana vam pomaže ostati siti i zadovoljni."
-          },
-          {
-            "question": "Koliko dugo treba dok ne vidim rezultate?",
-            "answer": "Mnogi korisnici primjećuju poboljšanja u energiji, nadutosti i apetitu već u prvim tjednima. Vidljive promjene tijela obično zahtijevaju dosljednost. Vaš plan je izgrađen za postupni napredak, a ne brza rješenja."
-          },
-          {
-            "question": "Mogu li otkazati u bilo koje vrijeme?",
-            "answer": "Da. Pretplatu možete otkazati u bilo koje vrijeme kontaktiranjem podrške na hello@mediet.app. Nema dodatnih naknada za otkazivanje."
           }
         ]
       },
@@ -1305,99 +1305,6 @@
           }
         ]
       },
-      "ro": {
-        "timerLabel": "50% reducere rezervată pentru voi:",
-        "getMyPlan": "OBȚINEȚI PLANUL MEU",
-        "now": "Acum",
-        "goal": "Obiectiv",
-        "bodyFat": "Grăsime corporală:",
-        "bmi": "IMC:",
-        "fitnessLevel": "Nivel de fitness:",
-        "planReadyTitle": "Planul vostru personalizat de coaching mediteranean este gata",
-        "yourGoal": "Obiectivul vostru",
-        "targetWeight": "Greutatea țintă",
-        "planIsReady": "Planul vostru este gata",
-        "safeCheckout": "PLATĂ SECURIZATĂ GARANTATĂ",
-        "highlights": "Elementele cheie ale planului vostru",
-        "visibleResults": "Rezultate vizibile în 4 săptămâni!",
-        "faqTitle": "Aveți întrebări?",
-        "riskFreeTitle": "Garanție fără riscuri",
-        "riskFreeBody": "Puteți anula abonamentul oricând contactând asistența prin e-mail la hello@mediet.app. Fără taxe suplimentare.",
-        "resultsMayVary": "Rezultatele pot varia.",
-        "copyright": "© 2026 Mediet.app. Toate drepturile rezervate.",
-        "agreeTextStart": "Sunt de acord cu",
-        "agreeTerms": "Termenii și condițiile",
-        "agreeMiddle": "și",
-        "agreePrivacy": "Politica de confidențialitate",
-        "agreeEnd": ".",
-        "ctaLegal": "Făcând clic pe „OBȚINEȚI PLANUL MEU”, sunteți de acord să plătiți ${price} pentru {plan}-ul dvs. Dacă nu anulați înainte de sfârșitul primei perioade, abonamentul se va reînnoi automat la ${renewPrice} până la anulare. Puteți anula oricând contactând asistența la hello@mediet.app.",
-        "defaultGoal": "Slăbire",
-        "plans": {
-          "week": "Plan de 7 zile",
-          "month": "Plan de 1 lună",
-          "quarter": "Plan de 3 luni"
-        },
-        "features": [
-          {
-            "title": "Combinații nelimitate adaptive de mese mediteraneene",
-            "description": "Personalizate exact după preferințele și excluderile voastre. Plăcute. Structurate. Sustenabile."
-          },
-          {
-            "title": "Protocoale de mișcare personalizate nelimitate pentru susținere metabolică",
-            "description": "Forță, mobilitate, yoga, recuperare. Concepute pentru a activa arderea grăsimilor fără epuizare."
-          },
-          {
-            "title": "Provocări de obiceiuri și consecvență",
-            "description": "Pași mici și strategici pentru a construi impuls. Deoarece ritmul bate motivația."
-          },
-          {
-            "title": "Ghiduri mediteraneene de longevitate și metabolism",
-            "description": "Înțelegeți: de ce inflamația împiedică arderea grăsimilor, de ce alimentele procesate perturbă metabolismul, de ce popoarele longevive mănâncă diferit. Claritatea elimină confuzia."
-          },
-          {
-            "title": "Vizualizarea progresului și urmărire adaptivă",
-            "description": "Urmăriți: tendințele greutății, modificările compoziției corporale, nivelurile de energie, consecvența obiceiurilor. Astfel încât sistemul să rămână aliniat cu voi."
-          }
-        ],
-        "faq": [
-          {
-            "question": "Ce sunt „Zonele Albastre” și de ce sunt importante?",
-            "answer": "Zonele Albastre sunt regiuni din lume unde oamenii trăiesc cea mai lungă și sănătoasă viață. În aceste regiuni, oamenii consumă în principal alimente întregi, grăsimi sănătoase, legume, leguminoase și porții echilibrate. Planul vostru folosește aceste tipare alimentare dovedite, dar le adaptează la corpul, obiectivele și stilul vostru de viață. Nu este doar o dietă. Este un sistem bazat pe longevitate."
-          },
-          {
-            "question": "Prin ce diferă acest lucru față de un plan alimentar mediteranean obișnuit?",
-            "answer": "Cele mai multe planuri mediteraneene sunt fixe. Corpul vostru nu este. Antrenorul vostru Mediteranean Personal folosește rezultatele chestionarului vostru pentru a crea un plan bazat pe: metabolismul vostru, nivelul de activitate, preferințele alimentare și obiectivele voastre. Pe măsură ce corpul vostru se schimbă, planul vostru se poate adapta. Aceasta este diferența."
-          },
-          {
-            "question": "Ce face concret antrenorul AI?",
-            "answer": "Antrenorul AI ajută la personalizarea nutriției voastre și la ghidarea progresului. Folosește datele voastre și actualizările de progres pentru a: regla combinațiile de mese, sugera rutine de mișcare, vă menține pe drumul cel bun și preveni platourile. În loc să o luați de la capăt, planul vostru evoluează."
-          },
-          {
-            "question": "Trebuie să număr caloriile sau să urmăresc macronutrienții?",
-            "answer": "Nu. Planul vostru este structurat cu proporții mediteraneene echilibrate. Vă concentrați pe a mânca alimente reale în combinațiile potrivite, nu pe cifre zilnice."
-          },
-          {
-            "question": "Am încercat multe diete. De ce aceasta ar funcționa pentru mine?",
-            "answer": "Multe diete eșuează deoarece sunt: prea rigide, prea generice, bazate pe reguli calorice depășite sau neadaptate etapei voastre de viață. Acest sistem se concentrează pe echilibrul metabolic, nu pe pedeapsă. Este conceput să fie durabil."
-          },
-          {
-            "question": "Este sigur pentru persoanele de peste 40 de ani?",
-            "answer": "Da. De fapt, sistemul este deosebit de util pentru persoanele de peste 30 și 40 de ani, când metabolismul se schimbă natural. Planul se concentrează pe mese echilibrate, alimente întregi și progres gradual, nu pe restricții extreme."
-          },
-          {
-            "question": "Voi simți mereu foame?",
-            "answer": "Nu. Structura mediteraneană se concentrează pe: legume bogate în fibre, grăsimi sănătoase și proteine echilibrate. Aceste alimente vă ajută să vă simțiți sătui și satisfăcuți."
-          },
-          {
-            "question": "Cât timp până să văd rezultate?",
-            "answer": "Mulți utilizatori observă îmbunătățiri ale energiei, balonării și poftelor în primele câteva săptămâni. Modificările vizibile ale corpului necesită de obicei consecvență. Planul vostru este construit pentru progres gradual, nu soluții rapide."
-          },
-          {
-            "question": "Pot anula oricând?",
-            "answer": "Da. Puteți anula abonamentul oricând contactând asistența la hello@mediet.app. Nu există taxe suplimentare de anulare."
-          }
-        ]
-      },
       "lv": {
         "timerLabel": "50% atlaide rezervēta jums:",
         "getMyPlan": "IEGŪT MANU PLĀNU",
@@ -1488,6 +1395,99 @@
           {
             "question": "Vai es varu atcelt jebkurā laikā?",
             "answer": "Jā. Varat atcelt abonementu jebkurā laikā, sazinoties ar atbalstu pa e-pastu hello@mediet.app. Nav papildu atcelšanas maksu."
+          }
+        ]
+      },
+      "ro": {
+        "timerLabel": "50% reducere rezervată pentru voi:",
+        "getMyPlan": "OBȚINEȚI PLANUL MEU",
+        "now": "Acum",
+        "goal": "Obiectiv",
+        "bodyFat": "Grăsime corporală:",
+        "bmi": "IMC:",
+        "fitnessLevel": "Nivel de fitness:",
+        "planReadyTitle": "Planul vostru personalizat de coaching mediteranean este gata",
+        "yourGoal": "Obiectivul vostru",
+        "targetWeight": "Greutatea țintă",
+        "planIsReady": "Planul vostru este gata",
+        "safeCheckout": "PLATĂ SECURIZATĂ GARANTATĂ",
+        "highlights": "Elementele cheie ale planului vostru",
+        "visibleResults": "Rezultate vizibile în 4 săptămâni!",
+        "faqTitle": "Aveți întrebări?",
+        "riskFreeTitle": "Garanție fără riscuri",
+        "riskFreeBody": "Puteți anula abonamentul oricând contactând asistența prin e-mail la hello@mediet.app. Fără taxe suplimentare.",
+        "resultsMayVary": "Rezultatele pot varia.",
+        "copyright": "© 2026 Mediet.app. Toate drepturile rezervate.",
+        "agreeTextStart": "Sunt de acord cu",
+        "agreeTerms": "Termenii și condițiile",
+        "agreeMiddle": "și",
+        "agreePrivacy": "Politica de confidențialitate",
+        "agreeEnd": ".",
+        "ctaLegal": "Făcând clic pe „OBȚINEȚI PLANUL MEU”, sunteți de acord să plătiți ${price} pentru {plan}-ul dvs. Dacă nu anulați înainte de sfârșitul primei perioade, abonamentul se va reînnoi automat la ${renewPrice} până la anulare. Puteți anula oricând contactând asistența la hello@mediet.app.",
+        "defaultGoal": "Slăbire",
+        "plans": {
+          "week": "Plan de 7 zile",
+          "month": "Plan de 1 lună",
+          "quarter": "Plan de 3 luni"
+        },
+        "features": [
+          {
+            "title": "Combinații nelimitate adaptive de mese mediteraneene",
+            "description": "Personalizate exact după preferințele și excluderile voastre. Plăcute. Structurate. Sustenabile."
+          },
+          {
+            "title": "Protocoale de mișcare personalizate nelimitate pentru susținere metabolică",
+            "description": "Forță, mobilitate, yoga, recuperare. Concepute pentru a activa arderea grăsimilor fără epuizare."
+          },
+          {
+            "title": "Provocări de obiceiuri și consecvență",
+            "description": "Pași mici și strategici pentru a construi impuls. Deoarece ritmul bate motivația."
+          },
+          {
+            "title": "Ghiduri mediteraneene de longevitate și metabolism",
+            "description": "Înțelegeți: de ce inflamația împiedică arderea grăsimilor, de ce alimentele procesate perturbă metabolismul, de ce popoarele longevive mănâncă diferit. Claritatea elimină confuzia."
+          },
+          {
+            "title": "Vizualizarea progresului și urmărire adaptivă",
+            "description": "Urmăriți: tendințele greutății, modificările compoziției corporale, nivelurile de energie, consecvența obiceiurilor. Astfel încât sistemul să rămână aliniat cu voi."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Ce sunt „Zonele Albastre” și de ce sunt importante?",
+            "answer": "Zonele Albastre sunt regiuni din lume unde oamenii trăiesc cea mai lungă și sănătoasă viață. În aceste regiuni, oamenii consumă în principal alimente întregi, grăsimi sănătoase, legume, leguminoase și porții echilibrate. Planul vostru folosește aceste tipare alimentare dovedite, dar le adaptează la corpul, obiectivele și stilul vostru de viață. Nu este doar o dietă. Este un sistem bazat pe longevitate."
+          },
+          {
+            "question": "Prin ce diferă acest lucru față de un plan alimentar mediteranean obișnuit?",
+            "answer": "Cele mai multe planuri mediteraneene sunt fixe. Corpul vostru nu este. Antrenorul vostru Mediteranean Personal folosește rezultatele chestionarului vostru pentru a crea un plan bazat pe: metabolismul vostru, nivelul de activitate, preferințele alimentare și obiectivele voastre. Pe măsură ce corpul vostru se schimbă, planul vostru se poate adapta. Aceasta este diferența."
+          },
+          {
+            "question": "Ce face concret antrenorul AI?",
+            "answer": "Antrenorul AI ajută la personalizarea nutriției voastre și la ghidarea progresului. Folosește datele voastre și actualizările de progres pentru a: regla combinațiile de mese, sugera rutine de mișcare, vă menține pe drumul cel bun și preveni platourile. În loc să o luați de la capăt, planul vostru evoluează."
+          },
+          {
+            "question": "Trebuie să număr caloriile sau să urmăresc macronutrienții?",
+            "answer": "Nu. Planul vostru este structurat cu proporții mediteraneene echilibrate. Vă concentrați pe a mânca alimente reale în combinațiile potrivite, nu pe cifre zilnice."
+          },
+          {
+            "question": "Am încercat multe diete. De ce aceasta ar funcționa pentru mine?",
+            "answer": "Multe diete eșuează deoarece sunt: prea rigide, prea generice, bazate pe reguli calorice depășite sau neadaptate etapei voastre de viață. Acest sistem se concentrează pe echilibrul metabolic, nu pe pedeapsă. Este conceput să fie durabil."
+          },
+          {
+            "question": "Este sigur pentru persoanele de peste 40 de ani?",
+            "answer": "Da. De fapt, sistemul este deosebit de util pentru persoanele de peste 30 și 40 de ani, când metabolismul se schimbă natural. Planul se concentrează pe mese echilibrate, alimente întregi și progres gradual, nu pe restricții extreme."
+          },
+          {
+            "question": "Voi simți mereu foame?",
+            "answer": "Nu. Structura mediteraneană se concentrează pe: legume bogate în fibre, grăsimi sănătoase și proteine echilibrate. Aceste alimente vă ajută să vă simțiți sătui și satisfăcuți."
+          },
+          {
+            "question": "Cât timp până să văd rezultate?",
+            "answer": "Mulți utilizatori observă îmbunătățiri ale energiei, balonării și poftelor în primele câteva săptămâni. Modificările vizibile ale corpului necesită de obicei consecvență. Planul vostru este construit pentru progres gradual, nu soluții rapide."
+          },
+          {
+            "question": "Pot anula oricând?",
+            "answer": "Da. Puteți anula abonamentul oricând contactând asistența la hello@mediet.app. Nu există taxe suplimentare de anulare."
           }
         ]
       },
@@ -1966,15 +1966,15 @@
     "offer::local::locales\\el\\offer.content.json",
     "offer::local::locales\\en\\offer.content.json",
     "offer::local::locales\\gr\\offer.content.json",
+    "offer::local::locales\\hr\\offer.content.json",
     "offer::local::locales\\he\\offer.content.json",
     "offer::local::locales\\hu\\offer.content.json",
-    "offer::local::locales\\hr\\offer.content.json",
     "offer::local::locales\\il\\offer.content.json",
     "offer::local::locales\\ja\\offer.content.json",
     "offer::local::locales\\jp\\offer.content.json",
     "offer::local::locales\\lt\\offer.content.json",
-    "offer::local::locales\\ro\\offer.content.json",
     "offer::local::locales\\lv\\offer.content.json",
+    "offer::local::locales\\ro\\offer.content.json",
     "offer::local::locales\\ru\\offer.content.json",
     "offer::local::locales\\sk\\offer.content.json",
     "offer::local::locales\\tw\\offer.content.json",
