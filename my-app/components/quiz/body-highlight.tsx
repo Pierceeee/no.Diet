@@ -175,6 +175,19 @@ export function BodyHighlight({
         className="absolute inset-0 w-full h-full pointer-events-none z-10"
         style={{ overflow: "visible" }}
       >
+        <defs>
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+            <feMerge>
+              <feMergeNode in="coloredBlur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+          <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.3" />
+            <stop offset="100%" stopColor="#3b82f6" stopOpacity="1" />
+          </linearGradient>
+        </defs>
         {lines.map((line, i) => {
           const area = BODY_AREAS[i];
           const isSelected = selectedAreas.includes(area);
@@ -182,25 +195,54 @@ export function BodyHighlight({
 
           return (
             <g key={area}>
-              <path
-                d={`M ${line.chipRight} ${line.chipCenterY} 
-                    C ${midX} ${line.chipCenterY}, 
-                      ${midX} ${line.dotY}, 
-                      ${line.dotX} ${line.dotY}`}
-                stroke={isSelected ? "#3b82f6" : "#d0d0d0"}
-                strokeWidth="1.5"
-                fill="none"
-                className="transition-all duration-300"
-              />
-              <circle
-                cx={line.dotX}
-                cy={line.dotY}
-                r="5"
-                fill={isSelected ? "#3b82f6" : "#9ca3af"}
-                stroke={isSelected ? "#2563eb" : "#6b7280"}
-                strokeWidth="1"
-                className="transition-all duration-300"
-              />
+              {isSelected && (
+                <>
+                  {/* Outer glow circle */}
+                  <circle
+                    cx={line.dotX}
+                    cy={line.dotY}
+                    r="18"
+                    fill="rgba(59, 130, 246, 0.15)"
+                    className="animate-pulse"
+                  />
+                  {/* Middle ring */}
+                  <circle
+                    cx={line.dotX}
+                    cy={line.dotY}
+                    r="12"
+                    fill="none"
+                    stroke="rgba(59, 130, 246, 0.4)"
+                    strokeWidth="2"
+                    strokeDasharray="4 2"
+                  />
+                  {/* Connecting line with gradient */}
+                  <path
+                    d={`M ${line.chipRight} ${line.chipCenterY} 
+                        C ${midX} ${line.chipCenterY}, 
+                          ${midX} ${line.dotY}, 
+                          ${line.dotX} ${line.dotY}`}
+                    stroke="url(#lineGradient)"
+                    strokeWidth="2"
+                    fill="none"
+                    className="transition-all duration-300"
+                  />
+                  {/* Inner solid dot */}
+                  <circle
+                    cx={line.dotX}
+                    cy={line.dotY}
+                    r="6"
+                    fill="#3b82f6"
+                    filter="url(#glow)"
+                  />
+                  {/* White center dot */}
+                  <circle
+                    cx={line.dotX}
+                    cy={line.dotY}
+                    r="2.5"
+                    fill="white"
+                  />
+                </>
+              )}
             </g>
           );
         })}
