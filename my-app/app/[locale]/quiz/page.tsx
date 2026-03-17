@@ -687,7 +687,7 @@ export default function QuizPage() {
 
           {/* Stats card with image */}
           <div
-            className="animate-fade-in-up mt-3 overflow-hidden rounded-[14px] bg-[#f5f5f5] p-4 sm:mt-4 sm:rounded-[16px] sm:p-6"
+            className="animate-fade-in-up mt-3 overflow-visible rounded-[14px] bg-[#f5f5f5] p-4 sm:mt-4 sm:rounded-[16px] sm:p-6"
             style={{ animationDelay: "0.25s", opacity: 0 }}
           >
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-start sm:justify-between">
