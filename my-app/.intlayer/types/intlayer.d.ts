@@ -13,35 +13,35 @@ declare module 'intlayer' {
   interface __DeclaredLocalesRegistry {
     "en": 1;
     "lt": 1;
-    "zh-Hant": 1;
-    "cs": 1;
+    "tw": 1;
+    "cz": 1;
     "lv": 1;
-    "he": 1;
+    "il": 1;
     "ru": 1;
     "hu": 1;
-    "el": 1;
+    "gr": 1;
     "hr": 1;
-    "da": 1;
+    "dk": 1;
     "sk": 1;
     "ro": 1;
-    "ja": 1;
+    "jp": 1;
   }
 
   interface __RequiredLocalesRegistry {
     "en": 1;
     "lt": 1;
-    "zh-Hant": 1;
-    "cs": 1;
+    "tw": 1;
+    "cz": 1;
     "lv": 1;
-    "he": 1;
+    "il": 1;
     "ru": 1;
     "hu": 1;
-    "el": 1;
+    "gr": 1;
     "hr": 1;
-    "da": 1;
+    "dk": 1;
     "sk": 1;
     "ro": 1;
-    "ja": 1;
+    "jp": 1;
   }
 
   interface __SchemaRegistry {

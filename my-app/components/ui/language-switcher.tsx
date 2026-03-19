@@ -5,19 +5,19 @@ import { useLocale } from "next-intlayer";
 
 const LOCALE_DISPLAY_NAMES: Record<string, string> = {
   en: "English",
-  lt: "Lietuvių",
-  tw: "繁體中文",
-  cz: "Čeština",
-  lv: "Latviešu",
-  il: "עברית",
-  ru: "Русский",
-  hu: "Magyar",
-  gr: "Ελληνικά",
-  hr: "Hrvatski",
-  dk: "Dansk",
-  sk: "Slovenčina",
-  ro: "Română",
-  jp: "日本語",
+  lt: "Lithuanian",
+  tw: "Chinese",
+  cz: "Czech",
+  lv: "Latvian",
+  il: "Hebrew",
+  ru: "Russian",
+  hu: "Hungarian",
+  gr: "Greek",
+  hr: "Croatian",
+  dk: "Danish",
+  sk: "Slovak",
+  ro: "Romanian",
+  jp: "Japanese",
 };
 
 export function LanguageSwitcher() {

@@ -4,310 +4,310 @@ export default {
   "content": {
     "nodeType": "translation",
     "translation": {
-      "cs": {
+      "dk": {
         "common": {
-          "continue": "Pokračovat",
-          "menu": "Nabídka",
-          "closeMenu": "Zavřít nabídku",
-          "helpCenter": "Centrum nápovědy",
-          "contactUs": "Kontaktujte nás",
-          "terms": "Obchodní podmínky",
-          "privacyPolicy": "Zásady ochrany osobních údajů",
-          "cookiePolicy": "Zásady cookies",
-          "privacySettings": "Nastavení soukromí",
+          "continue": "Fortsæt",
+          "menu": "Menu",
+          "closeMenu": "Luk menu",
+          "helpCenter": "Hjælpecenter",
+          "contactUs": "Kontakt os",
+          "terms": "Vilkår og betingelser",
+          "privacyPolicy": "Privatlivspolitik",
+          "cookiePolicy": "Cookiepolitik",
+          "privacySettings": "Privatlivsindstillinger",
           "facebook": "Facebook",
           "instagram": "Instagram",
-          "notSet": "Nenastaveno"
+          "notSet": "Ikke angivet"
         },
         "landing": {
-          "hero": "Personalizujme vašeho středomořského kouče a sestavme váš program pro hubnutí a výživu pro dlouhověkost",
-          "subtitle": "Vyberte si svůj program:",
-          "ctaMen": "Program pro muže",
-          "ctaWomen": "Program pro ženy",
-          "footer": "© 2026 meDiet. Všechna práva vyhrazena.",
-          "heroImageAlt": "Miska středomořského jídla"
+          "hero": "Lad os skabe din personlige Middelhavscoach og et program til vægttab og et langt, sundt liv",
+          "subtitle": "Vælg dit program:",
+          "ctaMen": "Program til mænd",
+          "ctaWomen": "Program til kvinder",
+          "footer": "© 2026 meDiet. Alle rettigheder forbeholdes.",
+          "heroImageAlt": "Skål med middelhavsmad"
         },
         "intro": {
-          "titlePrefix": "Než vytvoříme váš plán",
-          "titleHighlight": "PŘEČTĚTE SI TOTO",
-          "p1": "Pokud jste zkoušeli keto, počítání kalorií nebo přerušované hladovění a měli jste pocit, že jste selhali.",
-          "p2": "Neselhali jste. Plán selhal vás.",
-          "p3": "Tyto systémy byly postaveny na staré vědě. Pevná pravidla. Obecné šablony.",
-          "p4Male": "Nikdy nebyly navrženy pro to, jak mužské tělo skutečně funguje.",
-          "p4Female": "Nikdy nebyly navrženy pro to, jak ženské tělo skutečně funguje.",
-          "p5": "To se mění právě teď.",
-          "p6": "Odpovězte upřímně. My uděláme zbytek."
+          "titlePrefix": "Inden vi sætter din plan sammen",
+          "titleHighlight": "LÆS DETTE",
+          "p1": "Hvis du har prøvet keto, kalorietælling eller intermitterende faste og følte, at du mislykkedes.",
+          "p2": "Du mislykkedes ikke. Det var planen, der svigtede dig.",
+          "p3": "Disse systemer var bygget på forældet videnskab. Stive regler. Generiske skabeloner.",
+          "p4Male": "De var aldrig designet til, hvordan en mands krop faktisk fungerer.",
+          "p4Female": "De var aldrig designet til, hvordan en kvindes krop faktisk fungerer.",
+          "p5": "Det ændrer sig nu.",
+          "p6": "Svar ærligt. Vi klarer resten."
         },
         "steps": {
-          "s1": "Jak dobře znáte středomořskou dietu a fenomén modrých zón?",
-          "s3": "Čeho chcete dosáhnout?",
-          "s4": "Jak byste popsali své tělo nyní?",
-          "s5": "Jaké tělo chcete mít?",
-          "s6": "Které oblasti byste chtěli zlepšit?",
-          "s6Hint": "Pokud jste spokojeni se svým tělem, stiskněte Pokračovat",
-          "s7": "Jak obvykle vypadá váš den?",
-          "s8": "Jaká je vaše energie během dne?",
-          "s9": "Jak často cvičíte?",
-          "s10": "Jak se obvykle mění vaše váha?",
-          "s12": "Kdy jste byli naposledy na nejlepší váze?",
-          "s13": "Zkusili jste v posledních 3 letech nějakou z těchto diet?",
-          "s15": "Co by se pro vás nejvíce změnilo, kdybyste byli ve formě?",
-          "s16": "Jaká je vaše výška?",
-          "s17": "Jaká je vaše aktuální váha?",
-          "s19": "Jaká je vaše cílová váha?",
-          "s20": "Kolik je vám let?",
-          "s21Title": "Co jsme zjistili",
-          "s21BmiTitle": "Váš index tělesné hmotnosti (BMI)",
-          "s22": "Kolik jídel denně byste chtěli sníst?",
-          "s22Subtitle": "Toto můžete později změnit v nastavení.",
-          "s23": "Chcete vyřadit některé z těchto potravin?",
-          "s23Label": "Bílkoviny a mléčné výrobky:",
-          "s24": "Chcete vyřadit některé z těchto potravin?",
-          "s24Label": "Ovoce a zelenina:",
-          "s25": "Chcete vyřadit některé z těchto potravin?",
-          "s25Label": "Obiloviny a ořechy:",
-          "s27Title": "Na základě vašich stravovacích preferencí jsme vytvořili",
+          "s1": "Hvor bekendt er du med Middelhavskosten og de Blå Zoner?",
+          "s3": "Hvad ønsker du at opnå?",
+          "s4": "Hvordan vil du beskrive din krop i dag?",
+          "s5": "Hvilken krop ønsker du?",
+          "s6": "Hvilke zoner vil du gerne forbedre?",
+          "s6Hint": "Hvis du er tilfreds med din krop, tryk Fortsæt",
+          "s7": "Hvordan ser din typiske dag ud?",
+          "s8": "Hvad er dit energiniveau i løbet af dagen?",
+          "s9": "Hvor ofte træner du?",
+          "s10": "Hvordan ændrer din vægt sig typisk?",
+          "s12": "Hvornår var du sidst på din bedste vægt?",
+          "s13": "Har du prøvet nogen af disse diæter inden for de seneste 3 år?",
+          "s15": "Hvad ville ændre sig mest i dit liv, hvis du kom i form?",
+          "s16": "Hvad er din højde?",
+          "s17": "Hvad er din nuværende vægt?",
+          "s19": "Hvad er din målvægt?",
+          "s20": "Hvor gammel er du?",
+          "s21Title": "Her er, hvad vi fandt",
+          "s21BmiTitle": "Dit kropsmasseindeks (BMI)",
+          "s22": "Hvor mange måltider om dagen ønsker du?",
+          "s22Subtitle": "Du kan ændre dette i indstillingerne til enhver tid.",
+          "s23": "Ønsker du at udelukke nogen fødevarer?",
+          "s23Label": "Proteiner og mejeriprodukter:",
+          "s24": "Ønsker du at udelukke nogen fødevarer?",
+          "s24Label": "Frugt og grøntsager:",
+          "s25": "Ønsker du at udelukke nogen fødevarer?",
+          "s25Label": "Korn og nødder:",
+          "s27Title": "Baseret på dine madpræferencer har vi skabt",
           "s27Count": "500+",
-          "s27Lead": "kombinací jídel",
-          "s27Body": "které jsou dokonale přizpůsobeny vám a pomohou vám dosáhnout zdravé váhy tím nejpříjemnějším způsobem!"
+          "s27Lead": "måltidskombinationer",
+          "s27Body": "der passer perfekt til dig og hjælper dig med at nå en sund vægt på den mest behagelige måde!"
         },
         "labels": {
-          "selectAll": "Vyberte vše, co platí:",
-          "youValue": "Vy",
-          "underweightShort": "Pod",
-          "underweight": "Podváha",
-          "healthy": "Zdravý",
-          "overweightShort": "Nad",
-          "overweight": "Nadváha",
-          "obese": "Obezita",
-          "bodyFat": "Tělesný tuk",
-          "activityLevel": "Úroveň aktivity",
-          "energyLevel": "Úroveň energie",
-          "goal": "Cíl"
+          "selectAll": "Vælg alt, der gælder:",
+          "youValue": "Du",
+          "underweightShort": "Under",
+          "underweight": "Undervægt",
+          "healthy": "Sund",
+          "overweightShort": "Over",
+          "overweight": "Overvægt",
+          "obese": "Fedme",
+          "bodyFat": "Kropsfedt",
+          "activityLevel": "Aktivitetsniveau",
+          "energyLevel": "Energiniveau",
+          "goal": "Mål"
         },
         "options": {
           "goalsMale": [
-            "Zhubnout tuk",
-            "Získat štíhlé tělo",
-            "Nabrat svalovou hmotu",
-            "Mít více energie",
-            "Zlepšit zdraví",
-            "Žít déle"
+            "Reducere kropsfedt",
+            "Blive slankere",
+            "Opbygge muskler",
+            "Få mere energi",
+            "Forbedre sundheden",
+            "Leve længere"
           ],
           "goalsFemale": [
-            "Zhubnout tuk",
-            "Získat štíhlejší tělo",
-            "Formovat tělo",
-            "Mít více energie",
-            "Zlepšit zdraví",
-            "Žít déle"
+            "Reducere kropsfedt",
+            "Blive mere slank",
+            "Forme kroppen",
+            "Få mere energi",
+            "Forbedre sundheden",
+            "Leve længere"
           ],
           "q3BodiesMale": [
-            "Štíhlý",
-            "Průměrný",
-            "Trochu tuk na břiše",
-            "Nadváha"
+            "Slank",
+            "Gennemsnitlig",
+            "Lidt fedt på maven",
+            "Overvægtig"
           ],
           "q3BodiesFemale": [
-            "Štíhlá",
-            "Průměrná",
-            "Trochu tuk na břiše",
-            "Nadváha"
+            "Slank",
+            "Gennemsnitlig",
+            "Lidt fedt på maven",
+            "Overvægtig"
           ],
           "q4BodiesMale": [
-            "Trochu štíhlejší",
-            "Štíhlý a fit",
-            "Atletický",
-            "Silný a definovaný"
+            "Lidt slankere",
+            "Slank og fit",
+            "Atletisk",
+            "Stærk og defineret"
           ],
           "q4BodiesFemale": [
-            "Znovu se cítit jako já",
-            "Zbavit se tuku na břiše",
-            "Cítit se lehčeji a sebejistěji",
-            "Vypadat tónovaně a mladistvě"
+            "At føle mig som mig selv igen",
+            "At slippe af med det stædige mavefedt",
+            "At føle mig lettere og mere selvsikker",
+            "At se tonet og ungdommelig ud"
           ],
           "q12Reasons": [
-            "Jak se cítím, když se dívám do zrcadla",
-            "Znovu se cítit jako já",
-            "Moje energie s dětmi / rodinou",
-            "Moje sebevědomí mezi ostatními",
-            "Jak se cítím pro svého partnera",
-            "Moje dlouhodobé zdraví",
-            "Jak mi sedí oblečení"
+            "Hvordan jeg har det, når jeg ser mig i spejlet",
+            "At føle mig som mig selv igen",
+            "Min energi med børnene / familien",
+            "Min selvtillid i selskab med andre",
+            "Hvordan jeg har det med min partner",
+            "Min langsigtede sundhed",
+            "Hvordan tøjet sidder"
           ],
           "familiarity": [
-            "Jsem v tom nový",
-            "Znám základy",
-            "Již jsem to zkoušel"
+            "Det er nyt for mig",
+            "Jeg kender det grundlæggende",
+            "Jeg har prøvet det før"
           ],
           "bodyAreas": [
-            "Paže",
-            "Hrudník",
-            "Záda",
-            "Břicho",
-            "Nohy",
-            "Hýždě"
+            "Arme",
+            "Bryst",
+            "Ryg",
+            "Mave",
+            "Ben",
+            "Bagdel"
           ],
           "dayToDay": [
-            "Sedím většinu dne",
-            "Hodně se pohybuji",
-            "Pravidelně cvičím",
-            "Zůstávám doma"
+            "Sidder det meste af dagen",
+            "Bevæger mig meget",
+            "Træner regelmæssigt",
+            "Er hjemme"
           ],
           "energy": [
-            "Většinu času nízká",
-            "Po obědě se cítím unavený",
-            "Moje energie kolísá",
-            "Moje energie je stabilní"
+            "Normalt lav",
+            "Føler mig træt om eftermiddagen",
+            "Mit energiniveau svinger",
+            "Mit energiniveau er stabilt"
           ],
           "exercise": [
-            "Nikdy",
-            "Několikrát za měsíc",
-            "Několikrát týdně",
-            "Téměř každý den"
+            "Aldrig",
+            "Nogle gange om måneden",
+            "Nogle gange om ugen",
+            "Næsten hver dag"
           ],
           "weightChange": [
-            "Rychle přibírám a pomalu hubnu",
-            "Zhubnu, ale znovu přibírám",
-            "Moje váha zůstává stejná",
-            "Těžce buduju svalovou hmotu"
+            "Tager hurtigt på og taber langsomt",
+            "Taber mig, men tager på igen",
+            "Min vægt forbliver stabil",
+            "Har svært ved at opbygge muskler"
           ],
           "idealWeight": [
-            "Méně než před 1 rokem",
-            "Před 1–3 lety",
-            "Před více než 3 lety",
-            "Nikdy jsem nebyl na nejlepší váze"
+            "Mindre end 1 år siden",
+            "For 1–3 år siden",
+            "For mere end 3 år siden",
+            "Jeg har aldrig været på min bedste vægt"
           ],
           "diets": [
             "Keto",
-            "Přerušované hladovění",
-            "Nízkosacharidová",
-            "Vegetariánská",
-            "Veganská",
-            "Bezlepková",
-            "Jiná",
-            "Žádná z těchto"
+            "Intermitterende faste",
+            "Lavt kulhydratindhold",
+            "Vegetarisk",
+            "Vegansk",
+            "Glutenfri",
+            "Anden",
+            "Ingen af dem"
           ],
           "meals": [
-            "Dvě",
-            "Tři",
-            "Čtyři",
-            "Pět"
+            "To",
+            "Tre",
+            "Fire",
+            "Fem"
           ],
           "mealDescriptions": [
-            "Snídaně a večeře s volitelnými svačinami",
-            "Snídaně, oběd a večeře",
-            "Snídaně, svačina, oběd a večeře",
-            "Snídaně, oběd, večeře a dvě svačiny"
+            "Morgenmad og aftensmad med valgfri snacks",
+            "Morgenmad, frokost og aftensmad",
+            "Morgenmad, snack, frokost og aftensmad",
+            "Morgenmad, frokost, aftensmad og to snacks"
           ],
           "proteins": [
-            "Jím vše",
-            "Kuřecí maso",
-            "Červené maso",
-            "Sýr",
-            "Tuňák",
-            "Řecký jogurt",
-            "Losos",
-            "Krevety",
-            "Vejce",
-            "Cizrna",
-            "Čočka",
+            "Spiser alt",
+            "Kylling",
+            "Rødt kød",
+            "Ost",
+            "Tun",
+            "Græsk yoghurt",
+            "Laks",
+            "Rejer",
+            "Æg",
+            "Kikærter",
+            "Linser",
             "Tofu"
           ],
           "vegetables": [
-            "Jím vše",
-            "Rajčata",
-            "Okurka",
-            "Brokolice",
-            "Špenát",
-            "Cuketa",
-            "Paprika",
-            "Avokádo",
-            "Olivy",
-            "Cibule"
+            "Spiser alt",
+            "Tomater",
+            "Agurk",
+            "Broccoli",
+            "Spinat",
+            "Zucchini",
+            "Peberfrugt",
+            "Avocado",
+            "Oliven",
+            "Løg"
           ],
           "grains": [
-            "Jím vše",
-            "Rýže",
-            "Kuskus",
+            "Spiser alt",
+            "Ris",
+            "Couscous",
             "Quinoa",
-            "Ovesné vločky",
-            "Mandle",
-            "Vlašské ořechy",
-            "Arašídy",
-            "Kukuřice"
+            "Havregryn",
+            "Mandler",
+            "Valnødder",
+            "Jordnødder",
+            "Majs"
           ]
         },
         "loading": {
-          "title": "Generuji...",
+          "title": "Sætter din plan sammen...",
           "messages": [
-            "Analyzuji váš metabolický profil…",
-            "Přezkoumat stravovací preference…",
-            "Porovnání s daty o dlouhověkosti modrých zón…",
-            "Zpracovávám nejnovější výzkumy výživy…",
-            "Upravuji makro proporce…",
-            "Vytvářím váš adaptivní středomořský coachingový systém…"
+            "Analyserer din metaboliske profil…",
+            "Undersøger dine madpræferencer…",
+            "Sammenligner med Blå Zoners levetidsdata…",
+            "Behandler den nyeste ernæringsforskning…",
+            "Finjusterer makronæringsforholdet…",
+            "Bygger dit tilpassede Middelhavs-coachingsystem…"
           ]
         },
         "infoBlocks": {
-          "eyebrow": "Personalizovaný přehled",
+          "eyebrow": "Personlig indsigt",
           "blueZones": {
-            "title": "Jejich tajemství štíhlého těla a dlouhého života.\n\nNYNÍ KONEČNĚ VAŠE.",
-            "body": "Lidé z nejdéle žijících světových regionů zvaných **Modré zóny** – žijí déle než všichni ostatní.\n\nJsou také v lepší kondici. Štíhlejší. Energičtější. A každým měřítkem patří mezi nejšťastnější lidi na zemi.\n\nNepočítají kalorie. Neomezují sacharidy. Jedí skutečné jídlo, zdravé tuky, dobré ingredience.\n\n**Poprvé na světě je nejprokázanější dieta pro dlouhověkost sestavena kolem vás, ne kolem všech.**",
+            "title": "Deres hemmelighed til en slank krop og et langt liv.\n\nNU ENDELIG OGSÅ DIN.",
+            "body": "Beboerne i verdens mest langlivede regioner, kendt som **de Blå Zoner**, lever længere end alle andre.\n\nDe er også i bedre form. Slankere. Mere energiske. Og efter enhver målestok er de blandt de lykkeligste mennesker på Jorden.\n\nDe tæller ikke kalorier. De begrænser ikke kulhydrater. De spiser rigtig mad, sunde fedtstoffer, kvalitetsingredienser.\n\n**For første gang bygges verdens mest dokumenterede diæt for lang levetid op omkring dig, ikke alle.**",
             "image": "/quiz/blue-zones.png"
           },
           "metabolism": {
-            "title": "Váš metabolismus není rozbitý.\nDostal špatný plán.",
-            "body": "Vaše tělo se mění. Většina plánů ne.\n\n**Náš AI systém běží 24/7.**\n\nNacvičen na stovkách let výzkumu. Milionech skutečných případů.\n\nPřizpůsobuje se, když se přizpůsobujete vy.\n\nNikdy nepřestane pracovat na vás.",
+            "title": "Din metabolisme er ikke ødelagt.\nDen fik bare en forkert plan.",
+            "body": "Din krop ændrer sig. De fleste planer gør ikke.\n\n**Vores AI-baserede system kører 24/7.**\n\nTrænet på hundredvis af års forskning. Millioner af virkelige tilfælde.\n\nDet tilpasser sig, når du tilpasser dig.\n\nDet stopper aldrig med at arbejde for dig.",
             "image": "/quiz/page11.png"
           },
           "dietsWrong": {
-            "title": "Tyto diety nebyly špatné proto, že jste je dělali špatně.",
-            "body": "Byly špatné, protože se nikdy nezměnily.\n\nKeto. Počítání kalorií. Málo tuku. Hodně obilí.\n\nDodržovali jste pravidla. Vaše tělo se přizpůsobilo. Plán ne.\n\n**Věda je nyní jasná. Statické plány selhávají. Vždy.**\n\nVaše tělo není statické. Váš plán by také neměl být.",
+            "title": "Disse diæter fejlede ikke, fordi du gjorde dem forkert.",
+            "body": "De fejlede, fordi de aldrig ændrede sig.\n\nKeto. Kalorietælling. Lavt fedtindhold. Mange korn.\n\nDu fulgte reglerne. Din krop tilpassede sig. Planen gjorde ikke.\n\n**Videnskaben er klar: statiske planer fejler altid.**\n\nDin krop er ikke statisk. Heller ikke din plan bør være det.",
             "image": "/quiz/3.png"
           },
           "bmiExplanation": {
-            "title": "Vaši výšku a váhu používáme k výpočtu vašeho indexu tělesné hmotnosti (BMI).",
-            "body": "BMI nám pomáhá pochopit vaše aktuální váhové rozmezí."
+            "title": "Vi bruger din højde og vægt til at beregne dit kropsmasseindeks (BMI).",
+            "body": "BMI hjælper os med at forstå dit nuværende væginterval."
           },
           "adviceWrong": {
-            "title": "Ta rada, kterou jste dostali?\n\nBYLA ŠPATNĚ",
-            "body": "Po léta říkali jezte méně tuku. Počítejte každou kalorie. Řiďte se pyramidou.\n\nMiliony to dodržovaly dokonale. Miliony stále bojovaly.\n\nZáklad byl pozpátku. Ne vy.\n\nVěda to dohnala. Váš plán to odráží.",
+            "title": "Det råd, du fik?\n\nDET VAR FORKERT",
+            "body": "I årevis fortalte de dig: spis mindre fedt, tæl hver kalorie, følg pyramiden.\n\nMillioner fulgte det til punkt og prikke. Millioner kæmpede stadig.\n\nGrundlaget var forkert. Ikke dig.\n\nVidenskaben har hentet ind. Din plan afspejler det.",
             "image": "/quiz/page12.png"
           },
           "ageMetabolism": {
-            "title": "Věk mění váš metabolismus, ale nezastavuje výsledky.",
-            "body": "Se stárnutím tělo reaguje na jídlo jinak.\n\nProto plány pro všechny často selhávají po 30 nebo 40.\n\nVáš plán se musí přizpůsobit vaší životní fázi."
+            "title": "Alderen ændrer din metabolisme, men den stopper ikke resultaterne.",
+            "body": "Efterhånden som vi bliver ældre, reagerer kroppen anderledes på mad.\n\nDet er grunden til, at one-size-fits-all-diæter ofte fejler efter 30 eller 40.\n\nDin plan skal tilpasse sig din livsfase."
           },
           "preEmail": {
-            "title": "Toto není další pevný jídelníček.",
-            "body": "Váš středomořský program je poháněn AI coachingem.\n\nAdaptuje se na základě vašeho pokroku, úrovně energie a zpětné vazby.\n\nNemusíte hádat.\n\nSystém se vyvíjí s vámi.",
+            "title": "Dette er ikke endnu en fast kostplan.",
+            "body": "Dit Middelhavsprogram drives af AI-coaching.\n\nDet tilpasser sig baseret på dine fremskridt, energiniveauer og feedback.\n\nDu behøver ikke gætte.\n\nSystemet udvikler sig med dig.",
             "image": "/quiz/mediterranean-spread.png"
           }
         },
         "bmiMessages": {
           "healthy": {
-            "title": "Vaše BMI je v zdravém rozmezí.",
-            "body": "To je skvělý výchozí bod. Nyní je cílem udržet váhu, zlepšit tvar těla a podpořit metabolismus. Vaše BMI použijeme k vytvoření vašeho personalizovaného středomořského coachingového systému a pomoct vám zůstat fit a silným."
+            "title": "Dit BMI er i det sunde interval.",
+            "body": "Det er et fremragende udgangspunkt. Målet nu er at vedligeholde vægten, forbedre kropsformen og støtte din metabolisme. Vi vil bruge dit BMI til at bygge dit personaliserede Middelhavs-coachingsystem og hjælpe dig med at forblive fit og stærk."
           },
           "overweight": {
-            "title": "Vaše BMI je v rozmezí nadváhy.",
-            "body": "To znamená, že vaše tělo může ukládat extra tuk. Se správným výživovým plánem se můžete přiblížit zdravější váze. Vaše BMI použijeme k vytvoření vašeho personalizovaného středomořského coachingového systému."
+            "title": "Dit BMI er i overvægtsintervallet.",
+            "body": "Det betyder, at din krop muligvis lagrer overskydende fedt. Med den rigtige kostplan kan du bevæge dig mod en sundere vægt. Vi vil bruge dit BMI til at bygge dit personaliserede Middelhavs-coachingsystem."
           },
           "obese": {
-            "title": "Vaše BMI je v rozmezí obezity.",
-            "body": "To znamená, že vaše tělo nese více váhy, než je doporučeno. Ztráta i malého množství váhy může zlepšit vaše zdraví a energii. Vaše BMI použijeme k vytvoření personalizovaného středomořského coachingového systému, který vám pomůže zhubnout zdravým a stabilním způsobem."
+            "title": "Dit BMI er i fedmeintervallet.",
+            "body": "Det betyder, at din krop bærer mere vægt end anbefalet. Selv et lille vægttab kan forbedre dit helbred og din energi. Vi vil bruge dit BMI til at bygge et personaliseret Middelhavs-coachingsystem, der hjælper dig med at tabe dig sundt og gradvist."
           },
           "underweight": {
-            "title": "Vaše BMI je v rozmezí podváhy.",
-            "body": "Pomůžeme vám sestavit zdravý výživový plán na podporu vašeho metabolismu a celkové pohody."
+            "title": "Dit BMI er i undervægtsintervallet.",
+            "body": "Vi hjælper dig med at bygge en sund kostplan, der støtter din metabolisme og dit generelle velvære."
           }
         },
         "weightLoss": {
-          "smallTitle": "Zdravotní přínosy: Zhubněte {percent}% své váhy",
-          "smallBody": "Studie ukazují, že i ztráta 10% tělesné hmotnosti může zlepšit zdraví. Může pomoci snížit riziko srdečních onemocnění, vysoké hladiny cukru v krvi a zánětu v těle. Malé změny mohou mít velký rozdíl.",
-          "bigTitle": "Větší cíl: Zhubněte {percent}% své váhy",
-          "bigBody": "Výzkum ukazuje, že lidé, kteří ztratí více než 20% tělesné hmotnosti, často zlepšují své metabolické zdraví více než ti, kteří ztratí pouze 5–10%. Ztráta více váhy může vést k lepší energii, lepší kontrole hladiny cukru v krvi a lepšímu celkovému zdraví."
+          "smallTitle": "Sundhedsmæssig fordel: Tab {percent}% af din vægt",
+          "smallBody": "Studier viser, at selv et vægttab på 10% kan forbedre sundheden. Det kan hjælpe med at reducere risikoen for hjertesygdomme, højt blodsukker og betændelse i kroppen. Små ændringer kan gøre en stor forskel.",
+          "bigTitle": "Større mål: Tab {percent}% af din vægt",
+          "bigBody": "Forskning viser, at folk, der taber mere end 20% af deres kropsvægt, ofte forbedrer deres metaboliske sundhed mere end dem, der kun taber 5–10%. Et større vægttab kan føre til bedre energi, bedre blodsukkerkontrol og bedre overordnet helbred."
         }
       },
       "cz": {
@@ -616,616 +616,310 @@ export default {
           "bigBody": "Výzkum ukazuje, že lidé, kteří ztratí více než 20% tělesné hmotnosti, často zlepšují své metabolické zdraví více než ti, kteří ztratí pouze 5–10%. Ztráta více váhy může vést k lepší energii, lepší kontrole hladiny cukru v krvi a lepšímu celkovému zdraví."
         }
       },
-      "el": {
+      "en": {
         "common": {
-          "continue": "Συνέχεια",
-          "menu": "Μενού",
-          "closeMenu": "Κλείσιμο μενού",
-          "helpCenter": "Κέντρο βοήθειας",
-          "contactUs": "Επικοινωνήστε μαζί μας",
-          "terms": "Όροι και προϋποθέσεις",
-          "privacyPolicy": "Πολιτική απορρήτου",
-          "cookiePolicy": "Πολιτική cookies",
-          "privacySettings": "Ρυθμίσεις απορρήτου",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "Δεν έχει οριστεί"
-        },
-        "landing": {
-          "hero": "Ας δημιουργήσουμε τον προσωπικό σας Μεσογειακό Προπονητή και ένα πρόγραμμα για απώλεια βάρους και μακροζωία",
-          "subtitle": "Επιλέξτε το πρόγραμμά σας:",
-          "ctaMen": "Πρόγραμμα για άνδρες",
-          "ctaWomen": "Πρόγραμμα για γυναίκες",
-          "footer": "© 2026 meDiet. Όλα τα δικαιώματα διατηρούνται.",
-          "heroImageAlt": "Μπολ μεσογειακής κουζίνας"
-        },
-        "intro": {
-          "titlePrefix": "Πριν φτιάξουμε το πρόγραμμά σας",
-          "titleHighlight": "ΔΙΑΒΑΣΤΕ ΑΥΤ",
-          "p1": "Αν έχετε δοκιμάσει κετο, μέτρηση θερμίδων ή διαλειμματική νηστεία και νιώσατε ότι αποτύχατε.",
-          "p2": "Δεν αποτύχατε εσείς. Σας απογοήτευσε το πρόγραμμα.",
-          "p3": "Αυτά τα συστήματα βασίζονταν σε παλιά επιστήμη. Άκαμπτοι κανόνες. Γενικά πρότυπα.",
-          "p4Male": "Δεν σχεδιάστηκαν ποτέ για τον τρόπο που λειτουργεί πραγματικά το σώμα ενός άνδρα.",
-          "p4Female": "Δεν σχεδιάστηκαν ποτέ για τον τρόπο που λειτουργεί πραγματικά το σώμα μιας γυναίκας.",
-          "p5": "Αυτό αλλάζει τώρα.",
-          "p6": "Απαντήστε ειλικρινά. Εμείς αναλαμβάνουμε τα υπόλοιπα."
-        },
-        "steps": {
-          "s1": "Πόσο εξοικειωμένοι είστε με τη μεσογειακή διατροφή και το φαινόμενο των Μπλε Ζωνών;",
-          "s3": "Τι θέλετε να πετύχετε;",
-          "s4": "Πώς θα περιγράφατε το σώμα σας τώρα;",
-          "s5": "Ποιο σώμα θέλετε να έχετε;",
-          "s6": "Ποιες περιοχές θα θέλατε να βελτιώσετε;",
-          "s6Hint": "Αν είστε ευχαριστημένοι με το σώμα σας, πατήστε Συνέχεια",
-          "s7": "Πώς είναι συνήθως η μέρα σας;",
-          "s8": "Ποια είναι η ενεργειακή σας στάθμη κατά τη διάρκεια της ημέρας;",
-          "s9": "Πόσο συχνά γυμνάζεστε;",
-          "s10": "Πώς συνήθως μεταβάλλεται το βάρος σας;",
-          "s12": "Πότε ήσασταν τελευταία στο καλύτερο βάρος σας;",
-          "s13": "Έχετε δοκιμάσει κάποια από αυτές τις δίαιτες τα τελευταία 3 χρόνια;",
-          "s15": "Τι θα άλλαζε περισσότερο στη ζωή σας αν ερχόσασταν σε φόρμα;",
-          "s16": "Ποιο είναι το ύψος σας;",
-          "s17": "Ποιο είναι το τρέχον βάρος σας;",
-          "s19": "Ποιο είναι το επιθυμητό βάρος σας;",
-          "s20": "Ποια είναι η ηλικία σας;",
-          "s21Title": "Να τι ανακαλύψαμε",
-          "s21BmiTitle": "Ο Δείκτης Μάζας Σώματός σας (ΔΜΣ)",
-          "s22": "Πόσα γεύματα θα θέλατε να τρώτε κάθε μέρα;",
-          "s22Subtitle": "Μπορείτε να το αλλάξετε αργότερα στις ρυθμίσεις.",
-          "s23": "Θέλετε να αποκλείσετε κάποιες τροφές;",
-          "s23Label": "Πρωτεΐνες και γαλακτοκομικά:",
-          "s24": "Θέλετε να αποκλείσετε κάποιες τροφές;",
-          "s24Label": "Φρούτα και λαχανικά:",
-          "s25": "Θέλετε να αποκλείσετε κάποιες τροφές;",
-          "s25Label": "Δημητριακά και ξηροί καρποί:",
-          "s27Title": "Βάσει των διατροφικών σας προτιμήσεων, δημιουργήσαμε",
-          "s27Count": "500+",
-          "s27Lead": "συνδυασμούς γευμάτων",
-          "s27Body": "που σας ταιριάζουν απόλυτα και θα σας βοηθήσουν να φτάσετε στο υγιές βάρος σας με τον πιο ευχάριστο τρόπο!"
-        },
-        "labels": {
-          "selectAll": "Επιλέξτε όλα όσα ισχύουν:",
-          "youValue": "Εσείς",
-          "underweightShort": "Κάτω",
-          "underweight": "Ελλιποβαρής",
-          "healthy": "Φυσιολογικό",
-          "overweightShort": "Πάνω",
-          "overweight": "Υπέρβαρος",
-          "obese": "Παχύσαρκος",
-          "bodyFat": "Σωματικό λίπος",
-          "activityLevel": "Επίπεδο δραστηριότητας",
-          "energyLevel": "Επίπεδο ενέργειας",
-          "goal": "Στόχος"
-        },
-        "options": {
-          "goalsMale": [
-            "Μείωση σωματικού λίπους",
-            "Αποκτήστε λεπτό σώμα",
-            "Χτίσιμο μυών",
-            "Περισσότερη ενέργεια",
-            "Βελτίωση υγείας",
-            "Μεγαλύτερη ζωή"
-          ],
-          "goalsFemale": [
-            "Μείωση σωματικού λίπους",
-            "Αποκτήστε πιο λεπτό σώμα",
-            "Τόνωση σώματος",
-            "Περισσότερη ενέργεια",
-            "Βελτίωση υγείας",
-            "Μεγαλύτερη ζωή"
-          ],
-          "q3BodiesMale": [
-            "Λεπτός",
-            "Μέτριος",
-            "Λίγο λίπος στην κοιλιά",
-            "Υπέρβαρος"
-          ],
-          "q3BodiesFemale": [
-            "Λεπτή",
-            "Μέτρια",
-            "Λίγο λίπος στην κοιλιά",
-            "Υπέρβαρη"
-          ],
-          "q4BodiesMale": [
-            "Λίγο πιο λεπτός",
-            "Λεπτός και γυμνασμένος",
-            "Αθλητικός",
-            "Δυνατός και ορισμένος"
-          ],
-          "q4BodiesFemale": [
-            "Να νιώθω ξανά ο εαυτός μου",
-            "Να χάσω το επίμονο λίπος στην κοιλιά",
-            "Να νιώθω ελαφρύτερη και πιο σίγουρη",
-            "Να φαίνομαι τονισμένη και νεανική"
-          ],
-          "q12Reasons": [
-            "Πώς νιώθω κοιτώντας στον καθρέφτη",
-            "Να νιώθω ξανά ο εαυτός μου",
-            "Η ενέργειά μου με τα παιδιά / την οικογένεια",
-            "Η αυτοπεποίθησή μου μεταξύ άλλων",
-            "Πώς νιώθω με τον σύντροφό μου",
-            "Η μακροχρόνια υγεία μου",
-            "Πώς μου πηγαίνουν τα ρούχα"
-          ],
-          "familiarity": [
-            "Είναι νέο για μένα",
-            "Γνωρίζω τα βασικά",
-            "Το έχω δοκιμάσει στο παρελθόν"
-          ],
-          "bodyAreas": [
-            "Χέρια",
-            "Στήθος",
-            "Πλάτη",
-            "Κοιλιά",
-            "Πόδια",
-            "Γλουτοί"
-          ],
-          "dayToDay": [
-            "Κάθομαι τις περισσότερες ώρες",
-            "Κινούμαι πολύ",
-            "Γυμνάζομαι συχνά",
-            "Μένω σπίτι"
-          ],
-          "energy": [
-            "Συνήθως χαμηλή",
-            "Νιώθω κουρασμένος μετά το μεσημέρι",
-            "Η ενέργειά μου ανεβοκατεβαίνει",
-            "Η ενέργειά μου είναι σταθερή"
-          ],
-          "exercise": [
-            "Ποτέ",
-            "Μερικές φορές το μήνα",
-            "Μερικές φορές την εβδομάδα",
-            "Σχεδόν κάθε μέρα"
-          ],
-          "weightChange": [
-            "Παίρνω κιλά γρήγορα και τα χάνω αργά",
-            "Χάνω βάρος αλλά το ξαναπαίρνω",
-            "Το βάρος μου παραμένει σταθερό",
-            "Δυσκολεύομαι να χτίσω μυς"
-          ],
-          "idealWeight": [
-            "Λιγότερο από 1 χρόνο πριν",
-            "Πριν από 1–3 χρόνια",
-            "Πριν από περισσότερα από 3 χρόνια",
-            "Δεν ήμουν ποτέ στο καλύτερο βάρος μου"
-          ],
-          "diets": [
-            "Κετο",
-            "Διαλειμματική νηστεία",
-            "Χαμηλοί υδατάνθρακες",
-            "Χορτοφαγική",
-            "Vegan",
-            "Χωρίς γλουτένη",
-            "Άλλη",
-            "Καμία από αυτές"
-          ],
-          "meals": [
-            "Δύο",
-            "Τρία",
-            "Τέσσερα",
-            "Πέντε"
-          ],
-          "mealDescriptions": [
-            "Πρωινό και βραδινό με προαιρετικά σνακ",
-            "Πρωινό, μεσημεριανό και βραδινό",
-            "Πρωινό, σνακ, μεσημεριανό και βραδινό",
-            "Πρωινό, μεσημεριανό, βραδινό και δύο σνακ"
-          ],
-          "proteins": [
-            "Τρώω τα πάντα",
-            "Κοτόπουλο",
-            "Κόκκινο κρέας",
-            "Τυρί",
-            "Τόνος",
-            "Ελληνικό γιαούρτι",
-            "Σολομός",
-            "Γαρίδες",
-            "Αυγά",
-            "Ρεβίθια",
-            "Φακές",
-            "Τόφου"
-          ],
-          "vegetables": [
-            "Τρώω τα πάντα",
-            "Ντομάτες",
-            "Αγγούρι",
-            "Μπρόκολο",
-            "Σπανάκι",
-            "Κολοκυθάκι",
-            "Πιπεριά",
-            "Αβοκάντο",
-            "Ελιές",
-            "Κρεμμύδι"
-          ],
-          "grains": [
-            "Τρώω τα πάντα",
-            "Ρύζι",
-            "Κους κους",
-            "Κινόα",
-            "Βρόμη",
-            "Αμύγδαλα",
-            "Καρύδια",
-            "Φιστίκια",
-            "Καλαμπόκι"
-          ]
-        },
-        "loading": {
-          "title": "Δημιουργούμε το πρόγραμμά σας...",
-          "messages": [
-            "Αναλύουμε το μεταβολικό σας προφίλ…",
-            "Εξετάζουμε τις διατροφικές σας προτιμήσεις…",
-            "Συγκρίνουμε με δεδομένα μακροζωίας Μπλε Ζωνών…",
-            "Επεξεργαζόμαστε τις τελευταίες έρευνες διατροφής…",
-            "Ρυθμίζουμε τις αναλογίες μακροθρεπτικών…",
-            "Χτίζουμε το προσαρμοστικό Μεσογειακό σύστημα coaching σας…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "Εξατομικευμένη γνώση",
-          "blueZones": {
-            "title": "Το μυστικό τους για λεπτό σώμα και μακρά ζωή.\n\nΤΩΡΑ ΕΠΙΤΕΛΟΥΣ ΚΑΙ ΔΙΚΟ ΣΑΣ.",
-            "body": "Οι άνθρωποι από τις πιο μακρόβιες περιοχές του κόσμου, τις **Μπλε Ζώνες**, ζουν περισσότερο από όλους τους άλλους.\n\nΕίναι επίσης σε καλύτερη φόρμα. Πιο λεπτοί. Πιο ενεργητικοί. Και από κάθε άποψη, ανάμεσα στους πιο ευτυχισμένους ανθρώπους στη Γη.\n\nΔεν μετράνε θερμίδες. Δεν περιορίζουν υδατάνθρακες. Τρώνε πραγματική τροφή, υγιεινά λίπη, καλά συστατικά.\n\n**Για πρώτη φορά, η πιο αποδεδειγμένη δίαιτα μακροζωίας στον κόσμο χτίζεται γύρω από εσάς, όχι γύρω από όλους.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "Ο μεταβολισμός σας δεν είναι χαλασμένος.\nΑπλώς του έδωσαν λάθος πρόγραμμα.",
-            "body": "Το σώμα σας αλλάζει. Τα περισσότερα προγράμματα όχι.\n\n**Το σύστημά μας βασισμένο σε ΤΝ λειτουργεί 24/7.**\n\nΕκπαιδευμένο σε εκατοντάδες χρόνια έρευνας. Εκατομμύρια πραγματικές περιπτώσεις.\n\nΠροσαρμόζεται όταν εσείς προσαρμόζεστε.\n\nΔεν σταματά ποτέ να εργάζεται για εσάς.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "Αυτές οι δίαιτες δεν απέτυχαν επειδή τις κάνατε λάθος.",
-            "body": "Απέτυχαν γιατί δεν άλλαζαν ποτέ.\n\nΚετο. Μέτρηση θερμίδων. Λίγο λίπος. Πολλά δημητριακά.\n\nΑκολουθήσατε τους κανόνες. Το σώμα σας προσαρμόστηκε. Το πρόγραμμα όχι.\n\n**Η επιστήμη είναι πλέον ξεκάθαρη: τα στατικά προγράμματα αποτυγχάνουν. Πάντα.**\n\nΤο σώμα σας δεν είναι στατικό. Το πρόγραμμά σας επίσης δεν πρέπει να είναι.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "Χρησιμοποιούμε το ύψος και το βάρος σας για να υπολογίσουμε τον Δείκτη Μάζας Σώματος (ΔΜΣ).",
-            "body": "Ο ΔΜΣ μας βοηθά να κατανοήσουμε το τρέχον εύρος βάρους σας."
-          },
-          "adviceWrong": {
-            "title": "Η συμβουλή που σας έδωσαν;\n\nΉΤΑΝ ΛΑΘΟΣ",
-            "body": "Χρόνια έλεγαν: φάτε λιγότερο λίπος, μετρήστε κάθε θερμίδα, ακολουθήστε την πυραμίδα.\n\nΕκατομμύρια το ακολούθησαν πιστά. Εκατομμύρια εξακολούθησαν να αγωνίζονται.\n\nΤο θεμέλιο ήταν ανάποδο. Όχι εσείς.\n\nΗ επιστήμη το διόρθωσε. Το πρόγραμμά σας το αντικατοπτρίζει.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "Η ηλικία αλλάζει τον μεταβολισμό, αλλά δεν σταματά τα αποτελέσματα.",
-            "body": "Καθώς μεγαλώνουμε, ο οργανισμός αντιδρά διαφορετικά στις τροφές.\n\nΓι' αυτό τα προγράμματα «για όλους» συχνά αποτυγχάνουν μετά τα 30 ή τα 40.\n\nΤο πρόγραμμά σας πρέπει να προσαρμόζεται στο στάδιο ζωής σας."
-          },
-          "preEmail": {
-            "title": "Δεν είναι ένα ακόμη σταθερό διατροφικό πρόγραμμα.",
-            "body": "Το Μεσογειακό σας πρόγραμμα τροφοδοτείται από coaching ΤΝ.\n\nΠροσαρμόζεται βάσει της προόδου σας, των επιπέδων ενέργειας και των σχολίων σας.\n\nΔεν χρειάζεται να μαντεύετε.\n\nΤο σύστημα εξελίσσεται μαζί σας.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "Ο ΔΜΣ σας βρίσκεται στο φυσιολογικό εύρος.",
-            "body": "Αυτό είναι ένα εξαιρετικό σημείο εκκίνησης. Τώρα ο στόχος είναι να διατηρήσετε το βάρος σας, να βελτιώσετε τη σωματική σας μορφή και να υποστηρίξετε τον μεταβολισμό σας. Θα χρησιμοποιήσουμε τον ΔΜΣ σας για να δημιουργήσουμε το εξατομικευμένο Μεσογειακό σύστημα coaching σας και να σας βοηθήσουμε να παραμείνετε σε φόρμα και δυνατοί."
-          },
-          "overweight": {
-            "title": "Ο ΔΜΣ σας βρίσκεται στο εύρος υπέρβαρου.",
-            "body": "Αυτό σημαίνει ότι το σώμα σας μπορεί να αποθηκεύει επιπλέον λίπος. Με το σωστό πρόγραμμα διατροφής, μπορείτε να κινηθείτε προς ένα πιο υγιές βάρος. Θα χρησιμοποιήσουμε τον ΔΜΣ σας για να δημιουργήσουμε το εξατομικευμένο Μεσογειακό σύστημα coaching σας."
-          },
-          "obese": {
-            "title": "Ο ΔΜΣ σας βρίσκεται στο εύρος παχυσαρκίας.",
-            "body": "Αυτό σημαίνει ότι το σώμα σας φέρει περισσότερο βάρος από το συνιστώμενο. Ακόμη και μια μικρή απώλεια βάρους μπορεί να βελτιώσει την υγεία και την ενέργειά σας. Θα χρησιμοποιήσουμε τον ΔΜΣ σας για να δημιουργήσουμε ένα εξατομικευμένο Μεσογειακό σύστημα coaching που θα σας βοηθήσει να χάσετε βάρος με υγιή και σταθερό τρόπο."
-          },
-          "underweight": {
-            "title": "Ο ΔΜΣ σας βρίσκεται στο εύρος ελλιποβαρούς.",
-            "body": "Θα σας βοηθήσουμε να χτίσετε ένα υγιές διατροφικό πρόγραμμα που θα υποστηρίξει τον μεταβολισμό σας και τη γενική σας ευεξία."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "Οφέλη για την υγεία: Χάστε {percent}% του βάρους σας",
-          "smallBody": "Μελέτες δείχνουν ότι ακόμη και η απώλεια 10% του σωματικού βάρους μπορεί να βελτιώσει την υγεία. Μπορεί να βοηθήσει στη μείωση του κινδύνου καρδιακών παθήσεων, υψηλού σακχάρου και φλεγμονής στο σώμα. Μικρές αλλαγές μπορούν να κάνουν μεγάλη διαφορά.",
-          "bigTitle": "Μεγαλύτερος στόχος: Χάστε {percent}% του βάρους σας",
-          "bigBody": "Έρευνες δείχνουν ότι άτομα που χάνουν περισσότερο από 20% του σωματικού τους βάρους συχνά βελτιώνουν τη μεταβολική τους υγεία περισσότερο από αυτούς που χάνουν μόνο 5–10%. Η μεγαλύτερη απώλεια βάρους μπορεί να οδηγήσει σε καλύτερη ενέργεια, καλύτερο έλεγχο σακχάρου και καλύτερη συνολική υγεία."
-        }
-      },
-      "da": {
-        "common": {
-          "continue": "Fortsæt",
+          "continue": "Continue",
           "menu": "Menu",
-          "closeMenu": "Luk menu",
-          "helpCenter": "Hjælpecenter",
-          "contactUs": "Kontakt os",
-          "terms": "Vilkår og betingelser",
-          "privacyPolicy": "Privatlivspolitik",
-          "cookiePolicy": "Cookiepolitik",
-          "privacySettings": "Privatlivsindstillinger",
+          "closeMenu": "Close menu",
+          "helpCenter": "Help Center",
+          "contactUs": "Contact Us",
+          "terms": "Terms & Conditions",
+          "privacyPolicy": "Privacy Policy",
+          "cookiePolicy": "Cookie Policy",
+          "privacySettings": "Privacy Settings",
           "facebook": "Facebook",
           "instagram": "Instagram",
-          "notSet": "Ikke angivet"
+          "notSet": "Not set"
         },
         "landing": {
-          "hero": "Lad os skabe din personlige Middelhavscoach og et program til vægttab og et langt, sundt liv",
-          "subtitle": "Vælg dit program:",
-          "ctaMen": "Program til mænd",
-          "ctaWomen": "Program til kvinder",
-          "footer": "© 2026 meDiet. Alle rettigheder forbeholdes.",
-          "heroImageAlt": "Skål med middelhavsmad"
+          "hero": "Let's personalize your Mediterranean Coach and build your program for weight-loss and longevity nutrition",
+          "subtitle": "Select your program :",
+          "ctaMen": "Program for Men",
+          "ctaWomen": "Program for Women",
+          "footer": "© 2026 meDiet. All rights reserved.",
+          "heroImageAlt": "Mediterranean food bowl"
         },
         "intro": {
-          "titlePrefix": "Inden vi sætter din plan sammen",
-          "titleHighlight": "LÆS DETTE",
-          "p1": "Hvis du har prøvet keto, kalorietælling eller intermitterende faste og følte, at du mislykkedes.",
-          "p2": "Du mislykkedes ikke. Det var planen, der svigtede dig.",
-          "p3": "Disse systemer var bygget på forældet videnskab. Stive regler. Generiske skabeloner.",
-          "p4Male": "De var aldrig designet til, hvordan en mands krop faktisk fungerer.",
-          "p4Female": "De var aldrig designet til, hvordan en kvindes krop faktisk fungerer.",
-          "p5": "Det ændrer sig nu.",
-          "p6": "Svar ærligt. Vi klarer resten."
+          "titlePrefix": "Before we build your plan",
+          "titleHighlight": "READ THIS",
+          "p1": "If you've tried keto, calorie counting, or intermittent fasting and felt like you failed.",
+          "p2": "You didn't fail. The plan failed you.",
+          "p3": "Those systems were built on old science. Fixed rules. Generic templates.",
+          "p4Male": "They were never designed for how a man's body actually works.",
+          "p4Female": "They were never designed for how a woman's body actually works.",
+          "p5": "That changes right now.",
+          "p6": "Answer honestly. We'll do the rest."
         },
         "steps": {
-          "s1": "Hvor bekendt er du med Middelhavskosten og de Blå Zoner?",
-          "s3": "Hvad ønsker du at opnå?",
-          "s4": "Hvordan vil du beskrive din krop i dag?",
-          "s5": "Hvilken krop ønsker du?",
-          "s6": "Hvilke zoner vil du gerne forbedre?",
-          "s6Hint": "Hvis du er tilfreds med din krop, tryk Fortsæt",
-          "s7": "Hvordan ser din typiske dag ud?",
-          "s8": "Hvad er dit energiniveau i løbet af dagen?",
-          "s9": "Hvor ofte træner du?",
-          "s10": "Hvordan ændrer din vægt sig typisk?",
-          "s12": "Hvornår var du sidst på din bedste vægt?",
-          "s13": "Har du prøvet nogen af disse diæter inden for de seneste 3 år?",
-          "s15": "Hvad ville ændre sig mest i dit liv, hvis du kom i form?",
-          "s16": "Hvad er din højde?",
-          "s17": "Hvad er din nuværende vægt?",
-          "s19": "Hvad er din målvægt?",
-          "s20": "Hvor gammel er du?",
-          "s21Title": "Her er, hvad vi fandt",
-          "s21BmiTitle": "Dit kropsmasseindeks (BMI)",
-          "s22": "Hvor mange måltider om dagen ønsker du?",
-          "s22Subtitle": "Du kan ændre dette i indstillingerne til enhver tid.",
-          "s23": "Ønsker du at udelukke nogen fødevarer?",
-          "s23Label": "Proteiner og mejeriprodukter:",
-          "s24": "Ønsker du at udelukke nogen fødevarer?",
-          "s24Label": "Frugt og grøntsager:",
-          "s25": "Ønsker du at udelukke nogen fødevarer?",
-          "s25Label": "Korn og nødder:",
-          "s27Title": "Baseret på dine madpræferencer har vi skabt",
+          "s1": "How familiar are you with Mediterranean diet & Blue Zones phenomena?",
+          "s3": "What do you want to achieve?",
+          "s4": "How would you describe your body now?",
+          "s5": "What body do you want?",
+          "s6": "Which areas would you like to improve?",
+          "s6Hint": "If you are happy with your body, press Continue",
+          "s7": "What does your day usually look like?",
+          "s8": "How is your energy during the day?",
+          "s9": "How often do you exercise?",
+          "s10": "How does your weight usually change?",
+          "s12": "When were you last at your best weight?",
+          "s13": "Have you tried any of these diets in the last 3 years?",
+          "s15": "What would getting in shape change most for you?",
+          "s16": "What is your height?",
+          "s17": "What is your current weight?",
+          "s19": "What is your target weight?",
+          "s20": "What is your age?",
+          "s21Title": "Here's What We Found",
+          "s21BmiTitle": "Your Body Mass Index (BMI)",
+          "s22": "How many meals would you like to eat each day?",
+          "s22Subtitle": "You can change this later in your settings.",
+          "s23": "Would you like to exclude any of these foods?",
+          "s23Label": "Proteins & dairy:",
+          "s24": "Would you like to exclude any of these foods?",
+          "s24Label": "Fruits & vegetables:",
+          "s25": "Would you like to exclude any of these foods?",
+          "s25Label": "Grains & nuts:",
+          "s27Title": "Based on your food preferences, we've created",
           "s27Count": "500+",
-          "s27Lead": "måltidskombinationer",
-          "s27Body": "der passer perfekt til dig og hjælper dig med at nå en sund vægt på den mest behagelige måde!"
+          "s27Lead": "Meal combinations",
+          "s27Body": "that are the perfect fit for you and will help you reach a healthy weight in the most enjoyable way!"
         },
         "labels": {
-          "selectAll": "Vælg alt, der gælder:",
-          "youValue": "Du",
+          "selectAll": "Select all that apply:",
+          "youValue": "You",
           "underweightShort": "Under",
-          "underweight": "Undervægt",
-          "healthy": "Sund",
+          "underweight": "Underweight",
+          "healthy": "Healthy",
           "overweightShort": "Over",
-          "overweight": "Overvægt",
-          "obese": "Fedme",
-          "bodyFat": "Kropsfedt",
-          "activityLevel": "Aktivitetsniveau",
-          "energyLevel": "Energiniveau",
-          "goal": "Mål"
+          "overweight": "Overweight",
+          "obese": "Obese",
+          "bodyFat": "Body fat",
+          "activityLevel": "Activity level",
+          "energyLevel": "Energy level",
+          "goal": "Goal"
         },
         "options": {
           "goalsMale": [
-            "Reducere kropsfedt",
-            "Blive slankere",
-            "Opbygge muskler",
-            "Få mere energi",
-            "Forbedre sundheden",
-            "Leve længere"
+            "Lose body fat",
+            "Get a lean body",
+            "Build muscle",
+            "Have more energy",
+            "Improve my health",
+            "Live longer"
           ],
           "goalsFemale": [
-            "Reducere kropsfedt",
-            "Blive mere slank",
-            "Forme kroppen",
-            "Få mere energi",
-            "Forbedre sundheden",
-            "Leve længere"
+            "Lose body fat",
+            "Get a slimmer body",
+            "Tone my body",
+            "Have more energy",
+            "Improve my health",
+            "Live longer"
           ],
           "q3BodiesMale": [
-            "Slank",
-            "Gennemsnitlig",
-            "Lidt fedt på maven",
-            "Overvægtig"
+            "Slim",
+            "Average",
+            "Some belly fat",
+            "Overweight"
           ],
           "q3BodiesFemale": [
-            "Slank",
-            "Gennemsnitlig",
-            "Lidt fedt på maven",
-            "Overvægtig"
+            "Slim",
+            "Average",
+            "Some belly fat",
+            "Overweight"
           ],
           "q4BodiesMale": [
-            "Lidt slankere",
-            "Slank og fit",
-            "Atletisk",
-            "Stærk og defineret"
+            "A little slimmer",
+            "Lean and fit",
+            "Athletic",
+            "Strong and defined"
           ],
           "q4BodiesFemale": [
-            "At føle mig som mig selv igen",
-            "At slippe af med det stædige mavefedt",
-            "At føle mig lettere og mere selvsikker",
-            "At se tonet og ungdommelig ud"
+            "Feel like myself again",
+            "Lose stubborn belly fat",
+            "Feel lighter and more confident",
+            "Look toned and youthful"
           ],
           "q12Reasons": [
-            "Hvordan jeg har det, når jeg ser mig i spejlet",
-            "At føle mig som mig selv igen",
-            "Min energi med børnene / familien",
-            "Min selvtillid i selskab med andre",
-            "Hvordan jeg har det med min partner",
-            "Min langsigtede sundhed",
-            "Hvordan tøjet sidder"
+            "How I feel when I look in the mirror",
+            "Feeling like myself again",
+            "My energy with my kids / family",
+            "My confidence around others",
+            "How I feel for my partner",
+            "My long term health",
+            "How my clothes fit"
           ],
           "familiarity": [
-            "Det er nyt for mig",
-            "Jeg kender det grundlæggende",
-            "Jeg har prøvet det før"
+            "I'm new to it",
+            "I know the basics",
+            "I've tried it before"
           ],
           "bodyAreas": [
-            "Arme",
-            "Bryst",
-            "Ryg",
-            "Mave",
-            "Ben",
-            "Bagdel"
+            "Arms",
+            "Chest",
+            "Back",
+            "Stomach",
+            "Legs",
+            "Glutes"
           ],
           "dayToDay": [
-            "Sidder det meste af dagen",
-            "Bevæger mig meget",
-            "Træner regelmæssigt",
-            "Er hjemme"
+            "I sit most of the day",
+            "I move a lot",
+            "I exercise often",
+            "I stay at home"
           ],
           "energy": [
-            "Normalt lav",
-            "Føler mig træt om eftermiddagen",
-            "Mit energiniveau svinger",
-            "Mit energiniveau er stabilt"
+            "Low most of the time",
+            "I feel tired after lunch",
+            "My energy goes up and down",
+            "My energy is steady"
           ],
           "exercise": [
-            "Aldrig",
-            "Nogle gange om måneden",
-            "Nogle gange om ugen",
-            "Næsten hver dag"
+            "Never",
+            "A few times a month",
+            "A few times a week",
+            "Almost every day"
           ],
           "weightChange": [
-            "Tager hurtigt på og taber langsomt",
-            "Taber mig, men tager på igen",
-            "Min vægt forbliver stabil",
-            "Har svært ved at opbygge muskler"
+            "I gain weight fast and lose it slowly",
+            "I lose weight but gain it back",
+            "My weight stays the same",
+            "I find it hard to build muscle"
           ],
           "idealWeight": [
-            "Mindre end 1 år siden",
-            "For 1–3 år siden",
-            "For mere end 3 år siden",
-            "Jeg har aldrig været på min bedste vægt"
+            "Less than 1 year ago",
+            "1–3 years ago",
+            "More than 3 years ago",
+            "I have never been at my best weight"
           ],
           "diets": [
             "Keto",
-            "Intermitterende faste",
-            "Lavt kulhydratindhold",
-            "Vegetarisk",
-            "Vegansk",
-            "Glutenfri",
-            "Anden",
-            "Ingen af dem"
+            "Intermittent fasting",
+            "Low-carb",
+            "Vegetarian",
+            "Vegan",
+            "Gluten free",
+            "Other",
+            "None of these"
           ],
           "meals": [
-            "To",
-            "Tre",
-            "Fire",
-            "Fem"
+            "Two",
+            "Three",
+            "Four",
+            "Five"
           ],
           "mealDescriptions": [
-            "Morgenmad og aftensmad med valgfri snacks",
-            "Morgenmad, frokost og aftensmad",
-            "Morgenmad, snack, frokost og aftensmad",
-            "Morgenmad, frokost, aftensmad og to snacks"
+            "Breakfast and dinner, with optional snacks",
+            "Breakfast, lunch, and dinner",
+            "Breakfast, snack, lunch, and dinner",
+            "Breakfast, lunch, dinner, and two snacks"
           ],
           "proteins": [
-            "Spiser alt",
-            "Kylling",
-            "Rødt kød",
-            "Ost",
-            "Tun",
-            "Græsk yoghurt",
-            "Laks",
-            "Rejer",
-            "Æg",
-            "Kikærter",
-            "Linser",
+            "I eat everything",
+            "Chicken",
+            "Red meat",
+            "Cheese",
+            "Tuna",
+            "Greek yogurt",
+            "Salmon",
+            "Shrimp",
+            "Eggs",
+            "Chickpeas",
+            "Lentils",
             "Tofu"
           ],
           "vegetables": [
-            "Spiser alt",
-            "Tomater",
-            "Agurk",
+            "I eat everything",
+            "Tomatoes",
+            "Cucumber",
             "Broccoli",
-            "Spinat",
+            "Spinach",
             "Zucchini",
-            "Peberfrugt",
+            "Bell pepper",
             "Avocado",
-            "Oliven",
-            "Løg"
+            "Olives",
+            "Onions"
           ],
           "grains": [
-            "Spiser alt",
-            "Ris",
+            "I eat everything",
+            "Rice",
             "Couscous",
             "Quinoa",
-            "Havregryn",
-            "Mandler",
-            "Valnødder",
-            "Jordnødder",
-            "Majs"
+            "Oats",
+            "Almonds",
+            "Walnuts",
+            "Peanuts",
+            "Corn"
           ]
         },
         "loading": {
-          "title": "Sætter din plan sammen...",
+          "title": "Generating...",
           "messages": [
-            "Analyserer din metaboliske profil…",
-            "Undersøger dine madpræferencer…",
-            "Sammenligner med Blå Zoners levetidsdata…",
-            "Behandler den nyeste ernæringsforskning…",
-            "Finjusterer makronæringsforholdet…",
-            "Bygger dit tilpassede Middelhavs-coachingsystem…"
+            "Analyzing your metabolic profile…",
+            "Reviewing food preferences…",
+            "Comparing with Blue Zone longevity data…",
+            "Processing latest nutrition research…",
+            "Adjusting macro proportions…",
+            "Building your adaptive Mediterranean Coaching system…"
           ]
         },
         "infoBlocks": {
-          "eyebrow": "Personlig indsigt",
+          "eyebrow": "Personalized insight",
           "blueZones": {
-            "title": "Deres hemmelighed til en slank krop og et langt liv.\n\nNU ENDELIG OGSÅ DIN.",
-            "body": "Beboerne i verdens mest langlivede regioner, kendt som **de Blå Zoner**, lever længere end alle andre.\n\nDe er også i bedre form. Slankere. Mere energiske. Og efter enhver målestok er de blandt de lykkeligste mennesker på Jorden.\n\nDe tæller ikke kalorier. De begrænser ikke kulhydrater. De spiser rigtig mad, sunde fedtstoffer, kvalitetsingredienser.\n\n**For første gang bygges verdens mest dokumenterede diæt for lang levetid op omkring dig, ikke alle.**",
+            "title": "Their secret to a lean body and long life.\n\nNOW FINALLY YOURS.",
+            "body": "People in the world's longest-living regions called **Blue Zones** — outlive everyone else.\n\nThey're also in better shape. Leaner. More energetic. And by every measure, among the happiest people on earth.\n\nThey don't count calories. They don't cut carbs. They eat real food, healthy fats, good ingredients.\n\n**For the first time, the world's most proven longevity diet is being built around you, not everyone.**",
             "image": "/quiz/blue-zones.png"
           },
           "metabolism": {
-            "title": "Din metabolisme er ikke ødelagt.\nDen fik bare en forkert plan.",
-            "body": "Din krop ændrer sig. De fleste planer gør ikke.\n\n**Vores AI-baserede system kører 24/7.**\n\nTrænet på hundredvis af års forskning. Millioner af virkelige tilfælde.\n\nDet tilpasser sig, når du tilpasser dig.\n\nDet stopper aldrig med at arbejde for dig.",
+            "title": "Your metabolism isn't broken.\nIt's been given the wrong plan.",
+            "body": "Your body changes. Most plans don't.\n\n**Our AI-powered system runs 24/7.**\n\nTrained on hundreds of years of research. Millions of real cases.\n\nIt adjusts when you adjust.\n\nIt never stops working on you.",
             "image": "/quiz/page11.png"
           },
           "dietsWrong": {
-            "title": "Disse diæter fejlede ikke, fordi du gjorde dem forkert.",
-            "body": "De fejlede, fordi de aldrig ændrede sig.\n\nKeto. Kalorietælling. Lavt fedtindhold. Mange korn.\n\nDu fulgte reglerne. Din krop tilpassede sig. Planen gjorde ikke.\n\n**Videnskaben er klar: statiske planer fejler altid.**\n\nDin krop er ikke statisk. Heller ikke din plan bør være det.",
+            "title": "Those diets weren't wrong because you did them wrong.",
+            "body": "They were wrong because they never changed.\n\nKeto. Calorie counting. Low fat. High grain.\n\nYou followed the rules. Your body adapted. The plan didn't.\n\n**The science is clear now. Static plans fail. Always.**\n\nYour body is not static. Your plan shouldn't be either.",
             "image": "/quiz/3.png"
           },
           "bmiExplanation": {
-            "title": "Vi bruger din højde og vægt til at beregne dit kropsmasseindeks (BMI).",
-            "body": "BMI hjælper os med at forstå dit nuværende væginterval."
+            "title": "We use your height and weight to calculate your Body Mass Index (BMI).",
+            "body": "BMI helps us understand your current weight range."
           },
           "adviceWrong": {
-            "title": "Det råd, du fik?\n\nDET VAR FORKERT",
-            "body": "I årevis fortalte de dig: spis mindre fedt, tæl hver kalorie, følg pyramiden.\n\nMillioner fulgte det til punkt og prikke. Millioner kæmpede stadig.\n\nGrundlaget var forkert. Ikke dig.\n\nVidenskaben har hentet ind. Din plan afspejler det.",
+            "title": "That advice you were given?\n\nIT WAS WRONG",
+            "body": "For years they said eat less fat. Count every calorie. Follow the pyramid.\n\nMillions followed it perfectly. Millions still struggled.\n\nThe foundation was backwards. Not you.\n\nThe science has caught up. Your plan reflects that.",
             "image": "/quiz/page12.png"
           },
           "ageMetabolism": {
-            "title": "Alderen ændrer din metabolisme, men den stopper ikke resultaterne.",
-            "body": "Efterhånden som vi bliver ældre, reagerer kroppen anderledes på mad.\n\nDet er grunden til, at one-size-fits-all-diæter ofte fejler efter 30 eller 40.\n\nDin plan skal tilpasse sig din livsfase."
+            "title": "Age changes your metabolism, but it doesn't stop results.",
+            "body": "As we get older, the body responds differently to food.\n\nThat's why one-size-fits-all diets often fail after 30 or 40.\n\nYour plan must adjust to your stage of life."
           },
           "preEmail": {
-            "title": "Dette er ikke endnu en fast kostplan.",
-            "body": "Dit Middelhavsprogram drives af AI-coaching.\n\nDet tilpasser sig baseret på dine fremskridt, energiniveauer og feedback.\n\nDu behøver ikke gætte.\n\nSystemet udvikler sig med dig.",
+            "title": "This is not another fixed meal plan.",
+            "body": "Your Mediterranean Program is powered by AI coaching.\n\nIt adapts based on your progress, energy levels, and feedback.\n\nYou don't need to guess.\n\nThe system evolves with you.",
             "image": "/quiz/mediterranean-spread.png"
           }
         },
         "bmiMessages": {
           "healthy": {
-            "title": "Dit BMI er i det sunde interval.",
-            "body": "Det er et fremragende udgangspunkt. Målet nu er at vedligeholde vægten, forbedre kropsformen og støtte din metabolisme. Vi vil bruge dit BMI til at bygge dit personaliserede Middelhavs-coachingsystem og hjælpe dig med at forblive fit og stærk."
+            "title": "Your BMI is in the healthy range.",
+            "body": "That's a great starting point. Now the goal is to maintain your weight, improve body shape, and support your metabolism. We will use your BMI to create your Personalized Mediterranean Coaching System and help you stay fit and strong."
           },
           "overweight": {
-            "title": "Dit BMI er i overvægtsintervallet.",
-            "body": "Det betyder, at din krop muligvis lagrer overskydende fedt. Med den rigtige kostplan kan du bevæge dig mod en sundere vægt. Vi vil bruge dit BMI til at bygge dit personaliserede Middelhavs-coachingsystem."
+            "title": "Your BMI is in the overweight range.",
+            "body": "This means your body may be storing extra fat. With the right nutrition plan, you can move toward a healthier weight. We will use your BMI to build your Personalized Mediterranean Coaching System."
           },
           "obese": {
-            "title": "Dit BMI er i fedmeintervallet.",
-            "body": "Det betyder, at din krop bærer mere vægt end anbefalet. Selv et lille vægttab kan forbedre dit helbred og din energi. Vi vil bruge dit BMI til at bygge et personaliseret Middelhavs-coachingsystem, der hjælper dig med at tabe dig sundt og gradvist."
+            "title": "Your BMI is in the obese range.",
+            "body": "This means your body is carrying more weight than recommended. Losing even a small amount of weight can improve your health and energy. We will use your BMI to create a Personalized Mediterranean Coaching System that helps you lose weight in a healthy and steady way."
           },
           "underweight": {
-            "title": "Dit BMI er i undervægtsintervallet.",
-            "body": "Vi hjælper dig med at bygge en sund kostplan, der støtter din metabolisme og dit generelle velvære."
+            "title": "Your BMI is in the underweight range.",
+            "body": "We will help you build a healthy nutrition plan to support your metabolism and overall well-being."
           }
         },
         "weightLoss": {
-          "smallTitle": "Sundhedsmæssig fordel: Tab {percent}% af din vægt",
-          "smallBody": "Studier viser, at selv et vægttab på 10% kan forbedre sundheden. Det kan hjælpe med at reducere risikoen for hjertesygdomme, højt blodsukker og betændelse i kroppen. Små ændringer kan gøre en stor forskel.",
-          "bigTitle": "Større mål: Tab {percent}% af din vægt",
-          "bigBody": "Forskning viser, at folk, der taber mere end 20% af deres kropsvægt, ofte forbedrer deres metaboliske sundhed mere end dem, der kun taber 5–10%. Et større vægttab kan føre til bedre energi, bedre blodsukkerkontrol og bedre overordnet helbred."
+          "smallTitle": "Health Benefits: Lose {percent}% of your weight",
+          "smallBody": "Studies show that losing even 10% of your body weight can improve your health. It may help lower the risk of heart disease, high blood sugar, and inflammation in the body. Small changes can make a big difference.",
+          "bigTitle": "Bigger Goal: Lose {percent}% of your weight",
+          "bigBody": "Research shows that people who lose more than 20% of their body weight often improve their metabolic health more than those who lose only 5–10%. Losing more weight can lead to better energy, better blood sugar control, and better overall health."
         }
       },
       "gr": {
@@ -1534,618 +1228,6 @@ export default {
           "bigBody": "Έρευνες δείχνουν ότι άτομα που χάνουν περισσότερο από 20% του σωματικού τους βάρους συχνά βελτιώνουν τη μεταβολική τους υγεία περισσότερο από αυτούς που χάνουν μόνο 5–10%. Η μεγαλύτερη απώλεια βάρους μπορεί να οδηγήσει σε καλύτερη ενέργεια, καλύτερο έλεγχο σακχάρου και καλύτερη συνολική υγεία."
         }
       },
-      "dk": {
-        "common": {
-          "continue": "Fortsæt",
-          "menu": "Menu",
-          "closeMenu": "Luk menu",
-          "helpCenter": "Hjælpecenter",
-          "contactUs": "Kontakt os",
-          "terms": "Vilkår og betingelser",
-          "privacyPolicy": "Privatlivspolitik",
-          "cookiePolicy": "Cookiepolitik",
-          "privacySettings": "Privatlivsindstillinger",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "Ikke angivet"
-        },
-        "landing": {
-          "hero": "Lad os skabe din personlige Middelhavscoach og et program til vægttab og et langt, sundt liv",
-          "subtitle": "Vælg dit program:",
-          "ctaMen": "Program til mænd",
-          "ctaWomen": "Program til kvinder",
-          "footer": "© 2026 meDiet. Alle rettigheder forbeholdes.",
-          "heroImageAlt": "Skål med middelhavsmad"
-        },
-        "intro": {
-          "titlePrefix": "Inden vi sætter din plan sammen",
-          "titleHighlight": "LÆS DETTE",
-          "p1": "Hvis du har prøvet keto, kalorietælling eller intermitterende faste og følte, at du mislykkedes.",
-          "p2": "Du mislykkedes ikke. Det var planen, der svigtede dig.",
-          "p3": "Disse systemer var bygget på forældet videnskab. Stive regler. Generiske skabeloner.",
-          "p4Male": "De var aldrig designet til, hvordan en mands krop faktisk fungerer.",
-          "p4Female": "De var aldrig designet til, hvordan en kvindes krop faktisk fungerer.",
-          "p5": "Det ændrer sig nu.",
-          "p6": "Svar ærligt. Vi klarer resten."
-        },
-        "steps": {
-          "s1": "Hvor bekendt er du med Middelhavskosten og de Blå Zoner?",
-          "s3": "Hvad ønsker du at opnå?",
-          "s4": "Hvordan vil du beskrive din krop i dag?",
-          "s5": "Hvilken krop ønsker du?",
-          "s6": "Hvilke zoner vil du gerne forbedre?",
-          "s6Hint": "Hvis du er tilfreds med din krop, tryk Fortsæt",
-          "s7": "Hvordan ser din typiske dag ud?",
-          "s8": "Hvad er dit energiniveau i løbet af dagen?",
-          "s9": "Hvor ofte træner du?",
-          "s10": "Hvordan ændrer din vægt sig typisk?",
-          "s12": "Hvornår var du sidst på din bedste vægt?",
-          "s13": "Har du prøvet nogen af disse diæter inden for de seneste 3 år?",
-          "s15": "Hvad ville ændre sig mest i dit liv, hvis du kom i form?",
-          "s16": "Hvad er din højde?",
-          "s17": "Hvad er din nuværende vægt?",
-          "s19": "Hvad er din målvægt?",
-          "s20": "Hvor gammel er du?",
-          "s21Title": "Her er, hvad vi fandt",
-          "s21BmiTitle": "Dit kropsmasseindeks (BMI)",
-          "s22": "Hvor mange måltider om dagen ønsker du?",
-          "s22Subtitle": "Du kan ændre dette i indstillingerne til enhver tid.",
-          "s23": "Ønsker du at udelukke nogen fødevarer?",
-          "s23Label": "Proteiner og mejeriprodukter:",
-          "s24": "Ønsker du at udelukke nogen fødevarer?",
-          "s24Label": "Frugt og grøntsager:",
-          "s25": "Ønsker du at udelukke nogen fødevarer?",
-          "s25Label": "Korn og nødder:",
-          "s27Title": "Baseret på dine madpræferencer har vi skabt",
-          "s27Count": "500+",
-          "s27Lead": "måltidskombinationer",
-          "s27Body": "der passer perfekt til dig og hjælper dig med at nå en sund vægt på den mest behagelige måde!"
-        },
-        "labels": {
-          "selectAll": "Vælg alt, der gælder:",
-          "youValue": "Du",
-          "underweightShort": "Under",
-          "underweight": "Undervægt",
-          "healthy": "Sund",
-          "overweightShort": "Over",
-          "overweight": "Overvægt",
-          "obese": "Fedme",
-          "bodyFat": "Kropsfedt",
-          "activityLevel": "Aktivitetsniveau",
-          "energyLevel": "Energiniveau",
-          "goal": "Mål"
-        },
-        "options": {
-          "goalsMale": [
-            "Reducere kropsfedt",
-            "Blive slankere",
-            "Opbygge muskler",
-            "Få mere energi",
-            "Forbedre sundheden",
-            "Leve længere"
-          ],
-          "goalsFemale": [
-            "Reducere kropsfedt",
-            "Blive mere slank",
-            "Forme kroppen",
-            "Få mere energi",
-            "Forbedre sundheden",
-            "Leve længere"
-          ],
-          "q3BodiesMale": [
-            "Slank",
-            "Gennemsnitlig",
-            "Lidt fedt på maven",
-            "Overvægtig"
-          ],
-          "q3BodiesFemale": [
-            "Slank",
-            "Gennemsnitlig",
-            "Lidt fedt på maven",
-            "Overvægtig"
-          ],
-          "q4BodiesMale": [
-            "Lidt slankere",
-            "Slank og fit",
-            "Atletisk",
-            "Stærk og defineret"
-          ],
-          "q4BodiesFemale": [
-            "At føle mig som mig selv igen",
-            "At slippe af med det stædige mavefedt",
-            "At føle mig lettere og mere selvsikker",
-            "At se tonet og ungdommelig ud"
-          ],
-          "q12Reasons": [
-            "Hvordan jeg har det, når jeg ser mig i spejlet",
-            "At føle mig som mig selv igen",
-            "Min energi med børnene / familien",
-            "Min selvtillid i selskab med andre",
-            "Hvordan jeg har det med min partner",
-            "Min langsigtede sundhed",
-            "Hvordan tøjet sidder"
-          ],
-          "familiarity": [
-            "Det er nyt for mig",
-            "Jeg kender det grundlæggende",
-            "Jeg har prøvet det før"
-          ],
-          "bodyAreas": [
-            "Arme",
-            "Bryst",
-            "Ryg",
-            "Mave",
-            "Ben",
-            "Bagdel"
-          ],
-          "dayToDay": [
-            "Sidder det meste af dagen",
-            "Bevæger mig meget",
-            "Træner regelmæssigt",
-            "Er hjemme"
-          ],
-          "energy": [
-            "Normalt lav",
-            "Føler mig træt om eftermiddagen",
-            "Mit energiniveau svinger",
-            "Mit energiniveau er stabilt"
-          ],
-          "exercise": [
-            "Aldrig",
-            "Nogle gange om måneden",
-            "Nogle gange om ugen",
-            "Næsten hver dag"
-          ],
-          "weightChange": [
-            "Tager hurtigt på og taber langsomt",
-            "Taber mig, men tager på igen",
-            "Min vægt forbliver stabil",
-            "Har svært ved at opbygge muskler"
-          ],
-          "idealWeight": [
-            "Mindre end 1 år siden",
-            "For 1–3 år siden",
-            "For mere end 3 år siden",
-            "Jeg har aldrig været på min bedste vægt"
-          ],
-          "diets": [
-            "Keto",
-            "Intermitterende faste",
-            "Lavt kulhydratindhold",
-            "Vegetarisk",
-            "Vegansk",
-            "Glutenfri",
-            "Anden",
-            "Ingen af dem"
-          ],
-          "meals": [
-            "To",
-            "Tre",
-            "Fire",
-            "Fem"
-          ],
-          "mealDescriptions": [
-            "Morgenmad og aftensmad med valgfri snacks",
-            "Morgenmad, frokost og aftensmad",
-            "Morgenmad, snack, frokost og aftensmad",
-            "Morgenmad, frokost, aftensmad og to snacks"
-          ],
-          "proteins": [
-            "Spiser alt",
-            "Kylling",
-            "Rødt kød",
-            "Ost",
-            "Tun",
-            "Græsk yoghurt",
-            "Laks",
-            "Rejer",
-            "Æg",
-            "Kikærter",
-            "Linser",
-            "Tofu"
-          ],
-          "vegetables": [
-            "Spiser alt",
-            "Tomater",
-            "Agurk",
-            "Broccoli",
-            "Spinat",
-            "Zucchini",
-            "Peberfrugt",
-            "Avocado",
-            "Oliven",
-            "Løg"
-          ],
-          "grains": [
-            "Spiser alt",
-            "Ris",
-            "Couscous",
-            "Quinoa",
-            "Havregryn",
-            "Mandler",
-            "Valnødder",
-            "Jordnødder",
-            "Majs"
-          ]
-        },
-        "loading": {
-          "title": "Sætter din plan sammen...",
-          "messages": [
-            "Analyserer din metaboliske profil…",
-            "Undersøger dine madpræferencer…",
-            "Sammenligner med Blå Zoners levetidsdata…",
-            "Behandler den nyeste ernæringsforskning…",
-            "Finjusterer makronæringsforholdet…",
-            "Bygger dit tilpassede Middelhavs-coachingsystem…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "Personlig indsigt",
-          "blueZones": {
-            "title": "Deres hemmelighed til en slank krop og et langt liv.\n\nNU ENDELIG OGSÅ DIN.",
-            "body": "Beboerne i verdens mest langlivede regioner, kendt som **de Blå Zoner**, lever længere end alle andre.\n\nDe er også i bedre form. Slankere. Mere energiske. Og efter enhver målestok er de blandt de lykkeligste mennesker på Jorden.\n\nDe tæller ikke kalorier. De begrænser ikke kulhydrater. De spiser rigtig mad, sunde fedtstoffer, kvalitetsingredienser.\n\n**For første gang bygges verdens mest dokumenterede diæt for lang levetid op omkring dig, ikke alle.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "Din metabolisme er ikke ødelagt.\nDen fik bare en forkert plan.",
-            "body": "Din krop ændrer sig. De fleste planer gør ikke.\n\n**Vores AI-baserede system kører 24/7.**\n\nTrænet på hundredvis af års forskning. Millioner af virkelige tilfælde.\n\nDet tilpasser sig, når du tilpasser dig.\n\nDet stopper aldrig med at arbejde for dig.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "Disse diæter fejlede ikke, fordi du gjorde dem forkert.",
-            "body": "De fejlede, fordi de aldrig ændrede sig.\n\nKeto. Kalorietælling. Lavt fedtindhold. Mange korn.\n\nDu fulgte reglerne. Din krop tilpassede sig. Planen gjorde ikke.\n\n**Videnskaben er klar: statiske planer fejler altid.**\n\nDin krop er ikke statisk. Heller ikke din plan bør være det.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "Vi bruger din højde og vægt til at beregne dit kropsmasseindeks (BMI).",
-            "body": "BMI hjælper os med at forstå dit nuværende væginterval."
-          },
-          "adviceWrong": {
-            "title": "Det råd, du fik?\n\nDET VAR FORKERT",
-            "body": "I årevis fortalte de dig: spis mindre fedt, tæl hver kalorie, følg pyramiden.\n\nMillioner fulgte det til punkt og prikke. Millioner kæmpede stadig.\n\nGrundlaget var forkert. Ikke dig.\n\nVidenskaben har hentet ind. Din plan afspejler det.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "Alderen ændrer din metabolisme, men den stopper ikke resultaterne.",
-            "body": "Efterhånden som vi bliver ældre, reagerer kroppen anderledes på mad.\n\nDet er grunden til, at one-size-fits-all-diæter ofte fejler efter 30 eller 40.\n\nDin plan skal tilpasse sig din livsfase."
-          },
-          "preEmail": {
-            "title": "Dette er ikke endnu en fast kostplan.",
-            "body": "Dit Middelhavsprogram drives af AI-coaching.\n\nDet tilpasser sig baseret på dine fremskridt, energiniveauer og feedback.\n\nDu behøver ikke gætte.\n\nSystemet udvikler sig med dig.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "Dit BMI er i det sunde interval.",
-            "body": "Det er et fremragende udgangspunkt. Målet nu er at vedligeholde vægten, forbedre kropsformen og støtte din metabolisme. Vi vil bruge dit BMI til at bygge dit personaliserede Middelhavs-coachingsystem og hjælpe dig med at forblive fit og stærk."
-          },
-          "overweight": {
-            "title": "Dit BMI er i overvægtsintervallet.",
-            "body": "Det betyder, at din krop muligvis lagrer overskydende fedt. Med den rigtige kostplan kan du bevæge dig mod en sundere vægt. Vi vil bruge dit BMI til at bygge dit personaliserede Middelhavs-coachingsystem."
-          },
-          "obese": {
-            "title": "Dit BMI er i fedmeintervallet.",
-            "body": "Det betyder, at din krop bærer mere vægt end anbefalet. Selv et lille vægttab kan forbedre dit helbred og din energi. Vi vil bruge dit BMI til at bygge et personaliseret Middelhavs-coachingsystem, der hjælper dig med at tabe dig sundt og gradvist."
-          },
-          "underweight": {
-            "title": "Dit BMI er i undervægtsintervallet.",
-            "body": "Vi hjælper dig med at bygge en sund kostplan, der støtter din metabolisme og dit generelle velvære."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "Sundhedsmæssig fordel: Tab {percent}% af din vægt",
-          "smallBody": "Studier viser, at selv et vægttab på 10% kan forbedre sundheden. Det kan hjælpe med at reducere risikoen for hjertesygdomme, højt blodsukker og betændelse i kroppen. Små ændringer kan gøre en stor forskel.",
-          "bigTitle": "Større mål: Tab {percent}% af din vægt",
-          "bigBody": "Forskning viser, at folk, der taber mere end 20% af deres kropsvægt, ofte forbedrer deres metaboliske sundhed mere end dem, der kun taber 5–10%. Et større vægttab kan føre til bedre energi, bedre blodsukkerkontrol og bedre overordnet helbred."
-        }
-      },
-      "en": {
-        "common": {
-          "continue": "Continue",
-          "menu": "Menu",
-          "closeMenu": "Close menu",
-          "helpCenter": "Help Center",
-          "contactUs": "Contact Us",
-          "terms": "Terms & Conditions",
-          "privacyPolicy": "Privacy Policy",
-          "cookiePolicy": "Cookie Policy",
-          "privacySettings": "Privacy Settings",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "Not set"
-        },
-        "landing": {
-          "hero": "Let's personalize your Mediterranean Coach and build your program for weight-loss and longevity nutrition",
-          "subtitle": "Select your program :",
-          "ctaMen": "Program for Men",
-          "ctaWomen": "Program for Women",
-          "footer": "© 2026 meDiet. All rights reserved.",
-          "heroImageAlt": "Mediterranean food bowl"
-        },
-        "intro": {
-          "titlePrefix": "Before we build your plan",
-          "titleHighlight": "READ THIS",
-          "p1": "If you've tried keto, calorie counting, or intermittent fasting and felt like you failed.",
-          "p2": "You didn't fail. The plan failed you.",
-          "p3": "Those systems were built on old science. Fixed rules. Generic templates.",
-          "p4Male": "They were never designed for how a man's body actually works.",
-          "p4Female": "They were never designed for how a woman's body actually works.",
-          "p5": "That changes right now.",
-          "p6": "Answer honestly. We'll do the rest."
-        },
-        "steps": {
-          "s1": "How familiar are you with Mediterranean diet & Blue Zones phenomena?",
-          "s3": "What do you want to achieve?",
-          "s4": "How would you describe your body now?",
-          "s5": "What body do you want?",
-          "s6": "Which areas would you like to improve?",
-          "s6Hint": "If you are happy with your body, press Continue",
-          "s7": "What does your day usually look like?",
-          "s8": "How is your energy during the day?",
-          "s9": "How often do you exercise?",
-          "s10": "How does your weight usually change?",
-          "s12": "When were you last at your best weight?",
-          "s13": "Have you tried any of these diets in the last 3 years?",
-          "s15": "What would getting in shape change most for you?",
-          "s16": "What is your height?",
-          "s17": "What is your current weight?",
-          "s19": "What is your target weight?",
-          "s20": "What is your age?",
-          "s21Title": "Here's What We Found",
-          "s21BmiTitle": "Your Body Mass Index (BMI)",
-          "s22": "How many meals would you like to eat each day?",
-          "s22Subtitle": "You can change this later in your settings.",
-          "s23": "Would you like to exclude any of these foods?",
-          "s23Label": "Proteins & dairy:",
-          "s24": "Would you like to exclude any of these foods?",
-          "s24Label": "Fruits & vegetables:",
-          "s25": "Would you like to exclude any of these foods?",
-          "s25Label": "Grains & nuts:",
-          "s27Title": "Based on your food preferences, we've created",
-          "s27Count": "500+",
-          "s27Lead": "Meal combinations",
-          "s27Body": "that are the perfect fit for you and will help you reach a healthy weight in the most enjoyable way!"
-        },
-        "labels": {
-          "selectAll": "Select all that apply:",
-          "youValue": "You",
-          "underweightShort": "Under",
-          "underweight": "Underweight",
-          "healthy": "Healthy",
-          "overweightShort": "Over",
-          "overweight": "Overweight",
-          "obese": "Obese",
-          "bodyFat": "Body fat",
-          "activityLevel": "Activity level",
-          "energyLevel": "Energy level",
-          "goal": "Goal"
-        },
-        "options": {
-          "goalsMale": [
-            "Lose body fat",
-            "Get a lean body",
-            "Build muscle",
-            "Have more energy",
-            "Improve my health",
-            "Live longer"
-          ],
-          "goalsFemale": [
-            "Lose body fat",
-            "Get a slimmer body",
-            "Tone my body",
-            "Have more energy",
-            "Improve my health",
-            "Live longer"
-          ],
-          "q3BodiesMale": [
-            "Slim",
-            "Average",
-            "Some belly fat",
-            "Overweight"
-          ],
-          "q3BodiesFemale": [
-            "Slim",
-            "Average",
-            "Some belly fat",
-            "Overweight"
-          ],
-          "q4BodiesMale": [
-            "A little slimmer",
-            "Lean and fit",
-            "Athletic",
-            "Strong and defined"
-          ],
-          "q4BodiesFemale": [
-            "Feel like myself again",
-            "Lose stubborn belly fat",
-            "Feel lighter and more confident",
-            "Look toned and youthful"
-          ],
-          "q12Reasons": [
-            "How I feel when I look in the mirror",
-            "Feeling like myself again",
-            "My energy with my kids / family",
-            "My confidence around others",
-            "How I feel for my partner",
-            "My long term health",
-            "How my clothes fit"
-          ],
-          "familiarity": [
-            "I'm new to it",
-            "I know the basics",
-            "I've tried it before"
-          ],
-          "bodyAreas": [
-            "Arms",
-            "Chest",
-            "Back",
-            "Stomach",
-            "Legs",
-            "Glutes"
-          ],
-          "dayToDay": [
-            "I sit most of the day",
-            "I move a lot",
-            "I exercise often",
-            "I stay at home"
-          ],
-          "energy": [
-            "Low most of the time",
-            "I feel tired after lunch",
-            "My energy goes up and down",
-            "My energy is steady"
-          ],
-          "exercise": [
-            "Never",
-            "A few times a month",
-            "A few times a week",
-            "Almost every day"
-          ],
-          "weightChange": [
-            "I gain weight fast and lose it slowly",
-            "I lose weight but gain it back",
-            "My weight stays the same",
-            "I find it hard to build muscle"
-          ],
-          "idealWeight": [
-            "Less than 1 year ago",
-            "1–3 years ago",
-            "More than 3 years ago",
-            "I have never been at my best weight"
-          ],
-          "diets": [
-            "Keto",
-            "Intermittent fasting",
-            "Low-carb",
-            "Vegetarian",
-            "Vegan",
-            "Gluten free",
-            "Other",
-            "None of these"
-          ],
-          "meals": [
-            "Two",
-            "Three",
-            "Four",
-            "Five"
-          ],
-          "mealDescriptions": [
-            "Breakfast and dinner, with optional snacks",
-            "Breakfast, lunch, and dinner",
-            "Breakfast, snack, lunch, and dinner",
-            "Breakfast, lunch, dinner, and two snacks"
-          ],
-          "proteins": [
-            "I eat everything",
-            "Chicken",
-            "Red meat",
-            "Cheese",
-            "Tuna",
-            "Greek yogurt",
-            "Salmon",
-            "Shrimp",
-            "Eggs",
-            "Chickpeas",
-            "Lentils",
-            "Tofu"
-          ],
-          "vegetables": [
-            "I eat everything",
-            "Tomatoes",
-            "Cucumber",
-            "Broccoli",
-            "Spinach",
-            "Zucchini",
-            "Bell pepper",
-            "Avocado",
-            "Olives",
-            "Onions"
-          ],
-          "grains": [
-            "I eat everything",
-            "Rice",
-            "Couscous",
-            "Quinoa",
-            "Oats",
-            "Almonds",
-            "Walnuts",
-            "Peanuts",
-            "Corn"
-          ]
-        },
-        "loading": {
-          "title": "Generating...",
-          "messages": [
-            "Analyzing your metabolic profile…",
-            "Reviewing food preferences…",
-            "Comparing with Blue Zone longevity data…",
-            "Processing latest nutrition research…",
-            "Adjusting macro proportions…",
-            "Building your adaptive Mediterranean Coaching system…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "Personalized insight",
-          "blueZones": {
-            "title": "Their secret to a lean body and long life.\n\nNOW FINALLY YOURS.",
-            "body": "People in the world's longest-living regions called **Blue Zones** — outlive everyone else.\n\nThey're also in better shape. Leaner. More energetic. And by every measure, among the happiest people on earth.\n\nThey don't count calories. They don't cut carbs. They eat real food, healthy fats, good ingredients.\n\n**For the first time, the world's most proven longevity diet is being built around you, not everyone.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "Your metabolism isn't broken.\nIt's been given the wrong plan.",
-            "body": "Your body changes. Most plans don't.\n\n**Our AI-powered system runs 24/7.**\n\nTrained on hundreds of years of research. Millions of real cases.\n\nIt adjusts when you adjust.\n\nIt never stops working on you.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "Those diets weren't wrong because you did them wrong.",
-            "body": "They were wrong because they never changed.\n\nKeto. Calorie counting. Low fat. High grain.\n\nYou followed the rules. Your body adapted. The plan didn't.\n\n**The science is clear now. Static plans fail. Always.**\n\nYour body is not static. Your plan shouldn't be either.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "We use your height and weight to calculate your Body Mass Index (BMI).",
-            "body": "BMI helps us understand your current weight range."
-          },
-          "adviceWrong": {
-            "title": "That advice you were given?\n\nIT WAS WRONG",
-            "body": "For years they said eat less fat. Count every calorie. Follow the pyramid.\n\nMillions followed it perfectly. Millions still struggled.\n\nThe foundation was backwards. Not you.\n\nThe science has caught up. Your plan reflects that.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "Age changes your metabolism, but it doesn't stop results.",
-            "body": "As we get older, the body responds differently to food.\n\nThat's why one-size-fits-all diets often fail after 30 or 40.\n\nYour plan must adjust to your stage of life."
-          },
-          "preEmail": {
-            "title": "This is not another fixed meal plan.",
-            "body": "Your Mediterranean Program is powered by AI coaching.\n\nIt adapts based on your progress, energy levels, and feedback.\n\nYou don't need to guess.\n\nThe system evolves with you.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "Your BMI is in the healthy range.",
-            "body": "That's a great starting point. Now the goal is to maintain your weight, improve body shape, and support your metabolism. We will use your BMI to create your Personalized Mediterranean Coaching System and help you stay fit and strong."
-          },
-          "overweight": {
-            "title": "Your BMI is in the overweight range.",
-            "body": "This means your body may be storing extra fat. With the right nutrition plan, you can move toward a healthier weight. We will use your BMI to build your Personalized Mediterranean Coaching System."
-          },
-          "obese": {
-            "title": "Your BMI is in the obese range.",
-            "body": "This means your body is carrying more weight than recommended. Losing even a small amount of weight can improve your health and energy. We will use your BMI to create a Personalized Mediterranean Coaching System that helps you lose weight in a healthy and steady way."
-          },
-          "underweight": {
-            "title": "Your BMI is in the underweight range.",
-            "body": "We will help you build a healthy nutrition plan to support your metabolism and overall well-being."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "Health Benefits: Lose {percent}% of your weight",
-          "smallBody": "Studies show that losing even 10% of your body weight can improve your health. It may help lower the risk of heart disease, high blood sugar, and inflammation in the body. Small changes can make a big difference.",
-          "bigTitle": "Bigger Goal: Lose {percent}% of your weight",
-          "bigBody": "Research shows that people who lose more than 20% of their body weight often improve their metabolic health more than those who lose only 5–10%. Losing more weight can lead to better energy, better blood sugar control, and better overall health."
-        }
-      },
       "hr": {
         "common": {
           "continue": "Nastavi",
@@ -2450,312 +1532,6 @@ export default {
           "smallBody": "Istraživanja pokazuju da čak i gubitak 10% tjelesne težine može poboljšati zdravlje. To može pomoći u smanjenju rizika od srčanih bolesti, visokog šećera u krvi i upala u tijelu. Male promjene mogu napraviti veliku razliku.",
           "bigTitle": "Veći cilj: Izgubite {percent}% tjelesne težine",
           "bigBody": "Istraživanja pokazuju da osobe koje izgube više od 20% tjelesne težine često poboljšavaju svoje metaboličko zdravlje više od onih koji izgube samo 5–10%. Veći gubitak težine može dovesti do bolje energije, boljeg kontroliranja šećera u krvi i boljeg općeg zdravlja."
-        }
-      },
-      "he": {
-        "common": {
-          "continue": "המשך",
-          "menu": "תפריט",
-          "closeMenu": "סגור תפריט",
-          "helpCenter": "מרכז עזרה",
-          "contactUs": "צרו קשר",
-          "terms": "תנאים והגבלות",
-          "privacyPolicy": "מדיניות פרטיות",
-          "cookiePolicy": "מדיניות עוגיות",
-          "privacySettings": "הגדרות פרטיות",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "לא הוגדר"
-        },
-        "landing": {
-          "hero": "בואו נבנה עבורכם תוכנית אישית עם מאמן תזונה ים-תיכוני, שתעזור לכם לרדת במשקל ולחיות חיים ארוכים ובריאים יותר",
-          "subtitle": "בחרו את התוכנית שלכם:",
-          "ctaMen": "תוכנית לגברים",
-          "ctaWomen": "תוכנית לנשים",
-          "footer": "© 2026 meDiet. כל הזכויות שמורות.",
-          "heroImageAlt": "קערת אוכל ים-תיכוני"
-        },
-        "intro": {
-          "titlePrefix": "לפני שנבנה את התוכנית שלכם",
-          "titleHighlight": "קראו את זה",
-          "p1": "אם ניסיתם קטו, ספירת קלוריות או צום לסירוגין, והרגשתם שנכשלתם.",
-          "p2": "לא נכשלתם. התוכנית היא שנכשלה אתכם.",
-          "p3": "המערכות האלה נבנו על מדע ישן. כללים קבועים. תבניות גנריות.",
-          "p4Male": "הן מעולם לא תוכננו לאופן שבו גוף הגבר באמת עובד.",
-          "p4Female": "הן מעולם לא תוכננו לאופן שבו גוף האישה באמת עובד.",
-          "p5": "זה משתנה ממש עכשיו.",
-          "p6": "ענו בכנות. אנחנו נעשה את השאר."
-        },
-        "steps": {
-          "s1": "עד כמה אתם מכירים את הדיאטה הים-תיכונית ואת תופעת האזורים הכחולים?",
-          "s3": "מה אתם רוצים להשיג?",
-          "s4": "כיצד תתארו את הגוף שלכם כיום?",
-          "s5": "איזה גוף אתם רוצים?",
-          "s6": "באילו אזורים תרצו לשפר?",
-          "s6Hint": "אם אתם מרוצים מהגוף שלכם, לחצו על המשך",
-          "s7": "כיצד נראה היום הרגיל שלכם?",
-          "s8": "מהי רמת האנרגיה שלכם לאורך היום?",
-          "s9": "כמה פעמים בשבוע אתם מתאמנים?",
-          "s10": "כיצד המשקל שלכם בדרך כלל משתנה?",
-          "s12": "מתי לאחרונה הייתם במשקל הטוב ביותר שלכם?",
-          "s13": "האם ניסיתם אחת מהדיאטות הבאות בשלוש השנים האחרונות?",
-          "s15": "מה הכי ישתנה בחייכם כאשר תגיעו לכושר הרצוי?",
-          "s16": "מה הגובה שלכם?",
-          "s17": "מה המשקל הנוכחי שלכם?",
-          "s19": "מה משקל היעד שלכם?",
-          "s20": "מה גילכם?",
-          "s21Title": "הנה מה שגילינו",
-          "s21BmiTitle": "מדד מסת הגוף שלכם (BMI)",
-          "s22": "כמה ארוחות ביום תרצו לאכול?",
-          "s22Subtitle": "תוכלו לשנות זאת בהגדרות בכל עת.",
-          "s23": "האם תרצו להוציא מזונות מהתפריט?",
-          "s23Label": "חלבונים ומוצרי חלב:",
-          "s24": "האם תרצו להוציא מזונות מהתפריט?",
-          "s24Label": "פירות וירקות:",
-          "s25": "האם תרצו להוציא מזונות מהתפריט?",
-          "s25Label": "דגנים ואגוזים:",
-          "s27Title": "על בסיס העדפות המזון שלכם, יצרנו",
-          "s27Count": "500+",
-          "s27Lead": "שילובי ארוחות",
-          "s27Body": "שמותאמים בדיוק עבורכם, ויעזרו לכם להגיע למשקל בריא בדרך הנעימה ביותר!"
-        },
-        "labels": {
-          "selectAll": "בחרו את כל האפשרויות המתאימות:",
-          "youValue": "אתם",
-          "underweightShort": "תת-משקל",
-          "underweight": "תת-משקל",
-          "healthy": "תקין",
-          "overweightShort": "עודף",
-          "overweight": "עודף משקל",
-          "obese": "השמנת יתר",
-          "bodyFat": "אחוז שומן",
-          "activityLevel": "רמת פעילות",
-          "energyLevel": "רמת אנרגיה",
-          "goal": "מטרה"
-        },
-        "options": {
-          "goalsMale": [
-            "להוריד שומן גופני",
-            "לקבל גוף רזה",
-            "לבנות שריר",
-            "לקבל יותר אנרגיה",
-            "לשפר את הבריאות",
-            "לחיות יותר"
-          ],
-          "goalsFemale": [
-            "להוריד שומן גופני",
-            "לקבל גוף רזה יותר",
-            "לעצב את הגוף",
-            "לקבל יותר אנרגיה",
-            "לשפר את הבריאות",
-            "לחיות יותר"
-          ],
-          "q3BodiesMale": [
-            "רזה",
-            "ממוצע",
-            "קצת שומן בבטן",
-            "עודף משקל"
-          ],
-          "q3BodiesFemale": [
-            "רזה",
-            "ממוצעת",
-            "קצת שומן בבטן",
-            "עודף משקל"
-          ],
-          "q4BodiesMale": [
-            "קצת יותר רזה",
-            "רזה וכושרני",
-            "אתלטי",
-            "חזק ומוגדר"
-          ],
-          "q4BodiesFemale": [
-            "להרגיש שוב כמו עצמי",
-            "להיפטר מהשומן הסורר בבטן",
-            "להרגיש קלה ובטוחה יותר",
-            "להיראות מוגדרת וצעירה"
-          ],
-          "q12Reasons": [
-            "איך אני מרגישה כשאני מסתכלת במראה",
-            "להרגיש שוב כמו עצמי",
-            "האנרגיה שלי עם הילדים / המשפחה",
-            "הביטחון שלי בחברה",
-            "איך אני מרגישה עם הפרטנר",
-            "הבריאות שלי לטווח הארוך",
-            "איך הבגדים יושבים עלי"
-          ],
-          "familiarity": [
-            "זה חדש לי",
-            "אני מכיר את היסודות",
-            "ניסיתי בעבר"
-          ],
-          "bodyAreas": [
-            "זרועות",
-            "חזה",
-            "גב",
-            "בטן",
-            "רגליים",
-            "ישבן"
-          ],
-          "dayToDay": [
-            "יושב רוב היום",
-            "נמצא הרבה בתנועה",
-            "מתאמן בקביעות",
-            "נשאר בבית"
-          ],
-          "energy": [
-            "נמוכה ברוב הזמן",
-            "מרגיש עייף אחרי הצהריים",
-            "האנרגיה שלי עולה ויורדת",
-            "האנרגיה שלי יציבה"
-          ],
-          "exercise": [
-            "אף פעם",
-            "מספר פעמים בחודש",
-            "מספר פעמים בשבוע",
-            "כמעט כל יום"
-          ],
-          "weightChange": [
-            "עולה מהר ויורד לאט",
-            "יורד במשקל אך חוזר לעלות",
-            "המשקל שלי נשאר יציב",
-            "קשה לי לבנות שריר"
-          ],
-          "idealWeight": [
-            "לפחות מלפני שנה",
-            "לפני 1–3 שנים",
-            "לפני יותר מ-3 שנים",
-            "מעולם לא הייתי במשקל הטוב ביותר שלי"
-          ],
-          "diets": [
-            "קטו",
-            "צום לסירוגין",
-            "דל פחמימות",
-            "צמחוני",
-            "טבעוני",
-            "ללא גלוטן",
-            "אחר",
-            "אף אחת מהן"
-          ],
-          "meals": [
-            "שתיים",
-            "שלוש",
-            "ארבע",
-            "חמש"
-          ],
-          "mealDescriptions": [
-            "ארוחת בוקר וערב, עם חטיפים אופציונליים",
-            "ארוחת בוקר, צהריים וערב",
-            "ארוחת בוקר, חטיף, צהריים וערב",
-            "ארוחת בוקר, צהריים, ערב ושני חטיפים"
-          ],
-          "proteins": [
-            "אוכל הכל",
-            "עוף",
-            "בשר אדום",
-            "גבינה",
-            "טונה",
-            "יוגורט יווני",
-            "סלמון",
-            "שרימפס",
-            "ביצים",
-            "חומוס",
-            "עדשים",
-            "טופו"
-          ],
-          "vegetables": [
-            "אוכל הכל",
-            "עגבניות",
-            "מלפפון",
-            "ברוקולי",
-            "תרד",
-            "קישוא",
-            "פלפל",
-            "אבוקדו",
-            "זיתים",
-            "בצל"
-          ],
-          "grains": [
-            "אוכל הכל",
-            "אורז",
-            "קוסקוס",
-            "קינואה",
-            "שיבולת שועל",
-            "שקדים",
-            "אגוזי מלך",
-            "בוטנים",
-            "תירס"
-          ]
-        },
-        "loading": {
-          "title": "יוצר את התוכנית...",
-          "messages": [
-            "מנתח את הפרופיל המטבולי שלכם…",
-            "בוחן את העדפות המזון…",
-            "משווה עם נתוני אריכות חיים מהאזורים הכחולים…",
-            "מעבד מחקרי תזונה עדכניים…",
-            "מכוונן את יחסי המאקרו…",
-            "בונה את מערכת האימון הים-תיכוני האדפטיבית שלכם…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "תובנה אישית",
-          "blueZones": {
-            "title": "הסוד שלהם לגוף רזה וחיים ארוכים.\n\nעכשיו סוף סוף גם שלכם.",
-            "body": "תושבי האזורים הנחשבים לאריכי החיים ביותר בעולם, הנקראים **האזורים הכחולים**, חיים שנים רבות יותר מכל השאר.\n\nהם גם בכושר טוב יותר. רזים יותר. אנרגטיים יותר. ועל פי כל מדד, הם בין האנשים המאושרים ביותר על פני כדור הארץ.\n\nהם לא סופרים קלוריות. הם לא מצמצמים פחמימות. הם אוכלים אוכל אמיתי, שומנים בריאים, ומרכיבים איכותיים.\n\n**לראשונה, הדיאטה הכי מוכחת בעולם לאריכות חיים נבנית סביבכם, ולא סביב כולם.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "המטבוליזם שלכם אינו שבור.\nפשוט קיבל תוכנית שגויה.",
-            "body": "הגוף שלכם משתנה. רוב התוכניות לא.\n\n**המערכת שלנו מבוססת בינה מלאכותית ופועלת 24/7.**\n\nמאומנת על מאות שנים של מחקר. מיליוני מקרים אמיתיים.\n\nהיא מסתגלת כשאתם מסתגלים.\n\nהיא לעולם לא מפסיקה לעבוד עבורכם.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "הדיאטות האלה לא נכשלו בגלל שאתם עשיתם אותן לא נכון.",
-            "body": "הן נכשלו כי הן לא השתנו.\n\nקטו. ספירת קלוריות. דל שומן. עתיר דגנים.\n\nהלכתם לפי הכללים. הגוף שלכם הסתגל. התוכנית לא.\n\n**המדע כבר ברור: תוכניות סטטיות נכשלות. תמיד.**\n\nהגוף שלכם אינו סטטי. גם התוכנית שלכם לא צריכה להיות.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "אנו משתמשים בגובה ובמשקל שלכם כדי לחשב את מדד מסת הגוף (BMI).",
-            "body": "ה-BMI עוזר לנו להבין את טווח המשקל הנוכחי שלכם."
-          },
-          "adviceWrong": {
-            "title": "העצה שקיבלתם?\n\nהיא הייתה שגויה",
-            "body": "שנים אמרו לכם לאכול פחות שומן. לספור כל קלוריה. ללכת לפי הפירמידה.\n\nמיליונים עקבו אחריה בשלמות. מיליונים עדיין התקשו.\n\nהבסיס היה הפוך. לא אתם.\n\nהמדע הדביק. התוכנית שלכם משקפת זאת.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "הגיל משנה את המטבוליזם שלכם, אך אינו עוצר את התוצאות.",
-            "body": "ככל שאנו מתבגרים, הגוף מגיב אחרת למזון.\n\nלכן דיאטות אחד-לכולם נכשלות לרוב אחרי גיל 30 או 40.\n\nהתוכנית שלכם חייבת להסתגל לשלב החיים שלכם."
-          },
-          "preEmail": {
-            "title": "זו אינה תוכנית ארוחות קבועה נוספת.",
-            "body": "התוכנית הים-תיכונית שלכם מונעת על ידי אימון בינה מלאכותית.\n\nהיא מסתגלת על פי ההתקדמות שלכם, רמות האנרגיה שלכם והמשוב שאתם נותנים.\n\nאתם לא צריכים לנחש.\n\nהמערכת מתפתחת יחד איתכם.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "ה-BMI שלכם נמצא בטווח התקין.",
-            "body": "זו נקודת פתיחה מצוינת. המטרה כעת היא לשמור על המשקל, לשפר את מראה הגוף ולתמוך במטבוליזם. נשתמש ב-BMI שלכם כדי לבנות את מערכת האימון הים-תיכוני האישית שלכם, ולעזור לכם להישאר חזקים ובכושר."
-          },
-          "overweight": {
-            "title": "ה-BMI שלכם נמצא בטווח עודף המשקל.",
-            "body": "משמעות הדבר היא שגופכם עשוי לאגור שומן עודף. עם תוכנית תזונה נכונה, תוכלו לעבור למשקל בריא יותר. נשתמש ב-BMI שלכם כדי לבנות את מערכת האימון הים-תיכוני האישית שלכם."
-          },
-          "obese": {
-            "title": "ה-BMI שלכם נמצא בטווח ההשמנה.",
-            "body": "משמעות הדבר היא שגופכם נושא משקל גבוה מהמומלץ. אפילו ירידה קטנה במשקל יכולה לשפר את הבריאות ואת האנרגיה. נשתמש ב-BMI שלכם כדי לבנות מערכת אימון ים-תיכוני אישית, שתסייע לכם לרדת במשקל בצורה בריאה ויציבה."
-          },
-          "underweight": {
-            "title": "ה-BMI שלכם נמצא בטווח תת-המשקל.",
-            "body": "נעזור לכם לבנות תוכנית תזונה בריאה שתתמוך במטבוליזם ובבריאות הכללית שלכם."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "יתרון בריאותי: ירידה של {percent}% ממשקלכם",
-          "smallBody": "מחקרים מראים שאפילו ירידה של 10% ממשקל הגוף יכולה לשפר את הבריאות. זה עשוי לסייע בהפחתת הסיכון למחלות לב, לסוכר גבוה בדם ולדלקות בגוף. שינויים קטנים יכולים לעשות הבדל גדול.",
-          "bigTitle": "מטרה גדולה יותר: ירידה של {percent}% ממשקלכם",
-          "bigBody": "מחקרים מראים שאנשים שמורידים יותר מ-20% ממשקלם משפרים לעיתים קרובות את הבריאות המטבולית שלהם יותר מאשר אלה שמורידים רק 5–10%. ירידה גדולה יותר במשקל עשויה להוביל לאנרגיה טובה יותר, שליטה טובה יותר בסוכר בדם ובריאות כללית משופרת."
         }
       },
       "hu": {
@@ -3370,312 +2146,6 @@ export default {
           "bigBody": "מחקרים מראים שאנשים שמורידים יותר מ-20% ממשקלם משפרים לעיתים קרובות את הבריאות המטבולית שלהם יותר מאשר אלה שמורידים רק 5–10%. ירידה גדולה יותר במשקל עשויה להוביל לאנרגיה טובה יותר, שליטה טובה יותר בסוכר בדם ובריאות כללית משופרת."
         }
       },
-      "ja": {
-        "common": {
-          "continue": "次へ",
-          "menu": "メニュー",
-          "closeMenu": "メニューを閉じる",
-          "helpCenter": "ヘルプセンター",
-          "contactUs": "お問い合わせ",
-          "terms": "利用規約",
-          "privacyPolicy": "プライバシーポリシー",
-          "cookiePolicy": "クッキーポリシー",
-          "privacySettings": "プライバシー設定",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "未設定"
-        },
-        "landing": {
-          "hero": "あなただけのパーソナル地中海ダイエットコーチを作り、理想の体と長く健康的な人生へ導くプログラムを始めましょう",
-          "subtitle": "プログラムを選んでください：",
-          "ctaMen": "男性向けプログラム",
-          "ctaWomen": "女性向けプログラム",
-          "footer": "© 2026 meDiet. All rights reserved.",
-          "heroImageAlt": "地中海料理のボウル"
-        },
-        "intro": {
-          "titlePrefix": "プランを作成する前に",
-          "titleHighlight": "これを読んでください",
-          "p1": "ケトジェニック、カロリー計算、断続的断食を試して、うまくいかなかったと感じたことはありませんか。",
-          "p2": "失敗したのはあなたではありません。プランが間違っていただけです。",
-          "p3": "それらのシステムは古い科学に基づいて作られていました。硬いルール。誰にでも当てはまる画一的な内容。",
-          "p4Male": "男性の体が実際にどう機能するかを考えて設計されたものではありませんでした。",
-          "p4Female": "女性の体が実際にどう機能するかを考えて設計されたものではありませんでした。",
-          "p5": "今、それが変わります。",
-          "p6": "正直にお答えください。あとは私たちにお任せください。"
-        },
-        "steps": {
-          "s1": "地中海食とブルーゾーンについて、どのくらいご存じですか？",
-          "s3": "どんな目標を達成したいですか？",
-          "s4": "今の自分の体をどう表現しますか？",
-          "s5": "どんな体になりたいですか？",
-          "s6": "どの部位を改善したいですか？",
-          "s6Hint": "今の体に満足している場合は「次へ」を押してください",
-          "s7": "普段の一日はどんなスタイルですか？",
-          "s8": "一日を通してエネルギーレベルはどのくらいですか？",
-          "s9": "どのくらいの頻度で運動しますか？",
-          "s10": "体重はどのように変化しやすいですか？",
-          "s12": "最後に理想の体重を維持できていたのはいつですか？",
-          "s13": "過去3年間に、次のダイエットを試したことはありますか？",
-          "s15": "理想の体になったら、生活で何が最も変わると思いますか？",
-          "s16": "身長を教えてください",
-          "s17": "現在の体重を教えてください",
-          "s19": "目標体重を教えてください",
-          "s20": "年齢を教えてください",
-          "s21Title": "判明した結果はこちらです",
-          "s21BmiTitle": "あなたのBMI（体格指数）",
-          "s22": "1日に何食食べたいですか？",
-          "s22Subtitle": "この設定はいつでも変更できます。",
-          "s23": "除外したい食材はありますか？",
-          "s23Label": "たんぱく質・乳製品：",
-          "s24": "除外したい食材はありますか？",
-          "s24Label": "果物・野菜：",
-          "s25": "除外したい食材はありますか？",
-          "s25Label": "穀物・ナッツ類：",
-          "s27Title": "お好みの食材をもとに",
-          "s27Count": "500種類以上",
-          "s27Lead": "の食事の組み合わせを",
-          "s27Body": "作成しました。あなたにぴったり合った内容で、楽しみながら健康的な体重を目指せるプランです！"
-        },
-        "labels": {
-          "selectAll": "当てはまるものをすべて選んでください：",
-          "youValue": "あなた",
-          "underweightShort": "低体重",
-          "underweight": "低体重",
-          "healthy": "標準",
-          "overweightShort": "過体重",
-          "overweight": "過体重",
-          "obese": "肥満",
-          "bodyFat": "体脂肪率",
-          "activityLevel": "活動レベル",
-          "energyLevel": "エネルギーレベル",
-          "goal": "目標"
-        },
-        "options": {
-          "goalsMale": [
-            "体脂肪を減らす",
-            "引き締まった体になる",
-            "筋肉をつける",
-            "エネルギーを増やす",
-            "健康を改善する",
-            "長生きする"
-          ],
-          "goalsFemale": [
-            "体脂肪を減らす",
-            "スリムな体になる",
-            "体を引き締める",
-            "エネルギーを増やす",
-            "健康を改善する",
-            "長生きする"
-          ],
-          "q3BodiesMale": [
-            "細い",
-            "普通",
-            "お腹に少し脂肪がある",
-            "太り気味"
-          ],
-          "q3BodiesFemale": [
-            "細い",
-            "普通",
-            "お腹に少し脂肪がある",
-            "太り気味"
-          ],
-          "q4BodiesMale": [
-            "もう少し細く",
-            "細くて引き締まった体",
-            "アスリート体型",
-            "力強く鍛えられた体"
-          ],
-          "q4BodiesFemale": [
-            "また自分らしくなりたい",
-            "頑固なお腹の脂肪を落としたい",
-            "軽やかで自信を持てる体になりたい",
-            "引き締まってイキイキした体になりたい"
-          ],
-          "q12Reasons": [
-            "鏡を見たときの気分",
-            "また自分らしく感じたい",
-            "子ども・家族といるときのエネルギー",
-            "人前での自信",
-            "パートナーとの関係",
-            "長期的な健康",
-            "服の着こなし"
-          ],
-          "familiarity": [
-            "まったく知らない",
-            "基本的なことは知っている",
-            "以前試したことがある"
-          ],
-          "bodyAreas": [
-            "腕",
-            "胸",
-            "背中",
-            "お腹",
-            "脚",
-            "お尻"
-          ],
-          "dayToDay": [
-            "ほとんど座っている",
-            "よく動き回る",
-            "定期的に運動している",
-            "自宅にいることが多い"
-          ],
-          "energy": [
-            "いつも低い",
-            "午後に疲れを感じる",
-            "エネルギーに波がある",
-            "エネルギーが安定している"
-          ],
-          "exercise": [
-            "まったくしない",
-            "月に数回",
-            "週に数回",
-            "ほぼ毎日"
-          ],
-          "weightChange": [
-            "すぐ太ってなかなか痩せない",
-            "一度痩せてもリバウンドする",
-            "体重はほぼ変わらない",
-            "なかなか筋肉がつかない"
-          ],
-          "idealWeight": [
-            "1年以内",
-            "1〜3年前",
-            "3年以上前",
-            "理想の体重だったことがない"
-          ],
-          "diets": [
-            "ケトジェニック",
-            "断続的断食",
-            "低糖質",
-            "ベジタリアン",
-            "ビーガン",
-            "グルテンフリー",
-            "その他",
-            "どれも試したことがない"
-          ],
-          "meals": [
-            "2食",
-            "3食",
-            "4食",
-            "5食"
-          ],
-          "mealDescriptions": [
-            "朝食と夕食（スナック任意）",
-            "朝食・昼食・夕食",
-            "朝食・スナック・昼食・夕食",
-            "朝食・昼食・夕食と2回のスナック"
-          ],
-          "proteins": [
-            "何でも食べる",
-            "鶏肉",
-            "赤身肉",
-            "チーズ",
-            "ツナ",
-            "ギリシャヨーグルト",
-            "サーモン",
-            "えび",
-            "卵",
-            "ひよこ豆",
-            "レンズ豆",
-            "豆腐"
-          ],
-          "vegetables": [
-            "何でも食べる",
-            "トマト",
-            "きゅうり",
-            "ブロッコリー",
-            "ほうれん草",
-            "ズッキーニ",
-            "パプリカ",
-            "アボカド",
-            "オリーブ",
-            "玉ねぎ"
-          ],
-          "grains": [
-            "何でも食べる",
-            "米",
-            "クスクス",
-            "キヌア",
-            "オートミール",
-            "アーモンド",
-            "くるみ",
-            "ピーナッツ",
-            "とうもろこし"
-          ]
-        },
-        "loading": {
-          "title": "プランを作成しています...",
-          "messages": [
-            "代謝プロファイルを分析しています…",
-            "食の好みを確認しています…",
-            "ブルーゾーンの長寿データと照合しています…",
-            "最新の栄養研究を処理しています…",
-            "マクロ栄養素の比率を調整しています…",
-            "あなただけのアダプティブ地中海コーチングシステムを構築しています…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "あなたへのパーソナルな洞察",
-          "blueZones": {
-            "title": "引き締まった体と長生きの秘密。\n\nそれが今、あなたのものになります。",
-            "body": "世界で最も長寿な地域「**ブルーゾーン**」に住む人々は、他のどんな人よりも長く生きています。\n\n彼らはまた、体型も優れています。スリムで、エネルギーにあふれ、あらゆる指標で地球上で最も幸せな人々の一員です。\n\nカロリーを数えません。炭水化物を制限しません。本物の食べ物、良質な脂質、上質な食材を食べています。\n\n**これまで誰もが使う「万人向け」ではなく、はじめて、あなた専用に設計された長寿のための食事法が手に入ります。**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "あなたの代謝は壊れていません。\nただ、間違ったプランを渡されただけです。",
-            "body": "あなたの体は常に変化しています。ほとんどのプランはそうではありません。\n\n**私たちのAIシステムは24時間365日稼働しています。**\n\n数百年分の研究データと、何百万もの実際の事例を学習しています。\n\nあなたが変化するとき、プランも一緒に適応します。\n\nあなたのために働き続けることを、決して止めません。",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "あのダイエットが失敗したのは、やり方が悪かったからではありません。",
-            "body": "変わらなかったから、失敗したのです。\n\nケトジェニック。カロリー計算。低脂質。高穀物。\n\nルール通りに取り組みました。体が順応しました。プランは順応しませんでした。\n\n**科学はすでに答えを出しています。固定されたプランは必ず失敗します。**\n\nあなたの体は固定されていません。プランも、そうであってはなりません。",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "身長と体重をもとにBMI（体格指数）を計算します。",
-            "body": "BMIは現在の体重範囲を把握するための指標として使用します。"
-          },
-          "adviceWrong": {
-            "title": "これまでもらってきたアドバイス？\n\nそれは間違いでした",
-            "body": "何年もの間こう言われてきました。脂肪を控えて、カロリーを数えて、食品ピラミッドに従って、と。\n\n何百万人もの人が完璧に守りました。それでも何百万人もが苦労し続けました。\n\n問題は基礎にありました。あなたではありません。\n\n科学は進化しました。あなたのプランはそれを反映しています。",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "年齢は代謝を変えますが、結果を止めることはありません。",
-            "body": "年を重ねるにつれ、体の食べ物への反応は変わります。\n\nだからこそ、誰にでも同じ「万人向け」ダイエットは30代・40代以降に失敗しがちです。\n\nあなたのプランは、あなたの人生のステージに合わせて適応する必要があります。"
-          },
-          "preEmail": {
-            "title": "これは、またありきたりの固定メニューではありません。",
-            "body": "あなたの地中海プログラムは、AIコーチングによって動いています。\n\n進捗、エネルギーレベル、フィードバックに基づいて適応します。\n\n迷う必要はありません。\n\nシステムはあなたと一緒に成長します。",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "BMIは健康的な範囲内です。",
-            "body": "素晴らしいスタート地点です。今の目標は体重を維持しながら、体の見た目を整え、代謝をサポートすること。あなたのBMIをもとに、フィットで健康的な体を維持するためのパーソナル地中海コーチングシステムを作成します。"
-          },
-          "overweight": {
-            "title": "BMIは過体重の範囲にあります。",
-            "body": "体が余分な脂肪を蓄えている可能性があります。適切な食事プランで、より健康的な体重へと近づけます。あなたのBMIをもとに、パーソナル地中海コーチングシステムを作成します。"
-          },
-          "obese": {
-            "title": "BMIは肥満の範囲にあります。",
-            "body": "体が推奨値より多くの体重を抱えていることを意味します。少しの減量でも、健康とエネルギーに大きな改善をもたらすことができます。あなたのBMIをもとに、健康的で着実な減量をサポートするパーソナル地中海コーチングシステムを作成します。"
-          },
-          "underweight": {
-            "title": "BMIは低体重の範囲にあります。",
-            "body": "代謝と全体的な健康をサポートする、健康的な食事プランの作成をお手伝いします。"
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "健康上のメリット：体重の{percent}%を減らす",
-          "smallBody": "研究によると、体重のわずか10%を減らすだけでも健康が改善することが示されています。心臓病、高血糖、体内の炎症リスクを下げる効果が期待できます。小さな変化が大きな違いを生みます。",
-          "bigTitle": "より大きな目標：体重の{percent}%を減らす",
-          "bigBody": "研究では、体重の20%以上を減らした人は、5〜10%しか減らさなかった人よりも代謝の健康が大きく改善することが多いとされています。より大きな減量は、エネルギーの向上、血糖コントロール改善、全体的な健康増進につながります。"
-        }
-      },
       "jp": {
         "common": {
           "continue": "次へ",
@@ -4288,312 +2758,6 @@ export default {
           "bigBody": "Tyrimai rodo, kad žmonės, kurie numeta daugiau nei 20% kūno svorio, dažnai pagerina savo metabolinę sveikatą daugiau nei tie, kurie numeta tik 5–10%. Didesnis svorio metimas gali suteikti geresnę energiją, geresnę cukraus kraujyje kontrolę ir geresnę bendrą sveikatą."
         }
       },
-      "lv": {
-        "common": {
-          "continue": "Turpināt",
-          "menu": "Izvēlne",
-          "closeMenu": "Aizvērt izvēlni",
-          "helpCenter": "Palīdzības centrs",
-          "contactUs": "Sazināties ar mums",
-          "terms": "Noteikumi un nosacījumi",
-          "privacyPolicy": "Privātuma politika",
-          "cookiePolicy": "Sīkdatņu politika",
-          "privacySettings": "Privātuma iestatījumi",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "Nav iestatīts"
-        },
-        "landing": {
-          "hero": "Personalizēsim jūsu Vidusjūras treneri un izveidosim programmu svara zudumam un ilgmūžīgai uzturam",
-          "subtitle": "Izvēlieties savu programmu:",
-          "ctaMen": "Programma vīriešiem",
-          "ctaWomen": "Programma sievietēm",
-          "footer": "© 2026 meDiet. Visas tiesības aizsargātas.",
-          "heroImageAlt": "Vidusjūras ēdiena bļoda"
-        },
-        "intro": {
-          "titlePrefix": "Pirms izveidojam jūsu plānu",
-          "titleHighlight": "IZLASIET ŠO",
-          "p1": "Ja esat izmēģinājis keto, kaloriju skaitīšanu vai pārtrauktu badošanos un jutāties kā neveiksminieks.",
-          "p2": "Jūs neizdevāties. Plāns jūs pievīla.",
-          "p3": "Šīs sistēmas tika veidotas uz vecās zinātnes. Fiksēti noteikumi. Vispārīgas veidnes.",
-          "p4Male": "Tās nekad netika veidotas tam, kā vīrieša ķermenis patiesībā darbojas.",
-          "p4Female": "Tās nekad netika veidotas tam, kā sievietes ķermenis patiesībā darbojas.",
-          "p5": "Tas mainās tieši tagad.",
-          "p6": "Atbildiet godīgi. Mēs darīsim pārējo."
-        },
-        "steps": {
-          "s1": "Cik labi jūs pārzināt Vidusjūras diētu un Zilo zonu fenomenu?",
-          "s3": "Ko vēlaties sasniegt?",
-          "s4": "Kā jūs raksturotu savu ķermeni tagad?",
-          "s5": "Kādu ķermeni vēlaties?",
-          "s6": "Kuras jomas vēlētos uzlabot?",
-          "s6Hint": "Ja esat apmierināts ar savu ķermeni, nospiediet Turpināt",
-          "s7": "Kā parasti izskatās jūsu diena?",
-          "s8": "Kāds ir jūsu enerģijas līmenis dienas laikā?",
-          "s9": "Cik bieži jūs vingrošat?",
-          "s10": "Kā parasti mainās jūsu svars?",
-          "s12": "Kad pēdējo reizi bijāt pie labākā svara?",
-          "s13": "Vai pēdējo 3 gadu laikā esat izmēģinājis kādu no šīm diētām?",
-          "s15": "Kas jūsu dzīvē visvairāk mainītos, ja jūs būtu formā?",
-          "s16": "Kāds ir jūsu augums?",
-          "s17": "Kāds ir jūsu pašreizējais svars?",
-          "s19": "Kāds ir jūsu mērķa svars?",
-          "s20": "Cik jums ir gadu?",
-          "s21Title": "Lūk, ko mēs atklājām",
-          "s21BmiTitle": "Jūsu ķermeņa masas indekss (ĶMI)",
-          "s22": "Cik ēdienreizes dienā vēlētos ēst?",
-          "s22Subtitle": "Vēlāk varat to mainīt iestatījumos.",
-          "s23": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
-          "s23Label": "Olbaltumvielas un piena produkti:",
-          "s24": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
-          "s24Label": "Augļi un dārzeņi:",
-          "s25": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
-          "s25Label": "Graudi un rieksti:",
-          "s27Title": "Pamatojoties uz jūsu pārtikas vēlmēm, mēs izveidojām",
-          "s27Count": "500+",
-          "s27Lead": "ēdienreižu kombinācijas",
-          "s27Body": "kas ir lieliski piemērotas jums un palīdzēs sasniegt veselīgu svaru vispatīkamākajā veidā!"
-        },
-        "labels": {
-          "selectAll": "Izvēlieties visu, kas atbilst:",
-          "youValue": "Jūs",
-          "underweightShort": "Zem",
-          "underweight": "Nepietiekams svars",
-          "healthy": "Vesels",
-          "overweightShort": "Virs",
-          "overweight": "Lieksvars",
-          "obese": "Aptaukošanās",
-          "bodyFat": "Ķermeņa tauki",
-          "activityLevel": "Aktivitātes līmenis",
-          "energyLevel": "Enerģijas līmenis",
-          "goal": "Mērķis"
-        },
-        "options": {
-          "goalsMale": [
-            "Zaudēt ķermeņa taukus",
-            "Iegūt liesu ķermeni",
-            "Veidot muskuļus",
-            "Iegūt vairāk enerģijas",
-            "Uzlabot veselību",
-            "Dzīvot ilgāk"
-          ],
-          "goalsFemale": [
-            "Zaudēt ķermeņa taukus",
-            "Iegūt slaidāku ķermeni",
-            "Veidot ķermeni",
-            "Iegūt vairāk enerģijas",
-            "Uzlabot veselību",
-            "Dzīvot ilgāk"
-          ],
-          "q3BodiesMale": [
-            "Slaids",
-            "Vidējs",
-            "Nedaudz vēdera tauki",
-            "Lieksvars"
-          ],
-          "q3BodiesFemale": [
-            "Slaida",
-            "Vidēja",
-            "Nedaudz vēdera tauki",
-            "Lieksvars"
-          ],
-          "q4BodiesMale": [
-            "Nedaudz slaidāks",
-            "Slaids un formā",
-            "Atletisks",
-            "Stiprs un definēts"
-          ],
-          "q4BodiesFemale": [
-            "Atkal justies kā es",
-            "Zaudēt neatlaidīgos vēdera taukus",
-            "Justies vieglāk un pārliecinātāk",
-            "Izskatīties tonizēti un jauniski"
-          ],
-          "q12Reasons": [
-            "Kā es jūtos, skatoties spogulī",
-            "Atkal justies kā es",
-            "Mana enerģija ar bērniem / ģimeni",
-            "Mana pārliecība citu starpā",
-            "Kā es jūtos pret savu partneri",
-            "Mana ilgtermiņa veselība",
-            "Kā man piestāv drēbes"
-          ],
-          "familiarity": [
-            "Man tas ir jauns",
-            "Zinu pamatus",
-            "Esmu to izmēģinājis"
-          ],
-          "bodyAreas": [
-            "Rokas",
-            "Krūtis",
-            "Mugura",
-            "Vēders",
-            "Kājas",
-            "Sēžamvieta"
-          ],
-          "dayToDay": [
-            "Sēžu lielāko dienas daļu",
-            "Daudz kustinos",
-            "Bieži vingroju",
-            "Palikšu mājās"
-          ],
-          "energy": [
-            "Lielākoties zema",
-            "Pēc pusdienām jūtos noguris",
-            "Mana enerģija svārstās",
-            "Mana enerģija ir stabila"
-          ],
-          "exercise": [
-            "Nekad",
-            "Dažas reizes mēnesī",
-            "Dažas reizes nedēļā",
-            "Gandrīz katru dienu"
-          ],
-          "weightChange": [
-            "Ātri pieņemos svarā un lēni zaudēju",
-            "Zaudēju svaru, bet atkal pieņemos",
-            "Mans svars paliek nemainīgs",
-            "Man ir grūti veidot muskuļus"
-          ],
-          "idealWeight": [
-            "Mazāk nekā pirms 1 gada",
-            "Pirms 1–3 gadiem",
-            "Pirms vairāk nekā 3 gadiem",
-            "Es nekad neesmu bijis pie labākā svara"
-          ],
-          "diets": [
-            "Keto",
-            "Pārtraukta badošanās",
-            "Zema ogļhidrātu",
-            "Veģetārisks",
-            "Vegāns",
-            "Bezglutēna",
-            "Cits",
-            "Neviens no šiem"
-          ],
-          "meals": [
-            "Divi",
-            "Trīs",
-            "Četri",
-            "Pieci"
-          ],
-          "mealDescriptions": [
-            "Brokastis un vakariņas ar izvēles uzkodām",
-            "Brokastis, pusdienas un vakariņas",
-            "Brokastis, uzkoda, pusdienas un vakariņas",
-            "Brokastis, pusdienas, vakariņas un divas uzkodas"
-          ],
-          "proteins": [
-            "Ēdu visu",
-            "Vistas gaļa",
-            "Sarkanā gaļa",
-            "Siers",
-            "Tuncis",
-            "Grieķu jogurts",
-            "Lasis",
-            "Garneles",
-            "Olas",
-            "Aunazirņi",
-            "Lēcas",
-            "Tofu"
-          ],
-          "vegetables": [
-            "Ēdu visu",
-            "Tomāti",
-            "Gurķis",
-            "Brokoļi",
-            "Spināti",
-            "Cukini",
-            "Paprika",
-            "Avokado",
-            "Olīvas",
-            "Sīpoli"
-          ],
-          "grains": [
-            "Ēdu visu",
-            "Rīsi",
-            "Kuskuss",
-            "Kvinoja",
-            "Auzu pārslas",
-            "Mandeles",
-            "Valrieksti",
-            "Zemesrieksti",
-            "Kukurūza"
-          ]
-        },
-        "loading": {
-          "title": "Ģenerē...",
-          "messages": [
-            "Analizē jūsu metabolisko profilu…",
-            "Pārskata pārtikas vēlmes…",
-            "Salīdzina ar Zilo zonu ilgmūžības datiem…",
-            "Apstrādā jaunākos uztura pētījumus…",
-            "Pielāgo makro proporcijas…",
-            "Veido jūsu adaptīvo Vidusjūras koučinga sistēmu…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "Personalizēts ieskats",
-          "blueZones": {
-            "title": "Viņu noslēpums liesu ķermeni un garu dzīvi.\n\nTAGAD BEIDZOT JŪSĒJAIS.",
-            "body": "Cilvēki no pasaules ilgāk dzīvojošajiem reģioniem, ko sauc par **Zilajām zonām** – dzīvo ilgāk par visiem citiem.\n\nViņi ir arī labākā formā. Liesāki. Enerģiskāki. Un pēc katra mēra pieder pie laimīgākajiem cilvēkiem uz zemes.\n\nViņi neskaita kalorijas. Viņi neierobežo ogļhidrātus. Viņi ēd īstu ēdienu, veselīgus taukus, labas sastāvdaļas.\n\n**Pirmo reizi pasaulē pierādītākā ilgmūžības diēta tiek veidota ap jums, nevis visiem.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "Jūsu vielmaiņa nav bojāta.\nTai ir dots nepareizs plāns.",
-            "body": "Jūsu ķermenis mainās. Lielākā daļa plānu nē.\n\n**Mūsu AI sistēma darbojas 24/7.**\n\nApmācīta uz simtiem gadu pētījumu. Miljoniem reālu gadījumu.\n\nTā pielāgojas, kad jūs pielāgojaties.\n\nTā nekad nepārstāj strādāt pie jums.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "Šīs diētas nebija nepareizas tāpēc, ka jūs tās darījāt nepareizi.",
-            "body": "Tās bija nepareizas, jo nekad nemainījās.\n\nKeto. Kaloriju skaitīšana. Maz tauku. Daudz graudu.\n\nJūs ievērojāt noteikumus. Jūsu ķermenis pielāgojās. Plāns nē.\n\n**Zinātne tagad ir skaidra. Statiskie plāni izgāžas. Vienmēr.**\n\nJūsu ķermenis nav statisks. Jūsu plānam arī nevajadzētu būt.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "Mēs izmantojam jūsu augumu un svaru, lai aprēķinātu jūsu ķermeņa masas indeksu (ĶMI).",
-            "body": "ĶMI palīdz mums saprast jūsu pašreizējo svara diapazonu."
-          },
-          "adviceWrong": {
-            "title": "Tas padoms, ko jums deva?\n\nTAS BIJA NEPAREIZS",
-            "body": "Gadiem ilgi viņi teica ēdiet mazāk tauku. Skaitiet katru kaloriju. Sekojiet piramīdai.\n\nMiljoni sekoja tam lieliski. Miljoni joprojām cīnījās.\n\nPamats bija apgriezts. Ne jūs.\n\nZinātne ir panākusi. Jūsu plāns to atspoguļo.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "Vecums maina jūsu vielmaiņu, bet tas neaptur rezultātus.",
-            "body": "Mums novecojot, ķermenis citādi reaģē uz pārtiku.\n\nTāpēc universālas diētas bieži izgāžas pēc 30 vai 40.\n\nJūsu plānam jāpielāgojas jūsu dzīves posmam."
-          },
-          "preEmail": {
-            "title": "Šis nav vēl viens fiksēts ēdienkartes plāns.",
-            "body": "Jūsu Vidusjūras programma tiek darbināta ar AI koučingu.\n\nTā pielāgojas, pamatojoties uz jūsu progresu, enerģijas līmeņiem un atsauksmes.\n\nJums nav jāuzmin.\n\nSistēma attīstās kopā ar jums.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "Jūsu ĶMI ir veselīgā diapazonā.",
-            "body": "Tas ir lielisks sākumpunkts. Tagad mērķis ir uzturēt svaru, uzlabot ķermeņa formu un atbalstīt vielmaiņu. Mēs izmantosim jūsu ĶMI, lai izveidotu jūsu personalizēto Vidusjūras koučinga sistēmu un palīdzētu jums palikt formā un stipram."
-          },
-          "overweight": {
-            "title": "Jūsu ĶMI ir lieksvara diapazonā.",
-            "body": "Tas nozīmē, ka jūsu ķermenis var uzglabāt papildu taukus. Ar pareizu uztura plānu jūs varat virzīties uz veselīgāku svaru. Mēs izmantosim jūsu ĶMI, lai izveidotu jūsu personalizēto Vidusjūras koučinga sistēmu."
-          },
-          "obese": {
-            "title": "Jūsu ĶMI ir aptaukošanās diapazonā.",
-            "body": "Tas nozīmē, ka jūsu ķermenis nes vairāk svara nekā ieteicams. Pat neliela svara zaudēšana var uzlabot jūsu veselību un enerģiju. Mēs izmantosim jūsu ĶMI, lai izveidotu personalizētu Vidusjūras koučinga sistēmu, kas palīdzēs jums zaudēt svaru veselīgā un stabilā veidā."
-          },
-          "underweight": {
-            "title": "Jūsu ĶMI ir nepietiekama svara diapazonā.",
-            "body": "Mēs palīdzēsim jums izveidot veselīgu uztura plānu, lai atbalstītu jūsu vielmaiņu un vispārējo labsajūtu."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "Veselības ieguvumi: Zaudējiet {percent}% no sava svara",
-          "smallBody": "Pētījumi liecina, ka pat 10% ķermeņa svara zaudēšana var uzlabot veselību. Tas var palīdzēt samazināt sirds slimību, augsta cukura asinīs un iekaisuma risku organismā. Nelieli pārmaiņas var padarīt lielu atšķirību.",
-          "bigTitle": "Lielāks mērķis: Zaudējiet {percent}% no sava svara",
-          "bigBody": "Pētījumi liecina, ka cilvēki, kuri zaudē vairāk nekā 20% ķermeņa svara, bieži uzlabo savu metabolisko veselību vairāk nekā tie, kuri zaudē tikai 5–10%. Lielāka svara zaudēšana var novest pie labākas enerģijas, labākas cukura asinīs kontroles un labākas vispārējās veselības."
-        }
-      },
       "ro": {
         "common": {
           "continue": "Continuă",
@@ -4898,6 +3062,312 @@ export default {
           "smallBody": "Studiile arată că chiar și pierderea a 10% din greutatea corporală poate îmbunătăți sănătatea. Poate ajuta la reducerea riscului de boli cardiovasculare, glicemie ridicată și inflamații în corp. Schimbările mici pot face o diferență mare.",
           "bigTitle": "Obiectiv mai mare: Pierdeți {percent}% din greutatea corporală",
           "bigBody": "Cercetările arată că persoanele care pierd mai mult de 20% din greutatea corporală îmbunătățesc adesea sănătatea metabolică mai mult decât cei care pierd doar 5–10%. O pierdere mai mare în greutate poate duce la o energie mai bună, un control mai bun al glicemiei și o sănătate generală mai bună."
+        }
+      },
+      "lv": {
+        "common": {
+          "continue": "Turpināt",
+          "menu": "Izvēlne",
+          "closeMenu": "Aizvērt izvēlni",
+          "helpCenter": "Palīdzības centrs",
+          "contactUs": "Sazināties ar mums",
+          "terms": "Noteikumi un nosacījumi",
+          "privacyPolicy": "Privātuma politika",
+          "cookiePolicy": "Sīkdatņu politika",
+          "privacySettings": "Privātuma iestatījumi",
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "notSet": "Nav iestatīts"
+        },
+        "landing": {
+          "hero": "Personalizēsim jūsu Vidusjūras treneri un izveidosim programmu svara zudumam un ilgmūžīgai uzturam",
+          "subtitle": "Izvēlieties savu programmu:",
+          "ctaMen": "Programma vīriešiem",
+          "ctaWomen": "Programma sievietēm",
+          "footer": "© 2026 meDiet. Visas tiesības aizsargātas.",
+          "heroImageAlt": "Vidusjūras ēdiena bļoda"
+        },
+        "intro": {
+          "titlePrefix": "Pirms izveidojam jūsu plānu",
+          "titleHighlight": "IZLASIET ŠO",
+          "p1": "Ja esat izmēģinājis keto, kaloriju skaitīšanu vai pārtrauktu badošanos un jutāties kā neveiksminieks.",
+          "p2": "Jūs neizdevāties. Plāns jūs pievīla.",
+          "p3": "Šīs sistēmas tika veidotas uz vecās zinātnes. Fiksēti noteikumi. Vispārīgas veidnes.",
+          "p4Male": "Tās nekad netika veidotas tam, kā vīrieša ķermenis patiesībā darbojas.",
+          "p4Female": "Tās nekad netika veidotas tam, kā sievietes ķermenis patiesībā darbojas.",
+          "p5": "Tas mainās tieši tagad.",
+          "p6": "Atbildiet godīgi. Mēs darīsim pārējo."
+        },
+        "steps": {
+          "s1": "Cik labi jūs pārzināt Vidusjūras diētu un Zilo zonu fenomenu?",
+          "s3": "Ko vēlaties sasniegt?",
+          "s4": "Kā jūs raksturotu savu ķermeni tagad?",
+          "s5": "Kādu ķermeni vēlaties?",
+          "s6": "Kuras jomas vēlētos uzlabot?",
+          "s6Hint": "Ja esat apmierināts ar savu ķermeni, nospiediet Turpināt",
+          "s7": "Kā parasti izskatās jūsu diena?",
+          "s8": "Kāds ir jūsu enerģijas līmenis dienas laikā?",
+          "s9": "Cik bieži jūs vingrošat?",
+          "s10": "Kā parasti mainās jūsu svars?",
+          "s12": "Kad pēdējo reizi bijāt pie labākā svara?",
+          "s13": "Vai pēdējo 3 gadu laikā esat izmēģinājis kādu no šīm diētām?",
+          "s15": "Kas jūsu dzīvē visvairāk mainītos, ja jūs būtu formā?",
+          "s16": "Kāds ir jūsu augums?",
+          "s17": "Kāds ir jūsu pašreizējais svars?",
+          "s19": "Kāds ir jūsu mērķa svars?",
+          "s20": "Cik jums ir gadu?",
+          "s21Title": "Lūk, ko mēs atklājām",
+          "s21BmiTitle": "Jūsu ķermeņa masas indekss (ĶMI)",
+          "s22": "Cik ēdienreizes dienā vēlētos ēst?",
+          "s22Subtitle": "Vēlāk varat to mainīt iestatījumos.",
+          "s23": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
+          "s23Label": "Olbaltumvielas un piena produkti:",
+          "s24": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
+          "s24Label": "Augļi un dārzeņi:",
+          "s25": "Vai vēlaties izslēgt kādu no šiem pārtikas produktiem?",
+          "s25Label": "Graudi un rieksti:",
+          "s27Title": "Pamatojoties uz jūsu pārtikas vēlmēm, mēs izveidojām",
+          "s27Count": "500+",
+          "s27Lead": "ēdienreižu kombinācijas",
+          "s27Body": "kas ir lieliski piemērotas jums un palīdzēs sasniegt veselīgu svaru vispatīkamākajā veidā!"
+        },
+        "labels": {
+          "selectAll": "Izvēlieties visu, kas atbilst:",
+          "youValue": "Jūs",
+          "underweightShort": "Zem",
+          "underweight": "Nepietiekams svars",
+          "healthy": "Vesels",
+          "overweightShort": "Virs",
+          "overweight": "Lieksvars",
+          "obese": "Aptaukošanās",
+          "bodyFat": "Ķermeņa tauki",
+          "activityLevel": "Aktivitātes līmenis",
+          "energyLevel": "Enerģijas līmenis",
+          "goal": "Mērķis"
+        },
+        "options": {
+          "goalsMale": [
+            "Zaudēt ķermeņa taukus",
+            "Iegūt liesu ķermeni",
+            "Veidot muskuļus",
+            "Iegūt vairāk enerģijas",
+            "Uzlabot veselību",
+            "Dzīvot ilgāk"
+          ],
+          "goalsFemale": [
+            "Zaudēt ķermeņa taukus",
+            "Iegūt slaidāku ķermeni",
+            "Veidot ķermeni",
+            "Iegūt vairāk enerģijas",
+            "Uzlabot veselību",
+            "Dzīvot ilgāk"
+          ],
+          "q3BodiesMale": [
+            "Slaids",
+            "Vidējs",
+            "Nedaudz vēdera tauki",
+            "Lieksvars"
+          ],
+          "q3BodiesFemale": [
+            "Slaida",
+            "Vidēja",
+            "Nedaudz vēdera tauki",
+            "Lieksvars"
+          ],
+          "q4BodiesMale": [
+            "Nedaudz slaidāks",
+            "Slaids un formā",
+            "Atletisks",
+            "Stiprs un definēts"
+          ],
+          "q4BodiesFemale": [
+            "Atkal justies kā es",
+            "Zaudēt neatlaidīgos vēdera taukus",
+            "Justies vieglāk un pārliecinātāk",
+            "Izskatīties tonizēti un jauniski"
+          ],
+          "q12Reasons": [
+            "Kā es jūtos, skatoties spogulī",
+            "Atkal justies kā es",
+            "Mana enerģija ar bērniem / ģimeni",
+            "Mana pārliecība citu starpā",
+            "Kā es jūtos pret savu partneri",
+            "Mana ilgtermiņa veselība",
+            "Kā man piestāv drēbes"
+          ],
+          "familiarity": [
+            "Man tas ir jauns",
+            "Zinu pamatus",
+            "Esmu to izmēģinājis"
+          ],
+          "bodyAreas": [
+            "Rokas",
+            "Krūtis",
+            "Mugura",
+            "Vēders",
+            "Kājas",
+            "Sēžamvieta"
+          ],
+          "dayToDay": [
+            "Sēžu lielāko dienas daļu",
+            "Daudz kustinos",
+            "Bieži vingroju",
+            "Palikšu mājās"
+          ],
+          "energy": [
+            "Lielākoties zema",
+            "Pēc pusdienām jūtos noguris",
+            "Mana enerģija svārstās",
+            "Mana enerģija ir stabila"
+          ],
+          "exercise": [
+            "Nekad",
+            "Dažas reizes mēnesī",
+            "Dažas reizes nedēļā",
+            "Gandrīz katru dienu"
+          ],
+          "weightChange": [
+            "Ātri pieņemos svarā un lēni zaudēju",
+            "Zaudēju svaru, bet atkal pieņemos",
+            "Mans svars paliek nemainīgs",
+            "Man ir grūti veidot muskuļus"
+          ],
+          "idealWeight": [
+            "Mazāk nekā pirms 1 gada",
+            "Pirms 1–3 gadiem",
+            "Pirms vairāk nekā 3 gadiem",
+            "Es nekad neesmu bijis pie labākā svara"
+          ],
+          "diets": [
+            "Keto",
+            "Pārtraukta badošanās",
+            "Zema ogļhidrātu",
+            "Veģetārisks",
+            "Vegāns",
+            "Bezglutēna",
+            "Cits",
+            "Neviens no šiem"
+          ],
+          "meals": [
+            "Divi",
+            "Trīs",
+            "Četri",
+            "Pieci"
+          ],
+          "mealDescriptions": [
+            "Brokastis un vakariņas ar izvēles uzkodām",
+            "Brokastis, pusdienas un vakariņas",
+            "Brokastis, uzkoda, pusdienas un vakariņas",
+            "Brokastis, pusdienas, vakariņas un divas uzkodas"
+          ],
+          "proteins": [
+            "Ēdu visu",
+            "Vistas gaļa",
+            "Sarkanā gaļa",
+            "Siers",
+            "Tuncis",
+            "Grieķu jogurts",
+            "Lasis",
+            "Garneles",
+            "Olas",
+            "Aunazirņi",
+            "Lēcas",
+            "Tofu"
+          ],
+          "vegetables": [
+            "Ēdu visu",
+            "Tomāti",
+            "Gurķis",
+            "Brokoļi",
+            "Spināti",
+            "Cukini",
+            "Paprika",
+            "Avokado",
+            "Olīvas",
+            "Sīpoli"
+          ],
+          "grains": [
+            "Ēdu visu",
+            "Rīsi",
+            "Kuskuss",
+            "Kvinoja",
+            "Auzu pārslas",
+            "Mandeles",
+            "Valrieksti",
+            "Zemesrieksti",
+            "Kukurūza"
+          ]
+        },
+        "loading": {
+          "title": "Ģenerē...",
+          "messages": [
+            "Analizē jūsu metabolisko profilu…",
+            "Pārskata pārtikas vēlmes…",
+            "Salīdzina ar Zilo zonu ilgmūžības datiem…",
+            "Apstrādā jaunākos uztura pētījumus…",
+            "Pielāgo makro proporcijas…",
+            "Veido jūsu adaptīvo Vidusjūras koučinga sistēmu…"
+          ]
+        },
+        "infoBlocks": {
+          "eyebrow": "Personalizēts ieskats",
+          "blueZones": {
+            "title": "Viņu noslēpums liesu ķermeni un garu dzīvi.\n\nTAGAD BEIDZOT JŪSĒJAIS.",
+            "body": "Cilvēki no pasaules ilgāk dzīvojošajiem reģioniem, ko sauc par **Zilajām zonām** – dzīvo ilgāk par visiem citiem.\n\nViņi ir arī labākā formā. Liesāki. Enerģiskāki. Un pēc katra mēra pieder pie laimīgākajiem cilvēkiem uz zemes.\n\nViņi neskaita kalorijas. Viņi neierobežo ogļhidrātus. Viņi ēd īstu ēdienu, veselīgus taukus, labas sastāvdaļas.\n\n**Pirmo reizi pasaulē pierādītākā ilgmūžības diēta tiek veidota ap jums, nevis visiem.**",
+            "image": "/quiz/blue-zones.png"
+          },
+          "metabolism": {
+            "title": "Jūsu vielmaiņa nav bojāta.\nTai ir dots nepareizs plāns.",
+            "body": "Jūsu ķermenis mainās. Lielākā daļa plānu nē.\n\n**Mūsu AI sistēma darbojas 24/7.**\n\nApmācīta uz simtiem gadu pētījumu. Miljoniem reālu gadījumu.\n\nTā pielāgojas, kad jūs pielāgojaties.\n\nTā nekad nepārstāj strādāt pie jums.",
+            "image": "/quiz/page11.png"
+          },
+          "dietsWrong": {
+            "title": "Šīs diētas nebija nepareizas tāpēc, ka jūs tās darījāt nepareizi.",
+            "body": "Tās bija nepareizas, jo nekad nemainījās.\n\nKeto. Kaloriju skaitīšana. Maz tauku. Daudz graudu.\n\nJūs ievērojāt noteikumus. Jūsu ķermenis pielāgojās. Plāns nē.\n\n**Zinātne tagad ir skaidra. Statiskie plāni izgāžas. Vienmēr.**\n\nJūsu ķermenis nav statisks. Jūsu plānam arī nevajadzētu būt.",
+            "image": "/quiz/3.png"
+          },
+          "bmiExplanation": {
+            "title": "Mēs izmantojam jūsu augumu un svaru, lai aprēķinātu jūsu ķermeņa masas indeksu (ĶMI).",
+            "body": "ĶMI palīdz mums saprast jūsu pašreizējo svara diapazonu."
+          },
+          "adviceWrong": {
+            "title": "Tas padoms, ko jums deva?\n\nTAS BIJA NEPAREIZS",
+            "body": "Gadiem ilgi viņi teica ēdiet mazāk tauku. Skaitiet katru kaloriju. Sekojiet piramīdai.\n\nMiljoni sekoja tam lieliski. Miljoni joprojām cīnījās.\n\nPamats bija apgriezts. Ne jūs.\n\nZinātne ir panākusi. Jūsu plāns to atspoguļo.",
+            "image": "/quiz/page12.png"
+          },
+          "ageMetabolism": {
+            "title": "Vecums maina jūsu vielmaiņu, bet tas neaptur rezultātus.",
+            "body": "Mums novecojot, ķermenis citādi reaģē uz pārtiku.\n\nTāpēc universālas diētas bieži izgāžas pēc 30 vai 40.\n\nJūsu plānam jāpielāgojas jūsu dzīves posmam."
+          },
+          "preEmail": {
+            "title": "Šis nav vēl viens fiksēts ēdienkartes plāns.",
+            "body": "Jūsu Vidusjūras programma tiek darbināta ar AI koučingu.\n\nTā pielāgojas, pamatojoties uz jūsu progresu, enerģijas līmeņiem un atsauksmes.\n\nJums nav jāuzmin.\n\nSistēma attīstās kopā ar jums.",
+            "image": "/quiz/mediterranean-spread.png"
+          }
+        },
+        "bmiMessages": {
+          "healthy": {
+            "title": "Jūsu ĶMI ir veselīgā diapazonā.",
+            "body": "Tas ir lielisks sākumpunkts. Tagad mērķis ir uzturēt svaru, uzlabot ķermeņa formu un atbalstīt vielmaiņu. Mēs izmantosim jūsu ĶMI, lai izveidotu jūsu personalizēto Vidusjūras koučinga sistēmu un palīdzētu jums palikt formā un stipram."
+          },
+          "overweight": {
+            "title": "Jūsu ĶMI ir lieksvara diapazonā.",
+            "body": "Tas nozīmē, ka jūsu ķermenis var uzglabāt papildu taukus. Ar pareizu uztura plānu jūs varat virzīties uz veselīgāku svaru. Mēs izmantosim jūsu ĶMI, lai izveidotu jūsu personalizēto Vidusjūras koučinga sistēmu."
+          },
+          "obese": {
+            "title": "Jūsu ĶMI ir aptaukošanās diapazonā.",
+            "body": "Tas nozīmē, ka jūsu ķermenis nes vairāk svara nekā ieteicams. Pat neliela svara zaudēšana var uzlabot jūsu veselību un enerģiju. Mēs izmantosim jūsu ĶMI, lai izveidotu personalizētu Vidusjūras koučinga sistēmu, kas palīdzēs jums zaudēt svaru veselīgā un stabilā veidā."
+          },
+          "underweight": {
+            "title": "Jūsu ĶMI ir nepietiekama svara diapazonā.",
+            "body": "Mēs palīdzēsim jums izveidot veselīgu uztura plānu, lai atbalstītu jūsu vielmaiņu un vispārējo labsajūtu."
+          }
+        },
+        "weightLoss": {
+          "smallTitle": "Veselības ieguvumi: Zaudējiet {percent}% no sava svara",
+          "smallBody": "Pētījumi liecina, ka pat 10% ķermeņa svara zaudēšana var uzlabot veselību. Tas var palīdzēt samazināt sirds slimību, augsta cukura asinīs un iekaisuma risku organismā. Nelieli pārmaiņas var padarīt lielu atšķirību.",
+          "bigTitle": "Lielāks mērķis: Zaudējiet {percent}% no sava svara",
+          "bigBody": "Pētījumi liecina, ka cilvēki, kuri zaudē vairāk nekā 20% ķermeņa svara, bieži uzlabo savu metabolisko veselību vairāk nekā tie, kuri zaudē tikai 5–10%. Lielāka svara zaudēšana var novest pie labākas enerģijas, labākas cukura asinīs kontroles un labākas vispārējās veselības."
         }
       },
       "ru": {
@@ -5817,642 +4287,23 @@ export default {
           "bigTitle": "更大的目標：減輕體重的 {percent}%",
           "bigBody": "研究指出，減掉超過20%體重的人，在代謝健康方面的改善，通常比只減掉5至10%的人更為顯著。更大幅度的減重，往往帶來更好的精力、更穩定的血糖控制與更全面的健康改善。"
         }
-      },
-      "zh-Hant": {
-        "common": {
-          "continue": "繼續",
-          "menu": "選單",
-          "closeMenu": "關閉選單",
-          "helpCenter": "幫助中心",
-          "contactUs": "聯絡我們",
-          "terms": "使用條款",
-          "privacyPolicy": "隱私政策",
-          "cookiePolicy": "Cookie 政策",
-          "privacySettings": "隱私設定",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "未設定"
-        },
-        "landing": {
-          "hero": "為您打造專屬的地中海飲食教練，制定適合您的減重計畫，邁向更長壽、更健康的生活",
-          "subtitle": "選擇您的計畫：",
-          "ctaMen": "男性計畫",
-          "ctaWomen": "女性計畫",
-          "footer": "© 2026 meDiet. 版權所有。",
-          "heroImageAlt": "地中海料理碗"
-        },
-        "intro": {
-          "titlePrefix": "在為您制定計畫之前",
-          "titleHighlight": "請先閱讀這些",
-          "p1": "如果您曾嘗試生酮飲食、計算卡路里或間歇性斷食，卻覺得自己失敗了。",
-          "p2": "不是您失敗了。是計畫讓您失望了。",
-          "p3": "那些方法建立在過時的科學上。僵化的規則。千篇一律的模板。",
-          "p4Male": "它們從來就不是針對男性身體真正運作方式而設計的。",
-          "p4Female": "它們從來就不是針對女性身體真正運作方式而設計的。",
-          "p5": "這一切，現在將會改變。",
-          "p6": "請如實作答。其餘的交給我們。"
-        },
-        "steps": {
-          "s1": "您對地中海飲食和藍色寶地（Blue Zones）了解多少？",
-          "s3": "您希望達成什麼目標？",
-          "s4": "您如何描述自己現在的身材？",
-          "s5": "您想要擁有怎樣的身材？",
-          "s6": "您希望改善哪些部位？",
-          "s6Hint": "如果您對目前的身材感到滿意，請點擊「繼續」",
-          "s7": "您平常的一天是什麼樣的？",
-          "s8": "您一天當中的精力狀況如何？",
-          "s9": "您多久運動一次？",
-          "s10": "您的體重通常如何變化？",
-          "s12": "您上次維持理想體重是什麼時候？",
-          "s13": "在過去3年內，您有嘗試過以下任何飲食方式嗎？",
-          "s15": "如果您擁有理想的身材，您的生活中什麼事情會改變最多？",
-          "s16": "您的身高是多少？",
-          "s17": "您目前的體重是多少？",
-          "s19": "您的目標體重是多少？",
-          "s20": "您幾歲？",
-          "s21Title": "這是我們的發現",
-          "s21BmiTitle": "您的身體質量指數（BMI）",
-          "s22": "您每天希望吃幾餐？",
-          "s22Subtitle": "您可以隨時在設定中修改。",
-          "s23": "您希望排除哪些食物？",
-          "s23Label": "蛋白質與乳製品：",
-          "s24": "您希望排除哪些食物？",
-          "s24Label": "水果與蔬菜：",
-          "s25": "您希望排除哪些食物？",
-          "s25Label": "穀物與堅果：",
-          "s27Title": "根據您的飲食偏好，我們已為您創建",
-          "s27Count": "500 種以上",
-          "s27Lead": "的餐點組合",
-          "s27Body": "完全量身打造，以最愉快的方式協助您達到健康體重！"
-        },
-        "labels": {
-          "selectAll": "選擇所有適用項目：",
-          "youValue": "您",
-          "underweightShort": "過輕",
-          "underweight": "體重過輕",
-          "healthy": "健康",
-          "overweightShort": "過重",
-          "overweight": "體重過重",
-          "obese": "肥胖",
-          "bodyFat": "體脂率",
-          "activityLevel": "活動程度",
-          "energyLevel": "精力程度",
-          "goal": "目標"
-        },
-        "options": {
-          "goalsMale": [
-            "減少體脂肪",
-            "擁有精瘦體型",
-            "增加肌肉量",
-            "獲得更多精力",
-            "改善健康",
-            "延長壽命"
-          ],
-          "goalsFemale": [
-            "減少體脂肪",
-            "打造纖細體型",
-            "雕塑身材",
-            "獲得更多精力",
-            "改善健康",
-            "延長壽命"
-          ],
-          "q3BodiesMale": [
-            "纖瘦",
-            "一般",
-            "腹部有些脂肪",
-            "體重過重"
-          ],
-          "q3BodiesFemale": [
-            "纖瘦",
-            "一般",
-            "腹部有些脂肪",
-            "體重過重"
-          ],
-          "q4BodiesMale": [
-            "再纖瘦一點",
-            "纖瘦且健壯",
-            "運動員體型",
-            "強壯且線條分明"
-          ],
-          "q4BodiesFemale": [
-            "重新找回自我",
-            "消除頑固的腹部脂肪",
-            "感覺更輕盈、更有自信",
-            "擁有緊實且年輕的外型"
-          ],
-          "q12Reasons": [
-            "照鏡子時的感受",
-            "重新找回自我",
-            "陪伴孩子／家人時的精力",
-            "在他人面前的自信",
-            "與伴侶相處時的感受",
-            "長期健康",
-            "穿衣服的樣子"
-          ],
-          "familiarity": [
-            "對我來說這是全新的",
-            "我了解基本知識",
-            "我曾經嘗試過"
-          ],
-          "bodyAreas": [
-            "手臂",
-            "胸部",
-            "背部",
-            "腹部",
-            "腿部",
-            "臀部"
-          ],
-          "dayToDay": [
-            "大部分時間坐著",
-            "經常走動",
-            "定期運動",
-            "待在家中"
-          ],
-          "energy": [
-            "通常偏低",
-            "下午感到疲倦",
-            "精力時高時低",
-            "精力穩定"
-          ],
-          "exercise": [
-            "從不",
-            "每月幾次",
-            "每週幾次",
-            "幾乎每天"
-          ],
-          "weightChange": [
-            "容易增重，難以減重",
-            "瘦下來後容易復胖",
-            "體重保持穩定",
-            "難以增加肌肉"
-          ],
-          "idealWeight": [
-            "不到1年前",
-            "1至3年前",
-            "3年以上前",
-            "從未達到過理想體重"
-          ],
-          "diets": [
-            "生酮飲食",
-            "間歇性斷食",
-            "低碳水化合物",
-            "素食",
-            "純素",
-            "無麩質",
-            "其他",
-            "都沒有"
-          ],
-          "meals": [
-            "兩餐",
-            "三餐",
-            "四餐",
-            "五餐"
-          ],
-          "mealDescriptions": [
-            "早餐與晚餐，可選點心",
-            "早、午、晚三餐",
-            "早餐、點心、午餐和晚餐",
-            "早餐、午餐、晚餐及兩次點心"
-          ],
-          "proteins": [
-            "什麼都吃",
-            "雞肉",
-            "紅肉",
-            "起司",
-            "鮪魚",
-            "希臘優格",
-            "鮭魚",
-            "蝦",
-            "雞蛋",
-            "鷹嘴豆",
-            "扁豆",
-            "豆腐"
-          ],
-          "vegetables": [
-            "什麼都吃",
-            "番茄",
-            "小黃瓜",
-            "花椰菜",
-            "菠菜",
-            "櫛瓜",
-            "甜椒",
-            "酪梨",
-            "橄欖",
-            "洋蔥"
-          ],
-          "grains": [
-            "什麼都吃",
-            "米飯",
-            "古斯米",
-            "藜麥",
-            "燕麥",
-            "杏仁",
-            "核桃",
-            "花生",
-            "玉米"
-          ]
-        },
-        "loading": {
-          "title": "正在制定您的計畫...",
-          "messages": [
-            "正在分析您的代謝概況…",
-            "正在審視您的飲食偏好…",
-            "與藍色寶地的長壽資料比對中…",
-            "處理最新的營養科學研究…",
-            "調整您的巨量營養素比例…",
-            "建立您的自適應地中海教練系統…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "專屬洞察",
-          "blueZones": {
-            "title": "他們保持健美體態與長壽的秘密。\n\n現在終於也是您的。",
-            "body": "全球最長壽地區的居民，被稱為「**藍色寶地**」的人們，比所有其他人活得更長。\n\n他們的體態也更好。更纖細。精力更充沛。無論從哪個角度衡量，他們都是地球上最幸福的人之一。\n\n他們不計算卡路里。不限制碳水化合物。他們吃真正的食物、優質的脂肪、高品質的食材。\n\n**有史以來第一次，全球最有科學依據的長壽飲食法，完全圍繞著您而建立，而非針對所有人。**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "您的代謝功能沒有問題。\n只是從前的計畫不適合您。",
-            "body": "您的身體不斷在變化。大多數計畫卻沒有。\n\n**我們的 AI 系統全天候24小時運作。**\n\n以數百年的研究資料為基礎訓練。結合數百萬個真實案例。\n\n它隨著您的變化而適應。\n\n它永遠不會停止為您努力。",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "那些飲食法的失敗，不是因為您做錯了什麼。",
-            "body": "它們失敗，是因為它們從未改變。\n\n生酮。卡路里計算。低脂。高纖穀物。\n\n您照著規則執行。您的身體適應了。計畫卻沒有。\n\n**科學已經給出了明確答案：靜態計畫終將失敗。**\n\n您的身體不是靜態的。您的計畫也不應該是。",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "我們使用您的身高與體重來計算 BMI（身體質量指數）。",
-            "body": "BMI 幫助我們了解您目前的體重範圍。"
-          },
-          "adviceWrong": {
-            "title": "您過去收到的建議？\n\n那些是錯的",
-            "body": "多年來人們告訴您：吃少一點脂肪、計算每一卡路里、遵循食物金字塔。\n\n數百萬人完美遵循了這些建議。數百萬人仍然深陷困境。\n\n問題出在根基上。不是出在您身上。\n\n科學已經跟上了。您的計畫反映了這一點。",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "年齡會改變代謝，但不會阻止您獲得成果。",
-            "body": "隨著年齡增長，身體對食物的反應方式會有所不同。\n\n這正是千篇一律的飲食法常在30歲或40歲後失效的原因。\n\n您的計畫必須配合您現在的人生階段。"
-          },
-          "preEmail": {
-            "title": "這不是另一套固定的菜單計畫。",
-            "body": "您的地中海計畫由 AI 教練驅動。\n\n它會根據您的進度、精力狀況和反饋持續調整。\n\n您不需要猜測下一步。\n\n系統與您一起成長進化。",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "您的 BMI 在健康範圍內。",
-            "body": "這是一個絕佳的起點。現在的目標是維持體重、改善體態並支持代謝。我們將根據您的 BMI，為您建立個人化的地中海教練系統，幫助您保持精力充沛、身體強健。"
-          },
-          "overweight": {
-            "title": "您的 BMI 在過重範圍內。",
-            "body": "這意味著您的身體可能儲存了多餘的脂肪。透過正確的飲食計畫，您可以朝更健康的體重邁進。我們將根據您的 BMI，為您建立個人化的地中海教練系統。"
-          },
-          "obese": {
-            "title": "您的 BMI 在肥胖範圍內。",
-            "body": "這意味著您的體重超過建議值。即使只是小幅減重，也能顯著改善健康和精力。我們將根據您的 BMI，建立個人化的地中海教練系統，幫助您健康、循序漸進地減重。"
-          },
-          "underweight": {
-            "title": "您的 BMI 在體重過輕的範圍內。",
-            "body": "我們將協助您建立一個健康的飲食計畫，支持您的代謝功能與整體健康。"
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "健康效益：減輕體重的 {percent}%",
-          "smallBody": "研究顯示，即使只減輕10%的體重，也能改善健康狀況。這有助於降低心臟病、高血糖和體內慢性發炎的風險。小小的改變，帶來巨大的不同。",
-          "bigTitle": "更大的目標：減輕體重的 {percent}%",
-          "bigBody": "研究指出，減掉超過20%體重的人，在代謝健康方面的改善，通常比只減掉5至10%的人更為顯著。更大幅度的減重，往往帶來更好的精力、更穩定的血糖控制與更全面的健康改善。"
-        }
-      },
-      "zh-TW": {
-        "common": {
-          "continue": "繼續",
-          "menu": "選單",
-          "closeMenu": "關閉選單",
-          "helpCenter": "幫助中心",
-          "contactUs": "聯絡我們",
-          "terms": "使用條款",
-          "privacyPolicy": "隱私政策",
-          "cookiePolicy": "Cookie 政策",
-          "privacySettings": "隱私設定",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "未設定"
-        },
-        "landing": {
-          "hero": "為您打造專屬的地中海飲食教練，制定適合您的減重計畫，邁向更長壽、更健康的生活",
-          "subtitle": "選擇您的計畫：",
-          "ctaMen": "男性計畫",
-          "ctaWomen": "女性計畫",
-          "footer": "© 2026 meDiet. 版權所有。",
-          "heroImageAlt": "地中海料理碗"
-        },
-        "intro": {
-          "titlePrefix": "在為您制定計畫之前",
-          "titleHighlight": "請先閱讀這些",
-          "p1": "如果您曾嘗試生酮飲食、計算卡路里或間歇性斷食，卻覺得自己失敗了。",
-          "p2": "不是您失敗了。是計畫讓您失望了。",
-          "p3": "那些方法建立在過時的科學上。僵化的規則。千篇一律的模板。",
-          "p4Male": "它們從來就不是針對男性身體真正運作方式而設計的。",
-          "p4Female": "它們從來就不是針對女性身體真正運作方式而設計的。",
-          "p5": "這一切，現在將會改變。",
-          "p6": "請如實作答。其餘的交給我們。"
-        },
-        "steps": {
-          "s1": "您對地中海飲食和藍色寶地（Blue Zones）了解多少？",
-          "s3": "您希望達成什麼目標？",
-          "s4": "您如何描述自己現在的身材？",
-          "s5": "您想要擁有怎樣的身材？",
-          "s6": "您希望改善哪些部位？",
-          "s6Hint": "如果您對目前的身材感到滿意，請點擊「繼續」",
-          "s7": "您平常的一天是什麼樣的？",
-          "s8": "您一天當中的精力狀況如何？",
-          "s9": "您多久運動一次？",
-          "s10": "您的體重通常如何變化？",
-          "s12": "您上次維持理想體重是什麼時候？",
-          "s13": "在過去3年內，您有嘗試過以下任何飲食方式嗎？",
-          "s15": "如果您擁有理想的身材，您的生活中什麼事情會改變最多？",
-          "s16": "您的身高是多少？",
-          "s17": "您目前的體重是多少？",
-          "s19": "您的目標體重是多少？",
-          "s20": "您幾歲？",
-          "s21Title": "這是我們的發現",
-          "s21BmiTitle": "您的身體質量指數（BMI）",
-          "s22": "您每天希望吃幾餐？",
-          "s22Subtitle": "您可以隨時在設定中修改。",
-          "s23": "您希望排除哪些食物？",
-          "s23Label": "蛋白質與乳製品：",
-          "s24": "您希望排除哪些食物？",
-          "s24Label": "水果與蔬菜：",
-          "s25": "您希望排除哪些食物？",
-          "s25Label": "穀物與堅果：",
-          "s27Title": "根據您的飲食偏好，我們已為您創建",
-          "s27Count": "500 種以上",
-          "s27Lead": "的餐點組合",
-          "s27Body": "完全量身打造，以最愉快的方式協助您達到健康體重！"
-        },
-        "labels": {
-          "selectAll": "選擇所有適用項目：",
-          "youValue": "您",
-          "underweightShort": "過輕",
-          "underweight": "體重過輕",
-          "healthy": "健康",
-          "overweightShort": "過重",
-          "overweight": "體重過重",
-          "obese": "肥胖",
-          "bodyFat": "體脂率",
-          "activityLevel": "活動程度",
-          "energyLevel": "精力程度",
-          "goal": "目標"
-        },
-        "options": {
-          "goalsMale": [
-            "減少體脂肪",
-            "擁有精瘦體型",
-            "增加肌肉量",
-            "獲得更多精力",
-            "改善健康",
-            "延長壽命"
-          ],
-          "goalsFemale": [
-            "減少體脂肪",
-            "打造纖細體型",
-            "雕塑身材",
-            "獲得更多精力",
-            "改善健康",
-            "延長壽命"
-          ],
-          "q3BodiesMale": [
-            "纖瘦",
-            "一般",
-            "腹部有些脂肪",
-            "體重過重"
-          ],
-          "q3BodiesFemale": [
-            "纖瘦",
-            "一般",
-            "腹部有些脂肪",
-            "體重過重"
-          ],
-          "q4BodiesMale": [
-            "再纖瘦一點",
-            "纖瘦且健壯",
-            "運動員體型",
-            "強壯且線條分明"
-          ],
-          "q4BodiesFemale": [
-            "重新找回自我",
-            "消除頑固的腹部脂肪",
-            "感覺更輕盈、更有自信",
-            "擁有緊實且年輕的外型"
-          ],
-          "q12Reasons": [
-            "照鏡子時的感受",
-            "重新找回自我",
-            "陪伴孩子／家人時的精力",
-            "在他人面前的自信",
-            "與伴侶相處時的感受",
-            "長期健康",
-            "穿衣服的樣子"
-          ],
-          "familiarity": [
-            "對我來說這是全新的",
-            "我了解基本知識",
-            "我曾經嘗試過"
-          ],
-          "bodyAreas": [
-            "手臂",
-            "胸部",
-            "背部",
-            "腹部",
-            "腿部",
-            "臀部"
-          ],
-          "dayToDay": [
-            "大部分時間坐著",
-            "經常走動",
-            "定期運動",
-            "待在家中"
-          ],
-          "energy": [
-            "通常偏低",
-            "下午感到疲倦",
-            "精力時高時低",
-            "精力穩定"
-          ],
-          "exercise": [
-            "從不",
-            "每月幾次",
-            "每週幾次",
-            "幾乎每天"
-          ],
-          "weightChange": [
-            "容易增重，難以減重",
-            "瘦下來後容易復胖",
-            "體重保持穩定",
-            "難以增加肌肉"
-          ],
-          "idealWeight": [
-            "不到1年前",
-            "1至3年前",
-            "3年以上前",
-            "從未達到過理想體重"
-          ],
-          "diets": [
-            "生酮飲食",
-            "間歇性斷食",
-            "低碳水化合物",
-            "素食",
-            "純素",
-            "無麩質",
-            "其他",
-            "都沒有"
-          ],
-          "meals": [
-            "兩餐",
-            "三餐",
-            "四餐",
-            "五餐"
-          ],
-          "mealDescriptions": [
-            "早餐與晚餐，可選點心",
-            "早、午、晚三餐",
-            "早餐、點心、午餐和晚餐",
-            "早餐、午餐、晚餐及兩次點心"
-          ],
-          "proteins": [
-            "什麼都吃",
-            "雞肉",
-            "紅肉",
-            "起司",
-            "鮪魚",
-            "希臘優格",
-            "鮭魚",
-            "蝦",
-            "雞蛋",
-            "鷹嘴豆",
-            "扁豆",
-            "豆腐"
-          ],
-          "vegetables": [
-            "什麼都吃",
-            "番茄",
-            "小黃瓜",
-            "花椰菜",
-            "菠菜",
-            "櫛瓜",
-            "甜椒",
-            "酪梨",
-            "橄欖",
-            "洋蔥"
-          ],
-          "grains": [
-            "什麼都吃",
-            "米飯",
-            "古斯米",
-            "藜麥",
-            "燕麥",
-            "杏仁",
-            "核桃",
-            "花生",
-            "玉米"
-          ]
-        },
-        "loading": {
-          "title": "正在制定您的計畫...",
-          "messages": [
-            "正在分析您的代謝概況…",
-            "正在審視您的飲食偏好…",
-            "與藍色寶地的長壽資料比對中…",
-            "處理最新的營養科學研究…",
-            "調整您的巨量營養素比例…",
-            "建立您的自適應地中海教練系統…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "專屬洞察",
-          "blueZones": {
-            "title": "他們保持健美體態與長壽的秘密。\n\n現在終於也是您的。",
-            "body": "全球最長壽地區的居民，被稱為「**藍色寶地**」的人們，比所有其他人活得更長。\n\n他們的體態也更好。更纖細。精力更充沛。無論從哪個角度衡量，他們都是地球上最幸福的人之一。\n\n他們不計算卡路里。不限制碳水化合物。他們吃真正的食物、優質的脂肪、高品質的食材。\n\n**有史以來第一次，全球最有科學依據的長壽飲食法，完全圍繞著您而建立，而非針對所有人。**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "您的代謝功能沒有問題。\n只是從前的計畫不適合您。",
-            "body": "您的身體不斷在變化。大多數計畫卻沒有。\n\n**我們的 AI 系統全天候24小時運作。**\n\n以數百年的研究資料為基礎訓練。結合數百萬個真實案例。\n\n它隨著您的變化而適應。\n\n它永遠不會停止為您努力。",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "那些飲食法的失敗，不是因為您做錯了什麼。",
-            "body": "它們失敗，是因為它們從未改變。\n\n生酮。卡路里計算。低脂。高纖穀物。\n\n您照著規則執行。您的身體適應了。計畫卻沒有。\n\n**科學已經給出了明確答案：靜態計畫終將失敗。**\n\n您的身體不是靜態的。您的計畫也不應該是。",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "我們使用您的身高與體重來計算 BMI（身體質量指數）。",
-            "body": "BMI 幫助我們了解您目前的體重範圍。"
-          },
-          "adviceWrong": {
-            "title": "您過去收到的建議？\n\n那些是錯的",
-            "body": "多年來人們告訴您：吃少一點脂肪、計算每一卡路里、遵循食物金字塔。\n\n數百萬人完美遵循了這些建議。數百萬人仍然深陷困境。\n\n問題出在根基上。不是出在您身上。\n\n科學已經跟上了。您的計畫反映了這一點。",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "年齡會改變代謝，但不會阻止您獲得成果。",
-            "body": "隨著年齡增長，身體對食物的反應方式會有所不同。\n\n這正是千篇一律的飲食法常在30歲或40歲後失效的原因。\n\n您的計畫必須配合您現在的人生階段。"
-          },
-          "preEmail": {
-            "title": "這不是另一套固定的菜單計畫。",
-            "body": "您的地中海計畫由 AI 教練驅動。\n\n它會根據您的進度、精力狀況和反饋持續調整。\n\n您不需要猜測下一步。\n\n系統與您一起成長進化。",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "您的 BMI 在健康範圍內。",
-            "body": "這是一個絕佳的起點。現在的目標是維持體重、改善體態並支持代謝。我們將根據您的 BMI，為您建立個人化的地中海教練系統，幫助您保持精力充沛、身體強健。"
-          },
-          "overweight": {
-            "title": "您的 BMI 在過重範圍內。",
-            "body": "這意味著您的身體可能儲存了多餘的脂肪。透過正確的飲食計畫，您可以朝更健康的體重邁進。我們將根據您的 BMI，為您建立個人化的地中海教練系統。"
-          },
-          "obese": {
-            "title": "您的 BMI 在肥胖範圍內。",
-            "body": "這意味著您的體重超過建議值。即使只是小幅減重，也能顯著改善健康和精力。我們將根據您的 BMI，建立個人化的地中海教練系統，幫助您健康、循序漸進地減重。"
-          },
-          "underweight": {
-            "title": "您的 BMI 在體重過輕的範圍內。",
-            "body": "我們將協助您建立一個健康的飲食計畫，支持您的代謝功能與整體健康。"
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "健康效益：減輕體重的 {percent}%",
-          "smallBody": "研究顯示，即使只減輕10%的體重，也能改善健康狀況。這有助於降低心臟病、高血糖和體內慢性發炎的風險。小小的改變，帶來巨大的不同。",
-          "bigTitle": "更大的目標：減輕體重的 {percent}%",
-          "bigBody": "研究指出，減掉超過20%體重的人，在代謝健康方面的改善，通常比只減掉5至10%的人更為顯著。更大幅度的減重，往往帶來更好的精力、更穩定的血糖控制與更全面的健康改善。"
-        }
       }
     }
   },
   "localIds": [
-    "quiz::local::locales\\cs\\quiz.content.json",
-    "quiz::local::locales\\cz\\quiz.content.json",
-    "quiz::local::locales\\el\\quiz.content.json",
-    "quiz::local::locales\\da\\quiz.content.json",
-    "quiz::local::locales\\gr\\quiz.content.json",
     "quiz::local::locales\\dk\\quiz.content.json",
+    "quiz::local::locales\\cz\\quiz.content.json",
     "quiz::local::locales\\en\\quiz.content.json",
+    "quiz::local::locales\\gr\\quiz.content.json",
     "quiz::local::locales\\hr\\quiz.content.json",
-    "quiz::local::locales\\he\\quiz.content.json",
     "quiz::local::locales\\hu\\quiz.content.json",
     "quiz::local::locales\\il\\quiz.content.json",
-    "quiz::local::locales\\ja\\quiz.content.json",
     "quiz::local::locales\\jp\\quiz.content.json",
     "quiz::local::locales\\lt\\quiz.content.json",
-    "quiz::local::locales\\lv\\quiz.content.json",
     "quiz::local::locales\\ro\\quiz.content.json",
+    "quiz::local::locales\\lv\\quiz.content.json",
     "quiz::local::locales\\ru\\quiz.content.json",
     "quiz::local::locales\\sk\\quiz.content.json",
-    "quiz::local::locales\\tw\\quiz.content.json",
-    "quiz::local::locales\\zh-Hant\\quiz.content.json",
-    "quiz::local::locales\\zh-TW\\quiz.content.json"
+    "quiz::local::locales\\tw\\quiz.content.json"
   ]
 } as const;
