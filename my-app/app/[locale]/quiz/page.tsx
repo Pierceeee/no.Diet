@@ -315,17 +315,17 @@ export default function QuizPage() {
                   }}
                   className="relative overflow-visible"
                 >
-                  <div className="relative flex min-h-[40px] items-center pr-24 sm:min-h-[44px] sm:pr-28">
+                  <div className="relative flex min-h-[60px] items-center pr-20 sm:min-h-[72px] sm:pr-24">
                     <span className="min-w-0 leading-tight break-words font-body text-base font-medium tracking-[-0.01em] text-[var(--text-primary)] sm:text-lg">
                       {item}
                     </span>
-                    <div className="pointer-events-none absolute top-1/2 right-2 h-24 w-24 -translate-y-1/2 sm:right-3 sm:h-28 sm:w-28">
+                    <div className="pointer-events-none absolute top-1/2 right-0 h-20 w-20 -translate-y-1/2 sm:right-0 sm:h-24 sm:w-24">
                       <Image
                         src={bodyImages[index] || bodyImages[1]}
                         alt=""
                         fill
                         className="object-contain object-right"
-                        sizes="(max-width: 640px) 96px, 112px"
+                        sizes="(max-width: 640px) 80px, 96px"
                         quality={100}
                         unoptimized
                       />
@@ -356,17 +356,17 @@ export default function QuizPage() {
                   }}
                   className="relative overflow-visible"
                 >
-                  <div className="relative flex min-h-[40px] items-center pr-24 sm:min-h-[44px] sm:pr-28">
+                  <div className="relative flex min-h-[60px] items-center pr-20 sm:min-h-[72px] sm:pr-24">
                     <span className="min-w-0 leading-tight break-words font-body text-base font-medium tracking-[-0.01em] text-[var(--text-primary)] sm:text-lg">
                       {item}
                     </span>
-                    <div className="pointer-events-none absolute top-1/2 right-2 h-24 w-24 -translate-y-1/2 sm:right-3 sm:h-28 sm:w-28">
+                    <div className="pointer-events-none absolute top-1/2 right-0 h-20 w-20 -translate-y-1/2 sm:right-0 sm:h-24 sm:w-24">
                       <Image
                         src={targetImages[idx] || targetImages[0]}
                         alt=""
                         fill
                         className="object-contain object-right"
-                        sizes="(max-width: 640px) 96px, 112px"
+                        sizes="(max-width: 640px) 80px, 96px"
                         quality={100}
                         unoptimized
                       />
