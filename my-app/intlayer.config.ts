@@ -1,24 +1,24 @@
-import { Locales, type IntlayerConfig } from "intlayer";
+import type { IntlayerConfig } from "intlayer";
 
 const config: IntlayerConfig = {
   internationalization: {
     locales: [
-      Locales.ENGLISH,
-      Locales.LITHUANIAN,
-      Locales.CHINESE_TRADITIONAL,
-      Locales.CZECH,
-      Locales.LATVIAN,
-      Locales.HEBREW,
-      Locales.RUSSIAN,
-      Locales.HUNGARIAN,
-      Locales.GREEK,
-      Locales.CROATIAN,
-      Locales.DANISH,
-      Locales.SLOVAK,
-      Locales.ROMANIAN,
-      Locales.JAPANESE,
-    ],
-    defaultLocale: Locales.ENGLISH,
+      "en",
+      "lt",
+      "tw",
+      "cz",
+      "lv",
+      "il",
+      "ru",
+      "hu",
+      "gr",
+      "hr",
+      "dk",
+      "sk",
+      "ro",
+      "jp",
+    ] as IntlayerConfig["internationalization"]["locales"],
+    defaultLocale: "en" as IntlayerConfig["internationalization"]["defaultLocale"],
     strictMode: "inclusive",
   },
   content: {

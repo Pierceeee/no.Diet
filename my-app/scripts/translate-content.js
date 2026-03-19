@@ -15,26 +15,18 @@ const path = require('path');
 const LOCALE_NAMES = {
   'en': 'English',
   'lt': 'Lithuanian',
-  'cs': 'Czech',
+  'tw': 'Traditional Chinese (Taiwan)',
+  'cz': 'Czech',
   'lv': 'Latvian',
-  'he': 'Hebrew',
+  'il': 'Hebrew',
   'ru': 'Russian',
   'hu': 'Hungarian',
-  'el': 'Greek',
+  'gr': 'Greek',
   'hr': 'Croatian',
-  'da': 'Danish',
+  'dk': 'Danish',
   'sk': 'Slovak',
   'ro': 'Romanian',
-  'ja': 'Japanese',
-  'zh-Hant': 'Traditional Chinese',
-  'zh-TW': 'Traditional Chinese (Taiwan)',
-  // Locale aliases that should use the same translations
-  'cz': 'Czech',
-  'dk': 'Danish',
-  'gr': 'Greek',
-  'il': 'Hebrew',
   'jp': 'Japanese',
-  'tw': 'Traditional Chinese (Taiwan)',
 };
 
 const LOCALES_DIR = path.join(__dirname, '..', 'locales');

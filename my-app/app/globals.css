@@ -312,6 +312,9 @@ input[type="number"] {
   overflow: hidden;
   transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
+.option-card.overflow-visible {
+  overflow: visible;
+}
 .option-card::after {
   content: "";
   position: absolute;

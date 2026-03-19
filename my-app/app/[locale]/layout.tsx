@@ -39,7 +39,7 @@ export default async function LocaleLayout({
   params,
 }: LocaleLayoutProps) {
   const { locale } = await params;
-  const textDir = locale === "il" || locale === "he" ? "rtl" : getHTMLTextDir(locale);
+  const textDir = locale === "il" ? "rtl" : getHTMLTextDir(locale);
   
   return (
     <html lang={locale} dir={textDir}>

@@ -4,18 +4,18 @@ import { NextResponse, type NextRequest } from "next/server";
 const LOCALE_PREFIXES = new Set([
   "en",
   "lt",
-  "zh-Hant",
-  "cs",
+  "tw",
+  "cz",
   "lv",
-  "he",
+  "il",
   "ru",
   "hu",
-  "el",
+  "gr",
   "hr",
-  "da",
+  "dk",
   "sk",
   "ro",
-  "ja",
+  "jp",
 ]);
 
 export function middleware(request: NextRequest) {

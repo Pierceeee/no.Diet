@@ -1,8 +1,24 @@
 "use client";
 
-import { getLocaleName } from "intlayer";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intlayer";
+
+const LOCALE_DISPLAY_NAMES: Record<string, string> = {
+  en: "English",
+  lt: "Lietuvių",
+  tw: "繁體中文",
+  cz: "Čeština",
+  lv: "Latviešu",
+  il: "עברית",
+  ru: "Русский",
+  hu: "Magyar",
+  gr: "Ελληνικά",
+  hr: "Hrvatski",
+  dk: "Dansk",
+  sk: "Slovenčina",
+  ro: "Română",
+  jp: "日本語",
+};
 
 export function LanguageSwitcher() {
   const { locale, setLocale, availableLocales } = useLocale();
@@ -37,7 +53,7 @@ export function LanguageSwitcher() {
       >
         {availableLocales.map((item) => (
           <option key={item} value={item}>
-            {getLocaleName(item)}
+            {LOCALE_DISPLAY_NAMES[item] ?? item}
           </option>
         ))}
       </select>
