@@ -1,6 +1,6 @@
 import type { IntlayerConfig } from "intlayer";
 
-const config: IntlayerConfig = {
+const config = {
   internationalization: {
     locales: [
       "en",
@@ -17,8 +17,8 @@ const config: IntlayerConfig = {
       "sk",
       "ro",
       "jp",
-    ] as IntlayerConfig["internationalization"]["locales"],
-    defaultLocale: "en" as IntlayerConfig["internationalization"]["defaultLocale"],
+    ],
+    defaultLocale: "en",
     strictMode: "inclusive",
   },
   content: {
@@ -26,4 +26,4 @@ const config: IntlayerConfig = {
   },
 };
 
-export default config;
+export default config as IntlayerConfig;
