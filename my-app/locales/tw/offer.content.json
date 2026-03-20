@@ -28,6 +28,11 @@
     "agreePrivacy": "隱私政策",
     "agreeEnd": "。",
     "ctaLegal": "點擊「取得我的計畫」即表示您同意為您的 {plan} 支付 ${price}。若在首個計費週期結束前未取消，您的訂閱將以 ${renewPrice} 自動續約，直至取消為止。您可隨時透過 hello@mediet.app 聯繫客服取消。",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "減重",
     "plans": {
       "week": "7天計畫",

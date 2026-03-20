@@ -28,6 +28,11 @@
     "agreePrivacy": "Privatlivspolitik",
     "agreeEnd": ".",
     "ctaLegal": "Ved at klikke på \"FÅ MIN PLAN\" accepterer du at betale ${price} for din {plan}. Hvis du ikke annullerer inden udgangen af den første periode, fornyes dit abonnement til ${renewPrice} indtil opsigelse. Du kan annullere til enhver tid ved at kontakte support på hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Tabe sig",
     "plans": {
       "week": "7-dages plan",

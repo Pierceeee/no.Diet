@@ -28,6 +28,11 @@
     "agreePrivacy": "Politica de confidențialitate",
     "agreeEnd": ".",
     "ctaLegal": "Făcând clic pe „OBȚINEȚI PLANUL MEU”, sunteți de acord să plătiți ${price} pentru {plan}-ul dvs. Dacă nu anulați înainte de sfârșitul primei perioade, abonamentul se va reînnoi automat la ${renewPrice} până la anulare. Puteți anula oricând contactând asistența la hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Slăbire",
     "plans": {
       "week": "Plan de 7 zile",

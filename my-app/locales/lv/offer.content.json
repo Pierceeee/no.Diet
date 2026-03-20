@@ -28,6 +28,11 @@
     "agreePrivacy": "Privātuma politikai",
     "agreeEnd": ".",
     "ctaLegal": "Noklikšķinot uz „IEGŪT MANU PLĀNU”, jūs piekrītat maksāt ${price} par savu {plan}. Ja neatceļat pirms pirmā perioda beigām, jūsu abonements tiks atjaunots par ${renewPrice} līdz atcelšanai. Varat atcelt jebkurā laikā, sazinoties ar atbalstu hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Zaudēt svaru",
     "plans": {
       "week": "7 dienu plāns",

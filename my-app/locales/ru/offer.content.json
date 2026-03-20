@@ -28,6 +28,11 @@
     "agreePrivacy": "Политикой конфиденциальности",
     "agreeEnd": ".",
     "ctaLegal": "Нажимая «ПОЛУЧИТЬ МОЙ ПЛАН», вы соглашаетесь оплатить ${price} за ваш {plan}. Если вы не отмените подписку до конца первого периода, она автоматически продлится по цене ${renewPrice}. Отменить можно в любое время, написав на hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Снизить вес",
     "plans": {
       "week": "7-дневный план",

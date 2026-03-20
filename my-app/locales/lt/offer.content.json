@@ -28,6 +28,11 @@
     "agreePrivacy": "Privatumo politika",
     "agreeEnd": ".",
     "ctaLegal": "Spustelėdami „GAUTI MANO PLANĄ", sutinkate mokėti ${price} už savo {plan}. Jei neatšauksite prenumeratos iki pirmojo laikotarpio pabaigos, prenumerata bus atnaujinta už ${renewPrice}, kol bus atšaukta. Galite atšaukti bet kada susisiekę su komanda el. paštu: hello@mediet.app. ",
+    "perDayLabel": "/ dieną",
+    "altSecurePayment": "Saugūs mokėjimo būdai",
+    "altCurrentBody": "Dabartinis kūnas",
+    "altGoalBody": "Tikslo kūnas",
+    "altRiskFree": "Garantija be rizikos",
     "defaultGoal": "Numesti svorio",
     "plans": {
       "week": "7 dienų planas",

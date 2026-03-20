@@ -28,6 +28,11 @@
     "agreePrivacy": "Zásadami ochrany osobných údajov",
     "agreeEnd": ".",
     "ctaLegal": "Kliknutím na „ZÍSKAŤ MÔJ PLÁN” súhlasíte so zaplatením ${price} za váš {plan}. Ak nezrušíte pred koncom prvého obdobia, vaše predplatné sa automaticky obnoví za ${renewPrice} až do zrušenia. Môžete zrušiť kedykoľvek kontaktovaním podpory na hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Chudnúť",
     "plans": {
       "week": "7-dňový plán",

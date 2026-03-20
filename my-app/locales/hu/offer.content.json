@@ -28,6 +28,11 @@
     "agreePrivacy": "Adatvédelmi irányelveket",
     "agreeEnd": ".",
     "ctaLegal": "A „KÉREM A TERVEM” gombra kattintva elfogadja, hogy ${price} összeget fizet a(z) {plan} megvásárlásáért. Ha nem mondja le az első időszak lejárta előtt, az előfizetés automatikusan megújul ${renewPrice} összegért, lemondásig. Bármikor lemondható a hello@mediet.app ügyfélszolgálat megkeresésével.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Fogyni",
     "plans": {
       "week": "7 napos terv",

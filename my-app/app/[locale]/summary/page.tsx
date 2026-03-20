@@ -110,14 +110,14 @@ export default function SummaryPage() {
               </div>
               <div className="relative mt-2.5 flex justify-between px-1 font-body text-[10px] text-[#999] sm:mt-3 sm:text-xs">
                 <span className={`text-center ${analysis.bmiLabel === "underweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  <span className="sm:hidden">Under</span>
+                  <span className="sm:hidden">{t.summary.underweightShort}</span>
                   <span className="hidden sm:inline">{t.summary.underweight}</span>
                 </span>
                 <span className={`text-center ${analysis.bmiLabel === "healthy" ? "font-bold text-[#1a1a1a]" : ""}`}>
                   {t.summary.healthy}
                 </span>
                 <span className={`text-center ${analysis.bmiLabel === "overweight" ? "font-bold text-[#1a1a1a]" : ""}`}>
-                  <span className="sm:hidden">Over</span>
+                  <span className="sm:hidden">{t.summary.overweightShort}</span>
                   <span className="hidden sm:inline">{t.summary.overweight}</span>
                 </span>
                 <span className={`text-center ${analysis.bmiLabel === "obese" ? "font-bold text-[#1a1a1a]" : ""}`}>

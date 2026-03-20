@@ -28,6 +28,11 @@
     "agreePrivacy": "Privacy Policy",
     "agreeEnd": ".",
     "ctaLegal": "By clicking \"GET MY PLAN,\" you agree to pay ${price} for your {plan}. If you do not cancel before the end of the first period, your subscription will renew at ${renewPrice} until canceled. You can cancel anytime by contacting support at hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Lose weight",
     "plans": {
       "week": "7-Day Plan",

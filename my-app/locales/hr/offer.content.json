@@ -28,6 +28,11 @@
     "agreePrivacy": "Pravilima privatnosti",
     "agreeEnd": ".",
     "ctaLegal": "Klikom na „UZMI MOJ PLAN” pristajete platiti ${price} za vaš {plan}. Ako ne otkažete prije isteka prvog razdoblja, vaša pretplata će se automatski obnoviti po cijeni ${renewPrice} sve do otkazivanja. Možete otkazati u bilo koje vrijeme kontaktiranjem podrške na hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Mršavljenje",
     "plans": {
       "week": "7-dnevni plan",

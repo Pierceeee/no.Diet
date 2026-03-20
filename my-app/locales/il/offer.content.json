@@ -28,6 +28,11 @@
     "agreePrivacy": "מדיניות הפרטיות",
     "agreeEnd": ".",
     "ctaLegal": "בלחיצה על \"קבל את התוכנית שלי\", אתם מסכימים לשלם ${price} עבור ה-{plan} שלכם. אם לא תבטלו לפני סוף התקופה הראשונה, המנוי יתחדש ב-${renewPrice} עד לביטולו. תוכלו לבטל בכל עת על ידי פנייה לתמיכה בכתובת hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "לרדת במשקל",
     "plans": {
       "week": "תוכנית 7 ימים",

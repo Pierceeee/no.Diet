@@ -28,6 +28,11 @@
     "agreePrivacy": "Πολιτική απορρήτου",
     "agreeEnd": ".",
     "ctaLegal": "Κάνοντας κλικ στο «ΠΑΡΤΕ ΤΟ ΠΡΟΓΡΑΜΜΑ ΜΟΥ», συμφωνείτε να πληρώσετε ${price} για το {plan} σας. Αν δεν ακυρώσετε πριν από τη λήξη της πρώτης περιόδου, η συνδρομή σας θα ανανεωθεί στα ${renewPrice} έως ότου ακυρωθεί. Μπορείτε να ακυρώσετε οποιαδήποτε στιγμή επικοινωνώντας με την υποστήριξη στο hello@mediet.app.",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "Απώλεια βάρους",
     "plans": {
       "week": "Πρόγραμμα 7 ημερών",

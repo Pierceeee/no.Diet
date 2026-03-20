@@ -68,6 +68,12 @@ export default function OfferPageContent({
     const localizedMaleGoals = quizT.options.goalsMale as string[];
     const localizedFemaleGoals = quizT.options.goalsFemale as string[];
 
+    // First check if the selected goal is already a localized value
+    if (localizedMaleGoals.includes(selectedGoal) || localizedFemaleGoals.includes(selectedGoal)) {
+      return selectedGoal;
+    }
+
+    // Otherwise, look it up from canonical English values
     const lookupSets: Array<{ canonical: readonly string[]; localized: string[] }> = [
       { canonical: CANONICAL_GOALS.male, localized: localizedMaleGoals },
       { canonical: CANONICAL_GOALS.female, localized: localizedFemaleGoals },
@@ -227,7 +233,7 @@ export default function OfferPageContent({
                 {plans[plan].name}
               </p>
               <p className="font-body text-[12px] text-[var(--text-muted)] sm:text-[13px]">
-                ${plans[plan].perDay} / day
+                ${plans[plan].perDay} {t.perDayLabel}
               </p>
             </div>
 
@@ -295,17 +301,15 @@ export default function OfferPageContent({
         {t.getMyPlan}
       </button>
       <p className="mt-3 text-center font-body text-[10px] leading-relaxed text-[#999] sm:text-xs">
-        By clicking &quot;{t.getMyPlan},&quot; you agree to pay $
-        {selectedPlanData.discountPrice} for your{" "}
-        {selectedPlanData.name}. If you do not cancel before the
-        end of the first period, your subscription will renew at $
-        {selectedPlanData.originalPrice} until canceled. You can cancel anytime
-        by contacting support at hello@mediet.app.
+        {String(t.ctaLegal)
+          .replace("${price}", `$${selectedPlanData.discountPrice}`)
+          .replace("{plan}", String(selectedPlanData.name))
+          .replace("${renewPrice}", `$${selectedPlanData.originalPrice}`)}
       </p>
       <div className="relative mt-4 h-[80px] w-full sm:h-[100px]">
         <Image
           src="/docs/offer-page/17.svg"
-          alt="Secure payment methods"
+          alt={(t.altSecurePayment as string) || "Secure payment methods"}
           fill
           className="object-contain"
           sizes="(max-width: 640px) 100vw, 600px"
@@ -344,7 +348,7 @@ export default function OfferPageContent({
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
                 src={nowImageSrc}
-                alt="Current body"
+                alt={(t.altCurrentBody as string) || "Current body"}
                 fill
                 className="object-contain object-bottom grayscale"
                 sizes="(max-width: 640px) 50vw, 300px"
@@ -392,7 +396,7 @@ export default function OfferPageContent({
             <div className="relative h-[160px] bg-[#f9f9f9] sm:h-[220px] md:h-[280px]">
               <Image
                 src={goalImageSrc}
-                alt="Goal body"
+                alt={(t.altGoalBody as string) || "Goal body"}
                 fill
                 className="object-contain object-bottom"
                 sizes="(max-width: 640px) 50vw, 300px"
@@ -585,7 +589,7 @@ export default function OfferPageContent({
         <div className="relative h-[120px] w-[120px] sm:h-[150px] sm:w-[150px]">
           <Image
             src="/docs/offer-page/2.svg"
-            alt="Risk-Free Guarantee"
+            alt={(t.altRiskFree as string) || "Risk-Free Guarantee"}
             fill
             className="object-contain"
             sizes="150px"

@@ -28,6 +28,11 @@
     "agreePrivacy": "プライバシーポリシー",
     "agreeEnd": "に同意します。",
     "ctaLegal": "「マイプランを取得」をクリックすることで、{plan}の料金${price}をお支払いいただくことに同意されたものとみなします。最初の期間終了前にキャンセルしない場合、解約されるまで${renewPrice}で自動更新されます。hello@mediet.app にご連絡いただくことで、いつでもキャンセル可能です。",
+    "perDayLabel": "/ day",
+    "altSecurePayment": "Secure payment methods",
+    "altCurrentBody": "Current body",
+    "altGoalBody": "Goal body",
+    "altRiskFree": "Risk-Free Guarantee",
     "defaultGoal": "体重を減らす",
     "plans": {
       "week": "7日間プラン",

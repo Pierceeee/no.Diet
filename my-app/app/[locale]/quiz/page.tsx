@@ -96,6 +96,26 @@ const PROTEIN_KEYS = ["I eat everything", "Chicken", "Red meat", "Cheese", "Tuna
 const VEGETABLE_KEYS = ["I eat everything", "Tomatoes", "Cucumber", "Broccoli", "Spinach", "Zucchini", "Bell pepper", "Avocado", "Olives", "Onions"];
 const GRAIN_KEYS = ["I eat everything", "Rice", "Couscous", "Quinoa", "Oats", "Almonds", "Walnuts", "Peanuts", "Corn"];
 
+// Canonical English goal values (must match quiz answer values)
+const CANONICAL_GOALS = {
+  male: [
+    "Lose body fat",
+    "Get a lean body",
+    "Build muscle",
+    "Have more energy",
+    "Improve my health",
+    "Live longer",
+  ],
+  female: [
+    "Lose body fat",
+    "Get a slimmer body",
+    "Tone my body",
+    "Have more energy",
+    "Improve my health",
+    "Live longer",
+  ],
+} as const;
+
 export default function QuizPage() {
   const prefersReducedMotion = useReducedMotion();
   const smoothEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -119,6 +139,33 @@ export default function QuizPage() {
       router.replace(`/${locale}`);
     }
   }, [step, router, hydrated, locale]);
+
+  // Helper function to translate goal text
+  const getLocalizedGoal = useCallback((goalValue: string): string => {
+    if (!goalValue) return "";
+    
+    const localizedMaleGoals = t.options.goalsMale as string[];
+    const localizedFemaleGoals = t.options.goalsFemale as string[];
+
+    // First check if the goal is already a localized value
+    if (localizedMaleGoals.includes(goalValue) || localizedFemaleGoals.includes(goalValue)) {
+      return goalValue;
+    }
+
+    // Otherwise, look it up from canonical English values
+    const lookupSets: Array<{ canonical: readonly string[]; localized: string[] }> = [
+      { canonical: CANONICAL_GOALS.male, localized: localizedMaleGoals },
+      { canonical: CANONICAL_GOALS.female, localized: localizedFemaleGoals },
+    ];
+
+    for (const { canonical, localized } of lookupSets) {
+      const goalIndex = canonical.indexOf(goalValue);
+      if (goalIndex >= 0 && localized[goalIndex]) {
+        return localized[goalIndex];
+      }
+    }
+    return goalValue;
+  }, [t.options.goalsMale, t.options.goalsFemale]);
 
   useEffect(() => {
     if (!hydrated || step === 0 || step === 26) return;
@@ -726,7 +773,7 @@ export default function QuizPage() {
                     {t.labels.goal}
                   </p>
                   <p className="font-body text-lg font-bold text-[var(--text-primary)]">
-                    ☀️ {answers.q2[0] || t.common.notSet}
+                    ☀️ {answers.q2[0] ? getLocalizedGoal(answers.q2[0]) : t.common.notSet}
                   </p>
                 </div>
               </div>
