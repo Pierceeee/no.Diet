@@ -97,99 +97,6 @@ export default {
           }
         ]
       },
-      "cz": {
-        "timerLabel": "50% sleva rezervována pro vás:",
-        "getMyPlan": "ZÍSKAT MŮJ PLÁN",
-        "now": "Nyní",
-        "goal": "Cíl",
-        "bodyFat": "Tělesný tuk:",
-        "bmi": "BMI:",
-        "fitnessLevel": "Úroveň kondice:",
-        "planReadyTitle": "Váš personalizovaný středomořský coachingový plán je připraven",
-        "yourGoal": "Váš cíl",
-        "targetWeight": "Cílová váha",
-        "planIsReady": "Váš plán je připraven",
-        "safeCheckout": "GARANTOVANÝ BEZPEČNÝ CHECKOUT",
-        "highlights": "Hlavní body vašeho plánu",
-        "visibleResults": "Získejte viditelné výsledky za 4 týdny!",
-        "faqTitle": "Máte otázky?",
-        "riskFreeTitle": "Garance bez rizika",
-        "riskFreeBody": "Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Žádné extra poplatky.",
-        "resultsMayVary": "Výsledky se mohou lišit.",
-        "copyright": "© 2026 Mediet.app. Všechna práva vyhrazena.",
-        "agreeTextStart": "Souhlasím s",
-        "agreeTerms": "Obchodními podmínkami",
-        "agreeMiddle": "a",
-        "agreePrivacy": "Zásadami ochrany osobních údajů",
-        "agreeEnd": ".",
-        "ctaLegal": "Kliknutím na „ZÍSKAT MŮJ PLÁN” souhlasíte s platbou ${price} za váš {plan}. Pokud nezrušíte před koncem prvního období, vaše předplatné se obnoví na ${renewPrice} až do zrušení. Předplatné můžete kdykoli zrušit kontaktováním podpory na hello@mediet.app.",
-        "defaultGoal": "Zhubnout",
-        "plans": {
-          "week": "7denní plán",
-          "month": "Měsíční plán",
-          "quarter": "3měsíční plán"
-        },
-        "features": [
-          {
-            "title": "Neomezené adaptivní středomořské kombinace jídel",
-            "description": "Přesně přizpůsobené vašim preferencím a vyloučením. Příjemné. Strukturované. Udržitelné."
-          },
-          {
-            "title": "Neomezené personalizované metabolické pohybové protokoly",
-            "description": "Síla, pohyblivost, jóga, regenerace. Navrženy ke stimulaci spalování tuků bez vyhoření."
-          },
-          {
-            "title": "Výzvy pro návyky a konzistenci",
-            "description": "Malé strategické budovatele hybnosti. Protože rytmus poráží motivaci."
-          },
-          {
-            "title": "Průvodci středomořskou dlouhověkostí a metabolismem",
-            "description": "Pochopte: proč zánět narušuje spalování tuků, proč moderní zpracované potraviny vykolejují metabolismus, proč populace dlouhověkosti jedí jinak. Jasnost odstraňuje zmatek."
-          },
-          {
-            "title": "Vizualizace pokroku a adaptivní sledování",
-            "description": "Sledujte: trendy váhy, změny složení těla, úrovně energie, konzistenci návyků. Aby systém mohl zůstat v souladu s vámi."
-          }
-        ],
-        "faq": [
-          {
-            "question": "Co jsou „Modré zóny” a proč jsou důležité?",
-            "answer": "Modré zóny jsou regiony světa, kde lidé žijí nejdéle a nejzdravěji. V těchto regionech lidé jedí převážně celé potraviny, zdravé tuky, zeleninu, luštěniny a vyvážené porce. Váš plán využívá tyto osvědčené stravovací vzory – ale přizpůsobuje je vašemu tělu, vašim cílům a vašemu životnímu stylu. Není to jen dieta. Je to systém založený na dlouhověkosti."
-          },
-          {
-            "question": "Čím se to liší od normálního středomořského dietního plánu?",
-            "answer": "Většina středomořských plánů je pevná. Vaše tělo není. Váš personalizovaný středomořský kouč využívá výsledky vašeho dotazníku k vytvoření plánu na základě: vašeho metabolismu, vaší úrovně aktivity, vašich stravovacích preferencí a vašich cílů. Jak se vaše tělo mění, váš plán se může přizpůsobit. To je ten rozdíl."
-          },
-          {
-            "question": "Co AI kouč vlastně dělá?",
-            "answer": "AI kouč pomáhá personalizovat vaši výživu a vést váš pokrok. Využívá vaše data a aktualizace pokroku k: úpravě kombinací jídel, navrhování pohybových rutin, udržení vás konzistentními a pomoci předcházet plató. Místo začínání znovu se váš plán vyvíjí."
-          },
-          {
-            "question": "Musím počítat kalorie nebo sledovat makra?",
-            "answer": "Ne. Váš plán je strukturován pomocí vyvážených středomořských proporcí. Soustředíte se na jídlo skutečných potravin ve správných kombinacích – ne na denní čísla."
-          },
-          {
-            "question": "Vyzkoušel jsem mnoho diet. Proč by to fungovalo pro mě?",
-            "answer": "Mnoho diet selhává, protože jsou: příliš přísné, příliš obecné, založené na starých kalorických pravidlech nebo nepřizpůsobené vaší životní fázi. Tento systém se zaměřuje na metabolickou rovnováhu, ne na trest. Je navržen tak, aby byl udržitelný."
-          },
-          {
-            "question": "Je to bezpečné pro lidi nad 40 let?",
-            "answer": "Ano. Systém je zvláště užitečný pro lidi nad 30 a 40 let, kdy se metabolismus přirozeně mění. Plán se zaměřuje na vyvážená jídla, celé potraviny a stabilní pokrok – ne na extrémní omezení."
-          },
-          {
-            "question": "Budu neustále cítit hlad?",
-            "answer": "Ne. Středomořská struktura se zaměřuje na: zeleninu bohatou na vlákninu, zdravé tuky a vyvážené bílkoviny. Tyto potraviny vám pomáhají cítit se plní a spokojení."
-          },
-          {
-            "question": "Jak dlouho, než uvidím výsledky?",
-            "answer": "Mnoho uživatelů si všimne zlepšení v: energii, nadýmání a chutích během prvních několika týdnů. Viditelné změny těla obvykle vyžadují konzistenci. Váš plán je postaven pro stabilní pokrok – ne pro rychlá řešení."
-          },
-          {
-            "question": "Mohu kdykoli zrušit?",
-            "answer": "Ano. Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Nejsou žádné extra poplatky za zrušení."
-          }
-        ]
-      },
       "en": {
         "timerLabel": "50% Discount Reserved For You:",
         "getMyPlan": "GET MY PLAN",
@@ -280,6 +187,99 @@ export default {
           {
             "question": "Can I cancel anytime?",
             "answer": "Yes. You can cancel your subscription anytime by contacting support by email hello@mediet.app. There are no extra cancellation fees."
+          }
+        ]
+      },
+      "cz": {
+        "timerLabel": "50% sleva rezervována pro vás:",
+        "getMyPlan": "ZÍSKAT MŮJ PLÁN",
+        "now": "Nyní",
+        "goal": "Cíl",
+        "bodyFat": "Tělesný tuk:",
+        "bmi": "BMI:",
+        "fitnessLevel": "Úroveň kondice:",
+        "planReadyTitle": "Váš personalizovaný středomořský coachingový plán je připraven",
+        "yourGoal": "Váš cíl",
+        "targetWeight": "Cílová váha",
+        "planIsReady": "Váš plán je připraven",
+        "safeCheckout": "GARANTOVANÝ BEZPEČNÝ CHECKOUT",
+        "highlights": "Hlavní body vašeho plánu",
+        "visibleResults": "Získejte viditelné výsledky za 4 týdny!",
+        "faqTitle": "Máte otázky?",
+        "riskFreeTitle": "Garance bez rizika",
+        "riskFreeBody": "Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Žádné extra poplatky.",
+        "resultsMayVary": "Výsledky se mohou lišit.",
+        "copyright": "© 2026 Mediet.app. Všechna práva vyhrazena.",
+        "agreeTextStart": "Souhlasím s",
+        "agreeTerms": "Obchodními podmínkami",
+        "agreeMiddle": "a",
+        "agreePrivacy": "Zásadami ochrany osobních údajů",
+        "agreeEnd": ".",
+        "ctaLegal": "Kliknutím na „ZÍSKAT MŮJ PLÁN” souhlasíte s platbou ${price} za váš {plan}. Pokud nezrušíte před koncem prvního období, vaše předplatné se obnoví na ${renewPrice} až do zrušení. Předplatné můžete kdykoli zrušit kontaktováním podpory na hello@mediet.app.",
+        "defaultGoal": "Zhubnout",
+        "plans": {
+          "week": "7denní plán",
+          "month": "Měsíční plán",
+          "quarter": "3měsíční plán"
+        },
+        "features": [
+          {
+            "title": "Neomezené adaptivní středomořské kombinace jídel",
+            "description": "Přesně přizpůsobené vašim preferencím a vyloučením. Příjemné. Strukturované. Udržitelné."
+          },
+          {
+            "title": "Neomezené personalizované metabolické pohybové protokoly",
+            "description": "Síla, pohyblivost, jóga, regenerace. Navrženy ke stimulaci spalování tuků bez vyhoření."
+          },
+          {
+            "title": "Výzvy pro návyky a konzistenci",
+            "description": "Malé strategické budovatele hybnosti. Protože rytmus poráží motivaci."
+          },
+          {
+            "title": "Průvodci středomořskou dlouhověkostí a metabolismem",
+            "description": "Pochopte: proč zánět narušuje spalování tuků, proč moderní zpracované potraviny vykolejují metabolismus, proč populace dlouhověkosti jedí jinak. Jasnost odstraňuje zmatek."
+          },
+          {
+            "title": "Vizualizace pokroku a adaptivní sledování",
+            "description": "Sledujte: trendy váhy, změny složení těla, úrovně energie, konzistenci návyků. Aby systém mohl zůstat v souladu s vámi."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Co jsou „Modré zóny” a proč jsou důležité?",
+            "answer": "Modré zóny jsou regiony světa, kde lidé žijí nejdéle a nejzdravěji. V těchto regionech lidé jedí převážně celé potraviny, zdravé tuky, zeleninu, luštěniny a vyvážené porce. Váš plán využívá tyto osvědčené stravovací vzory – ale přizpůsobuje je vašemu tělu, vašim cílům a vašemu životnímu stylu. Není to jen dieta. Je to systém založený na dlouhověkosti."
+          },
+          {
+            "question": "Čím se to liší od normálního středomořského dietního plánu?",
+            "answer": "Většina středomořských plánů je pevná. Vaše tělo není. Váš personalizovaný středomořský kouč využívá výsledky vašeho dotazníku k vytvoření plánu na základě: vašeho metabolismu, vaší úrovně aktivity, vašich stravovacích preferencí a vašich cílů. Jak se vaše tělo mění, váš plán se může přizpůsobit. To je ten rozdíl."
+          },
+          {
+            "question": "Co AI kouč vlastně dělá?",
+            "answer": "AI kouč pomáhá personalizovat vaši výživu a vést váš pokrok. Využívá vaše data a aktualizace pokroku k: úpravě kombinací jídel, navrhování pohybových rutin, udržení vás konzistentními a pomoci předcházet plató. Místo začínání znovu se váš plán vyvíjí."
+          },
+          {
+            "question": "Musím počítat kalorie nebo sledovat makra?",
+            "answer": "Ne. Váš plán je strukturován pomocí vyvážených středomořských proporcí. Soustředíte se na jídlo skutečných potravin ve správných kombinacích – ne na denní čísla."
+          },
+          {
+            "question": "Vyzkoušel jsem mnoho diet. Proč by to fungovalo pro mě?",
+            "answer": "Mnoho diet selhává, protože jsou: příliš přísné, příliš obecné, založené na starých kalorických pravidlech nebo nepřizpůsobené vaší životní fázi. Tento systém se zaměřuje na metabolickou rovnováhu, ne na trest. Je navržen tak, aby byl udržitelný."
+          },
+          {
+            "question": "Je to bezpečné pro lidi nad 40 let?",
+            "answer": "Ano. Systém je zvláště užitečný pro lidi nad 30 a 40 let, kdy se metabolismus přirozeně mění. Plán se zaměřuje na vyvážená jídla, celé potraviny a stabilní pokrok – ne na extrémní omezení."
+          },
+          {
+            "question": "Budu neustále cítit hlad?",
+            "answer": "Ne. Středomořská struktura se zaměřuje na: zeleninu bohatou na vlákninu, zdravé tuky a vyvážené bílkoviny. Tyto potraviny vám pomáhají cítit se plní a spokojení."
+          },
+          {
+            "question": "Jak dlouho, než uvidím výsledky?",
+            "answer": "Mnoho uživatelů si všimne zlepšení v: energii, nadýmání a chutích během prvních několika týdnů. Viditelné změny těla obvykle vyžadují konzistenci. Váš plán je postaven pro stabilní pokrok – ne pro rychlá řešení."
+          },
+          {
+            "question": "Mohu kdykoli zrušit?",
+            "answer": "Ano. Předplatné můžete kdykoli zrušit kontaktováním podpory na e-mailu hello@mediet.app. Nejsou žádné extra poplatky za zrušení."
           }
         ]
       },
@@ -469,99 +469,6 @@ export default {
           }
         ]
       },
-      "hu": {
-        "timerLabel": "50% kedvezmény fenntartva az Ön számára:",
-        "getMyPlan": "KÉREM A TERVEM",
-        "now": "Most",
-        "goal": "Cél",
-        "bodyFat": "Testzsír:",
-        "bmi": "BMI:",
-        "fitnessLevel": "Kondicionális szint:",
-        "planReadyTitle": "Az Ön személyre szabott mediterrán coaching terve készen áll",
-        "yourGoal": "Az Ön célja",
-        "targetWeight": "Célsúly",
-        "planIsReady": "A terve készen áll",
-        "safeCheckout": "GARANTÁLTAN BIZTONSÁGOS FIZETÉS",
-        "highlights": "A terv főbb elemei",
-        "visibleResults": "Látható eredmények 4 héten belül!",
-        "faqTitle": "Kérdései vannak?",
-        "riskFreeTitle": "Kockázatmentes garancia",
-        "riskFreeBody": "Az előfizetést bármikor lemondhatja, ha a hello@mediet.app e-mail-címen megkeresi az ügyfélszolgálatot. Semmilyen extra díj nem merül fel.",
-        "resultsMayVary": "Az eredmények egyénenként eltérhetnek.",
-        "copyright": "© 2026 Mediet.app. Minden jog fenntartva.",
-        "agreeTextStart": "Elfogadom a",
-        "agreeTerms": "Felhasználási feltételeket",
-        "agreeMiddle": "és az",
-        "agreePrivacy": "Adatvédelmi irányelveket",
-        "agreeEnd": ".",
-        "ctaLegal": "A „KÉREM A TERVEM” gombra kattintva elfogadja, hogy ${price} összeget fizet a(z) {plan} megvásárlásáért. Ha nem mondja le az első időszak lejárta előtt, az előfizetés automatikusan megújul ${renewPrice} összegért, lemondásig. Bármikor lemondható a hello@mediet.app ügyfélszolgálat megkeresésével.",
-        "defaultGoal": "Fogyni",
-        "plans": {
-          "week": "7 napos terv",
-          "month": "1 hónapos terv",
-          "quarter": "3 hónapos terv"
-        },
-        "features": [
-          {
-            "title": "Korlátlan adaptív mediterrán ételkombinációk",
-            "description": "Pontosan az Ön preferenciáihoz és kizárásaihoz igazítva. Élvezetes. Strukturált. Fenntartható."
-          },
-          {
-            "title": "Korlátlan személyre szabott anyagcsere-támogató mozgásprogramok",
-            "description": "Erő, mobilitás, jóga, regeneráció. Kiégés nélküli zsírégetésre tervezve."
-          },
-          {
-            "title": "Szokáskialakítási és kitartási kihívások",
-            "description": "Kis stratégiai lépések a lendület fenntartásához. Mert a ritmus erősebb a motivációnál."
-          },
-          {
-            "title": "Mediterrán hosszú élet és anyagcsere útmutatók",
-            "description": "Megértheti: miért akadályozza a gyulladás a zsírégetést, miért ront az anyagcserén a feldolgozott étel, és miért étkeznek másképp a hosszú életű népek. Az érthetőség feloldja a bizonytalanságot."
-          },
-          {
-            "title": "Haladás vizualizálása és adaptív nyomon követés",
-            "description": "Kövesse nyomon: a testsúlyát, a testösszetétel változását, az energiaszintjét és a szokásai következetességét. Hogy a rendszer mindig az Önéhez igazodjon."
-          }
-        ],
-        "faq": [
-          {
-            "question": "Mik azok a „Kék Zónák”, és miért fontosak?",
-            "answer": "A Kék Zónák olyan régiók a világon, ahol az emberek a leghosszabb és legegészségesebb életet élik. Ezekben a régiókban az emberek főként teljes értékű ételeket, egészséges zsírokat, zöldségeket, hüvelyeseket és kiegyensúlyozott adagokat fogyasztanak. Az Ön terve ezeket a bevált étkezési mintákat alkalmazza, de az Ön testéhez, céljaihoz és életmódjához igazítja. Ez nem csupán diéta. Ez egy hosszú élettartamra alapozott rendszer."
-          },
-          {
-            "question": "Miben különbözik ez egy hagyományos mediterrán diétától?",
-            "answer": "A legtöbb mediterrán étrend rögzített. Az Ön teste nem az. Az Ön személyre szabott mediterrán edzője a kérdőív eredményeit felhasználva alkot egy tervet az Ön anyagcseréje, aktivitási szintje, ételpreferenciái és céljai alapján. Ahogy a teste változik, a terve is alkalmazkodhat. Ez a különbség."
-          },
-          {
-            "question": "Mit csinál valójában a mesterséges intelligencián alapuló edző?",
-            "answer": "A MI-edző segít személyre szabni a táplálkozást és kísérni a haladást. Felhasználja az Ön adatait és a haladási visszajelzéseket, hogy: az ételkombinációkat finomítsa, mozgásrutinokat javasoljon, fenntartsa a következetességet, és segítsen elkerülni a platót. Ahelyett, hogy elölről kellene kezdeni, a terve fejlődik."
-          },
-          {
-            "question": "Kell kalóriát számolnom vagy makrót követnem?",
-            "answer": "Nem. Az Ön terve kiegyensúlyozott mediterrán arányokon alapul. Az Ön feladata valódi ételeket enni a megfelelő kombinációkban, nem napi számokat nyomon követni."
-          },
-          {
-            "question": "Sok diétát próbáltam. Miért működne ez nekem?",
-            "answer": "Sok diéta azért vall kudarcot, mert túl szigorú, túl általános, elavult kalóriaszabályokon alapul, vagy nem igazodik az életkori sajátosságokhoz. Ez a rendszer az anyagcsere-egyensúlyra összpontosít, nem a megvonásra. Fenntartható életre tervezték."
-          },
-          {
-            "question": "Biztonságos ez 40 év felettieknek?",
-            "answer": "Igen. Sőt, a rendszer különösen hasznos a 30 és 40 felettiek számára, amikor az anyagcsere természetes módon változik. A terv kiegyensúlyozott étkezésekre, teljes értékű ételekre és fokozatos haladásra épül, nem szélsőséges megvonásra."
-          },
-          {
-            "question": "Folyamatosan éhes leszek?",
-            "answer": "Nem. A mediterrán étrend rostban gazdag zöldségekre, egészséges zsírokra és kiegyensúlyozott fehérjékre épül. Ezek az ételek hosszabb ideig teltségérzetet és elégedettséget biztosítanak."
-          },
-          {
-            "question": "Mikor láthatók az eredmények?",
-            "answer": "Sok felhasználó már az első néhány héten belül javulást tapasztal az energiaszintjében, a puffadásban és az étvágyban. A látható testi változásokhoz általában következetességre van szükség. A terve fokozatos haladásra épül, nem azonnali megoldásokra."
-          },
-          {
-            "question": "Bármikor lemondható az előfizetés?",
-            "answer": "Igen. Az előfizetést bármikor lemondhatja, ha a hello@mediet.app e-mail-címen megkeresi az ügyfélszolgálatot. Semmilyen lemondási díj nem merül fel."
-          }
-        ]
-      },
       "il": {
         "timerLabel": "50% הנחה שמורה עבורכם:",
         "getMyPlan": "קבל את התוכנית שלי",
@@ -748,32 +655,125 @@ export default {
           }
         ]
       },
+      "hu": {
+        "timerLabel": "50% kedvezmény fenntartva az Ön számára:",
+        "getMyPlan": "KÉREM A TERVEM",
+        "now": "Most",
+        "goal": "Cél",
+        "bodyFat": "Testzsír:",
+        "bmi": "BMI:",
+        "fitnessLevel": "Kondicionális szint:",
+        "planReadyTitle": "Az Ön személyre szabott mediterrán coaching terve készen áll",
+        "yourGoal": "Az Ön célja",
+        "targetWeight": "Célsúly",
+        "planIsReady": "A terve készen áll",
+        "safeCheckout": "GARANTÁLTAN BIZTONSÁGOS FIZETÉS",
+        "highlights": "A terv főbb elemei",
+        "visibleResults": "Látható eredmények 4 héten belül!",
+        "faqTitle": "Kérdései vannak?",
+        "riskFreeTitle": "Kockázatmentes garancia",
+        "riskFreeBody": "Az előfizetést bármikor lemondhatja, ha a hello@mediet.app e-mail-címen megkeresi az ügyfélszolgálatot. Semmilyen extra díj nem merül fel.",
+        "resultsMayVary": "Az eredmények egyénenként eltérhetnek.",
+        "copyright": "© 2026 Mediet.app. Minden jog fenntartva.",
+        "agreeTextStart": "Elfogadom a",
+        "agreeTerms": "Felhasználási feltételeket",
+        "agreeMiddle": "és az",
+        "agreePrivacy": "Adatvédelmi irányelveket",
+        "agreeEnd": ".",
+        "ctaLegal": "A „KÉREM A TERVEM” gombra kattintva elfogadja, hogy ${price} összeget fizet a(z) {plan} megvásárlásáért. Ha nem mondja le az első időszak lejárta előtt, az előfizetés automatikusan megújul ${renewPrice} összegért, lemondásig. Bármikor lemondható a hello@mediet.app ügyfélszolgálat megkeresésével.",
+        "defaultGoal": "Fogyni",
+        "plans": {
+          "week": "7 napos terv",
+          "month": "1 hónapos terv",
+          "quarter": "3 hónapos terv"
+        },
+        "features": [
+          {
+            "title": "Korlátlan adaptív mediterrán ételkombinációk",
+            "description": "Pontosan az Ön preferenciáihoz és kizárásaihoz igazítva. Élvezetes. Strukturált. Fenntartható."
+          },
+          {
+            "title": "Korlátlan személyre szabott anyagcsere-támogató mozgásprogramok",
+            "description": "Erő, mobilitás, jóga, regeneráció. Kiégés nélküli zsírégetésre tervezve."
+          },
+          {
+            "title": "Szokáskialakítási és kitartási kihívások",
+            "description": "Kis stratégiai lépések a lendület fenntartásához. Mert a ritmus erősebb a motivációnál."
+          },
+          {
+            "title": "Mediterrán hosszú élet és anyagcsere útmutatók",
+            "description": "Megértheti: miért akadályozza a gyulladás a zsírégetést, miért ront az anyagcserén a feldolgozott étel, és miért étkeznek másképp a hosszú életű népek. Az érthetőség feloldja a bizonytalanságot."
+          },
+          {
+            "title": "Haladás vizualizálása és adaptív nyomon követés",
+            "description": "Kövesse nyomon: a testsúlyát, a testösszetétel változását, az energiaszintjét és a szokásai következetességét. Hogy a rendszer mindig az Önéhez igazodjon."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Mik azok a „Kék Zónák”, és miért fontosak?",
+            "answer": "A Kék Zónák olyan régiók a világon, ahol az emberek a leghosszabb és legegészségesebb életet élik. Ezekben a régiókban az emberek főként teljes értékű ételeket, egészséges zsírokat, zöldségeket, hüvelyeseket és kiegyensúlyozott adagokat fogyasztanak. Az Ön terve ezeket a bevált étkezési mintákat alkalmazza, de az Ön testéhez, céljaihoz és életmódjához igazítja. Ez nem csupán diéta. Ez egy hosszú élettartamra alapozott rendszer."
+          },
+          {
+            "question": "Miben különbözik ez egy hagyományos mediterrán diétától?",
+            "answer": "A legtöbb mediterrán étrend rögzített. Az Ön teste nem az. Az Ön személyre szabott mediterrán edzője a kérdőív eredményeit felhasználva alkot egy tervet az Ön anyagcseréje, aktivitási szintje, ételpreferenciái és céljai alapján. Ahogy a teste változik, a terve is alkalmazkodhat. Ez a különbség."
+          },
+          {
+            "question": "Mit csinál valójában a mesterséges intelligencián alapuló edző?",
+            "answer": "A MI-edző segít személyre szabni a táplálkozást és kísérni a haladást. Felhasználja az Ön adatait és a haladási visszajelzéseket, hogy: az ételkombinációkat finomítsa, mozgásrutinokat javasoljon, fenntartsa a következetességet, és segítsen elkerülni a platót. Ahelyett, hogy elölről kellene kezdeni, a terve fejlődik."
+          },
+          {
+            "question": "Kell kalóriát számolnom vagy makrót követnem?",
+            "answer": "Nem. Az Ön terve kiegyensúlyozott mediterrán arányokon alapul. Az Ön feladata valódi ételeket enni a megfelelő kombinációkban, nem napi számokat nyomon követni."
+          },
+          {
+            "question": "Sok diétát próbáltam. Miért működne ez nekem?",
+            "answer": "Sok diéta azért vall kudarcot, mert túl szigorú, túl általános, elavult kalóriaszabályokon alapul, vagy nem igazodik az életkori sajátosságokhoz. Ez a rendszer az anyagcsere-egyensúlyra összpontosít, nem a megvonásra. Fenntartható életre tervezték."
+          },
+          {
+            "question": "Biztonságos ez 40 év felettieknek?",
+            "answer": "Igen. Sőt, a rendszer különösen hasznos a 30 és 40 felettiek számára, amikor az anyagcsere természetes módon változik. A terv kiegyensúlyozott étkezésekre, teljes értékű ételekre és fokozatos haladásra épül, nem szélsőséges megvonásra."
+          },
+          {
+            "question": "Folyamatosan éhes leszek?",
+            "answer": "Nem. A mediterrán étrend rostban gazdag zöldségekre, egészséges zsírokra és kiegyensúlyozott fehérjékre épül. Ezek az ételek hosszabb ideig teltségérzetet és elégedettséget biztosítanak."
+          },
+          {
+            "question": "Mikor láthatók az eredmények?",
+            "answer": "Sok felhasználó már az első néhány héten belül javulást tapasztal az energiaszintjében, a puffadásban és az étvágyban. A látható testi változásokhoz általában következetességre van szükség. A terve fokozatos haladásra épül, nem azonnali megoldásokra."
+          },
+          {
+            "question": "Bármikor lemondható az előfizetés?",
+            "answer": "Igen. Az előfizetést bármikor lemondhatja, ha a hello@mediet.app e-mail-címen megkeresi az ügyfélszolgálatot. Semmilyen lemondási díj nem merül fel."
+          }
+        ]
+      },
       "lt": {
-        "timerLabel": "50% nuolaida rezervuota jums:",
-        "getMyPlan": "GAUTI MANO PLANĄ",
+        "timerLabel": "Jums rezervuota 50 % nuolaida:",
+        "getMyPlan": "GAUTI MANO PROGRAMĄ",
         "now": "Dabar",
         "goal": "Tikslas",
         "bodyFat": "Kūno riebalai:",
         "bmi": "KMI:",
         "fitnessLevel": "Fizinio pajėgumo lygis:",
-        "planReadyTitle": "Jūsų asmeninis Viduržemio jūros koučo planas yra paruoštas",
+        "planReadyTitle": "Jūsų asmeninis Viduržemio jūros mitybos planas jau paruoštas",
         "yourGoal": "Jūsų tikslas",
-        "targetWeight": "Tikslinė svoris",
+        "targetWeight": "Tikslinis svoris",
         "planIsReady": "Jūsų planas paruoštas",
         "safeCheckout": "GARANTUOTAS SAUGUS ATSISKAITYMAS",
-        "highlights": "Jūsų plano akcentai",
-        "visibleResults": "Gaukite matomų rezultatų per 4 savaites!",
+        "highlights": "Kas įeina į Jūsų programą",
+        "visibleResults": "Matomi pokyčiai per 4 savaites",
         "faqTitle": "Turite klausimų?",
-        "riskFreeTitle": "Garantija be rizikos",
-        "riskFreeBody": "Galite bet kada atšaukti prenumeratą susisiekę su palaikymu el. paštu hello@mediet.app. Jokių papildomų mokesčių.",
-        "resultsMayVary": "Rezultatai gali skirtis.",
+        "riskFreeTitle": "Garantija be jokios rizikos",
+        "riskFreeBody": "Galite bet kada nutraukti prenumeratą el. paštu hello@mediet.app.\n\nJokių paslėptų ar papildomų mokesčių.",
+        "resultsMayVary": "Rezultatai gali būti individualūs.",
         "copyright": "© 2026 Mediet.app. Visos teisės saugomos.",
         "agreeTextStart": "Sutinku su",
-        "agreeTerms": "T&S",
+        "agreeTerms": "Taisyklėmis ir sąlygomis",
         "agreeMiddle": "ir",
         "agreePrivacy": "Privatumo politika",
         "agreeEnd": ".",
-        "ctaLegal": "Spustelėdami „GAUTI MANO PLANĄ”, sutinkate mokėti ${price} už savo {plan}. Jei neatšauksite prenumeratos iki pirmojo laikotarpio pabaigos, prenumerata bus atnaujinta už ${renewPrice}, kol bus atšaukta. Galite atšaukti bet kada susisiekę su palaikymu adresu hello@mediet.app.",
+        "ctaLegal": "Spustelėdami „GAUTI MANO PLANĄ“, sutinkate mokėti ${price} už savo {plan}. Jei neatšauksite prenumeratos iki pirmojo laikotarpio pabaigos, prenumerata bus atnaujinta už ${renewPrice}, kol bus atšaukta. Galite atšaukti bet kada susisiekę su komanda el. paštu: hello@mediet.app.",
         "defaultGoal": "Numesti svorio",
         "plans": {
           "week": "7 dienų planas",
@@ -804,40 +804,40 @@ export default {
         ],
         "faq": [
           {
-            "question": "Kas yra „Mėlynosios zonos” ir kodėl jos svarbios?",
-            "answer": "Mėlynosios zonos yra pasaulio regionai, kuriuose žmonės gyvena ilgiausiai ir sveikiausiai. Šiuose regionuose žmonės daugiausia valgo natūralų maistą, sveikas riebalus, daržoves, pupeles ir subalansuotas porcijas. Jūsų planas naudoja šiuos įrodytus mitybos modelius – tačiau pritaiko juos prie jūsų kūno, tikslų ir gyvenimo būdo. Tai ne tik dieta. Tai ilgaamžiškumu pagrįsta sistema."
+            "question": "Kas yra „Mėlynosios zonos“ ir kodėl jos svarbios?",
+            "answer": "Mėlynosios zonos – tai pasaulio vietovės, kuriose žmonės gyvena ilgiausiai ir išlieka sveiki net vyresniame amžiuje.\n\nJų mityba paprasta ir natūrali: daug daržovių, ankštinių, gerųjų riebalų, visaverčių produktų ir saikingos porcijos.\n\nJūsų planas remiasi šiais ilgaamžiškumo principais, tačiau yra pritaikytas būtent Jūsų kūnui, tikslams ir kasdieniam gyvenimui.\n\nTai ne trumpalaikė dieta. Tai sistema, orientuota į ilgesnį ir kokybiškesnį gyvenimą."
           },
           {
-            "question": "Kuo tai skiriasi nuo įprasto Viduržemio jūros dietos plano?",
-            "answer": "Dauguma Viduržemio jūros dietų planų yra fiksuoti. Jūsų kūnas – ne. Jūsų personalizuotas Viduržemio jūros koučas naudoja jūsų apklausos rezultatus planui kurti remiantis: jūsų metabolizmu, jūsų aktyvumo lygiu, jūsų maisto pageidavimais ir jūsų tikslais. Kintant jūsų kūnui, jūsų planas gali prisitaikyti. Tai ir yra skirtumas."
+            "question": "Kuo ši programa skiriasi nuo įprasto Viduržemio jūros mitybos plano?",
+            "answer": "Įprasti planai yra nekintantys. O Jūsų kūnas nuolat keičiasi.\n\nAsmeninė Viduržemio jūros programa yra sudaryta pagal Jūsų medžiagų apykaitą, aktyvumą, maisto pomėgius ir tikslus.\n\nKai keičiatės Jūs, keičiasi ir planas. Būtent dėl to ši sistema yra kitokia."
           },
           {
-            "question": "Ką iš tikrųjų daro DI koučas?",
-            "answer": "DI koučas padeda personalizuoti jūsų mitybą ir vadovauti jūsų pažangai. Jis naudoja jūsų duomenis ir pažangos atnaujinimus, kad: pritaikytų valgių derinius, pasiūlytų judėjimo rutinas, išlaikytų jus nuoseklius ir padėtų išvengti stabdymo. Užuot pradėdami iš naujo, jūsų planas evoliucionuoja."
+            "question": "Ką konkrečiai daro dirbtinio intelekto sistema?",
+            "answer": "Ji analizuoja Jūsų pažangą ir padeda nuosekliai judėti pirmyn.\n\nSistema gali:\n• Pakoreguoti patiekalus pagal Jūsų poreikius\n• Pasiūlyti tinkamą fizinį aktyvumą\n• Padėti išlaikyti ritmą\n• Užkirsti kelią svorio sąstingiui\n\nJums nereikia pradėti iš naujo. Planas tobulėja kartu su Jumis."
           },
           {
-            "question": "Ar reikia skaičiuoti kalorijas ar sekti makroelementus?",
-            "answer": "Ne. Jūsų planas struktūruotas naudojant subalansuotas Viduržemio jūros proporcijas. Jūs sutelkiate dėmesį į natūralaus maisto valgymą tinkamais deriniais – ne į dieninius skaičius."
+            "question": "Ar reikės skaičiuoti kalorijas ar makroelementus?",
+            "answer": "Ne.\n\nPlaną sudaro subalansuotos proporcijos, paremtos Viduržemio jūros principais.\n\nJūs susitelkiate į maistą ir tinkamus derinius, o ne į skaičių sekimą."
           },
           {
-            "question": "Bandžiau daug dietų. Kodėl tai veiktų man?",
-            "answer": "Daugelis dietų žlunga, nes jos yra: per griežtos, per bendros, pagrįstos senomis kalorijų taisyklėmis arba nepritaikytos prie jūsų gyvenimo etapo. Ši sistema orientuota į metabolinį balansą, o ne bausmę. Ji sukurta būti tvaria."
+            "question": "Išbandžiau daug dietų. Kodėl ši turėtų būti kitokia?",
+            "answer": "Daugelis dietų neveikia ilgai, nes jos per griežtos, per bendrinės ir neatsižvelgia į gyvenimo etapą.\n\nŠi sistema orientuota į medžiagų apykaitos balansą, o ne į ribojimus.\n\nJi sukurta tam, kad galėtumėte šios mitybos laikytis nuolat."
           },
           {
-            "question": "Ar tai saugu virš 40 metų žmonėms?",
-            "answer": "Taip. Iš tikrųjų sistema ypač naudinga žmonėms virš 30 ir 40 metų, kai metabolizmas natūraliai keičiasi. Planas orientuotas į subalansuotus patiekalus, natūralų maistą ir stabilią pažangą – ne į ekstremalų ribojimą."
+            "question": "Ar ši programa tinkama vyresniems nei 40 metų žmonėms?",
+            "answer": "Taip.\n\nJi ypač naudinga tiems, kurių medžiagų apykaita jau pradėjo natūraliai kisti.\n\nČia nėra kraštutinumų ar drastiškų ribojimų, tik subalansuoti sprendimai ir nuosekli pažanga."
           },
           {
-            "question": "Ar visą laiką jausiu alkį?",
-            "answer": "Ne. Viduržemio jūros struktūra orientuota į: daug skaidulų turinčias daržoves, sveikas riebalus ir subalansuotą baltymą. Šie maisto produktai padeda jums jaustis sotiam ir patenkintam."
+            "question": "Ar nuolat jausiu alkį?",
+            "answer": "Ne.\n\nDėmesys skiriamas daržovėms, sveikiesiems riebalams ir baltymams, kurie suteikia sotumo ir padeda išlaikyti stabilų energijos lygį."
           },
           {
-            "question": "Kiek laiko praeis, kol pamatysite rezultatus?",
-            "answer": "Daugelis vartotojų pirmomis savaitėmis pastebi pagerėjimą: energijoje, pilvo pūtime ir apetite. Matomų kūno pokyčių paprastai reikia nuoseklumo. Jūsų planas sukurtas stabiliai pažangai – ne greitiems sprendimams."
+            "question": "Kada pamatysiu rezultatus?",
+            "answer": "Daugelis žmonių per pirmąsias savaites pajunta daugiau energijos, mažesnį pilvo pūtimą ir nevaldomų potraukių maistui kontrolę.\n\nAkivaizdūs kūno pokyčiai ateina su nuoseklumu.\n\nŠi sistema skirta ilgalaikei pažangai, o ne greitiems pažadams."
           },
           {
-            "question": "Ar galiu bet kada atšaukti?",
-            "answer": "Taip. Galite bet kada atšaukti prenumeratą susisiekę su palaikymu el. paštu hello@mediet.app. Nėra jokių papildomų atšaukimo mokesčių."
+            "question": "Ar galiu bet kada nutraukti prenumeratą?",
+            "answer": "Taip.\n\nGalite bet kada atsisakyti prenumeratos parašę el. paštu hello@mediet.app.\n\nPapildomi atšaukimo mokesčiai netaikomi."
           }
         ]
       },
@@ -1310,13 +1310,13 @@ export default {
   },
   "localIds": [
     "offer::local::locales\\dk\\offer.content.json",
-    "offer::local::locales\\cz\\offer.content.json",
     "offer::local::locales\\en\\offer.content.json",
+    "offer::local::locales\\cz\\offer.content.json",
     "offer::local::locales\\gr\\offer.content.json",
     "offer::local::locales\\hr\\offer.content.json",
-    "offer::local::locales\\hu\\offer.content.json",
     "offer::local::locales\\il\\offer.content.json",
     "offer::local::locales\\jp\\offer.content.json",
+    "offer::local::locales\\hu\\offer.content.json",
     "offer::local::locales\\lt\\offer.content.json",
     "offer::local::locales\\ro\\offer.content.json",
     "offer::local::locales\\lv\\offer.content.json",

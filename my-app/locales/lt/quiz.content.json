@@ -18,56 +18,56 @@
       "notSet": "Nenustatyta"
     },
     "landing": {
-      "hero": "Sukurkime jūsų asmeninį Viduržemio jūros dietos koučą ir programą svorio mažinimui bei ilgaamžiškumui",
-      "subtitle": "Pasirinkite savo programą:",
+      "hero": "Susikurkite asmeninę Viduržemio jūros mitybos programą ir pasitelkite išmanų asistentą svorio mažinimui bei ilgaamžiškumui.",
+      "subtitle": "Pasirinkite Jums tinkamiausią programą:",
       "ctaMen": "Programa vyrams",
       "ctaWomen": "Programa moterims",
       "footer": "© 2026 meDiet. Visos teisės saugomos.",
       "heroImageAlt": "Viduržemio jūros maisto dubenėlis"
     },
     "intro": {
-      "titlePrefix": "Prieš kurdami jūsų planą",
-      "titleHighlight": "PERSKAITYKITE ČIA",
-      "p1": "Jei bandėte keto, kalorijų skaičiavimą ar periodinį badavimą ir jautėtės, kad nepavyko.",
-      "p2": "Jūs nepraradote. Planas jus nuvylė.",
-      "p3": "Tos sistemos buvo sukurtos pagal seną mokslą. Fiksuotos taisyklės. Bendrieji šablonai.",
-      "p4Male": "Jie niekada nebuvo sukurti pagal tai, kaip iš tikrųjų veikia vyro kūnas.",
-      "p4Female": "Jie niekada nebuvo sukurti pagal tai, kaip iš tikrųjų veikia moters kūnas.",
-      "p5": "Tai keičiasi dabar.",
-      "p6": "Atsakykite sąžiningai. Mes padarysime visa kita."
+      "titlePrefix": "Prieš pradedant kurti Jūsų planą, ",
+      "titleHighlight": "kviečiame perskaityti šią informaciją.",
+      "p1": "Jeigu esate bandę keto dietą, skaičiavę kalorijas ar laikęsi protarpinio badavimo ir supratote, kad jums vis nepavyksta, sustokite akimirkai.",
+      "p2": "Nepavyko ne Jums. Paprasčiausiai nepasiteisino pats metodas.",
+      "p3": "Daugelis tokių mitybų yra paremtos pasenusiomis teorijomis, griežtomis taisyklėmis ir visiems bendrai taikomais šablonais. ",
+      "p4Male": "Jos neatsižvelgia į tai, kaip iš tikrųjų veikia vyro organizmas, kaip jis reaguoja į stresą, mitybą ir gyvenimo tempą.",
+      "p4Female": "Jos neatsižvelgia į tai, kaip iš tikrųjų veikia moters organizmas, kaip jis reaguoja į stresą, mitybą ir gyvenimo tempą.",
+      "p5": "Ir būtent čia viskas pasikeis.",
+      "p6": "Atsakykite į klausimus atvirai ir nuoširdžiai. Toliau viskuo pasirūpinsime mes."
     },
     "steps": {
-      "s1": "Kaip gerai pažįstate Viduržemio jūros dietą ir Mėlynųjų zonų fenomeną?",
-      "s3": "Ko norite pasiekti?",
-      "s4": "Kaip apibūdintumėte savo kūną dabar?",
+      "s1": "Kiek esate susipažinę su Viduržemio jūros mityba ir Mėlynosios zonos fenomenu?",
+      "s3": "Kokio rezultato siekiate?",
+      "s4": "Kaip šiuo metu vertinate savo kūno sudėjimą?",
       "s5": "Kokį kūną norite turėti?",
-      "s6": "Kurias sritis norėtumėte pagerinti?",
+      "s6": "Kurias sritis norėtumėte patobulinti?",
       "s6Hint": "Jei esate patenkintas savo kūnu, paspauskite Tęsti",
-      "s7": "Kaip paprastai atrodo jūsų diena?",
-      "s8": "Kokia yra jūsų energija per dieną?",
-      "s9": "Kaip dažnai sportuojate?",
-      "s10": "Kaip paprastai keičiasi jūsų svoris?",
-      "s12": "Kada paskutinį kartą buvote optimalaus svorio?",
-      "s13": "Ar per pastaruosius 3 metus bandėte kurias nors iš šių dietų?",
-      "s15": "Kas labiausiai pasikeistų jūsų gyvenime, kai prieitumėte formą?",
+      "s7": "Kaip dažniausiai atrodo Jūsų diena?",
+      "s8": "Kaip jaučiatės dienos eigoje, kalbant apie energiją?",
+      "s9": "Kaip dažnai skiriate laiko sportui ar aktyviai veiklai?",
+      "s10": "Kaip paprastai kinta Jūsų svoris?",
+      "s12": "Kada paskutinį kartą jautėtės esantys savo geriausioje formoje?",
+      "s13": "Ar per pastaruosius trejus metus išbandėte kurią nors iš šių dietų?",
+      "s15": "Ką labiausiai pakeistų gera fizinė forma Jūsų gyvenime?",
       "s16": "Koks jūsų ūgis?",
-      "s17": "Koks jūsų dabartinis svoris?",
-      "s19": "Koks jūsų tikslinės svoris?",
-      "s20": "Koks jūsų amžius?",
-      "s21Title": "Štai ką radome",
+      "s17": "Kiek šiuo metu sveriate?",
+      "s19": "Kiek norėtumėte sverti? ",
+      "s20": "Kokio Jūs amžiaus?",
+      "s21Title": "Štai ką rodo Jūsų rezultatai",
       "s21BmiTitle": "Jūsų kūno masės indeksas (KMI)",
-      "s22": "Kiek valgymų per dieną norėtumėte valgyti?",
+      "s22": "Kiek kartų per dieną norėtumėte valgyti?",
       "s22Subtitle": "Vėliau galėsite tai pakeisti nustatymuose.",
-      "s23": "Ar norėtumėte pašalinti kokį nors iš šių maisto produktų?",
+      "s23": "Ar yra produktų, kurių nenorėtumėte įtraukti į savo planą?",
       "s23Label": "Baltymai ir pieno produktai:",
-      "s24": "Ar norėtumėte pašalinti kokį nors iš šių maisto produktų?",
+      "s24": "Ar yra produktų, kurių nenorėtumėte įtraukti į savo planą?",
       "s24Label": "Vaisiai ir daržovės:",
-      "s25": "Ar norėtumėte pašalinti kokį nors iš šių maisto produktų?",
+      "s25": "Ar yra produktų, kurių nenorėtumėte įtraukti į savo planą?",
       "s25Label": "Grūdai ir riešutai:",
       "s27Title": "Remiantis jūsų maisto pageidavimais, sukūrėme",
       "s27Count": "500+",
       "s27Lead": "Valgių derinių",
-      "s27Body": "kurie idealiai tinka jums ir padės pasiekti sveiką svorį maloniau!"
+      "s27Body": "kurie idealiai tinka jums ir padės pasiekti norimą svorį!"
     },
     "labels": {
       "selectAll": "Pasirinkite visus tinkančius:",
@@ -84,90 +84,90 @@
       "goal": "Tikslas"
     },
     "options": {
-      "goalsMale": ["Numesti kūno riebalus", "Gauti liekną kūną", "Sustiprinti raumenis", "Turėti daugiau energijos", "Pagerinti sveikatą", "Gyventi ilgiau"],
-      "goalsFemale": ["Numesti kūno riebalus", "Gauti lieknesnį kūną", "Suformuoti kūną", "Turėti daugiau energijos", "Pagerinti sveikatą", "Gyventi ilgiau"],
+      "goalsMale": ["Numesti kūno riebalus", "Sulieknėti", "Sustiprinti raumenis", "Turėti daugiau energijos", "Pagerinti sveikatą", "Gyventi ilgiau"],
+      "goalsFemale": ["Numesti kūno riebalus", "Sulieknėti", "Suformuoti kūną", "Turėti daugiau energijos", "Pagerinti sveikatą", "Gyventi ilgiau"],
       "q3BodiesMale": ["Lieknas", "Vidutinis", "Šiek tiek pilvo riebalų", "Antsvoris"],
-      "q3BodiesFemale": ["Lieka", "Vidutinė", "Šiek tiek pilvo riebalų", "Antsvoris"],
-      "q4BodiesMale": ["Šiek tiek liesniau", "Lieknas ir sportiškas", "Atletiškas", "Stiprus ir apibrėžtas"],
-      "q4BodiesFemale": ["Vėl jaustis savimi", "Numesti atkaklių pilvo riebalų", "Jaustis lengviau ir labiau pasitikėti savimi", "Atrodyti ryškiau ir jaunatviškiau"],
-      "q12Reasons": ["Kaip jaučiuosi žiūrėdamas į veidrodį", "Vėl jaustis savimi", "Mano energija su vaikais / šeima", "Mano pasitikėjimas tarp kitų", "Kaip jaučiuosi dėl savo partnerio", "Mano ilgalaikė sveikata", "Kaip man tinka drabužiai"],
+      "q3BodiesFemale": ["Liekna", "Vidutinė", "Šiek tiek pilvo riebalų", "Antsvoris"],
+      "q4BodiesMale": ["Šiek tiek lieknesnis", "Lieknas ir sportiškas", "Atletiškas", "Stiprus ir ryškus"],
+      "q4BodiesFemale": ["Vėl jaustis savimi", "Numesti pilvo riebalų", "Jaustis lengviau ir labiau pasitikėti savimi", "Atrodyti ryškiau ir jaunatviškiau"],
+      "q12Reasons": ["Kaip jaučiuosi žiūrėdamas į veidrodį", "Vėl jaustis savimi", "Mano energija su vaikais / šeima", "Labiau pasitikėčiau savimi tarp kitų žmonių", "Geriau jausčiausi šalia savo partnerės/partnerio", "Mano ilgalaikė sveikata", "Kaip man tinka drabužiai"],
       "familiarity": ["Man tai nauja", "Žinau pagrindus", "Esu bandęs anksčiau"],
       "bodyAreas": ["Rankos", "Krūtinė", "Nugara", "Pilvas", "Kojos", "Sėdmenys"],
-      "dayToDay": ["Sėdžiu didžiąją dienos dalį", "Daug judėdu", "Dažnai sportuoju", "Lieku namuose"],
-      "energy": ["Dažniausiai maža", "Po pietų jaučiuosi pavargęs", "Mano energija svyruoja", "Mano energija stabili"],
+      "dayToDay": ["Sėdžiu didžiąją dienos dalį", "Daug judu", "Dažnai sportuoju", "Daugiausia būnu namuose"],
+      "energy": ["Dažniausiai trūksta jėgų", "Po pietų apima mieguistumas ar nuovargis", "Energija tai pakyla, tai nukrenta", "Visą dieną jaučiuosi gana stabiliai"],
       "exercise": ["Niekada", "Kelis kartus per mėnesį", "Kelis kartus per savaitę", "Beveik kiekvieną dieną"],
-      "weightChange": ["Greitai priaugu ir lėtai numetu", "Numetu svorio, bet vėl priaugiu", "Mano svoris nekinta", "Man sunku vystyti raumenis"],
-      "idealWeight": ["Mažiau nei prieš 1 metus", "Prieš 1–3 metus", "Daugiau nei prieš 3 metus", "Niekada nebuvau optimalaus svorio"],
-      "diets": ["Keto", "Periodinis badavimas", "Mažai angliavandenių", "Vegetariškas", "Veganiškas", "Be glitimo", "Kita", "Nė viena iš šių"],
-      "meals": ["Du", "Trys", "Keturi", "Penki"],
-      "mealDescriptions": ["Pusryčiai ir vakarienė su pasirenkamais užkandžiais", "Pusryčiai, pietūs ir vakarienė", "Pusryčiai, užkandis, pietūs ir vakarienė", "Pusryčiai, pietūs, vakarienė ir du užkandžiai"],
+      "weightChange": ["Greitai priaugu ir lėtai numetu", "Numetu svorio, bet vėl priaugu", "Mano svoris nekinta", "Sunku užsiauginti raumenų masę"],
+      "idealWeight": ["Mažiau nei prieš 1 metus", "Prieš 1–3 metus", "Daugiau nei prieš 3 metus", "Niekada nesu pasiekęs savo geriausio svorio"],
+      "diets": ["Keto", "Protarpinis badavimas", "Mažai angliavandenių turinti mityba", "Vegetariška mityba", "Veganiška mityba", "Mityba be gliuteno", "Kita", "Nė viena iš šių"],
+      "meals": ["Du kartus", "Tris kartus", "Keturis kartus", "Penkis kartus"],
+      "mealDescriptions": ["Pusryčiai ir vakarienė, su galimais užkandžiais", "Pusryčiai, pietūs ir vakarienė", "Pusryčiai, užkandis, pietūs ir vakarienė", "Pusryčiai, pietūs, vakarienė ir du užkandžiai"],
       "proteins": ["Valgau viską", "Vištiena", "Raudona mėsa", "Sūris", "Tunas", "Graikiškas jogurtas", "Lašiša", "Krevetės", "Kiaušiniai", "Avinžirniai", "Lęšiai", "Tofu"],
-      "vegetables": ["Valgau viską", "Pomidorai", "Agurkas", "Brokoliai", "Špinatai", "Cukinija", "Paprika", "Avokadas", "Alyvuogės", "Svogūnai"],
-      "grains": ["Valgau viską", "Ryžiai", "Kuskusas", "Kvija", "Avižos", "Migdolai", "Graikiniai riešutai", "Žemės riešutai", "Kukurūzai"]
+      "vegetables": ["Valgau viską", "Pomidorai", "Agurkai", "Brokoliai", "Špinatai", "Cukinija", "Paprikos", "Avokadai", "Alyvuogės", "Svogūnai"],
+      "grains": ["Valgau viską", "Ryžiai", "Kuskusas", "Bolivinė balanda", "Avižos", "Migdolai", "Graikiniai riešutai", "Žemės riešutai", "Kukurūzai"]
     },
     "loading": {
       "title": "Generuojama...",
-      "messages": ["Analizuojamas jūsų metabolinis profilis…", "Peržiūrimi maisto pageidavimai…", "Lyginami su Mėlynųjų zonų ilgaamžiškumo duomenimis…", "Apdorojami naujausi mitybos tyrimai…", "Derinamos makroelementų proporcijos…", "Kuriama jūsų adaptyvi Viduržemio jūros koučingo sistema…"]
+      "messages": ["Analizuojame Jūsų medžiagų apykaitos ypatumus…", "Įvertiname maisto pasirinkimus ir pomėgius…", "Lyginame su ilgaamžiškumu garsėjančių Mėlynųjų zonų duomenimis…", "Remiamės naujausiais mitybos mokslo tyrimais…", "Subalansuojame maistinių medžiagų santykį pagal Jūsų poreikius…", "Kuriame prisitaikančią, asmeninę Viduržemio jūros mitybos sistemą…"]
     },
     "infoBlocks": {
       "eyebrow": "Asmeninis įžvalga",
       "blueZones": {
-        "title": "Jų paslaptis lieknam kūnui ir ilgam gyvenimui.\n\nDABAR PAGALIAU JŪSŲ.",
-        "body": "Žmonės iš ilgiausiai gyvenančių pasaulio regionų, vadinamų **Mėlynosiomis zonomis**, – gyvena ilgiau nei visi kiti.\n\nJie taip pat geresnės formos. Liesesni. Energingesni. Ir bet kokiu mastu – tarp laimingiausių žmonių žemėje.\n\nJie neskaičiuoja kalorijų. Jie nevartoja mažai angliavandenių. Jie valgo natūralų maistą, sveikas riebalus, gerus ingredientus.\n\n**Pirmą kartą pasaulyje labiausiai patvirtinta ilgaamžiškumo dieta kuriama aplink jus, o ne visus.**",
+        "title": "Jų liekno kūno ir ilgaamžiškumo paslaptis. Dabar ji gali tapti ir Jūsų.",
+        "body": "Ilgiausiai gyvenančių pasaulio, dar vadinamos Mėlynosios zonos, regionų gyventojai išsiskiria ne tik tuo, kad gyvena ilgiau nei dauguma kitų žmonių.  Jie yra lieknesni, judresni, kupini energijos. Pagal daugelį rodiklių tai vieni laimingiausių žmonių pasaulyje.\n\nJie neskaičiuoja kiekvienos kalorijos. Neatsisako angliavandenių iš baimės priaugti svorio. Jie renkasi paprastą, tikrą maistą, vertingus riebalus ir kokybiškus ingredientus.\n\n**Pirmą kartą viena patikimiausių pasaulyje ilgaamžiškumo mitybos sistemų kuriama ne visiems, o asmeniškai Jums.**",
         "image": "/quiz/blue-zones.png"
       },
       "metabolism": {
-        "title": "Jūsų metabolizmas nesugadintas.\nJam buvo duotas neteisingas planas.",
-        "body": "Jūsų kūnas keičiasi. Dauguma planų – ne.\n\n**Mūsų DI sistema veikia 24/7.**\n\nApmokytas šimtmečių tyrimų. Milijonų realių atvejų.\n\nJis prisitaiko kai jūs prisitaikote.\n\nJis niekada nesustoja dirbdamas dėl jūsų.",
+        "title": "Jūsų medžiagų apykaita nėra sutrikusi. Jai tiesiog buvo parinktas netinkamas planas.",
+        "body": "Kūnas natūraliai keičiasi. Tačiau dauguma mitybos planų lieka tokie patys.\n\n**Mūsų dirbtiniu intelektu paremta sistema veikia nuolat, be pertraukų, 24/7.**\n\nJi sukurta remiantis šimtmečius kauptais mokslo atradimais ir milijonais realių žmonių patirčių.\n\nSistema reaguoja į pokyčius, prisitaiko prie Jūsų tempo, gyvenimo būdo ir tikslų.\n\nJi dirba dėl Jūsų kiekvieną dieną, be sustojimo.",
         "image": "/quiz/page11.png"
       },
       "dietsWrong": {
-        "title": "Tos dietos buvo neteisingos ne todėl, kad jas darėte neteisingai.",
-        "body": "Jos buvo neteisingos, nes niekada nesikeitė.\n\nKeto. Kalorijų skaičiavimas. Mažai riebalų. Daug grūdų.\n\nJūs laikėtės taisyklių. Jūsų kūnas prisitaikė. Planas – ne.\n\n**Mokslas dabar aiškus. Statiniai planai žlunga. Visada.**\n\nJūsų kūnas nėra statinis. Jūsų planas taip pat neturėtų būti.",
+        "title": "Tos dietos nebuvo nesėkmingos todėl, kad kažką darėte ne taip.",
+        "body": "Jos tiesiog buvo sukurtos taip, kad niekada nesikeistų.\n\nKeto. Kalorijų skaičiavimas. Mažai riebalų turinti mityba.\n\nJūs sąžiningai laikėtės rekomendacijų. Tačiau kūnas prisitaikė prie bet kokio režimo. O planas liko toks pats.\n\n**Šiandien mokslas kalba aiškiai. Nekintantys planai ilgainiui žlunga.**\n\nJūsų kūnas nuolat keičiasi. Tad ir planas turi keistis kartu su Jumis.",
         "image": "/quiz/3.png"
       },
       "bmiExplanation": {
-        "title": "Naudojame jūsų ūgį ir svorį, kad apskaičiuotume jūsų kūno masės indeksą (KMI).",
-        "body": "KMI padeda mums suprasti jūsų dabartinį svorio diapazoną."
+        "title": "Pagal Jūsų ūgį ir svorį apskaičiuosime kūno masės indeksą, KMI.",
+        "body": "Šis rodiklis padės įvertinti, kokiai svorio kategorijai šiuo metu priklausote ir geriau suprasti bendrą situaciją."
       },
       "adviceWrong": {
-        "title": "Tie patarimai, kuriuos gavote?\n\nJIE BUVO NETEISŪS",
-        "body": "Daugelį metų sakė valgykite mažiau riebalų. Skaičiuokite kiekvieną kaloriją. Laikykitės piramidės.\n\nMilijonai laikėsi tobulai. Milijonai vis tiek kovojo.\n\nPagrindas buvo neteisingas. Ne jūs.\n\nMokslas pasivijo. Jūsų planas tai atspindi.",
+        "title": "Patarimai, kuriuos ilgus metus girdėjote. Jie buvo klaidingi.",
+        "body": "Jums sakė valgyti kuo mažiau riebalų. Skaičiuoti kiekvieną kaloriją. Akylai laikytis mitybos piramidės principų.\n\nDaugybė žmonių viską darė tiksliai taip, kaip buvo nurodyta. Tačiau rezultatai dažnai nuvildavo.\n\nProblema slypėjo ne Jūsų pastangose. Klaidingi buvo patys pagrindai.\n\nŠiandien mokslas jau kalba kitaip. Ir Jūsų planas kuriamas remiantis būtent naujausiu, patikimu supratimu apie tai, kaip iš tiesų veikia organizmas.",
         "image": "/quiz/page12.png"
       },
       "ageMetabolism": {
-        "title": "Amžius keičia jūsų metabolizmą, bet tai nesustabdo rezultatų.",
-        "body": "Senėjant kūnas reaguoja į maistą skirtingai.\n\nStai kodėl visiems tinkančios dietos dažnai žlunga po 30 ar 40 metų.\n\nJūsų planas turi prisitaikyti prie jūsų gyvenimo etapo."
+        "title": "Su amžiumi medžiagų apykaita kinta, tačiau tai nereiškia, kad rezultatų pasiekti tampa neįmanoma.",
+        "body": "Metams bėgant organizmas vis kitaip reaguoja į maistą, krūvį ir net poilsį.\n\nBūtent todėl universali, visiems tinkanti dieta dažnai neveikia sulaukus trisdešimties ar keturiasdešimties.\n\nKad pasiektumėte tikrų pokyčių, mitybos planas turi atitikti Jūsų amžių, gyvenimo tempą ir dabartinius organizmo poreikius."
       },
       "preEmail": {
-        "title": "Tai ne kitas fiksuotas mitybos planas.",
-        "body": "Jūsų Viduržemio jūros programa maitinama DI koučingo.\n\nJi prisitaiko pagal jūsų pažangą, energijos lygius ir grįžtamąjį ryšį.\n\nJums nereikia spėlioti.\n\nSistema evoliucionuoja kartu su jumis.",
+        "title": "Tai ne dar vienas visiems bendras mitybos planas.",
+        "body": "Jūsų Viduržemio jūros programa paremta išmania dirbtinio intelekto sistema, kuri nuolat stebi Jūsų pažangą.\n\nJi atsižvelgia į tai, kaip jaučiatės, kiek turite energijos ir kokius rezultatus pasiekiate.\n\nJums nereikės spėlioti, ar einate teisinga kryptimi.\n\nSistema prisitaiko ir tobulėja kartu su Jumis.",
         "image": "/quiz/mediterranean-spread.png"
       }
     },
     "bmiMessages": {
       "healthy": {
-        "title": "Jūsų KMI yra sveikame diapazone.",
-        "body": "Tai puikus pradžios taškas. Dabar tikslas yra išlaikyti svorį, pagerinti kūno formą ir palaikyti metabolizmą. Naudosime jūsų KMI, kad sukurtume jūsų personalizuotą Viduržemio jūros koučingo sistemą ir padėtume jums išlikti geros formos ir stipriems."
+        "title": "Jūsų KMI patenka į sveiko svorio kategoriją.",
+        "body": "Tai labai gera starto pozicija.\nToliau sieksime išlaikyti esamą svorį, dailinti kūno linijas ir palaikyti aktyvią medžiagų apykaitą, kad jaustumėtės stiprūs ir energingi.\nPagal Jūsų rodiklius parengsime asmeninę Viduržemio jūros mitybos sistemą, pritaikytą būtent Jums."
       },
       "overweight": {
-        "title": "Jūsų KMI yra antsvorį rodančiame diapazone.",
-        "body": "Tai reiškia, kad jūsų kūnas gali kaupti papildomus riebalus. Su tinkamu mitybos planu galite pereiti prie sveikesnio svorio. Naudosime jūsų KMI, kad sukurtume jūsų personalizuotą Viduržemio jūros koučingo sistemą."
+        "title": "Jūsų KMI patenka į antsvorio kategoriją.",
+        "body": "Tai reiškia, kad organizmas šiuo metu kaupia daugiau riebalinio audinio nei būtų palanku sveikatai.\nTinkamai subalansuota mityba padės saugiai ir nuosekliai grįžti į sveikesnį svorio intervalą.\nRemdamiesi Jūsų duomenimis, sukursime asmeninę Viduržemio jūros mitybos sistemą."
       },
       "obese": {
-        "title": "Jūsų KMI yra nutukimo diapazone.",
-        "body": "Tai reiškia, kad jūsų kūnas nešioja daugiau svorio nei rekomenduojama. Net nedidelis svorio mažinimas gali pagerinti sveikatą ir energiją. Naudosime jūsų KMI, kad sukurtume personalizuotą Viduržemio jūros koučingo sistemą, kuri padės jums numesti svorio sveiku ir nuosekliu būdu."
+        "title": "Jūsų KMI patenka į nutukimo kategoriją.",
+        "body": "Tai rodo, kad kūnas šiuo metu Jūsų svoris yra didesnis nei rekomenduojama.\nNet ir nedidelis, bet pastovus svorio mažėjimas gali reikšmingai pagerinti savijautą, energiją ir bendrą sveikatą.\nParengsime Jums individualų planą, kuris padės mažinti svorį sveikai, saugiai ir nuosekliai."
       },
       "underweight": {
         "title": "Jūsų KMI yra nepakankamo svorio diapazone.",
-        "body": "Padėsime jums sukurti sveiką mitybos planą, kuris palaikys jūsų metabolizmą ir bendrą gerovę."
+        "body": "Padėsime jums sukurti sveiką mitybos planą, kuris palaikys jūsų metabolizmą ir bendrą savijautą."
       }
     },
     "weightLoss": {
-      "smallTitle": "Sveikatai nauda: Numeskite {percent}% svorio",
-      "smallBody": "Tyrimai rodo, kad net 10% svorio metimas gali pagerinti sveikatą. Tai gali padėti sumažinti širdies ligų, padidėjusio cukraus kraujyje ir uždegimo riziką organizme. Maži pokyčiai gali lemti didelį skirtumą.",
-      "bigTitle": "Didesnis tikslas: Numeskite {percent}% svorio",
-      "bigBody": "Tyrimai rodo, kad žmonės, kurie numeta daugiau nei 20% kūno svorio, dažnai pagerina savo metabolinę sveikatą daugiau nei tie, kurie numeta tik 5–10%. Didesnis svorio metimas gali suteikti geresnę energiją, geresnę cukraus kraujyje kontrolę ir geresnę bendrą sveikatą."
+      "smallTitle": "NAUDA SVEIKATAI:  Numetus {percent}% svorio",
+      "smallBody": "Mokslas rodo, kad net ir maždaug 10 % sumažintas kūno svoris gali reikšmingai pagerinti sveikatos būklę.\nTai gali sumažinti širdies ir kraujagyslių ligų riziką, padėti sureguliuoti cukraus kiekį kraujyje bei mažinti uždegiminius procesus organizme.\nKartais net nedidelis, bet nuoseklus pokytis atneša labai apčiuopiamą naudą.",
+      "bigTitle": "AMBICINGESNIS TIKSLAS: Numetus {percent}% svorio",
+      "bigBody": "Tyrimai rodo, kad žmonės, kuriems pavyksta sumažinti daugiau nei 20 % kūno svorio, dažnai pastebi dar ryškesnius medžiagų apykaitos pagerėjimus nei tie, kurie numeta 5–10 %.\nDidesnis svorio sumažėjimas gali reikšti stabilesnę energiją, geresnę cukraus kiekio kraujyje kontrolę ir bendrą sveikatą."
     }
   }
 }

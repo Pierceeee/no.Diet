@@ -3,31 +3,31 @@
   "key": "offer",
   "locale": "lt",
   "content": {
-    "timerLabel": "50% nuolaida rezervuota jums:",
-    "getMyPlan": "GAUTI MANO PLANĄ",
+    "timerLabel": "Jums rezervuota 50 % nuolaida: ",
+    "getMyPlan": "GAUTI MANO PROGRAMĄ",
     "now": "Dabar",
     "goal": "Tikslas",
     "bodyFat": "Kūno riebalai:",
     "bmi": "KMI:",
     "fitnessLevel": "Fizinio pajėgumo lygis:",
-    "planReadyTitle": "Jūsų asmeninis Viduržemio jūros koučo planas yra paruoštas",
+    "planReadyTitle": "Jūsų asmeninis Viduržemio jūros mitybos planas jau paruoštas",
     "yourGoal": "Jūsų tikslas",
-    "targetWeight": "Tikslinė svoris",
+    "targetWeight": "Tikslinis svoris",
     "planIsReady": "Jūsų planas paruoštas",
     "safeCheckout": "GARANTUOTAS SAUGUS ATSISKAITYMAS",
-    "highlights": "Jūsų plano akcentai",
-    "visibleResults": "Gaukite matomų rezultatų per 4 savaites!",
+    "highlights": "Kas įeina į Jūsų programą",
+    "visibleResults": "Matomi pokyčiai per 4 savaites",
     "faqTitle": "Turite klausimų?",
-    "riskFreeTitle": "Garantija be rizikos",
-    "riskFreeBody": "Galite bet kada atšaukti prenumeratą susisiekę su palaikymu el. paštu hello@mediet.app. Jokių papildomų mokesčių.",
-    "resultsMayVary": "Rezultatai gali skirtis.",
+    "riskFreeTitle": "Garantija be jokios rizikos",
+    "riskFreeBody": "Galite bet kada nutraukti prenumeratą el. paštu hello@mediet.app.\nJokių paslėptų ar papildomų mokesčių. ",
+    "resultsMayVary": "Rezultatai gali būti individualūs.",
     "copyright": "© 2026 Mediet.app. Visos teisės saugomos.",
     "agreeTextStart": "Sutinku su",
-    "agreeTerms": "T&S",
+    "agreeTerms": "Taisyklėmis ir sąlygomis",
     "agreeMiddle": "ir",
     "agreePrivacy": "Privatumo politika",
     "agreeEnd": ".",
-    "ctaLegal": "Spustelėdami „GAUTI MANO PLANĄ”, sutinkate mokėti ${price} už savo {plan}. Jei neatšauksite prenumeratos iki pirmojo laikotarpio pabaigos, prenumerata bus atnaujinta už ${renewPrice}, kol bus atšaukta. Galite atšaukti bet kada susisiekę su palaikymu adresu hello@mediet.app.",
+    "ctaLegal": "Spustelėdami „GAUTI MANO PLANĄ", sutinkate mokėti ${price} už savo {plan}. Jei neatšauksite prenumeratos iki pirmojo laikotarpio pabaigos, prenumerata bus atnaujinta už ${renewPrice}, kol bus atšaukta. Galite atšaukti bet kada susisiekę su komanda el. paštu: hello@mediet.app. ",
     "defaultGoal": "Numesti svorio",
     "plans": {
       "week": "7 dienų planas",
@@ -58,40 +58,40 @@
     ],
     "faq": [
       {
-        "question": "Kas yra „Mėlynosios zonos” ir kodėl jos svarbios?",
-        "answer": "Mėlynosios zonos yra pasaulio regionai, kuriuose žmonės gyvena ilgiausiai ir sveikiausiai. Šiuose regionuose žmonės daugiausia valgo natūralų maistą, sveikas riebalus, daržoves, pupeles ir subalansuotas porcijas. Jūsų planas naudoja šiuos įrodytus mitybos modelius – tačiau pritaiko juos prie jūsų kūno, tikslų ir gyvenimo būdo. Tai ne tik dieta. Tai ilgaamžiškumu pagrįsta sistema."
+        "question": "Kas yra „Mėlynosios zonos" ir kodėl jos svarbios?",
+        "answer": "Mėlynosios zonos – tai pasaulio vietovės, kuriose žmonės gyvena ilgiausiai ir išlieka sveiki net vyresniame amžiuje.\nJų mityba paprasta ir natūrali: daug daržovių, ankštinių, gerųjų riebalų, visaverčių produktų ir saikingos porcijos.\nJūsų planas remiasi šiais ilgaamžiškumo principais, tačiau yra pritaikytas būtent Jūsų kūnui, tikslams ir kasdieniam gyvenimui.\nTai ne trumpalaikė dieta. Tai sistema, orientuota į ilgesnį ir kokybiškesnį gyvenimą."
       },
       {
-        "question": "Kuo tai skiriasi nuo įprasto Viduržemio jūros dietos plano?",
-        "answer": "Dauguma Viduržemio jūros dietų planų yra fiksuoti. Jūsų kūnas – ne. Jūsų personalizuotas Viduržemio jūros koučas naudoja jūsų apklausos rezultatus planui kurti remiantis: jūsų metabolizmu, jūsų aktyvumo lygiu, jūsų maisto pageidavimais ir jūsų tikslais. Kintant jūsų kūnui, jūsų planas gali prisitaikyti. Tai ir yra skirtumas."
+        "question": "Kuo ši programa skiriasi nuo įprasto Viduržemio jūros mitybos plano?",
+        "answer": "Įprasti planai yra nekintantys. O Jūsų kūnas nuolat keičiasi.\nAsmeninė Viduržemio jūros programa yra sudaryta pagal Jūsų medžiagų apykaitą, aktyvumą, maisto pomėgius ir tikslus.\nKai keičiatės Jūs, keičiasi ir planas. Būtent dėl to ši sistema yra kitokia."
       },
       {
-        "question": "Ką iš tikrųjų daro DI koučas?",
-        "answer": "DI koučas padeda personalizuoti jūsų mitybą ir vadovauti jūsų pažangai. Jis naudoja jūsų duomenis ir pažangos atnaujinimus, kad: pritaikytų valgių derinius, pasiūlytų judėjimo rutinas, išlaikytų jus nuoseklius ir padėtų išvengti stabdymo. Užuot pradėdami iš naujo, jūsų planas evoliucionuoja."
+        "question": "Ką konkrečiai daro dirbtinio intelekto sistema?",
+        "answer": "Ji analizuoja Jūsų pažangą ir padeda nuosekliai judėti pirmyn.\nSistema gali:\n• Pakoreguoti patiekalus pagal Jūsų poreikius\n• Pasiūlyti tinkamą fizinį aktyvumą\n• Padėti išlaikyti ritmą\n• Užkirsti kelią svorio sąstingiui\nJums nereikia pradėti iš naujo. Planas tobulėja kartu su Jumis."
       },
       {
-        "question": "Ar reikia skaičiuoti kalorijas ar sekti makroelementus?",
-        "answer": "Ne. Jūsų planas struktūruotas naudojant subalansuotas Viduržemio jūros proporcijas. Jūs sutelkiate dėmesį į natūralaus maisto valgymą tinkamais deriniais – ne į dieninius skaičius."
+        "question": "Ar reikės skaičiuoti kalorijas ar makroelementus?",
+        "answer": "Ne.\nPlaną sudaro subalansuotos proporcijos, paremtos Viduržemio jūros principais.\nJūs susitelkiate į maistą ir tinkamus derinius, o ne į skaičių sekimą."
       },
       {
-        "question": "Bandžiau daug dietų. Kodėl tai veiktų man?",
-        "answer": "Daugelis dietų žlunga, nes jos yra: per griežtos, per bendros, pagrįstos senomis kalorijų taisyklėmis arba nepritaikytos prie jūsų gyvenimo etapo. Ši sistema orientuota į metabolinį balansą, o ne bausmę. Ji sukurta būti tvaria."
+        "question": "Išbandžiau daug dietų. Kodėl ši turėtų būti kitokia?",
+        "answer": "Daugelis dietų neveikia ilgai, nes jos per griežtos, per bendrinės ir neatsižvelgia į gyvenimo etapą.\nŠi sistema orientuota į medžiagų apykaitos balansą, o ne į ribojimus.\nJi sukurta tam, kad galėtumėte šios mitybos laikytis nuolat."
       },
       {
-        "question": "Ar tai saugu virš 40 metų žmonėms?",
-        "answer": "Taip. Iš tikrųjų sistema ypač naudinga žmonėms virš 30 ir 40 metų, kai metabolizmas natūraliai keičiasi. Planas orientuotas į subalansuotus patiekalus, natūralų maistą ir stabilią pažangą – ne į ekstremalų ribojimą."
+        "question": "Ar ši programa tinkama vyresniems nei 40 metų žmonėms?",
+        "answer": "Taip.\nJi ypač naudinga tiems, kurių medžiagų apykaita jau pradėjo natūraliai kisti.\nČia nėra kraštutinumų ar drastiškų ribojimų, tik subalansuoti sprendimai ir nuosekli pažanga."
       },
       {
-        "question": "Ar visą laiką jausiu alkį?",
-        "answer": "Ne. Viduržemio jūros struktūra orientuota į: daug skaidulų turinčias daržoves, sveikas riebalus ir subalansuotą baltymą. Šie maisto produktai padeda jums jaustis sotiam ir patenkintam."
+        "question": "Ar nuolat jausiu alkį?",
+        "answer": "Ne.\nDėmesys skiriamas daržovėms, sveikiesiems riebalams ir baltymams, kurie suteikia sotumo ir padeda išlaikyti stabilų energijos lygį."
       },
       {
-        "question": "Kiek laiko praeis, kol pamatysite rezultatus?",
-        "answer": "Daugelis vartotojų pirmomis savaitėmis pastebi pagerėjimą: energijoje, pilvo pūtime ir apetite. Matomų kūno pokyčių paprastai reikia nuoseklumo. Jūsų planas sukurtas stabiliai pažangai – ne greitiems sprendimams."
+        "question": "Kada pamatysiu rezultatus?",
+        "answer": "Daugelis žmonių per pirmąsias savaites pajunta daugiau energijos, mažesnį pilvo pūtimą ir nevaldomų potraukių maistui kontrolę.\nAkivaizdūs kūno pokyčiai ateina su nuoseklumu.\nŠi sistema skirta ilgalaikei pažangai, o ne greitiems pažadams."
       },
       {
-        "question": "Ar galiu bet kada atšaukti?",
-        "answer": "Taip. Galite bet kada atšaukti prenumeratą susisiekę su palaikymu el. paštu hello@mediet.app. Nėra jokių papildomų atšaukimo mokesčių."
+        "question": "Ar galiu bet kada nutraukti prenumeratą?",
+        "answer": "Taip.\nGalite bet kada atsisakyti prenumeratos parašę el. paštu hello@mediet.app.\nPapildomi atšaukimo mokesčiai netaikomi."
       }
     ]
   }

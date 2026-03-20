@@ -310,312 +310,6 @@ export default {
           "bigBody": "Forskning viser, at folk, der taber mere end 20% af deres kropsvægt, ofte forbedrer deres metaboliske sundhed mere end dem, der kun taber 5–10%. Et større vægttab kan føre til bedre energi, bedre blodsukkerkontrol og bedre overordnet helbred."
         }
       },
-      "cz": {
-        "common": {
-          "continue": "Pokračovat",
-          "menu": "Nabídka",
-          "closeMenu": "Zavřít nabídku",
-          "helpCenter": "Centrum nápovědy",
-          "contactUs": "Kontaktujte nás",
-          "terms": "Obchodní podmínky",
-          "privacyPolicy": "Zásady ochrany osobních údajů",
-          "cookiePolicy": "Zásady cookies",
-          "privacySettings": "Nastavení soukromí",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "Nenastaveno"
-        },
-        "landing": {
-          "hero": "Personalizujme vašeho středomořského kouče a sestavme váš program pro hubnutí a výživu pro dlouhověkost",
-          "subtitle": "Vyberte si svůj program:",
-          "ctaMen": "Program pro muže",
-          "ctaWomen": "Program pro ženy",
-          "footer": "© 2026 meDiet. Všechna práva vyhrazena.",
-          "heroImageAlt": "Miska středomořského jídla"
-        },
-        "intro": {
-          "titlePrefix": "Než vytvoříme váš plán",
-          "titleHighlight": "PŘEČTĚTE SI TOTO",
-          "p1": "Pokud jste zkoušeli keto, počítání kalorií nebo přerušované hladovění a měli jste pocit, že jste selhali.",
-          "p2": "Neselhali jste. Plán selhal vás.",
-          "p3": "Tyto systémy byly postaveny na staré vědě. Pevná pravidla. Obecné šablony.",
-          "p4Male": "Nikdy nebyly navrženy pro to, jak mužské tělo skutečně funguje.",
-          "p4Female": "Nikdy nebyly navrženy pro to, jak ženské tělo skutečně funguje.",
-          "p5": "To se mění právě teď.",
-          "p6": "Odpovězte upřímně. My uděláme zbytek."
-        },
-        "steps": {
-          "s1": "Jak dobře znáte středomořskou dietu a fenomén modrých zón?",
-          "s3": "Čeho chcete dosáhnout?",
-          "s4": "Jak byste popsali své tělo nyní?",
-          "s5": "Jaké tělo chcete mít?",
-          "s6": "Které oblasti byste chtěli zlepšit?",
-          "s6Hint": "Pokud jste spokojeni se svým tělem, stiskněte Pokračovat",
-          "s7": "Jak obvykle vypadá váš den?",
-          "s8": "Jaká je vaše energie během dne?",
-          "s9": "Jak často cvičíte?",
-          "s10": "Jak se obvykle mění vaše váha?",
-          "s12": "Kdy jste byli naposledy na nejlepší váze?",
-          "s13": "Zkusili jste v posledních 3 letech nějakou z těchto diet?",
-          "s15": "Co by se pro vás nejvíce změnilo, kdybyste byli ve formě?",
-          "s16": "Jaká je vaše výška?",
-          "s17": "Jaká je vaše aktuální váha?",
-          "s19": "Jaká je vaše cílová váha?",
-          "s20": "Kolik je vám let?",
-          "s21Title": "Co jsme zjistili",
-          "s21BmiTitle": "Váš index tělesné hmotnosti (BMI)",
-          "s22": "Kolik jídel denně byste chtěli sníst?",
-          "s22Subtitle": "Toto můžete později změnit v nastavení.",
-          "s23": "Chcete vyřadit některé z těchto potravin?",
-          "s23Label": "Bílkoviny a mléčné výrobky:",
-          "s24": "Chcete vyřadit některé z těchto potravin?",
-          "s24Label": "Ovoce a zelenina:",
-          "s25": "Chcete vyřadit některé z těchto potravin?",
-          "s25Label": "Obiloviny a ořechy:",
-          "s27Title": "Na základě vašich stravovacích preferencí jsme vytvořili",
-          "s27Count": "500+",
-          "s27Lead": "kombinací jídel",
-          "s27Body": "které jsou dokonale přizpůsobeny vám a pomohou vám dosáhnout zdravé váhy tím nejpříjemnějším způsobem!"
-        },
-        "labels": {
-          "selectAll": "Vyberte vše, co platí:",
-          "youValue": "Vy",
-          "underweightShort": "Pod",
-          "underweight": "Podváha",
-          "healthy": "Zdravý",
-          "overweightShort": "Nad",
-          "overweight": "Nadváha",
-          "obese": "Obezita",
-          "bodyFat": "Tělesný tuk",
-          "activityLevel": "Úroveň aktivity",
-          "energyLevel": "Úroveň energie",
-          "goal": "Cíl"
-        },
-        "options": {
-          "goalsMale": [
-            "Zhubnout tuk",
-            "Získat štíhlé tělo",
-            "Nabrat svalovou hmotu",
-            "Mít více energie",
-            "Zlepšit zdraví",
-            "Žít déle"
-          ],
-          "goalsFemale": [
-            "Zhubnout tuk",
-            "Získat štíhlejší tělo",
-            "Formovat tělo",
-            "Mít více energie",
-            "Zlepšit zdraví",
-            "Žít déle"
-          ],
-          "q3BodiesMale": [
-            "Štíhlý",
-            "Průměrný",
-            "Trochu tuk na břiše",
-            "Nadváha"
-          ],
-          "q3BodiesFemale": [
-            "Štíhlá",
-            "Průměrná",
-            "Trochu tuk na břiše",
-            "Nadváha"
-          ],
-          "q4BodiesMale": [
-            "Trochu štíhlejší",
-            "Štíhlý a fit",
-            "Atletický",
-            "Silný a definovaný"
-          ],
-          "q4BodiesFemale": [
-            "Znovu se cítit jako já",
-            "Zbavit se tuku na břiše",
-            "Cítit se lehčeji a sebejistěji",
-            "Vypadat tónovaně a mladistvě"
-          ],
-          "q12Reasons": [
-            "Jak se cítím, když se dívám do zrcadla",
-            "Znovu se cítit jako já",
-            "Moje energie s dětmi / rodinou",
-            "Moje sebevědomí mezi ostatními",
-            "Jak se cítím pro svého partnera",
-            "Moje dlouhodobé zdraví",
-            "Jak mi sedí oblečení"
-          ],
-          "familiarity": [
-            "Jsem v tom nový",
-            "Znám základy",
-            "Již jsem to zkoušel"
-          ],
-          "bodyAreas": [
-            "Paže",
-            "Hrudník",
-            "Záda",
-            "Břicho",
-            "Nohy",
-            "Hýždě"
-          ],
-          "dayToDay": [
-            "Sedím většinu dne",
-            "Hodně se pohybuji",
-            "Pravidelně cvičím",
-            "Zůstávám doma"
-          ],
-          "energy": [
-            "Většinu času nízká",
-            "Po obědě se cítím unavený",
-            "Moje energie kolísá",
-            "Moje energie je stabilní"
-          ],
-          "exercise": [
-            "Nikdy",
-            "Několikrát za měsíc",
-            "Několikrát týdně",
-            "Téměř každý den"
-          ],
-          "weightChange": [
-            "Rychle přibírám a pomalu hubnu",
-            "Zhubnu, ale znovu přibírám",
-            "Moje váha zůstává stejná",
-            "Těžce buduju svalovou hmotu"
-          ],
-          "idealWeight": [
-            "Méně než před 1 rokem",
-            "Před 1–3 lety",
-            "Před více než 3 lety",
-            "Nikdy jsem nebyl na nejlepší váze"
-          ],
-          "diets": [
-            "Keto",
-            "Přerušované hladovění",
-            "Nízkosacharidová",
-            "Vegetariánská",
-            "Veganská",
-            "Bezlepková",
-            "Jiná",
-            "Žádná z těchto"
-          ],
-          "meals": [
-            "Dvě",
-            "Tři",
-            "Čtyři",
-            "Pět"
-          ],
-          "mealDescriptions": [
-            "Snídaně a večeře s volitelnými svačinami",
-            "Snídaně, oběd a večeře",
-            "Snídaně, svačina, oběd a večeře",
-            "Snídaně, oběd, večeře a dvě svačiny"
-          ],
-          "proteins": [
-            "Jím vše",
-            "Kuřecí maso",
-            "Červené maso",
-            "Sýr",
-            "Tuňák",
-            "Řecký jogurt",
-            "Losos",
-            "Krevety",
-            "Vejce",
-            "Cizrna",
-            "Čočka",
-            "Tofu"
-          ],
-          "vegetables": [
-            "Jím vše",
-            "Rajčata",
-            "Okurka",
-            "Brokolice",
-            "Špenát",
-            "Cuketa",
-            "Paprika",
-            "Avokádo",
-            "Olivy",
-            "Cibule"
-          ],
-          "grains": [
-            "Jím vše",
-            "Rýže",
-            "Kuskus",
-            "Quinoa",
-            "Ovesné vločky",
-            "Mandle",
-            "Vlašské ořechy",
-            "Arašídy",
-            "Kukuřice"
-          ]
-        },
-        "loading": {
-          "title": "Generuji...",
-          "messages": [
-            "Analyzuji váš metabolický profil…",
-            "Přezkoumat stravovací preference…",
-            "Porovnání s daty o dlouhověkosti modrých zón…",
-            "Zpracovávám nejnovější výzkumy výživy…",
-            "Upravuji makro proporce…",
-            "Vytvářím váš adaptivní středomořský coachingový systém…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "Personalizovaný přehled",
-          "blueZones": {
-            "title": "Jejich tajemství štíhlého těla a dlouhého života.\n\nNYNÍ KONEČNĚ VAŠE.",
-            "body": "Lidé z nejdéle žijících světových regionů zvaných **Modré zóny** – žijí déle než všichni ostatní.\n\nJsou také v lepší kondici. Štíhlejší. Energičtější. A každým měřítkem patří mezi nejšťastnější lidi na zemi.\n\nNepočítají kalorie. Neomezují sacharidy. Jedí skutečné jídlo, zdravé tuky, dobré ingredience.\n\n**Poprvé na světě je nejprokázanější dieta pro dlouhověkost sestavena kolem vás, ne kolem všech.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "Váš metabolismus není rozbitý.\nDostal špatný plán.",
-            "body": "Vaše tělo se mění. Většina plánů ne.\n\n**Náš AI systém běží 24/7.**\n\nNacvičen na stovkách let výzkumu. Milionech skutečných případů.\n\nPřizpůsobuje se, když se přizpůsobujete vy.\n\nNikdy nepřestane pracovat na vás.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "Tyto diety nebyly špatné proto, že jste je dělali špatně.",
-            "body": "Byly špatné, protože se nikdy nezměnily.\n\nKeto. Počítání kalorií. Málo tuku. Hodně obilí.\n\nDodržovali jste pravidla. Vaše tělo se přizpůsobilo. Plán ne.\n\n**Věda je nyní jasná. Statické plány selhávají. Vždy.**\n\nVaše tělo není statické. Váš plán by také neměl být.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "Vaši výšku a váhu používáme k výpočtu vašeho indexu tělesné hmotnosti (BMI).",
-            "body": "BMI nám pomáhá pochopit vaše aktuální váhové rozmezí."
-          },
-          "adviceWrong": {
-            "title": "Ta rada, kterou jste dostali?\n\nBYLA ŠPATNĚ",
-            "body": "Po léta říkali jezte méně tuku. Počítejte každou kalorie. Řiďte se pyramidou.\n\nMiliony to dodržovaly dokonale. Miliony stále bojovaly.\n\nZáklad byl pozpátku. Ne vy.\n\nVěda to dohnala. Váš plán to odráží.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "Věk mění váš metabolismus, ale nezastavuje výsledky.",
-            "body": "Se stárnutím tělo reaguje na jídlo jinak.\n\nProto plány pro všechny často selhávají po 30 nebo 40.\n\nVáš plán se musí přizpůsobit vaší životní fázi."
-          },
-          "preEmail": {
-            "title": "Toto není další pevný jídelníček.",
-            "body": "Váš středomořský program je poháněn AI coachingem.\n\nAdaptuje se na základě vašeho pokroku, úrovně energie a zpětné vazby.\n\nNemusíte hádat.\n\nSystém se vyvíjí s vámi.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "Vaše BMI je v zdravém rozmezí.",
-            "body": "To je skvělý výchozí bod. Nyní je cílem udržet váhu, zlepšit tvar těla a podpořit metabolismus. Vaše BMI použijeme k vytvoření vašeho personalizovaného středomořského coachingového systému a pomoct vám zůstat fit a silným."
-          },
-          "overweight": {
-            "title": "Vaše BMI je v rozmezí nadváhy.",
-            "body": "To znamená, že vaše tělo může ukládat extra tuk. Se správným výživovým plánem se můžete přiblížit zdravější váze. Vaše BMI použijeme k vytvoření vašeho personalizovaného středomořského coachingového systému."
-          },
-          "obese": {
-            "title": "Vaše BMI je v rozmezí obezity.",
-            "body": "To znamená, že vaše tělo nese více váhy, než je doporučeno. Ztráta i malého množství váhy může zlepšit vaše zdraví a energii. Vaše BMI použijeme k vytvoření personalizovaného středomořského coachingového systému, který vám pomůže zhubnout zdravým a stabilním způsobem."
-          },
-          "underweight": {
-            "title": "Vaše BMI je v rozmezí podváhy.",
-            "body": "Pomůžeme vám sestavit zdravý výživový plán na podporu vašeho metabolismu a celkové pohody."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "Zdravotní přínosy: Zhubněte {percent}% své váhy",
-          "smallBody": "Studie ukazují, že i ztráta 10% tělesné hmotnosti může zlepšit zdraví. Může pomoci snížit riziko srdečních onemocnění, vysoké hladiny cukru v krvi a zánětu v těle. Malé změny mohou mít velký rozdíl.",
-          "bigTitle": "Větší cíl: Zhubněte {percent}% své váhy",
-          "bigBody": "Výzkum ukazuje, že lidé, kteří ztratí více než 20% tělesné hmotnosti, často zlepšují své metabolické zdraví více než ti, kteří ztratí pouze 5–10%. Ztráta více váhy může vést k lepší energii, lepší kontrole hladiny cukru v krvi a lepšímu celkovému zdraví."
-        }
-      },
       "en": {
         "common": {
           "continue": "Continue",
@@ -920,6 +614,312 @@ export default {
           "smallBody": "Studies show that losing even 10% of your body weight can improve your health. It may help lower the risk of heart disease, high blood sugar, and inflammation in the body. Small changes can make a big difference.",
           "bigTitle": "Bigger Goal: Lose {percent}% of your weight",
           "bigBody": "Research shows that people who lose more than 20% of their body weight often improve their metabolic health more than those who lose only 5–10%. Losing more weight can lead to better energy, better blood sugar control, and better overall health."
+        }
+      },
+      "cz": {
+        "common": {
+          "continue": "Pokračovat",
+          "menu": "Nabídka",
+          "closeMenu": "Zavřít nabídku",
+          "helpCenter": "Centrum nápovědy",
+          "contactUs": "Kontaktujte nás",
+          "terms": "Obchodní podmínky",
+          "privacyPolicy": "Zásady ochrany osobních údajů",
+          "cookiePolicy": "Zásady cookies",
+          "privacySettings": "Nastavení soukromí",
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "notSet": "Nenastaveno"
+        },
+        "landing": {
+          "hero": "Personalizujme vašeho středomořského kouče a sestavme váš program pro hubnutí a výživu pro dlouhověkost",
+          "subtitle": "Vyberte si svůj program:",
+          "ctaMen": "Program pro muže",
+          "ctaWomen": "Program pro ženy",
+          "footer": "© 2026 meDiet. Všechna práva vyhrazena.",
+          "heroImageAlt": "Miska středomořského jídla"
+        },
+        "intro": {
+          "titlePrefix": "Než vytvoříme váš plán",
+          "titleHighlight": "PŘEČTĚTE SI TOTO",
+          "p1": "Pokud jste zkoušeli keto, počítání kalorií nebo přerušované hladovění a měli jste pocit, že jste selhali.",
+          "p2": "Neselhali jste. Plán selhal vás.",
+          "p3": "Tyto systémy byly postaveny na staré vědě. Pevná pravidla. Obecné šablony.",
+          "p4Male": "Nikdy nebyly navrženy pro to, jak mužské tělo skutečně funguje.",
+          "p4Female": "Nikdy nebyly navrženy pro to, jak ženské tělo skutečně funguje.",
+          "p5": "To se mění právě teď.",
+          "p6": "Odpovězte upřímně. My uděláme zbytek."
+        },
+        "steps": {
+          "s1": "Jak dobře znáte středomořskou dietu a fenomén modrých zón?",
+          "s3": "Čeho chcete dosáhnout?",
+          "s4": "Jak byste popsali své tělo nyní?",
+          "s5": "Jaké tělo chcete mít?",
+          "s6": "Které oblasti byste chtěli zlepšit?",
+          "s6Hint": "Pokud jste spokojeni se svým tělem, stiskněte Pokračovat",
+          "s7": "Jak obvykle vypadá váš den?",
+          "s8": "Jaká je vaše energie během dne?",
+          "s9": "Jak často cvičíte?",
+          "s10": "Jak se obvykle mění vaše váha?",
+          "s12": "Kdy jste byli naposledy na nejlepší váze?",
+          "s13": "Zkusili jste v posledních 3 letech nějakou z těchto diet?",
+          "s15": "Co by se pro vás nejvíce změnilo, kdybyste byli ve formě?",
+          "s16": "Jaká je vaše výška?",
+          "s17": "Jaká je vaše aktuální váha?",
+          "s19": "Jaká je vaše cílová váha?",
+          "s20": "Kolik je vám let?",
+          "s21Title": "Co jsme zjistili",
+          "s21BmiTitle": "Váš index tělesné hmotnosti (BMI)",
+          "s22": "Kolik jídel denně byste chtěli sníst?",
+          "s22Subtitle": "Toto můžete později změnit v nastavení.",
+          "s23": "Chcete vyřadit některé z těchto potravin?",
+          "s23Label": "Bílkoviny a mléčné výrobky:",
+          "s24": "Chcete vyřadit některé z těchto potravin?",
+          "s24Label": "Ovoce a zelenina:",
+          "s25": "Chcete vyřadit některé z těchto potravin?",
+          "s25Label": "Obiloviny a ořechy:",
+          "s27Title": "Na základě vašich stravovacích preferencí jsme vytvořili",
+          "s27Count": "500+",
+          "s27Lead": "kombinací jídel",
+          "s27Body": "které jsou dokonale přizpůsobeny vám a pomohou vám dosáhnout zdravé váhy tím nejpříjemnějším způsobem!"
+        },
+        "labels": {
+          "selectAll": "Vyberte vše, co platí:",
+          "youValue": "Vy",
+          "underweightShort": "Pod",
+          "underweight": "Podváha",
+          "healthy": "Zdravý",
+          "overweightShort": "Nad",
+          "overweight": "Nadváha",
+          "obese": "Obezita",
+          "bodyFat": "Tělesný tuk",
+          "activityLevel": "Úroveň aktivity",
+          "energyLevel": "Úroveň energie",
+          "goal": "Cíl"
+        },
+        "options": {
+          "goalsMale": [
+            "Zhubnout tuk",
+            "Získat štíhlé tělo",
+            "Nabrat svalovou hmotu",
+            "Mít více energie",
+            "Zlepšit zdraví",
+            "Žít déle"
+          ],
+          "goalsFemale": [
+            "Zhubnout tuk",
+            "Získat štíhlejší tělo",
+            "Formovat tělo",
+            "Mít více energie",
+            "Zlepšit zdraví",
+            "Žít déle"
+          ],
+          "q3BodiesMale": [
+            "Štíhlý",
+            "Průměrný",
+            "Trochu tuk na břiše",
+            "Nadváha"
+          ],
+          "q3BodiesFemale": [
+            "Štíhlá",
+            "Průměrná",
+            "Trochu tuk na břiše",
+            "Nadváha"
+          ],
+          "q4BodiesMale": [
+            "Trochu štíhlejší",
+            "Štíhlý a fit",
+            "Atletický",
+            "Silný a definovaný"
+          ],
+          "q4BodiesFemale": [
+            "Znovu se cítit jako já",
+            "Zbavit se tuku na břiše",
+            "Cítit se lehčeji a sebejistěji",
+            "Vypadat tónovaně a mladistvě"
+          ],
+          "q12Reasons": [
+            "Jak se cítím, když se dívám do zrcadla",
+            "Znovu se cítit jako já",
+            "Moje energie s dětmi / rodinou",
+            "Moje sebevědomí mezi ostatními",
+            "Jak se cítím pro svého partnera",
+            "Moje dlouhodobé zdraví",
+            "Jak mi sedí oblečení"
+          ],
+          "familiarity": [
+            "Jsem v tom nový",
+            "Znám základy",
+            "Již jsem to zkoušel"
+          ],
+          "bodyAreas": [
+            "Paže",
+            "Hrudník",
+            "Záda",
+            "Břicho",
+            "Nohy",
+            "Hýždě"
+          ],
+          "dayToDay": [
+            "Sedím většinu dne",
+            "Hodně se pohybuji",
+            "Pravidelně cvičím",
+            "Zůstávám doma"
+          ],
+          "energy": [
+            "Většinu času nízká",
+            "Po obědě se cítím unavený",
+            "Moje energie kolísá",
+            "Moje energie je stabilní"
+          ],
+          "exercise": [
+            "Nikdy",
+            "Několikrát za měsíc",
+            "Několikrát týdně",
+            "Téměř každý den"
+          ],
+          "weightChange": [
+            "Rychle přibírám a pomalu hubnu",
+            "Zhubnu, ale znovu přibírám",
+            "Moje váha zůstává stejná",
+            "Těžce buduju svalovou hmotu"
+          ],
+          "idealWeight": [
+            "Méně než před 1 rokem",
+            "Před 1–3 lety",
+            "Před více než 3 lety",
+            "Nikdy jsem nebyl na nejlepší váze"
+          ],
+          "diets": [
+            "Keto",
+            "Přerušované hladovění",
+            "Nízkosacharidová",
+            "Vegetariánská",
+            "Veganská",
+            "Bezlepková",
+            "Jiná",
+            "Žádná z těchto"
+          ],
+          "meals": [
+            "Dvě",
+            "Tři",
+            "Čtyři",
+            "Pět"
+          ],
+          "mealDescriptions": [
+            "Snídaně a večeře s volitelnými svačinami",
+            "Snídaně, oběd a večeře",
+            "Snídaně, svačina, oběd a večeře",
+            "Snídaně, oběd, večeře a dvě svačiny"
+          ],
+          "proteins": [
+            "Jím vše",
+            "Kuřecí maso",
+            "Červené maso",
+            "Sýr",
+            "Tuňák",
+            "Řecký jogurt",
+            "Losos",
+            "Krevety",
+            "Vejce",
+            "Cizrna",
+            "Čočka",
+            "Tofu"
+          ],
+          "vegetables": [
+            "Jím vše",
+            "Rajčata",
+            "Okurka",
+            "Brokolice",
+            "Špenát",
+            "Cuketa",
+            "Paprika",
+            "Avokádo",
+            "Olivy",
+            "Cibule"
+          ],
+          "grains": [
+            "Jím vše",
+            "Rýže",
+            "Kuskus",
+            "Quinoa",
+            "Ovesné vločky",
+            "Mandle",
+            "Vlašské ořechy",
+            "Arašídy",
+            "Kukuřice"
+          ]
+        },
+        "loading": {
+          "title": "Generuji...",
+          "messages": [
+            "Analyzuji váš metabolický profil…",
+            "Přezkoumat stravovací preference…",
+            "Porovnání s daty o dlouhověkosti modrých zón…",
+            "Zpracovávám nejnovější výzkumy výživy…",
+            "Upravuji makro proporce…",
+            "Vytvářím váš adaptivní středomořský coachingový systém…"
+          ]
+        },
+        "infoBlocks": {
+          "eyebrow": "Personalizovaný přehled",
+          "blueZones": {
+            "title": "Jejich tajemství štíhlého těla a dlouhého života.\n\nNYNÍ KONEČNĚ VAŠE.",
+            "body": "Lidé z nejdéle žijících světových regionů zvaných **Modré zóny** – žijí déle než všichni ostatní.\n\nJsou také v lepší kondici. Štíhlejší. Energičtější. A každým měřítkem patří mezi nejšťastnější lidi na zemi.\n\nNepočítají kalorie. Neomezují sacharidy. Jedí skutečné jídlo, zdravé tuky, dobré ingredience.\n\n**Poprvé na světě je nejprokázanější dieta pro dlouhověkost sestavena kolem vás, ne kolem všech.**",
+            "image": "/quiz/blue-zones.png"
+          },
+          "metabolism": {
+            "title": "Váš metabolismus není rozbitý.\nDostal špatný plán.",
+            "body": "Vaše tělo se mění. Většina plánů ne.\n\n**Náš AI systém běží 24/7.**\n\nNacvičen na stovkách let výzkumu. Milionech skutečných případů.\n\nPřizpůsobuje se, když se přizpůsobujete vy.\n\nNikdy nepřestane pracovat na vás.",
+            "image": "/quiz/page11.png"
+          },
+          "dietsWrong": {
+            "title": "Tyto diety nebyly špatné proto, že jste je dělali špatně.",
+            "body": "Byly špatné, protože se nikdy nezměnily.\n\nKeto. Počítání kalorií. Málo tuku. Hodně obilí.\n\nDodržovali jste pravidla. Vaše tělo se přizpůsobilo. Plán ne.\n\n**Věda je nyní jasná. Statické plány selhávají. Vždy.**\n\nVaše tělo není statické. Váš plán by také neměl být.",
+            "image": "/quiz/3.png"
+          },
+          "bmiExplanation": {
+            "title": "Vaši výšku a váhu používáme k výpočtu vašeho indexu tělesné hmotnosti (BMI).",
+            "body": "BMI nám pomáhá pochopit vaše aktuální váhové rozmezí."
+          },
+          "adviceWrong": {
+            "title": "Ta rada, kterou jste dostali?\n\nBYLA ŠPATNĚ",
+            "body": "Po léta říkali jezte méně tuku. Počítejte každou kalorie. Řiďte se pyramidou.\n\nMiliony to dodržovaly dokonale. Miliony stále bojovaly.\n\nZáklad byl pozpátku. Ne vy.\n\nVěda to dohnala. Váš plán to odráží.",
+            "image": "/quiz/page12.png"
+          },
+          "ageMetabolism": {
+            "title": "Věk mění váš metabolismus, ale nezastavuje výsledky.",
+            "body": "Se stárnutím tělo reaguje na jídlo jinak.\n\nProto plány pro všechny často selhávají po 30 nebo 40.\n\nVáš plán se musí přizpůsobit vaší životní fázi."
+          },
+          "preEmail": {
+            "title": "Toto není další pevný jídelníček.",
+            "body": "Váš středomořský program je poháněn AI coachingem.\n\nAdaptuje se na základě vašeho pokroku, úrovně energie a zpětné vazby.\n\nNemusíte hádat.\n\nSystém se vyvíjí s vámi.",
+            "image": "/quiz/mediterranean-spread.png"
+          }
+        },
+        "bmiMessages": {
+          "healthy": {
+            "title": "Vaše BMI je v zdravém rozmezí.",
+            "body": "To je skvělý výchozí bod. Nyní je cílem udržet váhu, zlepšit tvar těla a podpořit metabolismus. Vaše BMI použijeme k vytvoření vašeho personalizovaného středomořského coachingového systému a pomoct vám zůstat fit a silným."
+          },
+          "overweight": {
+            "title": "Vaše BMI je v rozmezí nadváhy.",
+            "body": "To znamená, že vaše tělo může ukládat extra tuk. Se správným výživovým plánem se můžete přiblížit zdravější váze. Vaše BMI použijeme k vytvoření vašeho personalizovaného středomořského coachingového systému."
+          },
+          "obese": {
+            "title": "Vaše BMI je v rozmezí obezity.",
+            "body": "To znamená, že vaše tělo nese více váhy, než je doporučeno. Ztráta i malého množství váhy může zlepšit vaše zdraví a energii. Vaše BMI použijeme k vytvoření personalizovaného středomořského coachingového systému, který vám pomůže zhubnout zdravým a stabilním způsobem."
+          },
+          "underweight": {
+            "title": "Vaše BMI je v rozmezí podváhy.",
+            "body": "Pomůžeme vám sestavit zdravý výživový plán na podporu vašeho metabolismu a celkové pohody."
+          }
+        },
+        "weightLoss": {
+          "smallTitle": "Zdravotní přínosy: Zhubněte {percent}% své váhy",
+          "smallBody": "Studie ukazují, že i ztráta 10% tělesné hmotnosti může zlepšit zdraví. Může pomoci snížit riziko srdečních onemocnění, vysoké hladiny cukru v krvi a zánětu v těle. Malé změny mohou mít velký rozdíl.",
+          "bigTitle": "Větší cíl: Zhubněte {percent}% své váhy",
+          "bigBody": "Výzkum ukazuje, že lidé, kteří ztratí více než 20% tělesné hmotnosti, často zlepšují své metabolické zdraví více než ti, kteří ztratí pouze 5–10%. Ztráta více váhy může vést k lepší energii, lepší kontrole hladiny cukru v krvi a lepšímu celkovému zdraví."
         }
       },
       "gr": {
@@ -1534,312 +1534,6 @@ export default {
           "bigBody": "Istraživanja pokazuju da osobe koje izgube više od 20% tjelesne težine često poboljšavaju svoje metaboličko zdravlje više od onih koji izgube samo 5–10%. Veći gubitak težine može dovesti do bolje energije, boljeg kontroliranja šećera u krvi i boljeg općeg zdravlja."
         }
       },
-      "hu": {
-        "common": {
-          "continue": "Tovább",
-          "menu": "Menü",
-          "closeMenu": "Menü bezárása",
-          "helpCenter": "Súgóközpont",
-          "contactUs": "Lépjen kapcsolatba velünk",
-          "terms": "Felhasználási feltételek",
-          "privacyPolicy": "Adatvédelmi irányelvek",
-          "cookiePolicy": "Süti szabályzat",
-          "privacySettings": "Adatvédelmi beállítások",
-          "facebook": "Facebook",
-          "instagram": "Instagram",
-          "notSet": "Nincs megadva"
-        },
-        "landing": {
-          "hero": "Hozzuk létre az Ön személyes mediterrán edzőjét, és állítsuk össze a fogyásra és hosszú életre szabott programját",
-          "subtitle": "Válassza ki programját:",
-          "ctaMen": "Program férfiaknak",
-          "ctaWomen": "Program nőknek",
-          "footer": "© 2026 meDiet. Minden jog fenntartva.",
-          "heroImageAlt": "Mediterrán ételestál"
-        },
-        "intro": {
-          "titlePrefix": "Mielőtt összeállítjuk az Ön tervét",
-          "titleHighlight": "OLVASSA EL EZT",
-          "p1": "Ha már próbálta a ketót, a kalóriaszámlálást vagy az időszakos böjtöt, és úgy érezte, hogy kudarcot vallott.",
-          "p2": "Nem Ön vallott kudarcot. A terv vallott kudarcot.",
-          "p3": "Ezek a rendszerek elavult tudományon alapultak. Merev szabályok. Általános sablonok.",
-          "p4Male": "Soha nem tervezték őket a férfi szervezet tényleges működésére.",
-          "p4Female": "Soha nem tervezték őket a női szervezet tényleges működésére.",
-          "p5": "Ez most megváltozik.",
-          "p6": "Válaszoljon őszintén. A többit mi intézzük."
-        },
-        "steps": {
-          "s1": "Mennyire ismeri a mediterrán diétát és a Kék Zónák jelenségét?",
-          "s3": "Mit szeretne elérni?",
-          "s4": "Hogyan jellemezné mostani testét?",
-          "s5": "Milyen testet szeretne?",
-          "s6": "Melyik területeket szeretné fejleszteni?",
-          "s6Hint": "Ha elégedett a testével, nyomja meg a Tovább gombot",
-          "s7": "Milyen egy átlagos napja?",
-          "s8": "Milyen az energiaszintje napközben?",
-          "s9": "Milyen gyakran mozog?",
-          "s10": "Hogyan szokott változni a testsúlya?",
-          "s12": "Mikor volt utoljára a legjobb súlyán?",
-          "s13": "Próbált-e az elmúlt 3 évben valamilyen diétát?",
-          "s15": "Mi változna meg legjobban az életében, ha formába jönne?",
-          "s16": "Mennyi a magassága?",
-          "s17": "Mennyi a jelenlegi testsúlya?",
-          "s19": "Mennyi a célsúlya?",
-          "s20": "Mennyi idős?",
-          "s21Title": "Íme, amit megállapítottunk",
-          "s21BmiTitle": "Az Ön testtömegindexe (BMI)",
-          "s22": "Naponta hány étkezést szeretne?",
-          "s22Subtitle": "Ezt később módosíthatja a beállításokban.",
-          "s23": "Szeretne kizárni valamilyen ételt?",
-          "s23Label": "Fehérjék és tejtermékek:",
-          "s24": "Szeretne kizárni valamilyen ételt?",
-          "s24Label": "Gyümölcsök és zöldségek:",
-          "s25": "Szeretne kizárni valamilyen ételt?",
-          "s25Label": "Gabonafélék és diófélék:",
-          "s27Title": "Az Ön élelmiszer-preferenciái alapján összeállítottunk",
-          "s27Count": "500+",
-          "s27Lead": "ételkombinációt",
-          "s27Body": "amelyek tökéletesen illeszkednek Önhöz, és a lehető legkellemesebb módon segítik elérni az egészséges testsúlyt!"
-        },
-        "labels": {
-          "selectAll": "Jelöljön meg mindent, ami vonatkozik:",
-          "youValue": "Ön",
-          "underweightShort": "Alul",
-          "underweight": "Alulsúlyos",
-          "healthy": "Egészséges",
-          "overweightShort": "Felül",
-          "overweight": "Túlsúlyos",
-          "obese": "Elhízott",
-          "bodyFat": "Testzsír",
-          "activityLevel": "Aktivitási szint",
-          "energyLevel": "Energiaszint",
-          "goal": "Cél"
-        },
-        "options": {
-          "goalsMale": [
-            "Zsírt égetni",
-            "Karcsú testet szerezni",
-            "Izmot építeni",
-            "Több energiát kapni",
-            "Javítani az egészségen",
-            "Hosszabb életet élni"
-          ],
-          "goalsFemale": [
-            "Zsírt égetni",
-            "Karcsúbb testet szerezni",
-            "Formálni a testet",
-            "Több energiát kapni",
-            "Javítani az egészségen",
-            "Hosszabb életet élni"
-          ],
-          "q3BodiesMale": [
-            "Karcsú",
-            "Átlagos",
-            "Kicsit pocakos",
-            "Túlsúlyos"
-          ],
-          "q3BodiesFemale": [
-            "Karcsú",
-            "Átlagos",
-            "Kicsit pocakos",
-            "Túlsúlyos"
-          ],
-          "q4BodiesMale": [
-            "Kicsit karcsúbb",
-            "Karcsú és fitt",
-            "Atletikus",
-            "Erős és izmos"
-          ],
-          "q4BodiesFemale": [
-            "Újra önmagámnak érezni magam",
-            "Megszabadulni a makacs hasi zsírtól",
-            "Könnyebbnek és magabiztosabbnak érezni magam",
-            "Feszesnek és fiatalosnak látszani"
-          ],
-          "q12Reasons": [
-            "Hogyan érzem magam a tükör előtt",
-            "Újra önmagámnak érezni magam",
-            "Az energiám a gyerekeimmel / a családommal",
-            "A magabiztosságom mások között",
-            "Hogyan érzem magam a párom mellett",
-            "A hosszú távú egészségem",
-            "Hogyan állnak rajtam a ruhák"
-          ],
-          "familiarity": [
-            "Ez új számomra",
-            "Ismerem az alapokat",
-            "Már próbáltam"
-          ],
-          "bodyAreas": [
-            "Karok",
-            "Mellkas",
-            "Hát",
-            "Has",
-            "Lábak",
-            "Fenék"
-          ],
-          "dayToDay": [
-            "Nap közben főleg ülök",
-            "Sokat mozgok",
-            "Rendszeresen edzek",
-            "Otthon maradok"
-          ],
-          "energy": [
-            "Általában alacsony",
-            "Ebéd után fáradtnak érzem magam",
-            "Az energiám ingadozik",
-            "Az energiám egyenletes"
-          ],
-          "exercise": [
-            "Soha",
-            "Havonta néhányszor",
-            "Hetente néhányszor",
-            "Szinte minden nap"
-          ],
-          "weightChange": [
-            "Gyorsan hízok és lassan fogyhatok",
-            "Fogyhatok, de visszahízom",
-            "A súlyom nem változik",
-            "Nehezen tudok izmot építeni"
-          ],
-          "idealWeight": [
-            "Kevesebb mint 1 évvel ezelőtt",
-            "1–3 évvel ezelőtt",
-            "Több mint 3 évvel ezelőtt",
-            "Soha nem voltam a legjobb súlyomon"
-          ],
-          "diets": [
-            "Keto",
-            "Időszakos böjt",
-            "Szénhidrátszegény",
-            "Vegetáriánus",
-            "Vegán",
-            "Gluténmentes",
-            "Egyéb",
-            "Egyik sem"
-          ],
-          "meals": [
-            "Kettő",
-            "Három",
-            "Négy",
-            "Öt"
-          ],
-          "mealDescriptions": [
-            "Reggeli és vacsora, opcionális snackekkel",
-            "Reggeli, ebéd és vacsora",
-            "Reggeli, tízórai, ebéd és vacsora",
-            "Reggeli, ebéd, vacsora és két snack"
-          ],
-          "proteins": [
-            "Mindent eszem",
-            "Csirke",
-            "Vörös hús",
-            "Sajt",
-            "Tonhal",
-            "Görög joghurt",
-            "Lazac",
-            "Garnéla",
-            "Tojás",
-            "Csicseriborsó",
-            "Lencse",
-            "Tofu"
-          ],
-          "vegetables": [
-            "Mindent eszem",
-            "Paradicsom",
-            "Uborka",
-            "Brokkoli",
-            "Spenót",
-            "Cukkini",
-            "Paprika",
-            "Avokádó",
-            "Olívabogyó",
-            "Hagyma"
-          ],
-          "grains": [
-            "Mindent eszem",
-            "Rizs",
-            "Kuszkusz",
-            "Quinoa",
-            "Zabpehely",
-            "Mandula",
-            "Dió",
-            "Mogyoró",
-            "Kukorica"
-          ]
-        },
-        "loading": {
-          "title": "Elkészítjük a tervet...",
-          "messages": [
-            "Az Ön anyagcsere-profilját elemezzük…",
-            "Az ételpreferenciákat vizsgáljuk…",
-            "Összehasonlítjuk a Kék Zónák hosszú élettartamra vonatkozó adataival…",
-            "A legújabb táplálkozástudományi kutatásokat dolgozzuk fel…",
-            "A makro-arányokat finomítjuk…",
-            "Az Ön személyre szabott mediterrán coaching rendszerét állítjuk össze…"
-          ]
-        },
-        "infoBlocks": {
-          "eyebrow": "Személyre szabott felismerés",
-          "blueZones": {
-            "title": "Az ő titkuk a karcsú testhez és a hosszú élethez.\n\nMOST VÉGRE AZ ÖNÉ IS.",
-            "body": "A világ leghosszabb életű régióinak, az úgynevezett **Kék Zónáknak** a lakói tovább élnek mindenkinél.\n\nJobb formában is vannak. Karcsúbbak. Energikusabbak. És minden mértékkel mérve a Föld legboldogabb emberei közé tartoznak.\n\nNem számolnak kalóriát. Nem korlátoznak szénhidrátot. Valódi ételt esznek, egészséges zsírokat, jó minőségű alapanyagokat.\n\n**Először a világ leginkább bizonyított hosszú élettartam-diétáját személyre szabottan alkotják meg az Ön számára, nem mindenkire egységesen.**",
-            "image": "/quiz/blue-zones.png"
-          },
-          "metabolism": {
-            "title": "Az Ön anyagcseréje nem sérült.\nCsak rossz tervet kapott.",
-            "body": "Az Ön teste változik. A legtöbb terv nem.\n\n**Mesterséges intelligencián alapuló rendszerünk éjjel-nappal működik.**\n\nSzáz évnyi kutatásra tanítottuk be. Millió valós eset alapján.\n\nAlkalmazkodik, amikor Ön alkalmazkodik.\n\nSoha nem hagyja abba a munkát az Ön érdekében.",
-            "image": "/quiz/page11.png"
-          },
-          "dietsWrong": {
-            "title": "Ezek a diéták nem azért mondtak csődöt, mert Ön rosszul csinálta.",
-            "body": "Azért mondtak csődöt, mert soha nem változtak.\n\nKeto. Kalóriaszámlálás. Kevés zsír. Sok gabona.\n\nÖn betartotta a szabályokat. A teste alkalmazkodott. A terv nem.\n\n**A tudomány ma már egyértelmű: a statikus tervek mindig megbuknak.**\n\nAz Ön teste nem statikus. A terve sem lehet az.",
-            "image": "/quiz/3.png"
-          },
-          "bmiExplanation": {
-            "title": "Az Ön magasságát és súlyát a testtömegindex (BMI) kiszámításához használjuk.",
-            "body": "A BMI segít megérteni, hogy Ön jelenleg melyik súlykategóriában van."
-          },
-          "adviceWrong": {
-            "title": "Az a tanács, amit kapott?\n\nAZ TÉVES VOLT",
-            "body": "Évekig azt mondták: egyen kevesebb zsírt, számolja minden kalóriáját, kövesse a piramist.\n\nMilliók tartották be tökéletesen. Milliókon mégsem segített.\n\nAz alap volt fordítva. Nem Ön.\n\nA tudomány utolérte magát. Az Ön terve ezt tükrözi.",
-            "image": "/quiz/page12.png"
-          },
-          "ageMetabolism": {
-            "title": "A kor megváltoztatja az anyagcserét, de nem akadályozza meg az eredményeket.",
-            "body": "Ahogy öregszünk, a szervezet másképp reagál az ételekre.\n\nÉpp ezért a mindenkinek egyforma diéták 30 vagy 40 után gyakran csődöt mondanak.\n\nAz Ön tervének igazodnia kell az életkori sajátosságaihoz."
-          },
-          "preEmail": {
-            "title": "Ez nem egy újabb merev étrend.",
-            "body": "Az Ön mediterrán programját mesterséges intelligencián alapuló coaching hajtja.\n\nAlkalmazkodik az Ön haladásához, energiaszintjéhez és visszajelzéseihez.\n\nNem kell találgatnia.\n\nA rendszer Önnel együtt fejlődik.",
-            "image": "/quiz/mediterranean-spread.png"
-          }
-        },
-        "bmiMessages": {
-          "healthy": {
-            "title": "Az Ön BMI-értéke az egészséges tartományban van.",
-            "body": "Ez kiváló kiindulópont. A cél most a súly megtartása, a testalkat javítása és az anyagcsere támogatása. Az Ön BMI-értékét felhasználjuk személyre szabott mediterrán coaching rendszere kialakításához, hogy fitt és erős maradhasson."
-          },
-          "overweight": {
-            "title": "Az Ön BMI-értéke a túlsúlyos tartományban van.",
-            "body": "Ez azt jelenti, hogy szervezete felesleges zsírt raktározhat. A megfelelő táplálkozási tervvel egészségesebb súly felé haladhat. Az Ön BMI-értékét felhasználjuk személyre szabott mediterrán coaching rendszere kialakításához."
-          },
-          "obese": {
-            "title": "Az Ön BMI-értéke az elhízott tartományban van.",
-            "body": "Ez azt jelenti, hogy szervezete a javasolt értéknél több súlyt hord. Már egy kis fogyás is javíthatja az egészségét és növelheti az energiáját. Az Ön BMI-értékét személyre szabott mediterrán coaching rendszer kialakításához használjuk, amely egészséges és fokozatos fogyásban segíti."
-          },
-          "underweight": {
-            "title": "Az Ön BMI-értéke az alulsúlyos tartományban van.",
-            "body": "Segítünk egy egészséges táplálkozási tervet összeállítani, amely támogatja az anyagcseréjét és általános közérzetét."
-          }
-        },
-        "weightLoss": {
-          "smallTitle": "Egészségügyi előny: fogyhatok {percent}%-ot",
-          "smallBody": "Tanulmányok kimutatták, hogy már a testsúly 10%-ának leadása is javíthatja az egészséget. Csökkentheti a szívbetegség, a magas vércukor és a gyulladás kockázatát a szervezetben. A kis változtatások nagy különbséget hozhatnak.",
-          "bigTitle": "Nagyobb cél: fogyhatok {percent}%-ot",
-          "bigBody": "Kutatások igazolják, hogy akik a testsúlyuk több mint 20%-át leadják, sokszor nagyobb mértékben javítják metabolikus egészségüket, mint azok, akik csak 5–10%-ot fogynak. A nagyobb mértékű fogyás jobb energiaszinthez, jobb vércukorkontrollhoz és jobb általános egészséghez vezethet."
-        }
-      },
       "il": {
         "common": {
           "continue": "המשך",
@@ -2452,6 +2146,312 @@ export default {
           "bigBody": "研究では、体重の20%以上を減らした人は、5〜10%しか減らさなかった人よりも代謝の健康が大きく改善することが多いとされています。より大きな減量は、エネルギーの向上、血糖コントロール改善、全体的な健康増進につながります。"
         }
       },
+      "hu": {
+        "common": {
+          "continue": "Tovább",
+          "menu": "Menü",
+          "closeMenu": "Menü bezárása",
+          "helpCenter": "Súgóközpont",
+          "contactUs": "Lépjen kapcsolatba velünk",
+          "terms": "Felhasználási feltételek",
+          "privacyPolicy": "Adatvédelmi irányelvek",
+          "cookiePolicy": "Süti szabályzat",
+          "privacySettings": "Adatvédelmi beállítások",
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "notSet": "Nincs megadva"
+        },
+        "landing": {
+          "hero": "Hozzuk létre az Ön személyes mediterrán edzőjét, és állítsuk össze a fogyásra és hosszú életre szabott programját",
+          "subtitle": "Válassza ki programját:",
+          "ctaMen": "Program férfiaknak",
+          "ctaWomen": "Program nőknek",
+          "footer": "© 2026 meDiet. Minden jog fenntartva.",
+          "heroImageAlt": "Mediterrán ételestál"
+        },
+        "intro": {
+          "titlePrefix": "Mielőtt összeállítjuk az Ön tervét",
+          "titleHighlight": "OLVASSA EL EZT",
+          "p1": "Ha már próbálta a ketót, a kalóriaszámlálást vagy az időszakos böjtöt, és úgy érezte, hogy kudarcot vallott.",
+          "p2": "Nem Ön vallott kudarcot. A terv vallott kudarcot.",
+          "p3": "Ezek a rendszerek elavult tudományon alapultak. Merev szabályok. Általános sablonok.",
+          "p4Male": "Soha nem tervezték őket a férfi szervezet tényleges működésére.",
+          "p4Female": "Soha nem tervezték őket a női szervezet tényleges működésére.",
+          "p5": "Ez most megváltozik.",
+          "p6": "Válaszoljon őszintén. A többit mi intézzük."
+        },
+        "steps": {
+          "s1": "Mennyire ismeri a mediterrán diétát és a Kék Zónák jelenségét?",
+          "s3": "Mit szeretne elérni?",
+          "s4": "Hogyan jellemezné mostani testét?",
+          "s5": "Milyen testet szeretne?",
+          "s6": "Melyik területeket szeretné fejleszteni?",
+          "s6Hint": "Ha elégedett a testével, nyomja meg a Tovább gombot",
+          "s7": "Milyen egy átlagos napja?",
+          "s8": "Milyen az energiaszintje napközben?",
+          "s9": "Milyen gyakran mozog?",
+          "s10": "Hogyan szokott változni a testsúlya?",
+          "s12": "Mikor volt utoljára a legjobb súlyán?",
+          "s13": "Próbált-e az elmúlt 3 évben valamilyen diétát?",
+          "s15": "Mi változna meg legjobban az életében, ha formába jönne?",
+          "s16": "Mennyi a magassága?",
+          "s17": "Mennyi a jelenlegi testsúlya?",
+          "s19": "Mennyi a célsúlya?",
+          "s20": "Mennyi idős?",
+          "s21Title": "Íme, amit megállapítottunk",
+          "s21BmiTitle": "Az Ön testtömegindexe (BMI)",
+          "s22": "Naponta hány étkezést szeretne?",
+          "s22Subtitle": "Ezt később módosíthatja a beállításokban.",
+          "s23": "Szeretne kizárni valamilyen ételt?",
+          "s23Label": "Fehérjék és tejtermékek:",
+          "s24": "Szeretne kizárni valamilyen ételt?",
+          "s24Label": "Gyümölcsök és zöldségek:",
+          "s25": "Szeretne kizárni valamilyen ételt?",
+          "s25Label": "Gabonafélék és diófélék:",
+          "s27Title": "Az Ön élelmiszer-preferenciái alapján összeállítottunk",
+          "s27Count": "500+",
+          "s27Lead": "ételkombinációt",
+          "s27Body": "amelyek tökéletesen illeszkednek Önhöz, és a lehető legkellemesebb módon segítik elérni az egészséges testsúlyt!"
+        },
+        "labels": {
+          "selectAll": "Jelöljön meg mindent, ami vonatkozik:",
+          "youValue": "Ön",
+          "underweightShort": "Alul",
+          "underweight": "Alulsúlyos",
+          "healthy": "Egészséges",
+          "overweightShort": "Felül",
+          "overweight": "Túlsúlyos",
+          "obese": "Elhízott",
+          "bodyFat": "Testzsír",
+          "activityLevel": "Aktivitási szint",
+          "energyLevel": "Energiaszint",
+          "goal": "Cél"
+        },
+        "options": {
+          "goalsMale": [
+            "Zsírt égetni",
+            "Karcsú testet szerezni",
+            "Izmot építeni",
+            "Több energiát kapni",
+            "Javítani az egészségen",
+            "Hosszabb életet élni"
+          ],
+          "goalsFemale": [
+            "Zsírt égetni",
+            "Karcsúbb testet szerezni",
+            "Formálni a testet",
+            "Több energiát kapni",
+            "Javítani az egészségen",
+            "Hosszabb életet élni"
+          ],
+          "q3BodiesMale": [
+            "Karcsú",
+            "Átlagos",
+            "Kicsit pocakos",
+            "Túlsúlyos"
+          ],
+          "q3BodiesFemale": [
+            "Karcsú",
+            "Átlagos",
+            "Kicsit pocakos",
+            "Túlsúlyos"
+          ],
+          "q4BodiesMale": [
+            "Kicsit karcsúbb",
+            "Karcsú és fitt",
+            "Atletikus",
+            "Erős és izmos"
+          ],
+          "q4BodiesFemale": [
+            "Újra önmagámnak érezni magam",
+            "Megszabadulni a makacs hasi zsírtól",
+            "Könnyebbnek és magabiztosabbnak érezni magam",
+            "Feszesnek és fiatalosnak látszani"
+          ],
+          "q12Reasons": [
+            "Hogyan érzem magam a tükör előtt",
+            "Újra önmagámnak érezni magam",
+            "Az energiám a gyerekeimmel / a családommal",
+            "A magabiztosságom mások között",
+            "Hogyan érzem magam a párom mellett",
+            "A hosszú távú egészségem",
+            "Hogyan állnak rajtam a ruhák"
+          ],
+          "familiarity": [
+            "Ez új számomra",
+            "Ismerem az alapokat",
+            "Már próbáltam"
+          ],
+          "bodyAreas": [
+            "Karok",
+            "Mellkas",
+            "Hát",
+            "Has",
+            "Lábak",
+            "Fenék"
+          ],
+          "dayToDay": [
+            "Nap közben főleg ülök",
+            "Sokat mozgok",
+            "Rendszeresen edzek",
+            "Otthon maradok"
+          ],
+          "energy": [
+            "Általában alacsony",
+            "Ebéd után fáradtnak érzem magam",
+            "Az energiám ingadozik",
+            "Az energiám egyenletes"
+          ],
+          "exercise": [
+            "Soha",
+            "Havonta néhányszor",
+            "Hetente néhányszor",
+            "Szinte minden nap"
+          ],
+          "weightChange": [
+            "Gyorsan hízok és lassan fogyhatok",
+            "Fogyhatok, de visszahízom",
+            "A súlyom nem változik",
+            "Nehezen tudok izmot építeni"
+          ],
+          "idealWeight": [
+            "Kevesebb mint 1 évvel ezelőtt",
+            "1–3 évvel ezelőtt",
+            "Több mint 3 évvel ezelőtt",
+            "Soha nem voltam a legjobb súlyomon"
+          ],
+          "diets": [
+            "Keto",
+            "Időszakos böjt",
+            "Szénhidrátszegény",
+            "Vegetáriánus",
+            "Vegán",
+            "Gluténmentes",
+            "Egyéb",
+            "Egyik sem"
+          ],
+          "meals": [
+            "Kettő",
+            "Három",
+            "Négy",
+            "Öt"
+          ],
+          "mealDescriptions": [
+            "Reggeli és vacsora, opcionális snackekkel",
+            "Reggeli, ebéd és vacsora",
+            "Reggeli, tízórai, ebéd és vacsora",
+            "Reggeli, ebéd, vacsora és két snack"
+          ],
+          "proteins": [
+            "Mindent eszem",
+            "Csirke",
+            "Vörös hús",
+            "Sajt",
+            "Tonhal",
+            "Görög joghurt",
+            "Lazac",
+            "Garnéla",
+            "Tojás",
+            "Csicseriborsó",
+            "Lencse",
+            "Tofu"
+          ],
+          "vegetables": [
+            "Mindent eszem",
+            "Paradicsom",
+            "Uborka",
+            "Brokkoli",
+            "Spenót",
+            "Cukkini",
+            "Paprika",
+            "Avokádó",
+            "Olívabogyó",
+            "Hagyma"
+          ],
+          "grains": [
+            "Mindent eszem",
+            "Rizs",
+            "Kuszkusz",
+            "Quinoa",
+            "Zabpehely",
+            "Mandula",
+            "Dió",
+            "Mogyoró",
+            "Kukorica"
+          ]
+        },
+        "loading": {
+          "title": "Elkészítjük a tervet...",
+          "messages": [
+            "Az Ön anyagcsere-profilját elemezzük…",
+            "Az ételpreferenciákat vizsgáljuk…",
+            "Összehasonlítjuk a Kék Zónák hosszú élettartamra vonatkozó adataival…",
+            "A legújabb táplálkozástudományi kutatásokat dolgozzuk fel…",
+            "A makro-arányokat finomítjuk…",
+            "Az Ön személyre szabott mediterrán coaching rendszerét állítjuk össze…"
+          ]
+        },
+        "infoBlocks": {
+          "eyebrow": "Személyre szabott felismerés",
+          "blueZones": {
+            "title": "Az ő titkuk a karcsú testhez és a hosszú élethez.\n\nMOST VÉGRE AZ ÖNÉ IS.",
+            "body": "A világ leghosszabb életű régióinak, az úgynevezett **Kék Zónáknak** a lakói tovább élnek mindenkinél.\n\nJobb formában is vannak. Karcsúbbak. Energikusabbak. És minden mértékkel mérve a Föld legboldogabb emberei közé tartoznak.\n\nNem számolnak kalóriát. Nem korlátoznak szénhidrátot. Valódi ételt esznek, egészséges zsírokat, jó minőségű alapanyagokat.\n\n**Először a világ leginkább bizonyított hosszú élettartam-diétáját személyre szabottan alkotják meg az Ön számára, nem mindenkire egységesen.**",
+            "image": "/quiz/blue-zones.png"
+          },
+          "metabolism": {
+            "title": "Az Ön anyagcseréje nem sérült.\nCsak rossz tervet kapott.",
+            "body": "Az Ön teste változik. A legtöbb terv nem.\n\n**Mesterséges intelligencián alapuló rendszerünk éjjel-nappal működik.**\n\nSzáz évnyi kutatásra tanítottuk be. Millió valós eset alapján.\n\nAlkalmazkodik, amikor Ön alkalmazkodik.\n\nSoha nem hagyja abba a munkát az Ön érdekében.",
+            "image": "/quiz/page11.png"
+          },
+          "dietsWrong": {
+            "title": "Ezek a diéták nem azért mondtak csődöt, mert Ön rosszul csinálta.",
+            "body": "Azért mondtak csődöt, mert soha nem változtak.\n\nKeto. Kalóriaszámlálás. Kevés zsír. Sok gabona.\n\nÖn betartotta a szabályokat. A teste alkalmazkodott. A terv nem.\n\n**A tudomány ma már egyértelmű: a statikus tervek mindig megbuknak.**\n\nAz Ön teste nem statikus. A terve sem lehet az.",
+            "image": "/quiz/3.png"
+          },
+          "bmiExplanation": {
+            "title": "Az Ön magasságát és súlyát a testtömegindex (BMI) kiszámításához használjuk.",
+            "body": "A BMI segít megérteni, hogy Ön jelenleg melyik súlykategóriában van."
+          },
+          "adviceWrong": {
+            "title": "Az a tanács, amit kapott?\n\nAZ TÉVES VOLT",
+            "body": "Évekig azt mondták: egyen kevesebb zsírt, számolja minden kalóriáját, kövesse a piramist.\n\nMilliók tartották be tökéletesen. Milliókon mégsem segített.\n\nAz alap volt fordítva. Nem Ön.\n\nA tudomány utolérte magát. Az Ön terve ezt tükrözi.",
+            "image": "/quiz/page12.png"
+          },
+          "ageMetabolism": {
+            "title": "A kor megváltoztatja az anyagcserét, de nem akadályozza meg az eredményeket.",
+            "body": "Ahogy öregszünk, a szervezet másképp reagál az ételekre.\n\nÉpp ezért a mindenkinek egyforma diéták 30 vagy 40 után gyakran csődöt mondanak.\n\nAz Ön tervének igazodnia kell az életkori sajátosságaihoz."
+          },
+          "preEmail": {
+            "title": "Ez nem egy újabb merev étrend.",
+            "body": "Az Ön mediterrán programját mesterséges intelligencián alapuló coaching hajtja.\n\nAlkalmazkodik az Ön haladásához, energiaszintjéhez és visszajelzéseihez.\n\nNem kell találgatnia.\n\nA rendszer Önnel együtt fejlődik.",
+            "image": "/quiz/mediterranean-spread.png"
+          }
+        },
+        "bmiMessages": {
+          "healthy": {
+            "title": "Az Ön BMI-értéke az egészséges tartományban van.",
+            "body": "Ez kiváló kiindulópont. A cél most a súly megtartása, a testalkat javítása és az anyagcsere támogatása. Az Ön BMI-értékét felhasználjuk személyre szabott mediterrán coaching rendszere kialakításához, hogy fitt és erős maradhasson."
+          },
+          "overweight": {
+            "title": "Az Ön BMI-értéke a túlsúlyos tartományban van.",
+            "body": "Ez azt jelenti, hogy szervezete felesleges zsírt raktározhat. A megfelelő táplálkozási tervvel egészségesebb súly felé haladhat. Az Ön BMI-értékét felhasználjuk személyre szabott mediterrán coaching rendszere kialakításához."
+          },
+          "obese": {
+            "title": "Az Ön BMI-értéke az elhízott tartományban van.",
+            "body": "Ez azt jelenti, hogy szervezete a javasolt értéknél több súlyt hord. Már egy kis fogyás is javíthatja az egészségét és növelheti az energiáját. Az Ön BMI-értékét személyre szabott mediterrán coaching rendszer kialakításához használjuk, amely egészséges és fokozatos fogyásban segíti."
+          },
+          "underweight": {
+            "title": "Az Ön BMI-értéke az alulsúlyos tartományban van.",
+            "body": "Segítünk egy egészséges táplálkozási tervet összeállítani, amely támogatja az anyagcseréjét és általános közérzetét."
+          }
+        },
+        "weightLoss": {
+          "smallTitle": "Egészségügyi előny: fogyhatok {percent}%-ot",
+          "smallBody": "Tanulmányok kimutatták, hogy már a testsúly 10%-ának leadása is javíthatja az egészséget. Csökkentheti a szívbetegség, a magas vércukor és a gyulladás kockázatát a szervezetben. A kis változtatások nagy különbséget hozhatnak.",
+          "bigTitle": "Nagyobb cél: fogyhatok {percent}%-ot",
+          "bigBody": "Kutatások igazolják, hogy akik a testsúlyuk több mint 20%-át leadják, sokszor nagyobb mértékben javítják metabolikus egészségüket, mint azok, akik csak 5–10%-ot fogynak. A nagyobb mértékű fogyás jobb energiaszinthez, jobb vércukorkontrollhoz és jobb általános egészséghez vezethet."
+        }
+      },
       "lt": {
         "common": {
           "continue": "Tęsti",
@@ -2468,56 +2468,56 @@ export default {
           "notSet": "Nenustatyta"
         },
         "landing": {
-          "hero": "Sukurkime jūsų asmeninį Viduržemio jūros dietos koučą ir programą svorio mažinimui bei ilgaamžiškumui",
-          "subtitle": "Pasirinkite savo programą:",
+          "hero": "Susikurkite asmeninę Viduržemio jūros mitybos programą ir pasitelkite išmanų asistentą svorio mažinimui bei ilgaamžiškumui.",
+          "subtitle": "Pasirinkite Jums tinkamiausią programą:",
           "ctaMen": "Programa vyrams",
           "ctaWomen": "Programa moterims",
           "footer": "© 2026 meDiet. Visos teisės saugomos.",
           "heroImageAlt": "Viduržemio jūros maisto dubenėlis"
         },
         "intro": {
-          "titlePrefix": "Prieš kurdami jūsų planą",
-          "titleHighlight": "PERSKAITYKITE ČIA",
-          "p1": "Jei bandėte keto, kalorijų skaičiavimą ar periodinį badavimą ir jautėtės, kad nepavyko.",
-          "p2": "Jūs nepraradote. Planas jus nuvylė.",
-          "p3": "Tos sistemos buvo sukurtos pagal seną mokslą. Fiksuotos taisyklės. Bendrieji šablonai.",
-          "p4Male": "Jie niekada nebuvo sukurti pagal tai, kaip iš tikrųjų veikia vyro kūnas.",
-          "p4Female": "Jie niekada nebuvo sukurti pagal tai, kaip iš tikrųjų veikia moters kūnas.",
-          "p5": "Tai keičiasi dabar.",
-          "p6": "Atsakykite sąžiningai. Mes padarysime visa kita."
+          "titlePrefix": "Prieš pradedant kurti Jūsų planą",
+          "titleHighlight": "kviečiame perskaityti šią informaciją",
+          "p1": "Jeigu esate bandę keto dietą, skaičiavę kalorijas ar laikęsi protarpinio badavimo ir supratote, kad jums vis nepavyksta, sustokite akimirkai.",
+          "p2": "Nepavyko ne Jums. Paprasčiausiai nepasiteisino pats metodas.",
+          "p3": "Daugelis tokių mitybų yra paremtos pasenusiomis teorijomis, griežtomis taisyklėmis ir visiems bendrai taikomais šablonais.",
+          "p4Male": "Jos neatsižvelgia į tai, kaip iš tikrųjų veikia vyro organizmas, kaip jis reaguoja į stresą, mitybą ir gyvenimo tempą.",
+          "p4Female": "Jos neatsižvelgia į tai, kaip iš tikrųjų veikia moters organizmas, kaip jis reaguoja į stresą, mitybą ir gyvenimo tempą.",
+          "p5": "Ir būtent čia viskas pasikeis.",
+          "p6": "Atsakykite į klausimus atvirai ir nuoširdžiai. Toliau viskuo pasirūpinsime mes."
         },
         "steps": {
-          "s1": "Kaip gerai pažįstate Viduržemio jūros dietą ir Mėlynųjų zonų fenomeną?",
-          "s3": "Ko norite pasiekti?",
-          "s4": "Kaip apibūdintumėte savo kūną dabar?",
+          "s1": "Kiek esate susipažinę su Viduržemio jūros mityba ir Mėlynosios zonos fenomenu?",
+          "s3": "Kokio rezultato siekiate?",
+          "s4": "Kaip šiuo metu vertinate savo kūno sudėjimą?",
           "s5": "Kokį kūną norite turėti?",
-          "s6": "Kurias sritis norėtumėte pagerinti?",
+          "s6": "Kurias sritis norėtumėte patobulinti?",
           "s6Hint": "Jei esate patenkintas savo kūnu, paspauskite Tęsti",
-          "s7": "Kaip paprastai atrodo jūsų diena?",
-          "s8": "Kokia yra jūsų energija per dieną?",
-          "s9": "Kaip dažnai sportuojate?",
-          "s10": "Kaip paprastai keičiasi jūsų svoris?",
-          "s12": "Kada paskutinį kartą buvote optimalaus svorio?",
-          "s13": "Ar per pastaruosius 3 metus bandėte kurias nors iš šių dietų?",
-          "s15": "Kas labiausiai pasikeistų jūsų gyvenime, kai prieitumėte formą?",
+          "s7": "Kaip dažniausiai atrodo Jūsų diena?",
+          "s8": "Kaip jaučiatės dienos eigoje, kalbant apie energiją?",
+          "s9": "Kaip dažnai skiriate laiko sportui ar aktyviai veiklai?",
+          "s10": "Kaip paprastai kinta Jūsų svoris?",
+          "s12": "Kada paskutinį kartą jautėtės esantys savo geriausioje formoje?",
+          "s13": "Ar per pastaruosius trejus metus išbandėte kurią nors iš šių dietų?",
+          "s15": "Ką labiausiai pakeistų gera fizinė forma Jūsų gyvenime?",
           "s16": "Koks jūsų ūgis?",
-          "s17": "Koks jūsų dabartinis svoris?",
-          "s19": "Koks jūsų tikslinės svoris?",
-          "s20": "Koks jūsų amžius?",
-          "s21Title": "Štai ką radome",
+          "s17": "Kiek šiuo metu sveriate?",
+          "s19": "Kiek norėtumėte sverti?",
+          "s20": "Kokio Jūs amžiaus?",
+          "s21Title": "Štai ką rodo Jūsų rezultatai",
           "s21BmiTitle": "Jūsų kūno masės indeksas (KMI)",
-          "s22": "Kiek valgymų per dieną norėtumėte valgyti?",
+          "s22": "Kiek kartų per dieną norėtumėte valgyti?",
           "s22Subtitle": "Vėliau galėsite tai pakeisti nustatymuose.",
-          "s23": "Ar norėtumėte pašalinti kokį nors iš šių maisto produktų?",
+          "s23": "Ar yra produktų, kurių nenorėtumėte įtraukti į savo planą?",
           "s23Label": "Baltymai ir pieno produktai:",
-          "s24": "Ar norėtumėte pašalinti kokį nors iš šių maisto produktų?",
+          "s24": "Ar yra produktų, kurių nenorėtumėte įtraukti į savo planą?",
           "s24Label": "Vaisiai ir daržovės:",
-          "s25": "Ar norėtumėte pašalinti kokį nors iš šių maisto produktų?",
+          "s25": "Ar yra produktų, kurių nenorėtumėte įtraukti į savo planą?",
           "s25Label": "Grūdai ir riešutai:",
           "s27Title": "Remiantis jūsų maisto pageidavimais, sukūrėme",
           "s27Count": "500+",
           "s27Lead": "Valgių derinių",
-          "s27Body": "kurie idealiai tinka jums ir padės pasiekti sveiką svorį maloniau!"
+          "s27Body": "kurie idealiai tinka jums ir padės pasiekti norimą svorį!"
         },
         "labels": {
           "selectAll": "Pasirinkite visus tinkančius:",
@@ -2536,7 +2536,7 @@ export default {
         "options": {
           "goalsMale": [
             "Numesti kūno riebalus",
-            "Gauti liekną kūną",
+            "Sulieknėti",
             "Sustiprinti raumenis",
             "Turėti daugiau energijos",
             "Pagerinti sveikatą",
@@ -2544,7 +2544,7 @@ export default {
           ],
           "goalsFemale": [
             "Numesti kūno riebalus",
-            "Gauti lieknesnį kūną",
+            "Sulieknėti",
             "Suformuoti kūną",
             "Turėti daugiau energijos",
             "Pagerinti sveikatą",
@@ -2557,20 +2557,20 @@ export default {
             "Antsvoris"
           ],
           "q3BodiesFemale": [
-            "Lieka",
+            "Liekna",
             "Vidutinė",
             "Šiek tiek pilvo riebalų",
             "Antsvoris"
           ],
           "q4BodiesMale": [
-            "Šiek tiek liesniau",
+            "Šiek tiek lieknesnis",
             "Lieknas ir sportiškas",
             "Atletiškas",
-            "Stiprus ir apibrėžtas"
+            "Stiprus ir ryškus"
           ],
           "q4BodiesFemale": [
             "Vėl jaustis savimi",
-            "Numesti atkaklių pilvo riebalų",
+            "Numesti pilvo riebalų",
             "Jaustis lengviau ir labiau pasitikėti savimi",
             "Atrodyti ryškiau ir jaunatviškiau"
           ],
@@ -2578,8 +2578,8 @@ export default {
             "Kaip jaučiuosi žiūrėdamas į veidrodį",
             "Vėl jaustis savimi",
             "Mano energija su vaikais / šeima",
-            "Mano pasitikėjimas tarp kitų",
-            "Kaip jaučiuosi dėl savo partnerio",
+            "Labiau pasitikėčiau savimi tarp kitų žmonių",
+            "Geriau jausčiausi šalia savo partnerės/partnerio",
             "Mano ilgalaikė sveikata",
             "Kaip man tinka drabužiai"
           ],
@@ -2598,15 +2598,15 @@ export default {
           ],
           "dayToDay": [
             "Sėdžiu didžiąją dienos dalį",
-            "Daug judėdu",
+            "Daug judu",
             "Dažnai sportuoju",
-            "Lieku namuose"
+            "Daugiausia būnu namuose"
           ],
           "energy": [
-            "Dažniausiai maža",
-            "Po pietų jaučiuosi pavargęs",
-            "Mano energija svyruoja",
-            "Mano energija stabili"
+            "Dažniausiai trūksta jėgų",
+            "Po pietų apima mieguistumas ar nuovargis",
+            "Energija tai pakyla, tai nukrenta",
+            "Visą dieną jaučiuosi gana stabiliai"
           ],
           "exercise": [
             "Niekada",
@@ -2616,34 +2616,34 @@ export default {
           ],
           "weightChange": [
             "Greitai priaugu ir lėtai numetu",
-            "Numetu svorio, bet vėl priaugiu",
+            "Numetu svorio, bet vėl priaugu",
             "Mano svoris nekinta",
-            "Man sunku vystyti raumenis"
+            "Sunku užsiauginti raumenų masę"
           ],
           "idealWeight": [
             "Mažiau nei prieš 1 metus",
             "Prieš 1–3 metus",
             "Daugiau nei prieš 3 metus",
-            "Niekada nebuvau optimalaus svorio"
+            "Niekada nesu pasiekęs savo geriausio svorio"
           ],
           "diets": [
             "Keto",
-            "Periodinis badavimas",
-            "Mažai angliavandenių",
-            "Vegetariškas",
-            "Veganiškas",
-            "Be glitimo",
+            "Protarpinis badavimas",
+            "Mažai angliavandenių turinti mityba",
+            "Vegetariška mityba",
+            "Veganiška mityba",
+            "Mityba be gliuteno",
             "Kita",
             "Nė viena iš šių"
           ],
           "meals": [
-            "Du",
-            "Trys",
-            "Keturi",
-            "Penki"
+            "Du kartus",
+            "Tris kartus",
+            "Keturis kartus",
+            "Penkis kartus"
           ],
           "mealDescriptions": [
-            "Pusryčiai ir vakarienė su pasirenkamais užkandžiais",
+            "Pusryčiai ir vakarienė, su galimais užkandžiais",
             "Pusryčiai, pietūs ir vakarienė",
             "Pusryčiai, užkandis, pietūs ir vakarienė",
             "Pusryčiai, pietūs, vakarienė ir du užkandžiai"
@@ -2665,12 +2665,12 @@ export default {
           "vegetables": [
             "Valgau viską",
             "Pomidorai",
-            "Agurkas",
+            "Agurkai",
             "Brokoliai",
             "Špinatai",
             "Cukinija",
-            "Paprika",
-            "Avokadas",
+            "Paprikos",
+            "Avokadai",
             "Alyvuogės",
             "Svogūnai"
           ],
@@ -2678,7 +2678,7 @@ export default {
             "Valgau viską",
             "Ryžiai",
             "Kuskusas",
-            "Kvija",
+            "Bolivinė balanda",
             "Avižos",
             "Migdolai",
             "Graikiniai riešutai",
@@ -2689,73 +2689,73 @@ export default {
         "loading": {
           "title": "Generuojama...",
           "messages": [
-            "Analizuojamas jūsų metabolinis profilis…",
-            "Peržiūrimi maisto pageidavimai…",
-            "Lyginami su Mėlynųjų zonų ilgaamžiškumo duomenimis…",
-            "Apdorojami naujausi mitybos tyrimai…",
-            "Derinamos makroelementų proporcijos…",
-            "Kuriama jūsų adaptyvi Viduržemio jūros koučingo sistema…"
+            "Analizuojame Jūsų medžiagų apykaitos ypatumus…",
+            "Įvertiname maisto pasirinkimus ir pomėgius…",
+            "Lyginame su ilgaamžiškumu garsėjančių Mėlynųjų zonų duomenimis…",
+            "Remiamės naujausiais mitybos mokslo tyrimais…",
+            "Subalansuojame maistinių medžiagų santykį pagal Jūsų poreikius…",
+            "Kuriame prisitaikančią, asmeninę Viduržemio jūros mitybos sistemą…"
           ]
         },
         "infoBlocks": {
-          "eyebrow": "Asmeninis įžvalga",
+          "eyebrow": "Asmeninė įžvalga",
           "blueZones": {
-            "title": "Jų paslaptis lieknam kūnui ir ilgam gyvenimui.\n\nDABAR PAGALIAU JŪSŲ.",
-            "body": "Žmonės iš ilgiausiai gyvenančių pasaulio regionų, vadinamų **Mėlynosiomis zonomis**, – gyvena ilgiau nei visi kiti.\n\nJie taip pat geresnės formos. Liesesni. Energingesni. Ir bet kokiu mastu – tarp laimingiausių žmonių žemėje.\n\nJie neskaičiuoja kalorijų. Jie nevartoja mažai angliavandenių. Jie valgo natūralų maistą, sveikas riebalus, gerus ingredientus.\n\n**Pirmą kartą pasaulyje labiausiai patvirtinta ilgaamžiškumo dieta kuriama aplink jus, o ne visus.**",
+            "title": "Jų liekno kūno ir ilgaamžiškumo paslaptis.\n\nDabar ji gali tapti ir Jūsų.",
+            "body": "Ilgiausiai gyvenančių pasaulio regionų, dar vadinamų Mėlynosios zonomis, gyventojai išsiskiria ne tik tuo, kad gyvena ilgiau nei dauguma kitų žmonių. Jie yra lieknesni, judresni, kupini energijos. Pagal daugelį rodiklių tai vieni laimingiausių žmonių pasaulyje.\n\nJie neskaičiuoja kiekvienos kalorijos. Neatsisako angliavandenių iš baimės priaugti svorio. Jie renkasi paprastą, tikrą maistą, vertingus riebalus ir kokybiškus ingredientus.\n\n**Pirmą kartą viena patikimiausių pasaulyje ilgaamžiškumo mitybos sistemų kuriama ne visiems, o asmeniškai Jums.**",
             "image": "/quiz/blue-zones.png"
           },
           "metabolism": {
-            "title": "Jūsų metabolizmas nesugadintas.\nJam buvo duotas neteisingas planas.",
-            "body": "Jūsų kūnas keičiasi. Dauguma planų – ne.\n\n**Mūsų DI sistema veikia 24/7.**\n\nApmokytas šimtmečių tyrimų. Milijonų realių atvejų.\n\nJis prisitaiko kai jūs prisitaikote.\n\nJis niekada nesustoja dirbdamas dėl jūsų.",
+            "title": "Jūsų medžiagų apykaita nėra sutrikusi.\nJai tiesiog buvo parinktas netinkamas planas.",
+            "body": "Kūnas natūraliai keičiasi. Tačiau dauguma mitybos planų lieka tokie patys.\n\nMūsų dirbtiniu intelektu paremta sistema veikia nuolat, be pertraukų, 24/7. Ji sukurta remiantis šimtmečius kauptais mokslo atradimais ir milijonais realių žmonių patirčių. Sistema reaguoja į pokyčius, prisitaiko prie Jūsų tempo, gyvenimo būdo ir tikslų.\n\nJi dirba dėl Jūsų kiekvieną dieną, be sustojimo.",
             "image": "/quiz/page11.png"
           },
           "dietsWrong": {
-            "title": "Tos dietos buvo neteisingos ne todėl, kad jas darėte neteisingai.",
-            "body": "Jos buvo neteisingos, nes niekada nesikeitė.\n\nKeto. Kalorijų skaičiavimas. Mažai riebalų. Daug grūdų.\n\nJūs laikėtės taisyklių. Jūsų kūnas prisitaikė. Planas – ne.\n\n**Mokslas dabar aiškus. Statiniai planai žlunga. Visada.**\n\nJūsų kūnas nėra statinis. Jūsų planas taip pat neturėtų būti.",
+            "title": "Tos dietos nebuvo nesėkmingos todėl, kad kažką darėte ne taip.",
+            "body": "Jos tiesiog buvo sukurtos taip, kad niekada nesikeistų.\n\nKeto. Kalorijų skaičiavimas. Mažai riebalų turinti mityba.\n\nJūs sąžiningai laikėtės rekomendacijų. Tačiau kūnas prisitaikė prie bet kokio režimo. O planas liko toks pats. **Šiandien mokslas kalba aiškiai. Nekintantys planai ilgainiui žlunga.**\n\nJūsų kūnas nuolat keičiasi. Tad ir planas turi keistis kartu su Jumis.",
             "image": "/quiz/3.png"
           },
           "bmiExplanation": {
-            "title": "Naudojame jūsų ūgį ir svorį, kad apskaičiuotume jūsų kūno masės indeksą (KMI).",
-            "body": "KMI padeda mums suprasti jūsų dabartinį svorio diapazoną."
+            "title": "Pagal Jūsų ūgį ir svorį apskaičiuosime kūno masės indeksą, KMI.",
+            "body": "Šis rodiklis padės įvertinti, kokiai svorio kategorijai šiuo metu priklausote ir geriau suprasti bendrą situaciją."
           },
           "adviceWrong": {
-            "title": "Tie patarimai, kuriuos gavote?\n\nJIE BUVO NETEISŪS",
-            "body": "Daugelį metų sakė valgykite mažiau riebalų. Skaičiuokite kiekvieną kaloriją. Laikykitės piramidės.\n\nMilijonai laikėsi tobulai. Milijonai vis tiek kovojo.\n\nPagrindas buvo neteisingas. Ne jūs.\n\nMokslas pasivijo. Jūsų planas tai atspindi.",
+            "title": "Patarimai, kuriuos ilgus metus girdėjote.\n\nJie buvo klaidingi.",
+            "body": "Jums sakė valgyti kuo mažiau riebalų. Skaičiuoti kiekvieną kaloriją. Akylai laikytis mitybos piramidės principų.\n\nDaugybė žmonių viską darė tiksliai taip, kaip buvo nurodyta. Tačiau rezultatai dažnai nuvildavo.\n\nProblema slypėjo ne Jūsų pastangose. Klaidingi buvo patys pagrindai.\n\nŠiandien mokslas jau kalba kitaip. Ir Jūsų planas kuriamas remiantis būtent naujausiu, patikimu supratimu apie tai, kaip iš tiesų veikia organizmas.",
             "image": "/quiz/page12.png"
           },
           "ageMetabolism": {
-            "title": "Amžius keičia jūsų metabolizmą, bet tai nesustabdo rezultatų.",
-            "body": "Senėjant kūnas reaguoja į maistą skirtingai.\n\nStai kodėl visiems tinkančios dietos dažnai žlunga po 30 ar 40 metų.\n\nJūsų planas turi prisitaikyti prie jūsų gyvenimo etapo."
+            "title": "Su amžiumi medžiagų apykaita kinta, tačiau tai nereiškia, kad rezultatų pasiekti tampa neįmanoma.",
+            "body": "Metams bėgant organizmas vis kitaip reaguoja į maistą, krūvį ir net poilsį.\n\nBūtent todėl universali, visiems tinkanti dieta dažnai neveikia sulaukus trisdešimties ar keturiasdešimties.\n\nKad pasiektumėte tikrų pokyčių, mitybos planas turi atitikti Jūsų amžių, gyvenimo tempą ir dabartinius organizmo poreikius."
           },
           "preEmail": {
-            "title": "Tai ne kitas fiksuotas mitybos planas.",
-            "body": "Jūsų Viduržemio jūros programa maitinama DI koučingo.\n\nJi prisitaiko pagal jūsų pažangą, energijos lygius ir grįžtamąjį ryšį.\n\nJums nereikia spėlioti.\n\nSistema evoliucionuoja kartu su jumis.",
+            "title": "Tai ne dar vienas visiems bendras mitybos planas.",
+            "body": "Jūsų Viduržemio jūros programa paremta dirbtinio intelekto sistema, kuri nuolat stebi Jūsų pažangą.\n\nJi atsižvelgia į tai, kaip jaučiatės, kiek turite energijos ir kokius rezultatus pasiekiate.\n\nJums nereikės spėlioti, ar einate teisinga kryptimi.\n\nSistema prisitaiko ir tobulėja kartu su Jumis.",
             "image": "/quiz/mediterranean-spread.png"
           }
         },
         "bmiMessages": {
           "healthy": {
-            "title": "Jūsų KMI yra sveikame diapazone.",
-            "body": "Tai puikus pradžios taškas. Dabar tikslas yra išlaikyti svorį, pagerinti kūno formą ir palaikyti metabolizmą. Naudosime jūsų KMI, kad sukurtume jūsų personalizuotą Viduržemio jūros koučingo sistemą ir padėtume jums išlikti geros formos ir stipriems."
+            "title": "Jūsų KMI patenka į sveiko svorio kategoriją.",
+            "body": "Tai labai gera starto pozicija.\n\nToliau sieksime išlaikyti esamą svorį, dailinti kūno linijas ir palaikyti aktyvią medžiagų apykaitą, kad jaustumėtės stiprūs ir energingi.\n\nPagal Jūsų rodiklius parengsime asmeninę Viduržemio jūros mitybos sistemą, pritaikytą būtent Jums."
           },
           "overweight": {
-            "title": "Jūsų KMI yra antsvorį rodančiame diapazone.",
-            "body": "Tai reiškia, kad jūsų kūnas gali kaupti papildomus riebalus. Su tinkamu mitybos planu galite pereiti prie sveikesnio svorio. Naudosime jūsų KMI, kad sukurtume jūsų personalizuotą Viduržemio jūros koučingo sistemą."
+            "title": "Jūsų KMI patenka į antsvorio kategoriją.",
+            "body": "Tai reiškia, kad organizmas šiuo metu kaupia daugiau riebalinio audinio nei būtų palanku sveikatai.\n\nTinkamai subalansuota mityba padės saugiai ir nuosekliai grįžti į sveikesnį svorio intervalą.\n\nRemdamiesi Jūsų duomenimis, sukursime asmeninę Viduržemio jūros mitybos sistemą."
           },
           "obese": {
-            "title": "Jūsų KMI yra nutukimo diapazone.",
-            "body": "Tai reiškia, kad jūsų kūnas nešioja daugiau svorio nei rekomenduojama. Net nedidelis svorio mažinimas gali pagerinti sveikatą ir energiją. Naudosime jūsų KMI, kad sukurtume personalizuotą Viduržemio jūros koučingo sistemą, kuri padės jums numesti svorio sveiku ir nuosekliu būdu."
+            "title": "Jūsų KMI patenka į nutukimo kategoriją.",
+            "body": "Tai rodo, kad Jūsų svoris šiuo metu didesnis nei rekomenduojama.\n\nNet ir nedidelis, bet pastovus svorio mažėjimas gali reikšmingai pagerinti savijautą, energiją ir bendrą sveikatą.\n\nParengsime Jums individualų planą, kuris padės mažinti svorį sveikai, saugiai ir nuosekliai."
           },
           "underweight": {
             "title": "Jūsų KMI yra nepakankamo svorio diapazone.",
-            "body": "Padėsime jums sukurti sveiką mitybos planą, kuris palaikys jūsų metabolizmą ir bendrą gerovę."
+            "body": "Padėsime jums sukurti sveiką mitybos planą, kuris palaikys jūsų metabolizmą ir bendrą savijautą."
           }
         },
         "weightLoss": {
-          "smallTitle": "Sveikatai nauda: Numeskite {percent}% svorio",
-          "smallBody": "Tyrimai rodo, kad net 10% svorio metimas gali pagerinti sveikatą. Tai gali padėti sumažinti širdies ligų, padidėjusio cukraus kraujyje ir uždegimo riziką organizme. Maži pokyčiai gali lemti didelį skirtumą.",
-          "bigTitle": "Didesnis tikslas: Numeskite {percent}% svorio",
-          "bigBody": "Tyrimai rodo, kad žmonės, kurie numeta daugiau nei 20% kūno svorio, dažnai pagerina savo metabolinę sveikatą daugiau nei tie, kurie numeta tik 5–10%. Didesnis svorio metimas gali suteikti geresnę energiją, geresnę cukraus kraujyje kontrolę ir geresnę bendrą sveikatą."
+          "smallTitle": "NAUDA SVEIKATAI: Numetus {percent}% svorio",
+          "smallBody": "Mokslas rodo, kad net ir maždaug 10 % sumažintas kūno svoris gali reikšmingai pagerinti sveikatos būklę.\n\nTai gali sumažinti širdies ir kraujagyslių ligų riziką, padėti sureguliuoti cukraus kiekį kraujyje bei mažinti uždegiminius procesus organizme.\n\nKartais net nedidelis, bet nuoseklus pokytis atneša labai apčiuopiamą naudą.",
+          "bigTitle": "AMBICINGESNIS TIKSLAS: Numetus {percent}% svorio",
+          "bigBody": "Tyrimai rodo, kad žmonės, kuriems pavyksta sumažinti daugiau nei 20 % kūno svorio, dažnai pastebi dar ryškesnius medžiagų apykaitos pagerėjimus nei tie, kurie numeta 5–10 %.\n\nDidesnis svorio sumažėjimas gali reikšti stabilesnę energiją, geresnę cukraus kiekio kraujyje kontrolę ir bendrą sveikatą."
         }
       },
       "ro": {
@@ -4292,13 +4292,13 @@ export default {
   },
   "localIds": [
     "quiz::local::locales\\dk\\quiz.content.json",
-    "quiz::local::locales\\cz\\quiz.content.json",
     "quiz::local::locales\\en\\quiz.content.json",
+    "quiz::local::locales\\cz\\quiz.content.json",
     "quiz::local::locales\\gr\\quiz.content.json",
     "quiz::local::locales\\hr\\quiz.content.json",
-    "quiz::local::locales\\hu\\quiz.content.json",
     "quiz::local::locales\\il\\quiz.content.json",
     "quiz::local::locales\\jp\\quiz.content.json",
+    "quiz::local::locales\\hu\\quiz.content.json",
     "quiz::local::locales\\lt\\quiz.content.json",
     "quiz::local::locales\\ro\\quiz.content.json",
     "quiz::local::locales\\lv\\quiz.content.json",
