@@ -91,6 +91,11 @@ const INFO_INTERSTITIAL_IMAGES = [
   "/quiz/mediterranean-spread.png",
 ];
 
+// English keys for emoji lookup (must match order in locales/en/quiz.content.json)
+const PROTEIN_KEYS = ["I eat everything", "Chicken", "Red meat", "Cheese", "Tuna", "Greek yogurt", "Salmon", "Shrimp", "Eggs", "Chickpeas", "Lentils", "Tofu"];
+const VEGETABLE_KEYS = ["I eat everything", "Tomatoes", "Cucumber", "Broccoli", "Spinach", "Zucchini", "Bell pepper", "Avocado", "Olives", "Onions"];
+const GRAIN_KEYS = ["I eat everything", "Rice", "Couscous", "Quinoa", "Oats", "Almonds", "Walnuts", "Peanuts", "Corn"];
+
 export default function QuizPage() {
   const prefersReducedMotion = useReducedMotion();
   const smoothEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -780,7 +785,7 @@ export default function QuizPage() {
                       {item}
                     </span>
                   </span>
-                  <span className="text-2xl sm:text-3xl">{PROTEIN_EMOJIS[item]}</span>
+                  <span className="text-2xl sm:text-3xl">{PROTEIN_EMOJIS[PROTEIN_KEYS[idx]]}</span>
                 </span>
               </OptionCard>
             ))}
@@ -812,7 +817,7 @@ export default function QuizPage() {
                       {item}
                     </span>
                   </span>
-                  <span className="text-2xl sm:text-3xl">{VEGETABLE_EMOJIS[item]}</span>
+                  <span className="text-2xl sm:text-3xl">{VEGETABLE_EMOJIS[VEGETABLE_KEYS[idx]]}</span>
                 </span>
               </OptionCard>
             ))}
@@ -844,7 +849,7 @@ export default function QuizPage() {
                       {item}
                     </span>
                   </span>
-                  <span className="text-2xl sm:text-3xl">{GRAIN_EMOJIS[item]}</span>
+                  <span className="text-2xl sm:text-3xl">{GRAIN_EMOJIS[GRAIN_KEYS[idx]]}</span>
                 </span>
               </OptionCard>
             ))}
